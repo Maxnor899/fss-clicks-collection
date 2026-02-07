@@ -37,7 +37,7 @@ fss-clicks-collection/
 ├─ audio/        # Final, renamed FLAC files
 ├─ metadata/     # Auto-generated JSON metadata
 ├─ incoming/     # Place ONE raw FLAC here before running the script
-├─ tools/        # Python helper scripts
+├─ tools/        # Python scripts
 │  └─ ingest.py
 ├─ README.md
 └─ .gitignore
@@ -134,9 +134,10 @@ Metadata provides the context.
 
 * This is **not** a proof of a hidden signal
 * This is **not** a claim that the clicks mean anything
-* This is **not** a direction-based triangulation project
+
 
 It is a **data collection effort**, nothing more, nothing less.
+Any future trilateration would depend entirely on what the data actually shows.
 
 ---
 

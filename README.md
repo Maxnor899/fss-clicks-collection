@@ -15,12 +15,11 @@ Each contribution consists of:
 
 ## What are we trying to observe?
 
-At this stage, two main observables are of interest:
+At this stage, one main observable is of interest:
 
 1. **Click intensity** (how strongly the clicks stand out from background noise)
-2. **Time to first click** (how long it takes for clicks to appear once the FSS cursor is moving)
 
-These observables may later be compared against system properties such as:
+This observable may later be compared against system properties such as:
 
 * number of stars
 * number of planets

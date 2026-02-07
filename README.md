@@ -58,6 +58,7 @@ Place the file into:
 ```
 incoming/
 ```
+<img width="613" height="459" alt="image" src="https://github.com/user-attachments/assets/734190a0-3f04-4060-8902-855dd02dc8fc" />
 
 ⚠️ There must be **exactly one FLAC file** in this folder.
 

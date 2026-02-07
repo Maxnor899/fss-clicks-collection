@@ -146,7 +146,7 @@ Any future trilateration would depend entirely on what the data actually shows.
 * Python 3.9+
 * Elite Dangerous journal logs available locally
 * FLAC recording (≤ 60s)
-
+* mutagen (pip install mutagen)
 ---
 
 ## Final note

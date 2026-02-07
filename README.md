@@ -51,16 +51,19 @@ fss-clicks-collection/
 
 * Record **up to 60 seconds** of audio while using the FSS (**containing the clicks....**)
 * The file can be named **anything**
-* Export as **FLAC**
+* Export as **FLAC** as described below : 
+
+<img width="613" height="459" alt="image" src="https://github.com/user-attachments/assets/734190a0-3f04-4060-8902-855dd02dc8fc" />
+
 
 Place the file into:
 
 ```
 incoming/
 ```
-<img width="613" height="459" alt="image" src="https://github.com/user-attachments/assets/734190a0-3f04-4060-8902-855dd02dc8fc" />
 
-⚠️ There must be **exactly one FLAC file** in this folder.
+
+⚠️ There must be **ONLY one FLAC file** in this folder.
 
 ---
 

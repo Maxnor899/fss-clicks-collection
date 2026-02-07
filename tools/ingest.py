@@ -4,7 +4,7 @@ Ingest one FLAC recording into the repo.
 
 Workflow:
 - Put exactly ONE .flac file (<= 60s) into ./incoming/
-- Run: python tools/ingest.py "System Name Here"
+- Run (from repo root): python tools/ingest.py "System Name Here"
 - The script will:
   - compute SHA-256 of the audio, keep first 8 chars
   - rename + move it into ./audio/<SystemName>__<hash>.flac
@@ -12,7 +12,7 @@ Workflow:
   - write ./metadata/<SystemName>__<hash>.json
   - never copies or commits the logs
 
-Dependencies (recommended):
+Dependency (recommended):
   pip install mutagen
 """
 
@@ -21,14 +21,12 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import os
 import re
 import shutil
-import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 try:
     from mutagen.flac import FLAC  # type: ignore
@@ -57,7 +55,7 @@ def sanitize_system_name(name: str) -> str:
     """
     Make a filesystem-safe, git-friendly name.
     - spaces -> underscores
-    - keep A-Z a-z 0-9 _ - . (and remove others)
+    - keep A-Z a-z 0-9 _ - .
     """
     name = name.strip().replace(" ", "_")
     name = re.sub(r"[^A-Za-z0-9_\-\.]", "", name)
@@ -85,7 +83,6 @@ def default_elite_journal_dir() -> Path:
 def iter_journal_files(journal_dir: Path) -> List[Path]:
     if not journal_dir.exists():
         return []
-    # Journal files are typically named Journal.<timestamp>.01.log
     files = sorted(journal_dir.glob("Journal*.log"), key=lambda p: p.stat().st_mtime)
     return files
 
@@ -125,7 +122,6 @@ def find_latest_visit_anchor(journal_files: List[Path], target_system: str) -> O
     Find the most recent Location/FSDJump event where StarSystem == target_system.
     """
     target_system_norm = target_system.strip()
-
     best: Optional[VisitContext] = None
 
     for jf in journal_files:
@@ -153,7 +149,6 @@ def find_latest_visit_anchor(journal_files: List[Path], target_system: str) -> O
                         star_pos=obj.get("StarPos") if isinstance(obj.get("StarPos"), list) else None,
                         journal_file=jf.name,
                     )
-                    # Keep latest by timestamp lexicographically (ISO Z timestamps sort well)
                     if best is None or ctx.anchor_timestamp > best.anchor_timestamp:
                         best = ctx
         except Exception:
@@ -161,20 +156,42 @@ def find_latest_visit_anchor(journal_files: List[Path], target_system: str) -> O
 
     return best
 
-def extract_events_for_visit(
-    journal_files: List[Path],
-    anchor: VisitContext,
-) -> Dict[str, Any]:
+def prune_scan_event(scan: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Collect relevant events after the anchor timestamp, while we remain in the same StarSystem.
-    Stop when we detect an FSDJump to a different StarSystem (i.e., you left the system).
+    Keep a useful subset of Scan fields (still rich), while avoiding overly verbose blobs.
+    """
+    keep_keys = {
+        "timestamp", "event",
+        "BodyName", "BodyID",
+        "StarSystem", "SystemAddress",
+        "DistanceFromArrivalLS",
+        "StarType", "Subclass", "StellarMass", "Radius", "SurfaceTemperature", "AbsoluteMagnitude", "Age_MY",
+        "Luminosity", "SemiMajorAxis", "Eccentricity", "OrbitalInclination", "Periapsis", "OrbitalPeriod",
+        "RotationPeriod", "AxialTilt",
+        "PlanetClass", "TerraformState", "Atmosphere", "AtmosphereType", "AtmosphereComposition",
+        "Volcanism", "MassEM", "SurfaceGravity", "SurfacePressure",
+        "Landable", "Materials", "Composition", "Rings",
+        "Parents",
+    }
+    out: Dict[str, Any] = {}
+    for k, v in scan.items():
+        if k in keep_keys:
+            out[k] = v
+    if "Landable" not in out and "PlanetClass" in out:
+        out["Landable"] = None
+    return out
+
+def extract_events_for_visit(journal_files: List[Path], anchor: VisitContext) -> Dict[str, Any]:
+    """
+    Collect relevant events after the anchor timestamp while we remain in the same StarSystem.
+    Stop when we detect an FSDJump to a different StarSystem (left the system).
 
     Also gather the last LoadGame event before the anchor (for game version/build + commander hash).
     """
     target_system = anchor.system_name
     anchor_ts = anchor.anchor_timestamp
 
-    # First pass: find last LoadGame before anchor
+    # Find last LoadGame before anchor
     last_loadgame: Optional[Dict[str, Any]] = None
     for jf in journal_files:
         try:
@@ -184,18 +201,13 @@ def extract_events_for_visit(
                     if not obj:
                         continue
                     ts = obj.get("timestamp")
-                    if not isinstance(ts, str):
-                        continue
-                    if ts >= anchor_ts:
-                        # logs are chronological within file, but we don't rely on it perfectly
+                    if not isinstance(ts, str) or ts >= anchor_ts:
                         continue
                     if obj.get("event") == "LoadGame":
                         last_loadgame = obj
         except Exception:
             continue
 
-    # Second pass: gather events in visit window
-    # We'll include events if their timestamp >= anchor_ts and (where applicable) StarSystem matches.
     collected: Dict[str, List[Dict[str, Any]]] = {
         "FSSDiscoveryScan": [],
         "Scan": [],
@@ -216,9 +228,7 @@ def extract_events_for_visit(
                     if not obj:
                         continue
                     ts = obj.get("timestamp")
-                    if not isinstance(ts, str):
-                        continue
-                    if ts < anchor_ts:
+                    if not isinstance(ts, str) or ts < anchor_ts:
                         continue
 
                     ev = obj.get("event")
@@ -228,17 +238,13 @@ def extract_events_for_visit(
                         ss = obj.get("StarSystem")
                         if isinstance(ss, str) and ss != target_system:
                             left_system = True
-                            # update max time to just before leaving
                             if visit_time_max is None or ts > visit_time_max:
                                 visit_time_max = ts
                             break
 
-                    # Consider it part of visit if StarSystem matches when present.
-                    # Many events do not carry StarSystem; in that case we accept them after anchor
-                    # until we detect leaving.
+                    # Filter explicit StarSystem mismatches
                     ss = obj.get("StarSystem")
                     if isinstance(ss, str) and ss != target_system:
-                        # Not our system context (e.g., other entries after jump) – ignore
                         continue
 
                     if visit_time_min is None:
@@ -248,8 +254,6 @@ def extract_events_for_visit(
                     if ev in collected:
                         collected[ev].append(obj)
                     else:
-                        # Keep some other potentially useful events, but avoid huge dumps.
-                        # You can whitelist more later if needed.
                         if ev in ("FSSSignalDiscovered", "FSSAllBodiesFound", "FSSBodySignals", "SAAEvents"):
                             collected["Other"].append(obj)
         except Exception:
@@ -258,19 +262,46 @@ def extract_events_for_visit(
         if left_system:
             break
 
-    # Build summaries from Scan
+    # Deduplicate Scan events: keep latest Scan per body
     scans = collected["Scan"]
-    stars: List[Dict[str, Any]] = []
-    planets: List[Dict[str, Any]] = []
+
+    star_map: Dict[Tuple[Any, Any], Dict[str, Any]] = {}
+    planet_map: Dict[Tuple[Any, Any], Dict[str, Any]] = {}
+
+    def body_key(ev: Dict[str, Any]) -> Tuple[Any, Any]:
+        sys_addr = ev.get("SystemAddress")
+        body_id = ev.get("BodyID")
+        if isinstance(sys_addr, int) and isinstance(body_id, int):
+            return (sys_addr, body_id)
+        return (ev.get("StarSystem"), ev.get("BodyName"))
+
+    def is_newer(a: Dict[str, Any], b: Dict[str, Any]) -> bool:
+        ta = a.get("timestamp")
+        tb = b.get("timestamp")
+        return isinstance(ta, str) and isinstance(tb, str) and ta > tb
 
     for s in scans:
-        # Stars usually have StarType; planets have PlanetClass
         if "StarType" in s:
-            stars.append(prune_scan_event(s))
+            k = body_key(s)
+            if k not in star_map or is_newer(s, star_map[k]):
+                star_map[k] = s
         elif "PlanetClass" in s:
-            planets.append(prune_scan_event(s))
+            k = body_key(s)
+            if k not in planet_map or is_newer(s, planet_map[k]):
+                planet_map[k] = s
 
-    # Basic counts if possible
+    stars = [prune_scan_event(v) for v in star_map.values()]
+    planets = [prune_scan_event(v) for v in planet_map.values()]
+
+    def sort_key(e: Dict[str, Any]) -> Tuple[str, int]:
+        bn = str(e.get("BodyName", ""))
+        bid = e.get("BodyID")
+        return (bn, bid if isinstance(bid, int) else 10**9)
+
+    stars.sort(key=sort_key)
+    planets.sort(key=sort_key)
+
+    # Summary
     system_summary: Dict[str, Any] = {
         "body_count": None,
         "non_body_signals": None,
@@ -283,7 +314,6 @@ def extract_events_for_visit(
         },
     }
 
-    # FSSDiscoveryScan usually provides BodyCount + NonBodyCount
     if collected["FSSDiscoveryScan"]:
         last = collected["FSSDiscoveryScan"][-1]
         if isinstance(last.get("BodyCount"), int):
@@ -291,7 +321,6 @@ def extract_events_for_visit(
         if isinstance(last.get("NonBodyCount"), int):
             system_summary["non_body_signals"] = last.get("NonBodyCount")
 
-    # Landables count from Scan events
     landables = 0
     landable_seen = False
     for p in planets:
@@ -301,11 +330,8 @@ def extract_events_for_visit(
                 landables += 1
     system_summary["landables_count"] = landables if landable_seen else None
 
-    # Codex biology hint (best-effort; depends on event fields)
     has_bio: Optional[bool] = None
     if collected["CodexEntry"]:
-        # Try to infer biology category without relying on exact strings too much
-        # Some entries include "Category" or "SubCategory" etc.
         bio = False
         unknown = False
         for ce in collected["CodexEntry"]:
@@ -327,7 +353,7 @@ def extract_events_for_visit(
     game_info = {
         "version": last_loadgame.get("gameversion") if last_loadgame else None,
         "build": last_loadgame.get("build") if last_loadgame else None,
-        "odyssey": None,  # best-effort; can be inferred later if needed
+        "odyssey": None,
     }
 
     commander_hash = hash_commander_name(last_loadgame.get("Commander")) if last_loadgame else None
@@ -341,52 +367,17 @@ def extract_events_for_visit(
             "journal_anchor_file": anchor.journal_file,
         },
         "game": game_info,
-        "commander": {
-            "name": None,          # intentionally not stored
-            "id_hash": commander_hash,
-        },
+        "commander": {"name": None, "id_hash": commander_hash},
         "system_summary": system_summary,
-        "bodies": {
-            "stars": stars,
-            "planets": planets,
-        },
+        "bodies": {"stars": stars, "planets": planets},
         "events": {
-            # Keep raw events for reproducibility (can be trimmed later if repo size becomes an issue)
             "FSSDiscoveryScan": collected["FSSDiscoveryScan"] or [],
             "SAASignalsFound": collected["SAASignalsFound"] or [],
             "CodexEntry": collected["CodexEntry"] or [],
             "Other": collected["Other"] or [],
-            # Raw Scan can be huge; we keep pruned versions above. Keep count here:
             "Scan_count": len(scans),
         },
     }
-
-def prune_scan_event(scan: Dict[str, Any]) -> Dict[str, Any]:
-    """
-    Keep a useful subset of Scan fields (still rich), while avoiding extremely verbose nested blobs.
-    You can expand this later as needed.
-    """
-    keep_keys = {
-        "timestamp", "event",
-        "BodyName", "BodyID",
-        "StarSystem", "SystemAddress",
-        "DistanceFromArrivalLS",
-        "StarType", "Subclass", "StellarMass", "Radius", "SurfaceTemperature", "AbsoluteMagnitude", "Age_MY",
-        "Luminosity", "SemiMajorAxis", "Eccentricity", "OrbitalInclination", "Periapsis", "OrbitalPeriod",
-        "RotationPeriod", "AxialTilt",
-        "PlanetClass", "TerraformState", "Atmosphere", "AtmosphereType", "AtmosphereComposition",
-        "Volcanism", "MassEM", "Radius", "SurfaceGravity", "SurfacePressure", "SurfaceTemperature",
-        "Landable", "Materials", "Composition", "Rings",
-        "Parents",
-    }
-    out: Dict[str, Any] = {}
-    for k, v in scan.items():
-        if k in keep_keys:
-            out[k] = v
-    # Ensure stable keys even if missing
-    if "Landable" not in out and "PlanetClass" in out:
-        out["Landable"] = None
-    return out
 
 
 # -------------------------
@@ -414,7 +405,6 @@ def main() -> int:
     audio_dir.mkdir(parents=True, exist_ok=True)
     meta_dir.mkdir(parents=True, exist_ok=True)
 
-    # Find exactly one FLAC in incoming
     flacs = sorted([p for p in incoming_dir.glob("*.flac") if p.is_file()])
     if len(flacs) == 0:
         print(f"[ERROR] No .flac found in {incoming_dir}")
@@ -427,7 +417,6 @@ def main() -> int:
 
     src_audio = flacs[0]
 
-    # Duration check
     dur = get_flac_duration_seconds(src_audio)
     if dur is None:
         print("[ERROR] Could not read FLAC duration. Please install dependency:")
@@ -437,7 +426,6 @@ def main() -> int:
         print(f"[ERROR] FLAC duration is {dur:.2f}s, which exceeds the limit ({args.max_seconds:.0f}s).")
         return 4
 
-    # Hash for collision-free naming
     full_hash = sha256_file(src_audio)
     short_hash = full_hash[:8]
 
@@ -451,7 +439,6 @@ def main() -> int:
     dst_audio = audio_dir / f"{base_name}.flac"
     dst_meta = meta_dir / f"{base_name}.json"
 
-    # Avoid duplicates (same audio hash)
     if dst_audio.exists() or dst_meta.exists():
         print("[ERROR] A recording with the same hash already exists in the repo:")
         if dst_audio.exists():
@@ -461,26 +448,25 @@ def main() -> int:
         print("This usually means the same audio was already ingested.")
         return 6
 
-    # Parse journals
     journal_dir = Path(args.journals).expanduser().resolve() if args.journals else default_elite_journal_dir().resolve()
     journal_files = iter_journal_files(journal_dir)
+
+    anchor: Optional[VisitContext] = None
+    extracted: Optional[Dict[str, Any]] = None
+
     if not journal_files:
         print(f"[WARN] No journal files found in: {journal_dir}")
         print("       Metadata will be generated with null fields where appropriate.")
-        anchor = None
-        extracted = None
     else:
         anchor = find_latest_visit_anchor(journal_files, system_name_raw)
         if anchor is None:
             print(f"[WARN] Could not find a recent visit to system '{system_name_raw}' in journals.")
-            extracted = None
         else:
             extracted = extract_events_for_visit(journal_files, anchor)
 
     # Move audio into place
     shutil.move(str(src_audio), str(dst_audio))
 
-    # Build metadata JSON
     meta: Dict[str, Any] = {
         "recording": {
             "audio_file": dst_audio.name,
@@ -500,9 +486,7 @@ def main() -> int:
             "game": {"version": None, "build": None, "odyssey": None},
             "commander": {"name": None, "id_hash": None},
         },
-        "acquisition": {
-            "notes": None,
-        },
+        "acquisition": {"notes": None},
         "visit": {
             "from_utc": None,
             "to_utc": None,
@@ -518,12 +502,10 @@ def main() -> int:
             "landables_count": None,
             "exobio_indicators": {"codex_entries_count": None, "has_codex_biology": None},
         },
-        "bodies": {
-            "stars": [],
-            "planets": [],
-        },
+        "bodies": {"stars": [], "planets": []},
         "raw": {
-            "journal_dir": str(journal_dir),
+            "journal_dir": None,  # privacy: do not store local path
+            "journal_dir_hint": journal_dir.name if journal_dir else None,
             "journal_files_used": [p.name for p in journal_files[-10:]] if journal_files else [],
             "events_time_window": {"from_utc": None, "to_utc": None},
         },
@@ -536,20 +518,22 @@ def main() -> int:
     if extracted is not None:
         meta["context"]["game"] = extracted.get("game", meta["context"]["game"])
         meta["context"]["commander"] = extracted.get("commander", meta["context"]["commander"])
+
         vw = extracted.get("visit_window", {})
         meta["visit"]["from_utc"] = vw.get("from_utc")
         meta["visit"]["to_utc"] = vw.get("to_utc")
         meta["visit"]["anchor_timestamp_utc"] = vw.get("anchor_timestamp_utc")
         meta["visit"]["anchor_event"] = vw.get("anchor_event")
         meta["visit"]["journal_anchor_file"] = vw.get("journal_anchor_file")
+
         meta["system_summary"] = extracted.get("system_summary", meta["system_summary"])
         bodies = extracted.get("bodies", {})
         meta["bodies"]["stars"] = bodies.get("stars", []) or []
         meta["bodies"]["planets"] = bodies.get("planets", []) or []
+
         meta["raw"]["events_time_window"]["from_utc"] = vw.get("from_utc")
         meta["raw"]["events_time_window"]["to_utc"] = vw.get("to_utc")
 
-    # Write JSON
     with dst_meta.open("w", encoding="utf-8") as f:
         json.dump(meta, f, indent=2, ensure_ascii=False)
 

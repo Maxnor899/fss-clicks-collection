@@ -49,7 +49,7 @@ fss-clicks-collection/
 
 ### 1. Record audio
 
-* Record **up to 60 seconds** of audio while using the FSS
+* Record **up to 60 seconds** of audio while using the FSS (**containing the clicks....**)
 * The file can be named **anything**
 * Export as **FLAC**
 

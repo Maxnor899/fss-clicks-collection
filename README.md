@@ -25,7 +25,7 @@ This observable may later be compared against system properties such as:
 * number of planets
 * system layout
 * presence of biological or codex signals
-* attenuation due to distance to an hypothetical source
+* environmental subjects
 
 No assumption is made about the cause of the clicks.
 

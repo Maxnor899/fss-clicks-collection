@@ -4,7 +4,7 @@
 
 This repository is a **community-driven data collection project** around the mysterious *FSS clicks* heard in Elite Dangerous.
 
-The goal is **not to prove a theory**, but to **collect clean, comparable data** so hypotheses can be tested on real evidence rather than impressions.
+The goal is to **collect clean, comparable data** so hypotheses can be tested on real evidence rather than impressions.
 
 Each contribution consists of:
 

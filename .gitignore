@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- FSS clicks project specific ---
+
+# Raw incoming audio (never committed)
+incoming/*.flac
+incoming/*.wav
+
+# Elite Dangerous journal logs , if ever someone copy it 'to help' (must never be committed)
+Journal*.log

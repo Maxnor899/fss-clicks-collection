@@ -1,0 +1,1458 @@
+{
+  "recording": {
+    "audio_file": "Praea_Eurl_RY-H_d10-0__3ecd25f3.flac",
+    "audio_sha256": "3ecd25f31c2ab7a9a191dbe36c48d5132736a3e12d6f44ff7fe9b982b0f7c212",
+    "audio_sha256_short": "3ecd25f3",
+    "original_filename": "4.flac",
+    "created_utc": "2026-02-07T14:44:24+00:00",
+    "duration_s": 52.856
+  },
+  "context": {
+    "system": {
+      "name": "Praea Eurl RY-H d10-0",
+      "name_sanitized": "Praea_Eurl_RY-H_d10-0",
+      "address": 12306205147,
+      "star_pos": [
+        8657.34375,
+        556.5625,
+        1135.3125
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-06T20:16:31Z",
+    "to_utc": "2026-02-06T20:49:41Z",
+    "anchor_timestamp_utc": "2026-02-06T20:16:31Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-06T211411.01.log"
+  },
+  "system_summary": {
+    "body_count": 16,
+    "non_body_signals": 0,
+    "stars_count": 3,
+    "planets_count": 14,
+    "landables_count": 12,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-06T20:16:36Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 A",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "A",
+        "Subclass": 9,
+        "StellarMass": 1.558594,
+        "Radius": 912567808.0,
+        "AbsoluteMagnitude": 3.00618,
+        "Age_MY": 3294,
+        "SurfaceTemperature": 7676.0,
+        "Luminosity": "Vb",
+        "SemiMajorAxis": 254950571060.18066,
+        "Eccentricity": 0.107841,
+        "OrbitalInclination": 85.006977,
+        "Periapsis": 253.184054,
+        "OrbitalPeriod": 463023656.606674,
+        "RotationPeriod": 87569.082776,
+        "AxialTilt": 0.0
+      },
+      {
+        "timestamp": "2026-02-06T20:16:46Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 B",
+        "BodyID": 3,
+        "Parents": [
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 3498.191671,
+        "StarType": "M",
+        "Subclass": 2,
+        "StellarMass": 0.453125,
+        "Radius": 452643776.0,
+        "AbsoluteMagnitude": 8.287979,
+        "Age_MY": 3294,
+        "SurfaceTemperature": 3231.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 876944124698.6389,
+        "Eccentricity": 0.107841,
+        "OrbitalInclination": 85.006977,
+        "Periapsis": 73.18406,
+        "OrbitalPeriod": 463023656.606674,
+        "RotationPeriod": 331453.884384,
+        "AxialTilt": 0.0
+      },
+      {
+        "timestamp": "2026-02-06T20:16:46Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 C",
+        "BodyID": 4,
+        "Parents": [
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 92355.504543,
+        "StarType": "M",
+        "Subclass": 2,
+        "StellarMass": 0.4375,
+        "Radius": 446743264.0,
+        "AbsoluteMagnitude": 8.309753,
+        "Age_MY": 3294,
+        "SurfaceTemperature": 3236.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 20401867628097.535,
+        "Eccentricity": 0.143395,
+        "OrbitalInclination": 50.428466,
+        "Periapsis": 272.00003,
+        "OrbitalPeriod": 43137882351.875305,
+        "RotationPeriod": 272794.115764,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-06T20:40:13Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 A 4",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 307.459402,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.348905,
+        "Radius": 4392808.5,
+        "SurfaceGravity": 7.206626,
+        "SurfaceTemperature": 534.181396,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 22.222977
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.808529
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 15.396866
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.94717
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.994411
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.289001
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.45719
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.541475
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.518822
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.451147
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.372411
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.654082,
+          "Metal": 0.345918
+        },
+        "SemiMajorAxis": 92332608103.75214,
+        "Eccentricity": 0.001798,
+        "OrbitalInclination": -0.090445,
+        "Periapsis": 112.092434,
+        "OrbitalPeriod": 12255862.355232,
+        "RotationPeriod": -12255893.818908,
+        "AxialTilt": 2.459997
+      },
+      {
+        "timestamp": "2026-02-06T20:40:18Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 A 4 a",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Planet": 8
+          },
+          {
+            "Star": 2
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 307.480814,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.021316,
+        "Radius": 1900093.625,
+        "SurfaceGravity": 2.353282,
+        "SurfaceTemperature": 534.181396,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.962603
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 17.667965
+          },
+          {
+            "Name": "nickel",
+            "Percent": 15.098877
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 14.856929
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.511661
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.244351
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.425088
+          },
+          {
+            "Name": "germanium",
+            "Percent": 5.21136
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.550187
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.23816
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.232818
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.857828,
+          "Metal": 0.142172
+        },
+        "SemiMajorAxis": 109431934.356689,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": 49.011344,
+        "Periapsis": 47.650856,
+        "OrbitalPeriod": 592114.841938,
+        "RotationPeriod": 609934.426899,
+        "AxialTilt": 0.445104
+      },
+      {
+        "timestamp": "2026-02-06T20:40:25Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 A 5",
+        "BodyID": 10,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 388.325719,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.941868,
+        "Radius": 5966051.0,
+        "SurfaceGravity": 10.546911,
+        "SurfaceTemperature": 481.510101,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 23.861227
+          },
+          {
+            "Name": "nickel",
+            "Percent": 18.047632
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 16.729143
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 14.067478
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.006241
+          },
+          {
+            "Name": "zinc",
+            "Percent": 6.484589
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.934445
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 2.206751
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.630788
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.558124
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.473583
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.665815,
+          "Metal": 0.334185
+        },
+        "SemiMajorAxis": 116232466697.69287,
+        "Eccentricity": 0.001622,
+        "OrbitalInclination": 0.103072,
+        "Periapsis": 136.03378,
+        "OrbitalPeriod": 17310212.254524,
+        "RotationPeriod": 2139243.796025,
+        "AxialTilt": 0.439662
+      },
+      {
+        "timestamp": "2026-02-06T20:40:28Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 A 2",
+        "BodyID": 6,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 185.102422,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.211278,
+        "Radius": 3768466.0,
+        "SurfaceGravity": 5.929733,
+        "SurfaceTemperature": 673.901123,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.212406
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.044174
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 14.872019
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.505828
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.539924
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.760508
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.006445
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.209029
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.374883
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.310001
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.164774
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.665813,
+          "Metal": 0.334187
+        },
+        "SemiMajorAxis": 55622820258.140564,
+        "Eccentricity": 0.002494,
+        "OrbitalInclination": 0.397566,
+        "Periapsis": 137.264932,
+        "OrbitalPeriod": 5730476.379395,
+        "RotationPeriod": 5730490.896832,
+        "AxialTilt": -0.450925
+      },
+      {
+        "timestamp": "2026-02-06T20:40:39Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 A 1",
+        "BodyID": 5,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 128.732752,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.491958,
+        "Radius": 4900222.0,
+        "SurfaceGravity": 8.165929,
+        "SurfaceTemperature": 798.897217,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 22.357512
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.910284
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 15.674703
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 13.180801
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 9.233423
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.438575
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.490226
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.623426
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.528017
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 1.335387
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.227652
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.665804,
+          "Metal": 0.334196
+        },
+        "SemiMajorAxis": 38610531091.69006,
+        "Eccentricity": 0.000848,
+        "OrbitalInclination": -0.012326,
+        "Periapsis": 43.484526,
+        "OrbitalPeriod": 3314132.392406,
+        "RotationPeriod": 3314140.775479,
+        "AxialTilt": -0.27912
+      },
+      {
+        "timestamp": "2026-02-06T20:40:41Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 A 3",
+        "BodyID": 7,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 227.042912,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.151876,
+        "Radius": 3395774.5,
+        "SurfaceGravity": 5.24952,
+        "SurfaceTemperature": 612.386841,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.946796
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.599638
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 15.3869
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.93879
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.870204
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 9.063804
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.283635
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 2.029695
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.499946
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.2051
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 1.17549
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.665813,
+          "Metal": 0.334187
+        },
+        "SemiMajorAxis": 68449668288.230896,
+        "Eccentricity": 0.005627,
+        "OrbitalInclination": -0.001461,
+        "Periapsis": 8.885779,
+        "OrbitalPeriod": 7822908.520699,
+        "RotationPeriod": 7822928.244693,
+        "AxialTilt": 0.088752
+      },
+      {
+        "timestamp": "2026-02-06T20:40:44Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 B 5",
+        "BodyID": 17,
+        "Parents": [
+          {
+            "Star": 3
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 3284.319513,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "thin sulfur dioxide atmosphere",
+        "AtmosphereType": "SulphurDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.085595,
+        "Radius": 2829153.0,
+        "SurfaceGravity": 4.262303,
+        "SurfaceTemperature": 299.766602,
+        "SurfacePressure": 213.58168,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.165831
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.008945
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 14.839233
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.478258
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.518976
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.741272
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 7.988795
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.197591
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.382116
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.371866
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.307125
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.665805,
+          "Metal": 0.334195
+        },
+        "SemiMajorAxis": 82523100376.12915,
+        "Eccentricity": 0.002602,
+        "OrbitalInclination": -1.849533,
+        "Periapsis": 221.325276,
+        "OrbitalPeriod": 19205803.871155,
+        "RotationPeriod": 223600.691733,
+        "AxialTilt": 0.449091
+      },
+      {
+        "timestamp": "2026-02-06T20:40:49Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 B 1",
+        "BodyID": 12,
+        "Parents": [
+          {
+            "Star": 3
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 3492.244244,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.077864,
+        "Radius": 2744686.5,
+        "SurfaceGravity": 4.119679,
+        "SurfaceTemperature": 457.859924,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 24.05596
+          },
+          {
+            "Name": "nickel",
+            "Percent": 18.194918
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 16.865501
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 14.182141
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.07965
+          },
+          {
+            "Name": "zinc",
+            "Percent": 6.537509
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.974666
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.639594
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.55919
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 1.050484
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.860385
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.665806,
+          "Metal": 0.334194
+        },
+        "SemiMajorAxis": 19707135558.128357,
+        "Eccentricity": 0.002325,
+        "OrbitalInclination": -0.602143,
+        "Periapsis": 208.388365,
+        "OrbitalPeriod": 2241322.577,
+        "RotationPeriod": 2241325.689595,
+        "AxialTilt": 0.080565
+      },
+      {
+        "timestamp": "2026-02-06T20:40:54Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 B 2",
+        "BodyID": 13,
+        "Parents": [
+          {
+            "Star": 3
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 3488.122248,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.082768,
+        "Radius": 2798907.75,
+        "SurfaceGravity": 4.211102,
+        "SurfaceTemperature": 412.059906,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 23.036932
+          },
+          {
+            "Name": "nickel",
+            "Percent": 17.42417
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 16.151068
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 13.581376
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.695029
+          },
+          {
+            "Name": "zinc",
+            "Percent": 6.260575
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.657068
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.763936
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.788922
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 1.375968
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.264959
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.665806,
+          "Metal": 0.334194
+        },
+        "SemiMajorAxis": 27108316421.50879,
+        "Eccentricity": 0.005298,
+        "OrbitalInclination": 0.236994,
+        "Periapsis": 117.02757,
+        "OrbitalPeriod": 3615954.756737,
+        "RotationPeriod": 3615959.751911,
+        "AxialTilt": -0.219436
+      },
+      {
+        "timestamp": "2026-02-06T20:41:02Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 B 3 a",
+        "BodyID": 15,
+        "Parents": [
+          {
+            "Planet": 14
+          },
+          {
+            "Star": 3
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 3514.155433,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "SulphurDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 90.0
+          },
+          {
+            "Name": "Silicates",
+            "Percent": 5.0
+          },
+          {
+            "Name": "Oxygen",
+            "Percent": 2.999999
+          }
+        ],
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.000695,
+        "Radius": 615725.875,
+        "SurfaceGravity": 0.731175,
+        "SurfaceTemperature": 369.633209,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.857823,
+          "Metal": 0.142177
+        },
+        "SemiMajorAxis": 25178363.323212,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": -82.248397,
+        "Periapsis": 247.433343,
+        "OrbitalPeriod": 165844.035149,
+        "RotationPeriod": 166856.544975,
+        "AxialTilt": 0.043545
+      },
+      {
+        "timestamp": "2026-02-06T20:42:33Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 B 3",
+        "BodyID": 14,
+        "Parents": [
+          {
+            "Star": 3
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 3514.194525,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.056785,
+        "Radius": 2478373.25,
+        "SurfaceGravity": 3.684793,
+        "SurfaceTemperature": 369.633209,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 22.646721
+          },
+          {
+            "Name": "nickel",
+            "Percent": 17.12903
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 15.839584
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 13.319449
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 9.352863
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.52734
+          },
+          {
+            "Name": "zinc",
+            "Percent": 6.154531
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 2.629751
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.75862
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.398579
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.243532
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.663452,
+          "Metal": 0.336548
+        },
+        "SemiMajorAxis": 38429045081.13861,
+        "Eccentricity": 0.001972,
+        "OrbitalInclination": 0.05799,
+        "Periapsis": 299.63848,
+        "OrbitalPeriod": 6103213.489056,
+        "RotationPeriod": -6103222.060419,
+        "AxialTilt": -2.698653
+      },
+      {
+        "timestamp": "2026-02-06T20:42:38Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 B 4",
+        "BodyID": 16,
+        "Parents": [
+          {
+            "Star": 3
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 3402.074169,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "thin sulfur dioxide atmosphere",
+        "AtmosphereType": "SulphurDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.097771,
+        "Radius": 2952012.25,
+        "SurfaceGravity": 4.471798,
+        "SurfaceTemperature": 316.165741,
+        "SurfacePressure": 272.65744,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.189774
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.027056
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 14.85602
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.492373
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.529744
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.75116
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 7.997832
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.758587
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.308604
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.163531
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.925322
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.665805,
+          "Metal": 0.334195
+        },
+        "SemiMajorAxis": 67346526384.35364,
+        "Eccentricity": 0.000622,
+        "OrbitalInclination": 0.346949,
+        "Periapsis": 353.704392,
+        "OrbitalPeriod": 14159306.883812,
+        "RotationPeriod": 284757.002499,
+        "AxialTilt": -0.145179
+      },
+      {
+        "timestamp": "2026-02-06T20:42:42Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 A 6",
+        "BodyID": 11,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 571.537947,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "sulfur dioxide atmosphere",
+        "AtmosphereType": "SulphurDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.443786,
+        "Radius": 4747514.0,
+        "SurfaceGravity": 7.847845,
+        "SurfaceTemperature": 426.150482,
+        "SurfacePressure": 85561.59375,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.66582,
+          "Metal": 0.334181
+        },
+        "SemiMajorAxis": 171168488264.08386,
+        "Eccentricity": 0.001027,
+        "OrbitalInclination": -0.580804,
+        "Periapsis": 233.625596,
+        "OrbitalPeriod": 30934773.683548,
+        "RotationPeriod": 153532.827069,
+        "AxialTilt": 0.235691
+      },
+      {
+        "timestamp": "2026-02-06T20:47:26Z",
+        "event": "Scan",
+        "BodyName": "Praea Eurl RY-H d10-0 B 4",
+        "BodyID": 16,
+        "Parents": [
+          {
+            "Star": 3
+          },
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Praea Eurl RY-H d10-0",
+        "SystemAddress": 12306205147,
+        "DistanceFromArrivalLS": 3402.050032,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "thin sulfur dioxide atmosphere",
+        "AtmosphereType": "SulphurDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.097771,
+        "Radius": 2952012.25,
+        "SurfaceGravity": 4.471798,
+        "SurfaceTemperature": 316.165741,
+        "SurfacePressure": 272.65744,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.189774
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.027056
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 14.85602
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.492373
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.529744
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.75116
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 7.997832
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.758587
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.308604
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.163531
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.925322
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.665805,
+          "Metal": 0.334195
+        },
+        "SemiMajorAxis": 67346526384.35364,
+        "Eccentricity": 0.000622,
+        "OrbitalInclination": 0.346949,
+        "Periapsis": 353.704392,
+        "OrbitalPeriod": 14159306.883812,
+        "RotationPeriod": 284757.002499,
+        "AxialTilt": -0.145179
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": "C:\\Users\\Max\\Saved Games\\Frontier Developments\\Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-04T081628.01.log",
+      "Journal.2026-02-04T095800.01.log",
+      "Journal.2026-02-04T121557.01.log",
+      "Journal.2026-02-04T160325.01.log",
+      "Journal.2026-02-04T173406.01.log",
+      "Journal.2026-02-04T182059.01.log",
+      "Journal.2026-02-04T212839.01.log",
+      "Journal.2026-02-05T065326.01.log",
+      "Journal.2026-02-05T201519.01.log",
+      "Journal.2026-02-06T211411.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-06T20:16:31Z",
+      "to_utc": "2026-02-06T20:49:41Z"
+    }
+  }
+}

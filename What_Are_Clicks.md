@@ -12,11 +12,11 @@ While using the **FSS** in *Elite Dangerous*, some players have noticed a very s
 - The clicks are brief, percussive, and rhythmic  
 - They repeat with a stable pattern  
 - They are not tied to scanning or locking onto a body  
-- you may hear an example [here](https://github.com/Maxnor899/fss-clicks-collection/blob/main/example.flac)
+- you may hear an example using the "Clicks_example.flac" at the root of this project
   
 If you want to inspect them visually, you can record your audio (for example with Audacity) and look at the **spectrogram**.  
 The clicks appear as sharp, vertical lines.
-an example [here](https://github.com/Maxnor899/fss-clicks-collection/blob/main/spectrogram.jpg)
+an example can be seen using the "spectrogram.jpg" image at the root of this project
 This is the kind of signal we are trying to collect.
 
 ---

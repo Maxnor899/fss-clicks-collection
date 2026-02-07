@@ -25,6 +25,7 @@ This observable may later be compared against system properties such as:
 * number of planets
 * system layout
 * presence of biological or codex signals
+* environmental subjects
 
 No assumption is made about the cause of the clicks.
 
@@ -146,7 +147,7 @@ Any future trilateration would depend entirely on what the data actually shows.
 * Python 3.9+
 * Elite Dangerous journal logs available locally
 * FLAC recording (≤ 60s)
-
+* mutagen (pip install mutagen)
 ---
 
 ## Final note

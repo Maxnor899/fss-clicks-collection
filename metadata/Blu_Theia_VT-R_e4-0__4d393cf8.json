@@ -1,0 +1,430 @@
+{
+  "recording": {
+    "audio_file": "Blu_Theia_VT-R_e4-0__4d393cf8.flac",
+    "audio_sha256": "4d393cf80336e1237110cc1961c5a309bbdc52655f70746d968fb56822b0f611",
+    "audio_sha256_short": "4d393cf8",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-08T22:06:12+00:00",
+    "duration_s": 53.241
+  },
+  "context": {
+    "system": {
+      "name": "Blu Theia VT-R e4-0",
+      "name_sanitized": "Blu_Theia_VT-R_e4-0",
+      "address": 1541432620,
+      "star_pos": [
+        8790.8125,
+        538.65625,
+        2366.25
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-08T22:01:21Z",
+    "to_utc": "2026-02-08T22:02:15Z",
+    "anchor_timestamp_utc": "2026-02-08T22:01:21Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-08T222850.01.log"
+  },
+  "system_summary": {
+    "body_count": 13,
+    "non_body_signals": 0,
+    "stars_count": 4,
+    "planets_count": 5,
+    "landables_count": 0,
+    "exobio_indicators": {
+      "codex_entries_count": 1,
+      "has_codex_biology": false
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-08T22:01:26Z",
+        "event": "Scan",
+        "BodyName": "Blu Theia VT-R e4-0",
+        "BodyID": 0,
+        "StarSystem": "Blu Theia VT-R e4-0",
+        "SystemAddress": 1541432620,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "B",
+        "Subclass": 0,
+        "StellarMass": 5.605469,
+        "Radius": 2240147712.0,
+        "AbsoluteMagnitude": -2.645416,
+        "Age_MY": 4,
+        "SurfaceTemperature": 17995.0,
+        "Luminosity": "Vz",
+        "RotationPeriod": 133273.41617,
+        "AxialTilt": 0.0
+      },
+      {
+        "timestamp": "2026-02-08T22:01:27Z",
+        "event": "Scan",
+        "BodyName": "Blu Theia VT-R e4-0 6",
+        "BodyID": 7,
+        "Parents": [
+          {
+            "Null": 6
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blu Theia VT-R e4-0",
+        "SystemAddress": 1541432620,
+        "DistanceFromArrivalLS": 2106.609371,
+        "StarType": "TTS",
+        "Subclass": 5,
+        "StellarMass": 0.046875,
+        "Radius": 109669448.0,
+        "AbsoluteMagnitude": 16.689102,
+        "Age_MY": 4,
+        "SurfaceTemperature": 949.0,
+        "Luminosity": "VI",
+        "SemiMajorAxis": 3620974.421501,
+        "Eccentricity": 0.144695,
+        "OrbitalInclination": 5.758553,
+        "Periapsis": 266.749732,
+        "OrbitalPeriod": 21692675.352097,
+        "RotationPeriod": 93437.736876,
+        "AxialTilt": -1.886321
+      },
+      {
+        "timestamp": "2026-02-08T22:01:27Z",
+        "event": "Scan",
+        "BodyName": "Blu Theia VT-R e4-0 8",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blu Theia VT-R e4-0",
+        "SystemAddress": 1541432620,
+        "DistanceFromArrivalLS": 2811.996894,
+        "StarType": "TTS",
+        "Subclass": 4,
+        "StellarMass": 0.011719,
+        "Radius": 45824720.0,
+        "AbsoluteMagnitude": 22.843674,
+        "Age_MY": 4,
+        "SurfaceTemperature": 356.0,
+        "Luminosity": "VI",
+        "SemiMajorAxis": 843000215291.9769,
+        "Eccentricity": 0.000533,
+        "OrbitalInclination": 4.93499,
+        "Periapsis": 311.124655,
+        "OrbitalPeriod": 176431018.11409,
+        "RotationPeriod": 104180.289448,
+        "AxialTilt": 0.88659
+      },
+      {
+        "timestamp": "2026-02-08T22:01:27Z",
+        "event": "Scan",
+        "BodyName": "Blu Theia VT-R e4-0 9",
+        "BodyID": 11,
+        "Parents": [
+          {
+            "Null": 10
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blu Theia VT-R e4-0",
+        "SystemAddress": 1541432620,
+        "DistanceFromArrivalLS": 4054.78299,
+        "StarType": "TTS",
+        "Subclass": 1,
+        "StellarMass": 0.039063,
+        "Radius": 99417784.0,
+        "AbsoluteMagnitude": 18.779541,
+        "Age_MY": 4,
+        "SurfaceTemperature": 616.0,
+        "Luminosity": "VI",
+        "SemiMajorAxis": 46008242.964745,
+        "Eccentricity": 0.016764,
+        "OrbitalInclination": -7.067188,
+        "Periapsis": 78.392987,
+        "OrbitalPeriod": 32736021.280289,
+        "RotationPeriod": 132762.219188,
+        "AxialTilt": -0.170994
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-08T22:02:15Z",
+        "event": "Scan",
+        "BodyName": "Blu Theia VT-R e4-0 11",
+        "BodyID": 13,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blu Theia VT-R e4-0",
+        "SystemAddress": 1541432620,
+        "DistanceFromArrivalLS": 5620.219648,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "hot thick water atmosphere",
+        "AtmosphereType": "Water",
+        "AtmosphereComposition": [
+          {
+            "Name": "Water",
+            "Percent": 83.584641
+          },
+          {
+            "Name": "Silicates",
+            "Percent": 11.427531
+          },
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 4.493797
+          }
+        ],
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 45.686371,
+        "Radius": 15785992.0,
+        "SurfaceGravity": 73.072226,
+        "SurfaceTemperature": 4069.73877,
+        "SurfacePressure": 16482877440.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.649853,
+          "Metal": 0.350147
+        },
+        "SemiMajorAxis": 1626057505607.605,
+        "Eccentricity": 0.036521,
+        "OrbitalInclination": 0.660007,
+        "Periapsis": 263.568585,
+        "OrbitalPeriod": 472647362.947464,
+        "RotationPeriod": 119599.567865,
+        "AxialTilt": -2.477137
+      },
+      {
+        "timestamp": "2026-02-08T22:01:47Z",
+        "event": "Scan",
+        "BodyName": "Blu Theia VT-R e4-0 12",
+        "BodyID": 14,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blu Theia VT-R e4-0",
+        "SystemAddress": 1541432620,
+        "DistanceFromArrivalLS": 9517.384177,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "hot thick carbon dioxide atmosphere",
+        "AtmosphereType": "CarbonDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 91.923233
+          },
+          {
+            "Name": "Nitrogen",
+            "Percent": 7.084808
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 0.919232
+          }
+        ],
+        "Volcanism": "metallic magma volcanism",
+        "MassEM": 2.227806,
+        "Radius": 7693488.5,
+        "SurfaceGravity": 15.001688,
+        "SurfaceTemperature": 1310.165405,
+        "SurfacePressure": 163758768.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.008671,
+          "Rock": 0.655977,
+          "Metal": 0.335352
+        },
+        "SemiMajorAxis": 2799484729766.8457,
+        "Eccentricity": 0.038812,
+        "OrbitalInclination": 75.048319,
+        "Periapsis": 12.808005,
+        "OrbitalPeriod": 1067703247.070313,
+        "RotationPeriod": 94606.033954,
+        "AxialTilt": -0.180994
+      },
+      {
+        "timestamp": "2026-02-08T22:01:59Z",
+        "event": "Scan",
+        "BodyName": "Blu Theia VT-R e4-0 2",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blu Theia VT-R e4-0",
+        "SystemAddress": 1541432620,
+        "DistanceFromArrivalLS": 453.405547,
+        "TerraformState": "",
+        "PlanetClass": "Metal rich body",
+        "Atmosphere": "hot thin silicate vapour atmosphere",
+        "AtmosphereType": "SilicateVapour",
+        "AtmosphereComposition": [
+          {
+            "Name": "Silicates",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 1.5993,
+        "Radius": 5549941.0,
+        "SurfaceGravity": 20.694865,
+        "SurfaceTemperature": 1468.755005,
+        "SurfacePressure": 289.606506,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.0,
+          "Metal": 1.0
+        },
+        "SemiMajorAxis": 135933208465.57617,
+        "Eccentricity": 7.9e-05,
+        "OrbitalInclination": -0.037223,
+        "Periapsis": 40.073645,
+        "OrbitalPeriod": 11424092.650414,
+        "RotationPeriod": 67447.52612,
+        "AxialTilt": -0.499861
+      },
+      {
+        "timestamp": "2026-02-08T22:02:06Z",
+        "event": "Scan",
+        "BodyName": "Blu Theia VT-R e4-0 4",
+        "BodyID": 4,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blu Theia VT-R e4-0",
+        "SystemAddress": 1541432620,
+        "DistanceFromArrivalLS": 1283.448193,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class IV gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 73.952835
+          },
+          {
+            "Name": "Helium",
+            "Percent": 26.047171
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 2136.349609,
+        "Radius": 72769264.0,
+        "SurfaceGravity": 160.799897,
+        "SurfaceTemperature": 1291.728271,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 384811574220.65735,
+        "Eccentricity": 0.000117,
+        "OrbitalInclination": -0.137535,
+        "Periapsis": 86.284363,
+        "OrbitalPeriod": 54413363.933563,
+        "RotationPeriod": 114243.489194,
+        "AxialTilt": 1.715275
+      },
+      {
+        "timestamp": "2026-02-08T22:01:52Z",
+        "event": "Scan",
+        "BodyName": "Blu Theia VT-R e4-0 7",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Null": 6
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blu Theia VT-R e4-0",
+        "SystemAddress": 1541432620,
+        "DistanceFromArrivalLS": 2055.898915,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "hot thick carbon dioxide atmosphere",
+        "AtmosphereType": "CarbonDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 86.764679
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 13.07714
+          },
+          {
+            "Name": "Silicates",
+            "Percent": 0.158195
+          }
+        ],
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 1.367611,
+        "Radius": 6663886.5,
+        "SurfaceGravity": 12.274867,
+        "SurfaceTemperature": 1623.516602,
+        "SurfacePressure": 1635849.25,
+        "Landable": false,
+        "Composition": {
+          "Ice": 1e-06,
+          "Rock": 0.664828,
+          "Metal": 0.335028
+        },
+        "SemiMajorAxis": 42356880903.24402,
+        "Eccentricity": 0.144695,
+        "OrbitalInclination": 5.758553,
+        "Periapsis": 86.749737,
+        "OrbitalPeriod": 21692675.352097,
+        "RotationPeriod": 46559.910763,
+        "AxialTilt": 0.329136
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-05T201519.01.log",
+      "Journal.2026-02-06T211411.01.log",
+      "Journal.2026-02-07T205128.01.log",
+      "Journal.2026-02-08T071626.01.log",
+      "Journal.2026-02-08T081355.01.log",
+      "Journal.2026-02-08T085918.01.log",
+      "Journal.2026-02-08T111611.01.log",
+      "Journal.2026-02-08T155743.01.log",
+      "Journal.2026-02-08T165846.01.log",
+      "Journal.2026-02-08T222850.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-08T22:01:21Z",
+      "to_utc": "2026-02-08T22:02:15Z"
+    }
+  }
+}

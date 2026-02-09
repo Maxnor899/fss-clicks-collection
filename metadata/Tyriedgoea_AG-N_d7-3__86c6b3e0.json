@@ -1,0 +1,153 @@
+{
+  "recording": {
+    "audio_file": "Tyriedgoea_AG-N_d7-3__86c6b3e0.flac",
+    "audio_sha256": "86c6b3e01e2b76d41027a158bc134d2545591e0d15953de03e5e63cfdbb0ecbf",
+    "audio_sha256_short": "86c6b3e0",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-09T15:01:40+00:00",
+    "duration_s": 55.171
+  },
+  "context": {
+    "system": {
+      "name": "Tyriedgoea AG-N d7-3",
+      "name_sanitized": "Tyriedgoea_AG-N_d7-3",
+      "address": 115033098819,
+      "star_pos": [
+        6996.21875,
+        557.84375,
+        2214.09375
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-09T14:58:26Z",
+    "to_utc": "2026-02-09T14:58:37Z",
+    "anchor_timestamp_utc": "2026-02-09T14:58:26Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-09T151317.01.log"
+  },
+  "system_summary": {
+    "body_count": 17,
+    "non_body_signals": 12,
+    "stars_count": 2,
+    "planets_count": null,
+    "landables_count": null,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-09T14:58:36Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea AG-N d7-3",
+        "BodyID": 0,
+        "StarSystem": "Tyriedgoea AG-N d7-3",
+        "SystemAddress": 115033098819,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "F",
+        "Subclass": 8,
+        "StellarMass": 1.019531,
+        "Radius": 751597568.0,
+        "AbsoluteMagnitude": 4.332932,
+        "Age_MY": 1514,
+        "SurfaceTemperature": 6232.0,
+        "Luminosity": "Vb",
+        "RotationPeriod": 458695.832383,
+        "AxialTilt": 0.0,
+        "Rings": [
+          {
+            "Name": "Tyriedgoea AG-N d7-3 A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 2.9295e+16,
+            "InnerRad": 3091400000.0,
+            "OuterRad": 498550000000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-02-09T14:58:32Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea AG-N d7-3 1",
+        "BodyID": 15,
+        "Parents": [
+          {
+            "Null": 14
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea AG-N d7-3",
+        "SystemAddress": 115033098819,
+        "DistanceFromArrivalLS": 2627.90703,
+        "StarType": "Y",
+        "Subclass": 4,
+        "StellarMass": 0.011719,
+        "Radius": 47076992.0,
+        "AbsoluteMagnitude": 22.47197,
+        "Age_MY": 1514,
+        "SurfaceTemperature": 363.0,
+        "Luminosity": "V",
+        "SemiMajorAxis": 869572979.211807,
+        "Eccentricity": 0.024453,
+        "OrbitalInclination": 9.012701,
+        "Periapsis": 79.213081,
+        "OrbitalPeriod": 41489465.83271,
+        "RotationPeriod": 76713.19632,
+        "AxialTilt": 1.02869,
+        "Rings": [
+          {
+            "Name": "Tyriedgoea AG-N d7-3 1 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 636550000000.0,
+            "InnerRad": 99559000.0,
+            "OuterRad": 194640000.0
+          },
+          {
+            "Name": "Tyriedgoea AG-N d7-3 1 B Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 6670500000000.0,
+            "InnerRad": 194740000.0,
+            "OuterRad": 575350000.0
+          }
+        ]
+      }
+    ],
+    "planets": []
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-08T071626.01.log",
+      "Journal.2026-02-08T081355.01.log",
+      "Journal.2026-02-08T085918.01.log",
+      "Journal.2026-02-08T111611.01.log",
+      "Journal.2026-02-08T155743.01.log",
+      "Journal.2026-02-08T165846.01.log",
+      "Journal.2026-02-08T222850.01.log",
+      "Journal.2026-02-09T082520.01.log",
+      "Journal.2026-02-09T110234.01.log",
+      "Journal.2026-02-09T151317.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-09T14:58:26Z",
+      "to_utc": "2026-02-09T14:58:37Z"
+    }
+  }
+}

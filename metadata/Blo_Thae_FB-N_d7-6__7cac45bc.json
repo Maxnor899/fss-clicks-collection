@@ -1,0 +1,96 @@
+{
+  "recording": {
+    "audio_file": "Blo_Thae_FB-N_d7-6__7cac45bc.flac",
+    "audio_sha256": "7cac45bc7dc581975434252a23fc72c27edc40cf501a4db0a4abb57863d9199f",
+    "audio_sha256_short": "7cac45bc",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-09T20:30:17+00:00",
+    "duration_s": 51.802
+  },
+  "context": {
+    "system": {
+      "name": "Blo Thae FB-N d7-6",
+      "name_sanitized": "Blo_Thae_FB-N_d7-6",
+      "address": 217894193731,
+      "star_pos": [
+        5979.59375,
+        525.75,
+        2135.71875
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-09T20:27:13Z",
+    "to_utc": "2026-02-09T20:27:23Z",
+    "anchor_timestamp_utc": "2026-02-09T20:27:13Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-09T205244.01.log"
+  },
+  "system_summary": {
+    "body_count": 7,
+    "non_body_signals": 0,
+    "stars_count": 1,
+    "planets_count": null,
+    "landables_count": null,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-09T20:27:18Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae FB-N d7-6",
+        "BodyID": 0,
+        "StarSystem": "Blo Thae FB-N d7-6",
+        "SystemAddress": 217894193731,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "A",
+        "Subclass": 9,
+        "StellarMass": 1.765625,
+        "Radius": 1007316096.0,
+        "AbsoluteMagnitude": 2.794449,
+        "Age_MY": 1606,
+        "SurfaceTemperature": 7671.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 59708.799554,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": []
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-08T085918.01.log",
+      "Journal.2026-02-08T111611.01.log",
+      "Journal.2026-02-08T155743.01.log",
+      "Journal.2026-02-08T165846.01.log",
+      "Journal.2026-02-08T222850.01.log",
+      "Journal.2026-02-09T082520.01.log",
+      "Journal.2026-02-09T110234.01.log",
+      "Journal.2026-02-09T151317.01.log",
+      "Journal.2026-02-09T174314.01.log",
+      "Journal.2026-02-09T205244.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-09T20:27:13Z",
+      "to_utc": "2026-02-09T20:27:23Z"
+    }
+  }
+}

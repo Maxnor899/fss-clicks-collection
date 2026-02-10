@@ -220,6 +220,7 @@ the fit starts to converge.
 - **Model A failing but B/C stable** -> spatial signal exists but is modulated.
 
 A failed model is not a dead end; it is information.
+
 ---
 
 ## Status

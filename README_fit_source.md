@@ -192,13 +192,34 @@ python tools/fit_source.py --min-systems 6
 
 ## How to read the results
 
-- **Unstable source position** → geometry alone is insufficient.
-- **Large gains or penalty fraction (Model B)** → environment dominates.
-- **Coherent covariate signs (Model C)** → systematic astrophysical influence.
-- **Model A failing but B/C stable** → spatial signal exists but is modulated.
+### Source coordinates
+Each model returns a `"source": [x, y, z]` position in light-years,
+in Elite Dangerous galactic coordinates.
+
+**These coordinates are only meaningful if the bootstrap is stable.**
+With few systems, the optimiser will always find a position, but it may
+be physically worthless. Use `dist_nearest_system_ly` as a sanity check:
+if the fitted source is tens of thousands of ly from all your systems, the
+model is likely underconstrained.
+
+Bootstrap stability (LOO spread):
+
+| Spread       | Interpretation                        |
+|--------------|---------------------------------------|
+| < 500 ly     | Stable - position is usable           |
+| 500-1500 ly  | Moderately stable                     |
+| > 1500 ly    | Insufficient data - collect more      |
+
+In practice, 15-20 systems with good galactic coverage are needed before
+the fit starts to converge.
+
+### Other signals
+- **Unstable source position** -> geometry alone is insufficient.
+- **Large gains or penalty fraction (Model B)** -> environment dominates.
+- **Coherent covariate signs (Model C)** -> systematic astrophysical influence.
+- **Model A failing but B/C stable** -> spatial signal exists but is modulated.
 
 A failed model is not a dead end; it is information.
-
 ---
 
 ## Status

@@ -3,7 +3,7 @@
 This document explains how to use `tools/analyze_clicks.py` and what it produces.
 
 The goal of this script is to:
-- detect FSS “ticks” (click-like transients) in ingested FLAC recordings,
+- detect FSS “ticks” in ingested FLAC recordings,
 - identify occurrences of a known **7-tick temporal motif**,
 - compute a **local intensity metric** for motif ticks (tick energy vs local background),
 - export everything in an **audit-friendly** way (timestamps, windows, intermediate values),
@@ -185,3 +185,4 @@ It produces a clean, reproducible dataset suitable for:
 - cross-system comparison,
 - intensity statistics,
 - later spatial or physical hypotheses.
+

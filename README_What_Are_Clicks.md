@@ -38,7 +38,7 @@ At this point:
 
 - You may hear the clicks immediately.
 - Or you may need to keep the cursor moving for a short while before they appear.
-- In some cases, the clicks may not appear at all.
+- In most cases, the clicks may not appear at all.
 
 ---
 

@@ -1,0 +1,934 @@
+{
+  "recording": {
+    "audio_file": "IC_2944_Sector_WZ-W_d2-4__2bc14b87.flac",
+    "audio_sha256": "2bc14b8742f4a7392657e3acc56e75e7b8c6299af2c9193502f9bc4d95094b22",
+    "audio_sha256_short": "2bc14b87",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-10T20:21:56+00:00",
+    "duration_s": 51.592
+  },
+  "context": {
+    "system": {
+      "name": "IC 2944 Sector WZ-W d2-4",
+      "name_sanitized": "IC_2944_Sector_WZ-W_d2-4",
+      "address": 149040433723,
+      "star_pos": [
+        5309.6875,
+        171.59375,
+        2079.53125
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-10T20:18:52Z",
+    "to_utc": "2026-02-10T20:21:20Z",
+    "anchor_timestamp_utc": "2026-02-10T20:18:52Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-10T202414.01.log"
+  },
+  "system_summary": {
+    "body_count": 14,
+    "non_body_signals": 0,
+    "stars_count": 2,
+    "planets_count": 12,
+    "landables_count": 4,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-10T20:18:57Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 A",
+        "BodyID": 1,
+        "Parents": [
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "F",
+        "Subclass": 0,
+        "StellarMass": 1.417969,
+        "Radius": 846154816.0,
+        "AbsoluteMagnitude": 3.293686,
+        "Age_MY": 1764,
+        "SurfaceTemperature": 7461.0,
+        "Luminosity": "VI",
+        "SemiMajorAxis": 16713870167732.238,
+        "Eccentricity": 0.14673,
+        "OrbitalInclination": -39.243389,
+        "Periapsis": 139.577238,
+        "OrbitalPeriod": 181047940254.21143,
+        "RotationPeriod": 148688.131582,
+        "AxialTilt": 0.0
+      },
+      {
+        "timestamp": "2026-02-10T20:18:58Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 B",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 229604.36313,
+        "StarType": "K",
+        "Subclass": 9,
+        "StellarMass": 0.546875,
+        "Radius": 469963360.0,
+        "AbsoluteMagnitude": 7.58255,
+        "Age_MY": 1764,
+        "SurfaceTemperature": 3730.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 43337153196334.836,
+        "Eccentricity": 0.14673,
+        "OrbitalInclination": -39.243389,
+        "Periapsis": 319.577233,
+        "OrbitalPeriod": 181047940254.21143,
+        "RotationPeriod": 254207.617055,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-10T20:20:46Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 A 1",
+        "BodyID": 3,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 868.394767,
+        "TerraformState": "Terraformable",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "hot thick carbon dioxide atmosphere",
+        "AtmosphereType": "CarbonDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 99.009689
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 0.990097
+          }
+        ],
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.763294,
+        "Radius": 5609176.0,
+        "SurfaceGravity": 9.669486,
+        "SurfaceTemperature": 829.498962,
+        "SurfacePressure": 13524306.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.670902,
+          "Metal": 0.329098
+        },
+        "SemiMajorAxis": 260419636964.79797,
+        "Eccentricity": 0.000397,
+        "OrbitalInclination": 0.015014,
+        "Periapsis": 133.661334,
+        "OrbitalPeriod": 60863044.857979,
+        "RotationPeriod": 136396.512543,
+        "AxialTilt": -3.125543
+      },
+      {
+        "timestamp": "2026-02-10T20:20:50Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 A 1 a",
+        "BodyID": 4,
+        "Parents": [
+          {
+            "Planet": 3
+          },
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 868.12141,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.012772,
+        "Radius": 1609245.0,
+        "SurfaceGravity": 1.965723,
+        "SurfaceTemperature": 276.614716,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.216194
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 17.313662
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 14.558994
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.534325
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.320918
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.64216
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.936092
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.222242
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.313324
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.254806
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.687286
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.862312,
+          "Metal": 0.137688
+        },
+        "SemiMajorAxis": 273649603.128433,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": 70.402919,
+        "Periapsis": 161.6399,
+        "OrbitalPeriod": 1617198.705673,
+        "RotationPeriod": 1630672.646345,
+        "AxialTilt": -0.224822
+      },
+      {
+        "timestamp": "2026-02-10T20:20:59Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 A 2",
+        "BodyID": 5,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 1206.153349,
+        "TerraformState": "Terraformable",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "nitrogen atmosphere",
+        "AtmosphereType": "Nitrogen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 99.924644
+          },
+          {
+            "Name": "Water",
+            "Percent": 0.068079
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.356721,
+        "Radius": 4446180.0,
+        "SurfaceGravity": 7.192236,
+        "SurfaceTemperature": 279.99057,
+        "SurfacePressure": 247553.40625,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.672444,
+          "Metal": 0.327556
+        },
+        "SemiMajorAxis": 361553382873.53516,
+        "Eccentricity": 0.000123,
+        "OrbitalInclination": 0.026213,
+        "Periapsis": 204.778036,
+        "OrbitalPeriod": 99563862.681389,
+        "RotationPeriod": 116373.630782,
+        "AxialTilt": -2.339651
+      },
+      {
+        "timestamp": "2026-02-10T20:20:55Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 A 2 a",
+        "BodyID": 6,
+        "Parents": [
+          {
+            "Planet": 5
+          },
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 1206.600602,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.003048,
+        "Radius": 1004856.9375,
+        "SurfaceGravity": 1.203131,
+        "SurfaceTemperature": 235.763062,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.750143
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 19.596741
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 16.478828
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.450899
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 10.550029
+          },
+          {
+            "Name": "germanium",
+            "Percent": 5.801154
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.067056
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 2.52564
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.486506
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.34321
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.949793
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.862312,
+          "Metal": 0.137688
+        },
+        "SemiMajorAxis": 508742243.051529,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": 65.05692,
+        "Periapsis": 86.674797,
+        "OrbitalPeriod": 6020817.45863,
+        "RotationPeriod": 251729.411945,
+        "AxialTilt": -0.498051
+      },
+      {
+        "timestamp": "2026-02-10T20:20:37Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 A 3",
+        "BodyID": 7,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 1556.734099,
+        "TerraformState": "Terraformable",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "nitrogen atmosphere",
+        "AtmosphereType": "Nitrogen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 99.980278
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.288403,
+        "Radius": 4147683.5,
+        "SurfaceGravity": 6.681859,
+        "SurfaceTemperature": 217.141739,
+        "SurfacePressure": 137168.265625,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.660394,
+          "Metal": 0.339606
+        },
+        "SemiMajorAxis": 466675353050.23193,
+        "Eccentricity": 4.8e-05,
+        "OrbitalInclination": -0.099124,
+        "Periapsis": 268.979174,
+        "OrbitalPeriod": 146004205.942154,
+        "RotationPeriod": 154094.114863,
+        "AxialTilt": -1.424678
+      },
+      {
+        "timestamp": "2026-02-10T20:20:40Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 A 3 a",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Planet": 7
+          },
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 1557.631407,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.020918,
+        "Radius": 1890596.5,
+        "SurfaceGravity": 2.332501,
+        "SurfaceTemperature": 208.310852,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.211372
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 17.309258
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 14.555292
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.530677
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.318547
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.639992
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.9341
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.220932
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.254491
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.186425
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.838929
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.86231,
+          "Metal": 0.13769
+        },
+        "SemiMajorAxis": 496367740.631104,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": 66.248996,
+        "Periapsis": 21.093953,
+        "OrbitalPeriod": 6257802.48642,
+        "RotationPeriod": 6480765.970566,
+        "AxialTilt": 0.294103
+      },
+      {
+        "timestamp": "2026-02-10T20:21:18Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 A 4",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 1972.110701,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "nitrogen atmosphere",
+        "AtmosphereType": "Nitrogen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 83.946381
+          },
+          {
+            "Name": "Oxygen",
+            "Percent": 13.563378
+          },
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 2.432783
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.382986,
+        "Radius": 4529940.0,
+        "SurfaceGravity": 7.438884,
+        "SurfaceTemperature": 226.801514,
+        "SurfacePressure": 67264.429688,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.660698,
+          "Metal": 0.339302
+        },
+        "SemiMajorAxis": 591615068912.5061,
+        "Eccentricity": 0.000663,
+        "OrbitalInclination": -0.457446,
+        "Periapsis": 138.995948,
+        "OrbitalPeriod": 208401989.936829,
+        "RotationPeriod": 115147.506332,
+        "AxialTilt": 2.685398
+      },
+      {
+        "timestamp": "2026-02-10T20:21:15Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 A 4 a",
+        "BodyID": 10,
+        "Parents": [
+          {
+            "Planet": 9
+          },
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 1973.977588,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.027151,
+        "Radius": 2058139.375,
+        "SurfaceGravity": 2.554744,
+        "SurfaceTemperature": 185.752686,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.656094
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 17.709885
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 14.892178
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.867046
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.534227
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.839998
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.34179
+          },
+          {
+            "Name": "germanium",
+            "Percent": 5.242595
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.526385
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.215777
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 1.174035
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.862307,
+          "Metal": 0.137693
+        },
+        "SemiMajorAxis": 566462838.64975,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": -12.144145,
+        "Periapsis": 279.809259,
+        "OrbitalPeriod": 6625414.073467,
+        "RotationPeriod": 6856241.534383,
+        "AxialTilt": -0.001946
+      },
+      {
+        "timestamp": "2026-02-10T20:21:08Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 A 5",
+        "BodyID": 11,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 2602.5565,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "carbon dioxide atmosphere",
+        "AtmosphereType": "CarbonDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 75.548767
+          },
+          {
+            "Name": "Oxygen",
+            "Percent": 23.61104
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 0.808116
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.180629,
+        "Radius": 3595309.75,
+        "SurfaceGravity": 5.569608,
+        "SurfaceTemperature": 236.71077,
+        "SurfacePressure": 30032.904297,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.674044,
+          "Metal": 0.325956
+        },
+        "SemiMajorAxis": 783522886037.8265,
+        "Eccentricity": 0.004223,
+        "OrbitalInclination": -0.010434,
+        "Periapsis": 288.090501,
+        "OrbitalPeriod": 317629325.389862,
+        "RotationPeriod": 112665.144384,
+        "AxialTilt": 0.165888
+      },
+      {
+        "timestamp": "2026-02-10T20:20:31Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 A 6",
+        "BodyID": 12,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 3671.564816,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "nitrogen atmosphere",
+        "AtmosphereType": "Nitrogen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 87.902672
+          },
+          {
+            "Name": "Oxygen",
+            "Percent": 12.057274
+          }
+        ],
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.858572,
+        "Radius": 5767060.5,
+        "SurfaceGravity": 10.289095,
+        "SurfaceTemperature": 153.491364,
+        "SurfacePressure": 182940.25,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.64445,
+          "Metal": 0.35555
+        },
+        "SemiMajorAxis": 1102602899074.5544,
+        "Eccentricity": 0.002141,
+        "OrbitalInclination": 0.147785,
+        "Periapsis": 189.995652,
+        "OrbitalPeriod": 530239129.066467,
+        "RotationPeriod": 193952.114421,
+        "AxialTilt": 0.487587
+      },
+      {
+        "timestamp": "2026-02-10T20:20:27Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 A 7",
+        "BodyID": 13,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 4694.091929,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick methane rich atmosphere",
+        "AtmosphereType": "MethaneRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 95.508072
+          },
+          {
+            "Name": "Methane",
+            "Percent": 3.136164
+          },
+          {
+            "Name": "Argon",
+            "Percent": 0.955081
+          }
+        ],
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.105358,
+        "Radius": 8019912.5,
+        "SurfaceGravity": 6.849727,
+        "SurfaceTemperature": 355.076019,
+        "SurfacePressure": 205046320.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.684363,
+          "Rock": 0.212753,
+          "Metal": 0.102883
+        },
+        "SemiMajorAxis": 1407840192317.9626,
+        "Eccentricity": 0.00308,
+        "OrbitalInclination": 2.661076,
+        "Periapsis": 209.352576,
+        "OrbitalPeriod": 765020608.901978,
+        "RotationPeriod": 122786.500592,
+        "AxialTilt": -0.149529
+      },
+      {
+        "timestamp": "2026-02-10T20:21:04Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector WZ-W d2-4 A 8",
+        "BodyID": 14,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector WZ-W d2-4",
+        "SystemAddress": 149040433723,
+        "DistanceFromArrivalLS": 6421.812045,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick methane rich atmosphere",
+        "AtmosphereType": "MethaneRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 93.671783
+          },
+          {
+            "Name": "Methane",
+            "Percent": 5.205154
+          },
+          {
+            "Name": "Argon",
+            "Percent": 0.936718
+          }
+        ],
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.091264,
+        "Radius": 7989168.5,
+        "SurfaceGravity": 6.814532,
+        "SurfaceTemperature": 323.873016,
+        "SurfacePressure": 206923024.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.684363,
+          "Rock": 0.212753,
+          "Metal": 0.102883
+        },
+        "SemiMajorAxis": 1910088181495.6665,
+        "Eccentricity": 0.01709,
+        "OrbitalInclination": -0.401931,
+        "Periapsis": 282.143572,
+        "OrbitalPeriod": 1208991408.348083,
+        "RotationPeriod": 36554.337633,
+        "AxialTilt": 0.265309
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-08T111611.01.log",
+      "Journal.2026-02-08T155743.01.log",
+      "Journal.2026-02-08T165846.01.log",
+      "Journal.2026-02-08T222850.01.log",
+      "Journal.2026-02-09T082520.01.log",
+      "Journal.2026-02-09T110234.01.log",
+      "Journal.2026-02-09T151317.01.log",
+      "Journal.2026-02-09T174314.01.log",
+      "Journal.2026-02-09T205244.01.log",
+      "Journal.2026-02-10T202414.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-10T20:18:52Z",
+      "to_utc": "2026-02-10T20:21:20Z"
+    }
+  }
+}

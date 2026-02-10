@@ -1,0 +1,1718 @@
+{
+  "recording": {
+    "audio_file": "Blo_Thae_TA-C_c14-1__235573e3.flac",
+    "audio_sha256": "235573e3c191185edb9c78e7df1c89b951825fa3b7d6615610ae8e250d0b2115",
+    "audio_sha256_short": "235573e3",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-10T19:51:54+00:00",
+    "duration_s": 56.371
+  },
+  "context": {
+    "system": {
+      "name": "Blo Thae TA-C c14-1",
+      "name_sanitized": "Blo_Thae_TA-C_c14-1",
+      "address": 367991886970,
+      "star_pos": [
+        5526.84375,
+        514.71875,
+        2129.5
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-10T19:47:07Z",
+    "to_utc": "2026-02-10T19:51:41Z",
+    "anchor_timestamp_utc": "2026-02-10T19:47:07Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-10T202414.01.log"
+  },
+  "system_summary": {
+    "body_count": 25,
+    "non_body_signals": 6,
+    "stars_count": 2,
+    "planets_count": 23,
+    "landables_count": 8,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-10T19:47:12Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 A",
+        "BodyID": 1,
+        "Parents": [
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 7,
+        "StellarMass": 0.570313,
+        "Radius": 461537088.0,
+        "AbsoluteMagnitude": 7.221619,
+        "Age_MY": 12760,
+        "SurfaceTemperature": 4090.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 15829674005508.422,
+        "Eccentricity": 0.149334,
+        "OrbitalInclination": 59.047658,
+        "Periapsis": 160.020609,
+        "OrbitalPeriod": 161974972486.49597,
+        "RotationPeriod": 338074.06536,
+        "AxialTilt": 0.0,
+        "Rings": [
+          {
+            "Name": "Blo Thae TA-C c14-1 A A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 1126700000.0,
+            "InnerRad": 761540000.0,
+            "OuterRad": 2091200000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-02-10T19:47:13Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 130131.11853,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.332031,
+        "Radius": 368423104.0,
+        "AbsoluteMagnitude": 9.43692,
+        "Age_MY": 12760,
+        "SurfaceTemperature": 2749.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 27189015150070.19,
+        "Eccentricity": 0.149334,
+        "OrbitalInclination": 59.047658,
+        "Periapsis": 340.020604,
+        "OrbitalPeriod": 161974972486.49597,
+        "RotationPeriod": 183684.863448,
+        "AxialTilt": 0.0,
+        "Rings": [
+          {
+            "Name": "Blo Thae TA-C c14-1 B A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 166170.0,
+            "InnerRad": 607900000.0,
+            "OuterRad": 1754800000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-10T19:51:37Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 A 1",
+        "BodyID": 7,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 281.800702,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "thick argon rich atmosphere",
+        "AtmosphereType": "ArgonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 95.760521
+          },
+          {
+            "Name": "Argon",
+            "Percent": 3.182366
+          },
+          {
+            "Name": "Oxygen",
+            "Percent": 0.831021
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.853791,
+        "Radius": 5802139.0,
+        "SurfaceGravity": 10.108456,
+        "SurfaceTemperature": 234.872086,
+        "SurfacePressure": 1689999.125,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.008624,
+          "Rock": 0.6527,
+          "Metal": 0.338676
+        },
+        "SemiMajorAxis": 84500026702.88086,
+        "Eccentricity": 0.000289,
+        "OrbitalInclination": -0.36063,
+        "Periapsis": 177.0161,
+        "OrbitalPeriod": 17736964.225769,
+        "RotationPeriod": 104168.424582,
+        "AxialTilt": -2.590406
+      },
+      {
+        "timestamp": "2026-02-10T19:49:20Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 A 2",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 420.545774,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick ammonia rich atmosphere",
+        "AtmosphereType": "AmmoniaRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 89.007797
+          },
+          {
+            "Name": "Ammonia",
+            "Percent": 9.691802
+          },
+          {
+            "Name": "Argon",
+            "Percent": 0.890078
+          }
+        ],
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.473787,
+        "Radius": 8399854.0,
+        "SurfaceGravity": 8.325313,
+        "SurfaceTemperature": 424.828278,
+        "SurfacePressure": 266197600.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.560496,
+          "Rock": 0.295582,
+          "Metal": 0.143922
+        },
+        "SemiMajorAxis": 126073360443.11523,
+        "Eccentricity": 3.9e-05,
+        "OrbitalInclination": -0.006105,
+        "Periapsis": 21.620329,
+        "OrbitalPeriod": 32324288.487434,
+        "RotationPeriod": 220781.416763,
+        "AxialTilt": 0.015257
+      },
+      {
+        "timestamp": "2026-02-10T19:51:18Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 A 3",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 519.111678,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class I gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 74.58696
+          },
+          {
+            "Name": "Helium",
+            "Percent": 25.413036
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 3.565663,
+        "Radius": 18397824.0,
+        "SurfaceGravity": 4.198719,
+        "SurfaceTemperature": 144.009644,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 155631840229.03442,
+        "Eccentricity": 0.000548,
+        "OrbitalInclination": -0.000594,
+        "Periapsis": 319.33416,
+        "OrbitalPeriod": 44334488.511086,
+        "RotationPeriod": 44299156.53815,
+        "AxialTilt": 0.368973
+      },
+      {
+        "timestamp": "2026-02-10T19:51:23Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 A 3 a",
+        "BodyID": 10,
+        "Parents": [
+          {
+            "Planet": 9
+          },
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 517.77329,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000293,
+        "Radius": 587743.1875,
+        "SurfaceGravity": 0.338545,
+        "SurfaceTemperature": 129.783752,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.592737
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.361738
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.316368
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 11.912218
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.009902
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.35732
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 4.919624
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.453694
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 0.711502
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.7108
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.6541
+          }
+        ],
+        "Composition": {
+          "Ice": 0.825116,
+          "Rock": 0.159365,
+          "Metal": 0.015519
+        },
+        "SemiMajorAxis": 443966132.40242,
+        "Eccentricity": 0.000169,
+        "OrbitalInclination": 0.058867,
+        "Periapsis": 28.976217,
+        "OrbitalPeriod": 1558927.178383,
+        "RotationPeriod": 1559104.448531,
+        "AxialTilt": 0.26342
+      },
+      {
+        "timestamp": "2026-02-10T19:51:27Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 A 3 b",
+        "BodyID": 11,
+        "Parents": [
+          {
+            "Planet": 9
+          },
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 519.310083,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000317,
+        "Radius": 603127.6875,
+        "SurfaceGravity": 0.347515,
+        "SurfaceTemperature": 129.779709,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.900949
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 23.461807
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 15.020652
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.498231
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.453138
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.366735
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 3.06913
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.620521
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 0.938519
+          },
+          {
+            "Name": "niobium",
+            "Percent": 0.854187
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.816127
+          }
+        ],
+        "Composition": {
+          "Ice": 0.825116,
+          "Rock": 0.159365,
+          "Metal": 0.015519
+        },
+        "SemiMajorAxis": 784030896.425247,
+        "Eccentricity": 0.000265,
+        "OrbitalInclination": 0.027256,
+        "Periapsis": 147.330582,
+        "OrbitalPeriod": 3658480.763435,
+        "RotationPeriod": 3658896.668247,
+        "AxialTilt": -0.39026
+      },
+      {
+        "timestamp": "2026-02-10T19:51:06Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 A 4",
+        "BodyID": 12,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 712.169743,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "hot thick methane rich atmosphere",
+        "AtmosphereType": "MethaneRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Ammonia",
+            "Percent": 33.145893
+          },
+          {
+            "Name": "Methane",
+            "Percent": 33.145893
+          },
+          {
+            "Name": "Nitrogen",
+            "Percent": 33.145893
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 3.515624,
+        "Radius": 11238440.0,
+        "SurfaceGravity": 11.094296,
+        "SurfaceTemperature": 638.997192,
+        "SurfacePressure": 1550227584.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.684489,
+          "Rock": 0.211528,
+          "Metal": 0.102996
+        },
+        "SemiMajorAxis": 213611543178.55835,
+        "Eccentricity": 0.000816,
+        "OrbitalInclination": -0.004453,
+        "Periapsis": 266.609375,
+        "OrbitalPeriod": 71290410.161018,
+        "RotationPeriod": 51970.009927,
+        "AxialTilt": 0.494102,
+        "Rings": [
+          {
+            "Name": "Blo Thae TA-C c14-1 A 4 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 5949200000.0,
+            "InnerRad": 22416000.0,
+            "OuterRad": 52935000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-02-10T19:49:59Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 1",
+        "BodyID": 18,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 130124.999842,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002489,
+        "Radius": 894127.9375,
+        "SurfaceGravity": 1.241035,
+        "SurfaceTemperature": 534.168823,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.761047
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.459145
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 15.491188
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 13.026484
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.786665
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.339778
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.913838
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.343756
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.689844
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.40995
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.778305
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.672528,
+          "Metal": 0.327472
+        },
+        "SemiMajorAxis": 4141945242.881775,
+        "Eccentricity": 1.6e-05,
+        "OrbitalInclination": -7.7e-05,
+        "Periapsis": 134.867952,
+        "OrbitalPeriod": 252267.473936,
+        "RotationPeriod": 244667.802894,
+        "AxialTilt": 0.069101
+      },
+      {
+        "timestamp": "2026-02-10T19:50:56Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 10",
+        "BodyID": 31,
+        "Parents": [
+          {
+            "Null": 29
+          },
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 129842.735673,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick argon rich atmosphere",
+        "AtmosphereType": "ArgonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 99.656883
+          },
+          {
+            "Name": "Argon",
+            "Percent": 0.33277
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.420398,
+        "Radius": 5901101.5,
+        "SurfaceGravity": 4.811754,
+        "SurfaceTemperature": 102.468086,
+        "SurfacePressure": 2739698.25,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.6456,
+          "Rock": 0.238344,
+          "Metal": 0.116055
+        },
+        "SemiMajorAxis": 267674779.891968,
+        "Eccentricity": 0.087887,
+        "OrbitalInclination": 4.164863,
+        "Periapsis": 146.793575,
+        "OrbitalPeriod": 3784288.525581,
+        "RotationPeriod": 5200578.945239,
+        "AxialTilt": 0.367397
+      },
+      {
+        "timestamp": "2026-02-10T19:49:25Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 11",
+        "BodyID": 32,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 130566.944287,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick methane atmosphere",
+        "AtmosphereType": "Methane",
+        "AtmosphereComposition": [
+          {
+            "Name": "Methane",
+            "Percent": 49.580406
+          },
+          {
+            "Name": "Nitrogen",
+            "Percent": 49.580406
+          },
+          {
+            "Name": "Argon",
+            "Percent": 0.495804
+          }
+        ],
+        "Volcanism": "carbon dioxide geysers volcanism",
+        "MassEM": 1.595026,
+        "Radius": 8942863.0,
+        "SurfaceGravity": 7.949209,
+        "SurfaceTemperature": 394.321838,
+        "SurfacePressure": 532590208.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.685167,
+          "Rock": 0.211735,
+          "Metal": 0.103098
+        },
+        "SemiMajorAxis": 179048538208.0078,
+        "Eccentricity": 0.000475,
+        "OrbitalInclination": 0.539107,
+        "Periapsis": 111.531084,
+        "OrbitalPeriod": 71698653.101921,
+        "RotationPeriod": 62593.811614,
+        "AxialTilt": -0.006285
+      },
+      {
+        "timestamp": "2026-02-10T19:49:28Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 12",
+        "BodyID": 33,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 130673.004631,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 76.568741
+          },
+          {
+            "Name": "Nitrogen",
+            "Percent": 21.209402
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.221856
+          }
+        ],
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 1.269938,
+        "Radius": 8360154.0,
+        "SurfaceGravity": 7.242084,
+        "SurfaceTemperature": 68.429588,
+        "SurfacePressure": 28803.765625,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.685167,
+          "Rock": 0.211735,
+          "Metal": 0.103098
+        },
+        "SemiMajorAxis": 246655166149.1394,
+        "Eccentricity": 2.7e-05,
+        "OrbitalInclination": -0.03336,
+        "Periapsis": 269.972304,
+        "OrbitalPeriod": 115928471.088409,
+        "RotationPeriod": 79371.61323,
+        "AxialTilt": -0.211564
+      },
+      {
+        "timestamp": "2026-02-10T19:51:00Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 13",
+        "BodyID": 34,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 130062.386879,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 97.556892
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.443105
+          }
+        ],
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 1.256302,
+        "Radius": 8333357.0,
+        "SurfaceGravity": 7.210468,
+        "SurfaceTemperature": 58.745106,
+        "SurfacePressure": 25967.0625,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.685167,
+          "Rock": 0.211735,
+          "Metal": 0.103098
+        },
+        "SemiMajorAxis": 345409572124.4812,
+        "Eccentricity": 0.002296,
+        "OrbitalInclination": -0.00428,
+        "Periapsis": 266.601732,
+        "OrbitalPeriod": 192112833.26149,
+        "RotationPeriod": 91968.225438,
+        "AxialTilt": -0.054338
+      },
+      {
+        "timestamp": "2026-02-10T19:49:31Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 14",
+        "BodyID": 35,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 129439.554074,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 97.556892
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.443105
+          }
+        ],
+        "Volcanism": "carbon dioxide geysers volcanism",
+        "MassEM": 1.608213,
+        "Radius": 8964885.0,
+        "SurfaceGravity": 7.975603,
+        "SurfaceTemperature": 46.073689,
+        "SurfacePressure": 31769.550781,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.685148,
+          "Rock": 0.211731,
+          "Metal": 0.103096
+        },
+        "SemiMajorAxis": 612478435039.5203,
+        "Eccentricity": 0.019272,
+        "OrbitalInclination": 0.790294,
+        "Periapsis": 179.296598,
+        "OrbitalPeriod": 453618741.035461,
+        "RotationPeriod": 157006.955781,
+        "AxialTilt": -0.275081,
+        "Rings": [
+          {
+            "Name": "Blo Thae TA-C c14-1 B 14 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 30459000.0,
+            "InnerRad": 15178000.0,
+            "OuterRad": 40787000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-02-10T19:50:34Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 2",
+        "BodyID": 19,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 130145.303368,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.003637,
+        "Radius": 1013241.5625,
+        "SurfaceGravity": 1.412085,
+        "SurfaceTemperature": 452.320465,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 23.012062
+          },
+          {
+            "Name": "nickel",
+            "Percent": 17.405359
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 16.381756
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 13.775359
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 9.503747
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.819221
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.844729
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 2.166629
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.572752
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.263593
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 1.254795
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.672528,
+          "Metal": 0.327472
+        },
+        "SemiMajorAxis": 5776742696.762085,
+        "Eccentricity": 2e-06,
+        "OrbitalInclination": -0.002287,
+        "Periapsis": 41.052104,
+        "OrbitalPeriod": 415507.930517,
+        "RotationPeriod": 406530.336864,
+        "AxialTilt": 0.345167
+      },
+      {
+        "timestamp": "2026-02-10T19:49:53Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 3",
+        "BodyID": 20,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 130184.05714,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "hot water atmosphere",
+        "AtmosphereType": "Water",
+        "AtmosphereComposition": [
+          {
+            "Name": "Water",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.037766,
+        "Radius": 2178067.25,
+        "SurfaceGravity": 3.17297,
+        "SurfaceTemperature": 622.941223,
+        "SurfacePressure": 268843.75,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.672528,
+          "Metal": 0.327472
+        },
+        "SemiMajorAxis": 18328231573.10486,
+        "Eccentricity": 1e-05,
+        "OrbitalInclination": 0.109772,
+        "Periapsis": 186.947247,
+        "OrbitalPeriod": 2348202.764988,
+        "RotationPeriod": 2332312.574461,
+        "AxialTilt": -0.263892
+      },
+      {
+        "timestamp": "2026-02-10T19:50:14Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 4",
+        "BodyID": 21,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 130222.209447,
+        "TerraformState": "Terraformable",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "thin sulfur dioxide atmosphere",
+        "AtmosphereType": "SulphurDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.08245,
+        "Radius": 2788126.75,
+        "SurfaceGravity": 4.227398,
+        "SurfaceTemperature": 211.775314,
+        "SurfacePressure": 250.414154,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.952148
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.603685
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 15.373331
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.927381
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.87261
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 9.066013
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.276331
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 2.033257
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.500312
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.433463
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.961468
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.656399,
+          "Metal": 0.343601
+        },
+        "SemiMajorAxis": 27389645576.47705,
+        "Eccentricity": 3e-06,
+        "OrbitalInclination": 0.151989,
+        "Periapsis": 319.161424,
+        "OrbitalPeriod": 4289774.119854,
+        "RotationPeriod": 4270464.815538,
+        "AxialTilt": -0.137752
+      },
+      {
+        "timestamp": "2026-02-10T19:50:10Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 4 a",
+        "BodyID": 22,
+        "Parents": [
+          {
+            "Planet": 21
+          },
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 130222.34219,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.007038,
+        "Radius": 1323306.375,
+        "SurfaceGravity": 1.601833,
+        "SurfaceTemperature": 211.151596,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 20.482828
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.386457
+          },
+          {
+            "Name": "nickel",
+            "Percent": 15.492352
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.461106
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.898466
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.211807
+          },
+          {
+            "Name": "germanium",
+            "Percent": 5.437599
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.877636
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.124713
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.894451
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.732588
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.861487,
+          "Metal": 0.138513
+        },
+        "SemiMajorAxis": 52591796.517372,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": -41.521925,
+        "Periapsis": 29.03024,
+        "OrbitalPeriod": 401251.685619,
+        "RotationPeriod": 418025.953206,
+        "AxialTilt": -0.229963
+      },
+      {
+        "timestamp": "2026-02-10T19:50:18Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 5",
+        "BodyID": 23,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 130011.241691,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "carbon dioxide atmosphere",
+        "AtmosphereType": "CarbonDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 97.967926
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 2.032065
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.116178,
+        "Radius": 3124738.75,
+        "SurfaceGravity": 4.742489,
+        "SurfaceTemperature": 257.448425,
+        "SurfacePressure": 15890.220703,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.672528,
+          "Metal": 0.327472
+        },
+        "SemiMajorAxis": 35964244604.11072,
+        "Eccentricity": 0.000261,
+        "OrbitalInclination": 0.027771,
+        "Periapsis": 75.903278,
+        "OrbitalPeriod": 6454479.336739,
+        "RotationPeriod": 6432479.246124,
+        "AxialTilt": -0.483355
+      },
+      {
+        "timestamp": "2026-02-10T19:49:40Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 6",
+        "BodyID": 24,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 130295.940553,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "carbon dioxide atmosphere",
+        "AtmosphereType": "CarbonDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 99.009911
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 0.990099
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.123377,
+        "Radius": 3185074.0,
+        "SurfaceGravity": 4.847354,
+        "SurfaceTemperature": 232.180618,
+        "SurfacePressure": 34071.070313,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.672528,
+          "Metal": 0.327472
+        },
+        "SemiMajorAxis": 52189612388.61084,
+        "Eccentricity": 2.6e-05,
+        "OrbitalInclination": 0.244311,
+        "Periapsis": 65.290673,
+        "OrbitalPeriod": 11283163.428307,
+        "RotationPeriod": 11256969.914963,
+        "AxialTilt": 0.091253
+      },
+      {
+        "timestamp": "2026-02-10T19:49:45Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 7",
+        "BodyID": 25,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 129996.600123,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "carbon dioxide atmosphere",
+        "AtmosphereType": "CarbonDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 95.4328
+          },
+          {
+            "Name": "Nitrogen",
+            "Percent": 3.611847
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 0.954328
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.284612,
+        "Radius": 4138844.25,
+        "SurfaceGravity": 6.622238,
+        "SurfaceTemperature": 210.5681,
+        "SurfacePressure": 55311.421875,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.667439,
+          "Metal": 0.332561
+        },
+        "SemiMajorAxis": 70852875709.53369,
+        "Eccentricity": 1.8e-05,
+        "OrbitalInclination": -0.018862,
+        "Periapsis": 331.324434,
+        "OrbitalPeriod": 17848060.727119,
+        "RotationPeriod": 17817948.033372,
+        "AxialTilt": 0.823625
+      },
+      {
+        "timestamp": "2026-02-10T19:49:48Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 7 a",
+        "BodyID": 26,
+        "Parents": [
+          {
+            "Planet": 25
+          },
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 129996.444208,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "thin carbon dioxide atmosphere",
+        "AtmosphereType": "CarbonDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 99.009911
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 0.990099
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.007665,
+        "Radius": 1360955.75,
+        "SurfaceGravity": 1.649476,
+        "SurfaceTemperature": 169.710602,
+        "SurfacePressure": 5053.668457,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 20.26342
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.189508
+          },
+          {
+            "Name": "nickel",
+            "Percent": 15.326403
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.295494
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.792437
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.113133
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.506839
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 2.40572
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.573547
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.32319
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 1.21031
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.861487,
+          "Metal": 0.138513
+        },
+        "SemiMajorAxis": 122659480.571747,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": 65.964669,
+        "Periapsis": 96.171283,
+        "OrbitalPeriod": 790814.518929,
+        "RotationPeriod": 801392.964763,
+        "AxialTilt": 0.354795
+      },
+      {
+        "timestamp": "2026-02-10T19:50:42Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 8",
+        "BodyID": 27,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 129833.548068,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick nitrogen atmosphere",
+        "AtmosphereType": "Nitrogen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 99.948372
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.792829,
+        "Radius": 7120319.0,
+        "SurfaceGravity": 6.232895,
+        "SurfaceTemperature": 149.976807,
+        "SurfacePressure": 145675408.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.625485,
+          "Rock": 0.249346,
+          "Metal": 0.125169
+        },
+        "SemiMajorAxis": 96666616201.40076,
+        "Eccentricity": 0.001776,
+        "OrbitalInclination": -0.031487,
+        "Periapsis": 253.631459,
+        "OrbitalPeriod": 28442616.462708,
+        "RotationPeriod": 386679.045069,
+        "AxialTilt": -3.083259
+      },
+      {
+        "timestamp": "2026-02-10T19:50:45Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 8 a",
+        "BodyID": 28,
+        "Parents": [
+          {
+            "Planet": 27
+          },
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 129834.641725,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thin argon atmosphere",
+        "AtmosphereType": "Argon",
+        "AtmosphereComposition": [
+          {
+            "Name": "Argon",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.074907,
+        "Radius": 3656890.5,
+        "SurfaceGravity": 2.232586,
+        "SurfaceTemperature": 103.312019,
+        "SurfacePressure": 2271.748047,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.092154
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.781694
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.58523
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.303221
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.305641
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.533167
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.343555
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 3.021243
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.761974
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 0.734857
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.537261
+          }
+        ],
+        "Composition": {
+          "Ice": 0.858499,
+          "Rock": 0.121901,
+          "Metal": 0.0196
+        },
+        "SemiMajorAxis": 336259204.149246,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": -29.954519,
+        "Periapsis": 7.570623,
+        "OrbitalPeriod": 2083233.833313,
+        "RotationPeriod": 2179426.048512,
+        "AxialTilt": -0.131878
+      },
+      {
+        "timestamp": "2026-02-10T19:50:53Z",
+        "event": "Scan",
+        "BodyName": "Blo Thae TA-C c14-1 B 9",
+        "BodyID": 30,
+        "Parents": [
+          {
+            "Null": 29
+          },
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blo Thae TA-C c14-1",
+        "SystemAddress": 367991886970,
+        "DistanceFromArrivalLS": 129841.26778,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick nitrogen atmosphere",
+        "AtmosphereType": "Nitrogen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 99.946777
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.473113,
+        "Radius": 6120766.0,
+        "SurfaceGravity": 5.033413,
+        "SurfaceTemperature": 141.589874,
+        "SurfacePressure": 25351578.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.6456,
+          "Rock": 0.238344,
+          "Metal": 0.116055
+        },
+        "SemiMajorAxis": 237849837.54158,
+        "Eccentricity": 0.087887,
+        "OrbitalInclination": 4.164863,
+        "Periapsis": 326.79357,
+        "OrbitalPeriod": 3784288.525581,
+        "RotationPeriod": 5517012.172649,
+        "AxialTilt": -0.250757
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-08T111611.01.log",
+      "Journal.2026-02-08T155743.01.log",
+      "Journal.2026-02-08T165846.01.log",
+      "Journal.2026-02-08T222850.01.log",
+      "Journal.2026-02-09T082520.01.log",
+      "Journal.2026-02-09T110234.01.log",
+      "Journal.2026-02-09T151317.01.log",
+      "Journal.2026-02-09T174314.01.log",
+      "Journal.2026-02-09T205244.01.log",
+      "Journal.2026-02-10T202414.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-10T19:47:07Z",
+      "to_utc": "2026-02-10T19:51:41Z"
+    }
+  }
+}

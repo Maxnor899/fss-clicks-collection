@@ -1,0 +1,556 @@
+{
+  "recording": {
+    "audio_file": "Swoidai_IQ-W_b21-0__47e6455e.flac",
+    "audio_sha256": "47e6455ef31b7e55b8c7d26fe68dfb30544ddd62ef3eb062ca03672089ca7a6f",
+    "audio_sha256_short": "47e6455e",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-11T13:06:57+00:00",
+    "duration_s": 44.911
+  },
+  "context": {
+    "system": {
+      "name": "Swoidai IQ-W b21-0",
+      "name_sanitized": "Swoidai_IQ-W_b21-0",
+      "address": 741015758521,
+      "star_pos": [
+        5219.5625,
+        -119.0625,
+        683.65625
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-11T13:03:20Z",
+    "to_utc": "2026-02-11T13:05:48Z",
+    "anchor_timestamp_utc": "2026-02-11T13:03:20Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-11T134714.01.log"
+  },
+  "system_summary": {
+    "body_count": 10,
+    "non_body_signals": 0,
+    "stars_count": 1,
+    "planets_count": 9,
+    "landables_count": 0,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-11T13:03:26Z",
+        "event": "Scan",
+        "BodyName": "Swoidai IQ-W b21-0",
+        "BodyID": 0,
+        "StarSystem": "Swoidai IQ-W b21-0",
+        "SystemAddress": 741015758521,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 2,
+        "StellarMass": 0.441406,
+        "Radius": 434305440.0,
+        "AbsoluteMagnitude": 8.426483,
+        "Age_MY": 6670,
+        "SurfaceTemperature": 3195.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 209663.696835,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-11T13:05:15Z",
+        "event": "Scan",
+        "BodyName": "Swoidai IQ-W b21-0 1",
+        "BodyID": 1,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoidai IQ-W b21-0",
+        "SystemAddress": 741015758521,
+        "DistanceFromArrivalLS": 375.371255,
+        "TerraformState": "",
+        "PlanetClass": "Ammonia world",
+        "Atmosphere": "thick  atmosphere",
+        "AtmosphereType": "AmmoniaOxygen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 73.503441
+          },
+          {
+            "Name": "Argon",
+            "Percent": 23.271914
+          },
+          {
+            "Name": "Oxygen",
+            "Percent": 2.900419
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.997286,
+        "Radius": 6167963.0,
+        "SurfaceGravity": 10.4483,
+        "SurfaceTemperature": 149.260498,
+        "SurfacePressure": 998865.375,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.034908,
+          "Rock": 0.647636,
+          "Metal": 0.317456
+        },
+        "SemiMajorAxis": 112533748149.87183,
+        "Eccentricity": 3e-06,
+        "OrbitalInclination": -0.023065,
+        "Periapsis": 138.558505,
+        "OrbitalPeriod": 30985560.417175,
+        "RotationPeriod": 211610.343491,
+        "AxialTilt": -0.133118
+      },
+      {
+        "timestamp": "2026-02-11T13:05:46Z",
+        "event": "Scan",
+        "BodyName": "Swoidai IQ-W b21-0 2",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoidai IQ-W b21-0",
+        "SystemAddress": 741015758521,
+        "DistanceFromArrivalLS": 535.068654,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "thick methane rich atmosphere",
+        "AtmosphereType": "MethaneRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 85.568146
+          },
+          {
+            "Name": "Methane",
+            "Percent": 12.977679
+          },
+          {
+            "Name": "Argon",
+            "Percent": 0.837695
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.660506,
+        "Radius": 5448424.0,
+        "SurfaceGravity": 8.868385,
+        "SurfaceTemperature": 303.905975,
+        "SurfacePressure": 19991756.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.034908,
+          "Rock": 0.647636,
+          "Metal": 0.317456
+        },
+        "SemiMajorAxis": 160413861274.71924,
+        "Eccentricity": 0.000297,
+        "OrbitalInclination": -0.708361,
+        "Periapsis": 134.26834,
+        "OrbitalPeriod": 52734898.328781,
+        "RotationPeriod": 75559.025923,
+        "AxialTilt": -0.3356
+      },
+      {
+        "timestamp": "2026-02-11T13:05:26Z",
+        "event": "Scan",
+        "BodyName": "Swoidai IQ-W b21-0 3",
+        "BodyID": 4,
+        "Parents": [
+          {
+            "Null": 3
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoidai IQ-W b21-0",
+        "SystemAddress": 741015758521,
+        "DistanceFromArrivalLS": 921.983116,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "argon rich atmosphere",
+        "AtmosphereType": "ArgonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 92.358078
+          },
+          {
+            "Name": "Argon",
+            "Percent": 6.556343
+          },
+          {
+            "Name": "Neon",
+            "Percent": 1.072043
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.872869,
+        "Radius": 9370626.0,
+        "SurfaceGravity": 8.501189,
+        "SurfaceTemperature": 73.138885,
+        "SurfacePressure": 82191.875,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.684605,
+          "Rock": 0.211649,
+          "Metal": 0.103746
+        },
+        "SemiMajorAxis": 485729736.089706,
+        "Eccentricity": 0.171493,
+        "OrbitalInclination": 2.683584,
+        "Periapsis": 12.043608,
+        "OrbitalPeriod": 6750741.004944,
+        "RotationPeriod": 3453514.121248,
+        "AxialTilt": 0.359271
+      },
+      {
+        "timestamp": "2026-02-11T13:05:29Z",
+        "event": "Scan",
+        "BodyName": "Swoidai IQ-W b21-0 4",
+        "BodyID": 5,
+        "Parents": [
+          {
+            "Null": 3
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoidai IQ-W b21-0",
+        "SystemAddress": 741015758521,
+        "DistanceFromArrivalLS": 925.180604,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick methane atmosphere",
+        "AtmosphereType": "Methane",
+        "AtmosphereComposition": [
+          {
+            "Name": "Methane",
+            "Percent": 48.685894
+          },
+          {
+            "Name": "Nitrogen",
+            "Percent": 48.685894
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 1.968498
+          }
+        ],
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.3818,
+        "Radius": 8569907.0,
+        "SurfaceGravity": 7.498982,
+        "SurfaceTemperature": 355.626617,
+        "SurfacePressure": 482281280.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.684605,
+          "Rock": 0.211649,
+          "Metal": 0.103746
+        },
+        "SemiMajorAxis": 658350348.472595,
+        "Eccentricity": 0.171493,
+        "OrbitalInclination": 2.683584,
+        "Periapsis": 192.043596,
+        "OrbitalPeriod": 6750741.004944,
+        "RotationPeriod": 8899207.915145,
+        "AxialTilt": -0.22648
+      },
+      {
+        "timestamp": "2026-02-11T13:05:22Z",
+        "event": "Scan",
+        "BodyName": "Swoidai IQ-W b21-0 5",
+        "BodyID": 6,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoidai IQ-W b21-0",
+        "SystemAddress": 741015758521,
+        "DistanceFromArrivalLS": 1258.854606,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 97.556892
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.443105
+          }
+        ],
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.331134,
+        "Radius": 8475560.0,
+        "SurfaceGravity": 7.385746,
+        "SurfaceTemperature": 61.728249,
+        "SurfacePressure": 27222.513672,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.684605,
+          "Rock": 0.211649,
+          "Metal": 0.103746
+        },
+        "SemiMajorAxis": 377353590726.8524,
+        "Eccentricity": 0.001061,
+        "OrbitalInclination": -0.633273,
+        "Periapsis": 211.075125,
+        "OrbitalPeriod": 190264606.47583,
+        "RotationPeriod": 86173.740274,
+        "AxialTilt": 0.188791
+      },
+      {
+        "timestamp": "2026-02-11T13:05:42Z",
+        "event": "Scan",
+        "BodyName": "Swoidai IQ-W b21-0 6",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Null": 7
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoidai IQ-W b21-0",
+        "SystemAddress": 741015758521,
+        "DistanceFromArrivalLS": 1634.913509,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 97.556892
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.443105
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.729861,
+        "Radius": 9155724.0,
+        "SurfaceGravity": 8.224988,
+        "SurfaceTemperature": 54.209404,
+        "SurfacePressure": 33759.207031,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.684577,
+          "Rock": 0.211667,
+          "Metal": 0.103756
+        },
+        "SemiMajorAxis": 1204555988.311768,
+        "Eccentricity": 0.120449,
+        "OrbitalInclination": -5.462152,
+        "Periapsis": 7.932288,
+        "OrbitalPeriod": 24981018.304825,
+        "RotationPeriod": 83719.584568,
+        "AxialTilt": -0.498382
+      },
+      {
+        "timestamp": "2026-02-11T13:05:36Z",
+        "event": "Scan",
+        "BodyName": "Swoidai IQ-W b21-0 7",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Null": 7
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoidai IQ-W b21-0",
+        "SystemAddress": 741015758521,
+        "DistanceFromArrivalLS": 1639.51961,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 97.556892
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.443105
+          }
+        ],
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.393538,
+        "Radius": 8591313.0,
+        "SurfaceGravity": 7.525044,
+        "SurfaceTemperature": 54.144478,
+        "SurfacePressure": 28257.894531,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.684577,
+          "Rock": 0.211667,
+          "Metal": 0.103756
+        },
+        "SemiMajorAxis": 1495269119.739532,
+        "Eccentricity": 0.120449,
+        "OrbitalInclination": -5.462152,
+        "Periapsis": 187.932279,
+        "OrbitalPeriod": 24981018.304825,
+        "RotationPeriod": 328743.834956,
+        "AxialTilt": 0.281212
+      },
+      {
+        "timestamp": "2026-02-11T13:05:05Z",
+        "event": "Scan",
+        "BodyName": "Swoidai IQ-W b21-0 8",
+        "BodyID": 10,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoidai IQ-W b21-0",
+        "SystemAddress": 741015758521,
+        "DistanceFromArrivalLS": 2391.148754,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 89.334976
+          },
+          {
+            "Name": "Hydrogen",
+            "Percent": 8.427828
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.237205
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.479479,
+        "Radius": 10161787.0,
+        "SurfaceGravity": 9.570389,
+        "SurfaceTemperature": 45.144318,
+        "SurfacePressure": 49913.4375,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.684577,
+          "Rock": 0.211667,
+          "Metal": 0.103756
+        },
+        "SemiMajorAxis": 716877609491.3483,
+        "Eccentricity": 4.5e-05,
+        "OrbitalInclination": -2.086805,
+        "Periapsis": 281.342728,
+        "OrbitalPeriod": 498198932.409286,
+        "RotationPeriod": 53730.319334,
+        "AxialTilt": -0.073983
+      },
+      {
+        "timestamp": "2026-02-11T13:05:09Z",
+        "event": "Scan",
+        "BodyName": "Swoidai IQ-W b21-0 9",
+        "BodyID": 11,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoidai IQ-W b21-0",
+        "SystemAddress": 741015758521,
+        "DistanceFromArrivalLS": 4181.90421,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 89.41539
+          },
+          {
+            "Name": "Hydrogen",
+            "Percent": 8.345398
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.239219
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.950525,
+        "Radius": 9481989.0,
+        "SurfaceGravity": 8.646934,
+        "SurfaceTemperature": 34.144993,
+        "SurfacePressure": 40709.246094,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.684579,
+          "Rock": 0.211667,
+          "Metal": 0.103754
+        },
+        "SemiMajorAxis": 1248199880123.1384,
+        "Eccentricity": 0.004791,
+        "OrbitalInclination": -0.844265,
+        "Periapsis": 131.587108,
+        "OrbitalPeriod": 1144620358.943939,
+        "RotationPeriod": 85135.730892,
+        "AxialTilt": -0.33085
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-08T165846.01.log",
+      "Journal.2026-02-08T222850.01.log",
+      "Journal.2026-02-09T082520.01.log",
+      "Journal.2026-02-09T110234.01.log",
+      "Journal.2026-02-09T151317.01.log",
+      "Journal.2026-02-09T174314.01.log",
+      "Journal.2026-02-09T205244.01.log",
+      "Journal.2026-02-10T202414.01.log",
+      "Journal.2026-02-11T105854.01.log",
+      "Journal.2026-02-11T134714.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-11T13:03:20Z",
+      "to_utc": "2026-02-11T13:05:48Z"
+    }
+  }
+}

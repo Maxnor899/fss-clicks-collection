@@ -1,0 +1,1428 @@
+{
+  "recording": {
+    "audio_file": "Prua_Dryou_KO-X_d2-25__61f27767.flac",
+    "audio_sha256": "61f27767a5888755859d092a58165a803c6c5ce239483540e585ce0df6016ac3",
+    "audio_sha256_short": "61f27767",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-11T16:09:25+00:00",
+    "duration_s": 45.652
+  },
+  "context": {
+    "system": {
+      "name": "Prua Dryou KO-X d2-25",
+      "name_sanitized": "Prua_Dryou_KO-X_d2-25",
+      "address": 870309677467,
+      "star_pos": [
+        3976.3125,
+        -95.375,
+        517.09375
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-11T16:05:03Z",
+    "to_utc": "2026-02-11T16:08:02Z",
+    "anchor_timestamp_utc": "2026-02-11T16:05:03Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-11T164827.01.log"
+  },
+  "system_summary": {
+    "body_count": 18,
+    "non_body_signals": 0,
+    "stars_count": 1,
+    "planets_count": 17,
+    "landables_count": 11,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-11T16:05:08Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25",
+        "BodyID": 0,
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "F",
+        "Subclass": 9,
+        "StellarMass": 1.203125,
+        "Radius": 835690880.0,
+        "AbsoluteMagnitude": 4.201996,
+        "Age_MY": 2032,
+        "SurfaceTemperature": 6091.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 310040.676463,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-11T16:07:54Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 1",
+        "BodyID": 1,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 604.947976,
+        "TerraformState": "Terraformable",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "hot thick carbon dioxide atmosphere",
+        "AtmosphereType": "CarbonDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 95.928413
+          },
+          {
+            "Name": "Nitrogen",
+            "Percent": 3.112085
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 0.959284
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 1.10967,
+        "Radius": 6243273.5,
+        "SurfaceGravity": 11.346936,
+        "SurfaceTemperature": 816.327332,
+        "SurfacePressure": 18739528.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.654067,
+          "Metal": 0.345933
+        },
+        "SemiMajorAxis": 181544637680.0537,
+        "Eccentricity": 0.001109,
+        "OrbitalInclination": 0.091168,
+        "Periapsis": 349.060738,
+        "OrbitalPeriod": 38448148.369789,
+        "RotationPeriod": 140620.648979,
+        "AxialTilt": 2.325346
+      },
+      {
+        "timestamp": "2026-02-11T16:07:18Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 2",
+        "BodyID": 3,
+        "Parents": [
+          {
+            "Null": 2
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 1103.824568,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "thick nitrogen atmosphere",
+        "AtmosphereType": "Nitrogen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 99.991142
+          }
+        ],
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 1.95844,
+        "Radius": 7362972.0,
+        "SurfaceGravity": 14.398372,
+        "SurfaceTemperature": 205.96492,
+        "SurfacePressure": 789380.9375,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.650635,
+          "Metal": 0.349365
+        },
+        "SemiMajorAxis": 231676530.838013,
+        "Eccentricity": 0.142318,
+        "OrbitalInclination": 7.456614,
+        "Periapsis": 90.020435,
+        "OrbitalPeriod": 2613083.004951,
+        "RotationPeriod": -4215695.057302,
+        "AxialTilt": 2.003843
+      },
+      {
+        "timestamp": "2026-02-11T16:07:21Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 3",
+        "BodyID": 4,
+        "Parents": [
+          {
+            "Null": 2
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 1102.077,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "thick nitrogen atmosphere",
+        "AtmosphereType": "Nitrogen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 99.992508
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 1.221926,
+        "Radius": 6513988.5,
+        "SurfaceGravity": 11.47785,
+        "SurfaceTemperature": 204.908249,
+        "SurfacePressure": 639597.25,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.702291,
+          "Metal": 0.297709
+        },
+        "SemiMajorAxis": 371318984.031677,
+        "Eccentricity": 0.142318,
+        "OrbitalInclination": 7.456614,
+        "Periapsis": 270.02043,
+        "OrbitalPeriod": 2613083.004951,
+        "RotationPeriod": 2219960.664171,
+        "AxialTilt": -0.486287
+      },
+      {
+        "timestamp": "2026-02-11T16:06:37Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 4",
+        "BodyID": 7,
+        "Parents": [
+          {
+            "Null": 6
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 2781.313712,
+        "TerraformState": "",
+        "PlanetClass": "Gas giant with ammonia based life",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 73.296455
+          },
+          {
+            "Name": "Helium",
+            "Percent": 26.665905
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 163.753464,
+        "Radius": 65600992.0,
+        "SurfaceGravity": 15.16628,
+        "SurfaceTemperature": 137.391418,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 100495082.139969,
+        "Eccentricity": 0.116442,
+        "OrbitalInclination": -4.166412,
+        "Periapsis": 33.061585,
+        "OrbitalPeriod": 44933639.764786,
+        "RotationPeriod": 71140.802254,
+        "AxialTilt": 0.36521
+      },
+      {
+        "timestamp": "2026-02-11T16:06:51Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 4 a",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Planet": 7
+          },
+          {
+            "Null": 6
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 2783.415089,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000551,
+        "Radius": 577460.125,
+        "SurfaceGravity": 0.658222,
+        "SurfaceTemperature": 125.732292,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.395771
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.972431
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.953849
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.670147
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 10.213928
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.72292
+          },
+          {
+            "Name": "germanium",
+            "Percent": 5.572246
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.969346
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.266533
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.197812
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.065023
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.910504,
+          "Metal": 0.089496
+        },
+        "SemiMajorAxis": 726772308.349609,
+        "Eccentricity": 0.000159,
+        "OrbitalInclination": -0.061412,
+        "Periapsis": 161.634163,
+        "OrbitalPeriod": 481850.087643,
+        "RotationPeriod": 481862.285175,
+        "AxialTilt": -0.458261
+      },
+      {
+        "timestamp": "2026-02-11T16:06:27Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 4 b",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Planet": 7
+          },
+          {
+            "Null": 6
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 2782.664896,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000422,
+        "Radius": 615884.375,
+        "SurfaceGravity": 0.443753,
+        "SurfaceTemperature": 110.93174,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 24.020641
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 20.198874
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 15.01431
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.931665
+          },
+          {
+            "Name": "nickel",
+            "Percent": 11.356195
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.200757
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.759434
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 3.686992
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.026148
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.912192
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.892781
+          }
+        ],
+        "Composition": {
+          "Ice": 0.528516,
+          "Rock": 0.429288,
+          "Metal": 0.042196
+        },
+        "SemiMajorAxis": 996553540.229797,
+        "Eccentricity": 0.001253,
+        "OrbitalInclination": -0.03143,
+        "Periapsis": 153.89005,
+        "OrbitalPeriod": 773687.118292,
+        "RotationPeriod": 773706.693586,
+        "AxialTilt": 0.474217
+      },
+      {
+        "timestamp": "2026-02-11T16:06:59Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 4 c",
+        "BodyID": 10,
+        "Parents": [
+          {
+            "Planet": 7
+          },
+          {
+            "Null": 6
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 2782.911117,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000253,
+        "Radius": 519415.90625,
+        "SurfaceGravity": 0.373448,
+        "SurfaceTemperature": 110.55851,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 23.760601
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.980206
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 14.851769
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.791671
+          },
+          {
+            "Name": "nickel",
+            "Percent": 11.233255
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 6.679334
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.266792
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.718735
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.015039
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 0.887078
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.815511
+          }
+        ],
+        "Composition": {
+          "Ice": 0.528516,
+          "Rock": 0.429288,
+          "Metal": 0.042196
+        },
+        "SemiMajorAxis": 1374892711.639404,
+        "Eccentricity": 0.000148,
+        "OrbitalInclination": -0.19975,
+        "Periapsis": 109.623952,
+        "OrbitalPeriod": 1253769.218922,
+        "RotationPeriod": 1253800.908672,
+        "AxialTilt": 0.303281
+      },
+      {
+        "timestamp": "2026-02-11T16:06:46Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 4 d",
+        "BodyID": 11,
+        "Parents": [
+          {
+            "Planet": 7
+          },
+          {
+            "Null": 6
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 2775.323612,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000332,
+        "Radius": 568891.1875,
+        "SurfaceGravity": 0.409463,
+        "SurfaceTemperature": 110.260643,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 23.180849
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.492697
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 14.489391
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.479559
+          },
+          {
+            "Name": "nickel",
+            "Percent": 10.959167
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 6.51636
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 5.983971
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.162683
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 1.078143
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.861568
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.795613
+          }
+        ],
+        "Composition": {
+          "Ice": 0.528516,
+          "Rock": 0.429289,
+          "Metal": 0.042196
+        },
+        "SemiMajorAxis": 1856077194.213867,
+        "Eccentricity": 5.7e-05,
+        "OrbitalInclination": -0.071824,
+        "Periapsis": 335.767493,
+        "OrbitalPeriod": 1966565.668583,
+        "RotationPeriod": 1966615.320246,
+        "AxialTilt": -0.207804
+      },
+      {
+        "timestamp": "2026-02-11T16:06:25Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 4 e",
+        "BodyID": 12,
+        "Parents": [
+          {
+            "Planet": 7
+          },
+          {
+            "Null": 6
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 2779.82742,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002182,
+        "Radius": 1113272.75,
+        "SurfaceGravity": 0.701643,
+        "SurfaceTemperature": 110.073608,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 25.71151
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 21.620718
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 13.841955
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 13.372731
+          },
+          {
+            "Name": "nickel",
+            "Percent": 10.114573
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 6.014161
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.634207
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 3.283877
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.873232
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 0.798737
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.734297
+          }
+        ],
+        "Composition": {
+          "Ice": 0.718015,
+          "Rock": 0.256596,
+          "Metal": 0.025389
+        },
+        "SemiMajorAxis": 2299886703.491211,
+        "Eccentricity": 0.000243,
+        "OrbitalInclination": 0.187524,
+        "Periapsis": 148.568161,
+        "OrbitalPeriod": 2712526.55983,
+        "RotationPeriod": -2712595.192088,
+        "AxialTilt": 2.71015
+      },
+      {
+        "timestamp": "2026-02-11T16:06:57Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 4 f",
+        "BodyID": 13,
+        "Parents": [
+          {
+            "Planet": 7
+          },
+          {
+            "Null": 6
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 2792.10031,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001664,
+        "Radius": 1024810.5625,
+        "SurfaceGravity": 0.631443,
+        "SurfaceTemperature": 109.757011,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.250393
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.073862
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.132065
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 13.216953
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.996748
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.944103
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.108408
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.694878
+          },
+          {
+            "Name": "niobium",
+            "Percent": 0.903308
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.863059
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 0.816231
+          }
+        ],
+        "Composition": {
+          "Ice": 0.745781,
+          "Rock": 0.231223,
+          "Metal": 0.022996
+        },
+        "SemiMajorAxis": 3518686711.788177,
+        "Eccentricity": 0.014059,
+        "OrbitalInclination": -0.425647,
+        "Periapsis": 265.583576,
+        "OrbitalPeriod": 5133165.77673,
+        "RotationPeriod": 5133295.678056,
+        "AxialTilt": 0.416085
+      },
+      {
+        "timestamp": "2026-02-11T16:07:10Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 5",
+        "BodyID": 14,
+        "Parents": [
+          {
+            "Null": 6
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 2816.573041,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "oxygen atmosphere",
+        "AtmosphereType": "Oxygen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Oxygen",
+            "Percent": 67.135223
+          },
+          {
+            "Name": "Nitrogen",
+            "Percent": 32.741428
+          },
+          {
+            "Name": "Neon",
+            "Percent": 0.063844
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 1.106118,
+        "Radius": 6267117.5,
+        "SurfaceGravity": 11.22471,
+        "SurfaceTemperature": 140.144287,
+        "SurfacePressure": 73598.28125,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.670482,
+          "Metal": 0.329518
+        },
+        "SemiMajorAxis": 14878385663.032532,
+        "Eccentricity": 0.116442,
+        "OrbitalInclination": -4.166412,
+        "Periapsis": 213.061566,
+        "OrbitalPeriod": 44933639.764786,
+        "RotationPeriod": 58501.893459,
+        "AxialTilt": 0.274864
+      },
+      {
+        "timestamp": "2026-02-11T16:07:31Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 6",
+        "BodyID": 16,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 4042.793182,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class I gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 73.324051
+          },
+          {
+            "Name": "Helium",
+            "Percent": 26.67594
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 50.26963,
+        "Radius": 46122492.0,
+        "SurfaceGravity": 9.41867,
+        "SurfaceTemperature": 102.828636,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 1227902710437.7747,
+        "Eccentricity": 0.013771,
+        "OrbitalInclination": 0.008591,
+        "Periapsis": 227.767582,
+        "OrbitalPeriod": 676310724.020004,
+        "RotationPeriod": 111985.514773,
+        "AxialTilt": -0.046705
+      },
+      {
+        "timestamp": "2026-02-11T16:07:41Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 6 a",
+        "BodyID": 17,
+        "Parents": [
+          {
+            "Planet": 16
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 4042.127526,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002585,
+        "Radius": 1208751.375,
+        "SurfaceGravity": 0.705288,
+        "SurfaceTemperature": 90.018211,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.955772
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.667011
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.51181
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.080554
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.137224
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.433026
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.470645
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.283042
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 0.93811
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.788853
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.733952
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826044,
+          "Rock": 0.158387,
+          "Metal": 0.015568
+        },
+        "SemiMajorAxis": 501159322.26181,
+        "Eccentricity": 0.001689,
+        "OrbitalInclination": 0.553243,
+        "Periapsis": 152.632158,
+        "OrbitalPeriod": 497951.567173,
+        "RotationPeriod": 498002.41336,
+        "AxialTilt": 0.132984
+      },
+      {
+        "timestamp": "2026-02-11T16:07:40Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 6 b",
+        "BodyID": 18,
+        "Parents": [
+          {
+            "Planet": 16
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 4040.776738,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000746,
+        "Radius": 801049.75,
+        "SurfaceGravity": 0.463178,
+        "SurfaceTemperature": 89.923279,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.58334
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 23.194733
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.849666
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.361807
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.349952
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 5.105299
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.551446
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.588255
+          },
+          {
+            "Name": "niobium",
+            "Percent": 0.844864
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.807219
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 0.76342
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826044,
+          "Rock": 0.158387,
+          "Metal": 0.015568
+        },
+        "SemiMajorAxis": 678793686.628342,
+        "Eccentricity": 0.001691,
+        "OrbitalInclination": 0.471905,
+        "Periapsis": 312.568137,
+        "OrbitalPeriod": 784928.506613,
+        "RotationPeriod": 785008.682075,
+        "AxialTilt": 0.48029
+      },
+      {
+        "timestamp": "2026-02-11T16:07:43Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 6 c",
+        "BodyID": 19,
+        "Parents": [
+          {
+            "Planet": 16
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 4041.545641,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000777,
+        "Radius": 812139.5625,
+        "SurfaceGravity": 0.469702,
+        "SurfaceTemperature": 89.838181,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.328823
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.139814
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.174289
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 11.799579
+          },
+          {
+            "Name": "nickel",
+            "Percent": 8.924707
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.306663
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 4.873106
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.120683
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 0.877997
+          },
+          {
+            "Name": "niobium",
+            "Percent": 0.806438
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.647915
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826044,
+          "Rock": 0.158387,
+          "Metal": 0.015568
+        },
+        "SemiMajorAxis": 932562637.329102,
+        "Eccentricity": 0.000309,
+        "OrbitalInclination": 0.024543,
+        "Periapsis": 36.811561,
+        "OrbitalPeriod": 1263980.686665,
+        "RotationPeriod": 1264109.717005,
+        "AxialTilt": -0.504377
+      },
+      {
+        "timestamp": "2026-02-11T16:07:45Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 6 d",
+        "BodyID": 20,
+        "Parents": [
+          {
+            "Planet": 16
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 4041.669867,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001175,
+        "Radius": 929601.125,
+        "SurfaceGravity": 0.541723,
+        "SurfaceTemperature": 89.742607,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.094656
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.7838
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.58658
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.311212
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.311685
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.536761
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.345727
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 3.023205
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 0.956021
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.733206
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.317134
+          }
+        ],
+        "Composition": {
+          "Ice": 0.819255,
+          "Rock": 0.164299,
+          "Metal": 0.016446
+        },
+        "SemiMajorAxis": 1433056592.941284,
+        "Eccentricity": 0.000238,
+        "OrbitalInclination": -0.217007,
+        "Periapsis": 292.345528,
+        "OrbitalPeriod": 2407788.75351,
+        "RotationPeriod": -2408034.509118,
+        "AxialTilt": -1.673224
+      },
+      {
+        "timestamp": "2026-02-11T16:07:37Z",
+        "event": "Scan",
+        "BodyName": "Prua Dryou KO-X d2-25 6 e",
+        "BodyID": 21,
+        "Parents": [
+          {
+            "Planet": 16
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Prua Dryou KO-X d2-25",
+        "SystemAddress": 870309677467,
+        "DistanceFromArrivalLS": 4046.795887,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.0034,
+        "Radius": 1323063.375,
+        "SurfaceGravity": 0.77405,
+        "SurfaceTemperature": 89.651016,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.839909
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.569584
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.449434
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.028627
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.097949
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.409674
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.200672
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 2.953812
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 0.934078
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.785462
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.730797
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826044,
+          "Rock": 0.158387,
+          "Metal": 0.015568
+        },
+        "SemiMajorAxis": 2414740681.648254,
+        "Eccentricity": 0.000818,
+        "OrbitalInclination": -0.060375,
+        "Periapsis": 10.477278,
+        "OrbitalPeriod": 5266585.767269,
+        "RotationPeriod": 5267123.568206,
+        "AxialTilt": -0.307138
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-08T222850.01.log",
+      "Journal.2026-02-09T082520.01.log",
+      "Journal.2026-02-09T110234.01.log",
+      "Journal.2026-02-09T151317.01.log",
+      "Journal.2026-02-09T174314.01.log",
+      "Journal.2026-02-09T205244.01.log",
+      "Journal.2026-02-10T202414.01.log",
+      "Journal.2026-02-11T105854.01.log",
+      "Journal.2026-02-11T134714.01.log",
+      "Journal.2026-02-11T164827.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-11T16:05:03Z",
+      "to_utc": "2026-02-11T16:08:02Z"
+    }
+  }
+}

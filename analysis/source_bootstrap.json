@@ -1,0 +1,458 @@
+{
+  "n_systems": 8,
+  "models": {
+    "A": {
+      "model": "A",
+      "n_systems": 8,
+      "stability_assessment": "unstable (LOO spread ~3007 ly) — likely insufficient data or wrong model",
+      "loo": {
+        "results": [
+          {
+            "removed_system": "Blo Thae FB-N d7-6",
+            "source": [
+              5182.369198500195,
+              208.57366215083314,
+              -1126.326404132888
+            ],
+            "alpha": 4.000000007447184,
+            "objective_value": 0.5909133033590744,
+            "converged": true
+          },
+          {
+            "removed_system": "Blo Thae TA-C c14-1",
+            "source": [
+              5076.037271296391,
+              -502.9899071180146,
+              -1413.9444539087187
+            ],
+            "alpha": 4.0000000102314175,
+            "objective_value": 0.7150248642602678,
+            "converged": true
+          },
+          {
+            "removed_system": "Blo Thae YA-C c14-1",
+            "source": [
+              4280.794936491633,
+              1113.0089870451613,
+              -1564.134734846326
+            ],
+            "alpha": 4.000000005335847,
+            "objective_value": 0.7743072833868012,
+            "converged": true
+          },
+          {
+            "removed_system": "Blu Theia DR-R c19-0",
+            "source": [
+              5373.780441762063,
+              -65.50309592973888,
+              -605.6789170913826
+            ],
+            "alpha": 4.000000031918105,
+            "objective_value": 0.42203720217362783,
+            "converged": true
+          },
+          {
+            "removed_system": "Blu Theia VT-R e4-0",
+            "source": [
+              187.1287532202089,
+              -18003.35609430351,
+              -2294.2059894753993
+            ],
+            "alpha": 3.9964017988608487,
+            "objective_value": 0.27738094850869255,
+            "converged": true
+          },
+          {
+            "removed_system": "IC 2944 Sector WZ-W d2-4",
+            "source": [
+              6280.268994594171,
+              538.7024426037158,
+              -1145.0391658694502
+            ],
+            "alpha": 4.000000018546629,
+            "objective_value": 0.6961804594558448,
+            "converged": true
+          },
+          {
+            "removed_system": "Praea Eurl RY-H d10-0",
+            "source": [
+              5322.373675293708,
+              350.54764314144103,
+              2104.9424117594235
+            ],
+            "alpha": 0.6920189645308523,
+            "objective_value": 0.5617672325820747,
+            "converged": true
+          },
+          {
+            "removed_system": "Tyriedgoea AG-N d7-3",
+            "source": [
+              4889.491448596825,
+              110.35776168999551,
+              -1403.8692211297969
+            ],
+            "alpha": 4.000000007290358,
+            "objective_value": 0.7288691185227749,
+            "converged": true
+          }
+        ],
+        "stats": {
+          "n_fits": 8,
+          "median_source": [
+            5129.203234898293,
+            159.46571192041432,
+            -1274.4541934996237
+          ],
+          "p10_source": [
+            3052.6950815102064,
+            -5753.099763273663,
+            -1783.156111235048
+          ],
+          "p90_source": [
+            5645.727007611695,
+            710.9944059361494,
+            207.50748156385873
+          ],
+          "std_source": [
+            1737.935689618851,
+            6052.635653436652,
+            1230.994318783765
+          ],
+          "spread_ly": 3007.1885539464224
+        }
+      },
+      "resample": {
+        "attempts": 200,
+        "fits_ok": 197,
+        "skipped_too_few_unique": 3,
+        "skipped_fit_failed_or_skipped": 0,
+        "stats": {
+          "n_fits": 197,
+          "median_source": [
+            5307.8806606028875,
+            110.35776168999551,
+            -255.3082252931335
+          ],
+          "p10_source": [
+            3686.4631817779564,
+            -1397.0160058596553,
+            -3161.7342908914375
+          ],
+          "p90_source": [
+            6353.314408658123,
+            572.6929664679196,
+            2110.5320144024113
+          ],
+          "std_source": [
+            1389.7921317310618,
+            1652.4409009338635,
+            5584.549988966871
+          ],
+          "spread_ly": 2875.594340543932
+        }
+      }
+    },
+    "B": {
+      "model": "B",
+      "n_systems": 8,
+      "stability_assessment": "unstable (LOO spread ~4585 ly) — likely insufficient data or wrong model",
+      "loo": {
+        "results": [
+          {
+            "removed_system": "Blo Thae FB-N d7-6",
+            "source": [
+              4767.476645139239,
+              1245.7225163638866,
+              -1500.5766002891505
+            ],
+            "alpha": 4.0000000097543476,
+            "objective_value": 0.5343210349978481,
+            "converged": true
+          },
+          {
+            "removed_system": "Blo Thae TA-C c14-1",
+            "source": [
+              5593.9513675863245,
+              -643.8879994086448,
+              -1557.7270987100776
+            ],
+            "alpha": 3.998873434396658,
+            "objective_value": 0.6992201997179776,
+            "converged": true
+          },
+          {
+            "removed_system": "Blo Thae YA-C c14-1",
+            "source": [
+              5623.013295883713,
+              -220.43326411887188,
+              -1454.4722706091795
+            ],
+            "alpha": 4.000000032638995,
+            "objective_value": 0.7256014062508476,
+            "converged": true
+          },
+          {
+            "removed_system": "Blu Theia DR-R c19-0",
+            "source": [
+              5450.402339112346,
+              -165.00744608962304,
+              -644.4272330514709
+            ],
+            "alpha": 3.963283265760154,
+            "objective_value": 0.3637298215732685,
+            "converged": true
+          },
+          {
+            "removed_system": "Blu Theia VT-R e4-0",
+            "source": [
+              -11423.095710558926,
+              14029.485635676538,
+              -10438.242758022094
+            ],
+            "alpha": 3.9975330842180132,
+            "objective_value": 0.1819356790901383,
+            "converged": true
+          },
+          {
+            "removed_system": "IC 2944 Sector WZ-W d2-4",
+            "source": [
+              6634.236983314686,
+              502.37519106541606,
+              -596.639797628712
+            ],
+            "alpha": 4.000000032433702,
+            "objective_value": 0.4818729130600638,
+            "converged": true
+          },
+          {
+            "removed_system": "Praea Eurl RY-H d10-0",
+            "source": [
+              3467.3394196636696,
+              -1286.2370159855031,
+              1905.3409208459893
+            ],
+            "alpha": 2.206102070448797,
+            "objective_value": 0.30437025437767096,
+            "converged": true
+          },
+          {
+            "removed_system": "Tyriedgoea AG-N d7-3",
+            "source": [
+              6146.347424836151,
+              -47.4003365880037,
+              -593.5692013115371
+            ],
+            "alpha": 4.000000019135206,
+            "objective_value": 0.6523999266365252,
+            "converged": true
+          }
+        ],
+        "stats": {
+          "n_fits": 8,
+          "median_source": [
+            5522.176853349336,
+            -106.20389133881338,
+            -1049.449751830325
+          ],
+          "p10_source": [
+            -999.791119403108,
+            -836.5927043817022,
+            -4221.8817965036815
+          ],
+          "p90_source": [
+            6292.714292379711,
+            5080.85145215768,
+            156.10383533572042
+          ],
+          "std_source": [
+            5628.612615240171,
+            4720.748623272416,
+            3406.365199894095
+          ],
+          "spread_ly": 4585.242146135561
+        }
+      },
+      "resample": {
+        "attempts": 200,
+        "fits_ok": 197,
+        "skipped_too_few_unique": 3,
+        "skipped_fit_failed_or_skipped": 0,
+        "stats": {
+          "n_fits": 197,
+          "median_source": [
+            5237.877556467265,
+            130.36211823975833,
+            -353.06037457162086
+          ],
+          "p10_source": [
+            -6155.128634835669,
+            -2268.2417743138417,
+            -5180.02463682982
+          ],
+          "p90_source": [
+            6358.109856006262,
+            2403.975580419039,
+            2400.446160744551
+          ],
+          "std_source": [
+            26622.77662570959,
+            4603.7524466130735,
+            15358.066272082775
+          ],
+          "spread_ly": 15528.198448135146
+        }
+      }
+    },
+    "C": {
+      "model": "C",
+      "n_systems": 8,
+      "stability_assessment": "unstable (LOO spread ~140755 ly) — likely insufficient data or wrong model",
+      "loo": {
+        "results": [
+          {
+            "removed_system": "Blo Thae FB-N d7-6",
+            "source": [
+              5969.553745748329,
+              -966.5156459275829,
+              -1584.7920420954529
+            ],
+            "alpha": 4.000000007675696,
+            "objective_value": 0.22792024859770862,
+            "converged": true
+          },
+          {
+            "removed_system": "Blo Thae TA-C c14-1",
+            "source": [
+              3675.452883809647,
+              -1945.8989557839632,
+              2537.8580351204037
+            ],
+            "alpha": 1.6458446347769804,
+            "objective_value": 0.07515781068793005,
+            "converged": true
+          },
+          {
+            "removed_system": "Blo Thae YA-C c14-1",
+            "source": [
+              -2883.940751465595,
+              5574.887146296983,
+              -2364.531106907577
+            ],
+            "alpha": 3.4571106874466158,
+            "objective_value": 0.15032935255211322,
+            "converged": true
+          },
+          {
+            "removed_system": "Blu Theia DR-R c19-0",
+            "source": [
+              5126.05045675974,
+              655.8414286278869,
+              156.62156643565413
+            ],
+            "alpha": 4.000000036285889,
+            "objective_value": 0.2599202186546811,
+            "converged": true
+          },
+          {
+            "removed_system": "Blu Theia VT-R e4-0",
+            "source": [
+              -13716.003511754347,
+              -23864.406319384587,
+              1268.7800061891235
+            ],
+            "alpha": 3.990937862621138,
+            "objective_value": 0.1632023076416523,
+            "converged": true
+          },
+          {
+            "removed_system": "IC 2944 Sector WZ-W d2-4",
+            "source": [
+              6675.919847578134,
+              1557.9391808821738,
+              -1124.79941765997
+            ],
+            "alpha": 2.942730115108114,
+            "objective_value": 0.010284566468604915,
+            "converged": true
+          },
+          {
+            "removed_system": "Praea Eurl RY-H d10-0",
+            "source": [
+              5189.749278230251,
+              56.300632053642,
+              2064.002764634364
+            ],
+            "alpha": 0.49999993460692127,
+            "objective_value": 0.061145541804386194,
+            "converged": true
+          },
+          {
+            "removed_system": "Tyriedgoea AG-N d7-3",
+            "source": [
+              -412061.718030512,
+              239480.19328878832,
+              -619204.0259499841
+            ],
+            "alpha": 4.0000000001516325,
+            "objective_value": 0.16940137543853412,
+            "converged": true
+          }
+        ],
+        "stats": {
+          "n_fits": 8,
+          "median_source": [
+            4400.751670284693,
+            356.0710303407644,
+            -484.08892561215794
+          ],
+          "p10_source": [
+            -133219.7178673816,
+            -8521.45116486415,
+            -187416.3795598305
+          ],
+          "p90_source": [
+            6181.46357629727,
+            75746.47898904435,
+            2206.159345780176
+          ],
+          "std_source": [
+            136901.0689793062,
+            80528.51750662972,
+            204834.09716345364
+          ],
+          "spread_ly": 140754.5612164632
+        }
+      },
+      "resample": {
+        "attempts": 200,
+        "fits_ok": 197,
+        "skipped_too_few_unique": 3,
+        "skipped_fit_failed_or_skipped": 0,
+        "stats": {
+          "n_fits": 197,
+          "median_source": [
+            4171.371560561945,
+            -926.3900852526272,
+            -320.36439830414474
+          ],
+          "p10_source": [
+            -160382.17419200423,
+            -17857.364855697215,
+            -189008.1375462038
+          ],
+          "p90_source": [
+            6042.129356436231,
+            10246.282688816127,
+            9180.010160229594
+          ],
+          "std_source": [
+            507690.56345137535,
+            41543.44212504271,
+            335752.3729553422
+          ],
+          "spread_ly": 294995.45951058675
+        }
+      }
+    }
+  }
+}

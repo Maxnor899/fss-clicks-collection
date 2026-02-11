@@ -1,0 +1,1015 @@
+{
+  "recording": {
+    "audio_file": "IC_2944_Sector_UU-Q_a12-2__e76cb7ba.flac",
+    "audio_sha256": "e76cb7badfab379762e6df053b940fa5da50945e12ec84e56c60f7c9cea13d23",
+    "audio_sha256_short": "e76cb7ba",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-11T10:05:14+00:00",
+    "duration_s": 38.134
+  },
+  "context": {
+    "system": {
+      "name": "IC 2944 Sector UU-Q a12-2",
+      "name_sanitized": "IC_2944_Sector_UU-Q_a12-2",
+      "address": 41120553521512,
+      "star_pos": [
+        5299.25,
+        -44.84375,
+        1946.71875
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-11T10:02:43Z",
+    "to_utc": "2026-02-11T10:04:35Z",
+    "anchor_timestamp_utc": "2026-02-11T10:02:43Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-11T105854.01.log"
+  },
+  "system_summary": {
+    "body_count": 11,
+    "non_body_signals": 0,
+    "stars_count": 1,
+    "planets_count": 10,
+    "landables_count": 10,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-11T10:02:48Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector UU-Q a12-2",
+        "BodyID": 0,
+        "StarSystem": "IC 2944 Sector UU-Q a12-2",
+        "SystemAddress": 41120553521512,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "T",
+        "Subclass": 3,
+        "StellarMass": 0.082031,
+        "Radius": 152777360.0,
+        "AbsoluteMagnitude": 15.423462,
+        "Age_MY": 334,
+        "SurfaceTemperature": 1076.0,
+        "Luminosity": "V",
+        "RotationPeriod": 99108.639269,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-11T10:03:55Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector UU-Q a12-2 1",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Null": 1
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector UU-Q a12-2",
+        "SystemAddress": 41120553521512,
+        "DistanceFromArrivalLS": 284.903392,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.010068,
+        "Radius": 1800155.0,
+        "SurfaceGravity": 1.238307,
+        "SurfaceTemperature": 25.573851,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 23.5002
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.761234
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 16.38868
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.651483
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.395712
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.768359
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.45383
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.530909
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.063529
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.899903
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.586157
+          }
+        ],
+        "Composition": {
+          "Ice": 0.682671,
+          "Rock": 0.211971,
+          "Metal": 0.105358
+        },
+        "SemiMajorAxis": 42170044.183731,
+        "Eccentricity": 0.080141,
+        "OrbitalInclination": -5.100565,
+        "Periapsis": 94.480132,
+        "OrbitalPeriod": 2984199.58353,
+        "RotationPeriod": 4885598.123008,
+        "AxialTilt": 0.445965
+      },
+      {
+        "timestamp": "2026-02-11T10:03:58Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector UU-Q a12-2 2",
+        "BodyID": 3,
+        "Parents": [
+          {
+            "Null": 1
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector UU-Q a12-2",
+        "SystemAddress": 41120553521512,
+        "DistanceFromArrivalLS": 284.646514,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.005992,
+        "Radius": 1518014.25,
+        "SurfaceGravity": 1.036371,
+        "SurfaceTemperature": 25.573851,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 23.312595
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.603477
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 16.257847
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.550484
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.296755
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.714325
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.418274
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 1.887871
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.061628
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.004026
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.892719
+          }
+        ],
+        "Composition": {
+          "Ice": 0.682671,
+          "Rock": 0.211971,
+          "Metal": 0.105358
+        },
+        "SemiMajorAxis": 70857435.464859,
+        "Eccentricity": 0.080141,
+        "OrbitalInclination": -5.100565,
+        "Periapsis": 274.480127,
+        "OrbitalPeriod": 2984199.58353,
+        "RotationPeriod": 3769008.853375,
+        "AxialTilt": 0.473459
+      },
+      {
+        "timestamp": "2026-02-11T10:04:22Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector UU-Q a12-2 3",
+        "BodyID": 4,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector UU-Q a12-2",
+        "SystemAddress": 41120553521512,
+        "DistanceFromArrivalLS": 534.05546,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.016379,
+        "Radius": 2105217.5,
+        "SurfaceGravity": 1.473019,
+        "SurfaceTemperature": 20.0,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 22.908644
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.263796
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 16.1591
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.333013
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.222067
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.673544
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 3.968112
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.364444
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.254827
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 0.965164
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.887297
+          }
+        ],
+        "Composition": {
+          "Ice": 0.674052,
+          "Rock": 0.2167,
+          "Metal": 0.109248
+        },
+        "SemiMajorAxis": 160112231969.83337,
+        "Eccentricity": 0.001772,
+        "OrbitalInclination": -0.698271,
+        "Periapsis": 220.207952,
+        "OrbitalPeriod": 121990281.34346,
+        "RotationPeriod": 137288.935051,
+        "AxialTilt": -0.559355
+      },
+      {
+        "timestamp": "2026-02-11T10:04:25Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector UU-Q a12-2 3 a",
+        "BodyID": 5,
+        "Parents": [
+          {
+            "Planet": 4
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector UU-Q a12-2",
+        "SystemAddress": 41120553521512,
+        "DistanceFromArrivalLS": 534.422452,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000723,
+        "Radius": 801846.5625,
+        "SurfaceGravity": 0.44825,
+        "SurfaceTemperature": 20.0,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.598349
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 23.207354
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.857747
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.121489
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.168185
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 5.00605
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.319375
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.428882
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.791526
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.75247
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 0.748579
+          }
+        ],
+        "Composition": {
+          "Ice": 0.877945,
+          "Rock": 0.104848,
+          "Metal": 0.017208
+        },
+        "SemiMajorAxis": 235056746.006012,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": -16.775641,
+        "Periapsis": 36.402388,
+        "OrbitalPeriod": 8672660.827637,
+        "RotationPeriod": 184049.651765,
+        "AxialTilt": -0.402557
+      },
+      {
+        "timestamp": "2026-02-11T10:04:01Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector UU-Q a12-2 4",
+        "BodyID": 6,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector UU-Q a12-2",
+        "SystemAddress": 41120553521512,
+        "DistanceFromArrivalLS": 787.634499,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.007278,
+        "Radius": 1618250.625,
+        "SurfaceGravity": 1.107732,
+        "SurfaceTemperature": 20.0,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 23.499519
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.760664
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 16.388075
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.651115
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.395254
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.768108
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 4.024341
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.530865
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.070132
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.012068
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.89987
+          }
+        ],
+        "Composition": {
+          "Ice": 0.682674,
+          "Rock": 0.211972,
+          "Metal": 0.105355
+        },
+        "SemiMajorAxis": 236464041471.48132,
+        "Eccentricity": 0.001428,
+        "OrbitalInclination": 0.045753,
+        "Periapsis": 94.467892,
+        "OrbitalPeriod": 218945527.076721,
+        "RotationPeriod": 57144.079127,
+        "AxialTilt": 0.484346
+      },
+      {
+        "timestamp": "2026-02-11T10:04:09Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector UU-Q a12-2 5",
+        "BodyID": 7,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector UU-Q a12-2",
+        "SystemAddress": 41120553521512,
+        "DistanceFromArrivalLS": 1353.0629,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.017116,
+        "Radius": 2139316.25,
+        "SurfaceGravity": 1.490622,
+        "SurfaceTemperature": 20.0,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 23.012163
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.350845
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 16.121841
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.388742
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.193886
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.658156
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 3.958963
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.601598
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.251934
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.885251
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.576613
+          }
+        ],
+        "Composition": {
+          "Ice": 0.679237,
+          "Rock": 0.213855,
+          "Metal": 0.106908
+        },
+        "SemiMajorAxis": 405295830965.0421,
+        "Eccentricity": 0.001179,
+        "OrbitalInclination": -0.09046,
+        "Periapsis": 73.291065,
+        "OrbitalPeriod": 491299873.590469,
+        "RotationPeriod": 43016.904552,
+        "AxialTilt": -2.301362
+      },
+      {
+        "timestamp": "2026-02-11T10:04:06Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector UU-Q a12-2 5 a",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Planet": 7
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector UU-Q a12-2",
+        "SystemAddress": 41120553521512,
+        "DistanceFromArrivalLS": 1351.605227,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000302,
+        "Radius": 599889.375,
+        "SurfaceGravity": 0.33397,
+        "SurfaceTemperature": 20.0,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.827469
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.559122
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.442738
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 11.782845
+          },
+          {
+            "Name": "nickel",
+            "Percent": 8.91205
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.299137
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 4.866194
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.105815
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.769413
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.731447
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 0.703775
+          }
+        ],
+        "Composition": {
+          "Ice": 0.877947,
+          "Rock": 0.104846,
+          "Metal": 0.017207
+        },
+        "SemiMajorAxis": 528667354.58374,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": -17.411614,
+        "Periapsis": 53.265739,
+        "OrbitalPeriod": 28986648.321152,
+        "RotationPeriod": 58226.574517,
+        "AxialTilt": 0.444433
+      },
+      {
+        "timestamp": "2026-02-11T10:04:30Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector UU-Q a12-2 6",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector UU-Q a12-2",
+        "SystemAddress": 41120553521512,
+        "DistanceFromArrivalLS": 3031.286542,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.005147,
+        "Radius": 1443992.875,
+        "SurfaceGravity": 0.983928,
+        "SurfaceTemperature": 20.0,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 23.70837
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.936283
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 16.533716
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.763551
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.50541
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.828257
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.71056
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 1.919905
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.907867
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.722
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.46408
+          }
+        ],
+        "Composition": {
+          "Ice": 0.682677,
+          "Rock": 0.211969,
+          "Metal": 0.105355
+        },
+        "SemiMajorAxis": 908159404993.0573,
+        "Eccentricity": 0.000784,
+        "OrbitalInclination": -1.115773,
+        "Periapsis": 200.141451,
+        "OrbitalPeriod": 1647902846.336365,
+        "RotationPeriod": 113667.819497,
+        "AxialTilt": -0.016472
+      },
+      {
+        "timestamp": "2026-02-11T10:04:33Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector UU-Q a12-2 7",
+        "BodyID": 10,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector UU-Q a12-2",
+        "SystemAddress": 41120553521512,
+        "DistanceFromArrivalLS": 3663.192609,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.005846,
+        "Radius": 1505778.375,
+        "SurfaceGravity": 1.027682,
+        "SurfaceTemperature": 20.0,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 24.186481
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 20.338326
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 16.86714
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 13.020945
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.757598
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.583858
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.785388
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.57561
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.30981
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.101415
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.473438
+          }
+        ],
+        "Composition": {
+          "Ice": 0.682677,
+          "Rock": 0.211969,
+          "Metal": 0.105355
+        },
+        "SemiMajorAxis": 1101077139377.594,
+        "Eccentricity": 0.002746,
+        "OrbitalInclination": 0.186123,
+        "Periapsis": 207.338117,
+        "OrbitalPeriod": 2199960947.036743,
+        "RotationPeriod": 164995.86043,
+        "AxialTilt": -0.4299
+      },
+      {
+        "timestamp": "2026-02-11T10:04:15Z",
+        "event": "Scan",
+        "BodyName": "IC 2944 Sector UU-Q a12-2 8",
+        "BodyID": 12,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "IC 2944 Sector UU-Q a12-2",
+        "SystemAddress": 41120553521512,
+        "DistanceFromArrivalLS": 4577.791446,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.008015,
+        "Radius": 1670377.625,
+        "SurfaceGravity": 1.145006,
+        "SurfaceTemperature": 20.0,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 24.34201
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 20.46911
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 16.975605
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 13.104675
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.839638
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 4.168618
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.809731
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 1.971218
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.101616
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.741297
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.476483
+          }
+        ],
+        "Composition": {
+          "Ice": 0.682676,
+          "Rock": 0.211969,
+          "Metal": 0.105355
+        },
+        "SemiMajorAxis": 1371674418449.4019,
+        "Eccentricity": 0.001973,
+        "OrbitalInclination": 0.787311,
+        "Periapsis": 231.375684,
+        "OrbitalPeriod": 3058897614.479065,
+        "RotationPeriod": 86776.614621,
+        "AxialTilt": 0.078867
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-08T155743.01.log",
+      "Journal.2026-02-08T165846.01.log",
+      "Journal.2026-02-08T222850.01.log",
+      "Journal.2026-02-09T082520.01.log",
+      "Journal.2026-02-09T110234.01.log",
+      "Journal.2026-02-09T151317.01.log",
+      "Journal.2026-02-09T174314.01.log",
+      "Journal.2026-02-09T205244.01.log",
+      "Journal.2026-02-10T202414.01.log",
+      "Journal.2026-02-11T105854.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-11T10:02:43Z",
+      "to_utc": "2026-02-11T10:04:35Z"
+    }
+  }
+}

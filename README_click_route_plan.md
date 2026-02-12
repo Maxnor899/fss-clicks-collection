@@ -96,14 +96,9 @@ python tools\click_route_plan.py --logs "C:\Users\<you>\Saved Games\Frontier Dev
 
 ------------------------------------------------------------------------
 
-## Supported Click List Formats
+## Supported list of Clicking systems
 
--   JSON list of names
--   JSON list of objects containing system + coords
--   JSON dictionary mapping system → metadata
--   TXT file (one system per line)
-
-Coordinates are required for spatial computation.
+-   The analysis/summary.json file produced by the analyze_clicks.py script
 
 ------------------------------------------------------------------------
 

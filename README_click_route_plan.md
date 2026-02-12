@@ -84,10 +84,7 @@ Purpose: test anisotropy or filament-like structure.
 
 Example:
 
-python click_route_plan.py \^ --logs
-"C:`\Users`{=tex}\<you\>`\Saved `{=tex}Games`\Frontier `{=tex}Developments`\Elite `{=tex}Dangerous"
-\^ --clicks path`\to`{=tex}`\click`{=tex}\_systems.json \^ --out
-route_plan.md
+python tools\click_route_plan.py --logs "C:\Users\<you>\Saved Games\Frontier Developments\Elite Dangerous" --clicks analysis\summary.json --out route_plan.md
 
 ### Options
 

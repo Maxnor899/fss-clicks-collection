@@ -214,3 +214,6 @@ incoming/*.wav
 
 # Elite Dangerous journal logs , if ever someone copy it 'to help' (must never be committed)
 Journal*.log
+
+# Analysis outputs (generated artifacts)
+analysis/

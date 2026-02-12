@@ -126,7 +126,7 @@ def load_clicks(path: Path) -> List[SystemPoint]:
     out: List[SystemPoint] = []
 
     def coords_from_meta(meta: Dict[str, Any]) -> Optional[Tuple[float, float, float]]:
-        for key in ("coords", "StarPos", "starpos", "position", "pos"):
+        for key in ("star_pos", "coords", "StarPos", "starpos", "position", "pos"):
             if key in meta:
                 c = safe_float_triplet(meta[key])
                 if c:
@@ -151,12 +151,27 @@ def load_clicks(path: Path) -> List[SystemPoint]:
             for item in data["systems"]:
                 if isinstance(item, str):
                     out.append(SystemPoint(item.strip(), (math.nan, math.nan, math.nan)))
-                elif isinstance(item, dict):
-                    name = item.get("system") or item.get("name") or item.get("StarSystem")
-                    if not name:
-                        continue
-                    c = coords_from_meta(item)
-                    out.append(SystemPoint(str(name), c if c else (math.nan, math.nan, math.nan)))
+                    continue
+                if not isinstance(item, dict):
+                    continue
+
+                # analyze_clicks.py summary.json commonly uses: system_name + star_pos
+                name = (
+                    item.get("system_name")
+                    or item.get("system")
+                    or item.get("name")
+                    or item.get("StarSystem")
+                )
+                if not name:
+                    continue
+
+                c = (
+                    safe_float_triplet(item.get("star_pos"))
+                    or safe_float_triplet(item.get("StarPos"))
+                    or safe_float_triplet(item.get("coords"))
+                    or coords_from_meta(item)
+                )
+                out.append(SystemPoint(str(name), c if c else (math.nan, math.nan, math.nan)))
         else:
             for name, meta in data.items():
                 if isinstance(meta, dict):

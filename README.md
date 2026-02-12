@@ -35,11 +35,14 @@ No assumption is made about the cause of the clicks.
 
 ```
 fss-clicks-collection/
-├─ audio/        # Final, renamed FLAC files
-├─ metadata/     # Auto-generated JSON metadata
-├─ incoming/     # Place ONE raw FLAC here before running the script
-├─ tools/        # Python scripts
-│  └─ ingest.py
+├─ audio/                  # Final, renamed FLAC files
+├─ metadata/               # Auto-generated JSON metadata
+├─ incoming/               # Place ONE raw FLAC here before running the script
+├─ tools/                  # Python scripts
+│  └─ ingest.py            # add audio and system metadata to this repository
+│  └─ analyze_clicks.py    # performs the clicks analysis for each audio file of this repository
+│  └─ WIP_fit_source.py    # try to find a source using the found clicking systems
+│  └─ click_route_plan.py  # estabishes optimized paths to maximize the clicking systems collection 
 ├─ README.md
 └─ .gitignore
 ```

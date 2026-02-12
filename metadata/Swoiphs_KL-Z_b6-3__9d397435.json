@@ -1,0 +1,680 @@
+{
+  "recording": {
+    "audio_file": "Swoiphs_KL-Z_b6-3__9d397435.flac",
+    "audio_sha256": "9d3974356ea8c0b2b5d37730dd5440d12e83f1c325a8fa85ff4c19df73f746fc",
+    "audio_sha256_short": "9d397435",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-12T21:09:38+00:00",
+    "duration_s": 47.683
+  },
+  "context": {
+    "system": {
+      "name": "Swoiphs KL-Z b6-3",
+      "name_sanitized": "Swoiphs_KL-Z_b6-3",
+      "address": 7309094692409,
+      "star_pos": [
+        3057.4375,
+        -57.6875,
+        370.25
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-12T21:06:36Z",
+    "to_utc": "2026-02-12T21:08:56Z",
+    "anchor_timestamp_utc": "2026-02-12T21:06:36Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-12T214314.01.log"
+  },
+  "system_summary": {
+    "body_count": 9,
+    "non_body_signals": 0,
+    "stars_count": 1,
+    "planets_count": 8,
+    "landables_count": 4,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-12T21:06:42Z",
+        "event": "Scan",
+        "BodyName": "Swoiphs KL-Z b6-3",
+        "BodyID": 0,
+        "StarSystem": "Swoiphs KL-Z b6-3",
+        "SystemAddress": 7309094692409,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 3,
+        "StellarMass": 0.339844,
+        "Radius": 349172032.0,
+        "AbsoluteMagnitude": 8.999374,
+        "Age_MY": 4126,
+        "SurfaceTemperature": 3123.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 136988.346175,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-12T21:08:10Z",
+        "event": "Scan",
+        "BodyName": "Swoiphs KL-Z b6-3 1",
+        "BodyID": 1,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoiphs KL-Z b6-3",
+        "SystemAddress": 7309094692409,
+        "DistanceFromArrivalLS": 619.705012,
+        "TerraformState": "",
+        "PlanetClass": "Rocky ice body",
+        "Atmosphere": "thick methane atmosphere",
+        "AtmosphereType": "Methane",
+        "AtmosphereComposition": [
+          {
+            "Name": "Methane",
+            "Percent": 49.437855
+          },
+          {
+            "Name": "Nitrogen",
+            "Percent": 49.437855
+          },
+          {
+            "Name": "Argon",
+            "Percent": 0.494379
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.603102,
+        "Radius": 8340500.5,
+        "SurfaceGravity": 9.185151,
+        "SurfaceTemperature": 381.93042,
+        "SurfacePressure": 486541792.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.467464,
+          "Rock": 0.353631,
+          "Metal": 0.178905
+        },
+        "SemiMajorAxis": 185773122310.63843,
+        "Eccentricity": 0.0002,
+        "OrbitalInclination": -0.000788,
+        "Periapsis": 236.038531,
+        "OrbitalPeriod": 74901942.610741,
+        "RotationPeriod": 66359.992889,
+        "AxialTilt": -0.34751
+      },
+      {
+        "timestamp": "2026-02-12T21:07:58Z",
+        "event": "Scan",
+        "BodyName": "Swoiphs KL-Z b6-3 2",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoiphs KL-Z b6-3",
+        "SystemAddress": 7309094692409,
+        "DistanceFromArrivalLS": 943.756496,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 97.556892
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.443105
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.734477,
+        "Radius": 9148792.0,
+        "SurfaceGravity": 8.259438,
+        "SurfaceTemperature": 62.571552,
+        "SurfacePressure": 33867.808594,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.681062,
+          "Rock": 0.211797,
+          "Metal": 0.107141
+        },
+        "SemiMajorAxis": 282912635803.22266,
+        "Eccentricity": 6.5e-05,
+        "OrbitalInclination": 0.000958,
+        "Periapsis": 286.19635,
+        "OrbitalPeriod": 140765839.81514,
+        "RotationPeriod": 50779.448486,
+        "AxialTilt": 0.328039
+      },
+      {
+        "timestamp": "2026-02-12T21:08:47Z",
+        "event": "Scan",
+        "BodyName": "Swoiphs KL-Z b6-3 3",
+        "BodyID": 3,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoiphs KL-Z b6-3",
+        "SystemAddress": 7309094692409,
+        "DistanceFromArrivalLS": 1634.329868,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thin neon atmosphere",
+        "AtmosphereType": "Neon",
+        "AtmosphereComposition": [
+          {
+            "Name": "Neon",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.547205,
+        "Radius": 6468116.5,
+        "SurfaceGravity": 5.213198,
+        "SurfaceTemperature": 46.927887,
+        "SurfacePressure": 329.638458,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 22.689175
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.079247
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 16.012241
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.21486
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.110988
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.612892
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.351527
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 3.932049
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.094351
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.04559
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 0.857087
+          }
+        ],
+        "Composition": {
+          "Ice": 0.681064,
+          "Rock": 0.211795,
+          "Metal": 0.107141
+        },
+        "SemiMajorAxis": 489867991209.03015,
+        "Eccentricity": 0.000192,
+        "OrbitalInclination": 0.819237,
+        "Periapsis": 319.20495,
+        "OrbitalPeriod": 320728331.804276,
+        "RotationPeriod": 171251.596743,
+        "AxialTilt": 0.485562
+      },
+      {
+        "timestamp": "2026-02-12T21:08:15Z",
+        "event": "Scan",
+        "BodyName": "Swoiphs KL-Z b6-3 4",
+        "BodyID": 4,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoiphs KL-Z b6-3",
+        "SystemAddress": 7309094692409,
+        "DistanceFromArrivalLS": 2236.623623,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 89.334976
+          },
+          {
+            "Name": "Hydrogen",
+            "Percent": 8.427828
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.237205
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.46547,
+        "Radius": 10113965.0,
+        "SurfaceGravity": 9.606525,
+        "SurfaceTemperature": 40.923054,
+        "SurfacePressure": 49695.925781,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.676475,
+          "Rock": 0.214289,
+          "Metal": 0.109235
+        },
+        "SemiMajorAxis": 670036852359.7717,
+        "Eccentricity": 0.002508,
+        "OrbitalInclination": 0.019234,
+        "Periapsis": 77.656048,
+        "OrbitalPeriod": 513058394.193649,
+        "RotationPeriod": 45317.59614,
+        "AxialTilt": 1.239059
+      },
+      {
+        "timestamp": "2026-02-12T21:08:19Z",
+        "event": "Scan",
+        "BodyName": "Swoiphs KL-Z b6-3 4 a",
+        "BodyID": 5,
+        "Parents": [
+          {
+            "Planet": 4
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoiphs KL-Z b6-3",
+        "SystemAddress": 7309094692409,
+        "DistanceFromArrivalLS": 2236.701316,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.05761,
+        "Radius": 3375525.0,
+        "SurfaceGravity": 2.015245,
+        "SurfaceTemperature": 40.074146,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.952879
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 23.505478
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 15.04861
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.416163
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.391066
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 5.127749
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 3.048977
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.449053
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 0.964171
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.76497
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.330873
+          }
+        ],
+        "Composition": {
+          "Ice": 0.877513,
+          "Rock": 0.104955,
+          "Metal": 0.017532
+        },
+        "SemiMajorAxis": 2788781821.727753,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": 84.869574,
+        "Periapsis": 275.498614,
+        "OrbitalPeriod": 29179429.411888,
+        "RotationPeriod": 202108.399606,
+        "AxialTilt": 0.479338
+      },
+      {
+        "timestamp": "2026-02-12T21:08:03Z",
+        "event": "Scan",
+        "BodyName": "Swoiphs KL-Z b6-3 5",
+        "BodyID": 6,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoiphs KL-Z b6-3",
+        "SystemAddress": 7309094692409,
+        "DistanceFromArrivalLS": 2969.907984,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thin neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 94.692451
+          },
+          {
+            "Name": "Neon",
+            "Percent": 5.307554
+          }
+        ],
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.656479,
+        "Radius": 6839327.5,
+        "SurfaceGravity": 5.593759,
+        "SurfaceTemperature": 35.076717,
+        "SurfacePressure": 7150.673828,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 22.87038
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.231623
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 16.140114
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.312414
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.207706
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.665703
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.386279
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.579408
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.103091
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.05394
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.449338
+          }
+        ],
+        "Composition": {
+          "Ice": 0.681071,
+          "Rock": 0.211787,
+          "Metal": 0.107142
+        },
+        "SemiMajorAxis": 887076061964.035,
+        "Eccentricity": 0.00445,
+        "OrbitalInclination": -0.018023,
+        "Periapsis": 161.002469,
+        "OrbitalPeriod": 781555920.83931,
+        "RotationPeriod": 65869.115153,
+        "AxialTilt": -0.481596
+      },
+      {
+        "timestamp": "2026-02-12T21:08:54Z",
+        "event": "Scan",
+        "BodyName": "Swoiphs KL-Z b6-3 6",
+        "BodyID": 7,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoiphs KL-Z b6-3",
+        "SystemAddress": 7309094692409,
+        "DistanceFromArrivalLS": 3915.940447,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 91.463181
+          },
+          {
+            "Name": "Hydrogen",
+            "Percent": 6.246329
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.290501
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.675166,
+        "Radius": 9040791.0,
+        "SurfaceGravity": 8.16873,
+        "SurfaceTemperature": 30.817936,
+        "SurfacePressure": 35074.277344,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.676034,
+          "Rock": 0.214526,
+          "Metal": 0.10944
+        },
+        "SemiMajorAxis": 1173066675662.9944,
+        "Eccentricity": 0.003685,
+        "OrbitalInclination": -0.073874,
+        "Periapsis": 169.405832,
+        "OrbitalPeriod": 1188509881.496429,
+        "RotationPeriod": 168495.554124,
+        "AxialTilt": 2.149456
+      },
+      {
+        "timestamp": "2026-02-12T21:08:52Z",
+        "event": "Scan",
+        "BodyName": "Swoiphs KL-Z b6-3 6 a",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Planet": 7
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Swoiphs KL-Z b6-3",
+        "SystemAddress": 7309094692409,
+        "DistanceFromArrivalLS": 3911.250141,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.042951,
+        "Radius": 3069651.25,
+        "SurfaceGravity": 1.816786,
+        "SurfaceTemperature": 30.286728,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.473278
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.261284
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.252054
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 11.758925
+          },
+          {
+            "Name": "nickel",
+            "Percent": 8.893958
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.288379
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 4.856316
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.143291
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.724479
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 0.702347
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.645683
+          }
+        ],
+        "Composition": {
+          "Ice": 0.877517,
+          "Rock": 0.104952,
+          "Metal": 0.017532
+        },
+        "SemiMajorAxis": 3642652153.968811,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": -34.268234,
+        "Periapsis": 178.068735,
+        "OrbitalPeriod": 52786235.809326,
+        "RotationPeriod": 121936.960291,
+        "AxialTilt": 0.103835
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-09T110234.01.log",
+      "Journal.2026-02-09T151317.01.log",
+      "Journal.2026-02-09T174314.01.log",
+      "Journal.2026-02-09T205244.01.log",
+      "Journal.2026-02-10T202414.01.log",
+      "Journal.2026-02-11T105854.01.log",
+      "Journal.2026-02-11T134714.01.log",
+      "Journal.2026-02-11T164827.01.log",
+      "Journal.2026-02-12T061747.01.log",
+      "Journal.2026-02-12T214314.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-12T21:06:36Z",
+      "to_utc": "2026-02-12T21:08:56Z"
+    }
+  }
+}

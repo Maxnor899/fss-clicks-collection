@@ -1,0 +1,924 @@
+{
+  "recording": {
+    "audio_file": "Flyeia_Dryoae_JZ-E_c28-8__41c46b54.flac",
+    "audio_sha256": "41c46b54fcb7a0c9f1afc25d72c2d6fff4ceb204ff507b00e22635e1a3acfd6b",
+    "audio_sha256_short": "41c46b54",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-13T22:04:39+00:00",
+    "duration_s": 46.401
+  },
+  "context": {
+    "system": {
+      "name": "Flyeia Dryoae JZ-E c28-8",
+      "name_sanitized": "Flyeia_Dryoae_JZ-E_c28-8",
+      "address": 2287304938226,
+      "star_pos": [
+        2649.15625,
+        -28.65625,
+        145.65625
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-13T22:01:10Z",
+    "to_utc": "2026-02-13T22:03:35Z",
+    "anchor_timestamp_utc": "2026-02-13T22:01:10Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-13T224149.01.log"
+  },
+  "system_summary": {
+    "body_count": 12,
+    "non_body_signals": 14,
+    "stars_count": 1,
+    "planets_count": 11,
+    "landables_count": 6,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-13T22:01:15Z",
+        "event": "Scan",
+        "BodyName": "Flyeia Dryoae JZ-E c28-8",
+        "BodyID": 0,
+        "StarSystem": "Flyeia Dryoae JZ-E c28-8",
+        "SystemAddress": 2287304938226,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 9,
+        "StellarMass": 0.851563,
+        "Radius": 635772864.0,
+        "AbsoluteMagnitude": 5.417435,
+        "Age_MY": 13062,
+        "SurfaceTemperature": 5279.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 250766.785269,
+        "AxialTilt": 0.0,
+        "Rings": [
+          {
+            "Name": "Flyeia Dryoae JZ-E c28-8 A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 133260000000000.0,
+            "InnerRad": 988690000.0,
+            "OuterRad": 2287200000.0
+          },
+          {
+            "Name": "Flyeia Dryoae JZ-E c28-8 B Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 4.6821e+16,
+            "InnerRad": 2797500000.0,
+            "OuterRad": 451160000000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-13T22:03:14Z",
+        "event": "Scan",
+        "BodyName": "Flyeia Dryoae JZ-E c28-8 1",
+        "BodyID": 17,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Flyeia Dryoae JZ-E c28-8",
+        "SystemAddress": 2287304938226,
+        "DistanceFromArrivalLS": 2389.998209,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class III gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 74.147995
+          },
+          {
+            "Name": "Helium",
+            "Percent": 25.852016
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 1625.802612,
+        "Radius": 75209488.0,
+        "SurfaceGravity": 114.559709,
+        "SurfaceTemperature": 408.130219,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 716164660453.7964,
+        "Eccentricity": 0.002352,
+        "OrbitalInclination": -0.08652,
+        "Periapsis": 40.965002,
+        "OrbitalPeriod": 355993223.190308,
+        "RotationPeriod": 23112.05634,
+        "AxialTilt": 2.611143
+      },
+      {
+        "timestamp": "2026-02-13T22:03:27Z",
+        "event": "Scan",
+        "BodyName": "Flyeia Dryoae JZ-E c28-8 1 a",
+        "BodyID": 18,
+        "Parents": [
+          {
+            "Planet": 17
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Flyeia Dryoae JZ-E c28-8",
+        "SystemAddress": 2287304938226,
+        "DistanceFromArrivalLS": 2391.148804,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.017552,
+        "Radius": 1806842.125,
+        "SurfaceGravity": 2.142916,
+        "SurfaceTemperature": 153.424927,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.121981
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.748854
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.765846
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.463064
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 10.093564
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.599789
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.196638
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 4.695693
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.484908
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.145742
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.683916
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.909355,
+          "Metal": 0.090645
+        },
+        "SemiMajorAxis": 1016490101.81427,
+        "Eccentricity": 7.5e-05,
+        "OrbitalInclination": 0.017678,
+        "Periapsis": 71.411926,
+        "OrbitalPeriod": 252944.582701,
+        "RotationPeriod": -252953.877087,
+        "AxialTilt": -2.116217
+      },
+      {
+        "timestamp": "2026-02-13T22:03:24Z",
+        "event": "Scan",
+        "BodyName": "Flyeia Dryoae JZ-E c28-8 1 a a",
+        "BodyID": 19,
+        "Parents": [
+          {
+            "Planet": 18
+          },
+          {
+            "Planet": 17
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Flyeia Dryoae JZ-E c28-8",
+        "SystemAddress": 2287304938226,
+        "DistanceFromArrivalLS": 2391.147858,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 0.000729,
+        "Radius": 642980.375,
+        "SurfaceGravity": 0.703036,
+        "SurfaceTemperature": 153.424927,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 20.565464
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 18.107279
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 17.293423
+          },
+          {
+            "Name": "nickel",
+            "Percent": 13.695587
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 11.071548
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.478122
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.920881
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 2.709808
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 1.569375
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.406112
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.182395
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.969023,
+          "Metal": 0.030977
+        },
+        "SemiMajorAxis": 4682567.119598,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": -56.23541,
+        "Periapsis": 187.34044,
+        "OrbitalPeriod": 23585.186005,
+        "RotationPeriod": 24070.132243,
+        "AxialTilt": -0.209942
+      },
+      {
+        "timestamp": "2026-02-13T22:03:19Z",
+        "event": "Scan",
+        "BodyName": "Flyeia Dryoae JZ-E c28-8 1 b",
+        "BodyID": 20,
+        "Parents": [
+          {
+            "Planet": 17
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Flyeia Dryoae JZ-E c28-8",
+        "SystemAddress": 2287304938226,
+        "DistanceFromArrivalLS": 2394.044193,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "thin carbon dioxide atmosphere",
+        "AtmosphereType": "CarbonDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 99.009911
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 0.990099
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.004929,
+        "Radius": 1192010.25,
+        "SurfaceGravity": 1.38252,
+        "SurfaceTemperature": 178.541458,
+        "SurfacePressure": 3757.312988,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.093227
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.809927
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.8172
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.441318
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 10.126443
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.586858
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.885308
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 2.217117
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 1.140416
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.04841
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.83377
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.911735,
+          "Metal": 0.088265
+        },
+        "SemiMajorAxis": 1463850021.362305,
+        "Eccentricity": 1.2e-05,
+        "OrbitalInclination": 0.829935,
+        "Periapsis": 352.918323,
+        "OrbitalPeriod": 437134.999037,
+        "RotationPeriod": 437151.076612,
+        "AxialTilt": 0.311964
+      },
+      {
+        "timestamp": "2026-02-13T22:03:30Z",
+        "event": "Scan",
+        "BodyName": "Flyeia Dryoae JZ-E c28-8 1 c",
+        "BodyID": 21,
+        "Parents": [
+          {
+            "Planet": 17
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Flyeia Dryoae JZ-E c28-8",
+        "SystemAddress": 2287304938226,
+        "DistanceFromArrivalLS": 2395.556639,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "carbon dioxide atmosphere",
+        "AtmosphereType": "CarbonDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 99.009911
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 0.990099
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.024666,
+        "Radius": 2020009.75,
+        "SurfaceGravity": 2.409403,
+        "SurfaceTemperature": 182.775452,
+        "SurfacePressure": 11411.779297,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.911735,
+          "Metal": 0.088265
+        },
+        "SemiMajorAxis": 2307476520.53833,
+        "Eccentricity": 0.000156,
+        "OrbitalInclination": -0.098671,
+        "Periapsis": 1.483575,
+        "OrbitalPeriod": 865120.494366,
+        "RotationPeriod": 865152.410776,
+        "AxialTilt": -0.159036
+      },
+      {
+        "timestamp": "2026-02-13T22:03:33Z",
+        "event": "Scan",
+        "BodyName": "Flyeia Dryoae JZ-E c28-8 1 d",
+        "BodyID": 23,
+        "Parents": [
+          {
+            "Planet": 17
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Flyeia Dryoae JZ-E c28-8",
+        "SystemAddress": 2287304938226,
+        "DistanceFromArrivalLS": 2403.531696,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.039231,
+        "Radius": 2348525.0,
+        "SurfaceGravity": 2.834957,
+        "SurfaceTemperature": 122.132042,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 18.395872
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.122921
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.239499
+          },
+          {
+            "Name": "nickel",
+            "Percent": 13.913868
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.75659
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.273235
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.597309
+          },
+          {
+            "Name": "germanium",
+            "Percent": 5.339655
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.428523
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 1.1292
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.803317
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.911735,
+          "Metal": 0.088265
+        },
+        "SemiMajorAxis": 5873715043.067932,
+        "Eccentricity": 0.005623,
+        "OrbitalInclination": 4.754049,
+        "Periapsis": 43.425813,
+        "OrbitalPeriod": 3513500.094414,
+        "RotationPeriod": 3513629.427731,
+        "AxialTilt": -0.282558
+      },
+      {
+        "timestamp": "2026-02-13T22:02:55Z",
+        "event": "Scan",
+        "BodyName": "Flyeia Dryoae JZ-E c28-8 2",
+        "BodyID": 26,
+        "Parents": [
+          {
+            "Null": 25
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Flyeia Dryoae JZ-E c28-8",
+        "SystemAddress": 2287304938226,
+        "DistanceFromArrivalLS": 3785.097901,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class III gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 74.147995
+          },
+          {
+            "Name": "Helium",
+            "Percent": 25.852016
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 1719.531372,
+        "Radius": 75044904.0,
+        "SurfaceGravity": 121.696221,
+        "SurfaceTemperature": 412.788239,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 1259571194.648743,
+        "Eccentricity": 0.139163,
+        "OrbitalInclination": 0.220727,
+        "Periapsis": 199.773276,
+        "OrbitalPeriod": 21434294.581413,
+        "RotationPeriod": 130964.765619,
+        "AxialTilt": -0.143815
+      },
+      {
+        "timestamp": "2026-02-13T22:02:41Z",
+        "event": "Scan",
+        "BodyName": "Flyeia Dryoae JZ-E c28-8 2 a",
+        "BodyID": 27,
+        "Parents": [
+          {
+            "Planet": 26
+          },
+          {
+            "Null": 25
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Flyeia Dryoae JZ-E c28-8",
+        "SystemAddress": 2287304938226,
+        "DistanceFromArrivalLS": 3781.567649,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "carbon dioxide atmosphere",
+        "AtmosphereType": "CarbonDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 98.975334
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 1.000517
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.0025,
+        "Radius": 952966.125,
+        "SurfaceGravity": 1.097102,
+        "SurfaceTemperature": 246.090164,
+        "SurfacePressure": 202287.640625,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.911735,
+          "Metal": 0.088265
+        },
+        "SemiMajorAxis": 1137629151.344299,
+        "Eccentricity": 0.000178,
+        "OrbitalInclination": 0.020967,
+        "Periapsis": 340.937956,
+        "OrbitalPeriod": 291212.570667,
+        "RotationPeriod": 291216.895867,
+        "AxialTilt": 0.451951
+      },
+      {
+        "timestamp": "2026-02-13T22:02:45Z",
+        "event": "Scan",
+        "BodyName": "Flyeia Dryoae JZ-E c28-8 2 b",
+        "BodyID": 28,
+        "Parents": [
+          {
+            "Planet": 26
+          },
+          {
+            "Null": 25
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Flyeia Dryoae JZ-E c28-8",
+        "SystemAddress": 2287304938226,
+        "DistanceFromArrivalLS": 3789.955898,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002609,
+        "Radius": 966573.375,
+        "SurfaceGravity": 1.113227,
+        "SurfaceTemperature": 126.018082,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.717297
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 19.424736
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 16.33419
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.913337
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 10.45743
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.867524
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 4.841882
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 2.289585
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 1.210313
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.082678
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.861022
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.911735,
+          "Metal": 0.088265
+        },
+        "SemiMajorAxis": 1693306684.494019,
+        "Eccentricity": 0.001224,
+        "OrbitalInclination": -0.087671,
+        "Periapsis": 207.830239,
+        "OrbitalPeriod": 528825.628757,
+        "RotationPeriod": 528833.488333,
+        "AxialTilt": -0.102963
+      },
+      {
+        "timestamp": "2026-02-13T22:02:47Z",
+        "event": "Scan",
+        "BodyName": "Flyeia Dryoae JZ-E c28-8 2 c",
+        "BodyID": 29,
+        "Parents": [
+          {
+            "Planet": 26
+          },
+          {
+            "Null": 25
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Flyeia Dryoae JZ-E c28-8",
+        "SystemAddress": 2287304938226,
+        "DistanceFromArrivalLS": 3773.868304,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.005275,
+        "Radius": 1218969.875,
+        "SurfaceGravity": 1.415001,
+        "SurfaceTemperature": 110.801254,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.567997
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 19.277651
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 16.210508
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.800411
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 10.378245
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.800379
+          },
+          {
+            "Name": "germanium",
+            "Percent": 5.67988
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 2.272248
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.337368
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.169482
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.505837
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.911735,
+          "Metal": 0.088265
+        },
+        "SemiMajorAxis": 3911023497.581482,
+        "Eccentricity": 0.004368,
+        "OrbitalInclination": 0.844631,
+        "Periapsis": 101.624161,
+        "OrbitalPeriod": 1856285.274029,
+        "RotationPeriod": 1856312.833712,
+        "AxialTilt": -0.496666
+      },
+      {
+        "timestamp": "2026-02-13T22:02:35Z",
+        "event": "Scan",
+        "BodyName": "Flyeia Dryoae JZ-E c28-8 3",
+        "BodyID": 30,
+        "Parents": [
+          {
+            "Null": 25
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Flyeia Dryoae JZ-E c28-8",
+        "SystemAddress": 2287304938226,
+        "DistanceFromArrivalLS": 3726.66207,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class I gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 74.147995
+          },
+          {
+            "Name": "Helium",
+            "Percent": 25.852013
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 113.104774,
+        "Radius": 60347504.0,
+        "SurfaceGravity": 12.378603,
+        "SurfaceTemperature": 103.040405,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 19149446487.426758,
+        "Eccentricity": 0.139163,
+        "OrbitalInclination": 0.220727,
+        "Periapsis": 19.773282,
+        "OrbitalPeriod": 21434294.581413,
+        "RotationPeriod": 22127998.930817,
+        "AxialTilt": -0.252744
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-09T151317.01.log",
+      "Journal.2026-02-09T174314.01.log",
+      "Journal.2026-02-09T205244.01.log",
+      "Journal.2026-02-10T202414.01.log",
+      "Journal.2026-02-11T105854.01.log",
+      "Journal.2026-02-11T134714.01.log",
+      "Journal.2026-02-11T164827.01.log",
+      "Journal.2026-02-12T061747.01.log",
+      "Journal.2026-02-12T214314.01.log",
+      "Journal.2026-02-13T224149.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-13T22:01:10Z",
+      "to_utc": "2026-02-13T22:03:35Z"
+    }
+  }
+}

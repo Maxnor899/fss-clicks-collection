@@ -1,0 +1,859 @@
+{
+  "recording": {
+    "audio_file": "Ploea_Eurl_VW-J_c22-6__ac9a67c4.flac",
+    "audio_sha256": "ac9a67c40ea6596fb1eae9a8af4683b389530aa41ea950410e18bea36e40b232",
+    "audio_sha256_short": "ac9a67c4",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-14T20:03:24+00:00",
+    "duration_s": 45.982
+  },
+  "context": {
+    "system": {
+      "name": "Ploea Eurl VW-J c22-6",
+      "name_sanitized": "Ploea_Eurl_VW-J_c22-6",
+      "address": 1737683407554,
+      "star_pos": [
+        2701.59375,
+        45.0625,
+        -87.65625
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-14T19:57:15Z",
+    "to_utc": "2026-02-14T20:02:21Z",
+    "anchor_timestamp_utc": "2026-02-14T19:57:15Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-14T205220.01.log"
+  },
+  "system_summary": {
+    "body_count": 10,
+    "non_body_signals": 3,
+    "stars_count": 2,
+    "planets_count": 8,
+    "landables_count": 7,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-14T19:57:21Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl VW-J c22-6 A",
+        "BodyID": 1,
+        "Parents": [
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl VW-J c22-6",
+        "SystemAddress": 1737683407554,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 9,
+        "StellarMass": 0.539063,
+        "Radius": 499826912.0,
+        "AbsoluteMagnitude": 7.398956,
+        "Age_MY": 9250,
+        "SurfaceTemperature": 3773.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 370135045051.5747,
+        "Eccentricity": 0.030132,
+        "OrbitalInclination": -13.303367,
+        "Periapsis": 268.434456,
+        "OrbitalPeriod": 686432188.749313,
+        "RotationPeriod": 199250.992148,
+        "AxialTilt": 0.0
+      },
+      {
+        "timestamp": "2026-02-14T19:57:21Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl VW-J c22-6 B",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl VW-J c22-6",
+        "SystemAddress": 1737683407554,
+        "DistanceFromArrivalLS": 3618.515366,
+        "StarType": "M",
+        "Subclass": 6,
+        "StellarMass": 0.277344,
+        "Radius": 306531072.0,
+        "AbsoluteMagnitude": 10.203888,
+        "Age_MY": 9250,
+        "SurfaceTemperature": 2526.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 719417214393.6157,
+        "Eccentricity": 0.030132,
+        "OrbitalInclination": -13.303367,
+        "Periapsis": 88.434462,
+        "OrbitalPeriod": 686432188.749313,
+        "RotationPeriod": 178789.824341,
+        "AxialTilt": 0.0,
+        "Rings": [
+          {
+            "Name": "Ploea Eurl VW-J c22-6 B A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 13928000000000.0,
+            "InnerRad": 557000000.0,
+            "OuterRad": 1573700000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-14T20:01:53Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl VW-J c22-6 B 1",
+        "BodyID": 7,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl VW-J c22-6",
+        "SystemAddress": 1737683407554,
+        "DistanceFromArrivalLS": 3634.356824,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000568,
+        "Radius": 548649.0625,
+        "SurfaceGravity": 0.751786,
+        "SurfaceTemperature": 308.427765,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 22.42103
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.958326
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 16.039394
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 13.487471
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 9.259657
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.634909
+          },
+          {
+            "Name": "zinc",
+            "Percent": 6.093196
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 2.603544
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.741095
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.532358
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 1.229018
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.674653,
+          "Metal": 0.325347
+        },
+        "SemiMajorAxis": 11913186311.721802,
+        "Eccentricity": 0.001125,
+        "OrbitalInclination": -0.080422,
+        "Periapsis": 128.147456,
+        "OrbitalPeriod": 1346515.715122,
+        "RotationPeriod": 1346515.943842,
+        "AxialTilt": 0.222705
+      },
+      {
+        "timestamp": "2026-02-14T20:01:57Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl VW-J c22-6 B 2",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl VW-J c22-6",
+        "SystemAddress": 1737683407554,
+        "DistanceFromArrivalLS": 3668.753143,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "water atmosphere",
+        "AtmosphereType": "Water",
+        "AtmosphereComposition": [
+          {
+            "Name": "Water",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.00058,
+        "Radius": 552520.875,
+        "SurfaceGravity": 0.757181,
+        "SurfaceTemperature": 459.37442,
+        "SurfacePressure": 15358.083984,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.674653,
+          "Metal": 0.325347
+        },
+        "SemiMajorAxis": 17313565611.839294,
+        "Eccentricity": 0.000647,
+        "OrbitalInclination": 0.002123,
+        "Periapsis": 104.567266,
+        "OrbitalPeriod": 2359115.540981,
+        "RotationPeriod": 2359115.997748,
+        "AxialTilt": -0.172108
+      },
+      {
+        "timestamp": "2026-02-14T20:01:48Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl VW-J c22-6 B 3",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl VW-J c22-6",
+        "SystemAddress": 1737683407554,
+        "DistanceFromArrivalLS": 3600.460081,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000748,
+        "Radius": 598872.5625,
+        "SurfaceGravity": 0.831505,
+        "SurfaceTemperature": 237.893356,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.225796
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.054302
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 14.967193
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.585859
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.545945
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.766037
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.057681
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.768377
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.165509
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.936408
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.926896
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.660515,
+          "Metal": 0.339484
+        },
+        "SemiMajorAxis": 22621554732.322693,
+        "Eccentricity": 0.000421,
+        "OrbitalInclination": -0.017848,
+        "Periapsis": 225.152763,
+        "OrbitalPeriod": 3523328.661919,
+        "RotationPeriod": -3523329.236597,
+        "AxialTilt": 3.135111
+      },
+      {
+        "timestamp": "2026-02-14T20:01:46Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl VW-J c22-6 B 4",
+        "BodyID": 10,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl VW-J c22-6",
+        "SystemAddress": 1737683407554,
+        "DistanceFromArrivalLS": 3556.77547,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001553,
+        "Radius": 765592.3125,
+        "SurfaceGravity": 1.056261,
+        "SurfaceTemperature": 209.095413,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 23.891378
+          },
+          {
+            "Name": "nickel",
+            "Percent": 18.070436
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 17.091242
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 14.371964
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.201178
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.866891
+          },
+          {
+            "Name": "germanium",
+            "Percent": 5.056392
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 2.261287
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.560093
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.559854
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 1.069297
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.674653,
+          "Metal": 0.325347
+        },
+        "SemiMajorAxis": 31631431579.589844,
+        "Eccentricity": 0.000386,
+        "OrbitalInclination": -0.002355,
+        "Periapsis": 85.092119,
+        "OrbitalPeriod": 5825695.574284,
+        "RotationPeriod": 5825696.735892,
+        "AxialTilt": -0.280098
+      },
+      {
+        "timestamp": "2026-02-14T20:02:14Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl VW-J c22-6 B 5",
+        "BodyID": 11,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl VW-J c22-6",
+        "SystemAddress": 1737683407554,
+        "DistanceFromArrivalLS": 3551.60779,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002122,
+        "Radius": 846329.1875,
+        "SurfaceGravity": 1.180759,
+        "SurfaceTemperature": 191.679962,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 22.113783
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.725939
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 15.654427
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 13.163753
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 9.132767
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.427659
+          },
+          {
+            "Name": "zinc",
+            "Percent": 6.009698
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.631315
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.717236
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.444017
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.979404
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.664373,
+          "Metal": 0.335627
+        },
+        "SemiMajorAxis": 39966070652.00806,
+        "Eccentricity": 0.000546,
+        "OrbitalInclination": 0.317101,
+        "Periapsis": 197.535484,
+        "OrbitalPeriod": 8273832.201958,
+        "RotationPeriod": 189132.778653,
+        "AxialTilt": -2.651012
+      },
+      {
+        "timestamp": "2026-02-14T20:02:18Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl VW-J c22-6 B 6",
+        "BodyID": 12,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl VW-J c22-6",
+        "SystemAddress": 1737683407554,
+        "DistanceFromArrivalLS": 3670.505585,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "thin ammonia atmosphere",
+        "AtmosphereType": "Ammonia",
+        "AtmosphereComposition": [
+          {
+            "Name": "Ammonia",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.004092,
+        "Radius": 1049773.625,
+        "SurfaceGravity": 1.480124,
+        "SurfaceTemperature": 153.890106,
+        "SurfacePressure": 102.83947,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.207262
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.040283
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 14.947351
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.569173
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.53761
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.758383
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.047
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.207766
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.449403
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.309684
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.926086
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.660067,
+          "Metal": 0.339933
+        },
+        "SemiMajorAxis": 76107855439.1861,
+        "Eccentricity": 0.0014,
+        "OrbitalInclination": 2.26139,
+        "Periapsis": 358.435326,
+        "OrbitalPeriod": 21742712.259293,
+        "RotationPeriod": 234270.905817,
+        "AxialTilt": -1.87007
+      },
+      {
+        "timestamp": "2026-02-14T20:01:51Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl VW-J c22-6 B 7",
+        "BodyID": 13,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl VW-J c22-6",
+        "SystemAddress": 1737683407554,
+        "DistanceFromArrivalLS": 3962.234865,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "thin carbon dioxide atmosphere",
+        "AtmosphereType": "CarbonDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "CarbonDioxide",
+            "Percent": 99.009911
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 0.990099
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.001755,
+        "Radius": 797152.3125,
+        "SurfaceGravity": 1.100938,
+        "SurfaceTemperature": 162.978638,
+        "SurfacePressure": 1763.077393,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.244896
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.068748
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 15.198019
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.77996
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.554535
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.773926
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.181949
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.496288
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.649763
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.451975
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.599949
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.674653,
+          "Metal": 0.325347
+        },
+        "SemiMajorAxis": 103330868482.58972,
+        "Eccentricity": 0.013245,
+        "OrbitalInclination": -3.690997,
+        "Periapsis": 77.583262,
+        "OrbitalPeriod": 34396529.197693,
+        "RotationPeriod": 75884.807252,
+        "AxialTilt": -0.102613
+      },
+      {
+        "timestamp": "2026-02-14T20:01:39Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl VW-J c22-6 B 8",
+        "BodyID": 14,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl VW-J c22-6",
+        "SystemAddress": 1737683407554,
+        "DistanceFromArrivalLS": 3184.459149,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.012109,
+        "Radius": 1840331.375,
+        "SurfaceGravity": 1.424978,
+        "SurfaceTemperature": 114.182755,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 21.942041
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 18.450985
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 17.119949
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.948812
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 11.812637
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 7.69941
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.652561
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 1.987979
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.329442
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.117751
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 0.938437
+          }
+        ],
+        "Composition": {
+          "Ice": 0.556595,
+          "Rock": 0.299144,
+          "Metal": 0.144261
+        },
+        "SemiMajorAxis": 130717301368.71338,
+        "Eccentricity": 0.000482,
+        "OrbitalInclination": -0.008614,
+        "Periapsis": 352.918122,
+        "OrbitalPeriod": 48940580.487251,
+        "RotationPeriod": 47532.918519,
+        "AxialTilt": -0.245988
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-09T205244.01.log",
+      "Journal.2026-02-10T202414.01.log",
+      "Journal.2026-02-11T105854.01.log",
+      "Journal.2026-02-11T134714.01.log",
+      "Journal.2026-02-11T164827.01.log",
+      "Journal.2026-02-12T061747.01.log",
+      "Journal.2026-02-12T214314.01.log",
+      "Journal.2026-02-13T224149.01.log",
+      "Journal.2026-02-14T071150.01.log",
+      "Journal.2026-02-14T205220.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-14T19:57:15Z",
+      "to_utc": "2026-02-14T20:02:21Z"
+    }
+  }
+}

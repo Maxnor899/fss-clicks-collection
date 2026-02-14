@@ -1,0 +1,495 @@
+{
+  "recording": {
+    "audio_file": "Ploea_Eurl_SD-U_b44-4__e1595630.flac",
+    "audio_sha256": "e159563043971603329a14a3a75e40185809bf4cd5d3ce170e4f69da3f333e5f",
+    "audio_sha256_short": "e1595630",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-14T20:09:14+00:00",
+    "duration_s": 39.25
+  },
+  "context": {
+    "system": {
+      "name": "Ploea Eurl SD-U b44-4",
+      "name_sanitized": "Ploea_Eurl_SD-U_b44-4",
+      "address": 9504897115521,
+      "star_pos": [
+        2831.625,
+        67.21875,
+        -87.59375
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-14T20:06:31Z",
+    "to_utc": "2026-02-14T20:08:18Z",
+    "anchor_timestamp_utc": "2026-02-14T20:06:31Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-14T205220.01.log"
+  },
+  "system_summary": {
+    "body_count": 9,
+    "non_body_signals": 0,
+    "stars_count": 1,
+    "planets_count": 8,
+    "landables_count": 0,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-14T20:06:36Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl SD-U b44-4",
+        "BodyID": 0,
+        "StarSystem": "Ploea Eurl SD-U b44-4",
+        "SystemAddress": 9504897115521,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.289063,
+        "Radius": 298656608.0,
+        "AbsoluteMagnitude": 9.866119,
+        "Age_MY": 12838,
+        "SurfaceTemperature": 2766.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 151132.947118,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-14T20:08:00Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl SD-U b44-4 1",
+        "BodyID": 1,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl SD-U b44-4",
+        "SystemAddress": 9504897115521,
+        "DistanceFromArrivalLS": 707.699799,
+        "TerraformState": "",
+        "PlanetClass": "Rocky ice body",
+        "Atmosphere": "neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 97.556892
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.443106
+          }
+        ],
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 1.282527,
+        "Radius": 7692541.5,
+        "SurfaceGravity": 8.638455,
+        "SurfaceTemperature": 58.99057,
+        "SurfacePressure": 22929.53125,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.421525,
+          "Rock": 0.386945,
+          "Metal": 0.19153
+        },
+        "SemiMajorAxis": 212479269504.54712,
+        "Eccentricity": 0.003179,
+        "OrbitalInclination": 0.055085,
+        "Periapsis": 321.160518,
+        "OrbitalPeriod": 99339244.365692,
+        "RotationPeriod": 172897.490896,
+        "AxialTilt": 0.090883
+      },
+      {
+        "timestamp": "2026-02-14T20:08:16Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl SD-U b44-4 2",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl SD-U b44-4",
+        "SystemAddress": 9504897115521,
+        "DistanceFromArrivalLS": 1062.440991,
+        "TerraformState": "",
+        "PlanetClass": "Rocky ice body",
+        "Atmosphere": "neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 97.070358
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.430921
+          },
+          {
+            "Name": "Hydrogen",
+            "Percent": 0.498716
+          }
+        ],
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.944069,
+        "Radius": 8689611.0,
+        "SurfaceGravity": 10.261723,
+        "SurfaceTemperature": 48.342636,
+        "SurfacePressure": 32518.816406,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.421525,
+          "Rock": 0.386945,
+          "Metal": 0.19153
+        },
+        "SemiMajorAxis": 318317508697.50977,
+        "Eccentricity": 0.000893,
+        "OrbitalInclination": 0.58929,
+        "Periapsis": 101.244055,
+        "OrbitalPeriod": 182153189.182281,
+        "RotationPeriod": 97771.278965,
+        "AxialTilt": -0.502882
+      },
+      {
+        "timestamp": "2026-02-14T20:08:05Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl SD-U b44-4 3",
+        "BodyID": 3,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl SD-U b44-4",
+        "SystemAddress": 9504897115521,
+        "DistanceFromArrivalLS": 1843.889959,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 89.334976
+          },
+          {
+            "Name": "Hydrogen",
+            "Percent": 8.427828
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.237205
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.806444,
+        "Radius": 10515622.0,
+        "SurfaceGravity": 10.115696,
+        "SurfaceTemperature": 36.887405,
+        "SurfacePressure": 55510.492188,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.681472,
+          "Rock": 0.213065,
+          "Metal": 0.105464
+        },
+        "SemiMajorAxis": 554525512456.8939,
+        "Eccentricity": 0.003166,
+        "OrbitalInclination": -0.009091,
+        "Periapsis": 136.058745,
+        "OrbitalPeriod": 418820822.238922,
+        "RotationPeriod": 111694.721145,
+        "AxialTilt": 0.072709
+      },
+      {
+        "timestamp": "2026-02-14T20:07:55Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl SD-U b44-4 4",
+        "BodyID": 4,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl SD-U b44-4",
+        "SystemAddress": 9504897115521,
+        "DistanceFromArrivalLS": 2377.184442,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 89.334976
+          },
+          {
+            "Name": "Hydrogen",
+            "Percent": 8.427828
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.237205
+          }
+        ],
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 1.942361,
+        "Radius": 9460023.0,
+        "SurfaceGravity": 8.650776,
+        "SurfaceTemperature": 32.439465,
+        "SurfacePressure": 40597.054688,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.681473,
+          "Rock": 0.213065,
+          "Metal": 0.105462
+        },
+        "SemiMajorAxis": 712611979246.1395,
+        "Eccentricity": 0.000588,
+        "OrbitalInclination": -0.627591,
+        "Periapsis": 280.617479,
+        "OrbitalPeriod": 610134619.474411,
+        "RotationPeriod": 105933.288228,
+        "AxialTilt": 0.062441
+      },
+      {
+        "timestamp": "2026-02-14T20:07:49Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl SD-U b44-4 5",
+        "BodyID": 6,
+        "Parents": [
+          {
+            "Null": 5
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl SD-U b44-4",
+        "SystemAddress": 9504897115521,
+        "DistanceFromArrivalLS": 3249.158258,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 89.926407
+          },
+          {
+            "Name": "Hydrogen",
+            "Percent": 7.821579
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.252016
+          }
+        ],
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 1.640163,
+        "Radius": 9004095.0,
+        "SurfaceGravity": 8.063361,
+        "SurfaceTemperature": 27.698679,
+        "SurfacePressure": 35038.9375,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.681473,
+          "Rock": 0.213065,
+          "Metal": 0.105462
+        },
+        "SemiMajorAxis": 1822833359.241486,
+        "Eccentricity": 0.114615,
+        "OrbitalInclination": 2.369547,
+        "Periapsis": 314.633931,
+        "OrbitalPeriod": 59632433.652878,
+        "RotationPeriod": 112853.768926,
+        "AxialTilt": 0.109378
+      },
+      {
+        "timestamp": "2026-02-14T20:07:46Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl SD-U b44-4 6",
+        "BodyID": 7,
+        "Parents": [
+          {
+            "Null": 5
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl SD-U b44-4",
+        "SystemAddress": 9504897115521,
+        "DistanceFromArrivalLS": 3254.20684,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 97.556892
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.443105
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 1.075542,
+        "Radius": 7944876.0,
+        "SurfaceGravity": 6.791449,
+        "SurfaceTemperature": 27.542377,
+        "SurfacePressure": 22912.431641,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.68147,
+          "Rock": 0.213068,
+          "Metal": 0.105462
+        },
+        "SemiMajorAxis": 2779755294.322968,
+        "Eccentricity": 0.114615,
+        "OrbitalInclination": 2.369547,
+        "Periapsis": 134.633936,
+        "OrbitalPeriod": 59632433.652878,
+        "RotationPeriod": 147689.417532,
+        "AxialTilt": 0.505759
+      },
+      {
+        "timestamp": "2026-02-14T20:07:53Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl SD-U b44-4 7",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl SD-U b44-4",
+        "SystemAddress": 9504897115521,
+        "DistanceFromArrivalLS": 4109.963228,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 89.334976
+          },
+          {
+            "Name": "Hydrogen",
+            "Percent": 8.427828
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.237204
+          }
+        ],
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 1.621645,
+        "Radius": 8946887.0,
+        "SurfaceGravity": 8.074604,
+        "SurfaceTemperature": 24.502083,
+        "SurfacePressure": 34875.339844,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.671955,
+          "Rock": 0.218978,
+          "Metal": 0.109067
+        },
+        "SemiMajorAxis": 1245741248130.7983,
+        "Eccentricity": 0.028613,
+        "OrbitalInclination": -1.328039,
+        "Periapsis": 9.309131,
+        "OrbitalPeriod": 1410222828.388214,
+        "RotationPeriod": 191119.105353,
+        "AxialTilt": 1.759152
+      },
+      {
+        "timestamp": "2026-02-14T20:07:41Z",
+        "event": "Scan",
+        "BodyName": "Ploea Eurl SD-U b44-4 8",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Ploea Eurl SD-U b44-4",
+        "SystemAddress": 9504897115521,
+        "DistanceFromArrivalLS": 5779.26336,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 99.943413
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 1.144449,
+        "Radius": 8093842.0,
+        "SurfaceGravity": 6.962997,
+        "SurfaceTemperature": 20.638632,
+        "SurfacePressure": 23509.445313,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.68147,
+          "Rock": 0.213068,
+          "Metal": 0.105462
+        },
+        "SemiMajorAxis": 1732057154178.6194,
+        "Eccentricity": 0.000425,
+        "OrbitalInclination": 2.303543,
+        "Periapsis": 202.383604,
+        "OrbitalPeriod": 2312007427.215576,
+        "RotationPeriod": 109712.055866,
+        "AxialTilt": -0.328987
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-09T205244.01.log",
+      "Journal.2026-02-10T202414.01.log",
+      "Journal.2026-02-11T105854.01.log",
+      "Journal.2026-02-11T134714.01.log",
+      "Journal.2026-02-11T164827.01.log",
+      "Journal.2026-02-12T061747.01.log",
+      "Journal.2026-02-12T214314.01.log",
+      "Journal.2026-02-13T224149.01.log",
+      "Journal.2026-02-14T071150.01.log",
+      "Journal.2026-02-14T205220.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-14T20:06:31Z",
+      "to_utc": "2026-02-14T20:08:18Z"
+    }
+  }
+}

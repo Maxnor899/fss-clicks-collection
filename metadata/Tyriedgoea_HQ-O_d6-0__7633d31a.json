@@ -1,0 +1,496 @@
+{
+  "recording": {
+    "audio_file": "Tyriedgoea_HQ-O_d6-0__7633d31a.flac",
+    "audio_sha256": "7633d31a182f80e4c571930c30e0a501e59ad85568d9497fa92094bee65e446c",
+    "audio_sha256_short": "7633d31a",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-15T13:32:47+00:00",
+    "duration_s": 47.851
+  },
+  "context": {
+    "system": {
+      "name": "Tyriedgoea HQ-O d6-0",
+      "name_sanitized": "Tyriedgoea_HQ-O_d6-0",
+      "address": 12071291451,
+      "star_pos": [
+        7540.125,
+        412.53125,
+        2078.3125
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-15T13:27:26Z",
+    "to_utc": "2026-02-15T13:32:23Z",
+    "anchor_timestamp_utc": "2026-02-15T13:27:26Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-15T140907.01.log"
+  },
+  "system_summary": {
+    "body_count": 6,
+    "non_body_signals": 3,
+    "stars_count": 1,
+    "planets_count": 5,
+    "landables_count": 3,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-15T13:27:32Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea HQ-O d6-0",
+        "BodyID": 0,
+        "StarSystem": "Tyriedgoea HQ-O d6-0",
+        "SystemAddress": 12071291451,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "F",
+        "Subclass": 7,
+        "StellarMass": 1.230469,
+        "Radius": 869290048.0,
+        "AbsoluteMagnitude": 3.936874,
+        "Age_MY": 1274,
+        "SurfaceTemperature": 6348.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 537185.92187,
+        "AxialTilt": 0.0,
+        "Rings": [
+          {
+            "Name": "Tyriedgoea HQ-O d6-0 A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 1549200000000000.0,
+            "InnerRad": 7569000000.0,
+            "OuterRad": 484410000000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-15T13:32:12Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea HQ-O d6-0 1",
+        "BodyID": 6,
+        "Parents": [
+          {
+            "Null": 5
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea HQ-O d6-0",
+        "SystemAddress": 12071291451,
+        "DistanceFromArrivalLS": 2562.97993,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class III gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 74.303169
+          },
+          {
+            "Name": "Helium",
+            "Percent": 25.69684
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 1290.403442,
+        "Radius": 76404368.0,
+        "SurfaceGravity": 88.104596,
+        "SurfaceTemperature": 365.116119,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 760292583.703995,
+        "Eccentricity": 0.130879,
+        "OrbitalInclination": -8.337679,
+        "Periapsis": 167.626998,
+        "OrbitalPeriod": 22446088.790894,
+        "RotationPeriod": 51378.524746,
+        "AxialTilt": 1.525581,
+        "Rings": [
+          {
+            "Name": "Tyriedgoea HQ-O d6-0 1 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 3929200000000.0,
+            "InnerRad": 121070000.0,
+            "OuterRad": 379010000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-02-15T13:32:16Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea HQ-O d6-0 1 a",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Planet": 6
+          },
+          {
+            "Null": 5
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea HQ-O d6-0",
+        "SystemAddress": 12071291451,
+        "DistanceFromArrivalLS": 2563.137146,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "thin ammonia atmosphere",
+        "AtmosphereType": "Ammonia",
+        "AtmosphereComposition": [
+          {
+            "Name": "Ammonia",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.009006,
+        "Radius": 1452742.25,
+        "SurfaceGravity": 1.70087,
+        "SurfaceTemperature": 171.247879,
+        "SurfacePressure": 187.320541,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 18.463295
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.000225
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.136324
+          },
+          {
+            "Name": "nickel",
+            "Percent": 13.964863
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.690535
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.303557
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.625153
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.017632
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.433759
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.261868
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 1.102791
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.910475,
+          "Metal": 0.089525
+        },
+        "SemiMajorAxis": 1409392952.919006,
+        "Eccentricity": 0.000849,
+        "OrbitalInclination": -1.042484,
+        "Periapsis": 52.660035,
+        "OrbitalPeriod": 463545.757532,
+        "RotationPeriod": 463560.008076,
+        "AxialTilt": -0.17872
+      },
+      {
+        "timestamp": "2026-02-15T13:32:21Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea HQ-O d6-0 1 b",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Planet": 6
+          },
+          {
+            "Null": 5
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea HQ-O d6-0",
+        "SystemAddress": 12071291451,
+        "DistanceFromArrivalLS": 2561.783232,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.017463,
+        "Radius": 1804331.5,
+        "SurfaceGravity": 2.137912,
+        "SurfaceTemperature": 157.874756,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.370382
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.88456
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.879959
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.650946
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 10.166622
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.711503
+          },
+          {
+            "Name": "germanium",
+            "Percent": 5.606145
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.955593
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.323862
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.264875
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 1.185555
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.910475,
+          "Metal": 0.089525
+        },
+        "SemiMajorAxis": 3356015920.639038,
+        "Eccentricity": 0.000698,
+        "OrbitalInclination": -0.230377,
+        "Periapsis": 150.241233,
+        "OrbitalPeriod": 1703258.216381,
+        "RotationPeriod": 1703310.601703,
+        "AxialTilt": 0.271336
+      },
+      {
+        "timestamp": "2026-02-15T13:32:19Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea HQ-O d6-0 1 c",
+        "BodyID": 10,
+        "Parents": [
+          {
+            "Planet": 6
+          },
+          {
+            "Null": 5
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea HQ-O d6-0",
+        "SystemAddress": 12071291451,
+        "DistanceFromArrivalLS": 2564.222072,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.027806,
+        "Radius": 2099620.75,
+        "SurfaceGravity": 2.513974,
+        "SurfaceTemperature": 155.186493,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.180815
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.699747
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.72455
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.507565
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 10.067127
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.92148
+          },
+          {
+            "Name": "germanium",
+            "Percent": 5.55128
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.212627
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.489477
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.148551
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.496784
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.910475,
+          "Metal": 0.089525
+        },
+        "SemiMajorAxis": 4342237770.557404,
+        "Eccentricity": 0.002001,
+        "OrbitalInclination": -3.530671,
+        "Periapsis": 311.950521,
+        "OrbitalPeriod": 2506772.041321,
+        "RotationPeriod": 2506849.307856,
+        "AxialTilt": 0.208876
+      },
+      {
+        "timestamp": "2026-02-15T13:32:02Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea HQ-O d6-0 2",
+        "BodyID": 11,
+        "Parents": [
+          {
+            "Null": 5
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea HQ-O d6-0",
+        "SystemAddress": 12071291451,
+        "DistanceFromArrivalLS": 2625.248945,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class I gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 74.303162
+          },
+          {
+            "Name": "Helium",
+            "Percent": 25.696833
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 53.847652,
+        "Radius": 49132268.0,
+        "SurfaceGravity": 8.890835,
+        "SurfaceTemperature": 146.286407,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 18220550417.900085,
+        "Eccentricity": 0.130879,
+        "OrbitalInclination": -8.337679,
+        "Periapsis": 347.626993,
+        "OrbitalPeriod": 22446088.790894,
+        "RotationPeriod": -22909609.941073,
+        "AxialTilt": 2.875415
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-11T134714.01.log",
+      "Journal.2026-02-11T164827.01.log",
+      "Journal.2026-02-12T061747.01.log",
+      "Journal.2026-02-12T214314.01.log",
+      "Journal.2026-02-13T224149.01.log",
+      "Journal.2026-02-14T071150.01.log",
+      "Journal.2026-02-14T205220.01.log",
+      "Journal.2026-02-15T071238.01.log",
+      "Journal.2026-02-15T104234.01.log",
+      "Journal.2026-02-15T140907.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-15T13:27:26Z",
+      "to_utc": "2026-02-15T13:32:23Z"
+    }
+  }
+}

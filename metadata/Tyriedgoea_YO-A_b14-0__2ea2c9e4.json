@@ -1,0 +1,471 @@
+{
+  "recording": {
+    "audio_file": "Tyriedgoea_YO-A_b14-0__2ea2c9e4.flac",
+    "audio_sha256": "2ea2c9e43d20eda2d7ca4b41e1ce85bc68d5ef10556bc60b3cc023360e458367",
+    "audio_sha256_short": "2ea2c9e4",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-15T13:47:47+00:00",
+    "duration_s": 45.87
+  },
+  "context": {
+    "system": {
+      "name": "Tyriedgoea YO-A b14-0",
+      "name_sanitized": "Tyriedgoea_YO-A_b14-0",
+      "address": 770007443577,
+      "star_pos": [
+        7377.96875,
+        89.875,
+        1810.25
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-15T13:45:08Z",
+    "to_utc": "2026-02-15T13:47:26Z",
+    "anchor_timestamp_utc": "2026-02-15T13:45:08Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-15T140907.01.log"
+  },
+  "system_summary": {
+    "body_count": 9,
+    "non_body_signals": 0,
+    "stars_count": 1,
+    "planets_count": 8,
+    "landables_count": 0,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-15T13:45:13Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea YO-A b14-0",
+        "BodyID": 0,
+        "StarSystem": "Tyriedgoea YO-A b14-0",
+        "SystemAddress": 770007443577,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 4,
+        "StellarMass": 0.347656,
+        "Radius": 360039232.0,
+        "AbsoluteMagnitude": 9.229248,
+        "Age_MY": 9568,
+        "SurfaceTemperature": 2917.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 181108.295839,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-15T13:47:02Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea YO-A b14-0 1",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Null": 1
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea YO-A b14-0",
+        "SystemAddress": 770007443577,
+        "DistanceFromArrivalLS": 519.926694,
+        "TerraformState": "",
+        "PlanetClass": "Rocky ice body",
+        "Atmosphere": "thick methane rich atmosphere",
+        "AtmosphereType": "MethaneRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 92.644684
+          },
+          {
+            "Name": "Methane",
+            "Percent": 6.101658
+          },
+          {
+            "Name": "Argon",
+            "Percent": 0.926253
+          }
+        ],
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.743462,
+        "Radius": 6658508.5,
+        "SurfaceGravity": 6.68366,
+        "SurfaceTemperature": 262.04184,
+        "SurfacePressure": 140273280.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.476991,
+          "Rock": 0.35156,
+          "Metal": 0.171449
+        },
+        "SemiMajorAxis": 243830937.147141,
+        "Eccentricity": 0.091173,
+        "OrbitalInclination": 1.84945,
+        "Periapsis": 197.262495,
+        "OrbitalPeriod": 4580685.913563,
+        "RotationPeriod": 7390700.334498,
+        "AxialTilt": -0.20489
+      },
+      {
+        "timestamp": "2026-02-15T13:46:58Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea YO-A b14-0 2",
+        "BodyID": 3,
+        "Parents": [
+          {
+            "Null": 1
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea YO-A b14-0",
+        "SystemAddress": 770007443577,
+        "DistanceFromArrivalLS": 520.454389,
+        "TerraformState": "",
+        "PlanetClass": "Rocky ice body",
+        "Atmosphere": "thick nitrogen atmosphere",
+        "AtmosphereType": "Nitrogen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 99.997772
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.463732,
+        "Radius": 5762544.5,
+        "SurfaceGravity": 5.56606,
+        "SurfaceTemperature": 93.034691,
+        "SurfacePressure": 10672451.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.476991,
+          "Rock": 0.35156,
+          "Metal": 0.171449
+        },
+        "SemiMajorAxis": 390913641.452789,
+        "Eccentricity": 0.091173,
+        "OrbitalInclination": 1.84945,
+        "Periapsis": 17.262501,
+        "OrbitalPeriod": 4580685.913563,
+        "RotationPeriod": 5836999.302068,
+        "AxialTilt": -0.229875
+      },
+      {
+        "timestamp": "2026-02-15T13:47:13Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea YO-A b14-0 3",
+        "BodyID": 4,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea YO-A b14-0",
+        "SystemAddress": 770007443577,
+        "DistanceFromArrivalLS": 691.007679,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick nitrogen atmosphere",
+        "AtmosphereType": "Nitrogen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 99.942558
+          }
+        ],
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 1.308685,
+        "Radius": 8439203.0,
+        "SurfaceGravity": 7.323885,
+        "SurfaceTemperature": 135.043335,
+        "SurfacePressure": 224816544.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.68681,
+          "Rock": 0.21052,
+          "Metal": 0.10267
+        },
+        "SemiMajorAxis": 207452726364.13574,
+        "Eccentricity": 0.002277,
+        "OrbitalInclination": -0.006945,
+        "Periapsis": 121.783058,
+        "OrbitalPeriod": 87391459.345818,
+        "RotationPeriod": 52411.183752,
+        "AxialTilt": 0.274475
+      },
+      {
+        "timestamp": "2026-02-15T13:46:51Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea YO-A b14-0 4",
+        "BodyID": 5,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea YO-A b14-0",
+        "SystemAddress": 770007443577,
+        "DistanceFromArrivalLS": 1327.240995,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick nitrogen atmosphere",
+        "AtmosphereType": "Nitrogen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 99.99958
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.79148,
+        "Radius": 7256509.0,
+        "SurfaceGravity": 5.990922,
+        "SurfaceTemperature": 71.759018,
+        "SurfacePressure": 150050000.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.686813,
+          "Rock": 0.210517,
+          "Metal": 0.10267
+        },
+        "SemiMajorAxis": 397872495651.2451,
+        "Eccentricity": 6.3e-05,
+        "OrbitalInclination": 0.324855,
+        "Periapsis": 314.762462,
+        "OrbitalPeriod": 232116562.128067,
+        "RotationPeriod": 114280.332701,
+        "AxialTilt": 0.431403
+      },
+      {
+        "timestamp": "2026-02-15T13:47:20Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea YO-A b14-0 5",
+        "BodyID": 6,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea YO-A b14-0",
+        "SystemAddress": 770007443577,
+        "DistanceFromArrivalLS": 1779.168166,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 97.556892
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.443105
+          }
+        ],
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 1.02731,
+        "Radius": 7850795.5,
+        "SurfaceGravity": 6.643293,
+        "SurfaceTemperature": 43.141411,
+        "SurfacePressure": 22095.550781,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.686813,
+          "Rock": 0.210517,
+          "Metal": 0.10267
+        },
+        "SemiMajorAxis": 532451111078.2623,
+        "Eccentricity": 0.007043,
+        "OrbitalInclination": 0.001901,
+        "Periapsis": 267.761618,
+        "OrbitalPeriod": 359343522.787094,
+        "RotationPeriod": 111754.015996,
+        "AxialTilt": -0.374243
+      },
+      {
+        "timestamp": "2026-02-15T13:47:06Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea YO-A b14-0 6",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea YO-A b14-0",
+        "SystemAddress": 770007443577,
+        "DistanceFromArrivalLS": 3183.024873,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 96.715179
+          },
+          {
+            "Name": "Neon",
+            "Percent": 3.284811
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.644546,
+        "Radius": 6816507.0,
+        "SurfaceGravity": 5.528913,
+        "SurfaceTemperature": 32.426277,
+        "SurfacePressure": 11382.801758,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.686813,
+          "Rock": 0.210517,
+          "Metal": 0.10267
+        },
+        "SemiMajorAxis": 936634302139.2822,
+        "Eccentricity": 0.027124,
+        "OrbitalInclination": -0.466888,
+        "Periapsis": 97.776863,
+        "OrbitalPeriod": 838388597.96524,
+        "RotationPeriod": 54624.942833,
+        "AxialTilt": -0.463964
+      },
+      {
+        "timestamp": "2026-02-15T13:47:10Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea YO-A b14-0 7",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea YO-A b14-0",
+        "SystemAddress": 770007443577,
+        "DistanceFromArrivalLS": 4159.832376,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 97.556892
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.443106
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.703559,
+        "Radius": 7001257.0,
+        "SurfaceGravity": 5.720814,
+        "SurfaceTemperature": 28.287632,
+        "SurfacePressure": 16385.267578,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.686813,
+          "Rock": 0.210517,
+          "Metal": 0.10267
+        },
+        "SemiMajorAxis": 1234483242034.912,
+        "Eccentricity": 0.03046,
+        "OrbitalInclination": -0.296176,
+        "Periapsis": 249.841951,
+        "OrbitalPeriod": 1268580555.915833,
+        "RotationPeriod": 163333.28091,
+        "AxialTilt": 0.348534
+      },
+      {
+        "timestamp": "2026-02-15T13:47:17Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea YO-A b14-0 8",
+        "BodyID": 15,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea YO-A b14-0",
+        "SystemAddress": 770007443577,
+        "DistanceFromArrivalLS": 5320.610795,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "neon rich atmosphere",
+        "AtmosphereType": "NeonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 97.556892
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.443106
+          }
+        ],
+        "Volcanism": "minor water magma volcanism",
+        "MassEM": 0.833976,
+        "Radius": 7372462.5,
+        "SurfaceGravity": 6.115584,
+        "SurfaceTemperature": 24.8013,
+        "SurfacePressure": 18724.650391,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.686813,
+          "Rock": 0.210517,
+          "Metal": 0.10267
+        },
+        "SemiMajorAxis": 1608146250247.9553,
+        "Eccentricity": 0.01026,
+        "OrbitalInclination": -2.674428,
+        "Periapsis": 152.805235,
+        "OrbitalPeriod": 1886160254.478455,
+        "RotationPeriod": 78631.049117,
+        "AxialTilt": -0.465138
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-11T134714.01.log",
+      "Journal.2026-02-11T164827.01.log",
+      "Journal.2026-02-12T061747.01.log",
+      "Journal.2026-02-12T214314.01.log",
+      "Journal.2026-02-13T224149.01.log",
+      "Journal.2026-02-14T071150.01.log",
+      "Journal.2026-02-14T205220.01.log",
+      "Journal.2026-02-15T071238.01.log",
+      "Journal.2026-02-15T104234.01.log",
+      "Journal.2026-02-15T140907.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-15T13:45:08Z",
+      "to_utc": "2026-02-15T13:47:26Z"
+    }
+  }
+}

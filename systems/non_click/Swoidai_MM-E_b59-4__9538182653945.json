@@ -1,52 +1,122 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T105854.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T10:23:17Z",
-      "last_seen_utc": "2026-02-11T10:23:23Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 3,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 3,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 2,
-      "types": [
-        "L",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.241132Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.613067+00:00",
+    "log_files": [
+      "Journal.2026-02-11T105854.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 9538182653945,
     "name": "Swoidai MM-E b59-4",
+    "address": 9538182653945,
     "star_pos": [
       5302.46875,
       -76.375,
       1490.40625
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-11T10:23:17+00:00",
+    "last_seen_utc": "2026-02-11T10:24:22+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 3,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 3,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "L",
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Swoidai MM-E b59-4 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 1,
+    "StellarMass": 0.410156,
+    "Radius": 431079232.0,
+    "AbsoluteMagnitude": 8.02803,
+    "Age_MY": 10582,
+    "SurfaceTemperature": 3515.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 251974.183255,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Swoidai MM-E b59-4 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 1,
+        "StellarMass": 0.410156,
+        "Radius": 431079232.0,
+        "AbsoluteMagnitude": 8.02803,
+        "Age_MY": 10582,
+        "SurfaceTemperature": 3515.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 251974.183255,
+        "Rings": null
+      },
+      {
+        "BodyName": "Swoidai MM-E b59-4 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 3989.981919,
+        "StarType": "M",
+        "Subclass": 7,
+        "StellarMass": 0.230469,
+        "Radius": 295918592.0,
+        "AbsoluteMagnitude": 10.381302,
+        "Age_MY": 10582,
+        "SurfaceTemperature": 2468.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 134521.548625,
+        "Rings": null
+      },
+      {
+        "BodyName": "Swoidai MM-E b59-4 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 3659.307743,
+        "StarType": "L",
+        "Subclass": 6,
+        "StellarMass": 0.121094,
+        "Radius": 202762176.0,
+        "AbsoluteMagnitude": 13.328064,
+        "Age_MY": 10582,
+        "SurfaceTemperature": 1513.0,
+        "Luminosity": "V",
+        "RotationPeriod": 85405.656509,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

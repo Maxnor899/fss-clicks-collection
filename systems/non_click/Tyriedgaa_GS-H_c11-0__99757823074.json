@@ -1,55 +1,282 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.565840+00:00",
+    "log_files": [
+      "Journal.2026-02-08T071626.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgaa GS-H c11-0",
+    "address": 99757823074,
+    "star_pos": [
+      9456.78125,
+      578.28125,
+      1977.6875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T071626.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T06:30:37Z",
-      "last_seen_utc": "2026-02-08T06:34:07Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-08T06:30:37+00:00",
+    "last_seen_utc": "2026-02-08T06:55:04+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 11,
       "fss_nonbodycount": 9,
+      "n_bodies_scanned": 11,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 10,
+      "n_landables": 8,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 12,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 11,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky ice body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 2,
-      "n_saa_mappings": 1
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "G"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_bio_signals": 2,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 1
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.212983Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 99757823074,
-    "name": "Tyriedgaa GS-H c11-0",
-    "star_pos": [
-      9456.78125,
-      578.28125,
-      1977.6875
+  "primary_star": {
+    "BodyName": "Tyriedgaa GS-H c11-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "G",
+    "Subclass": 6,
+    "StellarMass": 0.871094,
+    "Radius": 580184640.0,
+    "AbsoluteMagnitude": 5.465759,
+    "Age_MY": 12568,
+    "SurfaceTemperature": 5465.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 357663.793192,
+    "Rings": [
+      {
+        "Name": "Tyriedgaa GS-H c11-0 A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 107340000000000.0,
+        "InnerRad": 910230000.0,
+        "OuterRad": 2304600000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa GS-H c11-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 6,
+        "StellarMass": 0.871094,
+        "Radius": 580184640.0,
+        "AbsoluteMagnitude": 5.465759,
+        "Age_MY": 12568,
+        "SurfaceTemperature": 5465.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 357663.793192,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa GS-H c11-0 A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 107340000000000.0,
+            "InnerRad": 910230000.0,
+            "OuterRad": 2304600000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgaa GS-H c11-0 7",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 376.526093,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.064287,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa GS-H c11-0 8",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 377.354083,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.058294,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa GS-H c11-0 2",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 97.356777,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.023735,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa GS-H c11-0 5",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 236.681253,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.028024,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa GS-H c11-0 4",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 160.321659,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.036062,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa GS-H c11-0 3",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 131.08705,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.05648,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa GS-H c11-0 9",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 473.902777,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Oxygen",
+        "Volcanism": "",
+        "MassEM": 0.145765,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa GS-H c11-0 10",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 698.214387,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.161935,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa GS-H c11-0 1",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 76.01144,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.02605,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa GS-H c11-0 6",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 282.571542,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "Water",
+        "Volcanism": "",
+        "MassEM": 0.038082,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Tyriedgaa GS-H c11-0 8",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa GS-H c11-0 9",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Tyriedgaa GS-H c11-0 9"
+  ],
+  "codex_entries": [
+    {
+      "Name": "Bacterium Volu - Aigue-marine",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    }
+  ]
 }

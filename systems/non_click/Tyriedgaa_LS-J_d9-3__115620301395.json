@@ -1,55 +1,170 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T111611.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T10:56:55Z",
-      "last_seen_utc": "2026-02-08T10:57:01Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 6,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 6,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 5,
-      "types": [
-        "F",
-        "G",
-        "K",
-        "L",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.216035Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.570010+00:00",
+    "log_files": [
+      "Journal.2026-02-08T111611.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 115620301395,
     "name": "Tyriedgaa LS-J d9-3",
+    "address": 115620301395,
     "star_pos": [
       9835.875,
       588.25,
       2367.6875
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-08T10:56:55+00:00",
+    "last_seen_utc": "2026-02-08T10:58:30+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 6,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 6,
+      "n_stars_scanned": 6,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 6,
+      "types": [
+        "L",
+        "K",
+        "F",
+        "G",
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Tyriedgaa LS-J d9-3 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "F",
+    "Subclass": 6,
+    "StellarMass": 1.265625,
+    "Radius": 840296768.0,
+    "AbsoluteMagnitude": 3.92717,
+    "Age_MY": 3252,
+    "SurfaceTemperature": 6471.0,
+    "Luminosity": "Vb",
+    "RotationPeriod": 378190.076218,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa LS-J d9-3 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "F",
+        "Subclass": 6,
+        "StellarMass": 1.265625,
+        "Radius": 840296768.0,
+        "AbsoluteMagnitude": 3.92717,
+        "Age_MY": 3252,
+        "SurfaceTemperature": 6471.0,
+        "Luminosity": "Vb",
+        "RotationPeriod": 378190.076218,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa LS-J d9-3 F",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 52224.220221,
+        "StarType": "L",
+        "Subclass": 9,
+        "StellarMass": 0.117188,
+        "Radius": 190685168.0,
+        "AbsoluteMagnitude": 13.982437,
+        "Age_MY": 3252,
+        "SurfaceTemperature": 1342.0,
+        "Luminosity": "V",
+        "RotationPeriod": 75030.847832,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa LS-J d9-3 E",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 52492.811501,
+        "StarType": "L",
+        "Subclass": 8,
+        "StellarMass": 0.109375,
+        "Radius": 157913808.0,
+        "AbsoluteMagnitude": 14.140457,
+        "Age_MY": 3252,
+        "SurfaceTemperature": 1422.0,
+        "Luminosity": "V",
+        "RotationPeriod": 74664.028991,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa LS-J d9-3 D",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 52496.569694,
+        "StarType": "M",
+        "Subclass": 6,
+        "StellarMass": 0.257813,
+        "Radius": 291334016.0,
+        "AbsoluteMagnitude": 10.122574,
+        "Age_MY": 3252,
+        "SurfaceTemperature": 2640.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 129041.031891,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa LS-J d9-3 C",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 214.22569,
+        "StarType": "K",
+        "Subclass": 5,
+        "StellarMass": 0.609375,
+        "Radius": 470409120.0,
+        "AbsoluteMagnitude": 6.936569,
+        "Age_MY": 3252,
+        "SurfaceTemperature": 4326.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 251464.526662,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa LS-J d9-3 B",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 208.158838,
+        "StarType": "G",
+        "Subclass": 9,
+        "StellarMass": 0.945313,
+        "Radius": 703756480.0,
+        "AbsoluteMagnitude": 5.229767,
+        "Age_MY": 3252,
+        "SurfaceTemperature": 5239.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 302841.458424,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

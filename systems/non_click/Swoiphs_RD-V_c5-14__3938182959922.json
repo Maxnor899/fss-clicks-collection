@@ -1,54 +1,231 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.629784+00:00",
+    "log_files": [
+      "Journal.2026-02-12T061747.01.log"
+    ]
+  },
+  "system": {
+    "name": "Swoiphs RD-V c5-14",
+    "address": 3938182959922,
+    "star_pos": [
+      3578.46875,
+      -88.59375,
+      472.78125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-12T061747.01.log"
-      ],
-      "first_seen_utc": "2026-02-12T05:31:34Z",
-      "last_seen_utc": "2026-02-12T05:37:17Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-12T05:31:34+00:00",
+    "last_seen_utc": "2026-02-12T05:49:54+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 9,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 9,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 8,
+      "n_landables": 8,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 11,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 10,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
-        "Icy body"
+        "Icy body",
+        "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 2,
-      "n_saa_mappings": 2
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_bio_signals": 7,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.250127Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Swoiphs RD-V c5-14",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 4,
+    "StellarMass": 0.675781,
+    "Radius": 534126464.0,
+    "AbsoluteMagnitude": 6.518417,
+    "Age_MY": 12865,
+    "SurfaceTemperature": 4470.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 249421.739957,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 3938182959922,
-    "name": "Swoiphs RD-V c5-14",
-    "star_pos": [
-      3578.46875,
-      -88.59375,
-      472.78125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Swoiphs RD-V c5-14",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 4,
+        "StellarMass": 0.675781,
+        "Radius": 534126464.0,
+        "AbsoluteMagnitude": 6.518417,
+        "Age_MY": 12865,
+        "SurfaceTemperature": 4470.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 249421.739957,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Swoiphs RD-V c5-14 6",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1454.372409,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.015907,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RD-V c5-14 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 397.078879,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.014301,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RD-V c5-14 7 a",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 2005.500778,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000589,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RD-V c5-14 7",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 2004.130313,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.027942,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RD-V c5-14 3",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 544.106301,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "",
+        "MassEM": 0.012649,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RD-V c5-14 5",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1031.798141,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.008328,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RD-V c5-14 4",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 734.730562,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.006027,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RD-V c5-14 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 295.501596,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.009044,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Swoiphs RD-V c5-14 3",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 4
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoiphs RD-V c5-14 4",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 3
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Swoiphs RD-V c5-14 3",
+    "Swoiphs RD-V c5-14 4"
+  ],
+  "codex_entries": []
 }

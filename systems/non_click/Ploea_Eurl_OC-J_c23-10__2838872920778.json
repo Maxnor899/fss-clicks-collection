@@ -1,53 +1,209 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-14T205220.01.log"
-      ],
-      "first_seen_utc": "2026-02-14T20:29:00Z",
-      "last_seen_utc": "2026-02-14T20:29:31Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 20,
-      "fss_nonbodycount": 7,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 7,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 5,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 0,
-      "planet_classes": [
-        "High metal content body"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 1,
-      "types": [
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.261371Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.647473+00:00",
+    "log_files": [
+      "Journal.2026-02-14T205220.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 2838872920778,
     "name": "Ploea Eurl OC-J c23-10",
+    "address": 2838872920778,
     "star_pos": [
       3722.21875,
       231.28125,
       -54.15625
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-14T20:29:00+00:00",
+    "last_seen_utc": "2026-02-14T20:30:15+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 20,
+      "fss_nonbodycount": 7,
+      "n_bodies_scanned": 7,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 5,
+      "n_landables": 5,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body"
+      ]
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Ploea Eurl OC-J c23-10 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 1,
+    "StellarMass": 0.480469,
+    "Radius": 454235648.0,
+    "AbsoluteMagnitude": 8.023254,
+    "Age_MY": 4128,
+    "SurfaceTemperature": 3428.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 232171.241219,
+    "Rings": [
+      {
+        "Name": "Ploea Eurl OC-J c23-10 A A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 88756000000000.0,
+        "InnerRad": 862030000.0,
+        "OuterRad": 1890000000.0
+      },
+      {
+        "Name": "Ploea Eurl OC-J c23-10 A B Belt",
+        "RingClass": "eRingClass_Icy",
+        "MassMT": 787890000000000.0,
+        "InnerRad": 17963000000.0,
+        "OuterRad": 287410000000.0
+      }
+    ]
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploea Eurl OC-J c23-10 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 1,
+        "StellarMass": 0.480469,
+        "Radius": 454235648.0,
+        "AbsoluteMagnitude": 8.023254,
+        "Age_MY": 4128,
+        "SurfaceTemperature": 3428.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 232171.241219,
+        "Rings": [
+          {
+            "Name": "Ploea Eurl OC-J c23-10 A A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 88756000000000.0,
+            "InnerRad": 862030000.0,
+            "OuterRad": 1890000000.0
+          },
+          {
+            "Name": "Ploea Eurl OC-J c23-10 A B Belt",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 787890000000000.0,
+            "InnerRad": 17963000000.0,
+            "OuterRad": 287410000000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Ploea Eurl OC-J c23-10 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 10072.963034,
+        "StarType": "M",
+        "Subclass": 9,
+        "StellarMass": 0.171875,
+        "Radius": 219296432.0,
+        "AbsoluteMagnitude": 11.923935,
+        "Age_MY": 4128,
+        "SurfaceTemperature": 2010.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 118409.768804,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploea Eurl OC-J c23-10 A 1",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 9.925653,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.53015,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eurl OC-J c23-10 A 3",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 17.603666,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.453032,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eurl OC-J c23-10 A 2",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 10.008481,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.428385,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eurl OC-J c23-10 A 4",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 17.87553,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.432661,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eurl OC-J c23-10 A 5",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 33.066452,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.30581,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

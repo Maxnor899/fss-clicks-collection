@@ -1,32 +1,40 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.624877+00:00",
+    "log_files": [
+      "Journal.2026-02-11T134714.01.log"
+    ]
+  },
+  "system": {
+    "name": "Prua Dryou OX-D b18-1",
+    "address": 2929301661337,
+    "star_pos": [
+      4431.90625,
+      -87.21875,
+      598.125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T134714.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T14:03:02Z",
-      "last_seen_utc": "2026-02-11T14:03:51Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-11T14:03:02+00:00",
+    "last_seen_utc": "2026-02-11T14:04:49+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 9,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 9,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 7,
+      "n_landables": 5,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 9,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 7,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
         "Icy body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 3,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -34,21 +42,198 @@
         "M",
         "T"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_bio_signals": 3,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.247472Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Prua Dryou OX-D b18-1 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 7,
+    "StellarMass": 0.246094,
+    "Radius": 285985312.0,
+    "AbsoluteMagnitude": 10.457214,
+    "Age_MY": 11116,
+    "SurfaceTemperature": 2467.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 117100.869244,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 2929301661337,
-    "name": "Prua Dryou OX-D b18-1",
-    "star_pos": [
-      4431.90625,
-      -87.21875,
-      598.125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Prua Dryou OX-D b18-1 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 7,
+        "StellarMass": 0.246094,
+        "Radius": 285985312.0,
+        "AbsoluteMagnitude": 10.457214,
+        "Age_MY": 11116,
+        "SurfaceTemperature": 2467.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 117100.869244,
+        "Rings": null
+      },
+      {
+        "BodyName": "Prua Dryou OX-D b18-1 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 23563.008644,
+        "StarType": "T",
+        "Subclass": 0,
+        "StellarMass": 0.089844,
+        "Radius": 164175184.0,
+        "AbsoluteMagnitude": 14.489319,
+        "Age_MY": 11116,
+        "SurfaceTemperature": 1287.0,
+        "Luminosity": "V",
+        "RotationPeriod": 74381.795811,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Prua Dryou OX-D b18-1 B 3",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 24134.464673,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.447062,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou OX-D b18-1 B 3 a",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 24136.571083,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.012891,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou OX-D b18-1 B 6",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 20668.858646,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.278683,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou OX-D b18-1 B 1",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 23837.335391,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.051728,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou OX-D b18-1 B 2",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 24184.183451,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.269008,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou OX-D b18-1 B 5",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 21525.868718,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "",
+        "MassEM": 0.53608,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou OX-D b18-1 B 4",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 22094.358427,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.326931,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Prua Dryou OX-D b18-1 B 6",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou OX-D b18-1 B 2",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou OX-D b18-1 B 4",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

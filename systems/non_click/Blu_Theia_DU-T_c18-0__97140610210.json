@@ -1,57 +1,474 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-09T110234.01.log"
-      ],
-      "first_seen_utc": "2026-02-09T10:18:13Z",
-      "last_seen_utc": "2026-02-09T10:25:34Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 25,
-      "fss_nonbodycount": 7,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 26,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 23,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 0,
-      "planet_classes": [
-        "High metal content body",
-        "Icy body",
-        "Rocky body"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 2,
-      "n_saa_mappings": 1
-    },
-    "stars": {
-      "n_stars": 3,
-      "types": [
-        "K",
-        "L",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.225888Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.587887+00:00",
+    "log_files": [
+      "Journal.2026-02-09T110234.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 97140610210,
     "name": "Blu Theia DU-T c18-0",
+    "address": 97140610210,
     "star_pos": [
       7899.53125,
       619.125,
       2300.90625
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-09T10:18:13+00:00",
+    "last_seen_utc": "2026-02-09T10:59:06+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 25,
+      "fss_nonbodycount": 7,
+      "n_bodies_scanned": 25,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": 22,
+      "n_landables": 15,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Icy body",
+        "High metal content body",
+        "Rocky body"
+      ]
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "L",
+        "K",
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_bio_signals": 10,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 1
+    }
+  },
+  "primary_star": {
+    "BodyName": "Blu Theia DU-T c18-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 6,
+    "StellarMass": 0.527344,
+    "Radius": 446361216.0,
+    "AbsoluteMagnitude": 7.228851,
+    "Age_MY": 2886,
+    "SurfaceTemperature": 4152.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 245522.685073,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Blu Theia DU-T c18-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 6,
+        "StellarMass": 0.527344,
+        "Radius": 446361216.0,
+        "AbsoluteMagnitude": 7.228851,
+        "Age_MY": 2886,
+        "SurfaceTemperature": 4152.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 245522.685073,
+        "Rings": null
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 50060.577658,
+        "StarType": "L",
+        "Subclass": 4,
+        "StellarMass": 0.148438,
+        "Radius": 209278256.0,
+        "AbsoluteMagnitude": 12.80455,
+        "Age_MY": 2886,
+        "SurfaceTemperature": 1680.0,
+        "Luminosity": "V",
+        "RotationPeriod": 109284.964963,
+        "Rings": [
+          {
+            "Name": "Blu Theia DU-T c18-0 C A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 11484000000000.0,
+            "InnerRad": 373010000.0,
+            "OuterRad": 1277700000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 49202.457895,
+        "StarType": "M",
+        "Subclass": 7,
+        "StellarMass": 0.25,
+        "Radius": 308717248.0,
+        "AbsoluteMagnitude": 10.494781,
+        "Age_MY": 2886,
+        "SurfaceTemperature": 2354.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 111781.922628,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Blu Theia DU-T c18-0 A 2",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 599.311074,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.133877,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 B 2",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 49241.42923,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Water",
+        "Volcanism": "",
+        "MassEM": 0.004774,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 B 1",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 49187.249724,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.004045,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 B 3",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 49153.20943,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.005735,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 B 4",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 49142.012377,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001544,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 C 7",
+        "BodyID": 33,
+        "DistanceFromArrivalLS": 49948.627058,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.008841,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 C 7 a",
+        "BodyID": 34,
+        "DistanceFromArrivalLS": 49948.759706,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000966,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 C 5",
+        "BodyID": 30,
+        "DistanceFromArrivalLS": 49945.563845,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.003033,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 C 6 a",
+        "BodyID": 32,
+        "DistanceFromArrivalLS": 49909.040034,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00027,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 C 6",
+        "BodyID": 31,
+        "DistanceFromArrivalLS": 49909.058385,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.004083,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 C 8",
+        "BodyID": 35,
+        "DistanceFromArrivalLS": 50276.546386,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.006235,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 C 1",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 50073.789207,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "",
+        "MassEM": 0.00056,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 C 2",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 50073.809748,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000447,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 C 3",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 50039.4401,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000535,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 C 4",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 50017.599796,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.00038,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 A 4",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 1129.450744,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "",
+        "MassEM": 0.212772,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 A 1 a",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 351.634927,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.003016,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 A 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 351.498408,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.21194,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 A 6",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 3479.949589,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.324001,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 A 3",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 779.033511,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.310637,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 A 3 a",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 778.977846,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.017243,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia DU-T c18-0 A 5",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 2539.867718,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.319608,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Blu Theia DU-T c18-0 C 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 6
+        }
+      ]
+    },
+    {
+      "BodyName": "Blu Theia DU-T c18-0 C 4",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 4
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Blu Theia DU-T c18-0 C 1"
+  ],
+  "codex_entries": [
+    {
+      "Name": "Tubus Sororibus - Turquoise",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    }
+  ]
 }

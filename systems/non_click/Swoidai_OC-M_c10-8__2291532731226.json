@@ -1,55 +1,186 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.619643+00:00",
+    "log_files": [
+      "Journal.2026-02-11T134714.01.log"
+    ]
+  },
+  "system": {
+    "name": "Swoidai OC-M c10-8",
+    "address": 2291532731226,
+    "star_pos": [
+      5153.0625,
+      -125.28125,
+      678.03125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T134714.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T13:10:43Z",
-      "last_seen_utc": "2026-02-11T13:23:51Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-11T13:10:43+00:00",
+    "last_seen_utc": "2026-02-11T13:32:01+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 6,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 6,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 5,
+      "n_landables": 4,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 7,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 6,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 1,
-      "n_saa_mappings": 1
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_bio_signals": 4,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 1
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.244581Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Swoidai OC-M c10-8",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 4,
+    "StellarMass": 0.636719,
+    "Radius": 534529728.0,
+    "AbsoluteMagnitude": 6.464615,
+    "Age_MY": 12586,
+    "SurfaceTemperature": 4524.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 307432.217561,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 2291532731226,
-    "name": "Swoidai OC-M c10-8",
-    "star_pos": [
-      5153.0625,
-      -125.28125,
-      678.03125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Swoidai OC-M c10-8",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 4,
+        "StellarMass": 0.636719,
+        "Radius": 534529728.0,
+        "AbsoluteMagnitude": 6.464615,
+        "Age_MY": 12586,
+        "SurfaceTemperature": 4524.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 307432.217561,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Swoidai OC-M c10-8 4",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 2469.641348,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.098003,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai OC-M c10-8 1 a",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 519.728851,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000293,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai OC-M c10-8 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 519.734239,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "",
+        "MassEM": 0.009073,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai OC-M c10-8 3",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 888.981609,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002779,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai OC-M c10-8 2",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 888.814443,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002942,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Swoidai OC-M c10-8 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 4
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Swoidai OC-M c10-8 1"
+  ],
+  "codex_entries": [
+    {
+      "Name": "Stratum Tectonicas - Vert clair",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    }
+  ]
 }

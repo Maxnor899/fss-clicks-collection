@@ -1,55 +1,250 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.585546+00:00",
+    "log_files": [
+      "Journal.2026-02-09T082520.01.log"
+    ]
+  },
+  "system": {
+    "name": "Blu Theia FX-J d9-0",
+    "address": 12205558355,
+    "star_pos": [
+      8208.21875,
+      664.28125,
+      2355.0625
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-09T082520.01.log"
-      ],
-      "first_seen_utc": "2026-02-09T07:43:38Z",
-      "last_seen_utc": "2026-02-09T07:50:07Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-09T07:43:38+00:00",
+    "last_seen_utc": "2026-02-09T07:51:07+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 11,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 11,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 10,
+      "n_landables": 3,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 13,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 12,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 4,
+      "n_terraformables": 2,
       "planet_classes": [
         "High metal content body",
-        "Rocky body",
-        "Rocky ice body"
+        "Rocky ice body",
+        "Rocky body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 1,
-      "n_saa_mappings": 2
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "F"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_bio_signals": 0,
+      "n_geo_signals": 3,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.224282Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Blu Theia FX-J d9-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "F",
+    "Subclass": 1,
+    "StellarMass": 1.445313,
+    "Radius": 844923776.0,
+    "AbsoluteMagnitude": 3.447922,
+    "Age_MY": 804,
+    "SurfaceTemperature": 7206.0,
+    "Luminosity": "VI",
+    "RotationPeriod": 195071.317385,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 12205558355,
-    "name": "Blu Theia FX-J d9-0",
-    "star_pos": [
-      8208.21875,
-      664.28125,
-      2355.0625
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Blu Theia FX-J d9-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "F",
+        "Subclass": 1,
+        "StellarMass": 1.445313,
+        "Radius": 844923776.0,
+        "AbsoluteMagnitude": 3.447922,
+        "Age_MY": 804,
+        "SurfaceTemperature": 7206.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 195071.317385,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Blu Theia FX-J d9-0 1 a",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 335.023344,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.184112,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia FX-J d9-0 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 335.170811,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 3.765278,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia FX-J d9-0 5",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 1504.65861,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.95774,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia FX-J d9-0 6",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 2456.497507,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "AmmoniaRich",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 1.184062,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia FX-J d9-0 4",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1114.197656,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "None",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 1.612839,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia FX-J d9-0 4 a",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 1114.056604,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.019418,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia FX-J d9-0 2",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 636.636433,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.458595,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia FX-J d9-0 3",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 866.003981,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 1.468202,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia FX-J d9-0 3 a",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 865.679464,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "Water",
+        "Volcanism": "",
+        "MassEM": 0.057255,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia FX-J d9-0 7",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 3659.036101,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 1.444748,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Blu Theia FX-J d9-0 4",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Blu Theia FX-J d9-0 3",
+    "Blu Theia FX-J d9-0 4"
+  ],
+  "codex_entries": []
 }

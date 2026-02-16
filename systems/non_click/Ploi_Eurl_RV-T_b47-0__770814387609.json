@@ -1,51 +1,121 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-04T212839.01.log"
-      ],
-      "first_seen_utc": "2026-02-04T20:57:24Z",
-      "last_seen_utc": "2026-02-04T20:57:30Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 3,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 3,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 1,
-      "types": [
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.200434Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.545311+00:00",
+    "log_files": [
+      "Journal.2026-02-04T212839.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 770814387609,
     "name": "Ploi Eurl RV-T b47-0",
+    "address": 770814387609,
     "star_pos": [
       7437.375,
       580.40625,
       -44.375
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-04T20:57:24+00:00",
+    "last_seen_utc": "2026-02-04T20:58:50+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 3,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 3,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Ploi Eurl RV-T b47-0 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 2,
+    "StellarMass": 0.40625,
+    "Radius": 406033760.0,
+    "AbsoluteMagnitude": 8.364288,
+    "Age_MY": 12564,
+    "SurfaceTemperature": 3352.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 178919.340732,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl RV-T b47-0 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 2,
+        "StellarMass": 0.40625,
+        "Radius": 406033760.0,
+        "AbsoluteMagnitude": 8.364288,
+        "Age_MY": 12564,
+        "SurfaceTemperature": 3352.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 178919.340732,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploi Eurl RV-T b47-0 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 73585.766282,
+        "StarType": "M",
+        "Subclass": 9,
+        "StellarMass": 0.199219,
+        "Radius": 268708192.0,
+        "AbsoluteMagnitude": 11.315063,
+        "Age_MY": 12564,
+        "SurfaceTemperature": 2089.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 116524.330948,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploi Eurl RV-T b47-0 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 4668.431561,
+        "StarType": "M",
+        "Subclass": 9,
+        "StellarMass": 0.167969,
+        "Radius": 247907680.0,
+        "AbsoluteMagnitude": 11.674896,
+        "Age_MY": 12564,
+        "SurfaceTemperature": 2002.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 165088.111087,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

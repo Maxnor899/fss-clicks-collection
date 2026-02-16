@@ -1,56 +1,706 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.526155+00:00",
+    "log_files": [
+      "Journal.2026-02-01T175645.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploi Eurl DC-Z c15-1",
+    "address": 370676339338,
+    "star_pos": [
+      7100.71875,
+      619.21875,
+      -376.03125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-01T175645.01.log"
-      ],
-      "first_seen_utc": "2026-02-01T17:15:00Z",
-      "last_seen_utc": "2026-02-01T17:33:51Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-01T17:15:00+00:00",
+    "last_seen_utc": "2026-02-01T17:34:39+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 30,
       "fss_nonbodycount": 6,
+      "n_bodies_scanned": 30,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 29,
+      "n_landables": 19,
       "has_gas_giant": true,
       "has_ringed_body": true,
-      "n_bodies_scanned": 32,
-      "n_gas_giants": 5,
-      "n_planets_scanned": 31,
-      "n_ringed_bodies": 8,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "Rocky body",
         "Sudarsky class I gas giant",
-        "Sudarsky class III gas giant"
+        "Icy body",
+        "Sudarsky class III gas giant",
+        "Rocky body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 12,
-      "n_saa_mappings": 2
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 12,
+      "n_bio_signals": 7,
+      "n_geo_signals": 26,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.191441Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 370676339338,
-    "name": "Ploi Eurl DC-Z c15-1",
-    "star_pos": [
-      7100.71875,
-      619.21875,
-      -376.03125
+  "primary_star": {
+    "BodyName": "Ploi Eurl DC-Z c15-1",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 0,
+    "StellarMass": 0.714844,
+    "Radius": 508423040.0,
+    "AbsoluteMagnitude": 6.008682,
+    "Age_MY": 1470,
+    "SurfaceTemperature": 5152.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 230863.359696,
+    "Rings": [
+      {
+        "Name": "Ploi Eurl DC-Z c15-1 A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 129830000000000.0,
+        "InnerRad": 838900000.0,
+        "OuterRad": 2273600000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 0,
+        "StellarMass": 0.714844,
+        "Radius": 508423040.0,
+        "AbsoluteMagnitude": 6.008682,
+        "Age_MY": 1470,
+        "SurfaceTemperature": 5152.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 230863.359696,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl DC-Z c15-1 A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 129830000000000.0,
+            "InnerRad": 838900000.0,
+            "OuterRad": 2273600000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 5",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 1890.322282,
+        "PlanetClass": "Sudarsky class III gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 1642.979858,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl DC-Z c15-1 5 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 1858500000000.0,
+            "InnerRad": 113690000.0,
+            "OuterRad": 410790000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 5 b",
+        "BodyID": 32,
+        "DistanceFromArrivalLS": 1890.870059,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 0.003538,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 5 a",
+        "BodyID": 31,
+        "DistanceFromArrivalLS": 1890.875661,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 0.001935,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 5 c",
+        "BodyID": 33,
+        "DistanceFromArrivalLS": 1888.928434,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.026916,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 5 d",
+        "BodyID": 34,
+        "DistanceFromArrivalLS": 1894.719211,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.027115,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 5 g",
+        "BodyID": 39,
+        "DistanceFromArrivalLS": 1899.216682,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.02298,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 5 e a",
+        "BodyID": 37,
+        "DistanceFromArrivalLS": 1895.375313,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "water magma volcanism",
+        "MassEM": 0.002536,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 5 e",
+        "BodyID": 36,
+        "DistanceFromArrivalLS": 1895.292626,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.045717,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 5 f",
+        "BodyID": 38,
+        "DistanceFromArrivalLS": 1897.1414,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.031297,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 3",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 1520.931968,
+        "PlanetClass": "Sudarsky class III gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 1949.885498,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl DC-Z c15-1 3 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 550190000000.0,
+            "InnerRad": 127630000.0,
+            "OuterRad": 184590000.0
+          },
+          {
+            "Name": "Ploi Eurl DC-Z c15-1 3 B Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 4797500000000.0,
+            "InnerRad": 184690000.0,
+            "OuterRad": 434920000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 3 b",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 1518.952238,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.005275,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 3 a",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 1519.573549,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "metallic magma volcanism",
+        "MassEM": 0.004057,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 3 d",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 1525.276907,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "metallic magma volcanism",
+        "MassEM": 0.001665,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 3 c",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 1525.275978,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "metallic magma volcanism",
+        "MassEM": 0.001764,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 3 e",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 1517.633432,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.002217,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 4",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 1496.967701,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Water",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 9.386227,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 8 a",
+        "BodyID": 63,
+        "DistanceFromArrivalLS": 3578.055198,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.573936,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl DC-Z c15-1 8 a A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 209690000.0,
+            "InnerRad": 21001000.0,
+            "OuterRad": 47710000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 8",
+        "BodyID": 59,
+        "DistanceFromArrivalLS": 3608.828148,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 63.216991,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl DC-Z c15-1 8 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 6224000.0,
+            "InnerRad": 42875000.0,
+            "OuterRad": 138680000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 7",
+        "BodyID": 58,
+        "DistanceFromArrivalLS": 2814.565292,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 18.040674,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 6",
+        "BodyID": 52,
+        "DistanceFromArrivalLS": 2769.599803,
+        "PlanetClass": "Sudarsky class III gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 1024.873657,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl DC-Z c15-1 6 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 3500200000000.0,
+            "InnerRad": 121970000.0,
+            "OuterRad": 364290000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 6 c",
+        "BodyID": 57,
+        "DistanceFromArrivalLS": 2771.469464,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.020983,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 6 b",
+        "BodyID": 56,
+        "DistanceFromArrivalLS": 2769.514178,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.024833,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 6 a",
+        "BodyID": 55,
+        "DistanceFromArrivalLS": 2769.530336,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.027291,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 1",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 1158.936249,
+        "PlanetClass": "Sudarsky class III gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 1609.307007,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl DC-Z c15-1 1 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 2090700000000.0,
+            "InnerRad": 126930000.0,
+            "OuterRad": 407960000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 1 a",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 1157.562014,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 0.001834,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 1 b",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 1156.976803,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.002626,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 1 c",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 1159.283939,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.006711,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 1 d",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 1153.233085,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "",
+        "MassEM": 0.010026,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DC-Z c15-1 2",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 1185.098578,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 17.810089,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl DC-Z c15-1 2 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 152330000000.0,
+            "InnerRad": 47636000.0,
+            "OuterRad": 90914000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Ploi Eurl DC-Z c15-1 5 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl DC-Z c15-1 5 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl DC-Z c15-1 5 e a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl DC-Z c15-1 3 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl DC-Z c15-1 3 d",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl DC-Z c15-1 3 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl DC-Z c15-1 3 e",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl DC-Z c15-1 6 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl DC-Z c15-1 6 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl DC-Z c15-1 6 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl DC-Z c15-1 1 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl DC-Z c15-1 1 d",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 4
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Ploi Eurl DC-Z c15-1 1 d",
+    "Ploi Eurl DC-Z c15-1 3 e"
+  ],
+  "codex_entries": []
 }

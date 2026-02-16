@@ -1,54 +1,214 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.552743+00:00",
+    "log_files": [
+      "Journal.2026-02-05T201519.01.log"
+    ]
+  },
+  "system": {
+    "name": "Praea Eurl MP-Y b17-0",
+    "address": 780209759897,
+    "star_pos": [
+      8138.875,
+      615.28125,
+      595.3125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-05T201519.01.log"
-      ],
-      "first_seen_utc": "2026-02-05T19:22:55Z",
-      "last_seen_utc": "2026-02-05T19:24:38Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-05T19:22:55+00:00",
+    "last_seen_utc": "2026-02-05T19:26:12+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 8,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 8,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 7,
+      "n_landables": 7,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 8,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 7,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
         "Icy body",
         "Rocky ice body"
       ]
     },
-    "signals": {
-      "n_fss_body_signals_events": 2,
-      "n_saa_mappings": 0
-    },
     "stars": {
       "n_stars": 1,
       "types": [
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_bio_signals": 6,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.204102Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Praea Eurl MP-Y b17-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 5,
+    "StellarMass": 0.285156,
+    "Radius": 333380672.0,
+    "AbsoluteMagnitude": 9.68573,
+    "Age_MY": 6168,
+    "SurfaceTemperature": 2729.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 164010.834173,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 780209759897,
-    "name": "Praea Eurl MP-Y b17-0",
-    "star_pos": [
-      8138.875,
-      615.28125,
-      595.3125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Praea Eurl MP-Y b17-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.285156,
+        "Radius": 333380672.0,
+        "AbsoluteMagnitude": 9.68573,
+        "Age_MY": 6168,
+        "SurfaceTemperature": 2729.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 164010.834173,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Praea Eurl MP-Y b17-0 3",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 892.998117,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.004661,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MP-Y b17-0 2",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 892.012491,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.005366,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MP-Y b17-0 6",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 2303.644059,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00781,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MP-Y b17-0 4 a",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1237.352295,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000331,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MP-Y b17-0 4",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1237.257642,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.006985,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MP-Y b17-0 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 726.87087,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00516,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MP-Y b17-0 5",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 1517.593041,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.008974,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Praea Eurl MP-Y b17-0 3",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Praea Eurl MP-Y b17-0 2",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 4
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

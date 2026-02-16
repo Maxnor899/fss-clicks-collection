@@ -1,51 +1,106 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-03T201109.01.log"
-      ],
-      "first_seen_utc": "2026-02-03T19:45:11Z",
-      "last_seen_utc": "2026-02-03T19:45:23Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 2,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 1,
-      "types": [
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.192737Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.528844+00:00",
+    "log_files": [
+      "Journal.2026-02-03T201109.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 769740645721,
     "name": "Ploi Eurl HY-H b40-0",
+    "address": 769740645721,
     "star_pos": [
       7359.15625,
       575.21875,
       -202.75
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-03T19:45:11+00:00",
+    "last_seen_utc": "2026-02-03T19:46:20+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 2,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Ploi Eurl HY-H b40-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 0,
+    "StellarMass": 0.410156,
+    "Radius": 423523136.0,
+    "AbsoluteMagnitude": 7.956619,
+    "Age_MY": 12824,
+    "SurfaceTemperature": 3605.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 234783.223853,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl HY-H b40-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 0,
+        "StellarMass": 0.410156,
+        "Radius": 423523136.0,
+        "AbsoluteMagnitude": 7.956619,
+        "Age_MY": 12824,
+        "SurfaceTemperature": 3605.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 234783.223853,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploi Eurl HY-H b40-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 9142.514088,
+        "StarType": "M",
+        "Subclass": 7,
+        "StellarMass": 0.253906,
+        "Radius": 311773632.0,
+        "AbsoluteMagnitude": 10.409286,
+        "Age_MY": 12824,
+        "SurfaceTemperature": 2389.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 138630.138173,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

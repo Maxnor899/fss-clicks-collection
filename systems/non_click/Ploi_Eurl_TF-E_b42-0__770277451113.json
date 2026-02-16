@@ -1,34 +1,41 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.529147+00:00",
+    "log_files": [
+      "Journal.2026-02-03T201109.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploi Eurl TF-E b42-0",
+    "address": 770277451113,
+    "star_pos": [
+      7399.28125,
+      564.0625,
+      -150.4375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-03T201109.01.log",
-        "Journal.2026-02-04T081628.01.log"
-      ],
-      "first_seen_utc": "2026-02-03T19:46:20Z",
-      "last_seen_utc": "2026-02-04T08:01:42Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-03T19:46:20+00:00",
+    "last_seen_utc": "2026-02-04T08:03:31+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 18,
       "fss_nonbodycount": 6,
+      "n_bodies_scanned": 18,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 16,
+      "n_landables": 11,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 29,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 27,
-      "n_ringed_bodies": 2,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
-        "Icy body"
+        "Icy body",
+        "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 3,
-      "n_saa_mappings": 12
     },
     "stars": {
       "n_stars": 2,
@@ -36,21 +43,361 @@
         "L",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_bio_signals": 3,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 12
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.193062Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 770277451113,
-    "name": "Ploi Eurl TF-E b42-0",
-    "star_pos": [
-      7399.28125,
-      564.0625,
-      -150.4375
+  "primary_star": {
+    "BodyName": "Ploi Eurl TF-E b42-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 6,
+    "StellarMass": 0.25,
+    "Radius": 286282432.0,
+    "AbsoluteMagnitude": 10.140869,
+    "Age_MY": 8774,
+    "SurfaceTemperature": 2652.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 160688.428803,
+    "Rings": [
+      {
+        "Name": "Ploi Eurl TF-E b42-0 A A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 7833700000000.0,
+        "InnerRad": 500290000.0,
+        "OuterRad": 1520100000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 6,
+        "StellarMass": 0.25,
+        "Radius": 286282432.0,
+        "AbsoluteMagnitude": 10.140869,
+        "Age_MY": 8774,
+        "SurfaceTemperature": 2652.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 160688.428803,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl TF-E b42-0 A A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 7833700000000.0,
+            "InnerRad": 500290000.0,
+            "OuterRad": 1520100000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 22935.685637,
+        "StarType": "L",
+        "Subclass": 2,
+        "StellarMass": 0.140625,
+        "Radius": 211443184.0,
+        "AbsoluteMagnitude": 12.377548,
+        "Age_MY": 8774,
+        "SurfaceTemperature": 1844.0,
+        "Luminosity": "V",
+        "RotationPeriod": 99347.512458,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 B 7",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 23799.062245,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.301414,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 B 7 a",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 23806.124516,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.024014,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 A 5",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 1139.648215,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.963922,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 B 6",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 21473.45979,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.158245,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 A 7",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 3390.442938,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 3.021137,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl TF-E b42-0 A 7 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 474340000.0,
+            "InnerRad": 16526000.0,
+            "OuterRad": 50327000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 B 5",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 22441.234367,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.077678,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 B 1",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 22924.836579,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.273159,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 B 4",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 22128.993461,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.110811,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 B 3",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 23405.268414,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.172846,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 B 3 a",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 23406.365624,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.005284,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 B 2",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 22986.025716,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.213756,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 A 4",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 627.334364,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "",
+        "MassEM": 0.407888,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 A 1",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 260.950622,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.07146,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 A 3",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 432.701476,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.068175,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 A 2",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 433.10185,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "",
+        "MassEM": 0.258953,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl TF-E b42-0 A 6",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 1841.236435,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 3.808423,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Ploi Eurl TF-E b42-0 A 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl TF-E b42-0 A 3",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl TF-E b42-0 A 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Ploi Eurl TF-E b42-0 A 1",
+    "Ploi Eurl TF-E b42-0 A 3",
+    "Ploi Eurl TF-E b42-0 B 6",
+    "Ploi Eurl TF-E b42-0 B 4",
+    "Ploi Eurl TF-E b42-0 B 5",
+    "Ploi Eurl TF-E b42-0 B 2",
+    "Ploi Eurl TF-E b42-0 B 3",
+    "Ploi Eurl TF-E b42-0 B 3 a",
+    "Ploi Eurl TF-E b42-0 B 1",
+    "Ploi Eurl TF-E b42-0 B 7",
+    "Ploi Eurl TF-E b42-0 B 7 a",
+    "Ploi Eurl TF-E b42-0 A 7 A Ring"
+  ],
+  "codex_entries": []
 }

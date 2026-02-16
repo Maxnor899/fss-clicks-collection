@@ -1,33 +1,41 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.645670+00:00",
+    "log_files": [
+      "Journal.2026-02-14T205220.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploea Eurl FM-K c22-2",
+    "address": 639245619906,
+    "star_pos": [
+      3346.78125,
+      151.375,
+      -65.46875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-14T205220.01.log"
-      ],
-      "first_seen_utc": "2026-02-14T20:20:14Z",
-      "last_seen_utc": "2026-02-14T20:21:17Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-14T20:20:14+00:00",
+    "last_seen_utc": "2026-02-14T20:21:46+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 32,
       "fss_nonbodycount": 22,
+      "n_bodies_scanned": 4,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 2,
+      "n_landables": 2,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 4,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 2,
-      "n_ringed_bodies": 2,
       "n_terraformables": 0,
       "planet_classes": [
         "High metal content body",
         "Metal rich body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -35,21 +43,128 @@
         "K",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.259311Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 639245619906,
-    "name": "Ploea Eurl FM-K c22-2",
-    "star_pos": [
-      3346.78125,
-      151.375,
-      -65.46875
+  "primary_star": {
+    "BodyName": "Ploea Eurl FM-K c22-2 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 2,
+    "StellarMass": 0.816406,
+    "Radius": 640527296.0,
+    "AbsoluteMagnitude": 5.852631,
+    "Age_MY": 5102,
+    "SurfaceTemperature": 4758.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 344666.174042,
+    "Rings": [
+      {
+        "Name": "Ploea Eurl FM-K c22-2 A A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 1629000000000000.0,
+        "InnerRad": 35126000000.0,
+        "OuterRad": 354040000000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploea Eurl FM-K c22-2 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 2,
+        "StellarMass": 0.816406,
+        "Radius": 640527296.0,
+        "AbsoluteMagnitude": 5.852631,
+        "Age_MY": 5102,
+        "SurfaceTemperature": 4758.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 344666.174042,
+        "Rings": [
+          {
+            "Name": "Ploea Eurl FM-K c22-2 A A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 1629000000000000.0,
+            "InnerRad": 35126000000.0,
+            "OuterRad": 354040000000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Ploea Eurl FM-K c22-2 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 12062.12512,
+        "StarType": "M",
+        "Subclass": 1,
+        "StellarMass": 0.46875,
+        "Radius": 447316320.0,
+        "AbsoluteMagnitude": 8.036362,
+        "Age_MY": 5102,
+        "SurfaceTemperature": 3444.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 244616.971476,
+        "Rings": [
+          {
+            "Name": "Ploea Eurl FM-K c22-2 B A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 83629000000000.0,
+            "InnerRad": 710220000.0,
+            "OuterRad": 1874500000.0
+          },
+          {
+            "Name": "Ploea Eurl FM-K c22-2 B B Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 1489200000000000.0,
+            "InnerRad": 8606000000.0,
+            "OuterRad": 137700000000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploea Eurl FM-K c22-2 A 1",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 19.462737,
+        "PlanetClass": "Metal rich body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.199874,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eurl FM-K c22-2 A 2",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 34.661499,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "rocky magma volcanism",
+        "MassEM": 0.904689,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

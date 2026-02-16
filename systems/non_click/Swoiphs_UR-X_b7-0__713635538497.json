@@ -1,34 +1,42 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.632705+00:00",
+    "log_files": [
+      "Journal.2026-02-12T214314.01.log"
+    ]
+  },
+  "system": {
+    "name": "Swoiphs UR-X b7-0",
+    "address": 713635538497,
+    "star_pos": [
+      3189.65625,
+      -63.5625,
+      384.53125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-12T214314.01.log"
-      ],
-      "first_seen_utc": "2026-02-12T20:51:47Z",
-      "last_seen_utc": "2026-02-12T21:01:58Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-12T20:51:47+00:00",
+    "last_seen_utc": "2026-02-12T21:02:29+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 20,
       "fss_nonbodycount": 11,
+      "n_bodies_scanned": 20,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 18,
+      "n_landables": 10,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 24,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 22,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 7,
+      "n_terraformables": 4,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky ice body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 6,
-      "n_saa_mappings": 4
     },
     "stars": {
       "n_stars": 2,
@@ -36,21 +44,395 @@
         "L",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 6,
+      "n_bio_signals": 8,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 4
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.251727Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Swoiphs UR-X b7-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 3,
+    "StellarMass": 0.390625,
+    "Radius": 393574688.0,
+    "AbsoluteMagnitude": 8.844971,
+    "Age_MY": 1474,
+    "SurfaceTemperature": 3048.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 208123.565652,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 713635538497,
-    "name": "Swoiphs UR-X b7-0",
-    "star_pos": [
-      3189.65625,
-      -63.5625,
-      384.53125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Swoiphs UR-X b7-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 3,
+        "StellarMass": 0.390625,
+        "Radius": 393574688.0,
+        "AbsoluteMagnitude": 8.844971,
+        "Age_MY": 1474,
+        "SurfaceTemperature": 3048.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 208123.565652,
+        "Rings": null
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 3284.257965,
+        "StarType": "L",
+        "Subclass": 0,
+        "StellarMass": 0.179688,
+        "Radius": 251324912.0,
+        "AbsoluteMagnitude": 11.697571,
+        "Age_MY": 1474,
+        "SurfaceTemperature": 1978.0,
+        "Luminosity": "V",
+        "RotationPeriod": 138953.601837,
+        "Rings": [
+          {
+            "Name": "Swoiphs UR-X b7-0 B A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 53059000000000.0,
+            "InnerRad": 404910000.0,
+            "OuterRad": 1361700000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Swoiphs UR-X b7-0 A 3",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 103.30607,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.071855,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": true
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 A 10",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 408.205075,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.166749,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 A 1",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 54.991289,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.069841,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 B 5",
+        "BodyID": 32,
+        "DistanceFromArrivalLS": 3419.460824,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "water magma volcanism",
+        "MassEM": 0.336379,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 B 1",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 3276.984292,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "Water",
+        "Volcanism": "",
+        "MassEM": 0.239013,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": true
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 B 3",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 3217.285392,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "AmmoniaRich",
+        "Volcanism": "minor rocky magma volcanism",
+        "MassEM": 0.680969,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 B 2",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 3230.649731,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxideRich",
+        "Volcanism": "",
+        "MassEM": 0.30131,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 B 4",
+        "BodyID": 30,
+        "DistanceFromArrivalLS": 3191.593209,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.963483,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 B 4 a",
+        "BodyID": 31,
+        "DistanceFromArrivalLS": 3191.27836,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.049233,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 B 6",
+        "BodyID": 33,
+        "DistanceFromArrivalLS": 3151.600668,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 0.963785,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 A 9",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 318.503142,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.054593,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 A 8",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 214.58747,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "",
+        "MassEM": 0.050729,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": true
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 A 7",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 214.872328,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.072936,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": true
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 A 6",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 168.29487,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.063142,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": true
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 A 5",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 168.672801,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.087046,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": true
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 A 2",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 72.638448,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.113539,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": true
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 A 4",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 130.253615,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.088419,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": true
+      },
+      {
+        "BodyName": "Swoiphs UR-X b7-0 AB 1",
+        "BodyID": 34,
+        "DistanceFromArrivalLS": 18103.083048,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "",
+        "MassEM": 0.443172,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Swoiphs UR-X b7-0 A 3",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoiphs UR-X b7-0 A 8",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoiphs UR-X b7-0 A 7",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoiphs UR-X b7-0 A 6",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoiphs UR-X b7-0 A 5",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoiphs UR-X b7-0 A 4",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Swoiphs UR-X b7-0 A 2",
+    "Swoiphs UR-X b7-0 A 3",
+    "Swoiphs UR-X b7-0 A 4",
+    "Swoiphs UR-X b7-0 A 8"
+  ],
+  "codex_entries": []
 }

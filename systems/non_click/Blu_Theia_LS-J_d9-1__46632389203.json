@@ -1,56 +1,259 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T222850.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T22:21:15Z",
-      "last_seen_utc": "2026-02-08T22:31:12Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 9,
-      "fss_nonbodycount": 13,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 11,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 8,
-      "n_ringed_bodies": 2,
-      "n_terraformables": 4,
-      "planet_classes": [
-        "High metal content body",
-        "Metal rich body"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 2,
-      "n_saa_mappings": 2
-    },
-    "stars": {
-      "n_stars": 3,
-      "types": [
-        "F",
-        "G",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.222422Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.582762+00:00",
+    "log_files": [
+      "Journal.2026-02-08T222850.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 46632389203,
     "name": "Blu Theia LS-J d9-1",
+    "address": 46632389203,
     "star_pos": [
       8548.3125,
       612.0625,
       2324.0625
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-08T22:21:15+00:00",
+    "last_seen_utc": "2026-02-08T22:32:01+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 9,
+      "fss_nonbodycount": 13,
+      "n_bodies_scanned": 9,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": 6,
+      "n_landables": 2,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 2,
+      "planet_classes": [
+        "High metal content body",
+        "Metal rich body"
+      ]
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "G",
+        "F",
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_bio_signals": 0,
+      "n_geo_signals": 4,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Blu Theia LS-J d9-1 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "F",
+    "Subclass": 3,
+    "StellarMass": 1.308594,
+    "Radius": 858083264.0,
+    "AbsoluteMagnitude": 3.571472,
+    "Age_MY": 1016,
+    "SurfaceTemperature": 6950.0,
+    "Luminosity": "Vb",
+    "RotationPeriod": 202729.738132,
+    "Rings": [
+      {
+        "Name": "Blu Theia LS-J d9-1 A A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 1.7572e+16,
+        "InnerRad": 10015000000.0,
+        "OuterRad": 254360000000.0
+      }
+    ]
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Blu Theia LS-J d9-1 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "F",
+        "Subclass": 3,
+        "StellarMass": 1.308594,
+        "Radius": 858083264.0,
+        "AbsoluteMagnitude": 3.571472,
+        "Age_MY": 1016,
+        "SurfaceTemperature": 6950.0,
+        "Luminosity": "Vb",
+        "RotationPeriod": 202729.738132,
+        "Rings": [
+          {
+            "Name": "Blu Theia LS-J d9-1 A A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 1.7572e+16,
+            "InnerRad": 10015000000.0,
+            "OuterRad": 254360000000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Blu Theia LS-J d9-1 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 7984.456211,
+        "StarType": "G",
+        "Subclass": 8,
+        "StellarMass": 0.777344,
+        "Radius": 614866240.0,
+        "AbsoluteMagnitude": 5.478546,
+        "Age_MY": 1016,
+        "SurfaceTemperature": 5293.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 294988.280616,
+        "Rings": null
+      },
+      {
+        "BodyName": "Blu Theia LS-J d9-1 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 8036.929526,
+        "StarType": "M",
+        "Subclass": 3,
+        "StellarMass": 0.355469,
+        "Radius": 342740864.0,
+        "AbsoluteMagnitude": 9.069061,
+        "Age_MY": 1016,
+        "SurfaceTemperature": 3102.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 136801.593455,
+        "Rings": [
+          {
+            "Name": "Blu Theia LS-J d9-1 C A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 7303600000000.0,
+            "InnerRad": 584970000.0,
+            "OuterRad": 1709400000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Blu Theia LS-J d9-1 A 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 11.137413,
+        "PlanetClass": "Metal rich body",
+        "TerraformState": "",
+        "AtmosphereType": "SilicateVapour",
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 1.476871,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia LS-J d9-1 C 1",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 8044.430492,
+        "PlanetClass": "Metal rich body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major metallic magma volcanism",
+        "MassEM": 0.000166,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia LS-J d9-1 C 2",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 8043.946753,
+        "PlanetClass": "Metal rich body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.00011,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia LS-J d9-1 BC 2",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 8629.324832,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.489182,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia LS-J d9-1 BC 1",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 7886.385812,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 1.795526,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia LS-J d9-1 BC 3",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 7821.935611,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.584587,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Blu Theia LS-J d9-1 C 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Blu Theia LS-J d9-1 C 2",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Blu Theia LS-J d9-1 BC 3",
+    "Blu Theia LS-J d9-1 BC 2"
+  ],
+  "codex_entries": []
 }

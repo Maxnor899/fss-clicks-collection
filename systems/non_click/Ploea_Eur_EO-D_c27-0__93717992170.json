@@ -1,51 +1,107 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.658415+00:00",
+    "log_files": [
+      "Journal.2026-02-15T071238.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploea Eur EO-D c27-0",
+    "address": 93717992170,
+    "star_pos": [
+      5878.21875,
+      541.21875,
+      103.6875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-15T071238.01.log"
-      ],
-      "first_seen_utc": "2026-02-15T06:15:43Z",
-      "last_seen_utc": "2026-02-15T06:15:57Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-15T06:15:43+00:00",
+    "last_seen_utc": "2026-02-15T06:17:01+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 9,
       "fss_nonbodycount": 3,
+      "n_bodies_scanned": 1,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 1,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.271096Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 93717992170,
-    "name": "Ploea Eur EO-D c27-0",
-    "star_pos": [
-      5878.21875,
-      541.21875,
-      103.6875
+  "primary_star": {
+    "BodyName": "Ploea Eur EO-D c27-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 6,
+    "StellarMass": 0.566406,
+    "Radius": 517613472.0,
+    "AbsoluteMagnitude": 6.897797,
+    "Age_MY": 4700,
+    "SurfaceTemperature": 4161.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 230434.646938,
+    "Rings": [
+      {
+        "Name": "Ploea Eur EO-D c27-0 A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 3826200000.0,
+        "InnerRad": 870940000.0,
+        "OuterRad": 1996600000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploea Eur EO-D c27-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 6,
+        "StellarMass": 0.566406,
+        "Radius": 517613472.0,
+        "AbsoluteMagnitude": 6.897797,
+        "Age_MY": 4700,
+        "SurfaceTemperature": 4161.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 230434.646938,
+        "Rings": [
+          {
+            "Name": "Ploea Eur EO-D c27-0 A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 3826200000.0,
+            "InnerRad": 870940000.0,
+            "OuterRad": 1996600000.0
+          }
+        ]
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

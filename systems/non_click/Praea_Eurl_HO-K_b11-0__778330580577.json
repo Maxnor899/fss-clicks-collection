@@ -1,55 +1,276 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-05T065326.01.log",
-        "Journal.2026-02-05T201519.01.log"
-      ],
-      "first_seen_utc": "2026-02-05T06:11:37Z",
-      "last_seen_utc": "2026-02-05T19:15:55Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 13,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 13,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 10,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 0,
-      "planet_classes": [
-        "Icy body"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 1,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 2,
-      "types": [
-        "L",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.203361Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.550838+00:00",
+    "log_files": [
+      "Journal.2026-02-05T065326.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 778330580577,
     "name": "Praea Eurl HO-K b11-0",
+    "address": 778330580577,
     "star_pos": [
       7997.6875,
       586.15625,
       461.90625
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-05T06:11:37+00:00",
+    "last_seen_utc": "2026-02-05T19:18:18+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 13,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 13,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": 10,
+      "n_landables": 7,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Icy body"
+      ]
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "L",
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_bio_signals": 1,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Praea Eurl HO-K b11-0 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 8,
+    "StellarMass": 0.253906,
+    "Radius": 290803392.0,
+    "AbsoluteMagnitude": 10.792053,
+    "Age_MY": 5514,
+    "SurfaceTemperature": 2265.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 143446.962282,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Praea Eurl HO-K b11-0 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 8,
+        "StellarMass": 0.253906,
+        "Radius": 290803392.0,
+        "AbsoluteMagnitude": 10.792053,
+        "Age_MY": 5514,
+        "SurfaceTemperature": 2265.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 143446.962282,
+        "Rings": null
+      },
+      {
+        "BodyName": "Praea Eurl HO-K b11-0 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 2430.951531,
+        "StarType": "L",
+        "Subclass": 4,
+        "StellarMass": 0.132813,
+        "Radius": 179669408.0,
+        "AbsoluteMagnitude": 13.043762,
+        "Age_MY": 5514,
+        "SurfaceTemperature": 1716.0,
+        "Luminosity": "V",
+        "RotationPeriod": 89385.021591,
+        "Rings": null
+      },
+      {
+        "BodyName": "Praea Eurl HO-K b11-0 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 32822.037664,
+        "StarType": "L",
+        "Subclass": 5,
+        "StellarMass": 0.148438,
+        "Radius": 216049008.0,
+        "AbsoluteMagnitude": 12.931076,
+        "Age_MY": 5514,
+        "SurfaceTemperature": 1606.0,
+        "Luminosity": "V",
+        "RotationPeriod": 108293.322038,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Praea Eurl HO-K b11-0 C 7 a",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 34887.034742,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.030202,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl HO-K b11-0 C 7",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 34902.660374,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.942652,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl HO-K b11-0 C 3",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 33581.908502,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.241538,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl HO-K b11-0 C 4",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 33529.771595,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.742323,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl HO-K b11-0 C 4 a",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 33528.014038,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.024153,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl HO-K b11-0 C 5",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 31480.041832,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "carbon dioxide geysers volcanism",
+        "MassEM": 1.143259,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl HO-K b11-0 C 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 32641.094487,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.247415,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl HO-K b11-0 C 2",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 32683.194412,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.596478,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl HO-K b11-0 C 2 a",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 32681.417733,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.031725,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl HO-K b11-0 C 6",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 35063.040505,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "",
+        "MassEM": 0.455154,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Praea Eurl HO-K b11-0 C 3",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

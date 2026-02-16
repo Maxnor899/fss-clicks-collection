@@ -1,51 +1,122 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-14T205220.01.log"
-      ],
-      "first_seen_utc": "2026-02-14T20:47:36Z",
-      "last_seen_utc": "2026-02-14T20:47:42Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 9,
-      "fss_nonbodycount": 3,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 1,
-      "types": [
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.264557Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.651707+00:00",
+    "log_files": [
+      "Journal.2026-02-14T205220.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 732964267433,
     "name": "Wregoi IF-O b49-0",
+    "address": 732964267433,
     "star_pos": [
       4620.75,
       359.15625,
       -4.78125
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-14T20:47:36+00:00",
+    "last_seen_utc": "2026-02-14T20:48:48+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 9,
+      "fss_nonbodycount": 3,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Wregoi IF-O b49-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 2,
+    "StellarMass": 0.417969,
+    "Radius": 364878528.0,
+    "AbsoluteMagnitude": 8.697372,
+    "Age_MY": 12892,
+    "SurfaceTemperature": 3275.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 162816.375921,
+    "Rings": [
+      {
+        "Name": "Wregoi IF-O b49-0 A A Belt",
+        "RingClass": "eRingClass_Metalic",
+        "MassMT": 85765000000000.0,
+        "InnerRad": 722950000.0,
+        "OuterRad": 1804200000.0
+      }
+    ]
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Wregoi IF-O b49-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 2,
+        "StellarMass": 0.417969,
+        "Radius": 364878528.0,
+        "AbsoluteMagnitude": 8.697372,
+        "Age_MY": 12892,
+        "SurfaceTemperature": 3275.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 162816.375921,
+        "Rings": [
+          {
+            "Name": "Wregoi IF-O b49-0 A A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 85765000000000.0,
+            "InnerRad": 722950000.0,
+            "OuterRad": 1804200000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Wregoi IF-O b49-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 12404.278445,
+        "StarType": "M",
+        "Subclass": 9,
+        "StellarMass": 0.246094,
+        "Radius": 264102368.0,
+        "AbsoluteMagnitude": 11.201385,
+        "Age_MY": 12892,
+        "SurfaceTemperature": 2163.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 125142.048716,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

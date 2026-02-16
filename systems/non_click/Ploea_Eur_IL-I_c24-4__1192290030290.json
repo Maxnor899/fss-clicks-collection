@@ -1,53 +1,138 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-14T205220.01.log"
-      ],
-      "first_seen_utc": "2026-02-14T21:04:19Z",
-      "last_seen_utc": "2026-02-14T21:04:26Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 5,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 4,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 3,
-      "types": [
-        "K",
-        "M",
-        "Y"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.267035Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.655106+00:00",
+    "log_files": [
+      "Journal.2026-02-14T205220.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 1192290030290,
     "name": "Ploea Eur IL-I c24-4",
+    "address": 1192290030290,
     "star_pos": [
       5316.03125,
       463.75,
       12.46875
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-14T21:04:19+00:00",
+    "last_seen_utc": "2026-02-14T21:05:34+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 5,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 4,
+      "n_stars_scanned": 4,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 4,
+      "types": [
+        "K",
+        "M",
+        "Y"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Ploea Eur IL-I c24-4 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 5,
+    "StellarMass": 0.664063,
+    "Radius": 516594656.0,
+    "AbsoluteMagnitude": 6.641739,
+    "Age_MY": 6012,
+    "SurfaceTemperature": 4418.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 317393.240826,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploea Eur IL-I c24-4 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 5,
+        "StellarMass": 0.664063,
+        "Radius": 516594656.0,
+        "AbsoluteMagnitude": 6.641739,
+        "Age_MY": 6012,
+        "SurfaceTemperature": 4418.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 317393.240826,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploea Eur IL-I c24-4 C",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 79793.396363,
+        "StarType": "M",
+        "Subclass": 7,
+        "StellarMass": 0.238281,
+        "Radius": 278047168.0,
+        "AbsoluteMagnitude": 10.543091,
+        "Age_MY": 6012,
+        "SurfaceTemperature": 2453.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 127046.05269,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploea Eur IL-I c24-4 D",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 80466.229169,
+        "StarType": "Y",
+        "Subclass": 1,
+        "StellarMass": 0.03125,
+        "Radius": 77343808.0,
+        "AbsoluteMagnitude": 18.836716,
+        "Age_MY": 6012,
+        "SurfaceTemperature": 615.0,
+        "Luminosity": "V",
+        "RotationPeriod": 40086.793606,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploea Eur IL-I c24-4 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 243.624289,
+        "StarType": "M",
+        "Subclass": 1,
+        "StellarMass": 0.480469,
+        "Radius": 411212640.0,
+        "AbsoluteMagnitude": 8.326431,
+        "Age_MY": 6012,
+        "SurfaceTemperature": 3360.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 235305.734286,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

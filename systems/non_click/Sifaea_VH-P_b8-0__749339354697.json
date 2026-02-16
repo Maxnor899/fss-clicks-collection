@@ -1,51 +1,106 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-15T071238.01.log"
-      ],
-      "first_seen_utc": "2026-02-15T06:22:56Z",
-      "last_seen_utc": "2026-02-15T06:23:02Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 2,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 1,
-      "types": [
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.272172Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.660252+00:00",
+    "log_files": [
+      "Journal.2026-02-15T071238.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 749339354697,
     "name": "Sifaea VH-P b8-0",
+    "address": 749339354697,
     "star_pos": [
       5851.78125,
       522.25,
       411.625
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-15T06:22:56+00:00",
+    "last_seen_utc": "2026-02-15T06:24:06+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 2,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Sifaea VH-P b8-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 9,
+    "StellarMass": 0.207031,
+    "Radius": 275033216.0,
+    "AbsoluteMagnitude": 11.245865,
+    "Age_MY": 4584,
+    "SurfaceTemperature": 2098.0,
+    "Luminosity": "VI",
+    "RotationPeriod": 149272.476597,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Sifaea VH-P b8-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 9,
+        "StellarMass": 0.207031,
+        "Radius": 275033216.0,
+        "AbsoluteMagnitude": 11.245865,
+        "Age_MY": 4584,
+        "SurfaceTemperature": 2098.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 149272.476597,
+        "Rings": null
+      },
+      {
+        "BodyName": "Sifaea VH-P b8-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 241406.320847,
+        "StarType": "M",
+        "Subclass": 8,
+        "StellarMass": 0.203125,
+        "Radius": 267901616.0,
+        "AbsoluteMagnitude": 10.860367,
+        "Age_MY": 4584,
+        "SurfaceTemperature": 2323.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 147941.623655,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

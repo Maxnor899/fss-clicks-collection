@@ -1,35 +1,43 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.564234+00:00",
+    "log_files": [
+      "Journal.2026-02-07T205128.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgaa OO-O c7-0",
+    "address": 99489354818,
+    "star_pos": [
+      9295.34375,
+      538.0,
+      1815.6875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-07T205128.01.log"
-      ],
-      "first_seen_utc": "2026-02-07T21:55:33Z",
-      "last_seen_utc": "2026-02-07T21:57:48Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-07T21:55:33+00:00",
+    "last_seen_utc": "2026-02-07T21:58:50+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 15,
       "fss_nonbodycount": 7,
+      "n_bodies_scanned": 15,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 13,
+      "n_landables": 10,
       "has_gas_giant": true,
       "has_ringed_body": true,
-      "n_bodies_scanned": 15,
-      "n_gas_giants": 1,
-      "n_planets_scanned": 13,
-      "n_ringed_bodies": 3,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
+        "Sudarsky class I gas giant",
         "Icy body",
-        "Rocky ice body",
-        "Sudarsky class I gas giant"
+        "High metal content body",
+        "Rocky ice body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 4,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -37,21 +45,324 @@
         "G",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 4,
+      "n_bio_signals": 0,
+      "n_geo_signals": 8,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.211853Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 99489354818,
-    "name": "Tyriedgaa OO-O c7-0",
-    "star_pos": [
-      9295.34375,
-      538.0,
-      1815.6875
+  "primary_star": {
+    "BodyName": "Tyriedgaa OO-O c7-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "G",
+    "Subclass": 9,
+    "StellarMass": 0.835938,
+    "Radius": 627240448.0,
+    "AbsoluteMagnitude": 5.511444,
+    "Age_MY": 6152,
+    "SurfaceTemperature": 5201.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 283169.67442,
+    "Rings": [
+      {
+        "Name": "Tyriedgaa OO-O c7-0 A A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 120050000000000.0,
+        "InnerRad": 1145500000.0,
+        "OuterRad": 2273200000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 9,
+        "StellarMass": 0.835938,
+        "Radius": 627240448.0,
+        "AbsoluteMagnitude": 5.511444,
+        "Age_MY": 6152,
+        "SurfaceTemperature": 5201.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 283169.67442,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa OO-O c7-0 A A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 120050000000000.0,
+            "InnerRad": 1145500000.0,
+            "OuterRad": 2273200000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 8547.716932,
+        "StarType": "M",
+        "Subclass": 6,
+        "StellarMass": 0.277344,
+        "Radius": 308313984.0,
+        "AbsoluteMagnitude": 10.151901,
+        "Age_MY": 6152,
+        "SurfaceTemperature": 2549.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 155118.404509,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa OO-O c7-0 B A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 65463000000000.0,
+            "InnerRad": 577550000.0,
+            "OuterRad": 1573700000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 A 1",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 1242.601633,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 2.283995,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 B 2",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 9135.671463,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 265.197754,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa OO-O c7-0 B 2 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 158850000000.0,
+            "InnerRad": 126960000.0,
+            "OuterRad": 223670000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 B 2 d",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 9138.386886,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000928,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 B 2 e",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 9138.379859,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000722,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 B 2 h",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 9141.780806,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001606,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 B 2 g",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 9141.74303,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001791,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 B 2 f",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 9139.664917,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001713,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 B 2 c",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 9136.848172,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001252,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 B 2 a",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 9136.108684,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000823,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 B 2 b",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 9135.44277,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "carbon dioxide geysers volcanism",
+        "MassEM": 0.00073,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 B 2 i",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 9118.616219,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.005987,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 B 1 a",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 8024.298674,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.054789,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OO-O c7-0 B 1",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 8023.232709,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "minor rocky magma volcanism",
+        "MassEM": 1.105171,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Tyriedgaa OO-O c7-0 B 2 d",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa OO-O c7-0 B 2 e",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa OO-O c7-0 B 2 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa OO-O c7-0 B 2 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

@@ -1,32 +1,40 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.621214+00:00",
+    "log_files": [
+      "Journal.2026-02-11T134714.01.log"
+    ]
+  },
+  "system": {
+    "name": "Prua Dryou GS-W b21-3",
+    "address": 7334327428793,
+    "star_pos": [
+      4952.59375,
+      -118.25,
+      682.8125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T134714.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T13:39:06Z",
-      "last_seen_utc": "2026-02-11T13:41:02Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-11T13:39:06+00:00",
+    "last_seen_utc": "2026-02-11T13:41:58+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 9,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 9,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 7,
+      "n_landables": 5,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 9,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 7,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
         "Icy body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -34,21 +42,167 @@
         "L",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.245603Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Prua Dryou GS-W b21-3 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 8,
+    "StellarMass": 0.214844,
+    "Radius": 246188480.0,
+    "AbsoluteMagnitude": 11.04213,
+    "Age_MY": 11818,
+    "SurfaceTemperature": 2324.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 155156.206473,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 7334327428793,
-    "name": "Prua Dryou GS-W b21-3",
-    "star_pos": [
-      4952.59375,
-      -118.25,
-      682.8125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Prua Dryou GS-W b21-3 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 8,
+        "StellarMass": 0.214844,
+        "Radius": 246188480.0,
+        "AbsoluteMagnitude": 11.04213,
+        "Age_MY": 11818,
+        "SurfaceTemperature": 2324.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 155156.206473,
+        "Rings": null
+      },
+      {
+        "BodyName": "Prua Dryou GS-W b21-3 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 14797.304044,
+        "StarType": "L",
+        "Subclass": 4,
+        "StellarMass": 0.152344,
+        "Radius": 205457728.0,
+        "AbsoluteMagnitude": 12.914948,
+        "Age_MY": 11818,
+        "SurfaceTemperature": 1653.0,
+        "Luminosity": "V",
+        "RotationPeriod": 77649.194736,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Prua Dryou GS-W b21-3 B 4",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 14855.347566,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.02847,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou GS-W b21-3 B 1",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 14821.355063,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.049695,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou GS-W b21-3 B 6",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 14972.597357,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.058996,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou GS-W b21-3 B 5",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 14825.251622,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.017708,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou GS-W b21-3 B 2",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 14729.362231,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.04054,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou GS-W b21-3 B 7",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 14783.869692,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.041516,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou GS-W b21-3 B 3",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 14913.901597,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.022965,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

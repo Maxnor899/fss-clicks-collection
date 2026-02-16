@@ -1,30 +1,38 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.663046+00:00",
+    "log_files": [
+      "Journal.2026-02-15T071238.01.log"
+    ]
+  },
+  "system": {
+    "name": "Sifaea KC-L d8-16",
+    "address": 561474783691,
+    "star_pos": [
+      5867.3125,
+      440.1875,
+      971.875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-15T071238.01.log"
-      ],
-      "first_seen_utc": "2026-02-15T06:35:51Z",
-      "last_seen_utc": "2026-02-15T06:35:57Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-15T06:35:51+00:00",
+    "last_seen_utc": "2026-02-15T06:37:08+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 3,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 3,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 3,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 3,
@@ -33,21 +41,83 @@
         "F",
         "G"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.274675Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Sifaea KC-L d8-16 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "A",
+    "Subclass": 8,
+    "StellarMass": 1.417969,
+    "Radius": 800690944.0,
+    "AbsoluteMagnitude": 3.181244,
+    "Age_MY": 4184,
+    "SurfaceTemperature": 7871.0,
+    "Luminosity": "VI",
+    "RotationPeriod": 164049.505493,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 561474783691,
-    "name": "Sifaea KC-L d8-16",
-    "star_pos": [
-      5867.3125,
-      440.1875,
-      971.875
-    ]
-  }
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Sifaea KC-L d8-16 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "A",
+        "Subclass": 8,
+        "StellarMass": 1.417969,
+        "Radius": 800690944.0,
+        "AbsoluteMagnitude": 3.181244,
+        "Age_MY": 4184,
+        "SurfaceTemperature": 7871.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 164049.505493,
+        "Rings": null
+      },
+      {
+        "BodyName": "Sifaea KC-L d8-16 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 9016.742923,
+        "StarType": "F",
+        "Subclass": 5,
+        "StellarMass": 1.414063,
+        "Radius": 843416768.0,
+        "AbsoluteMagnitude": 3.770004,
+        "Age_MY": 4184,
+        "SurfaceTemperature": 6697.0,
+        "Luminosity": "Vb",
+        "RotationPeriod": 126618.311545,
+        "Rings": null
+      },
+      {
+        "BodyName": "Sifaea KC-L d8-16 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 8911.224708,
+        "StarType": "G",
+        "Subclass": 5,
+        "StellarMass": 0.839844,
+        "Radius": 571949376.0,
+        "AbsoluteMagnitude": 5.408646,
+        "Age_MY": 4184,
+        "SurfaceTemperature": 5577.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 268591.729079,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

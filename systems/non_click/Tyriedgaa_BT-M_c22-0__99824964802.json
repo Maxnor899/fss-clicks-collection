@@ -1,56 +1,319 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.575060+00:00",
+    "log_files": [
+      "Journal.2026-02-08T155743.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgaa BT-M c22-0",
+    "address": 99824964802,
+    "star_pos": [
+      9497.40625,
+      615.375,
+      2458.46875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T155743.01.log",
-        "Journal.2026-02-08T165846.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T15:25:09Z",
-      "last_seen_utc": "2026-02-08T16:02:09Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-08T15:25:09+00:00",
+    "last_seen_utc": "2026-02-08T16:10:39+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 13,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 13,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 12,
+      "n_landables": 11,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 16,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 15,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky ice body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 5,
-      "n_saa_mappings": 3
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 5,
+      "n_bio_signals": 13,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 3
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.218681Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgaa BT-M c22-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 2,
+    "StellarMass": 0.6875,
+    "Radius": 504432736.0,
+    "AbsoluteMagnitude": 6.321503,
+    "Age_MY": 2896,
+    "SurfaceTemperature": 4813.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 203805.889278,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 99824964802,
-    "name": "Tyriedgaa BT-M c22-0",
-    "star_pos": [
-      9497.40625,
-      615.375,
-      2458.46875
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa BT-M c22-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 2,
+        "StellarMass": 0.6875,
+        "Radius": 504432736.0,
+        "AbsoluteMagnitude": 6.321503,
+        "Age_MY": 2896,
+        "SurfaceTemperature": 4813.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 203805.889278,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgaa BT-M c22-0 6",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 1656.843087,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.004668,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa BT-M c22-0 3",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 851.455523,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.007154,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa BT-M c22-0 2",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 850.572794,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.018022,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa BT-M c22-0 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 603.962383,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "",
+        "MassEM": 0.01067,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa BT-M c22-0 10 a",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 5475.239301,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001472,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa BT-M c22-0 10",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 5471.943997,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.030275,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa BT-M c22-0 9 a",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 4084.664145,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.00083,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa BT-M c22-0 9",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 4085.93805,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.041895,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa BT-M c22-0 7",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 2232.862059,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.04104,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa BT-M c22-0 4",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1119.893239,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.011569,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa BT-M c22-0 5",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 1120.348839,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.006206,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa BT-M c22-0 8",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 2980.693295,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.029272,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Tyriedgaa BT-M c22-0 3",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa BT-M c22-0 2",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa BT-M c22-0 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 4
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa BT-M c22-0 9 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa BT-M c22-0 7",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Tyriedgaa BT-M c22-0 1",
+    "Tyriedgaa BT-M c22-0 2",
+    "Tyriedgaa BT-M c22-0 3"
+  ],
+  "codex_entries": []
 }

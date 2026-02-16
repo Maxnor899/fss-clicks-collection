@@ -1,53 +1,138 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T105854.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T10:21:59Z",
-      "last_seen_utc": "2026-02-11T10:22:05Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 4,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 4,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 3,
-      "types": [
-        "G",
-        "K",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.240926Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.612716+00:00",
+    "log_files": [
+      "Journal.2026-02-11T105854.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 1626509134339,
     "name": "Blua Eoq ZV-C d47",
+    "address": 1626509134339,
     "star_pos": [
       5295.375,
       -75.96875,
       1557.34375
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-11T10:21:59+00:00",
+    "last_seen_utc": "2026-02-11T10:23:17+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 4,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 4,
+      "n_stars_scanned": 4,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 4,
+      "types": [
+        "G",
+        "K",
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Blua Eoq ZV-C d47 A",
+    "BodyID": 3,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "G",
+    "Subclass": 5,
+    "StellarMass": 0.980469,
+    "Radius": 725660672.0,
+    "AbsoluteMagnitude": 4.933884,
+    "Age_MY": 1454,
+    "SurfaceTemperature": 5523.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 281306.893019,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Blua Eoq ZV-C d47 A",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 5,
+        "StellarMass": 0.980469,
+        "Radius": 725660672.0,
+        "AbsoluteMagnitude": 4.933884,
+        "Age_MY": 1454,
+        "SurfaceTemperature": 5523.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 281306.893019,
+        "Rings": null
+      },
+      {
+        "BodyName": "Blua Eoq ZV-C d47 B",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 140.23423,
+        "StarType": "M",
+        "Subclass": 6,
+        "StellarMass": 0.320313,
+        "Radius": 326907072.0,
+        "AbsoluteMagnitude": 9.836288,
+        "Age_MY": 1454,
+        "SurfaceTemperature": 2662.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 302694.313308,
+        "Rings": null
+      },
+      {
+        "BodyName": "Blua Eoq ZV-C d47 D",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 180983.505033,
+        "StarType": "K",
+        "Subclass": 9,
+        "StellarMass": 0.542969,
+        "Radius": 511330848.0,
+        "AbsoluteMagnitude": 7.361069,
+        "Age_MY": 1454,
+        "SurfaceTemperature": 3763.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 197554.064798,
+        "Rings": null
+      },
+      {
+        "BodyName": "Blua Eoq ZV-C d47 C",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 2363.091987,
+        "StarType": "M",
+        "Subclass": 2,
+        "StellarMass": 0.460938,
+        "Radius": 449629888.0,
+        "AbsoluteMagnitude": 8.317307,
+        "Age_MY": 1454,
+        "SurfaceTemperature": 3220.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 214989.447917,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

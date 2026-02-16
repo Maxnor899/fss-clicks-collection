@@ -1,53 +1,182 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-05T201519.01.log"
-      ],
-      "first_seen_utc": "2026-02-05T19:54:07Z",
-      "last_seen_utc": "2026-02-05T20:09:19Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 5,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 7,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 5,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 0,
-      "planet_classes": [
-        "High metal content body"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 2,
-      "n_saa_mappings": 2
-    },
-    "stars": {
-      "n_stars": 1,
-      "types": [
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.205656Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.555315+00:00",
+    "log_files": [
+      "Journal.2026-02-05T201519.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 372823790458,
     "name": "Praea Eurl XK-C c14-1",
+    "address": 372823790458,
     "star_pos": [
       8411.65625,
       603.21875,
       849.875
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-05T19:54:07+00:00",
+    "last_seen_utc": "2026-02-05T20:18:24+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 5,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 5,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 3,
+      "n_landables": 2,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body"
+      ]
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_bio_signals": 4,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 1
+    }
+  },
+  "primary_star": {
+    "BodyName": "Praea Eurl XK-C c14-1 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 1,
+    "StellarMass": 0.457031,
+    "Radius": 434199296.0,
+    "AbsoluteMagnitude": 8.181213,
+    "Age_MY": 11312,
+    "SurfaceTemperature": 3381.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 223503.271771,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Praea Eurl XK-C c14-1 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 1,
+        "StellarMass": 0.457031,
+        "Radius": 434199296.0,
+        "AbsoluteMagnitude": 8.181213,
+        "Age_MY": 11312,
+        "SurfaceTemperature": 3381.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 223503.271771,
+        "Rings": null
+      },
+      {
+        "BodyName": "Praea Eurl XK-C c14-1 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 10452.677727,
+        "StarType": "M",
+        "Subclass": 6,
+        "StellarMass": 0.257813,
+        "Radius": 311200576.0,
+        "AbsoluteMagnitude": 10.035599,
+        "Age_MY": 11312,
+        "SurfaceTemperature": 2606.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 166085.743096,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Praea Eurl XK-C c14-1 B 3",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 10692.182238,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 9.007731,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl XK-C c14-1 B 1",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 10586.334012,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "",
+        "MassEM": 0.032902,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl XK-C c14-1 B 2",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 10586.526418,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "",
+        "MassEM": 0.030887,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Praea Eurl XK-C c14-1 B 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Praea Eurl XK-C c14-1 B 2",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Praea Eurl XK-C c14-1 B 1",
+    "Praea Eurl XK-C c14-1 B 2"
+  ],
+  "codex_entries": [
+    {
+      "Name": "Stratum Tectonicas - Vert",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    }
+  ]
 }

@@ -1,36 +1,43 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.567220+00:00",
+    "log_files": [
+      "Journal.2026-02-08T085918.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgaa VK-C c14-0",
+    "address": 99959149690,
+    "star_pos": [
+      9579.40625,
+      576.125,
+      2096.28125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T085918.01.log",
-        "Journal.2026-02-08T111611.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T08:34:11Z",
-      "last_seen_utc": "2026-02-08T10:28:25Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-08T08:34:11+00:00",
+    "last_seen_utc": "2026-02-08T10:29:06+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 23,
       "fss_nonbodycount": 30,
+      "n_bodies_scanned": 23,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 21,
+      "n_landables": 13,
       "has_gas_giant": true,
       "has_ringed_body": true,
-      "n_bodies_scanned": 25,
-      "n_gas_giants": 2,
-      "n_planets_scanned": 23,
-      "n_ringed_bodies": 4,
-      "n_terraformables": 2,
+      "n_terraformables": 1,
       "planet_classes": [
-        "High metal content body",
-        "Icy body",
         "Sudarsky class I gas giant",
+        "Icy body",
+        "High metal content body",
         "Water world"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 6,
-      "n_saa_mappings": 2
     },
     "stars": {
       "n_stars": 2,
@@ -38,21 +45,495 @@
         "K",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 6,
+      "n_bio_signals": 0,
+      "n_geo_signals": 12,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.213711Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 99959149690,
-    "name": "Tyriedgaa VK-C c14-0",
-    "star_pos": [
-      9579.40625,
-      576.125,
-      2096.28125
+  "primary_star": {
+    "BodyName": "Tyriedgaa VK-C c14-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 9,
+    "StellarMass": 0.464844,
+    "Radius": 441543136.0,
+    "AbsoluteMagnitude": 7.669388,
+    "Age_MY": 12910,
+    "SurfaceTemperature": 3772.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 251776.062239,
+    "Rings": [
+      {
+        "Name": "Tyriedgaa VK-C c14-0 A A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 92235000000000.0,
+        "InnerRad": 747170000.0,
+        "OuterRad": 1869300000.0
+      },
+      {
+        "Name": "Tyriedgaa VK-C c14-0 A B Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 10577000000000.0,
+        "InnerRad": 3083500000.0,
+        "OuterRad": 197340000000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 9,
+        "StellarMass": 0.464844,
+        "Radius": 441543136.0,
+        "AbsoluteMagnitude": 7.669388,
+        "Age_MY": 12910,
+        "SurfaceTemperature": 3772.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 251776.062239,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa VK-C c14-0 A A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 92235000000000.0,
+            "InnerRad": 747170000.0,
+            "OuterRad": 1869300000.0
+          },
+          {
+            "Name": "Tyriedgaa VK-C c14-0 A B Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 10577000000000.0,
+            "InnerRad": 3083500000.0,
+            "OuterRad": 197340000000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 100685.420846,
+        "StarType": "M",
+        "Subclass": 9,
+        "StellarMass": 0.183594,
+        "Radius": 248374656.0,
+        "AbsoluteMagnitude": 11.59552,
+        "Age_MY": 12910,
+        "SurfaceTemperature": 2037.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 102319.643183,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa VK-C c14-0 B A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 80810000.0,
+            "InnerRad": 450370000.0,
+            "OuterRad": 1371500000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 B 5",
+        "BodyID": 61,
+        "DistanceFromArrivalLS": 100807.220658,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 4.471142,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 B 1",
+        "BodyID": 57,
+        "DistanceFromArrivalLS": 100695.14152,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.311087,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 B 2",
+        "BodyID": 58,
+        "DistanceFromArrivalLS": 100694.899373,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "WaterRich",
+        "Volcanism": "",
+        "MassEM": 0.645464,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 B 3",
+        "BodyID": 59,
+        "DistanceFromArrivalLS": 100644.800532,
+        "PlanetClass": "Water world",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.977434,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 B 6",
+        "BodyID": 62,
+        "DistanceFromArrivalLS": 102181.624103,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 1.804944,
+        "Landable": true,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa VK-C c14-0 B 6 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 1561600000.0,
+            "InnerRad": 16498000.0,
+            "OuterRad": 21127000.0
+          },
+          {
+            "Name": "Tyriedgaa VK-C c14-0 B 6 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 12995000000.0,
+            "InnerRad": 21227000.0,
+            "OuterRad": 43541000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 B 4",
+        "BodyID": 60,
+        "DistanceFromArrivalLS": 100711.646592,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "AmmoniaRich",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 1.503686,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 3",
+        "BodyID": 47,
+        "DistanceFromArrivalLS": 1956.755917,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 7.231163,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 1",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 1045.387452,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 181.770569,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 1 a",
+        "BodyID": 30,
+        "DistanceFromArrivalLS": 1043.520451,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.002759,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 1 b",
+        "BodyID": 31,
+        "DistanceFromArrivalLS": 1043.535893,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 0.001463,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 1 d",
+        "BodyID": 33,
+        "DistanceFromArrivalLS": 1036.964479,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002681,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 1 c",
+        "BodyID": 32,
+        "DistanceFromArrivalLS": 1046.206535,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001691,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 1 e",
+        "BodyID": 34,
+        "DistanceFromArrivalLS": 1051.169962,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.003945,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 2",
+        "BodyID": 35,
+        "DistanceFromArrivalLS": 1378.072568,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 37.811592,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa VK-C c14-0 A 2 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 8795800000.0,
+            "InnerRad": 90156000.0,
+            "OuterRad": 91696000.0
+          },
+          {
+            "Name": "Tyriedgaa VK-C c14-0 A 2 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 164710000000.0,
+            "InnerRad": 91796000.0,
+            "OuterRad": 116850000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 2 b",
+        "BodyID": 40,
+        "DistanceFromArrivalLS": 1376.735275,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 0.000638,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 2 a",
+        "BodyID": 39,
+        "DistanceFromArrivalLS": 1376.741239,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000655,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 2 e",
+        "BodyID": 44,
+        "DistanceFromArrivalLS": 1377.035654,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.001025,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 2 d",
+        "BodyID": 43,
+        "DistanceFromArrivalLS": 1377.019997,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.002068,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 2 f",
+        "BodyID": 45,
+        "DistanceFromArrivalLS": 1384.471551,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001509,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 2 c",
+        "BodyID": 41,
+        "DistanceFromArrivalLS": 1376.247767,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000346,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa VK-C c14-0 A 2 g",
+        "BodyID": 46,
+        "DistanceFromArrivalLS": 1381.535815,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001494,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Tyriedgaa VK-C c14-0 A 1 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa VK-C c14-0 A 1 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa VK-C c14-0 A 2 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa VK-C c14-0 A 2 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa VK-C c14-0 A 2 e",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa VK-C c14-0 A 2 d",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Tyriedgaa VK-C c14-0 B 1",
+    "Tyriedgaa VK-C c14-0 B 3"
+  ],
+  "codex_entries": []
 }

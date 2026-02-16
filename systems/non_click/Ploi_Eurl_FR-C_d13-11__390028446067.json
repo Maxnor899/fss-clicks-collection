@@ -1,58 +1,786 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.534683+00:00",
+    "log_files": [
+      "Journal.2026-02-04T160325.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploi Eurl FR-C d13-11",
+    "address": 390028446067,
+    "star_pos": [
+      7589.9375,
+      564.0625,
+      121.59375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-04T160325.01.log"
-      ],
-      "first_seen_utc": "2026-02-04T15:33:10Z",
-      "last_seen_utc": "2026-02-04T15:39:13Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-04T15:33:10+00:00",
+    "last_seen_utc": "2026-02-04T15:39:53+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 40,
       "fss_nonbodycount": 11,
+      "n_bodies_scanned": 40,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 39,
+      "n_landables": 26,
       "has_gas_giant": true,
       "has_ringed_body": true,
-      "n_bodies_scanned": 41,
-      "n_gas_giants": 4,
-      "n_planets_scanned": 40,
-      "n_ringed_bodies": 4,
-      "n_terraformables": 2,
+      "n_terraformables": 1,
       "planet_classes": [
-        "Gas giant with water based life",
-        "High metal content body",
+        "Water world",
         "Icy body",
+        "Gas giant with water based life",
         "Rocky ice body",
         "Sudarsky class I gas giant",
-        "Water world"
+        "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 7,
-      "n_saa_mappings": 1
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 7,
+      "n_bio_signals": 0,
+      "n_geo_signals": 14,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.195568Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 390028446067,
-    "name": "Ploi Eurl FR-C d13-11",
-    "star_pos": [
-      7589.9375,
-      564.0625,
-      121.59375
+  "primary_star": {
+    "BodyName": "Ploi Eurl FR-C d13-11",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 1,
+    "StellarMass": 0.414063,
+    "Radius": 432649888.0,
+    "AbsoluteMagnitude": 8.156982,
+    "Age_MY": 352,
+    "SurfaceTemperature": 3406.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 216761.382122,
+    "Rings": [
+      {
+        "Name": "Ploi Eurl FR-C d13-11 A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 3713400000000.0,
+        "InnerRad": 828050000.0,
+        "OuterRad": 1798600000.0
+      },
+      {
+        "Name": "Ploi Eurl FR-C d13-11 B Belt",
+        "RingClass": "eRingClass_Icy",
+        "MassMT": 894410000000000.0,
+        "InnerRad": 110790000000.0,
+        "OuterRad": 175860000000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 1,
+        "StellarMass": 0.414063,
+        "Radius": 432649888.0,
+        "AbsoluteMagnitude": 8.156982,
+        "Age_MY": 352,
+        "SurfaceTemperature": 3406.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 216761.382122,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl FR-C d13-11 A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 3713400000000.0,
+            "InnerRad": 828050000.0,
+            "OuterRad": 1798600000.0
+          },
+          {
+            "Name": "Ploi Eurl FR-C d13-11 B Belt",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 894410000000000.0,
+            "InnerRad": 110790000000.0,
+            "OuterRad": 175860000000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 1",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 6.873538,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 0.014247,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 2",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 6.854335,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor silicate vapour geysers volcanism",
+        "MassEM": 0.013028,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 4",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 21.620605,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.186823,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 3",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 12.142458,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "rocky magma volcanism",
+        "MassEM": 0.109396,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 13",
+        "BodyID": 66,
+        "DistanceFromArrivalLS": 1987.782854,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 29.679562,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 13 g",
+        "BodyID": 74,
+        "DistanceFromArrivalLS": 1997.148168,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000423,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 13 e",
+        "BodyID": 72,
+        "DistanceFromArrivalLS": 1991.807077,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000197,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 13 d",
+        "BodyID": 71,
+        "DistanceFromArrivalLS": 1991.793606,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00068,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 13 f",
+        "BodyID": 73,
+        "DistanceFromArrivalLS": 1990.735583,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000374,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 13 a",
+        "BodyID": 67,
+        "DistanceFromArrivalLS": 1988.574571,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.000538,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 13 b",
+        "BodyID": 68,
+        "DistanceFromArrivalLS": 1986.606856,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000435,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 13 c",
+        "BodyID": 69,
+        "DistanceFromArrivalLS": 1985.772889,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000793,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 7",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 122.544903,
+        "PlanetClass": "Water world",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 0.747943,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 10",
+        "BodyID": 42,
+        "DistanceFromArrivalLS": 1173.675856,
+        "PlanetClass": "Gas giant with water based life",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 590.88092,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl FR-C d13-11 10 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 78090000000.0,
+            "InnerRad": 143480000.0,
+            "OuterRad": 153700000.0
+          },
+          {
+            "Name": "Ploi Eurl FR-C d13-11 10 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 1585700000000.0,
+            "InnerRad": 153800000.0,
+            "OuterRad": 292130000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 10 f",
+        "BodyID": 51,
+        "DistanceFromArrivalLS": 1177.226729,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001548,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 10 d",
+        "BodyID": 49,
+        "DistanceFromArrivalLS": 1176.169158,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001722,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 10 g",
+        "BodyID": 52,
+        "DistanceFromArrivalLS": 1161.938294,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.003912,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 10 e",
+        "BodyID": 50,
+        "DistanceFromArrivalLS": 1167.404722,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00123,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 10 a",
+        "BodyID": 45,
+        "DistanceFromArrivalLS": 1171.667407,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.000592,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 10 b",
+        "BodyID": 47,
+        "DistanceFromArrivalLS": 1174.259608,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.001168,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 10 c",
+        "BodyID": 48,
+        "DistanceFromArrivalLS": 1174.253061,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000442,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 10 h",
+        "BodyID": 53,
+        "DistanceFromArrivalLS": 1182.847916,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.003189,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 5",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 38.826236,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.855038,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 6",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 68.298468,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.560549,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 12",
+        "BodyID": 65,
+        "DistanceFromArrivalLS": 1599.752358,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 4.19457,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 11",
+        "BodyID": 60,
+        "DistanceFromArrivalLS": 1583.701037,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 367.324402,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl FR-C d13-11 11 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 1110200000000.0,
+            "InnerRad": 141970000.0,
+            "OuterRad": 249320000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 11 b",
+        "BodyID": 63,
+        "DistanceFromArrivalLS": 1584.108854,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.002655,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 11 a",
+        "BodyID": 62,
+        "DistanceFromArrivalLS": 1583.233133,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.003638,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 11 c",
+        "BodyID": 64,
+        "DistanceFromArrivalLS": 1583.189225,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.002381,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 9",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 934.113242,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 298.085815,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl FR-C d13-11 9 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 49559000000.0,
+            "InnerRad": 119870000.0,
+            "OuterRad": 127110000.0
+          },
+          {
+            "Name": "Ploi Eurl FR-C d13-11 9 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 1284400000000.0,
+            "InnerRad": 127210000.0,
+            "OuterRad": 246170000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 9 a",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 932.936529,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.002258,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 9 e",
+        "BodyID": 30,
+        "DistanceFromArrivalLS": 932.905899,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002544,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 9 b",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 932.498847,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.001814,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 9 f",
+        "BodyID": 31,
+        "DistanceFromArrivalLS": 926.63654,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.006347,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 9 f a",
+        "BodyID": 32,
+        "DistanceFromArrivalLS": 926.613369,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000223,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 9 c",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 936.826514,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002264,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 9 d",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 932.159003,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002904,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 9 g",
+        "BodyID": 33,
+        "DistanceFromArrivalLS": 936.674718,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.004458,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl FR-C d13-11 8",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 208.745608,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "minor water geysers volcanism",
+        "MassEM": 0.54795,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Ploi Eurl FR-C d13-11 13 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl FR-C d13-11 10 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl FR-C d13-11 10 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl FR-C d13-11 10 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl FR-C d13-11 9 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl FR-C d13-11 9 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl FR-C d13-11 9 f a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Ploi Eurl FR-C d13-11 7"
+  ],
+  "codex_entries": []
 }

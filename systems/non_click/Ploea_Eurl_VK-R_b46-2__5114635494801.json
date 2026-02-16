@@ -1,54 +1,247 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.646001+00:00",
+    "log_files": [
+      "Journal.2026-02-14T205220.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploea Eurl VK-R b46-2",
+    "address": 5114635494801,
+    "star_pos": [
+      3413.21875,
+      146.75,
+      -55.90625
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-14T205220.01.log"
-      ],
-      "first_seen_utc": "2026-02-14T20:21:46Z",
-      "last_seen_utc": "2026-02-14T20:23:05Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-14T20:21:46+00:00",
+    "last_seen_utc": "2026-02-14T20:24:05+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 10,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 10,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 9,
+      "n_landables": 3,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 10,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 9,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
         "Icy body",
         "Rocky ice body"
       ]
     },
-    "signals": {
-      "n_fss_body_signals_events": 2,
-      "n_saa_mappings": 0
-    },
     "stars": {
       "n_stars": 1,
       "types": [
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_bio_signals": 2,
+      "n_geo_signals": 2,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.259523Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Ploea Eurl VK-R b46-2",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 4,
+    "StellarMass": 0.304688,
+    "Radius": 342528640.0,
+    "AbsoluteMagnitude": 9.334549,
+    "Age_MY": 5424,
+    "SurfaceTemperature": 2919.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 176152.849547,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 5114635494801,
-    "name": "Ploea Eurl VK-R b46-2",
-    "star_pos": [
-      3413.21875,
-      146.75,
-      -55.90625
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploea Eurl VK-R b46-2",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 4,
+        "StellarMass": 0.304688,
+        "Radius": 342528640.0,
+        "AbsoluteMagnitude": 9.334549,
+        "Age_MY": 5424,
+        "SurfaceTemperature": 2919.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 176152.849547,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploea Eurl VK-R b46-2 4",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 894.684726,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.663305,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eurl VK-R b46-2 4 a",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 892.63804,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.034399,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eurl VK-R b46-2 7",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 2203.483479,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.545852,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eurl VK-R b46-2 8",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 2892.470634,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.928957,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eurl VK-R b46-2 5",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 1256.881628,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.265922,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eurl VK-R b46-2 6",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 1259.733802,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "minor nitrogen magma volcanism",
+        "MassEM": 0.242967,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eurl VK-R b46-2 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 487.842346,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.380976,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eurl VK-R b46-2 2",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 685.714237,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.675826,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eurl VK-R b46-2 3",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 685.169318,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.277897,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Ploea Eurl VK-R b46-2 5",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploea Eurl VK-R b46-2 6",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        },
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

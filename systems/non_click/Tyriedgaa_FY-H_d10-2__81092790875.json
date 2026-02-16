@@ -1,57 +1,253 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.580512+00:00",
+    "log_files": [
+      "Journal.2026-02-08T222850.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgaa FY-H d10-2",
+    "address": 81092790875,
+    "star_pos": [
+      9004.59375,
+      538.03125,
+      2424.53125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T222850.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T21:49:19Z",
-      "last_seen_utc": "2026-02-08T21:56:30Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-08T21:49:19+00:00",
+    "last_seen_utc": "2026-02-08T21:57:16+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 11,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 11,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 10,
+      "n_landables": 1,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 14,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 13,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 2,
+      "n_terraformables": 1,
       "planet_classes": [
-        "Ammonia world",
-        "High metal content body",
+        "Water world",
         "Icy body",
         "Rocky ice body",
-        "Water world"
+        "Ammonia world",
+        "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 1,
-      "n_saa_mappings": 3
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "G"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_bio_signals": 2,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 3
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.220868Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgaa FY-H d10-2",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "G",
+    "Subclass": 9,
+    "StellarMass": 1.039063,
+    "Radius": 771315584.0,
+    "AbsoluteMagnitude": 5.00174,
+    "Age_MY": 1524,
+    "SurfaceTemperature": 5274.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 358457.377832,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 81092790875,
-    "name": "Tyriedgaa FY-H d10-2",
-    "star_pos": [
-      9004.59375,
-      538.03125,
-      2424.53125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa FY-H d10-2",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 9,
+        "StellarMass": 1.039063,
+        "Radius": 771315584.0,
+        "AbsoluteMagnitude": 5.00174,
+        "Age_MY": 1524,
+        "SurfaceTemperature": 5274.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 358457.377832,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgaa FY-H d10-2 6",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 1389.330798,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.273873,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FY-H d10-2 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 452.823872,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.369832,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FY-H d10-2 7",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 2039.17184,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.283342,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FY-H d10-2 9",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 3497.478465,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "carbon dioxide geysers volcanism",
+        "MassEM": 0.87748,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FY-H d10-2 5",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1079.456963,
+        "PlanetClass": "Ammonia world",
+        "TerraformState": "",
+        "AtmosphereType": "AmmoniaOxygen",
+        "Volcanism": "",
+        "MassEM": 0.298286,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FY-H d10-2 3",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 834.068446,
+        "PlanetClass": "Water world",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.256584,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FY-H d10-2 4",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 832.019134,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.184935,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FY-H d10-2 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 335.898168,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.322281,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FY-H d10-2 8 a",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 2517.822784,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.082942,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FY-H d10-2 8",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 2520.478897,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.33218,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Tyriedgaa FY-H d10-2 8 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Tyriedgaa FY-H d10-2 2",
+    "Tyriedgaa FY-H d10-2 3",
+    "Tyriedgaa FY-H d10-2 5"
+  ],
+  "codex_entries": []
 }

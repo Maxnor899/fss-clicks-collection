@@ -1,53 +1,154 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-15T071238.01.log"
-      ],
-      "first_seen_utc": "2026-02-15T06:37:08Z",
-      "last_seen_utc": "2026-02-15T06:37:14Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 17,
-      "fss_nonbodycount": 5,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 4,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 3,
-      "types": [
-        "G",
-        "L",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.274929Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.663358+00:00",
+    "log_files": [
+      "Journal.2026-02-15T071238.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 918351614882,
     "name": "Sifaea AW-S c18-3",
+    "address": 918351614882,
     "star_pos": [
       5872.84375,
       430.65625,
       1037.84375
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-15T06:37:08+00:00",
+    "last_seen_utc": "2026-02-15T06:38:27+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 17,
+      "fss_nonbodycount": 5,
+      "n_bodies_scanned": 4,
+      "n_stars_scanned": 4,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 4,
+      "types": [
+        "G",
+        "L",
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Sifaea AW-S c18-3 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "G",
+    "Subclass": 9,
+    "StellarMass": 0.757813,
+    "Radius": 604932992.0,
+    "AbsoluteMagnitude": 5.578415,
+    "Age_MY": 12878,
+    "SurfaceTemperature": 5215.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 297751.062794,
+    "Rings": [
+      {
+        "Name": "Sifaea AW-S c18-3 A A Belt",
+        "RingClass": "eRingClass_Metalic",
+        "MassMT": 69621000000000.0,
+        "InnerRad": 1031300000.0,
+        "OuterRad": 2200000000.0
+      }
+    ]
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Sifaea AW-S c18-3 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 9,
+        "StellarMass": 0.757813,
+        "Radius": 604932992.0,
+        "AbsoluteMagnitude": 5.578415,
+        "Age_MY": 12878,
+        "SurfaceTemperature": 5215.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 297751.062794,
+        "Rings": [
+          {
+            "Name": "Sifaea AW-S c18-3 A A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 69621000000000.0,
+            "InnerRad": 1031300000.0,
+            "OuterRad": 2200000000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Sifaea AW-S c18-3 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 63.642529,
+        "StarType": "M",
+        "Subclass": 3,
+        "StellarMass": 0.339844,
+        "Radius": 383938560.0,
+        "AbsoluteMagnitude": 8.796021,
+        "Age_MY": 12878,
+        "SurfaceTemperature": 3121.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 208847.006656,
+        "Rings": null
+      },
+      {
+        "BodyName": "Sifaea AW-S c18-3 D",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 14233.460818,
+        "StarType": "L",
+        "Subclass": 6,
+        "StellarMass": 0.109375,
+        "Radius": 176188512.0,
+        "AbsoluteMagnitude": 13.638931,
+        "Age_MY": 12878,
+        "SurfaceTemperature": 1511.0,
+        "Luminosity": "V",
+        "RotationPeriod": 121706.097092,
+        "Rings": null
+      },
+      {
+        "BodyName": "Sifaea AW-S c18-3 C",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 14252.274043,
+        "StarType": "M",
+        "Subclass": 9,
+        "StellarMass": 0.222656,
+        "Radius": 277452864.0,
+        "AbsoluteMagnitude": 11.297806,
+        "Age_MY": 12878,
+        "SurfaceTemperature": 2064.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 133633.046053,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

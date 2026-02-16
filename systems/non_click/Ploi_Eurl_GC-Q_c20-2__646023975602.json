@@ -1,57 +1,580 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.539669+00:00",
+    "log_files": [
+      "Journal.2026-02-04T182059.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploi Eurl GC-Q c20-2",
+    "address": 646023975602,
+    "star_pos": [
+      7382.625,
+      601.6875,
+      -147.8125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-04T182059.01.log"
-      ],
-      "first_seen_utc": "2026-02-04T17:28:48Z",
-      "last_seen_utc": "2026-02-04T17:31:39Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-04T17:28:48+00:00",
+    "last_seen_utc": "2026-02-04T17:32:51+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 23,
       "fss_nonbodycount": 11,
+      "n_bodies_scanned": 23,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 22,
+      "n_landables": 13,
       "has_gas_giant": true,
       "has_ringed_body": true,
-      "n_bodies_scanned": 23,
-      "n_gas_giants": 5,
-      "n_planets_scanned": 22,
-      "n_ringed_bodies": 7,
       "n_terraformables": 0,
       "planet_classes": [
         "Gas giant with ammonia based life",
+        "Sudarsky class III gas giant",
         "Icy body",
         "Rocky body",
-        "Sudarsky class I gas giant",
-        "Sudarsky class III gas giant"
+        "Sudarsky class I gas giant"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 6,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 6,
+      "n_bio_signals": 0,
+      "n_geo_signals": 13,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.198181Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 646023975602,
-    "name": "Ploi Eurl GC-Q c20-2",
-    "star_pos": [
-      7382.625,
-      601.6875,
-      -147.8125
+  "primary_star": {
+    "BodyName": "Ploi Eurl GC-Q c20-2",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 7,
+    "StellarMass": 0.554688,
+    "Radius": 454023424.0,
+    "AbsoluteMagnitude": 7.30748,
+    "Age_MY": 3954,
+    "SurfaceTemperature": 4043.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 368689.116449,
+    "Rings": [
+      {
+        "Name": "Ploi Eurl GC-Q c20-2 A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 101950000000000.0,
+        "InnerRad": 828240000.0,
+        "OuterRad": 1982700000.0
+      },
+      {
+        "Name": "Ploi Eurl GC-Q c20-2 B Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 6.6556e+16,
+        "InnerRad": 2902200000.0,
+        "OuterRad": 294840000000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 7,
+        "StellarMass": 0.554688,
+        "Radius": 454023424.0,
+        "AbsoluteMagnitude": 7.30748,
+        "Age_MY": 3954,
+        "SurfaceTemperature": 4043.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 368689.116449,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl GC-Q c20-2 A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 101950000000000.0,
+            "InnerRad": 828240000.0,
+            "OuterRad": 1982700000.0
+          },
+          {
+            "Name": "Ploi Eurl GC-Q c20-2 B Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 6.6556e+16,
+            "InnerRad": 2902200000.0,
+            "OuterRad": 294840000000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 6 e",
+        "BodyID": 60,
+        "DistanceFromArrivalLS": 4438.487164,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000399,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 6 c",
+        "BodyID": 58,
+        "DistanceFromArrivalLS": 4441.215374,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000275,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 6 a",
+        "BodyID": 56,
+        "DistanceFromArrivalLS": 4438.771001,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000381,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 6",
+        "BodyID": 53,
+        "DistanceFromArrivalLS": 4438.128376,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 10.09225,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl GC-Q c20-2 6 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 16461000000.0,
+            "InnerRad": 28376000.0,
+            "OuterRad": 37213000.0
+          },
+          {
+            "Name": "Ploi Eurl GC-Q c20-2 6 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 139970000000.0,
+            "InnerRad": 37313000.0,
+            "OuterRad": 78177000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 6 d",
+        "BodyID": 59,
+        "DistanceFromArrivalLS": 4441.92064,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000248,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 6 b",
+        "BodyID": 57,
+        "DistanceFromArrivalLS": 4438.219158,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.0008,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 5",
+        "BodyID": 48,
+        "DistanceFromArrivalLS": 3078.651627,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 77.4496,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl GC-Q c20-2 5 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 37985000000.0,
+            "InnerRad": 89998000.0,
+            "OuterRad": 96483000.0
+          },
+          {
+            "Name": "Ploi Eurl GC-Q c20-2 5 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 399330000000.0,
+            "InnerRad": 96583000.0,
+            "OuterRad": 147040000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 5 a",
+        "BodyID": 51,
+        "DistanceFromArrivalLS": 3078.396373,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.018376,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 5 b",
+        "BodyID": 52,
+        "DistanceFromArrivalLS": 3079.054795,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.001234,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 4 c",
+        "BodyID": 47,
+        "DistanceFromArrivalLS": 3080.798713,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000642,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 4",
+        "BodyID": 43,
+        "DistanceFromArrivalLS": 3083.497941,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 85.515587,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl GC-Q c20-2 4 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 542350000000.0,
+            "InnerRad": 94770000.0,
+            "OuterRad": 170610000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 4 a",
+        "BodyID": 45,
+        "DistanceFromArrivalLS": 3083.816635,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.004442,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 4 b",
+        "BodyID": 46,
+        "DistanceFromArrivalLS": 3082.652148,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.000977,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 2",
+        "BodyID": 34,
+        "DistanceFromArrivalLS": 2263.228702,
+        "PlanetClass": "Gas giant with ammonia based life",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 536.834595,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl GC-Q c20-2 2 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 63435000000.0,
+            "InnerRad": 137260000.0,
+            "OuterRad": 156580000.0
+          },
+          {
+            "Name": "Ploi Eurl GC-Q c20-2 2 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 620570000000.0,
+            "InnerRad": 156680000.0,
+            "OuterRad": 282940000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 2 a",
+        "BodyID": 37,
+        "DistanceFromArrivalLS": 2261.68582,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "carbon dioxide geysers volcanism",
+        "MassEM": 0.007646,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 2 b",
+        "BodyID": 38,
+        "DistanceFromArrivalLS": 2263.12489,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.003456,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 1",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 1560.625245,
+        "PlanetClass": "Sudarsky class III gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 1687.734131,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl GC-Q c20-2 1 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 315850000000.0,
+            "InnerRad": 136500000.0,
+            "OuterRad": 170570000.0
+          },
+          {
+            "Name": "Ploi Eurl GC-Q c20-2 1 B Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 4308100000000.0,
+            "InnerRad": 170670000.0,
+            "OuterRad": 414490000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 1 a",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 1561.977379,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major metallic magma volcanism",
+        "MassEM": 0.001474,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 1 c",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 1563.731371,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.004949,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 1 b",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 1563.706868,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.004999,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 1 d",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 1542.334425,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.028908,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl GC-Q c20-2 3",
+        "BodyID": 39,
+        "DistanceFromArrivalLS": 2260.812229,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 7.621106,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl GC-Q c20-2 3 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 4079000000.0,
+            "InnerRad": 58748000.0,
+            "OuterRad": 59843000.0
+          },
+          {
+            "Name": "Ploi Eurl GC-Q c20-2 3 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 56128000000.0,
+            "InnerRad": 59943000.0,
+            "OuterRad": 73265000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Ploi Eurl GC-Q c20-2 5 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl GC-Q c20-2 5 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl GC-Q c20-2 4 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl GC-Q c20-2 4 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl GC-Q c20-2 2 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl GC-Q c20-2 1 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

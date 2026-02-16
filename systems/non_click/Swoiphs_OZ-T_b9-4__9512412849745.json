@@ -1,56 +1,405 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.630924+00:00",
+    "log_files": [
+      "Journal.2026-02-12T061747.01.log"
+    ]
+  },
+  "system": {
+    "name": "Swoiphs OZ-T b9-4",
+    "address": 9512412849745,
+    "star_pos": [
+      3385.28125,
+      -78.53125,
+      427.59375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-12T061747.01.log"
-      ],
-      "first_seen_utc": "2026-02-12T05:53:31Z",
-      "last_seen_utc": "2026-02-12T05:55:19Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-12T05:53:31+00:00",
+    "last_seen_utc": "2026-02-12T05:56:19+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 19,
       "fss_nonbodycount": 10,
+      "n_bodies_scanned": 19,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 18,
+      "n_landables": 11,
       "has_gas_giant": true,
       "has_ringed_body": true,
-      "n_bodies_scanned": 19,
-      "n_gas_giants": 3,
-      "n_planets_scanned": 18,
-      "n_ringed_bodies": 2,
       "n_terraformables": 0,
       "planet_classes": [
-        "Gas giant with ammonia based life",
+        "Sudarsky class I gas giant",
         "Icy body",
         "Metal rich body",
-        "Sudarsky class I gas giant"
+        "Gas giant with ammonia based life"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 1,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_bio_signals": 0,
+      "n_geo_signals": 2,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.250931Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 9512412849745,
-    "name": "Swoiphs OZ-T b9-4",
-    "star_pos": [
-      3385.28125,
-      -78.53125,
-      427.59375
+  "primary_star": {
+    "BodyName": "Swoiphs OZ-T b9-4",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 1,
+    "StellarMass": 0.378906,
+    "Radius": 379078048.0,
+    "AbsoluteMagnitude": 8.404709,
+    "Age_MY": 3496,
+    "SurfaceTemperature": 3437.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 210389.924906,
+    "Rings": [
+      {
+        "Name": "Swoiphs OZ-T b9-4 A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 85270000000000.0,
+        "InnerRad": 578620000.0,
+        "OuterRad": 1746100000.0
+      },
+      {
+        "Name": "Swoiphs OZ-T b9-4 B Belt",
+        "RingClass": "eRingClass_Icy",
+        "MassMT": 6893900000000000.0,
+        "InnerRad": 3078400000.0,
+        "OuterRad": 312740000000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Swoiphs OZ-T b9-4",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 1,
+        "StellarMass": 0.378906,
+        "Radius": 379078048.0,
+        "AbsoluteMagnitude": 8.404709,
+        "Age_MY": 3496,
+        "SurfaceTemperature": 3437.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 210389.924906,
+        "Rings": [
+          {
+            "Name": "Swoiphs OZ-T b9-4 A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 85270000000000.0,
+            "InnerRad": 578620000.0,
+            "OuterRad": 1746100000.0
+          },
+          {
+            "Name": "Swoiphs OZ-T b9-4 B Belt",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 6893900000000000.0,
+            "InnerRad": 3078400000.0,
+            "OuterRad": 312740000000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 5.911895,
+        "PlanetClass": "Metal rich body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 0.283082,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 3",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 2302.486239,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 596.321289,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 3 c",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 2311.608231,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.016524,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 3 a",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 2303.561628,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.022528,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 3 b",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 2308.00736,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.024194,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 3 d",
+        "BodyID": 30,
+        "DistanceFromArrivalLS": 2307.010087,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.013883,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 2",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 1665.976921,
+        "PlanetClass": "Gas giant with ammonia based life",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 440.565002,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Swoiphs OZ-T b9-4 2 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 164260000000.0,
+            "InnerRad": 124590000.0,
+            "OuterRad": 145980000.0
+          },
+          {
+            "Name": "Swoiphs OZ-T b9-4 2 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 1646600000000.0,
+            "InnerRad": 146080000.0,
+            "OuterRad": 277800000.0
+          }
+        ],
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 2 b",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 1667.82899,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 0.00247,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 2 c",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 1663.496649,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "water magma volcanism",
+        "MassEM": 0.002792,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 2 a",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 1666.920923,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.002824,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 2 d",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 1663.291363,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.006766,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 2 e",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 1666.540612,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00835,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 2 g",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 1676.973,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.011415,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 2 f",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 1676.026526,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.010426,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 4",
+        "BodyID": 35,
+        "DistanceFromArrivalLS": 4221.449673,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 20.965458,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 4 a",
+        "BodyID": 36,
+        "DistanceFromArrivalLS": 4222.104022,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 0.000791,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 4 b",
+        "BodyID": 37,
+        "DistanceFromArrivalLS": 4220.421714,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000294,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs OZ-T b9-4 4 c",
+        "BodyID": 38,
+        "DistanceFromArrivalLS": 4217.710603,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001499,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Swoiphs OZ-T b9-4 4 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

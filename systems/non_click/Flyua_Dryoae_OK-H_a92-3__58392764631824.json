@@ -1,53 +1,208 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.639611+00:00",
+    "log_files": [
+      "Journal.2026-02-13T224149.01.log"
+    ]
+  },
+  "system": {
+    "name": "Flyua Dryoae OK-H a92-3",
+    "address": 58392764631824,
+    "star_pos": [
+      2324.84375,
+      -28.8125,
+      -83.59375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-13T224149.01.log"
-      ],
-      "first_seen_utc": "2026-02-13T22:16:12Z",
-      "last_seen_utc": "2026-02-13T22:17:12Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-13T22:16:12+00:00",
+    "last_seen_utc": "2026-02-13T22:17:52+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 8,
       "fss_nonbodycount": 4,
+      "n_bodies_scanned": 8,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 7,
+      "n_landables": 4,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 8,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 7,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": [
         "Icy body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "Y"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.254629Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 58392764631824,
-    "name": "Flyua Dryoae OK-H a92-3",
-    "star_pos": [
-      2324.84375,
-      -28.8125,
-      -83.59375
+  "primary_star": {
+    "BodyName": "Flyua Dryoae OK-H a92-3",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "Y",
+    "Subclass": 1,
+    "StellarMass": 0.027344,
+    "Radius": 80336536.0,
+    "AbsoluteMagnitude": 19.436356,
+    "Age_MY": 4302,
+    "SurfaceTemperature": 573.0,
+    "Luminosity": "V",
+    "RotationPeriod": 40092.75495,
+    "Rings": [
+      {
+        "Name": "Flyua Dryoae OK-H a92-3 A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 14595000000000.0,
+        "InnerRad": 131250000.0,
+        "OuterRad": 726980000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Flyua Dryoae OK-H a92-3",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "Y",
+        "Subclass": 1,
+        "StellarMass": 0.027344,
+        "Radius": 80336536.0,
+        "AbsoluteMagnitude": 19.436356,
+        "Age_MY": 4302,
+        "SurfaceTemperature": 573.0,
+        "Luminosity": "V",
+        "RotationPeriod": 40092.75495,
+        "Rings": [
+          {
+            "Name": "Flyua Dryoae OK-H a92-3 A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 14595000000000.0,
+            "InnerRad": 131250000.0,
+            "OuterRad": 726980000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Flyua Dryoae OK-H a92-3 4",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 1297.204375,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.918795,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyua Dryoae OK-H a92-3 4 a",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 1300.605163,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.043516,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyua Dryoae OK-H a92-3 1",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 308.25749,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.673574,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyua Dryoae OK-H a92-3 2",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 744.081904,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "",
+        "MassEM": 0.449142,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyua Dryoae OK-H a92-3 3",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 963.870584,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.409108,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyua Dryoae OK-H a92-3 5 a",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 2320.764184,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.024939,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyua Dryoae OK-H a92-3 5",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 2309.787901,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "",
+        "MassEM": 0.552251,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

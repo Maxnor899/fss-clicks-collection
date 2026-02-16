@@ -1,54 +1,193 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.626487+00:00",
+    "log_files": [
+      "Journal.2026-02-11T164827.01.log"
+    ]
+  },
+  "system": {
+    "name": "Prua Dryou HP-R c7-14",
+    "address": 3939122484034,
+    "star_pos": [
+      4174.0,
+      -80.78125,
+      537.34375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T164827.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T15:55:31Z",
-      "last_seen_utc": "2026-02-11T15:56:51Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-11T15:55:31+00:00",
+    "last_seen_utc": "2026-02-11T15:57:29+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 8,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 8,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 7,
+      "n_landables": 0,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 8,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 7,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
-        "Icy body"
+        "Icy body",
+        "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.248335Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Prua Dryou HP-R c7-14",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 2,
+    "StellarMass": 0.742188,
+    "Radius": 604529728.0,
+    "AbsoluteMagnitude": 5.870941,
+    "Age_MY": 4984,
+    "SurfaceTemperature": 4877.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 305756.953041,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 3939122484034,
-    "name": "Prua Dryou HP-R c7-14",
-    "star_pos": [
-      4174.0,
-      -80.78125,
-      537.34375
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Prua Dryou HP-R c7-14",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 2,
+        "StellarMass": 0.742188,
+        "Radius": 604529728.0,
+        "AbsoluteMagnitude": 5.870941,
+        "Age_MY": 4984,
+        "SurfaceTemperature": 4877.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 305756.953041,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Prua Dryou HP-R c7-14 6",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 2483.367378,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.948204,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou HP-R c7-14 4",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1077.431232,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.614565,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou HP-R c7-14 7",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 3544.120998,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.322106,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou HP-R c7-14 5",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1455.79771,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.840624,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou HP-R c7-14 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 515.797091,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxideRich",
+        "Volcanism": "",
+        "MassEM": 0.374767,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou HP-R c7-14 3",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 741.8603,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.151121,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou HP-R c7-14 2",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 744.053141,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.166701,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

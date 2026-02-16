@@ -1,56 +1,212 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-06T211411.01.log"
-      ],
-      "first_seen_utc": "2026-02-06T21:11:43Z",
-      "last_seen_utc": "2026-02-06T21:12:37Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 8,
-      "fss_nonbodycount": 4,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 8,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 6,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 0,
-      "planet_classes": [
-        "High metal content body",
-        "Icy body",
-        "Rocky ice body"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 2,
-      "types": [
-        "K",
-        "L"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.208068Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.558697+00:00",
+    "log_files": [
+      "Journal.2026-02-06T211411.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 373494846410,
     "name": "Praea Eurl XP-K c23-1",
+    "address": 373494846410,
     "star_pos": [
       8806.9375,
       552.1875,
       1243.96875
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-06T21:11:43+00:00",
+    "last_seen_utc": "2026-02-06T21:13:45+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 8,
+      "fss_nonbodycount": 4,
+      "n_bodies_scanned": 8,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 6,
+      "n_landables": 6,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Icy body",
+        "High metal content body",
+        "Rocky ice body"
+      ]
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "L",
+        "K"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Praea Eurl XP-K c23-1 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 8,
+    "StellarMass": 0.542969,
+    "Radius": 434114400.0,
+    "AbsoluteMagnitude": 7.600464,
+    "Age_MY": 9838,
+    "SurfaceTemperature": 3865.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 258682.174358,
+    "Rings": [
+      {
+        "Name": "Praea Eurl XP-K c23-1 A A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 28403000000000.0,
+        "InnerRad": 788830000.0,
+        "OuterRad": 1968600000.0
+      }
+    ]
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Praea Eurl XP-K c23-1 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 8,
+        "StellarMass": 0.542969,
+        "Radius": 434114400.0,
+        "AbsoluteMagnitude": 7.600464,
+        "Age_MY": 9838,
+        "SurfaceTemperature": 3865.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 258682.174358,
+        "Rings": [
+          {
+            "Name": "Praea Eurl XP-K c23-1 A A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 28403000000000.0,
+            "InnerRad": 788830000.0,
+            "OuterRad": 1968600000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Praea Eurl XP-K c23-1 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 8774.7095,
+        "StarType": "L",
+        "Subclass": 2,
+        "StellarMass": 0.195313,
+        "Radius": 269557152.0,
+        "AbsoluteMagnitude": 11.864273,
+        "Age_MY": 9838,
+        "SurfaceTemperature": 1838.0,
+        "Luminosity": "V",
+        "RotationPeriod": 106365.410622,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Praea Eurl XP-K c23-1 A 5",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 743.361592,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002873,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl XP-K c23-1 A 3",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 412.822113,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.003379,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl XP-K c23-1 A 2",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 127.938323,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00091,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl XP-K c23-1 A 4",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 580.829289,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002715,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl XP-K c23-1 A 6",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 1019.912193,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.003601,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl XP-K c23-1 A 1",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 93.406155,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001194,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

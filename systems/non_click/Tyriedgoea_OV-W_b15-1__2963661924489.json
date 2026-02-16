@@ -1,51 +1,91 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.682916+00:00",
+    "log_files": [
+      "Journal.2026-02-16T151444.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgoea OV-W b15-1",
+    "address": 2963661924489,
+    "star_pos": [
+      6985.59375,
+      66.40625,
+      1840.65625
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-16T151444.01.log"
-      ],
-      "first_seen_utc": "2026-02-16T14:20:57Z",
-      "last_seen_utc": "2026-02-16T14:21:03Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-16T14:20:57+00:00",
+    "last_seen_utc": "2026-02-16T14:22:26+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 7,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 1,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 1,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.289532Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgoea OV-W b15-1",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 2,
+    "StellarMass": 0.363281,
+    "Radius": 365345472.0,
+    "AbsoluteMagnitude": 8.756058,
+    "Age_MY": 11876,
+    "SurfaceTemperature": 3229.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 186699.449506,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 2963661924489,
-    "name": "Tyriedgoea OV-W b15-1",
-    "star_pos": [
-      6985.59375,
-      66.40625,
-      1840.65625
-    ]
-  }
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgoea OV-W b15-1",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 2,
+        "StellarMass": 0.363281,
+        "Radius": 365345472.0,
+        "AbsoluteMagnitude": 8.756058,
+        "Age_MY": 11876,
+        "SurfaceTemperature": 3229.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 186699.449506,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

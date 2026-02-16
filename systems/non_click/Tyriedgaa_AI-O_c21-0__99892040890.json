@@ -1,55 +1,299 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T155743.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T15:16:54Z",
-      "last_seen_utc": "2026-02-08T15:22:38Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 12,
-      "fss_nonbodycount": 14,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 14,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 12,
-      "n_ringed_bodies": 2,
-      "n_terraformables": 4,
-      "planet_classes": [
-        "High metal content body",
-        "Icy body",
-        "Water world"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 2,
-      "n_saa_mappings": 2
-    },
-    "stars": {
-      "n_stars": 1,
-      "types": [
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.218472Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.574619+00:00",
+    "log_files": [
+      "Journal.2026-02-08T155743.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 99892040890,
     "name": "Tyriedgaa AI-O c21-0",
+    "address": 99892040890,
     "star_pos": [
       9548.875,
       591.90625,
       2424.5
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-08T15:16:54+00:00",
+    "last_seen_utc": "2026-02-08T15:25:09+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 12,
+      "fss_nonbodycount": 14,
+      "n_bodies_scanned": 12,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 10,
+      "n_landables": 2,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 2,
+      "planet_classes": [
+        "Icy body",
+        "High metal content body",
+        "Water world"
+      ]
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_bio_signals": 2,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Tyriedgaa AI-O c21-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 0,
+    "StellarMass": 0.472656,
+    "Radius": 402149568.0,
+    "AbsoluteMagnitude": 8.138306,
+    "Age_MY": 10526,
+    "SurfaceTemperature": 3548.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 158185.165583,
+    "Rings": [
+      {
+        "Name": "Tyriedgaa AI-O c21-0 A A Belt",
+        "RingClass": "eRingClass_Metalic",
+        "MassMT": 93648000000000.0,
+        "InnerRad": 742750000.0,
+        "OuterRad": 1879700000.0
+      }
+    ]
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa AI-O c21-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 0,
+        "StellarMass": 0.472656,
+        "Radius": 402149568.0,
+        "AbsoluteMagnitude": 8.138306,
+        "Age_MY": 10526,
+        "SurfaceTemperature": 3548.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 158185.165583,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa AI-O c21-0 A A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 93648000000000.0,
+            "InnerRad": 742750000.0,
+            "OuterRad": 1879700000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Tyriedgaa AI-O c21-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 8409.930499,
+        "StarType": "M",
+        "Subclass": 6,
+        "StellarMass": 0.246094,
+        "Radius": 289423744.0,
+        "AbsoluteMagnitude": 10.204849,
+        "Age_MY": 10526,
+        "SurfaceTemperature": 2599.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 126220.701139,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa AI-O c21-0 B A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 61376000000000.0,
+            "InnerRad": 542250000.0,
+            "OuterRad": 1512200000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgaa AI-O c21-0 A 4",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 219.830474,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.27327,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa AI-O c21-0 B 1",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 8466.821798,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.062121,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa AI-O c21-0 B 3",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 8758.681382,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.125858,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa AI-O c21-0 B 2",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 8633.128593,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.086838,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa AI-O c21-0 A 3",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 175.497799,
+        "PlanetClass": "Water world",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.267165,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa AI-O c21-0 A 1",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 101.69665,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.087514,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa AI-O c21-0 A 2",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 137.999025,
+        "PlanetClass": "Water world",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "Oxygen",
+        "Volcanism": "",
+        "MassEM": 0.222177,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa AI-O c21-0 A 6",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 407.129037,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.2941,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa AI-O c21-0 A 5",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 329.315256,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.514524,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa AI-O c21-0 A 7",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 564.308206,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "minor methane magma volcanism",
+        "MassEM": 0.475462,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Tyriedgaa AI-O c21-0 B 2",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa AI-O c21-0 A 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Tyriedgaa AI-O c21-0 A 1",
+    "Tyriedgaa AI-O c21-0 A 2"
+  ],
+  "codex_entries": []
 }

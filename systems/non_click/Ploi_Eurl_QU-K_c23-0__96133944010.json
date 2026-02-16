@@ -1,34 +1,42 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.536982+00:00",
+    "log_files": [
+      "Journal.2026-02-04T173406.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploi Eurl QU-K c23-0",
+    "address": 96133944010,
+    "star_pos": [
+      7318.71875,
+      609.78125,
+      -32.96875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-04T173406.01.log"
-      ],
-      "first_seen_utc": "2026-02-04T16:36:51Z",
-      "last_seen_utc": "2026-02-04T16:38:05Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-04T16:36:51+00:00",
+    "last_seen_utc": "2026-02-04T16:39:41+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 13,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 13,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": 10,
+      "n_landables": 8,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 13,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 10,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 2,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 3,
@@ -37,21 +45,245 @@
         "M",
         "T"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_bio_signals": 1,
+      "n_geo_signals": 3,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.196696Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Ploi Eurl QU-K c23-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 9,
+    "StellarMass": 0.574219,
+    "Radius": 526549152.0,
+    "AbsoluteMagnitude": 7.277771,
+    "Age_MY": 9536,
+    "SurfaceTemperature": 3780.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 224640.46346,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 96133944010,
-    "name": "Ploi Eurl QU-K c23-0",
-    "star_pos": [
-      7318.71875,
-      609.78125,
-      -32.96875
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl QU-K c23-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 9,
+        "StellarMass": 0.574219,
+        "Radius": 526549152.0,
+        "AbsoluteMagnitude": 7.277771,
+        "Age_MY": 9536,
+        "SurfaceTemperature": 3780.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 224640.46346,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploi Eurl QU-K c23-0 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 920.486432,
+        "StarType": "M",
+        "Subclass": 9,
+        "StellarMass": 0.175781,
+        "Radius": 230503232.0,
+        "AbsoluteMagnitude": 11.768402,
+        "Age_MY": 9536,
+        "SurfaceTemperature": 2032.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 79663.088462,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploi Eurl QU-K c23-0 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 909.634256,
+        "StarType": "T",
+        "Subclass": 9,
+        "StellarMass": 0.042969,
+        "Radius": 95066664.0,
+        "AbsoluteMagnitude": 18.145111,
+        "Age_MY": 9536,
+        "SurfaceTemperature": 729.0,
+        "Luminosity": "V",
+        "RotationPeriod": 63146.868217,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploi Eurl QU-K c23-0 A 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 27.017809,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.063245,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl QU-K c23-0 A 4",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 92.129854,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.016465,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl QU-K c23-0 BC 1",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 891.840281,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.009584,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl QU-K c23-0 ABC 1",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 2212.418006,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "water magma volcanism",
+        "MassEM": 0.854021,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl QU-K c23-0 ABC 2",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 2205.386137,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.585887,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl QU-K c23-0 ABC 3",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 3045.517025,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.577631,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl QU-K c23-0 A 5",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 134.394686,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.016167,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl QU-K c23-0 A 3",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 73.066883,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.009104,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl QU-K c23-0 A 2 a",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 40.622496,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "metallic magma volcanism",
+        "MassEM": 0.000334,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl QU-K c23-0 A 2",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 40.60575,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.02015,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Ploi Eurl QU-K c23-0 ABC 3",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl QU-K c23-0 A 2 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

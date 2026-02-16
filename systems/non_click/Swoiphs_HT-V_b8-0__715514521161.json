@@ -1,36 +1,43 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.631410+00:00",
+    "log_files": [
+      "Journal.2026-02-12T061747.01.log"
+    ]
+  },
+  "system": {
+    "name": "Swoiphs HT-V b8-0",
+    "address": 715514521161,
+    "star_pos": [
+      3320.28125,
+      -75.375,
+      410.84375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-12T061747.01.log",
-        "Journal.2026-02-12T214314.01.log"
-      ],
-      "first_seen_utc": "2026-02-12T05:56:19Z",
-      "last_seen_utc": "2026-02-12T20:44:27Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-12T05:56:19+00:00",
+    "last_seen_utc": "2026-02-12T20:45:42+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 18,
       "fss_nonbodycount": 7,
+      "n_bodies_scanned": 18,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": 15,
+      "n_landables": 9,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 21,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 18,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 4,
+      "n_terraformables": 2,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
-        "Rocky body",
-        "Rocky ice body"
+        "High metal content body",
+        "Rocky ice body",
+        "Rocky body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 3,
-      "n_saa_mappings": 3
     },
     "stars": {
       "n_stars": 3,
@@ -39,21 +46,337 @@
         "M",
         "T"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_bio_signals": 4,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 3
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.251244Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Swoiphs HT-V b8-0 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 5,
+    "StellarMass": 0.285156,
+    "Radius": 336415840.0,
+    "AbsoluteMagnitude": 9.642227,
+    "Age_MY": 3462,
+    "SurfaceTemperature": 2744.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 150911.653628,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 715514521161,
-    "name": "Swoiphs HT-V b8-0",
-    "star_pos": [
-      3320.28125,
-      -75.375,
-      410.84375
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Swoiphs HT-V b8-0 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.285156,
+        "Radius": 336415840.0,
+        "AbsoluteMagnitude": 9.642227,
+        "Age_MY": 3462,
+        "SurfaceTemperature": 2744.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 150911.653628,
+        "Rings": null
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 4.191104,
+        "StarType": "L",
+        "Subclass": 9,
+        "StellarMass": 0.09375,
+        "Radius": 150803440.0,
+        "AbsoluteMagnitude": 14.50502,
+        "Age_MY": 3462,
+        "SurfaceTemperature": 1338.0,
+        "Luminosity": "V",
+        "RotationPeriod": 59623.488266,
+        "Rings": null
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 2789.297112,
+        "StarType": "T",
+        "Subclass": 0,
+        "StellarMass": 0.082031,
+        "Radius": 143226128.0,
+        "AbsoluteMagnitude": 14.768982,
+        "Age_MY": 3462,
+        "SurfaceTemperature": 1292.0,
+        "Luminosity": "V",
+        "RotationPeriod": 74910.086077,
+        "Rings": [
+          {
+            "Name": "Swoiphs HT-V b8-0 C A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 24443000000000.0,
+            "InnerRad": 248090000.0,
+            "OuterRad": 1048500000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Swoiphs HT-V b8-0 AB 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 30.893446,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.119764,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 AB 5",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 70.65048,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.071624,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 AB 3",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 41.640765,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.070245,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 AB 2",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 41.763081,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.101968,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 AB 4",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 52.321008,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "Water",
+        "Volcanism": "",
+        "MassEM": 0.08116,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 AB 7",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 319.240701,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.64489,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 AB 6 a",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 100.152069,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.006858,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 AB 6",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 100.134172,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.165833,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 C 4",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 2755.157942,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.036541,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 C 6",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 2713.036003,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "",
+        "MassEM": 0.136944,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 C 3",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 2716.199807,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.095599,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 C 2",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 2819.275282,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.007047,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 C 5 a",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 2940.790062,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.00117,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 C 1",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 2802.619188,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.00815,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs HT-V b8-0 C 5",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 2940.504164,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.043365,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Swoiphs HT-V b8-0 AB 5",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoiphs HT-V b8-0 AB 6",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoiphs HT-V b8-0 C 5",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Swoiphs HT-V b8-0 AB 4",
+    "Swoiphs HT-V b8-0 AB 5",
+    "Swoiphs HT-V b8-0 AB 6"
+  ],
+  "codex_entries": []
 }

@@ -1,55 +1,429 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-05T201519.01.log"
-      ],
-      "first_seen_utc": "2026-02-05T20:18:24Z",
-      "last_seen_utc": "2026-02-05T20:21:04Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 18,
-      "fss_nonbodycount": 3,
-      "has_gas_giant": true,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 18,
-      "n_gas_giants": 4,
-      "n_planets_scanned": 15,
-      "n_ringed_bodies": 5,
-      "n_terraformables": 0,
-      "planet_classes": [
-        "Icy body",
-        "Sudarsky class I gas giant"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 3,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 2,
-      "types": [
-        "L",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.205893Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.555650+00:00",
+    "log_files": [
+      "Journal.2026-02-05T201519.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 784504661777,
     "name": "Praea Eurl MZ-X b31-0",
+    "address": 784504661777,
     "star_pos": [
       8455.09375,
       596.28125,
       897.5
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-05T20:18:24+00:00",
+    "last_seen_utc": "2026-02-05T20:24:18+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 18,
+      "fss_nonbodycount": 3,
+      "n_bodies_scanned": 18,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": 15,
+      "n_landables": 7,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Sudarsky class I gas giant",
+        "Icy body"
+      ]
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "L",
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_bio_signals": 0,
+      "n_geo_signals": 6,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Praea Eurl MZ-X b31-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 7,
+    "StellarMass": 0.28125,
+    "Radius": 314363104.0,
+    "AbsoluteMagnitude": 10.355103,
+    "Age_MY": 6008,
+    "SurfaceTemperature": 2409.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 162838.154133,
+    "Rings": [
+      {
+        "Name": "Praea Eurl MZ-X b31-0 A A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 6088900000.0,
+        "InnerRad": 475150000.0,
+        "OuterRad": 1581000000.0
+      }
+    ]
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 7,
+        "StellarMass": 0.28125,
+        "Radius": 314363104.0,
+        "AbsoluteMagnitude": 10.355103,
+        "Age_MY": 6008,
+        "SurfaceTemperature": 2409.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 162838.154133,
+        "Rings": [
+          {
+            "Name": "Praea Eurl MZ-X b31-0 A A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 6088900000.0,
+            "InnerRad": 475150000.0,
+            "OuterRad": 1581000000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 19693.043458,
+        "StarType": "L",
+        "Subclass": 8,
+        "StellarMass": 0.089844,
+        "Radius": 144881680.0,
+        "AbsoluteMagnitude": 14.473557,
+        "Age_MY": 6008,
+        "SurfaceTemperature": 1375.0,
+        "Luminosity": "V",
+        "RotationPeriod": 70095.172867,
+        "Rings": null
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 18127.685496,
+        "StarType": "L",
+        "Subclass": 2,
+        "StellarMass": 0.136719,
+        "Radius": 193401952.0,
+        "AbsoluteMagnitude": 12.671356,
+        "Age_MY": 6008,
+        "SurfaceTemperature": 1802.0,
+        "Luminosity": "V",
+        "RotationPeriod": 82122.342093,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 5",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 1368.052773,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 6.078947,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Praea Eurl MZ-X b31-0 A 5 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 36813000.0,
+            "InnerRad": 23614000.0,
+            "OuterRad": 63536000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 1",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 554.751203,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 153.478058,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 1 a",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 557.760803,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.001104,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 1 b",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 551.616286,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.001264,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 1 c",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 546.686552,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.001667,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 4",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 937.739934,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 29.011894,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Praea Eurl MZ-X b31-0 A 4 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 12967000000.0,
+            "InnerRad": 67776000.0,
+            "OuterRad": 118680000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 4 a",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 941.280198,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000258,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 4 b",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 932.953191,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000261,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 4 c",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 948.446005,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000146,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 2",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 725.850099,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 94.624084,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Praea Eurl MZ-X b31-0 A 2 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 58988000000.0,
+            "InnerRad": 111280000.0,
+            "OuterRad": 119440000.0
+          },
+          {
+            "Name": "Praea Eurl MZ-X b31-0 A 2 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 341360000000.0,
+            "InnerRad": 119540000.0,
+            "OuterRad": 158640000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 2 c",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 725.978221,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "carbon dioxide geysers volcanism",
+        "MassEM": 0.001334,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 2 b",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 724.894644,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.001044,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 2 a",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 725.761035,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.00246,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 2 d",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 724.957157,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000756,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl MZ-X b31-0 A 3",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 733.333527,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 8.19281,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Praea Eurl MZ-X b31-0 A 3 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 8085300000.0,
+            "InnerRad": 47955000.0,
+            "OuterRad": 50574000.0
+          },
+          {
+            "Name": "Praea Eurl MZ-X b31-0 A 3 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 78642000000.0,
+            "InnerRad": 50674000.0,
+            "OuterRad": 71191000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Praea Eurl MZ-X b31-0 A 2 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Praea Eurl MZ-X b31-0 A 2 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Praea Eurl MZ-X b31-0 A 2 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

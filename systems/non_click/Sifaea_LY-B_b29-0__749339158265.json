@@ -1,53 +1,124 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.662421+00:00",
+    "log_files": [
+      "Journal.2026-02-15T071238.01.log"
+    ]
+  },
+  "system": {
+    "name": "Sifaea LY-B b29-0",
+    "address": 749339158265,
+    "star_pos": [
+      5854.125,
+      455.6875,
+      853.46875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-15T071238.01.log"
-      ],
-      "first_seen_utc": "2026-02-15T06:31:58Z",
-      "last_seen_utc": "2026-02-15T06:32:04Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-15T06:31:58+00:00",
+    "last_seen_utc": "2026-02-15T06:34:40+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 32,
       "fss_nonbodycount": 6,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 1,
+      "n_landables": 1,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 1,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": [
         "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.274117Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 749339158265,
-    "name": "Sifaea LY-B b29-0",
-    "star_pos": [
-      5854.125,
-      455.6875,
-      853.46875
+  "primary_star": {
+    "BodyName": "Sifaea LY-B b29-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 1,
+    "StellarMass": 0.425781,
+    "Radius": 389372160.0,
+    "AbsoluteMagnitude": 8.423019,
+    "Age_MY": 11994,
+    "SurfaceTemperature": 3377.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 244099.189573,
+    "Rings": [
+      {
+        "Name": "Sifaea LY-B b29-0 A Belt",
+        "RingClass": "eRingClass_Metalic",
+        "MassMT": 70576000000.0,
+        "InnerRad": 596250000.0,
+        "OuterRad": 1815400000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Sifaea LY-B b29-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 1,
+        "StellarMass": 0.425781,
+        "Radius": 389372160.0,
+        "AbsoluteMagnitude": 8.423019,
+        "Age_MY": 11994,
+        "SurfaceTemperature": 3377.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 244099.189573,
+        "Rings": [
+          {
+            "Name": "Sifaea LY-B b29-0 A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 70576000000.0,
+            "InnerRad": 596250000.0,
+            "OuterRad": 1815400000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Sifaea LY-B b29-0 1",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 33.387918,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002048,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

@@ -1,32 +1,40 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.642449+00:00",
+    "log_files": [
+      "Journal.2026-02-14T205220.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploea Eurl XV-E d11-77",
+    "address": 2656730876259,
+    "star_pos": [
+      2636.34375,
+      38.4375,
+      -97.625
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-14T205220.01.log"
-      ],
-      "first_seen_utc": "2026-02-14T19:55:40Z",
-      "last_seen_utc": "2026-02-14T19:55:47Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-14T19:55:40+00:00",
+    "last_seen_utc": "2026-02-14T19:57:02+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 30,
       "fss_nonbodycount": 12,
+      "n_bodies_scanned": 3,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 1,
+      "n_landables": 0,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 3,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 1,
-      "n_ringed_bodies": 2,
       "n_terraformables": 0,
       "planet_classes": [
         "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -34,21 +42,128 @@
         "K",
         "Y"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.256457Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 2656730876259,
-    "name": "Ploea Eurl XV-E d11-77",
-    "star_pos": [
-      2636.34375,
-      38.4375,
-      -97.625
+  "primary_star": {
+    "BodyName": "Ploea Eurl XV-E d11-77",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 8,
+    "StellarMass": 0.476563,
+    "Radius": 403614080.0,
+    "AbsoluteMagnitude": 7.655396,
+    "Age_MY": 1012,
+    "SurfaceTemperature": 3958.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 162704.975434,
+    "Rings": [
+      {
+        "Name": "Ploea Eurl XV-E d11-77 A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 102170000000000.0,
+        "InnerRad": 665960000.0,
+        "OuterRad": 2002600000.0
+      },
+      {
+        "Name": "Ploea Eurl XV-E d11-77 B Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 2742100000000000.0,
+        "InnerRad": 4768600000.0,
+        "OuterRad": 187630000000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploea Eurl XV-E d11-77",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 8,
+        "StellarMass": 0.476563,
+        "Radius": 403614080.0,
+        "AbsoluteMagnitude": 7.655396,
+        "Age_MY": 1012,
+        "SurfaceTemperature": 3958.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 162704.975434,
+        "Rings": [
+          {
+            "Name": "Ploea Eurl XV-E d11-77 A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 102170000000000.0,
+            "InnerRad": 665960000.0,
+            "OuterRad": 2002600000.0
+          },
+          {
+            "Name": "Ploea Eurl XV-E d11-77 B Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 2742100000000000.0,
+            "InnerRad": 4768600000.0,
+            "OuterRad": 187630000000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Ploea Eurl XV-E d11-77 2",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 991.625713,
+        "StarType": "Y",
+        "Subclass": 3,
+        "StellarMass": 0.015625,
+        "Radius": 55885356.0,
+        "AbsoluteMagnitude": 22.129059,
+        "Age_MY": 1012,
+        "SurfaceTemperature": 469.0,
+        "Luminosity": "V",
+        "RotationPeriod": 31224.9648,
+        "Rings": [
+          {
+            "Name": "Ploea Eurl XV-E d11-77 2 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 175920000000.0,
+            "InnerRad": 92211000.0,
+            "OuterRad": 123460000.0
+          },
+          {
+            "Name": "Ploea Eurl XV-E d11-77 2 B Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 10639000000000.0,
+            "InnerRad": 123560000.0,
+            "OuterRad": 625250000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploea Eurl XV-E d11-77 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 9.496315,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 1.943752,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

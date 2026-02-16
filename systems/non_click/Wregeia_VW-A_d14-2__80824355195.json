@@ -1,34 +1,42 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.532583+00:00",
+    "log_files": [
+      "Journal.2026-02-04T160325.01.log"
+    ]
+  },
+  "system": {
+    "name": "Wregeia VW-A d14-2",
+    "address": 80824355195,
+    "star_pos": [
+      7703.1875,
+      547.25,
+      170.03125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-04T160325.01.log"
-      ],
-      "first_seen_utc": "2026-02-04T15:21:46Z",
-      "last_seen_utc": "2026-02-04T15:29:28Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-04T15:21:46+00:00",
+    "last_seen_utc": "2026-02-04T15:30:38+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 16,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 16,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": 13,
+      "n_landables": 0,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 17,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 14,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 2,
+      "n_terraformables": 1,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky ice body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 1
     },
     "stars": {
       "n_stars": 3,
@@ -37,21 +45,268 @@
         "K",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.194856Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Wregeia VW-A d14-2 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "A",
+    "Subclass": 9,
+    "StellarMass": 1.425781,
+    "Radius": 859038336.0,
+    "AbsoluteMagnitude": 3.18927,
+    "Age_MY": 896,
+    "SurfaceTemperature": 7585.0,
+    "Luminosity": "VI",
+    "RotationPeriod": 170526.319218,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 80824355195,
-    "name": "Wregeia VW-A d14-2",
-    "star_pos": [
-      7703.1875,
-      547.25,
-      170.03125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Wregeia VW-A d14-2 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "A",
+        "Subclass": 9,
+        "StellarMass": 1.425781,
+        "Radius": 859038336.0,
+        "AbsoluteMagnitude": 3.18927,
+        "Age_MY": 896,
+        "SurfaceTemperature": 7585.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 170526.319218,
+        "Rings": null
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 60476.943487,
+        "StarType": "K",
+        "Subclass": 5,
+        "StellarMass": 0.617188,
+        "Radius": 505557696.0,
+        "AbsoluteMagnitude": 6.691605,
+        "Age_MY": 896,
+        "SurfaceTemperature": 4415.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 200459.009655,
+        "Rings": null
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 60490.950461,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.320313,
+        "Radius": 352546848.0,
+        "AbsoluteMagnitude": 9.510529,
+        "Age_MY": 896,
+        "SurfaceTemperature": 2763.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 151543.741609,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Wregeia VW-A d14-2 A 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1115.321162,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.764405,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 A 4",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 5491.75958,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "minor silicate vapour geysers volcanism",
+        "MassEM": 1.161962,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 A 2",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 2013.06726,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 1.696549,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 A 3",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 2012.227412,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Water",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.910279,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 BC 4",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 61624.315703,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.172848,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 BC 2",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 61079.059608,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.429173,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 BC 1",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 60842.696139,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxideRich",
+        "Volcanism": "",
+        "MassEM": 0.260845,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 BC 3",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 59691.859149,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.171076,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 BC 8",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 58547.023994,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "minor ammonia magma volcanism",
+        "MassEM": 0.389083,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 BC 9",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 61288.227905,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "",
+        "MassEM": 0.262373,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 BC 6",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 61275.173263,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.272604,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 BC 5",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 61271.397704,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.343657,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia VW-A d14-2 BC 7",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 61713.858935,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.175291,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [
+    "Wregeia VW-A d14-2 A 1"
+  ],
+  "codex_entries": []
 }

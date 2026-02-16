@@ -1,51 +1,121 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.518528+00:00",
+    "log_files": [
+      "Journal.2026-02-01T131305.01.log"
+    ]
+  },
+  "system": {
+    "name": "Preae Thae PU-A c29-0",
+    "address": 94456320506,
+    "star_pos": [
+      6300.375,
+      696.5,
+      -1103.71875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-01T131305.01.log"
-      ],
-      "first_seen_utc": "2026-02-01T12:14:39Z",
-      "last_seen_utc": "2026-02-01T12:14:45Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-01T12:14:39+00:00",
+    "last_seen_utc": "2026-02-01T12:15:56+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 23,
       "fss_nonbodycount": 15,
+      "n_bodies_scanned": 1,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 1,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.185675Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 94456320506,
-    "name": "Preae Thae PU-A c29-0",
-    "star_pos": [
-      6300.375,
-      696.5,
-      -1103.71875
+  "primary_star": {
+    "BodyName": "Preae Thae PU-A c29-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 1,
+    "StellarMass": 0.753906,
+    "Radius": 610897216.0,
+    "AbsoluteMagnitude": 5.804749,
+    "Age_MY": 9742,
+    "SurfaceTemperature": 4926.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 333550.682567,
+    "Rings": [
+      {
+        "Name": "Preae Thae PU-A c29-0 A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 92121000000000.0,
+        "InnerRad": 1209100000.0,
+        "OuterRad": 2196200000.0
+      },
+      {
+        "Name": "Preae Thae PU-A c29-0 B Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 140060000000000.0,
+        "InnerRad": 5788800000.0,
+        "OuterRad": 370480000000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Preae Thae PU-A c29-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 1,
+        "StellarMass": 0.753906,
+        "Radius": 610897216.0,
+        "AbsoluteMagnitude": 5.804749,
+        "Age_MY": 9742,
+        "SurfaceTemperature": 4926.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 333550.682567,
+        "Rings": [
+          {
+            "Name": "Preae Thae PU-A c29-0 A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 92121000000000.0,
+            "InnerRad": 1209100000.0,
+            "OuterRad": 2196200000.0
+          },
+          {
+            "Name": "Preae Thae PU-A c29-0 B Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 140060000000000.0,
+            "InnerRad": 5788800000.0,
+            "OuterRad": 370480000000.0
+          }
+        ]
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

@@ -1,30 +1,38 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.666148+00:00",
+    "log_files": [
+      "Journal.2026-02-15T071238.01.log"
+    ]
+  },
+  "system": {
+    "name": "Sifaea JW-B b56-0",
+    "address": 749875701729,
+    "star_pos": [
+      5880.4375,
+      360.03125,
+      1416.40625
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-15T071238.01.log"
-      ],
-      "first_seen_utc": "2026-02-15T06:46:25Z",
-      "last_seen_utc": "2026-02-15T06:46:31Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-15T06:46:25+00:00",
+    "last_seen_utc": "2026-02-15T06:47:39+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 19,
       "fss_nonbodycount": 3,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -32,21 +40,84 @@
         "L",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.277319Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 749875701729,
-    "name": "Sifaea JW-B b56-0",
-    "star_pos": [
-      5880.4375,
-      360.03125,
-      1416.40625
+  "primary_star": {
+    "BodyName": "Sifaea JW-B b56-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 8,
+    "StellarMass": 0.226563,
+    "Radius": 293201792.0,
+    "AbsoluteMagnitude": 10.867249,
+    "Age_MY": 12556,
+    "SurfaceTemperature": 2217.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 117694.005895,
+    "Rings": [
+      {
+        "Name": "Sifaea JW-B b56-0 A A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 29088000000000.0,
+        "InnerRad": 467130000.0,
+        "OuterRad": 1471100000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Sifaea JW-B b56-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 8,
+        "StellarMass": 0.226563,
+        "Radius": 293201792.0,
+        "AbsoluteMagnitude": 10.867249,
+        "Age_MY": 12556,
+        "SurfaceTemperature": 2217.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 117694.005895,
+        "Rings": [
+          {
+            "Name": "Sifaea JW-B b56-0 A A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 29088000000000.0,
+            "InnerRad": 467130000.0,
+            "OuterRad": 1471100000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Sifaea JW-B b56-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 19511.025225,
+        "StarType": "L",
+        "Subclass": 4,
+        "StellarMass": 0.152344,
+        "Radius": 219211536.0,
+        "AbsoluteMagnitude": 12.606644,
+        "Age_MY": 12556,
+        "SurfaceTemperature": 1718.0,
+        "Luminosity": "V",
+        "RotationPeriod": 99259.933485,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

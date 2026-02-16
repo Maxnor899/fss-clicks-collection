@@ -1,56 +1,212 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.573909+00:00",
+    "log_files": [
+      "Journal.2026-02-08T155743.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgaa FT-M c22-0",
+    "address": 100093400258,
+    "star_pos": [
+      9656.5625,
+      617.6875,
+      2460.84375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T155743.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T15:10:17Z",
-      "last_seen_utc": "2026-02-08T15:15:07Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-08T15:10:17+00:00",
+    "last_seen_utc": "2026-02-08T15:15:51+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 9,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 9,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 8,
+      "n_landables": 1,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 11,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 10,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 2,
+      "n_terraformables": 1,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky ice body",
         "Water world"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 2
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.217934Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgaa FT-M c22-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 5,
+    "StellarMass": 0.65625,
+    "Radius": 537246592.0,
+    "AbsoluteMagnitude": 6.537949,
+    "Age_MY": 3490,
+    "SurfaceTemperature": 4437.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 368831.299795,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 100093400258,
-    "name": "Tyriedgaa FT-M c22-0",
-    "star_pos": [
-      9656.5625,
-      617.6875,
-      2460.84375
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa FT-M c22-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 5,
+        "StellarMass": 0.65625,
+        "Radius": 537246592.0,
+        "AbsoluteMagnitude": 6.537949,
+        "Age_MY": 3490,
+        "SurfaceTemperature": 4437.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 368831.299795,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgaa FT-M c22-0 8",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 6234.154006,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.988224,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FT-M c22-0 6",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1601.924703,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.615838,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FT-M c22-0 3",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 650.513229,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxideRich",
+        "Volcanism": "",
+        "MassEM": 0.331651,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FT-M c22-0 7",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 3193.945961,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.313775,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FT-M c22-0 5",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1065.847155,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.339001,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FT-M c22-0 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 473.538895,
+        "PlanetClass": "Water world",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.258632,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FT-M c22-0 4",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 899.271215,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.369531,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa FT-M c22-0 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 354.42399,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.211702,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [
+    "Tyriedgaa FT-M c22-0 1",
+    "Tyriedgaa FT-M c22-0 2"
+  ],
+  "codex_entries": []
 }

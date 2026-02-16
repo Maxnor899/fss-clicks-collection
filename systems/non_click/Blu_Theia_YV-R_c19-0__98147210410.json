@@ -1,56 +1,369 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T222850.01.log",
-        "Journal.2026-02-09T082520.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T22:32:01Z",
-      "last_seen_utc": "2026-02-09T07:26:00Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 18,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 20,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 18,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 0,
-      "planet_classes": [
-        "High metal content body",
-        "Icy body"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 3,
-      "n_saa_mappings": 2
-    },
-    "stars": {
-      "n_stars": 2,
-      "types": [
-        "K",
-        "L"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.222620Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.583169+00:00",
+    "log_files": [
+      "Journal.2026-02-08T222850.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 98147210410,
     "name": "Blu Theia YV-R c19-0",
+    "address": 98147210410,
     "star_pos": [
       8496.34375,
       614.65625,
       2342.28125
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-08T22:32:01+00:00",
+    "last_seen_utc": "2026-02-09T07:34:28+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 18,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 18,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 16,
+      "n_landables": 13,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Icy body",
+        "High metal content body"
+      ]
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "L",
+        "K"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_bio_signals": 4,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Blu Theia YV-R c19-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 8,
+    "StellarMass": 0.558594,
+    "Radius": 526570368.0,
+    "AbsoluteMagnitude": 7.035202,
+    "Age_MY": 8932,
+    "SurfaceTemperature": 3997.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 277846.809352,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Blu Theia YV-R c19-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 8,
+        "StellarMass": 0.558594,
+        "Radius": 526570368.0,
+        "AbsoluteMagnitude": 7.035202,
+        "Age_MY": 8932,
+        "SurfaceTemperature": 3997.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 277846.809352,
+        "Rings": null
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 39564.562984,
+        "StarType": "L",
+        "Subclass": 8,
+        "StellarMass": 0.101563,
+        "Radius": 158656688.0,
+        "AbsoluteMagnitude": 14.207336,
+        "Age_MY": 8932,
+        "SurfaceTemperature": 1397.0,
+        "Luminosity": "V",
+        "RotationPeriod": 64987.763476,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Blu Theia YV-R c19-0 A 1",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 239.029355,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.054556,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 A 6",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 732.466494,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.167271,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 A 7",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 901.08516,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.193553,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 A 4",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 408.351761,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "",
+        "MassEM": 0.036023,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 A 5",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 499.896174,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.119021,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 B 1",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 38828.136368,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.054362,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 B 5 a",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 41588.051538,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001873,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 B 5",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 41590.423904,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.03411,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 B 6",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 37116.085458,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.037149,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 B 7",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 37110.460795,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.023263,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 B 3",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 39799.461467,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.023626,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 B 2",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 39800.305,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.111307,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 B 4",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 39295.867247,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.029216,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 A 8",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 1243.666385,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.396948,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 A 2",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 298.264355,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.041964,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia YV-R c19-0 A 3",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 298.843453,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.036493,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Blu Theia YV-R c19-0 A 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Blu Theia YV-R c19-0 A 4",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Blu Theia YV-R c19-0 A 5",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Blu Theia YV-R c19-0 A 1",
+    "Blu Theia YV-R c19-0 A 4"
+  ],
+  "codex_entries": []
 }

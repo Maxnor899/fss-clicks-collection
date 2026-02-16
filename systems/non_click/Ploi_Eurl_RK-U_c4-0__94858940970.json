@@ -1,52 +1,138 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-01T131305.01.log"
-      ],
-      "first_seen_utc": "2026-02-01T12:38:55Z",
-      "last_seen_utc": "2026-02-01T12:39:02Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 13,
-      "fss_nonbodycount": 6,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 3,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 2,
-      "types": [
-        "L",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.187465Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.520473+00:00",
+    "log_files": [
+      "Journal.2026-02-01T131305.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 94858940970,
     "name": "Ploi Eurl RK-U c4-0",
+    "address": 94858940970,
     "star_pos": [
       6536.46875,
       655.65625,
       -859.78125
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-01T12:38:55+00:00",
+    "last_seen_utc": "2026-02-01T12:39:59+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 13,
+      "fss_nonbodycount": 6,
+      "n_bodies_scanned": 3,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "L",
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Ploi Eurl RK-U c4-0 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 0,
+    "StellarMass": 0.527344,
+    "Radius": 470684992.0,
+    "AbsoluteMagnitude": 7.807571,
+    "Age_MY": 6740,
+    "SurfaceTemperature": 3539.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 194700.035752,
+    "Rings": [
+      {
+        "Name": "Ploi Eurl RK-U c4-0 A A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 96013000000000.0,
+        "InnerRad": 776630000.0,
+        "OuterRad": 2049500000.0
+      }
+    ]
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl RK-U c4-0 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 0,
+        "StellarMass": 0.527344,
+        "Radius": 470684992.0,
+        "AbsoluteMagnitude": 7.807571,
+        "Age_MY": 6740,
+        "SurfaceTemperature": 3539.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 194700.035752,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl RK-U c4-0 A A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 96013000000000.0,
+            "InnerRad": 776630000.0,
+            "OuterRad": 2049500000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Ploi Eurl RK-U c4-0 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 52191.330029,
+        "StarType": "L",
+        "Subclass": 3,
+        "StellarMass": 0.175781,
+        "Radius": 246676640.0,
+        "AbsoluteMagnitude": 12.320053,
+        "Age_MY": 6740,
+        "SurfaceTemperature": 1730.0,
+        "Luminosity": "V",
+        "RotationPeriod": 106943.157629,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploi Eurl RK-U c4-0 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 7467.655433,
+        "StarType": "L",
+        "Subclass": 0,
+        "StellarMass": 0.199219,
+        "Radius": 231394672.0,
+        "AbsoluteMagnitude": 11.852905,
+        "Age_MY": 6740,
+        "SurfaceTemperature": 1989.0,
+        "Luminosity": "V",
+        "RotationPeriod": 123022.030322,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

@@ -1,55 +1,274 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.568965+00:00",
+    "log_files": [
+      "Journal.2026-02-08T111611.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgaa OJ-V c17-0",
+    "address": 100160476314,
+    "star_pos": [
+      9698.03125,
+      580.5625,
+      2260.59375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T111611.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T10:47:25Z",
-      "last_seen_utc": "2026-02-08T10:52:12Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-08T10:47:25+00:00",
+    "last_seen_utc": "2026-02-08T10:53:15+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 12,
       "fss_nonbodycount": 5,
+      "n_bodies_scanned": 12,
+      "n_stars_scanned": 4,
+      "n_planets_scanned": 8,
+      "n_landables": 8,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 13,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 9,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": [
         "High metal content body",
         "Rocky body"
       ]
     },
-    "signals": {
-      "n_fss_body_signals_events": 1,
-      "n_saa_mappings": 1
-    },
     "stars": {
-      "n_stars": 2,
+      "n_stars": 4,
       "types": [
         "G",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_bio_signals": 4,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.215256Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgaa OJ-V c17-0 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "G",
+    "Subclass": 9,
+    "StellarMass": 0.8125,
+    "Radius": 582922688.0,
+    "AbsoluteMagnitude": 5.636475,
+    "Age_MY": 9038,
+    "SurfaceTemperature": 5242.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 294429.414203,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 100160476314,
-    "name": "Tyriedgaa OJ-V c17-0",
-    "star_pos": [
-      9698.03125,
-      580.5625,
-      2260.59375
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa OJ-V c17-0 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 9,
+        "StellarMass": 0.8125,
+        "Radius": 582922688.0,
+        "AbsoluteMagnitude": 5.636475,
+        "Age_MY": 9038,
+        "SurfaceTemperature": 5242.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 294429.414203,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa OJ-V c17-0 C",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 116.37328,
+        "StarType": "M",
+        "Subclass": 8,
+        "StellarMass": 0.1875,
+        "Radius": 252555968.0,
+        "AbsoluteMagnitude": 11.25061,
+        "Age_MY": 9038,
+        "SurfaceTemperature": 2187.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 99295.219649,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa OJ-V c17-0 B",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 114.732626,
+        "StarType": "M",
+        "Subclass": 3,
+        "StellarMass": 0.390625,
+        "Radius": 348641408.0,
+        "AbsoluteMagnitude": 8.936432,
+        "Age_MY": 9038,
+        "SurfaceTemperature": 3171.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 200331.351324,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa OJ-V c17-0 D",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 4292.004775,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.324219,
+        "Radius": 374238752.0,
+        "AbsoluteMagnitude": 9.318405,
+        "Age_MY": 9038,
+        "SurfaceTemperature": 2803.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 174894.243323,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa OJ-V c17-0 D A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 75524000000000.0,
+            "InnerRad": 575170000.0,
+            "OuterRad": 1657700000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgaa OJ-V c17-0 D 4",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 4179.461823,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.013056,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OJ-V c17-0 D 1",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 4320.316877,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.004493,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OJ-V c17-0 D 3",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 4221.863113,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002143,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OJ-V c17-0 D 2",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 4276.33557,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002015,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OJ-V c17-0 D 5",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 4194.139904,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.010324,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OJ-V c17-0 D 5 a",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 4194.072041,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000295,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OJ-V c17-0 D 6",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 4322.785966,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00623,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa OJ-V c17-0 D 7",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 4512.246061,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "",
+        "MassEM": 0.004126,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Tyriedgaa OJ-V c17-0 D 7",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 4
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Tyriedgaa OJ-V c17-0 D 7"
+  ],
+  "codex_entries": []
 }

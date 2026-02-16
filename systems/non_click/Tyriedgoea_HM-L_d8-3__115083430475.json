@@ -1,53 +1,208 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.592472+00:00",
+    "log_files": [
+      "Journal.2026-02-09T151317.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgoea HM-L d8-3",
+    "address": 115083430475,
+    "star_pos": [
+      7221.1875,
+      576.53125,
+      2228.34375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-09T151317.01.log"
-      ],
-      "first_seen_utc": "2026-02-09T14:48:23Z",
-      "last_seen_utc": "2026-02-09T14:51:34Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-09T14:48:23+00:00",
+    "last_seen_utc": "2026-02-09T14:52:26+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 9,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 9,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 8,
+      "n_landables": 2,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 10,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 9,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 2,
+      "n_terraformables": 1,
       "planet_classes": [
         "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 1
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "A"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.229059Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgoea HM-L d8-3",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "A",
+    "Subclass": 8,
+    "StellarMass": 1.746094,
+    "Radius": 1080287488.0,
+    "AbsoluteMagnitude": 2.475357,
+    "Age_MY": 422,
+    "SurfaceTemperature": 7972.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 58819.862127,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 115083430475,
-    "name": "Tyriedgoea HM-L d8-3",
-    "star_pos": [
-      7221.1875,
-      576.53125,
-      2228.34375
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgoea HM-L d8-3",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "A",
+        "Subclass": 8,
+        "StellarMass": 1.746094,
+        "Radius": 1080287488.0,
+        "AbsoluteMagnitude": 2.475357,
+        "Age_MY": 422,
+        "SurfaceTemperature": 7972.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 58819.862127,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgoea HM-L d8-3 3",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 555.571708,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.338796,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea HM-L d8-3 5",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1492.866407,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.818908,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea HM-L d8-3 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 298.715744,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.247025,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea HM-L d8-3 4",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 1074.744866,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.554323,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea HM-L d8-3 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 399.066032,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.21494,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea HM-L d8-3 7",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 3517.598322,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.244684,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea HM-L d8-3 6",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 3521.609919,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxideRich",
+        "Volcanism": "",
+        "MassEM": 0.32326,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea HM-L d8-3 8",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 4850.606185,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.470536,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [
+    "Tyriedgoea HM-L d8-3 5"
+  ],
+  "codex_entries": []
 }

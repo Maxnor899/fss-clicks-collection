@@ -1,57 +1,268 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.559452+00:00",
+    "log_files": [
+      "Journal.2026-02-06T211411.01.log"
+    ]
+  },
+  "system": {
+    "name": "Praea Eurl FR-C d13-1",
+    "address": 46699497971,
+    "star_pos": [
+      8843.0625,
+      558.5,
+      1354.03125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-06T211411.01.log",
-        "Journal.2026-02-07T205128.01.log"
-      ],
-      "first_seen_utc": "2026-02-06T21:16:08Z",
-      "last_seen_utc": "2026-02-07T19:52:17Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-06T21:16:08+00:00",
+    "last_seen_utc": "2026-02-07T19:55:28+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 13,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 13,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 12,
+      "n_landables": 1,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 15,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 14,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 2,
+      "n_terraformables": 1,
       "planet_classes": [
         "Ammonia world",
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky ice body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 2
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "G"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.208693Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Praea Eurl FR-C d13-1",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "G",
+    "Subclass": 4,
+    "StellarMass": 0.96875,
+    "Radius": 691509696.0,
+    "AbsoluteMagnitude": 4.96611,
+    "Age_MY": 8956,
+    "SurfaceTemperature": 5616.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 375019.947585,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 46699497971,
-    "name": "Praea Eurl FR-C d13-1",
-    "star_pos": [
-      8843.0625,
-      558.5,
-      1354.03125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Praea Eurl FR-C d13-1",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 4,
+        "StellarMass": 0.96875,
+        "Radius": 691509696.0,
+        "AbsoluteMagnitude": 4.96611,
+        "Age_MY": 8956,
+        "SurfaceTemperature": 5616.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 375019.947585,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Praea Eurl FR-C d13-1 9",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 4460.961744,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 1.030263,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl FR-C d13-1 10",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 4457.86756,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.835592,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl FR-C d13-1 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 711.809267,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.290311,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl FR-C d13-1 5",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1800.136002,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.318268,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl FR-C d13-1 4",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1802.463055,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.325557,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl FR-C d13-1 3",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 1308.053764,
+        "PlanetClass": "Ammonia world",
+        "TerraformState": "",
+        "AtmosphereType": "AmmoniaOxygen",
+        "Volcanism": "",
+        "MassEM": 0.3037,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl FR-C d13-1 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 973.284806,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxideRich",
+        "Volcanism": "",
+        "MassEM": 0.362683,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl FR-C d13-1 7",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 3336.943471,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.523883,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl FR-C d13-1 8",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 3327.747461,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.261624,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl FR-C d13-1 6",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 2406.822567,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "",
+        "MassEM": 0.684238,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl FR-C d13-1 6 a",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 2408.941566,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.02579,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Praea Eurl FR-C d13-1 11",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 5833.767474,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.893012,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [
+    "Praea Eurl FR-C d13-1 1",
+    "Praea Eurl FR-C d13-1 3"
+  ],
+  "codex_entries": []
 }

@@ -1,54 +1,165 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.596694+00:00",
+    "log_files": [
+      "Journal.2026-02-09T174314.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgoea CT-W c16-0",
+    "address": 95060137106,
+    "star_pos": [
+      6666.15625,
+      529.8125,
+      2224.25
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-09T174314.01.log"
-      ],
-      "first_seen_utc": "2026-02-09T17:22:41Z",
-      "last_seen_utc": "2026-02-09T17:23:32Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-09T17:22:41+00:00",
+    "last_seen_utc": "2026-02-09T17:24:33+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 6,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 6,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 5,
+      "n_landables": 0,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 6,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 5,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
-        "Icy body"
+        "Icy body",
+        "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.231185Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgoea CT-W c16-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 7,
+    "StellarMass": 0.664063,
+    "Radius": 501312672.0,
+    "AbsoluteMagnitude": 7.064423,
+    "Age_MY": 6374,
+    "SurfaceTemperature": 4069.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 229697.690298,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 95060137106,
-    "name": "Tyriedgoea CT-W c16-0",
-    "star_pos": [
-      6666.15625,
-      529.8125,
-      2224.25
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgoea CT-W c16-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 7,
+        "StellarMass": 0.664063,
+        "Radius": 501312672.0,
+        "AbsoluteMagnitude": 7.064423,
+        "Age_MY": 6374,
+        "SurfaceTemperature": 4069.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 229697.690298,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgoea CT-W c16-0 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 344.416772,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "minor silicate vapour geysers volcanism",
+        "MassEM": 1.897756,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea CT-W c16-0 5",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1911.659729,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.410257,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea CT-W c16-0 4",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1912.303741,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.554643,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea CT-W c16-0 3",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 1299.463529,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.650839,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea CT-W c16-0 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 578.541521,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Water",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.365819,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

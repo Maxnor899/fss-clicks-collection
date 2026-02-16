@@ -1,32 +1,40 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.531666+00:00",
+    "log_files": [
+      "Journal.2026-02-04T160325.01.log"
+    ]
+  },
+  "system": {
+    "name": "Wregeia LN-D c27-1",
+    "address": 371615797994,
+    "star_pos": [
+      7664.34375,
+      551.0625,
+      115.5
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-04T160325.01.log"
-      ],
-      "first_seen_utc": "2026-02-04T15:15:03Z",
-      "last_seen_utc": "2026-02-04T15:20:08Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-04T15:15:03+00:00",
+    "last_seen_utc": "2026-02-04T15:21:46+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 20,
       "fss_nonbodycount": 11,
+      "n_bodies_scanned": 20,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": 17,
+      "n_landables": 16,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 20,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 17,
-      "n_ringed_bodies": 3,
       "n_terraformables": 0,
       "planet_classes": [
         "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 3,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 3,
@@ -35,21 +43,385 @@
         "M",
         "T"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_bio_signals": 0,
+      "n_geo_signals": 9,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.194594Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 371615797994,
-    "name": "Wregeia LN-D c27-1",
-    "star_pos": [
-      7664.34375,
-      551.0625,
-      115.5
+  "primary_star": {
+    "BodyName": "Wregeia LN-D c27-1 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 7,
+    "StellarMass": 0.597656,
+    "Radius": 473656512.0,
+    "AbsoluteMagnitude": 7.135681,
+    "Age_MY": 9798,
+    "SurfaceTemperature": 4118.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 231774.194439,
+    "Rings": [
+      {
+        "Name": "Wregeia LN-D c27-1 A A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 114120000000000.0,
+        "InnerRad": 781530000.0,
+        "OuterRad": 2148800000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Wregeia LN-D c27-1 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 7,
+        "StellarMass": 0.597656,
+        "Radius": 473656512.0,
+        "AbsoluteMagnitude": 7.135681,
+        "Age_MY": 9798,
+        "SurfaceTemperature": 4118.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 231774.194439,
+        "Rings": [
+          {
+            "Name": "Wregeia LN-D c27-1 A A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 114120000000000.0,
+            "InnerRad": 781530000.0,
+            "OuterRad": 2148800000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 3021.624482,
+        "StarType": "M",
+        "Subclass": 4,
+        "StellarMass": 0.335938,
+        "Radius": 317016224.0,
+        "AbsoluteMagnitude": 9.459717,
+        "Age_MY": 9798,
+        "SurfaceTemperature": 2948.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 133790.217242,
+        "Rings": [
+          {
+            "Name": "Wregeia LN-D c27-1 B A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 75213000000000.0,
+            "InnerRad": 500340000.0,
+            "OuterRad": 1677500000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 3243.626149,
+        "StarType": "T",
+        "Subclass": 5,
+        "StellarMass": 0.070313,
+        "Radius": 133717336.0,
+        "AbsoluteMagnitude": 16.101135,
+        "Age_MY": 9798,
+        "SurfaceTemperature": 984.0,
+        "Luminosity": "V",
+        "RotationPeriod": 50618.307765,
+        "Rings": [
+          {
+            "Name": "Wregeia LN-D c27-1 C A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 17349000000000.0,
+            "InnerRad": 257670000.0,
+            "OuterRad": 995970000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Wregeia LN-D c27-1 A 1",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 26.094164,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.106472,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 A 2",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 26.094255,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.085472,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 A 7",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 116.26016,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.291553,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 C 1",
+        "BodyID": 34,
+        "DistanceFromArrivalLS": 3244.721058,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.001164,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 C 3",
+        "BodyID": 36,
+        "DistanceFromArrivalLS": 3251.290297,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000853,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 C 2",
+        "BodyID": 35,
+        "DistanceFromArrivalLS": 3236.774988,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001141,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 C 4",
+        "BodyID": 37,
+        "DistanceFromArrivalLS": 3230.842594,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000568,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 B 5",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 3014.914028,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.021552,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 B 6",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 3014.929016,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.016414,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 B 3",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 3031.621436,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.027701,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 B 2",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 3015.527951,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.030097,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 B 1",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 3026.19659,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 0.064861,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 B 4",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 3024.626837,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.019285,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 A 4",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 49.036808,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.074773,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 A 3",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 36.894573,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.103163,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 A 5",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 62.347064,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.068183,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Wregeia LN-D c27-1 A 6",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 80.577841,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.28802,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Wregeia LN-D c27-1 C 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Wregeia LN-D c27-1 B 2",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Wregeia LN-D c27-1 B 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

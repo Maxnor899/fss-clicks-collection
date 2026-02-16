@@ -1,54 +1,155 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-16T151444.01.log"
-      ],
-      "first_seen_utc": "2026-02-16T14:18:26Z",
-      "last_seen_utc": "2026-02-16T14:18:32Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 10,
-      "fss_nonbodycount": 3,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 4,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 4,
-      "types": [
-        "L",
-        "M_RedGiant",
-        "T",
-        "Y"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.289029Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.682242+00:00",
+    "log_files": [
+      "Journal.2026-02-16T151444.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 766517651585,
     "name": "Tyriedgoea TK-Y b14-0",
+    "address": 766517651585,
     "star_pos": [
       7115.875,
       54.46875,
       1816.1875
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-16T14:18:26+00:00",
+    "last_seen_utc": "2026-02-16T14:19:28+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 10,
+      "fss_nonbodycount": 3,
+      "n_bodies_scanned": 4,
+      "n_stars_scanned": 4,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 4,
+      "types": [
+        "L",
+        "T",
+        "M_RedGiant",
+        "Y"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Tyriedgoea TK-Y b14-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M_RedGiant",
+    "Subclass": 8,
+    "StellarMass": 0.269531,
+    "Radius": 319350944.0,
+    "AbsoluteMagnitude": 10.45459,
+    "Age_MY": 12890,
+    "SurfaceTemperature": 2336.0,
+    "Luminosity": "IVb",
+    "RotationPeriod": 152452.706712,
+    "Rings": [
+      {
+        "Name": "Tyriedgoea TK-Y b14-0 A A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 54838000000000.0,
+        "InnerRad": 627890000.0,
+        "OuterRad": 1558700000.0
+      }
+    ]
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgoea TK-Y b14-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M_RedGiant",
+        "Subclass": 8,
+        "StellarMass": 0.269531,
+        "Radius": 319350944.0,
+        "AbsoluteMagnitude": 10.45459,
+        "Age_MY": 12890,
+        "SurfaceTemperature": 2336.0,
+        "Luminosity": "IVb",
+        "RotationPeriod": 152452.706712,
+        "Rings": [
+          {
+            "Name": "Tyriedgoea TK-Y b14-0 A A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 54838000000000.0,
+            "InnerRad": 627890000.0,
+            "OuterRad": 1558700000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Tyriedgoea TK-Y b14-0 D",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 769.728808,
+        "StarType": "Y",
+        "Subclass": 0,
+        "StellarMass": 0.03125,
+        "Radius": 76579712.0,
+        "AbsoluteMagnitude": 18.953659,
+        "Age_MY": 12890,
+        "SurfaceTemperature": 643.0,
+        "Luminosity": "V",
+        "RotationPeriod": 37653.444416,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgoea TK-Y b14-0 B",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 644.446029,
+        "StarType": "L",
+        "Subclass": 3,
+        "StellarMass": 0.152344,
+        "Radius": 227149680.0,
+        "AbsoluteMagnitude": 12.421997,
+        "Age_MY": 12890,
+        "SurfaceTemperature": 1761.0,
+        "Luminosity": "V",
+        "RotationPeriod": 89902.575654,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgoea TK-Y b14-0 C",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 647.080213,
+        "StarType": "T",
+        "Subclass": 9,
+        "StellarMass": 0.03125,
+        "Radius": 84751320.0,
+        "AbsoluteMagnitude": 18.796616,
+        "Age_MY": 12890,
+        "SurfaceTemperature": 704.0,
+        "Luminosity": "V",
+        "RotationPeriod": 53817.745382,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

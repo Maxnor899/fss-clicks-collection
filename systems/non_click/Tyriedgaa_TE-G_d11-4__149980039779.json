@@ -1,56 +1,434 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.571825+00:00",
+    "log_files": [
+      "Journal.2026-02-08T155743.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgaa TE-G d11-4",
+    "address": 149980039779,
+    "star_pos": [
+      9835.5,
+      594.9375,
+      2470.4375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T155743.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T15:02:20Z",
-      "last_seen_utc": "2026-02-08T15:06:29Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-08T15:02:20+00:00",
+    "last_seen_utc": "2026-02-08T15:07:16+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 20,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 20,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 19,
+      "n_landables": 13,
       "has_gas_giant": true,
       "has_ringed_body": true,
-      "n_bodies_scanned": 21,
-      "n_gas_giants": 2,
-      "n_planets_scanned": 20,
-      "n_ringed_bodies": 3,
-      "n_terraformables": 2,
+      "n_terraformables": 1,
       "planet_classes": [
-        "High metal content body",
+        "Sudarsky class I gas giant",
         "Icy body",
-        "Rocky body",
-        "Sudarsky class I gas giant"
+        "High metal content body",
+        "Rocky body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 3,
-      "n_saa_mappings": 1
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "F"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_bio_signals": 0,
+      "n_geo_signals": 7,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.217154Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgaa TE-G d11-4",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "F",
+    "Subclass": 6,
+    "StellarMass": 1.222656,
+    "Radius": 823359232.0,
+    "AbsoluteMagnitude": 3.962006,
+    "Age_MY": 2758,
+    "SurfaceTemperature": 6485.0,
+    "Luminosity": "Vb",
+    "RotationPeriod": 400571.200066,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 149980039779,
-    "name": "Tyriedgaa TE-G d11-4",
-    "star_pos": [
-      9835.5,
-      594.9375,
-      2470.4375
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "F",
+        "Subclass": 6,
+        "StellarMass": 1.222656,
+        "Radius": 823359232.0,
+        "AbsoluteMagnitude": 3.962006,
+        "Age_MY": 2758,
+        "SurfaceTemperature": 6485.0,
+        "Luminosity": "Vb",
+        "RotationPeriod": 400571.200066,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 6 a",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 4395.987043,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000724,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 6",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 4398.26232,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 22.566551,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa TE-G d11-4 6 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 30666000000.0,
+            "InnerRad": 30634000.0,
+            "OuterRad": 43769000.0
+          },
+          {
+            "Name": "Tyriedgaa TE-G d11-4 6 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 243580000000.0,
+            "InnerRad": 43869000.0,
+            "OuterRad": 98378000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 6 b",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 4401.377058,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000464,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 6 d",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 4402.99172,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000455,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 6 c",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 4402.966769,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000476,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 6 e",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 4388.335504,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001863,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 6 f",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 4411.070661,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001115,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 557.344316,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "metallic magma volcanism",
+        "MassEM": 2.869116,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 3",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 736.835964,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 2.392811,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 5",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 2987.653497,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 11.171158,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa TE-G d11-4 5 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 8585400000.0,
+            "InnerRad": 59985000.0,
+            "OuterRad": 62273000.0
+          },
+          {
+            "Name": "Tyriedgaa TE-G d11-4 5 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 98198000000.0,
+            "InnerRad": 62373000.0,
+            "OuterRad": 84124000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 5 a",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 2988.079039,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000902,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 5 b",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 2987.123601,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.001016,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 4 e",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 3039.915999,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000954,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 4 d",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 3035.409306,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000887,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 4 b",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 3036.579297,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000235,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 4 a",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 3038.123124,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor silicate vapour geysers volcanism",
+        "MassEM": 0.000786,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 395.368226,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 2.426369,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 4",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 3038.001433,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 217.338089,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa TE-G d11-4 4 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 873030000000.0,
+            "InnerRad": 124900000.0,
+            "OuterRad": 209310000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa TE-G d11-4 4 c",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 3040.54136,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000942,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Tyriedgaa TE-G d11-4 5 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa TE-G d11-4 5 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa TE-G d11-4 4 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Tyriedgaa TE-G d11-4 3"
+  ],
+  "codex_entries": []
 }

@@ -1,53 +1,138 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T222850.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T21:58:29Z",
-      "last_seen_utc": "2026-02-08T21:58:35Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 4,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 4,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 3,
-      "types": [
-        "F",
-        "K",
-        "L"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.221316Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.581205+00:00",
+    "log_files": [
+      "Journal.2026-02-08T222850.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 12356536923,
     "name": "Tyriedgaa EY-H d10-0",
+    "address": 12356536923,
     "star_pos": [
       8902.09375,
       540.6875,
       2384.1875
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-08T21:58:29+00:00",
+    "last_seen_utc": "2026-02-08T21:59:45+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 4,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 4,
+      "n_stars_scanned": 4,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 4,
+      "types": [
+        "F",
+        "L",
+        "K"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Tyriedgaa EY-H d10-0 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "F",
+    "Subclass": 4,
+    "StellarMass": 1.269531,
+    "Radius": 754717632.0,
+    "AbsoluteMagnitude": 3.892975,
+    "Age_MY": 1458,
+    "SurfaceTemperature": 6882.0,
+    "Luminosity": "VI",
+    "RotationPeriod": 420677.921793,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa EY-H d10-0 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "F",
+        "Subclass": 4,
+        "StellarMass": 1.269531,
+        "Radius": 754717632.0,
+        "AbsoluteMagnitude": 3.892975,
+        "Age_MY": 1458,
+        "SurfaceTemperature": 6882.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 420677.921793,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa EY-H d10-0 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 23386.487957,
+        "StarType": "K",
+        "Subclass": 4,
+        "StellarMass": 0.789063,
+        "Radius": 619111232.0,
+        "AbsoluteMagnitude": 6.086426,
+        "Age_MY": 1458,
+        "SurfaceTemperature": 4586.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 364821.834647,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa EY-H d10-0 C",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 98913.511517,
+        "StarType": "K",
+        "Subclass": 6,
+        "StellarMass": 0.578125,
+        "Radius": 468138016.0,
+        "AbsoluteMagnitude": 7.012848,
+        "Age_MY": 1458,
+        "SurfaceTemperature": 4261.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 257939.445013,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa EY-H d10-0 D",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 98763.666706,
+        "StarType": "L",
+        "Subclass": 6,
+        "StellarMass": 0.144531,
+        "Radius": 195418336.0,
+        "AbsoluteMagnitude": 13.362488,
+        "Age_MY": 1458,
+        "SurfaceTemperature": 1529.0,
+        "Luminosity": "V",
+        "RotationPeriod": 90475.402425,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

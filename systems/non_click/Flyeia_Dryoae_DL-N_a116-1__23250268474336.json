@@ -1,53 +1,234 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.635817+00:00",
+    "log_files": [
+      "Journal.2026-02-13T224149.01.log"
+    ]
+  },
+  "system": {
+    "name": "Flyeia Dryoae DL-N a116-1",
+    "address": 23250268474336,
+    "star_pos": [
+      2708.4375,
+      -26.46875,
+      177.125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-13T224149.01.log"
-      ],
-      "first_seen_utc": "2026-02-13T21:59:27Z",
-      "last_seen_utc": "2026-02-13T22:00:18Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-13T21:59:27+00:00",
+    "last_seen_utc": "2026-02-13T22:01:10+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 11,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 11,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 10,
+      "n_landables": 10,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 11,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 10,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
         "Icy body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "T"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.253248Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Flyeia Dryoae DL-N a116-1",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "T",
+    "Subclass": 2,
+    "StellarMass": 0.078125,
+    "Radius": 135287984.0,
+    "AbsoluteMagnitude": 15.494064,
+    "Age_MY": 6298,
+    "SurfaceTemperature": 1125.0,
+    "Luminosity": "V",
+    "RotationPeriod": 65111.128488,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 23250268474336,
-    "name": "Flyeia Dryoae DL-N a116-1",
-    "star_pos": [
-      2708.4375,
-      -26.46875,
-      177.125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Flyeia Dryoae DL-N a116-1",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "T",
+        "Subclass": 2,
+        "StellarMass": 0.078125,
+        "Radius": 135287984.0,
+        "AbsoluteMagnitude": 15.494064,
+        "Age_MY": 6298,
+        "SurfaceTemperature": 1125.0,
+        "Luminosity": "V",
+        "RotationPeriod": 65111.128488,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Flyeia Dryoae DL-N a116-1 6",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 1682.13571,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.019659,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyeia Dryoae DL-N a116-1 7",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 2382.180419,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.020924,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyeia Dryoae DL-N a116-1 9",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 5531.940522,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.042532,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyeia Dryoae DL-N a116-1 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 475.294979,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.092847,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyeia Dryoae DL-N a116-1 1 a",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 474.436146,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.003064,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyeia Dryoae DL-N a116-1 4",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1230.215227,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.041407,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyeia Dryoae DL-N a116-1 5",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 1233.507712,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.027995,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyeia Dryoae DL-N a116-1 3",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 900.170548,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.017431,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyeia Dryoae DL-N a116-1 2",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 673.958406,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.037607,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyeia Dryoae DL-N a116-1 8",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 3031.558197,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.029338,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

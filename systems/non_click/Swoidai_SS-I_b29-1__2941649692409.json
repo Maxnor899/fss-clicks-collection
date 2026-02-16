@@ -1,54 +1,262 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.617811+00:00",
+    "log_files": [
+      "Journal.2026-02-11T105854.01.log"
+    ]
+  },
+  "system": {
+    "name": "Swoidai SS-I b29-1",
+    "address": 2941649692409,
+    "star_pos": [
+      5346.96875,
+      -99.96875,
+      835.59375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T105854.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T10:41:52Z",
-      "last_seen_utc": "2026-02-11T10:44:51Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-11T10:41:52+00:00",
+    "last_seen_utc": "2026-02-11T10:56:47+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 9,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 9,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 8,
+      "n_landables": 7,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 10,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 9,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
         "Icy body",
         "Rocky ice body"
       ]
     },
-    "signals": {
-      "n_fss_body_signals_events": 4,
-      "n_saa_mappings": 1
-    },
     "stars": {
       "n_stars": 1,
       "types": [
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 4,
+      "n_bio_signals": 7,
+      "n_geo_signals": 2,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 1
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.243506Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Swoidai SS-I b29-1",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 6,
+    "StellarMass": 0.261719,
+    "Radius": 283268512.0,
+    "AbsoluteMagnitude": 10.175323,
+    "Age_MY": 6714,
+    "SurfaceTemperature": 2645.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 135373.358528,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 2941649692409,
-    "name": "Swoidai SS-I b29-1",
-    "star_pos": [
-      5346.96875,
-      -99.96875,
-      835.59375
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Swoidai SS-I b29-1",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 6,
+        "StellarMass": 0.261719,
+        "Radius": 283268512.0,
+        "AbsoluteMagnitude": 10.175323,
+        "Age_MY": 6714,
+        "SurfaceTemperature": 2645.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 135373.358528,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Swoidai SS-I b29-1 5",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1030.717907,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.349965,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai SS-I b29-1 7",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 1770.995395,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "minor nitrogen magma volcanism",
+        "MassEM": 0.271636,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai SS-I b29-1 6",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 1341.574587,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.196264,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai SS-I b29-1 3",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 564.820243,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.092808,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai SS-I b29-1 3 a",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 564.207119,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.008112,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai SS-I b29-1 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 342.999056,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.045513,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai SS-I b29-1 4",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 728.099655,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.223959,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai SS-I b29-1 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 443.468478,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.0309,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Swoidai SS-I b29-1 5",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoidai SS-I b29-1 7",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        },
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoidai SS-I b29-1 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 4
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoidai SS-I b29-1 4",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Swoidai SS-I b29-1 1"
+  ],
+  "codex_entries": [
+    {
+      "Name": "Fungoida Bullarum - Rouge",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    }
+  ]
 }

@@ -1,30 +1,38 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.664413+00:00",
+    "log_files": [
+      "Journal.2026-02-15T071238.01.log"
+    ]
+  },
+  "system": {
+    "name": "Sifaea TL-E b41-0",
+    "address": 749875832673,
+    "star_pos": [
+      5876.34375,
+      400.34375,
+      1095.9375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-15T071238.01.log"
-      ],
-      "first_seen_utc": "2026-02-15T06:38:27Z",
-      "last_seen_utc": "2026-02-15T06:38:33Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-15T06:38:27+00:00",
+    "last_seen_utc": "2026-02-15T06:39:50+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 7,
       "fss_nonbodycount": 5,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -32,21 +40,76 @@
         "L",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.275502Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Sifaea TL-E b41-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 3,
+    "StellarMass": 0.410156,
+    "Radius": 389393376.0,
+    "AbsoluteMagnitude": 8.86676,
+    "Age_MY": 11702,
+    "SurfaceTemperature": 3049.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 264620.439538,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 749875832673,
-    "name": "Sifaea TL-E b41-0",
-    "star_pos": [
-      5876.34375,
-      400.34375,
-      1095.9375
-    ]
-  }
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Sifaea TL-E b41-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 3,
+        "StellarMass": 0.410156,
+        "Radius": 389393376.0,
+        "AbsoluteMagnitude": 8.86676,
+        "Age_MY": 11702,
+        "SurfaceTemperature": 3049.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 264620.439538,
+        "Rings": null
+      },
+      {
+        "BodyName": "Sifaea TL-E b41-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 9257.981984,
+        "StarType": "L",
+        "Subclass": 1,
+        "StellarMass": 0.191406,
+        "Radius": 241158144.0,
+        "AbsoluteMagnitude": 11.962036,
+        "Age_MY": 11702,
+        "SurfaceTemperature": 1900.0,
+        "Luminosity": "V",
+        "RotationPeriod": 161116.72533,
+        "Rings": [
+          {
+            "Name": "Sifaea TL-E b41-0 B A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 53445000000000.0,
+            "InnerRad": 480650000.0,
+            "OuterRad": 1390700000.0
+          }
+        ]
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

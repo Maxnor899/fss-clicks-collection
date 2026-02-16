@@ -1,56 +1,630 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.621981+00:00",
+    "log_files": [
+      "Journal.2026-02-11T134714.01.log"
+    ]
+  },
+  "system": {
+    "name": "Prua Dryou IX-N c9-16",
+    "address": 4490019115858,
+    "star_pos": [
+      4822.75,
+      -109.5625,
+      648.8125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T134714.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T13:43:13Z",
-      "last_seen_utc": "2026-02-11T13:50:48Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-11T13:43:13+00:00",
+    "last_seen_utc": "2026-02-11T13:51:35+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 26,
       "fss_nonbodycount": 10,
+      "n_bodies_scanned": 26,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 25,
+      "n_landables": 17,
       "has_gas_giant": true,
       "has_ringed_body": true,
-      "n_bodies_scanned": 28,
-      "n_gas_giants": 2,
-      "n_planets_scanned": 27,
-      "n_ringed_bodies": 5,
-      "n_terraformables": 2,
+      "n_terraformables": 1,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
-        "Rocky body",
-        "Sudarsky class III gas giant"
+        "High metal content body",
+        "Sudarsky class III gas giant",
+        "Rocky body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 11,
-      "n_saa_mappings": 2
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 11,
+      "n_bio_signals": 5,
+      "n_geo_signals": 19,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.246122Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 4490019115858,
-    "name": "Prua Dryou IX-N c9-16",
-    "star_pos": [
-      4822.75,
-      -109.5625,
-      648.8125
+  "primary_star": {
+    "BodyName": "Prua Dryou IX-N c9-16",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 8,
+    "StellarMass": 0.59375,
+    "Radius": 460284800.0,
+    "AbsoluteMagnitude": 7.480057,
+    "Age_MY": 3526,
+    "SurfaceTemperature": 3859.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 212039.502098,
+    "Rings": [
+      {
+        "Name": "Prua Dryou IX-N c9-16 A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 16119000000000.0,
+        "InnerRad": 759470000.0,
+        "OuterRad": 2138200000.0
+      },
+      {
+        "Name": "Prua Dryou IX-N c9-16 B Belt",
+        "RingClass": "eRingClass_Metalic",
+        "MassMT": 1.205e+16,
+        "InnerRad": 62838000000.0,
+        "OuterRad": 158180000000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Prua Dryou IX-N c9-16",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 8,
+        "StellarMass": 0.59375,
+        "Radius": 460284800.0,
+        "AbsoluteMagnitude": 7.480057,
+        "Age_MY": 3526,
+        "SurfaceTemperature": 3859.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 212039.502098,
+        "Rings": [
+          {
+            "Name": "Prua Dryou IX-N c9-16 A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 16119000000000.0,
+            "InnerRad": 759470000.0,
+            "OuterRad": 2138200000.0
+          },
+          {
+            "Name": "Prua Dryou IX-N c9-16 B Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 1.205e+16,
+            "InnerRad": 62838000000.0,
+            "OuterRad": 158180000000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 22.69971,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.061635,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 6",
+        "BodyID": 38,
+        "DistanceFromArrivalLS": 1428.845388,
+        "PlanetClass": "Sudarsky class III gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 1117.110962,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Prua Dryou IX-N c9-16 6 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 3611500000000.0,
+            "InnerRad": 119590000.0,
+            "OuterRad": 361220000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 6 c",
+        "BodyID": 42,
+        "DistanceFromArrivalLS": 1426.365142,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 0.001629,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 6 b",
+        "BodyID": 41,
+        "DistanceFromArrivalLS": 1430.848876,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.002478,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 6 a",
+        "BodyID": 40,
+        "DistanceFromArrivalLS": 1429.654082,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.001711,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 6 d",
+        "BodyID": 43,
+        "DistanceFromArrivalLS": 1426.835331,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.017449,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 6 e a",
+        "BodyID": 45,
+        "DistanceFromArrivalLS": 1426.941531,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000905,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 6 e",
+        "BodyID": 44,
+        "DistanceFromArrivalLS": 1426.91485,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.020366,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 6 f",
+        "BodyID": 46,
+        "DistanceFromArrivalLS": 1418.444303,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.010468,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 6 g",
+        "BodyID": 49,
+        "DistanceFromArrivalLS": 1421.831727,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.067852,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 8",
+        "BodyID": 80,
+        "DistanceFromArrivalLS": 2745.409001,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 3.768152,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Prua Dryou IX-N c9-16 8 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 2085300.0,
+            "InnerRad": 18852000.0,
+            "OuterRad": 57710000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 2",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 42.009776,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.039658,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 4",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 124.639673,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.734838,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 7 a",
+        "BodyID": 74,
+        "DistanceFromArrivalLS": 1990.491187,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.039145,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 7",
+        "BodyID": 64,
+        "DistanceFromArrivalLS": 1999.564456,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 10.226305,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Prua Dryou IX-N c9-16 7 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 42641000000.0,
+            "InnerRad": 25292000.0,
+            "OuterRad": 79865000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 3 a",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 72.800885,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "metallic magma volcanism",
+        "MassEM": 0.056935,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 3",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 72.675877,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 1.17823,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 5",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 837.320573,
+        "PlanetClass": "Sudarsky class III gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 1299.899048,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Prua Dryou IX-N c9-16 5 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 140220000000.0,
+            "InnerRad": 152110000.0,
+            "OuterRad": 176590000.0
+          },
+          {
+            "Name": "Prua Dryou IX-N c9-16 5 B Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 1971900000000.0,
+            "InnerRad": 176690000.0,
+            "OuterRad": 379940000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 5 c",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 837.919402,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.002522,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 5 c a",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 837.922752,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 0.00017,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 5 a",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 837.50923,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "metallic magma volcanism",
+        "MassEM": 0.00105,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 5 b",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 837.445081,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 0.001188,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 5 d",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 837.79522,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.001367,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 5 e",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 841.346388,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.007408,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou IX-N c9-16 5 f",
+        "BodyID": 30,
+        "DistanceFromArrivalLS": 843.810562,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.010977,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Prua Dryou IX-N c9-16 6 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou IX-N c9-16 6 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou IX-N c9-16 6 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou IX-N c9-16 6 d",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou IX-N c9-16 6 e a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou IX-N c9-16 6 g",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou IX-N c9-16 7 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou IX-N c9-16 3 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou IX-N c9-16 5 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou IX-N c9-16 5 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou IX-N c9-16 5 d",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Prua Dryou IX-N c9-16 4",
+    "Prua Dryou IX-N c9-16 5 d"
+  ],
+  "codex_entries": []
 }

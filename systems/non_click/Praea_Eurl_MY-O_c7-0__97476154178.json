@@ -1,53 +1,134 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-05T201519.01.log"
-      ],
-      "first_seen_utc": "2026-02-05T19:20:57Z",
-      "last_seen_utc": "2026-02-05T19:21:57Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 3,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 3,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 1,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 0,
-      "planet_classes": [
-        "High metal content body"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 1,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 1,
-      "types": [
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.203833Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.552378+00:00",
+    "log_files": [
+      "Journal.2026-02-05T201519.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 97476154178,
     "name": "Praea Eurl MY-O c7-0",
+    "address": 97476154178,
     "star_pos": [
       8100.15625,
       616.09375,
       540.15625
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-05T19:20:57+00:00",
+    "last_seen_utc": "2026-02-05T19:22:55+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 3,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 3,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 1,
+      "n_landables": 1,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body"
+      ]
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_bio_signals": 0,
+      "n_geo_signals": 3,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Praea Eurl MY-O c7-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 0,
+    "StellarMass": 0.566406,
+    "Radius": 463107744.0,
+    "AbsoluteMagnitude": 7.689667,
+    "Age_MY": 11262,
+    "SurfaceTemperature": 3666.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 255725.585758,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Praea Eurl MY-O c7-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 0,
+        "StellarMass": 0.566406,
+        "Radius": 463107744.0,
+        "AbsoluteMagnitude": 7.689667,
+        "Age_MY": 11262,
+        "SurfaceTemperature": 3666.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 255725.585758,
+        "Rings": null
+      },
+      {
+        "BodyName": "Praea Eurl MY-O c7-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 45829.206269,
+        "StarType": "M",
+        "Subclass": 7,
+        "StellarMass": 0.226563,
+        "Radius": 272443776.0,
+        "AbsoluteMagnitude": 10.624664,
+        "Age_MY": 11262,
+        "SurfaceTemperature": 2432.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 117156.545201,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Praea Eurl MY-O c7-0 B 1",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 47372.666302,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 2.775321,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Praea Eurl MY-O c7-0 B 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

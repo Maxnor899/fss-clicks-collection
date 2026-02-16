@@ -1,51 +1,114 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-10T202414.01.log"
-      ],
-      "first_seen_utc": "2026-02-10T20:09:49Z",
-      "last_seen_utc": "2026-02-10T20:09:57Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 14,
-      "fss_nonbodycount": 4,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 1,
-      "types": [
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.236136Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.606665+00:00",
+    "log_files": [
+      "Journal.2026-02-10T202414.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 742628337905,
     "name": "Blo Thae GW-D b28-0",
+    "address": 742628337905,
     "star_pos": [
       5339.75,
       481.4375,
       2099.09375
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-10T20:09:49+00:00",
+    "last_seen_utc": "2026-02-10T20:11:12+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 14,
+      "fss_nonbodycount": 4,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Blo Thae GW-D b28-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 3,
+    "StellarMass": 0.417969,
+    "Radius": 368338208.0,
+    "AbsoluteMagnitude": 8.859726,
+    "Age_MY": 8240,
+    "SurfaceTemperature": 3140.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 206122.484346,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Blo Thae GW-D b28-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 3,
+        "StellarMass": 0.417969,
+        "Radius": 368338208.0,
+        "AbsoluteMagnitude": 8.859726,
+        "Age_MY": 8240,
+        "SurfaceTemperature": 3140.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 206122.484346,
+        "Rings": null
+      },
+      {
+        "BodyName": "Blo Thae GW-D b28-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 276946.810846,
+        "StarType": "M",
+        "Subclass": 9,
+        "StellarMass": 0.21875,
+        "Radius": 270024096.0,
+        "AbsoluteMagnitude": 11.181442,
+        "Age_MY": 8240,
+        "SurfaceTemperature": 2149.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 136995.219851,
+        "Rings": [
+          {
+            "Name": "Blo Thae GW-D b28-0 B A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 57286000000000.0,
+            "InnerRad": 530810000.0,
+            "OuterRad": 1454000000.0
+          }
+        ]
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

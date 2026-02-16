@@ -1,53 +1,138 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.654192+00:00",
+    "log_files": [
+      "Journal.2026-02-14T205220.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploea Eur FG-I c24-6",
+    "address": 1741710267090,
+    "star_pos": [
+      5121.625,
+      442.84375,
+      -2.28125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-14T205220.01.log"
-      ],
-      "first_seen_utc": "2026-02-14T20:57:23Z",
-      "last_seen_utc": "2026-02-14T20:57:55Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-14T20:57:23+00:00",
+    "last_seen_utc": "2026-02-14T20:58:34+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 37,
       "fss_nonbodycount": 3,
+      "n_bodies_scanned": 3,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 2,
+      "n_landables": 2,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 3,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 2,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": [
         "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.266378Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 1741710267090,
-    "name": "Ploea Eur FG-I c24-6",
-    "star_pos": [
-      5121.625,
-      442.84375,
-      -2.28125
+  "primary_star": {
+    "BodyName": "Ploea Eur FG-I c24-6",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 3,
+    "StellarMass": 0.792969,
+    "Radius": 593131904.0,
+    "AbsoluteMagnitude": 6.066422,
+    "Age_MY": 2120,
+    "SurfaceTemperature": 4707.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 252080.413381,
+    "Rings": [
+      {
+        "Name": "Ploea Eur FG-I c24-6 A Belt",
+        "RingClass": "eRingClass_Metalic",
+        "MassMT": 1803800000000.0,
+        "InnerRad": 957050000.0,
+        "OuterRad": 2233500000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploea Eur FG-I c24-6",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 3,
+        "StellarMass": 0.792969,
+        "Radius": 593131904.0,
+        "AbsoluteMagnitude": 6.066422,
+        "Age_MY": 2120,
+        "SurfaceTemperature": 4707.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 252080.413381,
+        "Rings": [
+          {
+            "Name": "Ploea Eur FG-I c24-6 A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 1803800000000.0,
+            "InnerRad": 957050000.0,
+            "OuterRad": 2233500000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploea Eur FG-I c24-6 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 19.911449,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.006309,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploea Eur FG-I c24-6 2",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 33.854644,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.098072,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

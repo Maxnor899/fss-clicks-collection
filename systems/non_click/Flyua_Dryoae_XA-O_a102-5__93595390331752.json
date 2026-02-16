@@ -1,53 +1,228 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.638289+00:00",
+    "log_files": [
+      "Journal.2026-02-13T224149.01.log"
+    ]
+  },
+  "system": {
+    "name": "Flyua Dryoae XA-O a102-5",
+    "address": 93595390331752,
+    "star_pos": [
+      2486.375,
+      -30.875,
+      28.6875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-13T224149.01.log"
-      ],
-      "first_seen_utc": "2026-02-13T22:10:45Z",
-      "last_seen_utc": "2026-02-13T22:11:29Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-13T22:10:45+00:00",
+    "last_seen_utc": "2026-02-13T22:12:19+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 8,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 8,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 7,
+      "n_landables": 7,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 8,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 7,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
         "Icy body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 3,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "T"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_bio_signals": 3,
+      "n_geo_signals": 2,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.253891Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Flyua Dryoae XA-O a102-5",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "T",
+    "Subclass": 4,
+    "StellarMass": 0.066406,
+    "Radius": 140275856.0,
+    "AbsoluteMagnitude": 15.883865,
+    "Age_MY": 1312,
+    "SurfaceTemperature": 1010.0,
+    "Luminosity": "V",
+    "RotationPeriod": 91607.256415,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 93595390331752,
-    "name": "Flyua Dryoae XA-O a102-5",
-    "star_pos": [
-      2486.375,
-      -30.875,
-      28.6875
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Flyua Dryoae XA-O a102-5",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "T",
+        "Subclass": 4,
+        "StellarMass": 0.066406,
+        "Radius": 140275856.0,
+        "AbsoluteMagnitude": 15.883865,
+        "Age_MY": 1312,
+        "SurfaceTemperature": 1010.0,
+        "Luminosity": "V",
+        "RotationPeriod": 91607.256415,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Flyua Dryoae XA-O a102-5 4",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 2200.04742,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.136691,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyua Dryoae XA-O a102-5 5",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 2193.740932,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.112635,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyua Dryoae XA-O a102-5 2",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 546.431987,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.057728,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyua Dryoae XA-O a102-5 1",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 551.029092,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.316112,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyua Dryoae XA-O a102-5 6",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 3787.630948,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "minor nitrogen magma volcanism",
+        "MassEM": 0.155046,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyua Dryoae XA-O a102-5 3 a",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 760.802221,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002123,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Flyua Dryoae XA-O a102-5 3",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 761.650884,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.186375,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Flyua Dryoae XA-O a102-5 4",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Flyua Dryoae XA-O a102-5 6",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        },
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Flyua Dryoae XA-O a102-5 3",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

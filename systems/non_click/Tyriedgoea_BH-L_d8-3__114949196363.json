@@ -1,55 +1,197 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.597285+00:00",
+    "log_files": [
+      "Journal.2026-02-09T174314.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgoea BH-L d8-3",
+    "address": 114949196363,
+    "star_pos": [
+      6614.6875,
+      526.21875,
+      2235.5
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-09T174314.01.log"
-      ],
-      "first_seen_utc": "2026-02-09T17:24:33Z",
-      "last_seen_utc": "2026-02-09T17:29:52Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-09T17:24:33+00:00",
+    "last_seen_utc": "2026-02-09T17:30:37+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 8,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 8,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 7,
+      "n_landables": 0,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 10,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 9,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 4,
+      "n_terraformables": 2,
       "planet_classes": [
         "High metal content body",
         "Rocky ice body",
         "Water world"
       ]
     },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 2
-    },
     "stars": {
       "n_stars": 1,
       "types": [
         "F"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.231379Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgoea BH-L d8-3",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "F",
+    "Subclass": 1,
+    "StellarMass": 1.683594,
+    "Radius": 882216064.0,
+    "AbsoluteMagnitude": 3.307938,
+    "Age_MY": 1490,
+    "SurfaceTemperature": 7283.0,
+    "Luminosity": "Vb",
+    "RotationPeriod": 69406.464,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 114949196363,
-    "name": "Tyriedgoea BH-L d8-3",
-    "star_pos": [
-      6614.6875,
-      526.21875,
-      2235.5
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgoea BH-L d8-3",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "F",
+        "Subclass": 1,
+        "StellarMass": 1.683594,
+        "Radius": 882216064.0,
+        "AbsoluteMagnitude": 3.307938,
+        "Age_MY": 1490,
+        "SurfaceTemperature": 7283.0,
+        "Luminosity": "Vb",
+        "RotationPeriod": 69406.464,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgoea BH-L d8-3 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 503.938775,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.744656,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea BH-L d8-3 7",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 4088.26415,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.252786,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea BH-L d8-3 6",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 4094.919723,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.318051,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea BH-L d8-3 5",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 3369.684276,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.200768,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea BH-L d8-3 4",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 1281.061338,
+        "PlanetClass": "Water world",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.513643,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": true
+      },
+      {
+        "BodyName": "Tyriedgoea BH-L d8-3 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 677.72099,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.182481,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea BH-L d8-3 3",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 953.217513,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.207186,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [
+    "Tyriedgoea BH-L d8-3 3",
+    "Tyriedgoea BH-L d8-3 4"
+  ],
+  "codex_entries": []
 }

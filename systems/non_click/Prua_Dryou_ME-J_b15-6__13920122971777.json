@@ -1,56 +1,1005 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T164827.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T15:57:29Z",
-      "last_seen_utc": "2026-02-11T16:01:43Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 49,
-      "fss_nonbodycount": 6,
-      "has_gas_giant": true,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 49,
-      "n_gas_giants": 7,
-      "n_planets_scanned": 46,
-      "n_ringed_bodies": 10,
-      "n_terraformables": 0,
-      "planet_classes": [
-        "Icy body",
-        "Rocky ice body",
-        "Sudarsky class I gas giant"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 11,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 2,
-      "types": [
-        "L",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.248583Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.626874+00:00",
+    "log_files": [
+      "Journal.2026-02-11T164827.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 13920122971777,
     "name": "Prua Dryou ME-J b15-6",
+    "address": 13920122971777,
     "star_pos": [
       4107.0,
       -88.9375,
       535.84375
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-11T15:57:29+00:00",
+    "last_seen_utc": "2026-02-11T16:02:47+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 49,
+      "fss_nonbodycount": 6,
+      "n_bodies_scanned": 49,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": 46,
+      "n_landables": 22,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Sudarsky class I gas giant",
+        "Icy body",
+        "Rocky ice body"
+      ]
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "L",
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 11,
+      "n_bio_signals": 5,
+      "n_geo_signals": 16,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Prua Dryou ME-J b15-6 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 7,
+    "StellarMass": 0.28125,
+    "Radius": 319350944.0,
+    "AbsoluteMagnitude": 10.399155,
+    "Age_MY": 1784,
+    "SurfaceTemperature": 2366.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 125506.518677,
+    "Rings": [
+      {
+        "Name": "Prua Dryou ME-J b15-6 A A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 2603400000.0,
+        "InnerRad": 629030000.0,
+        "OuterRad": 1581000000.0
+      }
+    ]
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 7,
+        "StellarMass": 0.28125,
+        "Radius": 319350944.0,
+        "AbsoluteMagnitude": 10.399155,
+        "Age_MY": 1784,
+        "SurfaceTemperature": 2366.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 125506.518677,
+        "Rings": [
+          {
+            "Name": "Prua Dryou ME-J b15-6 A A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 2603400000.0,
+            "InnerRad": 629030000.0,
+            "OuterRad": 1581000000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 23754.481585,
+        "StarType": "L",
+        "Subclass": 4,
+        "StellarMass": 0.136719,
+        "Radius": 198368608.0,
+        "AbsoluteMagnitude": 12.836319,
+        "Age_MY": 1784,
+        "SurfaceTemperature": 1713.0,
+        "Luminosity": "V",
+        "RotationPeriod": 71196.327166,
+        "Rings": null
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 379201.222418,
+        "StarType": "L",
+        "Subclass": 3,
+        "StellarMass": 0.128906,
+        "Radius": 179902880.0,
+        "AbsoluteMagnitude": 13.013184,
+        "Age_MY": 1784,
+        "SurfaceTemperature": 1727.0,
+        "Luminosity": "V",
+        "RotationPeriod": 103052.726586,
+        "Rings": [
+          {
+            "Name": "Prua Dryou ME-J b15-6 C A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 113730000.0,
+            "InnerRad": 348630000.0,
+            "OuterRad": 1219000000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 1",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 156.799578,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "minor silicate vapour geysers volcanism",
+        "MassEM": 1.843836,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 6",
+        "BodyID": 30,
+        "DistanceFromArrivalLS": 1716.406987,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 4.444646,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Prua Dryou ME-J b15-6 A 6 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 3152600000.0,
+            "InnerRad": 20119000.0,
+            "OuterRad": 23240000.0
+          },
+          {
+            "Name": "Prua Dryou ME-J b15-6 A 6 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 80620000000.0,
+            "InnerRad": 23340000.0,
+            "OuterRad": 60811000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 B 5",
+        "BodyID": 37,
+        "DistanceFromArrivalLS": 23320.247891,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 0.969103,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 B 4",
+        "BodyID": 36,
+        "DistanceFromArrivalLS": 24038.528256,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 0.92531,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 B 7",
+        "BodyID": 40,
+        "DistanceFromArrivalLS": 22141.788923,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 3.755234,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 B 8",
+        "BodyID": 41,
+        "DistanceFromArrivalLS": 22152.605581,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.357751,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 B 1",
+        "BodyID": 33,
+        "DistanceFromArrivalLS": 23542.31347,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.023544,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 B 2",
+        "BodyID": 34,
+        "DistanceFromArrivalLS": 23450.493222,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.517748,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 B 3",
+        "BodyID": 35,
+        "DistanceFromArrivalLS": 24158.131573,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.494742,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 B 6",
+        "BodyID": 38,
+        "DistanceFromArrivalLS": 23371.334028,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 0.950661,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 5",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 1245.25002,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 23.82896,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Prua Dryou ME-J b15-6 A 5 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 169500000000.0,
+            "InnerRad": 68134000.0,
+            "OuterRad": 110930000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 5 b",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 1246.791675,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000239,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 5 c",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 1250.076234,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000182,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 5 a",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 1243.563449,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000273,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 2",
+        "BodyID": 48,
+        "DistanceFromArrivalLS": 379272.463406,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 11.309715,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 7",
+        "BodyID": 73,
+        "DistanceFromArrivalLS": 377838.767877,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 3.465326,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Prua Dryou ME-J b15-6 C 7 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 103370.0,
+            "InnerRad": 20211000.0,
+            "OuterRad": 52681000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 6",
+        "BodyID": 70,
+        "DistanceFromArrivalLS": 379120.215684,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 5.096195,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Prua Dryou ME-J b15-6 C 6 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 3863100000.0,
+            "InnerRad": 39432000.0,
+            "OuterRad": 41234000.0
+          },
+          {
+            "Name": "Prua Dryou ME-J b15-6 C 6 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 50206000000.0,
+            "InnerRad": 41334000.0,
+            "OuterRad": 59909000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 5",
+        "BodyID": 63,
+        "DistanceFromArrivalLS": 379117.399561,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 36.547466,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Prua Dryou ME-J b15-6 C 5 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 14347000000.0,
+            "InnerRad": 85399000.0,
+            "OuterRad": 90635000.0
+          },
+          {
+            "Name": "Prua Dryou ME-J b15-6 C 5 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 79888000000.0,
+            "InnerRad": 90735000.0,
+            "OuterRad": 115530000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 5 a",
+        "BodyID": 66,
+        "DistanceFromArrivalLS": 379117.849876,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.00132,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 5 c",
+        "BodyID": 69,
+        "DistanceFromArrivalLS": 379117.088163,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.0003,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 5 b",
+        "BodyID": 68,
+        "DistanceFromArrivalLS": 379117.096338,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000457,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 1",
+        "BodyID": 46,
+        "DistanceFromArrivalLS": 379233.060469,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 3.298606,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 1 a",
+        "BodyID": 47,
+        "DistanceFromArrivalLS": 379233.735197,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.231,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 3",
+        "BodyID": 49,
+        "DistanceFromArrivalLS": 379852.205442,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 58.341179,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Prua Dryou ME-J b15-6 C 3 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 21510000000.0,
+            "InnerRad": 101120000.0,
+            "OuterRad": 104470000.0
+          },
+          {
+            "Name": "Prua Dryou ME-J b15-6 C 3 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 228340000000.0,
+            "InnerRad": 104570000.0,
+            "OuterRad": 135020000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 3 a",
+        "BodyID": 52,
+        "DistanceFromArrivalLS": 379852.481639,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002915,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 3 d",
+        "BodyID": 55,
+        "DistanceFromArrivalLS": 379844.045301,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001524,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 3 b",
+        "BodyID": 53,
+        "DistanceFromArrivalLS": 379854.011437,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.005425,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 3 c",
+        "BodyID": 54,
+        "DistanceFromArrivalLS": 379853.584252,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002454,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 4",
+        "BodyID": 56,
+        "DistanceFromArrivalLS": 378369.371345,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 23.339069,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 4 c",
+        "BodyID": 59,
+        "DistanceFromArrivalLS": 378368.333568,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000186,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 4 a",
+        "BodyID": 57,
+        "DistanceFromArrivalLS": 378369.02475,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000838,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 4 b",
+        "BodyID": 58,
+        "DistanceFromArrivalLS": 378368.758856,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.00029,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 4 e",
+        "BodyID": 61,
+        "DistanceFromArrivalLS": 378365.52377,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000233,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 C 4 d",
+        "BodyID": 60,
+        "DistanceFromArrivalLS": 378368.898738,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000387,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 4",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 970.141939,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 47.07024,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Prua Dryou ME-J b15-6 A 4 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 253550000000.0,
+            "InnerRad": 82963000.0,
+            "OuterRad": 140140000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 4 f",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 971.824442,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.000854,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 4 a",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 970.559673,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.001145,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 4 b",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 969.4808,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.001037,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 4 c",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 971.15066,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.001104,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 4 d",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 971.655744,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000708,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 4 e",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 972.37052,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.000689,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 2",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 278.551727,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 6.537958,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 3",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 661.344603,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 115.066086,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Prua Dryou ME-J b15-6 A 3 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 73211000000.0,
+            "InnerRad": 108420000.0,
+            "OuterRad": 118680000.0
+          },
+          {
+            "Name": "Prua Dryou ME-J b15-6 A 3 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 458270000000.0,
+            "InnerRad": 118780000.0,
+            "OuterRad": 169330000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 3 a",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 660.945625,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.001729,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 3 b",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 660.834243,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.00183,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou ME-J b15-6 A 3 c",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 660.516261,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.002574,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Prua Dryou ME-J b15-6 C 5 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou ME-J b15-6 C 5 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou ME-J b15-6 C 5 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou ME-J b15-6 C 1 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou ME-J b15-6 C 4 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou ME-J b15-6 C 4 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou ME-J b15-6 A 4 f",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou ME-J b15-6 A 4 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou ME-J b15-6 A 4 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou ME-J b15-6 A 4 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou ME-J b15-6 A 4 e",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

@@ -1,31 +1,38 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.641816+00:00",
+    "log_files": [
+      "Journal.2026-02-14T071150.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploea Eurl GT-T b44-5",
+    "address": 11699625272705,
+    "star_pos": [
+      2506.21875,
+      28.6875,
+      -101.875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-14T071150.01.log",
-        "Journal.2026-02-14T205220.01.log"
-      ],
-      "first_seen_utc": "2026-02-14T06:30:41Z",
-      "last_seen_utc": "2026-02-14T19:52:56Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-14T06:30:41+00:00",
+    "last_seen_utc": "2026-02-14T19:54:29+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 17,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -33,21 +40,68 @@
         "L",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.255993Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Ploea Eurl GT-T b44-5 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 5,
+    "StellarMass": 0.28125,
+    "Radius": 313259392.0,
+    "AbsoluteMagnitude": 9.824127,
+    "Age_MY": 6438,
+    "SurfaceTemperature": 2727.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 146096.730119,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 11699625272705,
-    "name": "Ploea Eurl GT-T b44-5",
-    "star_pos": [
-      2506.21875,
-      28.6875,
-      -101.875
-    ]
-  }
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploea Eurl GT-T b44-5 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.28125,
+        "Radius": 313259392.0,
+        "AbsoluteMagnitude": 9.824127,
+        "Age_MY": 6438,
+        "SurfaceTemperature": 2727.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 146096.730119,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploea Eurl GT-T b44-5 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 13815.791733,
+        "StarType": "L",
+        "Subclass": 9,
+        "StellarMass": 0.09375,
+        "Radius": 174172144.0,
+        "AbsoluteMagnitude": 14.143723,
+        "Age_MY": 6438,
+        "SurfaceTemperature": 1353.0,
+        "Luminosity": "V",
+        "RotationPeriod": 67898.430482,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

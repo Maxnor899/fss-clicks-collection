@@ -1,54 +1,214 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.541113+00:00",
+    "log_files": [
+      "Journal.2026-02-04T212839.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploi Eurl YL-C b43-0",
+    "address": 770545886577,
+    "star_pos": [
+      7416.09375,
+      560.1875,
+      -144.1875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-04T212839.01.log"
-      ],
-      "first_seen_utc": "2026-02-04T20:30:18Z",
-      "last_seen_utc": "2026-02-04T20:31:44Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-04T20:30:18+00:00",
+    "last_seen_utc": "2026-02-04T20:32:53+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 8,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 8,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 7,
+      "n_landables": 5,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 8,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 7,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
         "Icy body",
         "Rocky ice body"
       ]
     },
-    "signals": {
-      "n_fss_body_signals_events": 2,
-      "n_saa_mappings": 0
-    },
     "stars": {
       "n_stars": 1,
       "types": [
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_bio_signals": 2,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.198833Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Ploi Eurl YL-C b43-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 5,
+    "StellarMass": 0.34375,
+    "Radius": 341021664.0,
+    "AbsoluteMagnitude": 9.454147,
+    "Age_MY": 12284,
+    "SurfaceTemperature": 2846.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 162605.73844,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 770545886577,
-    "name": "Ploi Eurl YL-C b43-0",
-    "star_pos": [
-      7416.09375,
-      560.1875,
-      -144.1875
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl YL-C b43-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.34375,
+        "Radius": 341021664.0,
+        "AbsoluteMagnitude": 9.454147,
+        "Age_MY": 12284,
+        "SurfaceTemperature": 2846.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 162605.73844,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploi Eurl YL-C b43-0 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 337.619337,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.175326,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl YL-C b43-0 6",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 3327.003789,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.17899,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl YL-C b43-0 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 630.238209,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.063771,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl YL-C b43-0 3 a",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 932.980274,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.004982,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl YL-C b43-0 3",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 931.94488,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.137724,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl YL-C b43-0 5",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 2438.562645,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.20556,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl YL-C b43-0 4",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1272.915417,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.303603,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Ploi Eurl YL-C b43-0 3 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl YL-C b43-0 4",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

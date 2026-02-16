@@ -1,30 +1,38 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.652642+00:00",
+    "log_files": [
+      "Journal.2026-02-14T205220.01.log"
+    ]
+  },
+  "system": {
+    "name": "Wregoi LE-Q b48-1",
+    "address": 2934403507617,
+    "star_pos": [
+      4810.1875,
+      390.8125,
+      -5.34375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-14T205220.01.log"
-      ],
-      "first_seen_utc": "2026-02-14T20:51:17Z",
-      "last_seen_utc": "2026-02-14T20:51:23Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-14T20:51:17+00:00",
+    "last_seen_utc": "2026-02-14T20:52:22+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 2,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -32,21 +40,68 @@
         "L",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.265274Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Wregoi LE-Q b48-1 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 5,
+    "StellarMass": 0.34375,
+    "Radius": 345202976.0,
+    "AbsoluteMagnitude": 9.466019,
+    "Age_MY": 11886,
+    "SurfaceTemperature": 2821.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 134205.042808,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 2934403507617,
-    "name": "Wregoi LE-Q b48-1",
-    "star_pos": [
-      4810.1875,
-      390.8125,
-      -5.34375
-    ]
-  }
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Wregoi LE-Q b48-1 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.34375,
+        "Radius": 345202976.0,
+        "AbsoluteMagnitude": 9.466019,
+        "Age_MY": 11886,
+        "SurfaceTemperature": 2821.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 134205.042808,
+        "Rings": null
+      },
+      {
+        "BodyName": "Wregoi LE-Q b48-1 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 480348.771313,
+        "StarType": "L",
+        "Subclass": 1,
+        "StellarMass": 0.144531,
+        "Radius": 216240032.0,
+        "AbsoluteMagnitude": 12.286667,
+        "Age_MY": 11886,
+        "SurfaceTemperature": 1862.0,
+        "Luminosity": "V",
+        "RotationPeriod": 91297.238536,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

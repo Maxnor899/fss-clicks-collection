@@ -1,56 +1,214 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.594490+00:00",
+    "log_files": [
+      "Journal.2026-02-09T174314.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgoea HY-W c16-0",
+    "address": 95529931922,
+    "star_pos": [
+      6936.875,
+      535.0625,
+      2217.09375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-09T174314.01.log"
-      ],
-      "first_seen_utc": "2026-02-09T17:02:39Z",
-      "last_seen_utc": "2026-02-09T17:03:29Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-09T17:02:39+00:00",
+    "last_seen_utc": "2026-02-09T17:04:42+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 8,
       "fss_nonbodycount": 6,
+      "n_bodies_scanned": 8,
+      "n_stars_scanned": 4,
+      "n_planets_scanned": 4,
+      "n_landables": 3,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 8,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 4,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": [
         "High metal content body",
         "Rocky ice body"
       ]
     },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
     "stars": {
-      "n_stars": 3,
+      "n_stars": 4,
       "types": [
         "K",
         "M",
         "T"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.230021Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 95529931922,
-    "name": "Tyriedgoea HY-W c16-0",
-    "star_pos": [
-      6936.875,
-      535.0625,
-      2217.09375
+  "primary_star": {
+    "BodyName": "Tyriedgoea HY-W c16-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 7,
+    "StellarMass": 0.53125,
+    "Radius": 455572832.0,
+    "AbsoluteMagnitude": 7.307602,
+    "Age_MY": 6138,
+    "SurfaceTemperature": 4036.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 183234.955416,
+    "Rings": [
+      {
+        "Name": "Tyriedgoea HY-W c16-0 A A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 9420000000000.0,
+        "InnerRad": 721370000.0,
+        "OuterRad": 1954400000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgoea HY-W c16-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 7,
+        "StellarMass": 0.53125,
+        "Radius": 455572832.0,
+        "AbsoluteMagnitude": 7.307602,
+        "Age_MY": 6138,
+        "SurfaceTemperature": 4036.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 183234.955416,
+        "Rings": [
+          {
+            "Name": "Tyriedgoea HY-W c16-0 A A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 9420000000000.0,
+            "InnerRad": 721370000.0,
+            "OuterRad": 1954400000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Tyriedgoea HY-W c16-0 C",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 4504.289211,
+        "StarType": "T",
+        "Subclass": 1,
+        "StellarMass": 0.101563,
+        "Radius": 155579072.0,
+        "AbsoluteMagnitude": 14.831238,
+        "Age_MY": 6138,
+        "SurfaceTemperature": 1222.0,
+        "Luminosity": "V",
+        "RotationPeriod": 91438.725156,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgoea HY-W c16-0 B",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 4507.950804,
+        "StarType": "M",
+        "Subclass": 8,
+        "StellarMass": 0.257813,
+        "Radius": 324784576.0,
+        "AbsoluteMagnitude": 10.730133,
+        "Age_MY": 6138,
+        "SurfaceTemperature": 2174.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 122578.767722,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgoea HY-W c16-0 D",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 4333.412674,
+        "StarType": "T",
+        "Subclass": 3,
+        "StellarMass": 0.074219,
+        "Radius": 132231592.0,
+        "AbsoluteMagnitude": 15.582474,
+        "Age_MY": 6138,
+        "SurfaceTemperature": 1115.0,
+        "Luminosity": "V",
+        "RotationPeriod": 61593.939857,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgoea HY-W c16-0 A 4",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 626.597495,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000458,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea HY-W c16-0 A 2",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 453.672223,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000681,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea HY-W c16-0 A 3",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 453.678754,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000389,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea HY-W c16-0 A 1",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 172.397616,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Water",
+        "Volcanism": "",
+        "MassEM": 0.000644,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

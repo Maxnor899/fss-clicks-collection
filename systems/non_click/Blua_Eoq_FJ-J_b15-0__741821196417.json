@@ -1,34 +1,42 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.610660+00:00",
+    "log_files": [
+      "Journal.2026-02-11T105854.01.log"
+    ]
+  },
+  "system": {
+    "name": "Blua Eoq FJ-J b15-0",
+    "address": 741821196417,
+    "star_pos": [
+      5290.5625,
+      -69.78125,
+      1817.375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T105854.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T10:10:42Z",
-      "last_seen_utc": "2026-02-11T10:14:52Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-11T10:10:42+00:00",
+    "last_seen_utc": "2026-02-11T10:15:34+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 28,
       "fss_nonbodycount": 18,
+      "n_bodies_scanned": 28,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": 25,
+      "n_landables": 16,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 29,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 26,
-      "n_ringed_bodies": 2,
-      "n_terraformables": 2,
+      "n_terraformables": 1,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 2,
-      "n_saa_mappings": 1
     },
     "stars": {
       "n_stars": 3,
@@ -37,21 +45,481 @@
         "M",
         "T"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_bio_signals": 2,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.239373Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 741821196417,
-    "name": "Blua Eoq FJ-J b15-0",
-    "star_pos": [
-      5290.5625,
-      -69.78125,
-      1817.375
+  "primary_star": {
+    "BodyName": "Blua Eoq FJ-J b15-0 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 9,
+    "StellarMass": 0.214844,
+    "Radius": 264123584.0,
+    "AbsoluteMagnitude": 11.276169,
+    "Age_MY": 7622,
+    "SurfaceTemperature": 2126.0,
+    "Luminosity": "VI",
+    "RotationPeriod": 127255.711716,
+    "Rings": [
+      {
+        "Name": "Blua Eoq FJ-J b15-0 A A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 25678000000000.0,
+        "InnerRad": 427050000.0,
+        "OuterRad": 1445300000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 9,
+        "StellarMass": 0.214844,
+        "Radius": 264123584.0,
+        "AbsoluteMagnitude": 11.276169,
+        "Age_MY": 7622,
+        "SurfaceTemperature": 2126.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 127255.711716,
+        "Rings": [
+          {
+            "Name": "Blua Eoq FJ-J b15-0 A A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 25678000000000.0,
+            "InnerRad": 427050000.0,
+            "OuterRad": 1445300000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 768.241519,
+        "StarType": "T",
+        "Subclass": 8,
+        "StellarMass": 0.046875,
+        "Radius": 100372896.0,
+        "AbsoluteMagnitude": 17.738968,
+        "Age_MY": 7622,
+        "SurfaceTemperature": 779.0,
+        "Luminosity": "V",
+        "RotationPeriod": 81240.07965,
+        "Rings": [
+          {
+            "Name": "Blua Eoq FJ-J b15-0 B A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 21754000000000.0,
+            "InnerRad": 198740000.0,
+            "OuterRad": 870060000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 98603.169326,
+        "StarType": "L",
+        "Subclass": 7,
+        "StellarMass": 0.105469,
+        "Radius": 165406224.0,
+        "AbsoluteMagnitude": 13.898529,
+        "Age_MY": 7622,
+        "SurfaceTemperature": 1469.0,
+        "Luminosity": "V",
+        "RotationPeriod": 95658.196715,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 A 2",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 17.094764,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.01649,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 A 1",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 12.687055,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.023866,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 A 3 a",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 24.598774,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "Water",
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 0.001078,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 A 3",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 24.623435,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Water",
+        "Volcanism": "",
+        "MassEM": 0.050051,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 A 4",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 30.018954,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.047166,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 A 5",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 41.512524,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.07514,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 AB 1",
+        "BodyID": 39,
+        "DistanceFromArrivalLS": 1864.165733,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.441902,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 A 7",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 95.419336,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.051839,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 A 6",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 73.831309,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.088398,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 AB 2",
+        "BodyID": 40,
+        "DistanceFromArrivalLS": 2989.900863,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 4.401134,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 AB 2 a",
+        "BodyID": 41,
+        "DistanceFromArrivalLS": 2994.763407,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.059546,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 B 5",
+        "BodyID": 37,
+        "DistanceFromArrivalLS": 778.404794,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002578,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 B 4",
+        "BodyID": 36,
+        "DistanceFromArrivalLS": 786.877332,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.006653,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 B 1",
+        "BodyID": 33,
+        "DistanceFromArrivalLS": 761.856922,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.005017,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 B 2",
+        "BodyID": 34,
+        "DistanceFromArrivalLS": 771.42799,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.004402,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 B 3",
+        "BodyID": 35,
+        "DistanceFromArrivalLS": 772.137902,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.003642,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 B 6",
+        "BodyID": 38,
+        "DistanceFromArrivalLS": 796.199526,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.016791,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 C 7",
+        "BodyID": 48,
+        "DistanceFromArrivalLS": 99123.009546,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "",
+        "MassEM": 0.64679,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 C 4",
+        "BodyID": 45,
+        "DistanceFromArrivalLS": 98954.810457,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.346468,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 C 2",
+        "BodyID": 43,
+        "DistanceFromArrivalLS": 98717.426534,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.414166,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 C 6",
+        "BodyID": 47,
+        "DistanceFromArrivalLS": 97818.296832,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.428583,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 C 1",
+        "BodyID": 42,
+        "DistanceFromArrivalLS": 98437.282891,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.470561,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 C 3",
+        "BodyID": 44,
+        "DistanceFromArrivalLS": 98647.065653,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "",
+        "MassEM": 0.663726,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 C 5",
+        "BodyID": 46,
+        "DistanceFromArrivalLS": 98779.591693,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.317115,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blua Eoq FJ-J b15-0 C 8",
+        "BodyID": 49,
+        "DistanceFromArrivalLS": 94797.289724,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 5.720062,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Blua Eoq FJ-J b15-0 C 2",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Blua Eoq FJ-J b15-0 C 6",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Blua Eoq FJ-J b15-0 A 5"
+  ],
+  "codex_entries": []
 }

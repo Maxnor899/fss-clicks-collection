@@ -1,33 +1,41 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.633232+00:00",
+    "log_files": [
+      "Journal.2026-02-12T214314.01.log"
+    ]
+  },
+  "system": {
+    "name": "Swoiphs RR-X b7-10",
+    "address": 22703062787649,
+    "star_pos": [
+      3123.65625,
+      -64.1875,
+      380.125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-12T214314.01.log"
-      ],
-      "first_seen_utc": "2026-02-12T21:02:43Z",
-      "last_seen_utc": "2026-02-12T21:05:42Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-12T21:02:43+00:00",
+    "last_seen_utc": "2026-02-12T21:06:36+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 25,
       "fss_nonbodycount": 3,
+      "n_bodies_scanned": 25,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 23,
+      "n_landables": 11,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 25,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 23,
-      "n_ringed_bodies": 3,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
-        "Icy body"
+        "Icy body",
+        "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 5,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -35,21 +43,474 @@
         "L",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 5,
+      "n_bio_signals": 5,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.251962Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 22703062787649,
-    "name": "Swoiphs RR-X b7-10",
-    "star_pos": [
-      3123.65625,
-      -64.1875,
-      380.125
+  "primary_star": {
+    "BodyName": "Swoiphs RR-X b7-10 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 3,
+    "StellarMass": 0.324219,
+    "Radius": 313004672.0,
+    "AbsoluteMagnitude": 9.27179,
+    "Age_MY": 1672,
+    "SurfaceTemperature": 3098.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 162389.611196,
+    "Rings": [
+      {
+        "Name": "Swoiphs RR-X b7-10 A A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 411110000.0,
+        "InnerRad": 477210000.0,
+        "OuterRad": 1657700000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 3,
+        "StellarMass": 0.324219,
+        "Radius": 313004672.0,
+        "AbsoluteMagnitude": 9.27179,
+        "Age_MY": 1672,
+        "SurfaceTemperature": 3098.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 162389.611196,
+        "Rings": [
+          {
+            "Name": "Swoiphs RR-X b7-10 A A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 411110000.0,
+            "InnerRad": 477210000.0,
+            "OuterRad": 1657700000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 103786.355727,
+        "StarType": "L",
+        "Subclass": 1,
+        "StellarMass": 0.179688,
+        "Radius": 231139968.0,
+        "AbsoluteMagnitude": 12.006409,
+        "Age_MY": 1672,
+        "SurfaceTemperature": 1921.0,
+        "Luminosity": "V",
+        "RotationPeriod": 108940.587397,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A 5",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 621.67705,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.47349,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A 4",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 494.808376,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.168998,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A 9",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 1488.582145,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.881121,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A 9 a",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 1485.672462,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.060487,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 B 7",
+        "BodyID": 31,
+        "DistanceFromArrivalLS": 103021.753713,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.20615,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 B 5",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 102509.750304,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.29001,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 B 6",
+        "BodyID": 30,
+        "DistanceFromArrivalLS": 102503.51233,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.178732,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 B 9",
+        "BodyID": 34,
+        "DistanceFromArrivalLS": 99309.827483,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.139323,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 B 2",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 103079.044615,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.000444,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 B 1",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 103624.635871,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.414859,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 B 4",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 105273.987002,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.170237,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 B 3",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 104481.126442,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.220116,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 B 8 a",
+        "BodyID": 33,
+        "DistanceFromArrivalLS": 101290.624449,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.011805,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 B 8",
+        "BodyID": 32,
+        "DistanceFromArrivalLS": 101293.844103,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.3492,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A 1",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 280.569959,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.218817,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A 11",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 2764.637273,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.886575,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Swoiphs RR-X b7-10 A 11 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 40776000.0,
+            "InnerRad": 15505000.0,
+            "OuterRad": 45576000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A 6",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 935.462583,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.932593,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A 10 a",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 1884.452995,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000208,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A 10",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 1885.471849,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 2.185245,
+        "Landable": true,
+        "Rings": [
+          {
+            "Name": "Swoiphs RR-X b7-10 A 10 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 44038000000.0,
+            "InnerRad": 23014000.0,
+            "OuterRad": 49007000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A 8",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 1115.671391,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.264591,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A 7",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 1121.061114,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.621933,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A 2",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 379.990813,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "",
+        "MassEM": 0.273644,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoiphs RR-X b7-10 A 3",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 380.193055,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "",
+        "MassEM": 0.243936,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Swoiphs RR-X b7-10 B 7",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoiphs RR-X b7-10 B 6",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoiphs RR-X b7-10 B 9",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoiphs RR-X b7-10 B 4",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoiphs RR-X b7-10 B 8",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

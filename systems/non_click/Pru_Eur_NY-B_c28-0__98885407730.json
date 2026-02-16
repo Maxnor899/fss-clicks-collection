@@ -1,55 +1,253 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.560088+00:00",
+    "log_files": [
+      "Journal.2026-02-07T205128.01.log"
+    ]
+  },
+  "system": {
+    "name": "Pru Eur NY-B c28-0",
+    "address": 98885407730,
+    "star_pos": [
+      8935.34375,
+      575.40625,
+      1417.53125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-07T205128.01.log"
-      ],
-      "first_seen_utc": "2026-02-07T19:56:57Z",
-      "last_seen_utc": "2026-02-07T20:03:24Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-07T19:56:57+00:00",
+    "last_seen_utc": "2026-02-07T20:04:28+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 12,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 12,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 11,
+      "n_landables": 2,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 14,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 13,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 4,
+      "n_terraformables": 2,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 2
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.209353Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Pru Eur NY-B c28-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 1,
+    "StellarMass": 0.855469,
+    "Radius": 571906944.0,
+    "AbsoluteMagnitude": 5.941818,
+    "Age_MY": 2268,
+    "SurfaceTemperature": 4933.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 369290.253423,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 98885407730,
-    "name": "Pru Eur NY-B c28-0",
-    "star_pos": [
-      8935.34375,
-      575.40625,
-      1417.53125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Pru Eur NY-B c28-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 1,
+        "StellarMass": 0.855469,
+        "Radius": 571906944.0,
+        "AbsoluteMagnitude": 5.941818,
+        "Age_MY": 2268,
+        "SurfaceTemperature": 4933.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 369290.253423,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Pru Eur NY-B c28-0 5",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 573.703491,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.142527,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Pru Eur NY-B c28-0 4",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 572.668648,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.171384,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Pru Eur NY-B c28-0 6",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 845.022275,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.144838,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Pru Eur NY-B c28-0 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 348.0495,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "Water",
+        "Volcanism": "",
+        "MassEM": 0.191757,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Pru Eur NY-B c28-0 3 a",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 514.08113,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.007579,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Pru Eur NY-B c28-0 3",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 513.879872,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxideRich",
+        "Volcanism": "",
+        "MassEM": 0.375,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Pru Eur NY-B c28-0 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 267.403329,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.109214,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Pru Eur NY-B c28-0 9",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 1777.844992,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "water magma volcanism",
+        "MassEM": 0.478645,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Pru Eur NY-B c28-0 8",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 1445.071184,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.53689,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Pru Eur NY-B c28-0 10",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 2451.578226,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.781251,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Pru Eur NY-B c28-0 7",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 960.918757,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 0.923023,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [
+    "Pru Eur NY-B c28-0 1",
+    "Pru Eur NY-B c28-0 2"
+  ],
+  "codex_entries": []
 }

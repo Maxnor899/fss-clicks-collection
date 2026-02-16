@@ -1,32 +1,40 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.610250+00:00",
+    "log_files": [
+      "Journal.2026-02-11T105854.01.log"
+    ]
+  },
+  "system": {
+    "name": "IC 2944 Sector AF-B b3-4",
+    "address": 9538182654105,
+    "star_pos": [
+      5298.9375,
+      -66.21875,
+      1883.625
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T105854.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T10:06:08Z",
-      "last_seen_utc": "2026-02-11T10:06:14Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-11T10:06:08+00:00",
+    "last_seen_utc": "2026-02-11T10:10:42+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 32,
       "fss_nonbodycount": 10,
+      "n_bodies_scanned": 3,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 1,
+      "n_landables": 0,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 3,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 1,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": [
         "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -34,21 +42,99 @@
         "L",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.239164Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 9538182654105,
-    "name": "IC 2944 Sector AF-B b3-4",
-    "star_pos": [
-      5298.9375,
-      -66.21875,
-      1883.625
+  "primary_star": {
+    "BodyName": "IC 2944 Sector AF-B b3-4 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 5,
+    "StellarMass": 0.261719,
+    "Radius": 323086560.0,
+    "AbsoluteMagnitude": 9.769791,
+    "Age_MY": 1518,
+    "SurfaceTemperature": 2719.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 131400.219534,
+    "Rings": [
+      {
+        "Name": "IC 2944 Sector AF-B b3-4 A A Belt",
+        "RingClass": "eRingClass_Icy",
+        "MassMT": 49168000000000.0,
+        "InnerRad": 16191000000.0,
+        "OuterRad": 102810000000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "IC 2944 Sector AF-B b3-4 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.261719,
+        "Radius": 323086560.0,
+        "AbsoluteMagnitude": 9.769791,
+        "Age_MY": 1518,
+        "SurfaceTemperature": 2719.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 131400.219534,
+        "Rings": [
+          {
+            "Name": "IC 2944 Sector AF-B b3-4 A A Belt",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 49168000000000.0,
+            "InnerRad": 16191000000.0,
+            "OuterRad": 102810000000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "IC 2944 Sector AF-B b3-4 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 65067.32375,
+        "StarType": "L",
+        "Subclass": 5,
+        "StellarMass": 0.136719,
+        "Radius": 216261264.0,
+        "AbsoluteMagnitude": 12.912766,
+        "Age_MY": 1518,
+        "SurfaceTemperature": 1612.0,
+        "Luminosity": "V",
+        "RotationPeriod": 113722.190692,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "IC 2944 Sector AF-B b3-4 A 1",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 30.456002,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 5.481175,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

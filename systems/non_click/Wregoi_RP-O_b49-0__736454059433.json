@@ -1,51 +1,91 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.652924+00:00",
+    "log_files": [
+      "Journal.2026-02-14T205220.01.log"
+    ]
+  },
+  "system": {
+    "name": "Wregoi RP-O b49-0",
+    "address": 736454059433,
+    "star_pos": [
+      4876.4375,
+      400.875,
+      0.53125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-14T205220.01.log"
-      ],
-      "first_seen_utc": "2026-02-14T20:52:22Z",
-      "last_seen_utc": "2026-02-14T20:52:28Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-14T20:52:22+00:00",
+    "last_seen_utc": "2026-02-14T20:53:43+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 2,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 1,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 1,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.265529Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Wregoi RP-O b49-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 2,
+    "StellarMass": 0.414063,
+    "Radius": 366703904.0,
+    "AbsoluteMagnitude": 8.618088,
+    "Age_MY": 6288,
+    "SurfaceTemperature": 3327.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 188093.274397,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 736454059433,
-    "name": "Wregoi RP-O b49-0",
-    "star_pos": [
-      4876.4375,
-      400.875,
-      0.53125
-    ]
-  }
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Wregoi RP-O b49-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 2,
+        "StellarMass": 0.414063,
+        "Radius": 366703904.0,
+        "AbsoluteMagnitude": 8.618088,
+        "Age_MY": 6288,
+        "SurfaceTemperature": 3327.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 188093.274397,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

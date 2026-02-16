@@ -1,30 +1,38 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.656031+00:00",
+    "log_files": [
+      "Journal.2026-02-14T205220.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploea Eur GO-N b50-1",
+    "address": 2943799076273,
+    "star_pos": [
+      5503.0,
+      485.75,
+      18.625
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-14T205220.01.log"
-      ],
-      "first_seen_utc": "2026-02-14T21:07:55Z",
-      "last_seen_utc": "2026-02-14T21:08:01Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-14T21:07:55+00:00",
+    "last_seen_utc": "2026-02-14T21:09:04+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 3,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -32,21 +40,68 @@
         "L",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.267776Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Ploea Eur GO-N b50-1 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 9,
+    "StellarMass": 0.234375,
+    "Radius": 282207264.0,
+    "AbsoluteMagnitude": 11.049347,
+    "Age_MY": 10666,
+    "SurfaceTemperature": 2167.0,
+    "Luminosity": "VI",
+    "RotationPeriod": 145389.567618,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 2943799076273,
-    "name": "Ploea Eur GO-N b50-1",
-    "star_pos": [
-      5503.0,
-      485.75,
-      18.625
-    ]
-  }
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploea Eur GO-N b50-1 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 9,
+        "StellarMass": 0.234375,
+        "Radius": 282207264.0,
+        "AbsoluteMagnitude": 11.049347,
+        "Age_MY": 10666,
+        "SurfaceTemperature": 2167.0,
+        "Luminosity": "VI",
+        "RotationPeriod": 145389.567618,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploea Eur GO-N b50-1 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 7821.093737,
+        "StarType": "L",
+        "Subclass": 3,
+        "StellarMass": 0.140625,
+        "Radius": 203696080.0,
+        "AbsoluteMagnitude": 12.740875,
+        "Age_MY": 10666,
+        "SurfaceTemperature": 1728.0,
+        "Luminosity": "V",
+        "RotationPeriod": 105610.028158,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

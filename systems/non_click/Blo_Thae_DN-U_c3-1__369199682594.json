@@ -1,53 +1,139 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-15T104234.01.log"
-      ],
-      "first_seen_utc": "2026-02-15T09:54:07Z",
-      "last_seen_utc": "2026-02-15T09:54:13Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 35,
-      "fss_nonbodycount": 8,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 3,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 3,
-      "types": [
-        "K",
-        "L",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.279354Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.669173+00:00",
+    "log_files": [
+      "Journal.2026-02-15T104234.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 369199682594,
     "name": "Blo Thae DN-U c3-1",
+    "address": 369199682594,
     "star_pos": [
       6228.3125,
       330.3125,
       1673.0625
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-15T09:54:07+00:00",
+    "last_seen_utc": "2026-02-15T09:55:26+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 35,
+      "fss_nonbodycount": 8,
+      "n_bodies_scanned": 3,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "L",
+        "K",
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Blo Thae DN-U c3-1 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 5,
+    "StellarMass": 0.734375,
+    "Radius": 541427840.0,
+    "AbsoluteMagnitude": 6.657349,
+    "Age_MY": 5192,
+    "SurfaceTemperature": 4300.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 241220.742677,
+    "Rings": [
+      {
+        "Name": "Blo Thae DN-U c3-1 A A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 1037900000000.0,
+        "InnerRad": 1026500000.0,
+        "OuterRad": 2177100000.0
+      }
+    ]
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Blo Thae DN-U c3-1 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 5,
+        "StellarMass": 0.734375,
+        "Radius": 541427840.0,
+        "AbsoluteMagnitude": 6.657349,
+        "Age_MY": 5192,
+        "SurfaceTemperature": 4300.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 241220.742677,
+        "Rings": [
+          {
+            "Name": "Blo Thae DN-U c3-1 A A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 1037900000000.0,
+            "InnerRad": 1026500000.0,
+            "OuterRad": 2177100000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Blo Thae DN-U c3-1 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 162445.726076,
+        "StarType": "M",
+        "Subclass": 2,
+        "StellarMass": 0.421875,
+        "Radius": 367022240.0,
+        "AbsoluteMagnitude": 8.797516,
+        "Age_MY": 5192,
+        "SurfaceTemperature": 3191.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 190567.707885,
+        "Rings": null
+      },
+      {
+        "BodyName": "Blo Thae DN-U c3-1 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 162814.924596,
+        "StarType": "L",
+        "Subclass": 4,
+        "StellarMass": 0.140625,
+        "Radius": 198347376.0,
+        "AbsoluteMagnitude": 12.890137,
+        "Age_MY": 5192,
+        "SurfaceTemperature": 1692.0,
+        "Luminosity": "V",
+        "RotationPeriod": 84373.679243,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

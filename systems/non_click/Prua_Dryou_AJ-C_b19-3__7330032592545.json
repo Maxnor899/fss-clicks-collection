@@ -1,34 +1,42 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.623277+00:00",
+    "log_files": [
+      "Journal.2026-02-11T134714.01.log"
+    ]
+  },
+  "system": {
+    "name": "Prua Dryou AJ-C b19-3",
+    "address": 7330032592545,
+    "star_pos": [
+      4627.375,
+      -84.96875,
+      622.875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T134714.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T13:53:47Z",
-      "last_seen_utc": "2026-02-11T13:57:50Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-11T13:53:47+00:00",
+    "last_seen_utc": "2026-02-11T13:58:50+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 41,
       "fss_nonbodycount": 4,
+      "n_bodies_scanned": 41,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 39,
+      "n_landables": 32,
       "has_gas_giant": true,
       "has_ringed_body": true,
-      "n_bodies_scanned": 41,
-      "n_gas_giants": 2,
-      "n_planets_scanned": 39,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": [
+        "Sudarsky class I gas giant",
         "Icy body",
-        "Rocky ice body",
-        "Sudarsky class I gas giant"
+        "Rocky ice body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 7,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -36,21 +44,702 @@
         "L",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 7,
+      "n_bio_signals": 2,
+      "n_geo_signals": 12,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.246844Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 7330032592545,
-    "name": "Prua Dryou AJ-C b19-3",
-    "star_pos": [
-      4627.375,
-      -84.96875,
-      622.875
+  "primary_star": {
+    "BodyName": "Prua Dryou AJ-C b19-3 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 7,
+    "StellarMass": 0.214844,
+    "Radius": 287916768.0,
+    "AbsoluteMagnitude": 10.540558,
+    "Age_MY": 3338,
+    "SurfaceTemperature": 2412.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 123734.771022,
+    "Rings": [
+      {
+        "Name": "Prua Dryou AJ-C b19-3 A A Belt",
+        "RingClass": "eRingClass_Metalic",
+        "MassMT": 22906000.0,
+        "InnerRad": 503530000.0,
+        "OuterRad": 1445300000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 7,
+        "StellarMass": 0.214844,
+        "Radius": 287916768.0,
+        "AbsoluteMagnitude": 10.540558,
+        "Age_MY": 3338,
+        "SurfaceTemperature": 2412.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 123734.771022,
+        "Rings": [
+          {
+            "Name": "Prua Dryou AJ-C b19-3 A A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 22906000.0,
+            "InnerRad": 503530000.0,
+            "OuterRad": 1445300000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 41243.997745,
+        "StarType": "L",
+        "Subclass": 6,
+        "StellarMass": 0.132813,
+        "Radius": 203186672.0,
+        "AbsoluteMagnitude": 13.190628,
+        "Age_MY": 3338,
+        "SurfaceTemperature": 1560.0,
+        "Luminosity": "V",
+        "RotationPeriod": 100889.918409,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 8",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 1272.428391,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 20.698856,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 8 c",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 1271.550847,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.000285,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 8 d",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 1273.594192,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000153,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 8 a",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 1272.362247,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000237,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 8 b",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 1272.942756,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "carbon dioxide geysers volcanism",
+        "MassEM": 0.000227,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 8 e",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 1271.688816,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000194,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 8 g",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 1271.167446,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "carbon dioxide geysers volcanism",
+        "MassEM": 0.000197,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 8 f",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 1271.152977,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.00027,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 8 h",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 1273.876777,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000603,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 8 i",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 1274.705685,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000433,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 2",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 68.200828,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.04905,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 B 6",
+        "BodyID": 45,
+        "DistanceFromArrivalLS": 42878.144586,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.039245,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 B 4 a",
+        "BodyID": 42,
+        "DistanceFromArrivalLS": 40686.445062,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001608,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 B 4",
+        "BodyID": 41,
+        "DistanceFromArrivalLS": 40686.845397,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.025138,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 B 1",
+        "BodyID": 38,
+        "DistanceFromArrivalLS": 41320.052161,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.085144,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 B 5",
+        "BodyID": 43,
+        "DistanceFromArrivalLS": 42744.52537,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.055913,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 B 5 a",
+        "BodyID": 44,
+        "DistanceFromArrivalLS": 42744.772997,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.005974,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 B 7",
+        "BodyID": 46,
+        "DistanceFromArrivalLS": 43740.459535,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.038736,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 B 2",
+        "BodyID": 39,
+        "DistanceFromArrivalLS": 41776.943316,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.019532,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 B 3",
+        "BodyID": 40,
+        "DistanceFromArrivalLS": 40445.90921,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.018237,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 B 9",
+        "BodyID": 49,
+        "DistanceFromArrivalLS": 42476.471839,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.05829,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 B 8",
+        "BodyID": 48,
+        "DistanceFromArrivalLS": 42483.191993,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.039088,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 9",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 1744.944487,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 9.407969,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 9 c",
+        "BodyID": 30,
+        "DistanceFromArrivalLS": 1743.98585,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000526,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 9 d",
+        "BodyID": 31,
+        "DistanceFromArrivalLS": 1743.729987,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000534,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 9 a",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 1745.26444,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.000561,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 9 b",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 1744.997529,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000306,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 9 e",
+        "BodyID": 32,
+        "DistanceFromArrivalLS": 1743.571224,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001092,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 9 g",
+        "BodyID": 35,
+        "DistanceFromArrivalLS": 1742.457996,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000435,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 9 h",
+        "BodyID": 36,
+        "DistanceFromArrivalLS": 1742.413075,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000175,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 9 f",
+        "BodyID": 33,
+        "DistanceFromArrivalLS": 1744.717007,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000807,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 9 i",
+        "BodyID": 37,
+        "DistanceFromArrivalLS": 1743.611895,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000267,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 7",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 513.174827,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.033735,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 6",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 397.739657,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.802981,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 6 a",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 397.691715,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.056903,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 4",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 159.750951,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.590889,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 3",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 125.191819,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.429952,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 5",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 215.953979,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.535974,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Prua Dryou AJ-C b19-3 A 1",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 36.558486,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001257,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Prua Dryou AJ-C b19-3 A 8 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou AJ-C b19-3 A 8 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou AJ-C b19-3 A 8 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou AJ-C b19-3 A 8 g",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou AJ-C b19-3 A 8 f",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou AJ-C b19-3 A 9 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Prua Dryou AJ-C b19-3 A 6 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

@@ -1,55 +1,210 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.591696+00:00",
+    "log_files": [
+      "Journal.2026-02-09T151317.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgoea JC-Z c15-0",
+    "address": 96201086090,
+    "star_pos": [
+      7336.84375,
+      615.1875,
+      2213.75
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-09T151317.01.log"
-      ],
-      "first_seen_utc": "2026-02-09T14:43:00Z",
-      "last_seen_utc": "2026-02-09T14:45:58Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-09T14:43:00+00:00",
+    "last_seen_utc": "2026-02-09T14:46:42+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 9,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 9,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 8,
+      "n_landables": 1,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 10,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 9,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Water world"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 1
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.228566Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgoea JC-Z c15-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 8,
+    "StellarMass": 0.554688,
+    "Radius": 524214400.0,
+    "AbsoluteMagnitude": 7.157257,
+    "Age_MY": 12790,
+    "SurfaceTemperature": 3895.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 185288.508996,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 96201086090,
-    "name": "Tyriedgoea JC-Z c15-0",
-    "star_pos": [
-      7336.84375,
-      615.1875,
-      2213.75
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgoea JC-Z c15-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 8,
+        "StellarMass": 0.554688,
+        "Radius": 524214400.0,
+        "AbsoluteMagnitude": 7.157257,
+        "Age_MY": 12790,
+        "SurfaceTemperature": 3895.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 185288.508996,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgoea JC-Z c15-0 5",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 3793.73279,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 1.026782,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea JC-Z c15-0 4",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 2874.78237,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.217928,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea JC-Z c15-0 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 639.241625,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.442647,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea JC-Z c15-0 3",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 1069.491872,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.541443,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea JC-Z c15-0 7",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 6982.349228,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "",
+        "MassEM": 0.940985,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea JC-Z c15-0 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 375.444671,
+        "PlanetClass": "Water world",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.79213,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea JC-Z c15-0 6 a",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 5353.307801,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.075854,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea JC-Z c15-0 6",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 5345.084468,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.419264,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [
+    "Tyriedgoea JC-Z c15-0 1"
+  ],
+  "codex_entries": []
 }

@@ -1,56 +1,224 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.540741+00:00",
+    "log_files": [
+      "Journal.2026-02-04T182059.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploi Eurl UK-E b42-0",
+    "address": 771082823017,
+    "star_pos": [
+      7469.40625,
+      590.84375,
+      -155.5625
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-04T182059.01.log",
-        "Journal.2026-02-04T212839.01.log"
-      ],
-      "first_seen_utc": "2026-02-04T17:34:25Z",
-      "last_seen_utc": "2026-02-04T20:29:16Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-04T17:34:25+00:00",
+    "last_seen_utc": "2026-02-04T20:30:18+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 10,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 10,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": 7,
+      "n_landables": 0,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 10,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 7,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
         "Icy body",
         "Rocky ice body"
       ]
     },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
     "stars": {
-      "n_stars": 2,
+      "n_stars": 3,
       "types": [
         "L",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.198581Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Ploi Eurl UK-E b42-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 4,
+    "StellarMass": 0.414063,
+    "Radius": 425348480.0,
+    "AbsoluteMagnitude": 8.749664,
+    "Age_MY": 6046,
+    "SurfaceTemperature": 2997.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 187034.316826,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 771082823017,
-    "name": "Ploi Eurl UK-E b42-0",
-    "star_pos": [
-      7469.40625,
-      590.84375,
-      -155.5625
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl UK-E b42-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 4,
+        "StellarMass": 0.414063,
+        "Radius": 425348480.0,
+        "AbsoluteMagnitude": 8.749664,
+        "Age_MY": 6046,
+        "SurfaceTemperature": 2997.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 187034.316826,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploi Eurl UK-E b42-0 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 405336.637343,
+        "StarType": "L",
+        "Subclass": 4,
+        "StellarMass": 0.144531,
+        "Radius": 221694848.0,
+        "AbsoluteMagnitude": 12.627945,
+        "Age_MY": 6046,
+        "SurfaceTemperature": 1700.0,
+        "Luminosity": "V",
+        "RotationPeriod": 119976.136726,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploi Eurl UK-E b42-0 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 440698.511991,
+        "StarType": "M",
+        "Subclass": 6,
+        "StellarMass": 0.292969,
+        "Radius": 347643840.0,
+        "AbsoluteMagnitude": 9.735474,
+        "Age_MY": 6046,
+        "SurfaceTemperature": 2642.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 134950.499136,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploi Eurl UK-E b42-0 A 3",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 710.36566,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "water magma volcanism",
+        "MassEM": 0.668566,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl UK-E b42-0 A 7",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 3668.305067,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 3.658628,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl UK-E b42-0 A 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 313.243488,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.055115,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl UK-E b42-0 A 4",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 1039.424154,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "",
+        "MassEM": 0.600826,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl UK-E b42-0 A 2",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 556.184029,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.86748,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl UK-E b42-0 A 6",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 2156.751925,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.337959,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl UK-E b42-0 A 5",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 2154.31358,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 1.68368,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

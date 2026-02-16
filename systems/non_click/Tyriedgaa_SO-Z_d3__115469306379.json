@@ -1,59 +1,463 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-07T205128.01.log"
-      ],
-      "first_seen_utc": "2026-02-07T20:53:08Z",
-      "last_seen_utc": "2026-02-07T21:08:40Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 24,
-      "fss_nonbodycount": 4,
-      "has_gas_giant": true,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 28,
-      "n_gas_giants": 2,
-      "n_planets_scanned": 25,
-      "n_ringed_bodies": 2,
-      "n_terraformables": 8,
-      "planet_classes": [
-        "High metal content body",
-        "Icy body",
-        "Rocky body",
-        "Sudarsky class I gas giant",
-        "Sudarsky class II gas giant"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 1,
-      "n_saa_mappings": 4
-    },
-    "stars": {
-      "n_stars": 3,
-      "types": [
-        "A",
-        "G",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.210671Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.562110+00:00",
+    "log_files": [
+      "Journal.2026-02-07T205128.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 115469306379,
     "name": "Tyriedgaa SO-Z d3",
+    "address": 115469306379,
     "star_pos": [
       9110.375,
       551.78125,
       1638.75
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-07T20:53:08+00:00",
+    "last_seen_utc": "2026-02-07T21:09:21+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 24,
+      "fss_nonbodycount": 4,
+      "n_bodies_scanned": 24,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": 21,
+      "n_landables": 10,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_terraformables": 4,
+      "planet_classes": [
+        "Sudarsky class II gas giant",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class I gas giant",
+        "High metal content body"
+      ]
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "A",
+        "M",
+        "G"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_bio_signals": 5,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 4
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Tyriedgaa SO-Z d3 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "A",
+    "Subclass": 8,
+    "StellarMass": 1.605469,
+    "Radius": 965354240.0,
+    "AbsoluteMagnitude": 2.840683,
+    "Age_MY": 1848,
+    "SurfaceTemperature": 7753.0,
+    "Luminosity": "Vb",
+    "RotationPeriod": 77636.464745,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "A",
+        "Subclass": 8,
+        "StellarMass": 1.605469,
+        "Radius": 965354240.0,
+        "AbsoluteMagnitude": 2.840683,
+        "Age_MY": 1848,
+        "SurfaceTemperature": 7753.0,
+        "Luminosity": "Vb",
+        "RotationPeriod": 77636.464745,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 16305.8324,
+        "StarType": "M",
+        "Subclass": 0,
+        "StellarMass": 0.554688,
+        "Radius": 445979168.0,
+        "AbsoluteMagnitude": 7.760849,
+        "Age_MY": 1848,
+        "SurfaceTemperature": 3675.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 182391.661723,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 245699.910733,
+        "StarType": "G",
+        "Subclass": 7,
+        "StellarMass": 0.863281,
+        "Radius": 694438720.0,
+        "AbsoluteMagnitude": 5.159622,
+        "Age_MY": 1848,
+        "SurfaceTemperature": 5360.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 363782.285824,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa SO-Z d3 C A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 111660000000000.0,
+            "InnerRad": 1312700000.0,
+            "OuterRad": 2297700000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 B 7 a",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 15405.978444,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "",
+        "MassEM": 0.015954,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 B 7",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 15405.891034,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "AmmoniaRich",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.755233,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 B 3",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 16534.010454,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "WaterRich",
+        "Volcanism": "",
+        "MassEM": 0.665163,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 B 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 16082.029109,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.8436,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 B 5",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 16768.254602,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.812162,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 B 6",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 16765.946388,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxideRich",
+        "Volcanism": "",
+        "MassEM": 0.422654,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 B 2 a",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 16272.508815,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.024407,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 B 2",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 16272.685582,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 1.653179,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 B 4",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 16119.554156,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.528838,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 B 8",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 17152.815282,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.337819,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 C 2",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 248255.979493,
+        "PlanetClass": "Sudarsky class II gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 356.319855,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa SO-Z d3 C 2 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 59877000000.0,
+            "InnerRad": 144460000.0,
+            "OuterRad": 151580000.0
+          },
+          {
+            "Name": "Tyriedgaa SO-Z d3 C 2 B Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 1078000000000.0,
+            "InnerRad": 151680000.0,
+            "OuterRad": 246810000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 C 2 b",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 248262.435129,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.003395,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 C 2 d",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 248239.751657,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00282,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 C 2 a",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 248258.064908,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001754,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 C 2 c",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 248255.129998,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002661,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 C 1",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 245823.494834,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 6.60363,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 C 3",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 246752.728267,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 151.478134,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 C 3 b",
+        "BodyID": 31,
+        "DistanceFromArrivalLS": 246747.187906,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001031,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 C 3 a",
+        "BodyID": 30,
+        "DistanceFromArrivalLS": 246752.433839,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000988,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 C 3 c",
+        "BodyID": 33,
+        "DistanceFromArrivalLS": 246760.962131,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001032,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa SO-Z d3 C 3 d",
+        "BodyID": 34,
+        "DistanceFromArrivalLS": 246761.018102,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000651,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Tyriedgaa SO-Z d3 B 7 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 5
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Tyriedgaa SO-Z d3 B 1",
+    "Tyriedgaa SO-Z d3 B 2",
+    "Tyriedgaa SO-Z d3 B 4",
+    "Tyriedgaa SO-Z d3 B 3"
+  ],
+  "codex_entries": []
 }

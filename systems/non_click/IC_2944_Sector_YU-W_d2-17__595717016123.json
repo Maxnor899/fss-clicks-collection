@@ -1,54 +1,255 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.608379+00:00",
+    "log_files": [
+      "Journal.2026-02-10T202414.01.log"
+    ]
+  },
+  "system": {
+    "name": "IC 2944 Sector YU-W d2-17",
+    "address": 595717016123,
+    "star_pos": [
+      5297.28125,
+      107.90625,
+      2094.8125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-10T202414.01.log"
-      ],
-      "first_seen_utc": "2026-02-10T20:23:31Z",
-      "last_seen_utc": "2026-02-10T20:38:53Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-10T20:23:31+00:00",
+    "last_seen_utc": "2026-02-10T20:39:50+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 11,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 11,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 10,
+      "n_landables": 3,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 19,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 18,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 16,
+      "n_terraformables": 8,
       "planet_classes": [
         "High metal content body",
         "Water world"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 1,
-      "n_saa_mappings": 8
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "A"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_bio_signals": 1,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 8
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.237877Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "IC 2944 Sector YU-W d2-17",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "A",
+    "Subclass": 5,
+    "StellarMass": 1.746094,
+    "Radius": 1060038784.0,
+    "AbsoluteMagnitude": 2.198685,
+    "Age_MY": 1118,
+    "SurfaceTemperature": 8577.0,
+    "Luminosity": "Vb",
+    "RotationPeriod": 80038.66014,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 595717016123,
-    "name": "IC 2944 Sector YU-W d2-17",
-    "star_pos": [
-      5297.28125,
-      107.90625,
-      2094.8125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "IC 2944 Sector YU-W d2-17",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "A",
+        "Subclass": 5,
+        "StellarMass": 1.746094,
+        "Radius": 1060038784.0,
+        "AbsoluteMagnitude": 2.198685,
+        "Age_MY": 1118,
+        "SurfaceTemperature": 8577.0,
+        "Luminosity": "Vb",
+        "RotationPeriod": 80038.66014,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "IC 2944 Sector YU-W d2-17 9",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 3077.681093,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.24897,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "IC 2944 Sector YU-W d2-17 5",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 1799.654239,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "Water",
+        "Volcanism": "",
+        "MassEM": 0.203393,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "IC 2944 Sector YU-W d2-17 4",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 1803.279895,
+        "PlanetClass": "Water world",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.176737,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "IC 2944 Sector YU-W d2-17 3",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1802.654299,
+        "PlanetClass": "Water world",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.223002,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "IC 2944 Sector YU-W d2-17 7",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 2409.763828,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.105623,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "IC 2944 Sector YU-W d2-17 6",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 2409.047022,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.193008,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "IC 2944 Sector YU-W d2-17 8",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 2411.474905,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.082569,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "IC 2944 Sector YU-W d2-17 1",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 1428.411694,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.185572,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "IC 2944 Sector YU-W d2-17 2",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 1427.939923,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.181784,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "IC 2944 Sector YU-W d2-17 10",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 4530.754667,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.148847,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "IC 2944 Sector YU-W d2-17 8",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "IC 2944 Sector YU-W d2-17 1",
+    "IC 2944 Sector YU-W d2-17 2",
+    "IC 2944 Sector YU-W d2-17 3",
+    "IC 2944 Sector YU-W d2-17 4",
+    "IC 2944 Sector YU-W d2-17 5",
+    "IC 2944 Sector YU-W d2-17 6",
+    "IC 2944 Sector YU-W d2-17 7",
+    "IC 2944 Sector YU-W d2-17 8"
+  ],
+  "codex_entries": []
 }

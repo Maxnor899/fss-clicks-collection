@@ -1,56 +1,283 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.602638+00:00",
+    "log_files": [
+      "Journal.2026-02-09T205244.01.log"
+    ]
+  },
+  "system": {
+    "name": "Blo Thae EM-A c15-0",
+    "address": 93717992578,
+    "star_pos": [
+      5862.125,
+      535.34375,
+      2166.59375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-09T205244.01.log",
-        "Journal.2026-02-10T202414.01.log"
-      ],
-      "first_seen_utc": "2026-02-09T20:41:55Z",
-      "last_seen_utc": "2026-02-10T19:25:20Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-09T20:41:55+00:00",
+    "last_seen_utc": "2026-02-10T19:26:59+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 12,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 12,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 11,
+      "n_landables": 11,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 13,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 12,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky ice body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 3,
-      "n_saa_mappings": 1
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_bio_signals": 4,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.234340Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Blo Thae EM-A c15-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 1,
+    "StellarMass": 0.523438,
+    "Radius": 436321792.0,
+    "AbsoluteMagnitude": 7.993118,
+    "Age_MY": 12928,
+    "SurfaceTemperature": 3522.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 251289.727551,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 93717992578,
-    "name": "Blo Thae EM-A c15-0",
-    "star_pos": [
-      5862.125,
-      535.34375,
-      2166.59375
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Blo Thae EM-A c15-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 1,
+        "StellarMass": 0.523438,
+        "Radius": 436321792.0,
+        "AbsoluteMagnitude": 7.993118,
+        "Age_MY": 12928,
+        "SurfaceTemperature": 3522.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 251289.727551,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Blo Thae EM-A c15-0 6",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 2383.324097,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.178668,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae EM-A c15-0 6 a",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 2383.446776,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.012718,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae EM-A c15-0 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 666.151396,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.028684,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae EM-A c15-0 2 a",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 666.250784,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002096,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae EM-A c15-0 4",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1220.293871,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.063739,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae EM-A c15-0 5",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1765.889881,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.102372,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae EM-A c15-0 5 a",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 1765.519978,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.005993,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae EM-A c15-0 3",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 919.273361,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.057689,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae EM-A c15-0 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 493.737946,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.015793,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae EM-A c15-0 8",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 4289.302002,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.080823,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae EM-A c15-0 7",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 2980.585478,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.102043,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Blo Thae EM-A c15-0 4",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Blo Thae EM-A c15-0 5 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Blo Thae EM-A c15-0 3",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Blo Thae EM-A c15-0 4"
+  ],
+  "codex_entries": []
 }

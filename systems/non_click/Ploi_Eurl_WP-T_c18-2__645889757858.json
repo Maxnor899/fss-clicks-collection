@@ -1,58 +1,642 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.528176+00:00",
+    "log_files": [
+      "Journal.2026-02-02T173833.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploi Eurl WP-T c18-2",
+    "address": 645889757858,
+    "star_pos": [
+      7316.25,
+      588.0,
+      -250.1875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-02T173833.01.log",
-        "Journal.2026-02-03T201109.01.log"
-      ],
-      "first_seen_utc": "2026-02-02T17:16:41Z",
-      "last_seen_utc": "2026-02-03T19:16:51Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-02T17:16:41+00:00",
+    "last_seen_utc": "2026-02-03T19:45:11+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 29,
       "fss_nonbodycount": 10,
+      "n_bodies_scanned": 29,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 28,
+      "n_landables": 15,
       "has_gas_giant": true,
       "has_ringed_body": true,
-      "n_bodies_scanned": 31,
-      "n_gas_giants": 5,
-      "n_planets_scanned": 30,
-      "n_ringed_bodies": 4,
       "n_terraformables": 0,
       "planet_classes": [
-        "Gas giant with water based life",
+        "Sudarsky class II gas giant",
         "Icy body",
+        "Gas giant with water based life",
         "Rocky body",
-        "Sudarsky class I gas giant",
-        "Sudarsky class II gas giant"
+        "Sudarsky class I gas giant"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 7,
-      "n_saa_mappings": 2
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 7,
+      "n_bio_signals": 12,
+      "n_geo_signals": 8,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 5
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.192508Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 645889757858,
-    "name": "Ploi Eurl WP-T c18-2",
-    "star_pos": [
-      7316.25,
-      588.0,
-      -250.1875
+  "primary_star": {
+    "BodyName": "Ploi Eurl WP-T c18-2",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 3,
+    "StellarMass": 0.800781,
+    "Radius": 647064576.0,
+    "AbsoluteMagnitude": 5.918182,
+    "Age_MY": 7224,
+    "SurfaceTemperature": 4663.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 327465.612458,
+    "Rings": [
+      {
+        "Name": "Ploi Eurl WP-T c18-2 A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 904350000000.0,
+        "InnerRad": 1067700000.0,
+        "OuterRad": 2416300000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 3,
+        "StellarMass": 0.800781,
+        "Radius": 647064576.0,
+        "AbsoluteMagnitude": 5.918182,
+        "Age_MY": 7224,
+        "SurfaceTemperature": 4663.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 327465.612458,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl WP-T c18-2 A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 904350000000.0,
+            "InnerRad": 1067700000.0,
+            "OuterRad": 2416300000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 4",
+        "BodyID": 37,
+        "DistanceFromArrivalLS": 2167.268468,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 156.098862,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 4 a",
+        "BodyID": 38,
+        "DistanceFromArrivalLS": 2165.678511,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "water magma volcanism",
+        "MassEM": 0.005678,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 4 c",
+        "BodyID": 40,
+        "DistanceFromArrivalLS": 2175.230042,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002597,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 4 e",
+        "BodyID": 42,
+        "DistanceFromArrivalLS": 2181.717385,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001865,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 4 b",
+        "BodyID": 39,
+        "DistanceFromArrivalLS": 2169.207239,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.006466,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 4 d",
+        "BodyID": 41,
+        "DistanceFromArrivalLS": 2164.225522,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.004156,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 2",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 1670.282663,
+        "PlanetClass": "Gas giant with water based life",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 383.521118,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl WP-T c18-2 2 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 1336100000000.0,
+            "InnerRad": 141000000.0,
+            "OuterRad": 252930000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 2 c",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 1673.151956,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.005372,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 2 d",
+        "BodyID": 30,
+        "DistanceFromArrivalLS": 1666.222047,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001753,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 2 a",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 1670.081054,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.006885,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 2 b",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 1670.820887,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.01558,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 2 e",
+        "BodyID": 31,
+        "DistanceFromArrivalLS": 1664.207752,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00201,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 3 b",
+        "BodyID": 36,
+        "DistanceFromArrivalLS": 1710.615411,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.005516,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 3",
+        "BodyID": 32,
+        "DistanceFromArrivalLS": 1712.558242,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 160.964066,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl WP-T c18-2 3 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 81918000000.0,
+            "InnerRad": 129310000.0,
+            "OuterRad": 139030000.0
+          },
+          {
+            "Name": "Ploi Eurl WP-T c18-2 3 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 519380000000.0,
+            "InnerRad": 139130000.0,
+            "OuterRad": 189370000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 3 a",
+        "BodyID": 35,
+        "DistanceFromArrivalLS": 1711.730971,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.005451,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 1",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 1149.121381,
+        "PlanetClass": "Sudarsky class II gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 709.674133,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl WP-T c18-2 1 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 1407000000000.0,
+            "InnerRad": 120740000.0,
+            "OuterRad": 310520000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 1 a",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 1150.889408,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.004449,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 1 e",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 1137.126409,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.009264,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 1 c",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 1143.311929,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.006629,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 1 b",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 1151.022099,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.007581,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 1 d",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 1153.145999,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.011705,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 6",
+        "BodyID": 58,
+        "DistanceFromArrivalLS": 4086.84548,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 5.775393,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 5",
+        "BodyID": 50,
+        "DistanceFromArrivalLS": 2864.629594,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 37.900776,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 5 c",
+        "BodyID": 54,
+        "DistanceFromArrivalLS": 2866.725116,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.000608,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 5 d",
+        "BodyID": 55,
+        "DistanceFromArrivalLS": 2866.309392,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.001068,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 5 b",
+        "BodyID": 53,
+        "DistanceFromArrivalLS": 2866.744358,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "minor ammonia magma volcanism",
+        "MassEM": 0.000658,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 5 a",
+        "BodyID": 51,
+        "DistanceFromArrivalLS": 2864.465242,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.000505,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl WP-T c18-2 5 e",
+        "BodyID": 56,
+        "DistanceFromArrivalLS": 2863.397293,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.000764,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Ploi Eurl WP-T c18-2 4 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl WP-T c18-2 2 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl WP-T c18-2 2 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl WP-T c18-2 3 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl WP-T c18-2 1 e",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl WP-T c18-2 1 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 4
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl WP-T c18-2 1 d",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 5
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Ploi Eurl WP-T c18-2 1 e",
+    "Ploi Eurl WP-T c18-2 1 d"
+  ],
+  "codex_entries": [
+    {
+      "Name": "Touradon Caputus - Vert",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Touradon Caputus - Vert",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Fungoida Stabitis - Pêche",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Stratum Paleas - Vert clair",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Osseus Fractus - Indigo",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    }
+  ]
 }

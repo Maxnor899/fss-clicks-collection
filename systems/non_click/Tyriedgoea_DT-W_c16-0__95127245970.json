@@ -1,56 +1,258 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-09T174314.01.log"
-      ],
-      "first_seen_utc": "2026-02-09T17:14:36Z",
-      "last_seen_utc": "2026-02-09T17:21:58Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 12,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 15,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 11,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 4,
-      "planet_classes": [
-        "Ammonia world",
-        "High metal content body",
-        "Icy body"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 3
-    },
-    "stars": {
-      "n_stars": 2,
-      "types": [
-        "K",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.230985Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.596313+00:00",
+    "log_files": [
+      "Journal.2026-02-09T174314.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 95127245970,
     "name": "Tyriedgoea DT-W c16-0",
+    "address": 95127245970,
     "star_pos": [
       6718.9375,
       519.78125,
       2246.34375
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-09T17:14:36+00:00",
+    "last_seen_utc": "2026-02-09T17:22:27+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 12,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 12,
+      "n_stars_scanned": 4,
+      "n_planets_scanned": 8,
+      "n_landables": 3,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 2,
+      "planet_classes": [
+        "Ammonia world",
+        "Icy body",
+        "High metal content body"
+      ]
+    },
+    "stars": {
+      "n_stars": 4,
+      "types": [
+        "K",
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 3
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Tyriedgoea DT-W c16-0 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 2,
+    "StellarMass": 0.734375,
+    "Radius": 598013632.0,
+    "AbsoluteMagnitude": 5.88205,
+    "Age_MY": 10814,
+    "SurfaceTemperature": 4891.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 280794.35618,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgoea DT-W c16-0 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 2,
+        "StellarMass": 0.734375,
+        "Radius": 598013632.0,
+        "AbsoluteMagnitude": 5.88205,
+        "Age_MY": 10814,
+        "SurfaceTemperature": 4891.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 280794.35618,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgoea DT-W c16-0 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 6.836156,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.375,
+        "Radius": 401534080.0,
+        "AbsoluteMagnitude": 9.156204,
+        "Age_MY": 10814,
+        "SurfaceTemperature": 2809.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 173298.238917,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgoea DT-W c16-0 D",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 106952.899097,
+        "StarType": "M",
+        "Subclass": 6,
+        "StellarMass": 0.269531,
+        "Radius": 324635968.0,
+        "AbsoluteMagnitude": 9.836777,
+        "Age_MY": 10814,
+        "SurfaceTemperature": 2671.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 133800.844446,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgoea DT-W c16-0 C",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 107197.746895,
+        "StarType": "M",
+        "Subclass": 6,
+        "StellarMass": 0.328125,
+        "Radius": 321282432.0,
+        "AbsoluteMagnitude": 10.030167,
+        "Age_MY": 10814,
+        "SurfaceTemperature": 2568.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 216426.17903,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgoea DT-W c16-0 AB 2",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 393.476457,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.137161,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea DT-W c16-0 AB 4",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 1659.361673,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.259926,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea DT-W c16-0 AB 7",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 4039.48551,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "",
+        "MassEM": 0.538821,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea DT-W c16-0 AB 1",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 296.77376,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.151499,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea DT-W c16-0 AB 3",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 1181.732214,
+        "PlanetClass": "Ammonia world",
+        "TerraformState": "",
+        "AtmosphereType": "AmmoniaOxygen",
+        "Volcanism": "",
+        "MassEM": 0.211974,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea DT-W c16-0 AB 6",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 2882.570381,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "",
+        "MassEM": 0.709423,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea DT-W c16-0 AB 5 a",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 2263.644598,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.021139,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea DT-W c16-0 AB 5",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 2264.914556,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.455718,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [
+    "Tyriedgoea DT-W c16-0 AB 1",
+    "Tyriedgoea DT-W c16-0 AB 2",
+    "Tyriedgoea DT-W c16-0 AB 3"
+  ],
+  "codex_entries": []
 }

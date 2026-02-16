@@ -1,55 +1,205 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T111611.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T11:01:03Z",
-      "last_seen_utc": "2026-02-08T11:02:02Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 8,
-      "fss_nonbodycount": 3,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 8,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 4,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 0,
-      "planet_classes": [
-        "High metal content body"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 3,
-      "types": [
-        "K",
-        "L",
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.216443Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.570700+00:00",
+    "log_files": [
+      "Journal.2026-02-08T111611.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 100496053434,
     "name": "Tyriedgaa HN-O c21-0",
+    "address": 100496053434,
     "star_pos": [
       9921.9375,
       634.34375,
       2433.1875
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-08T11:01:03+00:00",
+    "last_seen_utc": "2026-02-08T11:03:00+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 8,
+      "fss_nonbodycount": 3,
+      "n_bodies_scanned": 8,
+      "n_stars_scanned": 4,
+      "n_planets_scanned": 4,
+      "n_landables": 4,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body"
+      ]
+    },
+    "stars": {
+      "n_stars": 4,
+      "types": [
+        "L",
+        "K",
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Tyriedgaa HN-O c21-0 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 0,
+    "StellarMass": 0.730469,
+    "Radius": 537204096.0,
+    "AbsoluteMagnitude": 5.96138,
+    "Age_MY": 8562,
+    "SurfaceTemperature": 5067.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 244196.732441,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa HN-O c21-0 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 0,
+        "StellarMass": 0.730469,
+        "Radius": 537204096.0,
+        "AbsoluteMagnitude": 5.96138,
+        "Age_MY": 8562,
+        "SurfaceTemperature": 5067.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 244196.732441,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa HN-O c21-0 D",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 2596.529651,
+        "StarType": "M",
+        "Subclass": 8,
+        "StellarMass": 0.207031,
+        "Radius": 250284912.0,
+        "AbsoluteMagnitude": 11.019409,
+        "Age_MY": 8562,
+        "SurfaceTemperature": 2317.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 95376.383723,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa HN-O c21-0 D A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 10799000000000.0,
+            "InnerRad": 406830000.0,
+            "OuterRad": 1427500000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Tyriedgaa HN-O c21-0 C",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 270.059996,
+        "StarType": "L",
+        "Subclass": 4,
+        "StellarMass": 0.15625,
+        "Radius": 226088432.0,
+        "AbsoluteMagnitude": 12.67308,
+        "Age_MY": 8562,
+        "SurfaceTemperature": 1666.0,
+        "Luminosity": "V",
+        "RotationPeriod": 109575.144452,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa HN-O c21-0 B",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 266.408701,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.320313,
+        "Radius": 356218752.0,
+        "AbsoluteMagnitude": 9.400864,
+        "Age_MY": 8562,
+        "SurfaceTemperature": 2819.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 203538.215431,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgaa HN-O c21-0 D 1",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 2593.582038,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000341,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HN-O c21-0 D 3",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 2508.663159,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001124,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HN-O c21-0 D 2",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 2560.222937,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00114,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HN-O c21-0 D 4",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 2473.26286,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001092,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

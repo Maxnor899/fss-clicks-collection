@@ -1,30 +1,38 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.659912+00:00",
+    "log_files": [
+      "Journal.2026-02-15T071238.01.log"
+    ]
+  },
+  "system": {
+    "name": "Sifaea GF-X c2-0",
+    "address": 93717959450,
+    "star_pos": [
+      5857.1875,
+      517.15625,
+      347.25
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-15T071238.01.log"
-      ],
-      "first_seen_utc": "2026-02-15T06:21:35Z",
-      "last_seen_utc": "2026-02-15T06:21:41Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-15T06:21:35+00:00",
+    "last_seen_utc": "2026-02-15T06:22:56+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 48,
       "fss_nonbodycount": 8,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 2,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -32,21 +40,92 @@
         "G",
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.271971Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 93717959450,
-    "name": "Sifaea GF-X c2-0",
-    "star_pos": [
-      5857.1875,
-      517.15625,
-      347.25
+  "primary_star": {
+    "BodyName": "Sifaea GF-X c2-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "G",
+    "Subclass": 2,
+    "StellarMass": 0.886719,
+    "Radius": 626200448.0,
+    "AbsoluteMagnitude": 5.028061,
+    "Age_MY": 12254,
+    "SurfaceTemperature": 5818.0,
+    "Luminosity": "Vb",
+    "RotationPeriod": 240081.163407,
+    "Rings": [
+      {
+        "Name": "Sifaea GF-X c2-0 A A Belt",
+        "RingClass": "eRingClass_Metalic",
+        "MassMT": 131520000000.0,
+        "InnerRad": 1033200000.0,
+        "OuterRad": 2467700000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Sifaea GF-X c2-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 2,
+        "StellarMass": 0.886719,
+        "Radius": 626200448.0,
+        "AbsoluteMagnitude": 5.028061,
+        "Age_MY": 12254,
+        "SurfaceTemperature": 5818.0,
+        "Luminosity": "Vb",
+        "RotationPeriod": 240081.163407,
+        "Rings": [
+          {
+            "Name": "Sifaea GF-X c2-0 A A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 131520000000.0,
+            "InnerRad": 1033200000.0,
+            "OuterRad": 2467700000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Sifaea GF-X c2-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 22374.814625,
+        "StarType": "K",
+        "Subclass": 7,
+        "StellarMass": 0.546875,
+        "Radius": 499041600.0,
+        "AbsoluteMagnitude": 7.02652,
+        "Age_MY": 12254,
+        "SurfaceTemperature": 4114.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 211591.798796,
+        "Rings": [
+          {
+            "Name": "Sifaea GF-X c2-0 B A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 107030000000000.0,
+            "InnerRad": 823420000.0,
+            "OuterRad": 2098600000.0
+          }
+        ]
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

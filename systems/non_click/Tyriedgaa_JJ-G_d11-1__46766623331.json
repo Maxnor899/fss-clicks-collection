@@ -1,35 +1,42 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.578860+00:00",
+    "log_files": [
+      "Journal.2026-02-08T165846.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgaa JJ-G d11-1",
+    "address": 46766623331,
+    "star_pos": [
+      9152.46875,
+      617.21875,
+      2465.8125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T165846.01.log",
-        "Journal.2026-02-08T222850.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T16:27:16Z",
-      "last_seen_utc": "2026-02-08T21:40:29Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-08T16:27:16+00:00",
+    "last_seen_utc": "2026-02-08T21:41:21+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 15,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 15,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 13,
+      "n_landables": 13,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 18,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 16,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 2,
+      "n_terraformables": 1,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky ice body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 3,
-      "n_saa_mappings": 3
     },
     "stars": {
       "n_stars": 2,
@@ -37,21 +44,293 @@
         "F",
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_bio_signals": 4,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 3
+    },
+    "codex": {
+      "n_entries": 1
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.220168Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgaa JJ-G d11-1 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "F",
+    "Subclass": 1,
+    "StellarMass": 1.554688,
+    "Radius": 991991616.0,
+    "AbsoluteMagnitude": 3.060989,
+    "Age_MY": 1412,
+    "SurfaceTemperature": 7270.0,
+    "Luminosity": "Vb",
+    "RotationPeriod": 118513.867918,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 46766623331,
-    "name": "Tyriedgaa JJ-G d11-1",
-    "star_pos": [
-      9152.46875,
-      617.21875,
-      2465.8125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "F",
+        "Subclass": 1,
+        "StellarMass": 1.554688,
+        "Radius": 991991616.0,
+        "AbsoluteMagnitude": 3.060989,
+        "Age_MY": 1412,
+        "SurfaceTemperature": 7270.0,
+        "Luminosity": "Vb",
+        "RotationPeriod": 118513.867918,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 88107.8049,
+        "StarType": "K",
+        "Subclass": 3,
+        "StellarMass": 0.761719,
+        "Radius": 618623104.0,
+        "AbsoluteMagnitude": 5.987045,
+        "Age_MY": 1412,
+        "SurfaceTemperature": 4694.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 391927.690588,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 A 6",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 2297.197322,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.051413,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 A 3",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 703.002028,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.030344,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 B 1",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 88994.279678,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Ammonia",
+        "Volcanism": "",
+        "MassEM": 0.028411,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 B 4",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 84900.972258,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.048797,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 B 5",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 84310.285884,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.109888,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 B 5 a",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 84306.798779,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.007437,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 B 3",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 85666.847349,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.030149,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 B 2",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 87464.608441,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.024163,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 A 4",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1021.082054,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.022312,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 A 2",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 474.250658,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.111201,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 A 7",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 3309.489603,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.03154,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 A 5",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 1285.311152,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.081274,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa JJ-G d11-1 A 1",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 318.087993,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.060116,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Tyriedgaa JJ-G d11-1 A 6",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa JJ-G d11-1 B 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa JJ-G d11-1 A 5",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Tyriedgaa JJ-G d11-1 A 5",
+    "Tyriedgaa JJ-G d11-1 A 6",
+    "Tyriedgaa JJ-G d11-1 B 1"
+  ],
+  "codex_entries": [
+    {
+      "Name": "Stratum Tectonicas - Émeraude",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    }
+  ]
 }

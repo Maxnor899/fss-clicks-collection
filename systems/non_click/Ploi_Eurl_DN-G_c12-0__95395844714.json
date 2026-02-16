@@ -1,55 +1,356 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-01T131305.01.log",
-        "Journal.2026-02-01T175645.01.log"
-      ],
-      "first_seen_utc": "2026-02-01T13:07:53Z",
-      "last_seen_utc": "2026-02-01T16:59:54Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 17,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 22,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 20,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 4,
-      "planet_classes": [
-        "High metal content body",
-        "Rocky body"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 1,
-      "n_saa_mappings": 5
-    },
-    "stars": {
-      "n_stars": 1,
-      "types": [
-        "K"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.189551Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.523660+00:00",
+    "log_files": [
+      "Journal.2026-02-01T131305.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 95395844714,
     "name": "Ploi Eurl DN-G c12-0",
+    "address": 95395844714,
     "star_pos": [
       6855.90625,
       699.09375,
       -540.21875
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-01T13:07:53+00:00",
+    "last_seen_utc": "2026-02-01T17:02:20+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 17,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 17,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 15,
+      "n_landables": 12,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 2,
+      "planet_classes": [
+        "High metal content body",
+        "Rocky body"
+      ]
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "K"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_bio_signals": 2,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 5
+    },
+    "codex": {
+      "n_entries": 3
+    }
+  },
+  "primary_star": {
+    "BodyName": "Ploi Eurl DN-G c12-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 3,
+    "StellarMass": 0.75,
+    "Radius": 630402944.0,
+    "AbsoluteMagnitude": 5.899124,
+    "Age_MY": 6006,
+    "SurfaceTemperature": 4745.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 276804.081087,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 3,
+        "StellarMass": 0.75,
+        "Radius": 630402944.0,
+        "AbsoluteMagnitude": 5.899124,
+        "Age_MY": 6006,
+        "SurfaceTemperature": 4745.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 276804.081087,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 8074.963087,
+        "StarType": "K",
+        "Subclass": 5,
+        "StellarMass": 0.59375,
+        "Radius": 527483072.0,
+        "AbsoluteMagnitude": 6.605301,
+        "Age_MY": 6006,
+        "SurfaceTemperature": 4409.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 200166.596184,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 A 4",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 289.727591,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.343008,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 A 2",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 91.352567,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.55094,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 A 1",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 52.831056,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.522603,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 B 7",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 7857.787223,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.049588,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 B 8",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 7858.070893,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.017637,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 A 5",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 518.132579,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "Water",
+        "Volcanism": "",
+        "MassEM": 0.892227,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 B 5 a",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 7632.153888,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001317,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 B 5",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 7631.985045,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.037015,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 B 2",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 7836.851367,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.070694,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 B 1",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 7941.789868,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.070282,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 B 3",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 8243.795558,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.023722,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 B 4",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 8243.528902,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.015877,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 B 6",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 7616.753588,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.027926,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 A 3 a",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 164.95536,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.013356,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl DN-G c12-0 A 3",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 164.657564,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.436016,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Ploi Eurl DN-G c12-0 B 7",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Ploi Eurl DN-G c12-0 A 1",
+    "Ploi Eurl DN-G c12-0 A 2",
+    "Ploi Eurl DN-G c12-0 A 5",
+    "Ploi Eurl DN-G c12-0 B 7",
+    "Ploi Eurl DN-G c12-0 B 2"
+  ],
+  "codex_entries": [
+    {
+      "Name": "Terraformable",
+      "Category": "Corps astronomiques",
+      "SubCategory": "Planètes telluriques",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Bacterium Cerbrus - Vert",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Stratum Tectonicas - Vert clair",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    }
+  ]
 }

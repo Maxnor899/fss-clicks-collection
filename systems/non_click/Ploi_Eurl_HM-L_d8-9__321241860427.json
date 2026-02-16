@@ -1,59 +1,687 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.527523+00:00",
+    "log_files": [
+      "Journal.2026-02-01T175645.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploi Eurl HM-L d8-9",
+    "address": 321241860427,
+    "star_pos": [
+      7268.34375,
+      595.0625,
+      -294.5
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-01T175645.01.log",
-        "Journal.2026-02-01T210420.01.log",
-        "Journal.2026-02-02T173833.01.log"
-      ],
-      "first_seen_utc": "2026-02-01T17:40:43Z",
-      "last_seen_utc": "2026-02-02T16:53:24Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-01T17:40:43+00:00",
+    "last_seen_utc": "2026-02-02T17:16:41+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 23,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 23,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 22,
+      "n_landables": 17,
       "has_gas_giant": true,
       "has_ringed_body": true,
-      "n_bodies_scanned": 28,
-      "n_gas_giants": 5,
-      "n_planets_scanned": 27,
-      "n_ringed_bodies": 3,
       "n_terraformables": 0,
       "planet_classes": [
+        "Sudarsky class II gas giant",
         "Gas giant with ammonia based life",
-        "Gas giant with water based life",
         "Icy body",
-        "Rocky body",
-        "Sudarsky class II gas giant"
+        "Gas giant with water based life",
+        "Rocky body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 6,
-      "n_saa_mappings": 5
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "F"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 6,
+      "n_bio_signals": 23,
+      "n_geo_signals": 3,
+      "n_saa_mappings": 5
+    },
+    "codex": {
+      "n_entries": 28
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.192271Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Ploi Eurl HM-L d8-9",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "F",
+    "Subclass": 2,
+    "StellarMass": 1.363281,
+    "Radius": 816376192.0,
+    "AbsoluteMagnitude": 3.589386,
+    "Age_MY": 1582,
+    "SurfaceTemperature": 7096.0,
+    "Luminosity": "Vb",
+    "RotationPeriod": 166499.329831,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 321241860427,
-    "name": "Ploi Eurl HM-L d8-9",
-    "star_pos": [
-      7268.34375,
-      595.0625,
-      -294.5
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "F",
+        "Subclass": 2,
+        "StellarMass": 1.363281,
+        "Radius": 816376192.0,
+        "AbsoluteMagnitude": 3.589386,
+        "Age_MY": 1582,
+        "SurfaceTemperature": 7096.0,
+        "Luminosity": "Vb",
+        "RotationPeriod": 166499.329831,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 5",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 3871.328474,
+        "PlanetClass": "Gas giant with ammonia based life",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 72.297813,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl HM-L d8-9 5 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 58474000000.0,
+            "InnerRad": 56981000.0,
+            "OuterRad": 71481000.0
+          },
+          {
+            "Name": "Ploi Eurl HM-L d8-9 5 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 499870000000.0,
+            "InnerRad": 71581000.0,
+            "OuterRad": 145030000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 5 c",
+        "BodyID": 34,
+        "DistanceFromArrivalLS": 3876.193702,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.003405,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 5 d",
+        "BodyID": 36,
+        "DistanceFromArrivalLS": 3858.107542,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.004818,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 5 b",
+        "BodyID": 33,
+        "DistanceFromArrivalLS": 3865.47003,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000363,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 5 a",
+        "BodyID": 32,
+        "DistanceFromArrivalLS": 3871.974649,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001303,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 1",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 1701.532971,
+        "PlanetClass": "Gas giant with water based life",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 302.035339,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 1 b",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 1703.077627,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002021,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 1 a",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 1700.782711,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "metallic magma volcanism",
+        "MassEM": 0.005814,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 1 c",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1698.903526,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.007671,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 2",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1727.640096,
+        "PlanetClass": "Sudarsky class II gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 6.235417,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl HM-L d8-9 2 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 11604000000.0,
+            "InnerRad": 56234000.0,
+            "OuterRad": 62844000.0
+          },
+          {
+            "Name": "Ploi Eurl HM-L d8-9 2 B Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 64583000000.0,
+            "InnerRad": 62944000.0,
+            "OuterRad": 91268000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 2 a",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 1727.556917,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000839,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 3",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 2413.505693,
+        "PlanetClass": "Sudarsky class II gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 61.105366,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 3 a",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 2414.638243,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001571,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 3 b",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 2415.497803,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000437,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 3 c",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 2408.86144,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.0014,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 3 d",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 2416.432999,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001118,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 4",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 3000.085839,
+        "PlanetClass": "Gas giant with water based life",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 366.688843,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl HM-L d8-9 4 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 57732000000.0,
+            "InnerRad": 136170000.0,
+            "OuterRad": 144500000.0
+          },
+          {
+            "Name": "Ploi Eurl HM-L d8-9 4 B Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 1017400000000.0,
+            "InnerRad": 144600000.0,
+            "OuterRad": 249180000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 4 c",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 3002.652222,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.006053,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 4 a",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 3000.629657,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.002488,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 4 b",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 2996.221309,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.00279,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 4 d",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 3005.970054,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.004148,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl HM-L d8-9 4 e",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 2990.615506,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.015849,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Ploi Eurl HM-L d8-9 1 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl HM-L d8-9 4 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 5
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl HM-L d8-9 4 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl HM-L d8-9 4 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 4
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl HM-L d8-9 4 d",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 4
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl HM-L d8-9 4 e",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 7
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Ploi Eurl HM-L d8-9 4 a",
+    "Ploi Eurl HM-L d8-9 4 c",
+    "Ploi Eurl HM-L d8-9 4 b",
+    "Ploi Eurl HM-L d8-9 4 d",
+    "Ploi Eurl HM-L d8-9 4 e"
+  ],
+  "codex_entries": [
+    {
+      "Name": "Concha Labiata - Gris",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Frutexa Acus - Vert",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Stratum Excutitus - Émeraude",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Aleoida Arcus - Bleu canard",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Touradon Albata - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Bacterium Aurasus - Vert clair",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Touradon Albata - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Frutexa Acus - Vert",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Stratum Excutitus - Émeraude",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Touradon Serrati - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Cactoida Cortexum - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Fungoida Stabitis - Bleu",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Touradon Caputus - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Touradon Caputus - Jaune",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    },
+    {
+      "Name": "Fungoida Stabitis - Bleu",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": null
+    }
+  ]
 }

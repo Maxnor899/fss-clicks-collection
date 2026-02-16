@@ -1,55 +1,255 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.590306+00:00",
+    "log_files": [
+      "Journal.2026-02-09T151317.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgoea XO-V c17-0",
+    "address": 96603739290,
+    "star_pos": [
+      7577.28125,
+      615.75,
+      2256.125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-09T151317.01.log"
-      ],
-      "first_seen_utc": "2026-02-09T14:24:22Z",
-      "last_seen_utc": "2026-02-09T14:28:46Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-09T14:24:22+00:00",
+    "last_seen_utc": "2026-02-09T14:39:44+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 10,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 10,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 9,
+      "n_landables": 9,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 11,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 10,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 3,
-      "n_saa_mappings": 1
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_bio_signals": 4,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.227680Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgoea XO-V c17-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 3,
+    "StellarMass": 0.675781,
+    "Radius": 578062144.0,
+    "AbsoluteMagnitude": 6.128769,
+    "Age_MY": 2778,
+    "SurfaceTemperature": 4700.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 294024.793643,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 96603739290,
-    "name": "Tyriedgoea XO-V c17-0",
-    "star_pos": [
-      7577.28125,
-      615.75,
-      2256.125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgoea XO-V c17-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 3,
+        "StellarMass": 0.675781,
+        "Radius": 578062144.0,
+        "AbsoluteMagnitude": 6.128769,
+        "Age_MY": 2778,
+        "SurfaceTemperature": 4700.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 294024.793643,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgoea XO-V c17-0 6",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 2285.748632,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.095228,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea XO-V c17-0 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 390.847572,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.013769,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea XO-V c17-0 7 a",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 4200.515745,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.003364,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea XO-V c17-0 7",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 4200.024776,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.14884,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea XO-V c17-0 5",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1460.408516,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.006213,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea XO-V c17-0 4",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1041.36742,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.005351,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea XO-V c17-0 3 a",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 750.382147,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000643,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea XO-V c17-0 3",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 750.089388,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.008143,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgoea XO-V c17-0 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 552.379908,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.008797,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Tyriedgoea XO-V c17-0 6",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgoea XO-V c17-0 7 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgoea XO-V c17-0 7",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Tyriedgoea XO-V c17-0 6"
+  ],
+  "codex_entries": []
 }

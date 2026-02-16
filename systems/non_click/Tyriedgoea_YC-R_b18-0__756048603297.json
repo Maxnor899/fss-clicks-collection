@@ -1,51 +1,106 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-16T151444.01.log"
-      ],
-      "first_seen_utc": "2026-02-16T14:48:50Z",
-      "last_seen_utc": "2026-02-16T14:48:56Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 19,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": false,
-      "has_ringed_body": false,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 0,
-      "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 1,
-      "types": [
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.291435Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.685710+00:00",
+    "log_files": [
+      "Journal.2026-02-16T151444.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 756048603297,
     "name": "Tyriedgoea YC-R b18-0",
+    "address": 756048603297,
     "star_pos": [
       6346.71875,
       24.40625,
       1911.40625
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-16T14:48:50+00:00",
+    "last_seen_utc": "2026-02-16T14:50:06+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 19,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": null,
+      "n_landables": null,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Tyriedgoea YC-R b18-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 0,
+    "StellarMass": 0.433594,
+    "Radius": 443219904.0,
+    "AbsoluteMagnitude": 7.747238,
+    "Age_MY": 9502,
+    "SurfaceTemperature": 3698.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 225054.974716,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgoea YC-R b18-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 0,
+        "StellarMass": 0.433594,
+        "Radius": 443219904.0,
+        "AbsoluteMagnitude": 7.747238,
+        "Age_MY": 9502,
+        "SurfaceTemperature": 3698.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 225054.974716,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgoea YC-R b18-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 168814.278991,
+        "StarType": "M",
+        "Subclass": 7,
+        "StellarMass": 0.257813,
+        "Radius": 300481952.0,
+        "AbsoluteMagnitude": 10.544281,
+        "Age_MY": 9502,
+        "SurfaceTemperature": 2359.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 160788.696079,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

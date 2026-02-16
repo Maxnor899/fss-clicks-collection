@@ -1,61 +1,490 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-04T173406.01.log",
-        "Journal.2026-02-04T182059.01.log"
-      ],
-      "first_seen_utc": "2026-02-04T16:43:06Z",
-      "last_seen_utc": "2026-02-04T17:21:41Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 23,
-      "fss_nonbodycount": 0,
-      "has_gas_giant": true,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 26,
-      "n_gas_giants": 3,
-      "n_planets_scanned": 22,
-      "n_ringed_bodies": 2,
-      "n_terraformables": 4,
-      "planet_classes": [
-        "Gas giant with ammonia based life",
-        "High metal content body",
-        "Icy body",
-        "Rocky body",
-        "Sudarsky class I gas giant",
-        "Sudarsky class III gas giant"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 5,
-      "n_saa_mappings": 3
-    },
-    "stars": {
-      "n_stars": 3,
-      "types": [
-        "K",
-        "M",
-        "T"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.197482Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.538329+00:00",
+    "log_files": [
+      "Journal.2026-02-04T173406.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 183786146139,
     "name": "Ploi Eurl MD-I d10-5",
+    "address": 183786146139,
     "star_pos": [
       7209.875,
       659.78125,
       -110.28125
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-04T16:43:06+00:00",
+    "last_seen_utc": "2026-02-04T17:24:03+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 23,
+      "fss_nonbodycount": 0,
+      "n_bodies_scanned": 23,
+      "n_stars_scanned": 4,
+      "n_planets_scanned": 19,
+      "n_landables": 8,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_terraformables": 2,
+      "planet_classes": [
+        "Gas giant with ammonia based life",
+        "Sudarsky class III gas giant",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class I gas giant",
+        "High metal content body"
+      ]
+    },
+    "stars": {
+      "n_stars": 4,
+      "types": [
+        "K",
+        "M",
+        "T"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 5,
+      "n_bio_signals": 1,
+      "n_geo_signals": 9,
+      "n_saa_mappings": 3
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Ploi Eurl MD-I d10-5 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 4,
+    "StellarMass": 0.683594,
+    "Radius": 578529088.0,
+    "AbsoluteMagnitude": 6.269821,
+    "Age_MY": 2328,
+    "SurfaceTemperature": 4548.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 284804.909721,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 4,
+        "StellarMass": 0.683594,
+        "Radius": 578529088.0,
+        "AbsoluteMagnitude": 6.269821,
+        "Age_MY": 2328,
+        "SurfaceTemperature": 4548.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 284804.909721,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 22.845646,
+        "StarType": "M",
+        "Subclass": 4,
+        "StellarMass": 0.40625,
+        "Radius": 422270880.0,
+        "AbsoluteMagnitude": 8.807663,
+        "Age_MY": 2328,
+        "SurfaceTemperature": 2968.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 152386.110968,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 D",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1523.047354,
+        "StarType": "T",
+        "Subclass": 2,
+        "StellarMass": 0.070313,
+        "Radius": 134311632.0,
+        "AbsoluteMagnitude": 15.482864,
+        "Age_MY": 2328,
+        "SurfaceTemperature": 1132.0,
+        "Luminosity": "V",
+        "RotationPeriod": 66516.574895,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 C",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1524.085939,
+        "StarType": "M",
+        "Subclass": 6,
+        "StellarMass": 0.246094,
+        "Radius": 267540784.0,
+        "AbsoluteMagnitude": 10.392365,
+        "Age_MY": 2328,
+        "SurfaceTemperature": 2589.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 147124.957949,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 ABCD 2",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 2715.124067,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 103.762581,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl MD-I d10-5 ABCD 2 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 619160000000.0,
+            "InnerRad": 95468000.0,
+            "OuterRad": 178940000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 ABCD 2 a",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 2715.57088,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.002928,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 ABCD 2 b",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 2715.60641,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.003732,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 ABCD 2 c",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 2715.945493,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 0.002589,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 ABCD 1 e",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 2768.932731,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.018336,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 ABCD 1 b",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 2757.33472,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "carbon dioxide geysers volcanism",
+        "MassEM": 0.108984,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 ABCD 1 c",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 2753.792831,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.024431,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 ABCD 1 d",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 2757.637349,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.025804,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 AB 2",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 236.402936,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.223745,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 ABCD 3",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 8601.486682,
+        "PlanetClass": "Gas giant with ammonia based life",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 553.705566,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 CD 4",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 1562.764168,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.242803,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 CD 5",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 1462.083924,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "Water",
+        "Volcanism": "",
+        "MassEM": 0.221897,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 CD 2",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 1540.087325,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.291677,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 CD 2 a",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 1540.054163,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major silicate vapour geysers volcanism",
+        "MassEM": 0.01179,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 CD 1",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 1528.078875,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.295666,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 CD 3",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 1589.755494,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.098701,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 AB 1",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 130.511076,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "",
+        "MassEM": 0.431762,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 ABCD 1",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 2758.879234,
+        "PlanetClass": "Sudarsky class III gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 1490.853882,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Ploi Eurl MD-I d10-5 ABCD 1 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 372850000000.0,
+            "InnerRad": 117440000.0,
+            "OuterRad": 160640000.0
+          },
+          {
+            "Name": "Ploi Eurl MD-I d10-5 ABCD 1 B Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 4108900000000.0,
+            "InnerRad": 160740000.0,
+            "OuterRad": 397700000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl MD-I d10-5 ABCD 1 a",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 2761.094438,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "SulphurDioxide",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.011055,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Ploi Eurl MD-I d10-5 ABCD 2 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl MD-I d10-5 ABCD 2 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl MD-I d10-5 ABCD 2 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl MD-I d10-5 CD 2 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Ploi Eurl MD-I d10-5 CD 3",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Ploi Eurl MD-I d10-5 CD 3",
+    "Ploi Eurl MD-I d10-5 CD 4",
+    "Ploi Eurl MD-I d10-5 CD 5"
+  ],
+  "codex_entries": []
 }

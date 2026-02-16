@@ -1,51 +1,107 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.609083+00:00",
+    "log_files": [
+      "Journal.2026-02-10T202414.01.log"
+    ]
+  },
+  "system": {
+    "name": "IC 2944 Sector HD-K b12-0",
+    "address": 741821393129,
+    "star_pos": [
+      5276.90625,
+      -21.53125,
+      2087.4375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-10T202414.01.log"
-      ],
-      "first_seen_utc": "2026-02-10T20:41:05Z",
-      "last_seen_utc": "2026-02-10T20:41:11Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-10T20:41:05+00:00",
+    "last_seen_utc": "2026-02-10T20:42:31+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 7,
       "fss_nonbodycount": 4,
+      "n_bodies_scanned": 1,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 1,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.238336Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 741821393129,
-    "name": "IC 2944 Sector HD-K b12-0",
-    "star_pos": [
-      5276.90625,
-      -21.53125,
-      2087.4375
+  "primary_star": {
+    "BodyName": "IC 2944 Sector HD-K b12-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 5,
+    "StellarMass": 0.308594,
+    "Radius": 326355232.0,
+    "AbsoluteMagnitude": 9.771957,
+    "Age_MY": 10730,
+    "SurfaceTemperature": 2704.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 173586.832638,
+    "Rings": [
+      {
+        "Name": "IC 2944 Sector HD-K b12-0 A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 73467000000000.0,
+        "InnerRad": 538660000.0,
+        "OuterRad": 1630700000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "IC 2944 Sector HD-K b12-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.308594,
+        "Radius": 326355232.0,
+        "AbsoluteMagnitude": 9.771957,
+        "Age_MY": 10730,
+        "SurfaceTemperature": 2704.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 173586.832638,
+        "Rings": [
+          {
+            "Name": "IC 2944 Sector HD-K b12-0 A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 73467000000000.0,
+            "InnerRad": 538660000.0,
+            "OuterRad": 1630700000.0
+          }
+        ]
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

@@ -1,53 +1,153 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T105854.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T10:40:32Z",
-      "last_seen_utc": "2026-02-11T10:40:39Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 14,
-      "fss_nonbodycount": 12,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 4,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 2,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 0,
-      "planet_classes": [
-        "High metal content body"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 1,
-      "types": [
-        "M"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.243300Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.617468+00:00",
+    "log_files": [
+      "Journal.2026-02-11T105854.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 9538719393553,
     "name": "Swoidai GG-D b32-4",
+    "address": 9538719393553,
     "star_pos": [
       5340.21875,
       -107.125,
       902.34375
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-11T10:40:32+00:00",
+    "last_seen_utc": "2026-02-11T10:41:52+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 14,
+      "fss_nonbodycount": 12,
+      "n_bodies_scanned": 4,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 2,
+      "n_landables": 2,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body"
+      ]
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "M"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Swoidai GG-D b32-4 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 3,
+    "StellarMass": 0.410156,
+    "Radius": 400239328.0,
+    "AbsoluteMagnitude": 8.735016,
+    "Age_MY": 6418,
+    "SurfaceTemperature": 3100.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 245477.637137,
+    "Rings": [
+      {
+        "Name": "Swoidai GG-D b32-4 A A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 82535000000000.0,
+        "InnerRad": 765220000.0,
+        "OuterRad": 1792900000.0
+      }
+    ]
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Swoidai GG-D b32-4 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 3,
+        "StellarMass": 0.410156,
+        "Radius": 400239328.0,
+        "AbsoluteMagnitude": 8.735016,
+        "Age_MY": 6418,
+        "SurfaceTemperature": 3100.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 245477.637137,
+        "Rings": [
+          {
+            "Name": "Swoidai GG-D b32-4 A A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 82535000000000.0,
+            "InnerRad": 765220000.0,
+            "OuterRad": 1792900000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Swoidai GG-D b32-4 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 5743.321881,
+        "StarType": "M",
+        "Subclass": 4,
+        "StellarMass": 0.40625,
+        "Radius": 365069568.0,
+        "AbsoluteMagnitude": 9.054123,
+        "Age_MY": 6418,
+        "SurfaceTemperature": 3016.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 163258.432801,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Swoidai GG-D b32-4 A 2",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 32.930553,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.023641,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai GG-D b32-4 A 1",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 18.651112,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.045379,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

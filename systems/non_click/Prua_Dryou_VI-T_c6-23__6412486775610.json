@@ -1,51 +1,91 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.628418+00:00",
+    "log_files": [
+      "Journal.2026-02-12T061747.01.log"
+    ]
+  },
+  "system": {
+    "name": "Prua Dryou VI-T c6-23",
+    "address": 6412486775610,
+    "star_pos": [
+      3842.3125,
+      -93.125,
+      503.65625
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-12T061747.01.log"
-      ],
-      "first_seen_utc": "2026-02-12T05:20:09Z",
-      "last_seen_utc": "2026-02-12T05:20:15Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-12T05:20:09+00:00",
+    "last_seen_utc": "2026-02-12T05:21:20+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 1,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 1,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 1,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.249276Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Prua Dryou VI-T c6-23",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 1,
+    "StellarMass": 0.808594,
+    "Radius": 655023936.0,
+    "AbsoluteMagnitude": 5.604172,
+    "Age_MY": 2914,
+    "SurfaceTemperature": 4982.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 408706.024788,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 6412486775610,
-    "name": "Prua Dryou VI-T c6-23",
-    "star_pos": [
-      3842.3125,
-      -93.125,
-      503.65625
-    ]
-  }
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Prua Dryou VI-T c6-23",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 1,
+        "StellarMass": 0.808594,
+        "Radius": 655023936.0,
+        "AbsoluteMagnitude": 5.604172,
+        "Age_MY": 2914,
+        "SurfaceTemperature": 4982.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 408706.024788,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

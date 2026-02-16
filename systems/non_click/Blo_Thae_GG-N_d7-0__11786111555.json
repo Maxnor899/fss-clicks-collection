@@ -1,36 +1,44 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.600395+00:00",
+    "log_files": [
+      "Journal.2026-02-09T205244.01.log"
+    ]
+  },
+  "system": {
+    "name": "Blo Thae GG-N d7-0",
+    "address": 11786111555,
+    "star_pos": [
+      6209.96875,
+      538.5625,
+      2160.46875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-09T205244.01.log"
-      ],
-      "first_seen_utc": "2026-02-09T20:00:33Z",
-      "last_seen_utc": "2026-02-09T20:06:33Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-09T20:00:33+00:00",
+    "last_seen_utc": "2026-02-09T20:21:01+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 18,
       "fss_nonbodycount": 12,
+      "n_bodies_scanned": 18,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 16,
+      "n_landables": 15,
       "has_gas_giant": true,
       "has_ringed_body": true,
-      "n_bodies_scanned": 19,
-      "n_gas_giants": 1,
-      "n_planets_scanned": 17,
-      "n_ringed_bodies": 2,
       "n_terraformables": 0,
       "planet_classes": [
-        "Gas giant with water based life",
-        "High metal content body",
         "Icy body",
+        "Gas giant with water based life",
+        "Rocky ice body",
         "Rocky body",
-        "Rocky ice body"
+        "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 3,
-      "n_saa_mappings": 1
     },
     "stars": {
       "n_stars": 2,
@@ -38,21 +46,384 @@
         "G",
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_bio_signals": 3,
+      "n_geo_signals": 6,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 2
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.233153Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 11786111555,
-    "name": "Blo Thae GG-N d7-0",
-    "star_pos": [
-      6209.96875,
-      538.5625,
-      2160.46875
+  "primary_star": {
+    "BodyName": "Blo Thae GG-N d7-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "G",
+    "Subclass": 3,
+    "StellarMass": 1.078125,
+    "Radius": 778171264.0,
+    "AbsoluteMagnitude": 4.604156,
+    "Age_MY": 7906,
+    "SurfaceTemperature": 5754.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 347312.310731,
+    "Rings": [
+      {
+        "Name": "Blo Thae GG-N d7-0 A A Belt",
+        "RingClass": "eRingClass_Metalic",
+        "MassMT": 125620000000000.0,
+        "InnerRad": 1326600000.0,
+        "OuterRad": 2474300000.0
+      },
+      {
+        "Name": "Blo Thae GG-N d7-0 A B Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 1095300000000000.0,
+        "InnerRad": 3147100000.0,
+        "OuterRad": 507530000000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Blo Thae GG-N d7-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 3,
+        "StellarMass": 1.078125,
+        "Radius": 778171264.0,
+        "AbsoluteMagnitude": 4.604156,
+        "Age_MY": 7906,
+        "SurfaceTemperature": 5754.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 347312.310731,
+        "Rings": [
+          {
+            "Name": "Blo Thae GG-N d7-0 A A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 125620000000000.0,
+            "InnerRad": 1326600000.0,
+            "OuterRad": 2474300000.0
+          },
+          {
+            "Name": "Blo Thae GG-N d7-0 A B Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 1095300000000000.0,
+            "InnerRad": 3147100000.0,
+            "OuterRad": 507530000000.0
+          }
+        ]
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 81706.595887,
+        "StarType": "K",
+        "Subclass": 8,
+        "StellarMass": 0.554688,
+        "Radius": 472828768.0,
+        "AbsoluteMagnitude": 7.301773,
+        "Age_MY": 7906,
+        "SurfaceTemperature": 3967.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 184618.337927,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Blo Thae GG-N d7-0 A 1",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 2689.04428,
+        "PlanetClass": "Gas giant with water based life",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 548.781006,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Blo Thae GG-N d7-0 A 1 A Ring",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 95831000000.0,
+            "InnerRad": 125760000.0,
+            "OuterRad": 145620000.0
+          },
+          {
+            "Name": "Blo Thae GG-N d7-0 A 1 B Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 1413900000000.0,
+            "InnerRad": 145720000.0,
+            "OuterRad": 307800000.0
+          }
+        ],
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 A 1 d",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 2689.142392,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000944,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 A 1 e",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 2688.610192,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000861,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 A 1 a",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 2689.701156,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.000666,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 A 1 b",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 2692.285123,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor silicate vapour geysers volcanism",
+        "MassEM": 0.000706,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 A 1 c",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 2692.279892,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor silicate vapour geysers volcanism",
+        "MassEM": 0.000662,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 A 1 f",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 2704.617475,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.004193,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 B 7",
+        "BodyID": 35,
+        "DistanceFromArrivalLS": 83787.931659,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.156395,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 B 8",
+        "BodyID": 36,
+        "DistanceFromArrivalLS": 75778.133097,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.105111,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 B 3",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 80266.49677,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.046512,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 B 3 a",
+        "BodyID": 30,
+        "DistanceFromArrivalLS": 80266.764763,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00225,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 B 1",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 82562.850387,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.020932,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 B 6",
+        "BodyID": 34,
+        "DistanceFromArrivalLS": 78978.162866,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.027579,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 B 5",
+        "BodyID": 33,
+        "DistanceFromArrivalLS": 83624.775705,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.017632,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 B 4",
+        "BodyID": 32,
+        "DistanceFromArrivalLS": 83624.448293,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.027827,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae GG-N d7-0 B 2",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 82766.737828,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.024981,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Blo Thae GG-N d7-0 A 1 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Blo Thae GG-N d7-0 A 1 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Blo Thae GG-N d7-0 A 1 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Blo Thae GG-N d7-0 A 1 a"
+  ],
+  "codex_entries": [
+    {
+      "Name": "Bacterium Aurasus - Émeraude",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    },
+    {
+      "Name": "Frutexa Acus - Émeraude",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    }
+  ]
 }

@@ -1,51 +1,91 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.648437+00:00",
+    "log_files": [
+      "Journal.2026-02-14T205220.01.log"
+    ]
+  },
+  "system": {
+    "name": "Wregoi BT-Q b47-2",
+    "address": 5121615209881,
+    "star_pos": [
+      3917.03125,
+      264.03125,
+      -35.28125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-14T205220.01.log"
-      ],
-      "first_seen_utc": "2026-02-14T20:32:53Z",
-      "last_seen_utc": "2026-02-14T20:32:59Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-14T20:32:53+00:00",
+    "last_seen_utc": "2026-02-14T20:34:04+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 10,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 1,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 1,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.262075Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Wregoi BT-Q b47-2",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 3,
+    "StellarMass": 0.3125,
+    "Radius": 346879776.0,
+    "AbsoluteMagnitude": 9.134979,
+    "Age_MY": 4740,
+    "SurfaceTemperature": 3037.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 209341.510177,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 5121615209881,
-    "name": "Wregoi BT-Q b47-2",
-    "star_pos": [
-      3917.03125,
-      264.03125,
-      -35.28125
-    ]
-  }
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Wregoi BT-Q b47-2",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 3,
+        "StellarMass": 0.3125,
+        "Radius": 346879776.0,
+        "AbsoluteMagnitude": 9.134979,
+        "Age_MY": 4740,
+        "SurfaceTemperature": 3037.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 209341.510177,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

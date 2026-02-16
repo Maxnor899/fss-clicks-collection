@@ -1,33 +1,41 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.568499+00:00",
+    "log_files": [
+      "Journal.2026-02-08T111611.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgaa HS-Y c15-0",
+    "address": 100093334666,
+    "star_pos": [
+      9684.625,
+      566.28125,
+      2202.3125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T111611.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T10:41:49Z",
-      "last_seen_utc": "2026-02-08T10:46:44Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-08T10:41:49+00:00",
+    "last_seen_utc": "2026-02-08T10:47:25+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 21,
       "fss_nonbodycount": 3,
+      "n_bodies_scanned": 21,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 19,
+      "n_landables": 13,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 22,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 20,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 2,
+      "n_terraformables": 1,
       "planet_classes": [
-        "High metal content body",
-        "Icy body"
+        "Icy body",
+        "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 3,
-      "n_saa_mappings": 1
     },
     "stars": {
       "n_stars": 2,
@@ -35,21 +43,381 @@
         "K",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_bio_signals": 3,
+      "n_geo_signals": 5,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.215010Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgaa HS-Y c15-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 3,
+    "StellarMass": 0.785156,
+    "Radius": 585045184.0,
+    "AbsoluteMagnitude": 6.196136,
+    "Age_MY": 8440,
+    "SurfaceTemperature": 4600.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 288166.333707,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 100093334666,
-    "name": "Tyriedgaa HS-Y c15-0",
-    "star_pos": [
-      9684.625,
-      566.28125,
-      2202.3125
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 3,
+        "StellarMass": 0.785156,
+        "Radius": 585045184.0,
+        "AbsoluteMagnitude": 6.196136,
+        "Age_MY": 8440,
+        "SurfaceTemperature": 4600.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 288166.333707,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 419000.91534,
+        "StarType": "M",
+        "Subclass": 0,
+        "StellarMass": 0.441406,
+        "Radius": 454405504.0,
+        "AbsoluteMagnitude": 7.749878,
+        "Age_MY": 8440,
+        "SurfaceTemperature": 3650.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 278657.227095,
+        "Rings": [
+          {
+            "Name": "Tyriedgaa HS-Y c15-0 B A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 51241000000000.0,
+            "InnerRad": 846140000.0,
+            "OuterRad": 1837300000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 A 5",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 5243.10603,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.191422,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 A 2",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 850.542818,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.112288,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 A 3",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1479.938333,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "minor methane magma volcanism",
+        "MassEM": 0.385347,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 A 1",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 263.443795,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.230571,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 A 4",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 3450.069232,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "",
+        "MassEM": 0.264745,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 A 4 a",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 3446.961759,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.014764,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B 6",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 417820.859159,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.364849,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B 6 a",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 417820.430919,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.032168,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B 9",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 420828.100638,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.34075,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B 10",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 457145.189535,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "metallic magma volcanism",
+        "MassEM": 3.54765,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B 3",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 419691.351395,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.027598,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B 4",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 419691.041162,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.019871,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B 2",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 419405.714385,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.029087,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B 1",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 418903.148317,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.028225,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B 5",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 420148.387482,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Methane",
+        "Volcanism": "",
+        "MassEM": 0.156915,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B 7",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 419226.673742,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "minor nitrogen magma volcanism",
+        "MassEM": 0.311702,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B 7 a",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 419223.568138,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.004635,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B 8 a",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 418248.942147,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00978,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Tyriedgaa HS-Y c15-0 B 8",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 418243.765179,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.492344,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Tyriedgaa HS-Y c15-0 B 10",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa HS-Y c15-0 B 7",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        },
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Tyriedgaa HS-Y c15-0 B 7 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Tyriedgaa HS-Y c15-0 A 1"
+  ],
+  "codex_entries": []
 }

@@ -1,34 +1,42 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.615975+00:00",
+    "log_files": [
+      "Journal.2026-02-11T105854.01.log"
+    ]
+  },
+  "system": {
+    "name": "Swoidai QU-L b41-5",
+    "address": 11737205843809,
+    "star_pos": [
+      5314.25,
+      -98.375,
+      1098.90625
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-11T105854.01.log"
-      ],
-      "first_seen_utc": "2026-02-11T10:33:10Z",
-      "last_seen_utc": "2026-02-11T10:35:37Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-11T10:33:10+00:00",
+    "last_seen_utc": "2026-02-11T10:36:51+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 23,
       "fss_nonbodycount": 3,
+      "n_bodies_scanned": 23,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": 21,
+      "n_landables": 13,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 23,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 21,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky ice body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 7,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -36,21 +44,447 @@
         "M",
         "T"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 7,
+      "n_bio_signals": 6,
+      "n_geo_signals": 6,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.242585Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Swoidai QU-L b41-5 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 5,
+    "StellarMass": 0.261719,
+    "Radius": 276688768.0,
+    "AbsoluteMagnitude": 10.104904,
+    "Age_MY": 2008,
+    "SurfaceTemperature": 2720.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 128936.152244,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 11737205843809,
-    "name": "Swoidai QU-L b41-5",
-    "star_pos": [
-      5314.25,
-      -98.375,
-      1098.90625
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Swoidai QU-L b41-5 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.261719,
+        "Radius": 276688768.0,
+        "AbsoluteMagnitude": 10.104904,
+        "Age_MY": 2008,
+        "SurfaceTemperature": 2720.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 128936.152244,
+        "Rings": null
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 6303.147829,
+        "StarType": "T",
+        "Subclass": 4,
+        "StellarMass": 0.074219,
+        "Radius": 141973856.0,
+        "AbsoluteMagnitude": 15.730576,
+        "Age_MY": 2008,
+        "SurfaceTemperature": 1040.0,
+        "Luminosity": "V",
+        "RotationPeriod": 59801.431298,
+        "Rings": [
+          {
+            "Name": "Swoidai QU-L b41-5 B A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 29140000000000.0,
+            "InnerRad": 230490000.0,
+            "OuterRad": 1014100000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Swoidai QU-L b41-5 A 5",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 273.828053,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.374029,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 A 4",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 274.475935,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.598997,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 A 2",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 162.908367,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.315087,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 A 3",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 216.812661,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.433056,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 A 3 a",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 217.431812,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.004922,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 A 7",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 897.996742,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 2.086544,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 A 8",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 895.819378,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.603496,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 A 1",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 118.645507,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.250624,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 B 4",
+        "BodyID": 25,
+        "DistanceFromArrivalLS": 6327.980098,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.211908,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 B 1",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 6256.529229,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.087219,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 B 6",
+        "BodyID": 28,
+        "DistanceFromArrivalLS": 5722.107649,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.201337,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 B 6 a",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 5724.15447,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.015623,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 B 2 a",
+        "BodyID": 22,
+        "DistanceFromArrivalLS": 6322.657517,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.011415,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 B 2",
+        "BodyID": 21,
+        "DistanceFromArrivalLS": 6322.56222,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "minor nitrogen magma volcanism",
+        "MassEM": 0.163419,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 B 3 a",
+        "BodyID": 24,
+        "DistanceFromArrivalLS": 6305.926363,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.008597,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 B 3",
+        "BodyID": 23,
+        "DistanceFromArrivalLS": 6305.407126,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "",
+        "MassEM": 0.185255,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 A 9",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 1273.713892,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "NeonRich",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.824661,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 B 5",
+        "BodyID": 26,
+        "DistanceFromArrivalLS": 6239.653442,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Neon",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.555681,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 B 5 a",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 6240.832105,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.040518,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 A 6 a",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 388.389664,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.044668,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Swoidai QU-L b41-5 A 6",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 388.001421,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.637339,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Swoidai QU-L b41-5 B 4",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoidai QU-L b41-5 B 6",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoidai QU-L b41-5 B 2",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        },
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoidai QU-L b41-5 B 3",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoidai QU-L b41-5 A 9",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoidai QU-L b41-5 B 5",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Swoidai QU-L b41-5 A 6 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

@@ -1,58 +1,590 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.603437+00:00",
+    "log_files": [
+      "Journal.2026-02-10T202414.01.log"
+    ]
+  },
+  "system": {
+    "name": "Blo Thae ZA-C c14-0",
+    "address": 93516633210,
+    "star_pos": [
+      5767.9375,
+      516.1875,
+      2115.875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-10T202414.01.log"
-      ],
-      "first_seen_utc": "2026-02-10T19:28:31Z",
-      "last_seen_utc": "2026-02-10T19:31:34Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-10T19:28:31+00:00",
+    "last_seen_utc": "2026-02-10T19:33:09+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 24,
       "fss_nonbodycount": 9,
+      "n_bodies_scanned": 24,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 23,
+      "n_landables": 19,
       "has_gas_giant": true,
       "has_ringed_body": true,
-      "n_bodies_scanned": 24,
-      "n_gas_giants": 4,
-      "n_planets_scanned": 23,
-      "n_ringed_bodies": 4,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
+        "Sudarsky class II gas giant",
         "Icy body",
         "Metal rich body",
         "Rocky body",
         "Sudarsky class I gas giant",
-        "Sudarsky class II gas giant"
+        "High metal content body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 10,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "G"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 10,
+      "n_bio_signals": 12,
+      "n_geo_signals": 12,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.234797Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 93516633210,
-    "name": "Blo Thae ZA-C c14-0",
-    "star_pos": [
-      5767.9375,
-      516.1875,
-      2115.875
+  "primary_star": {
+    "BodyName": "Blo Thae ZA-C c14-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "G",
+    "Subclass": 9,
+    "StellarMass": 0.804688,
+    "Radius": 607755904.0,
+    "AbsoluteMagnitude": 5.570801,
+    "Age_MY": 9816,
+    "SurfaceTemperature": 5212.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 300505.935942,
+    "Rings": [
+      {
+        "Name": "Blo Thae ZA-C c14-0 A Belt",
+        "RingClass": "eRingClass_Rocky",
+        "MassMT": 104630000000000.0,
+        "InnerRad": 1134000000.0,
+        "OuterRad": 2244500000.0
+      },
+      {
+        "Name": "Blo Thae ZA-C c14-0 B Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 2739300000000000.0,
+        "InnerRad": 15536000000.0,
+        "OuterRad": 248580000000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Blo Thae ZA-C c14-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 9,
+        "StellarMass": 0.804688,
+        "Radius": 607755904.0,
+        "AbsoluteMagnitude": 5.570801,
+        "Age_MY": 9816,
+        "SurfaceTemperature": 5212.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 300505.935942,
+        "Rings": [
+          {
+            "Name": "Blo Thae ZA-C c14-0 A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 104630000000000.0,
+            "InnerRad": 1134000000.0,
+            "OuterRad": 2244500000.0
+          },
+          {
+            "Name": "Blo Thae ZA-C c14-0 B Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 2739300000000000.0,
+            "InnerRad": 15536000000.0,
+            "OuterRad": 248580000000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 17.747876,
+        "PlanetClass": "Metal rich body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor metallic magma volcanism",
+        "MassEM": 1.114745,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 5",
+        "BodyID": 31,
+        "DistanceFromArrivalLS": 1839.824426,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 62.831955,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Blo Thae ZA-C c14-0 5 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 52277000000.0,
+            "InnerRad": 94412000.0,
+            "OuterRad": 102850000.0
+          },
+          {
+            "Name": "Blo Thae ZA-C c14-0 5 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 269230000000.0,
+            "InnerRad": 102950000.0,
+            "OuterRad": 138400000.0
+          }
+        ],
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 5 d",
+        "BodyID": 38,
+        "DistanceFromArrivalLS": 1838.516717,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000708,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 5 c",
+        "BodyID": 37,
+        "DistanceFromArrivalLS": 1838.500126,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000782,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 5 a",
+        "BodyID": 34,
+        "DistanceFromArrivalLS": 1839.36089,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.001787,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 5 b",
+        "BodyID": 35,
+        "DistanceFromArrivalLS": 1840.28355,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000838,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 4",
+        "BodyID": 27,
+        "DistanceFromArrivalLS": 1824.290318,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 131.373566,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Blo Thae ZA-C c14-0 4 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 273070000000.0,
+            "InnerRad": 112890000.0,
+            "OuterRad": 176980000.0
+          }
+        ],
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 4 a",
+        "BodyID": 29,
+        "DistanceFromArrivalLS": 1824.023134,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.003627,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 4 b",
+        "BodyID": 30,
+        "DistanceFromArrivalLS": 1828.398209,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.0012,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 3",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 1316.581791,
+        "PlanetClass": "Sudarsky class II gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 752.717102,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 3 e",
+        "BodyID": 19,
+        "DistanceFromArrivalLS": 1319.437369,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.00156,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 3 c",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 1319.757701,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.00134,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 3 a",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 1317.182303,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001486,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 3 b",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 1318.009891,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002641,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 3 d",
+        "BodyID": 18,
+        "DistanceFromArrivalLS": 1317.13749,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.001544,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 3 f",
+        "BodyID": 20,
+        "DistanceFromArrivalLS": 1312.322488,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.003882,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 6",
+        "BodyID": 39,
+        "DistanceFromArrivalLS": 2578.555034,
+        "PlanetClass": "Sudarsky class I gas giant",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 28.532864,
+        "Landable": false,
+        "Rings": [
+          {
+            "Name": "Blo Thae ZA-C c14-0 6 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 10070000000.0,
+            "InnerRad": 56531000.0,
+            "OuterRad": 60076000.0
+          },
+          {
+            "Name": "Blo Thae ZA-C c14-0 6 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 255030000000.0,
+            "InnerRad": 60176000.0,
+            "OuterRad": 115880000.0
+          }
+        ],
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 6 c",
+        "BodyID": 45,
+        "DistanceFromArrivalLS": 2581.516585,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor ammonia magma volcanism",
+        "MassEM": 0.000577,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 6 b",
+        "BodyID": 44,
+        "DistanceFromArrivalLS": 2581.484195,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00066,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 6 e",
+        "BodyID": 47,
+        "DistanceFromArrivalLS": 2571.765348,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001416,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 6 a",
+        "BodyID": 42,
+        "DistanceFromArrivalLS": 2579.218587,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000445,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 6 d",
+        "BodyID": 46,
+        "DistanceFromArrivalLS": 2582.065801,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001018,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blo Thae ZA-C c14-0 2",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 30.550603,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "metallic magma volcanism",
+        "MassEM": 3.876044,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Blo Thae ZA-C c14-0 5 d",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Blo Thae ZA-C c14-0 5 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Blo Thae ZA-C c14-0 5 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Blo Thae ZA-C c14-0 5 b",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Blo Thae ZA-C c14-0 4 a",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Blo Thae ZA-C c14-0 3 e",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Blo Thae ZA-C c14-0 3 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 4
+        }
+      ]
+    },
+    {
+      "BodyName": "Blo Thae ZA-C c14-0 3 d",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "BodyName": "Blo Thae ZA-C c14-0 3 f",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 3
+        }
+      ]
+    },
+    {
+      "BodyName": "Blo Thae ZA-C c14-0 6 c",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 2
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

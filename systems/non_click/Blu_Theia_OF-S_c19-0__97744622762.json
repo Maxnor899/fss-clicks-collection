@@ -1,35 +1,43 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.585039+00:00",
+    "log_files": [
+      "Journal.2026-02-09T082520.01.log"
+    ]
+  },
+  "system": {
+    "name": "Blu Theia OF-S c19-0",
+    "address": 97744622762,
+    "star_pos": [
+      8255.90625,
+      658.8125,
+      2338.75
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-09T082520.01.log"
-      ],
-      "first_seen_utc": "2026-02-09T07:39:40Z",
-      "last_seen_utc": "2026-02-09T07:42:50Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-09T07:39:40+00:00",
+    "last_seen_utc": "2026-02-09T07:43:38+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 10,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 10,
+      "n_stars_scanned": 3,
+      "n_planets_scanned": 7,
+      "n_landables": 0,
       "has_gas_giant": true,
       "has_ringed_body": false,
-      "n_bodies_scanned": 11,
-      "n_gas_giants": 1,
-      "n_planets_scanned": 8,
-      "n_ringed_bodies": 0,
-      "n_terraformables": 2,
+      "n_terraformables": 1,
       "planet_classes": [
+        "Icy body",
         "Gas giant with water based life",
         "High metal content body",
-        "Icy body",
         "Rocky ice body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 1
     },
     "stars": {
       "n_stars": 3,
@@ -38,21 +46,184 @@
         "M",
         "T"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 1
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.224014Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Blu Theia OF-S c19-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 9,
+    "StellarMass": 0.578125,
+    "Radius": 517358720.0,
+    "AbsoluteMagnitude": 7.319504,
+    "Age_MY": 5484,
+    "SurfaceTemperature": 3777.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 316096.497254,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 97744622762,
-    "name": "Blu Theia OF-S c19-0",
-    "star_pos": [
-      8255.90625,
-      658.8125,
-      2338.75
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Blu Theia OF-S c19-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 9,
+        "StellarMass": 0.578125,
+        "Radius": 517358720.0,
+        "AbsoluteMagnitude": 7.319504,
+        "Age_MY": 5484,
+        "SurfaceTemperature": 3777.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 316096.497254,
+        "Rings": null
+      },
+      {
+        "BodyName": "Blu Theia OF-S c19-0 C",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 15648.985829,
+        "StarType": "T",
+        "Subclass": 1,
+        "StellarMass": 0.09375,
+        "Radius": 153987200.0,
+        "AbsoluteMagnitude": 14.896469,
+        "Age_MY": 5484,
+        "SurfaceTemperature": 1210.0,
+        "Luminosity": "V",
+        "RotationPeriod": 73641.950094,
+        "Rings": null
+      },
+      {
+        "BodyName": "Blu Theia OF-S c19-0 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 14756.517898,
+        "StarType": "M",
+        "Subclass": 8,
+        "StellarMass": 0.199219,
+        "Radius": 243599040.0,
+        "AbsoluteMagnitude": 11.148132,
+        "Age_MY": 5484,
+        "SurfaceTemperature": 2280.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 143534.510809,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Blu Theia OF-S c19-0 A 4",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 578.880359,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.342138,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia OF-S c19-0 A 1",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 238.968654,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "Terraformable",
+        "AtmosphereType": "CarbonDioxideRich",
+        "Volcanism": "",
+        "MassEM": 0.427867,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia OF-S c19-0 A 2",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 308.270994,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "Argon",
+        "Volcanism": "",
+        "MassEM": 0.182762,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia OF-S c19-0 A 3",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 455.020764,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.168973,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia OF-S c19-0 A 7",
+        "BodyID": 12,
+        "DistanceFromArrivalLS": 1622.795457,
+        "PlanetClass": "Gas giant with water based life",
+        "TerraformState": "",
+        "AtmosphereType": null,
+        "Volcanism": "",
+        "MassEM": 553.044678,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia OF-S c19-0 A 6",
+        "BodyID": 11,
+        "DistanceFromArrivalLS": 742.069695,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.314194,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia OF-S c19-0 A 5",
+        "BodyID": 10,
+        "DistanceFromArrivalLS": 740.342094,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.545695,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [
+    "Blu Theia OF-S c19-0 A 1"
+  ],
+  "codex_entries": []
 }

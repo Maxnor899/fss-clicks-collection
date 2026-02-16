@@ -1,55 +1,208 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.544946+00:00",
+    "log_files": [
+      "Journal.2026-02-04T212839.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploi Eurl OO-M c22-3",
+    "address": 920901882562,
+    "star_pos": [
+      7392.4375,
+      594.53125,
+      -91.84375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-04T212839.01.log"
-      ],
-      "first_seen_utc": "2026-02-04T20:54:19Z",
-      "last_seen_utc": "2026-02-04T20:56:11Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-04T20:54:19+00:00",
+    "last_seen_utc": "2026-02-04T20:57:24+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 9,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 9,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 8,
+      "n_landables": 1,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 9,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 8,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky ice body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "G"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.200187Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Ploi Eurl OO-M c22-3",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "G",
+    "Subclass": 3,
+    "StellarMass": 0.867188,
+    "Radius": 628577600.0,
+    "AbsoluteMagnitude": 5.06488,
+    "Age_MY": 5748,
+    "SurfaceTemperature": 5758.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 251941.362221,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 920901882562,
-    "name": "Ploi Eurl OO-M c22-3",
-    "star_pos": [
-      7392.4375,
-      594.53125,
-      -91.84375
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl OO-M c22-3",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 3,
+        "StellarMass": 0.867188,
+        "Radius": 628577600.0,
+        "AbsoluteMagnitude": 5.06488,
+        "Age_MY": 5748,
+        "SurfaceTemperature": 5758.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 251941.362221,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploi Eurl OO-M c22-3 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 1619.021545,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.284932,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl OO-M c22-3 6",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 5121.938512,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.959685,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl OO-M c22-3 7",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 5119.532746,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "water magma volcanism",
+        "MassEM": 0.688233,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl OO-M c22-3 4",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 2705.108936,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 0.875008,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl OO-M c22-3 3",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 2129.756617,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.381658,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl OO-M c22-3 5 a",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 3524.285008,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.045129,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl OO-M c22-3 5",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 3521.406493,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.193174,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl OO-M c22-3 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 1150.639836,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 1.192972,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

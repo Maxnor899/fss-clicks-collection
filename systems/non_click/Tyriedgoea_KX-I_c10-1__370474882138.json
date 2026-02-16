@@ -1,30 +1,38 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.673696+00:00",
+    "log_files": [
+      "Journal.2026-02-15T104234.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgoea KX-I c10-1",
+    "address": 370474882138,
+    "star_pos": [
+      6987.84375,
+      464.4375,
+      1958.875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-15T104234.01.log"
-      ],
-      "first_seen_utc": "2026-02-15T10:12:05Z",
-      "last_seen_utc": "2026-02-15T10:12:12Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-15T10:12:05+00:00",
+    "last_seen_utc": "2026-02-15T10:13:23+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 5,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -32,21 +40,68 @@
         "K",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.283246Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Tyriedgoea KX-I c10-1 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 1,
+    "StellarMass": 0.839844,
+    "Radius": 614208320.0,
+    "AbsoluteMagnitude": 5.785095,
+    "Age_MY": 5304,
+    "SurfaceTemperature": 4935.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 244260.728958,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 370474882138,
-    "name": "Tyriedgoea KX-I c10-1",
-    "star_pos": [
-      6987.84375,
-      464.4375,
-      1958.875
-    ]
-  }
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgoea KX-I c10-1 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 1,
+        "StellarMass": 0.839844,
+        "Radius": 614208320.0,
+        "AbsoluteMagnitude": 5.785095,
+        "Age_MY": 5304,
+        "SurfaceTemperature": 4935.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 244260.728958,
+        "Rings": null
+      },
+      {
+        "BodyName": "Tyriedgoea KX-I c10-1 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 50991.53758,
+        "StarType": "M",
+        "Subclass": 1,
+        "StellarMass": 0.417969,
+        "Radius": 405163520.0,
+        "AbsoluteMagnitude": 8.155289,
+        "Age_MY": 5304,
+        "SurfaceTemperature": 3521.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 179838.139171,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

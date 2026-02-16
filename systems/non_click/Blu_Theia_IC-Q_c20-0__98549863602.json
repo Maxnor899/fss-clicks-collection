@@ -1,57 +1,232 @@
 {
-  "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-08T222850.01.log"
-      ],
-      "first_seen_utc": "2026-02-08T22:08:47Z",
-      "last_seen_utc": "2026-02-08T22:10:20Z"
-    },
-    "method": "elite_journal"
-  },
-  "features": {
-    "bodies": {
-      "fss_bodycount": 9,
-      "fss_nonbodycount": 5,
-      "has_gas_giant": false,
-      "has_ringed_body": true,
-      "n_bodies_scanned": 9,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 5,
-      "n_ringed_bodies": 1,
-      "n_terraformables": 0,
-      "planet_classes": [
-        "High metal content body",
-        "Icy body",
-        "Rocky ice body"
-      ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 1,
-      "n_saa_mappings": 0
-    },
-    "stars": {
-      "n_stars": 3,
-      "types": [
-        "K",
-        "M",
-        "T"
-      ]
-    }
-  },
+  "schema_version": 2,
   "label": "non_click",
   "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.221744Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.581836+00:00",
+    "log_files": [
+      "Journal.2026-02-08T222850.01.log"
+    ]
   },
-  "schema_version": 1,
   "system": {
-    "address": 98549863602,
     "name": "Blu Theia IC-Q c20-0",
+    "address": 98549863602,
     "star_pos": [
       8738.6875,
       577.875,
       2380.15625
     ]
-  }
+  },
+  "evidence": {
+    "first_seen_utc": "2026-02-08T22:08:47+00:00",
+    "last_seen_utc": "2026-02-08T22:11:17+00:00"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 9,
+      "fss_nonbodycount": 5,
+      "n_bodies_scanned": 9,
+      "n_stars_scanned": 4,
+      "n_planets_scanned": 5,
+      "n_landables": 1,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Icy body",
+        "High metal content body",
+        "Rocky ice body"
+      ]
+    },
+    "stars": {
+      "n_stars": 4,
+      "types": [
+        "K",
+        "M",
+        "T"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_bio_signals": 0,
+      "n_geo_signals": 3,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
+    }
+  },
+  "primary_star": {
+    "BodyName": "Blu Theia IC-Q c20-0 A",
+    "BodyID": 2,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 9,
+    "StellarMass": 0.597656,
+    "Radius": 550342400.0,
+    "AbsoluteMagnitude": 7.164597,
+    "Age_MY": 6140,
+    "SurfaceTemperature": 3795.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 289163.594562,
+    "Rings": null
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Blu Theia IC-Q c20-0 B",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 33.073267,
+        "StarType": "M",
+        "Subclass": 8,
+        "StellarMass": 0.246094,
+        "Radius": 300927680.0,
+        "AbsoluteMagnitude": 10.90184,
+        "Age_MY": 6140,
+        "SurfaceTemperature": 2171.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 132679.186989,
+        "Rings": null
+      },
+      {
+        "BodyName": "Blu Theia IC-Q c20-0 A",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 9,
+        "StellarMass": 0.597656,
+        "Radius": 550342400.0,
+        "AbsoluteMagnitude": 7.164597,
+        "Age_MY": 6140,
+        "SurfaceTemperature": 3795.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 289163.594562,
+        "Rings": null
+      },
+      {
+        "BodyName": "Blu Theia IC-Q c20-0 D",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 12025.627836,
+        "StarType": "T",
+        "Subclass": 1,
+        "StellarMass": 0.082031,
+        "Radius": 153583904.0,
+        "AbsoluteMagnitude": 14.934601,
+        "Age_MY": 6140,
+        "SurfaceTemperature": 1201.0,
+        "Luminosity": "V",
+        "RotationPeriod": 56116.879408,
+        "Rings": null
+      },
+      {
+        "BodyName": "Blu Theia IC-Q c20-0 C",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 12086.5954,
+        "StarType": "M",
+        "Subclass": 3,
+        "StellarMass": 0.402344,
+        "Radius": 376403680.0,
+        "AbsoluteMagnitude": 8.759064,
+        "Age_MY": 6140,
+        "SurfaceTemperature": 3179.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 188387.097389,
+        "Rings": [
+          {
+            "Name": "Blu Theia IC-Q c20-0 C A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 33390000000000.0,
+            "InnerRad": 570990000.0,
+            "OuterRad": 1781400000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Blu Theia IC-Q c20-0 CD 1",
+        "BodyID": 14,
+        "DistanceFromArrivalLS": 12044.571563,
+        "PlanetClass": "Rocky ice body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.190902,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia IC-Q c20-0 CD 3",
+        "BodyID": 16,
+        "DistanceFromArrivalLS": 11699.458901,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.359737,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia IC-Q c20-0 CD 2",
+        "BodyID": 15,
+        "DistanceFromArrivalLS": 12516.84154,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.57155,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia IC-Q c20-0 C 1",
+        "BodyID": 13,
+        "DistanceFromArrivalLS": 12077.748618,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "rocky magma volcanism",
+        "MassEM": 0.01639,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Blu Theia IC-Q c20-0 ABCD 1",
+        "BodyID": 17,
+        "DistanceFromArrivalLS": 26299.705495,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "Helium",
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.048038,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
+    ]
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Blu Theia IC-Q c20-0 C 1",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Geological;",
+          "Type_Localised": "Géologique",
+          "Count": 3
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [],
+  "codex_entries": []
 }

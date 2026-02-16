@@ -1,55 +1,243 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.521345+00:00",
+    "log_files": [
+      "Journal.2026-02-01T131305.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploi Eurl CX-Q c6-0",
+    "address": 95060267578,
+    "star_pos": [
+      6673.96875,
+      689.4375,
+      -746.6875
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-01T131305.01.log"
-      ],
-      "first_seen_utc": "2026-02-01T12:42:05Z",
-      "last_seen_utc": "2026-02-01T12:47:55Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-01T12:42:05+00:00",
+    "last_seen_utc": "2026-02-01T13:01:44+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 10,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 10,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": 9,
+      "n_landables": 4,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 12,
-      "n_gas_giants": 0,
-      "n_planets_scanned": 11,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": [
-        "High metal content body",
         "Icy body",
+        "High metal content body",
         "Rocky body"
       ]
-    },
-    "signals": {
-      "n_fss_body_signals_events": 1,
-      "n_saa_mappings": 2
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "K"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_bio_signals": 1,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 2
+    },
+    "codex": {
+      "n_entries": 1
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.188202Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Ploi Eurl CX-Q c6-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 2,
+    "StellarMass": 0.707031,
+    "Radius": 574708672.0,
+    "AbsoluteMagnitude": 6.080826,
+    "Age_MY": 10626,
+    "SurfaceTemperature": 4766.0,
+    "Luminosity": "Vab",
+    "RotationPeriod": 270113.217029,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 95060267578,
-    "name": "Ploi Eurl CX-Q c6-0",
-    "star_pos": [
-      6673.96875,
-      689.4375,
-      -746.6875
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl CX-Q c6-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 2,
+        "StellarMass": 0.707031,
+        "Radius": 574708672.0,
+        "AbsoluteMagnitude": 6.080826,
+        "Age_MY": 10626,
+        "SurfaceTemperature": 4766.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 270113.217029,
+        "Rings": null
+      }
+    ],
+    "planets": [
+      {
+        "BodyName": "Ploi Eurl CX-Q c6-0 2",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 733.72488,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.229215,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl CX-Q c6-0 2 a",
+        "BodyID": 3,
+        "DistanceFromArrivalLS": 733.839456,
+        "PlanetClass": "Rocky body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.016296,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": true,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl CX-Q c6-0 5",
+        "BodyID": 6,
+        "DistanceFromArrivalLS": 1842.478409,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.665184,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl CX-Q c6-0 5 a",
+        "BodyID": 7,
+        "DistanceFromArrivalLS": 1842.248208,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.028919,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl CX-Q c6-0 7",
+        "BodyID": 9,
+        "DistanceFromArrivalLS": 3676.468382,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "ArgonRich",
+        "Volcanism": "",
+        "MassEM": 0.457358,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl CX-Q c6-0 1",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 564.184069,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "CarbonDioxide",
+        "Volcanism": "",
+        "MassEM": 0.131422,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl CX-Q c6-0 4",
+        "BodyID": 5,
+        "DistanceFromArrivalLS": 1282.966365,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.091271,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl CX-Q c6-0 3",
+        "BodyID": 4,
+        "DistanceFromArrivalLS": 1042.012855,
+        "PlanetClass": "High metal content body",
+        "TerraformState": "",
+        "AtmosphereType": "Nitrogen",
+        "Volcanism": "",
+        "MassEM": 0.101855,
+        "Landable": true,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      },
+      {
+        "BodyName": "Ploi Eurl CX-Q c6-0 6",
+        "BodyID": 8,
+        "DistanceFromArrivalLS": 2391.752427,
+        "PlanetClass": "Icy body",
+        "TerraformState": "",
+        "AtmosphereType": "MethaneRich",
+        "Volcanism": "",
+        "MassEM": 0.424047,
+        "Landable": false,
+        "Rings": null,
+        "WasDiscovered": false,
+        "WasMapped": false
+      }
     ]
-  }
+  },
+  "fss_body_signals": [
+    {
+      "BodyName": "Ploi Eurl CX-Q c6-0 4",
+      "Signals": [
+        {
+          "Type": "$SAA_SignalType_Biological;",
+          "Type_Localised": "Biologique",
+          "Count": 1
+        }
+      ]
+    }
+  ],
+  "saa_mappings": [
+    "Ploi Eurl CX-Q c6-0 3",
+    "Ploi Eurl CX-Q c6-0 4"
+  ],
+  "codex_entries": [
+    {
+      "Name": "Bacterium Informem - Cobalt",
+      "Category": "Biologie et géologie",
+      "SubCategory": "Organismes",
+      "IsNewEntry": true
+    }
+  ]
 }

@@ -1,30 +1,38 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.522848+00:00",
+    "log_files": [
+      "Journal.2026-02-01T131305.01.log"
+    ]
+  },
+  "system": {
+    "name": "Ploi Eurl WL-I c11-0",
+    "address": 95328768610,
+    "star_pos": [
+      6817.09375,
+      737.625,
+      -579.375
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-01T131305.01.log"
-      ],
-      "first_seen_utc": "2026-02-01T13:06:43Z",
-      "last_seen_utc": "2026-02-01T13:06:49Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-01T13:06:43+00:00",
+    "last_seen_utc": "2026-02-01T13:07:53+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 2,
       "fss_nonbodycount": 0,
+      "n_bodies_scanned": 2,
+      "n_stars_scanned": 2,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": false,
-      "n_bodies_scanned": 2,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 0,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 2,
@@ -32,21 +40,68 @@
         "K",
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.189285Z",
-    "generated_by": "tools/extract_non_click_systems.py"
+  "primary_star": {
+    "BodyName": "Ploi Eurl WL-I c11-0 A",
+    "BodyID": 1,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "K",
+    "Subclass": 2,
+    "StellarMass": 0.761719,
+    "Radius": 593726208.0,
+    "AbsoluteMagnitude": 5.997391,
+    "Age_MY": 8300,
+    "SurfaceTemperature": 4780.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 263245.795799,
+    "Rings": null
   },
-  "schema_version": 1,
-  "system": {
-    "address": 95328768610,
-    "name": "Ploi Eurl WL-I c11-0",
-    "star_pos": [
-      6817.09375,
-      737.625,
-      -579.375
-    ]
-  }
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Ploi Eurl WL-I c11-0 A",
+        "BodyID": 1,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 2,
+        "StellarMass": 0.761719,
+        "Radius": 593726208.0,
+        "AbsoluteMagnitude": 5.997391,
+        "Age_MY": 8300,
+        "SurfaceTemperature": 4780.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 263245.795799,
+        "Rings": null
+      },
+      {
+        "BodyName": "Ploi Eurl WL-I c11-0 B",
+        "BodyID": 2,
+        "DistanceFromArrivalLS": 55378.535361,
+        "StarType": "M",
+        "Subclass": 2,
+        "StellarMass": 0.476563,
+        "Radius": 420594080.0,
+        "AbsoluteMagnitude": 8.342575,
+        "Age_MY": 8300,
+        "SurfaceTemperature": 3310.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 223044.64637,
+        "Rings": null
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

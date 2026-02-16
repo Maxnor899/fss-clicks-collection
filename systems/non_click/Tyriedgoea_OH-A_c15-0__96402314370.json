@@ -1,51 +1,107 @@
 {
+  "schema_version": 2,
+  "label": "non_click",
+  "provenance": {
+    "generated_by": "extract_non_click_v2.py",
+    "generated_at_utc": "2026-02-16T20:51:30.676485+00:00",
+    "log_files": [
+      "Journal.2026-02-15T140907.01.log"
+    ]
+  },
+  "system": {
+    "name": "Tyriedgoea OH-A c15-0",
+    "address": 96402314370,
+    "star_pos": [
+      7458.03125,
+      497.75,
+      2139.78125
+    ]
+  },
   "evidence": {
-    "journal": {
-      "files": [
-        "Journal.2026-02-15T140907.01.log"
-      ],
-      "first_seen_utc": "2026-02-15T13:18:24Z",
-      "last_seen_utc": "2026-02-15T13:18:30Z"
-    },
-    "method": "elite_journal"
+    "first_seen_utc": "2026-02-15T13:18:24+00:00",
+    "last_seen_utc": "2026-02-15T13:19:37+00:00"
   },
   "features": {
     "bodies": {
       "fss_bodycount": 33,
       "fss_nonbodycount": 5,
+      "n_bodies_scanned": 1,
+      "n_stars_scanned": 1,
+      "n_planets_scanned": null,
+      "n_landables": null,
       "has_gas_giant": false,
       "has_ringed_body": true,
-      "n_bodies_scanned": 1,
-      "n_gas_giants": 0,
-      "n_planets_scanned": null,
-      "n_ringed_bodies": 1,
       "n_terraformables": 0,
       "planet_classes": []
-    },
-    "signals": {
-      "n_fss_body_signals_events": 0,
-      "n_saa_mappings": 0
     },
     "stars": {
       "n_stars": 1,
       "types": [
         "M"
       ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_bio_signals": 0,
+      "n_geo_signals": 0,
+      "n_saa_mappings": 0
+    },
+    "codex": {
+      "n_entries": 0
     }
   },
-  "label": "non_click",
-  "provenance": {
-    "generated_at_utc": "2026-02-16T15:20:48.285193Z",
-    "generated_by": "tools/extract_non_click_systems.py"
-  },
-  "schema_version": 1,
-  "system": {
-    "address": 96402314370,
-    "name": "Tyriedgoea OH-A c15-0",
-    "star_pos": [
-      7458.03125,
-      497.75,
-      2139.78125
+  "primary_star": {
+    "BodyName": "Tyriedgoea OH-A c15-0",
+    "BodyID": 0,
+    "DistanceFromArrivalLS": 0.0,
+    "StarType": "M",
+    "Subclass": 1,
+    "StellarMass": 0.511719,
+    "Radius": 478814208.0,
+    "AbsoluteMagnitude": 7.881027,
+    "Age_MY": 10458,
+    "SurfaceTemperature": 3450.0,
+    "Luminosity": "Va",
+    "RotationPeriod": 219922.509918,
+    "Rings": [
+      {
+        "Name": "Tyriedgoea OH-A c15-0 A Belt",
+        "RingClass": "eRingClass_MetalRich",
+        "MassMT": 1355700000000.0,
+        "InnerRad": 794040000.0,
+        "OuterRad": 1930100000.0
+      }
     ]
-  }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "BodyName": "Tyriedgoea OH-A c15-0",
+        "BodyID": 0,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 1,
+        "StellarMass": 0.511719,
+        "Radius": 478814208.0,
+        "AbsoluteMagnitude": 7.881027,
+        "Age_MY": 10458,
+        "SurfaceTemperature": 3450.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 219922.509918,
+        "Rings": [
+          {
+            "Name": "Tyriedgoea OH-A c15-0 A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 1355700000000.0,
+            "InnerRad": 794040000.0,
+            "OuterRad": 1930100000.0
+          }
+        ]
+      }
+    ],
+    "planets": []
+  },
+  "fss_body_signals": [],
+  "saa_mappings": [],
+  "codex_entries": []
 }

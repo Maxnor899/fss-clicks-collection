@@ -1,0 +1,2199 @@
+{
+  "recording": {
+    "audio_file": "Tyriedgoea_MB-V_b16-0__5e89e0e6.flac",
+    "audio_sha256": "5e89e0e65ff12f96b24949a84b7952f84b82765f95137d945ae54855c8bad5bc",
+    "audio_sha256_short": "5e89e0e6",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-16T14:29:20+00:00",
+    "duration_s": 45.741
+  },
+  "context": {
+    "system": {
+      "name": "Tyriedgoea MB-V b16-0",
+      "name_sanitized": "Tyriedgoea_MB-V_b16-0",
+      "address": 763028056209,
+      "star_pos": [
+        6855.3125,
+        60.875,
+        1855.9375
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-16T14:24:05Z",
+    "to_utc": "2026-02-16T14:29:02Z",
+    "anchor_timestamp_utc": "2026-02-16T14:24:05Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-16T151444.01.log"
+  },
+  "system_summary": {
+    "body_count": 28,
+    "non_body_signals": 7,
+    "stars_count": 1,
+    "planets_count": 27,
+    "landables_count": 17,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-16T14:24:10Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0",
+        "BodyID": 0,
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 7,
+        "StellarMass": 0.246094,
+        "Radius": 297659040.0,
+        "AbsoluteMagnitude": 10.453903,
+        "Age_MY": 5442,
+        "SurfaceTemperature": 2420.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 148166.578772,
+        "AxialTilt": 0.0,
+        "Rings": [
+          {
+            "Name": "Tyriedgoea MB-V b16-0 A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 65153000000000.0,
+            "InnerRad": 491140000.0,
+            "OuterRad": 1584400000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-16T14:26:17Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 1",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 165.065748,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick methane rich atmosphere",
+        "AtmosphereType": "MethaneRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 95.981613
+          },
+          {
+            "Name": "Methane",
+            "Percent": 2.79632
+          },
+          {
+            "Name": "Argon",
+            "Percent": 0.959816
+          }
+        ],
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 1.228168,
+        "Radius": 8200376.5,
+        "SurfaceGravity": 7.279467,
+        "SurfaceTemperature": 342.097321,
+        "SurfacePressure": 220694208.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.655422,
+          "Rock": 0.230952,
+          "Metal": 0.113626
+        },
+        "SemiMajorAxis": 49505317211.15112,
+        "Eccentricity": 0.000411,
+        "OrbitalInclination": 0.056958,
+        "Periapsis": 197.176213,
+        "OrbitalPeriod": 12026755.809784,
+        "RotationPeriod": 12082437.105362,
+        "AxialTilt": -0.334862
+      },
+      {
+        "timestamp": "2026-02-16T14:26:25Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 2",
+        "BodyID": 10,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 543.644255,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class I gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 73.654694
+          },
+          {
+            "Name": "Helium",
+            "Percent": 26.345306
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 501.651367,
+        "Radius": 76272464.0,
+        "SurfaceGravity": 34.369711,
+        "SurfaceTemperature": 135.306656,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 162836313247.68066,
+        "Eccentricity": 0.001742,
+        "OrbitalInclination": -0.185428,
+        "Periapsis": 152.807096,
+        "OrbitalPeriod": 71745990.514755,
+        "RotationPeriod": 178798.32455,
+        "AxialTilt": -0.323471,
+        "Rings": [
+          {
+            "Name": "Tyriedgoea MB-V b16-0 2 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 39997000000.0,
+            "InnerRad": 114810000.0,
+            "OuterRad": 126240000.0
+          },
+          {
+            "Name": "Tyriedgoea MB-V b16-0 2 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 879250000000.0,
+            "InnerRad": 126340000.0,
+            "OuterRad": 276620000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-02-16T14:26:38Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 2 a",
+        "BodyID": 13,
+        "Parents": [
+          {
+            "Planet": 10
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 542.992222,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.003694,
+        "Radius": 1357966.75,
+        "SurfaceGravity": 0.798407,
+        "SurfaceTemperature": 76.317642,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.607418
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 23.214977
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.862628
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.524232
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.472804
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.632563
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 3.075516
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.600898
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.817825
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.743186
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.447941
+          }
+        ],
+        "Composition": {
+          "Ice": 0.82053,
+          "Rock": 0.163162,
+          "Metal": 0.016308
+        },
+        "SemiMajorAxis": 368405234.81369,
+        "Eccentricity": 0.000499,
+        "OrbitalInclination": 0.168722,
+        "Periapsis": 342.52062,
+        "OrbitalPeriod": 99356.471896,
+        "RotationPeriod": 99359.245661,
+        "AxialTilt": 1.374317
+      },
+      {
+        "timestamp": "2026-02-16T14:26:33Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 2 b",
+        "BodyID": 14,
+        "Parents": [
+          {
+            "Planet": 10
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 541.917084,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.001805,
+        "Radius": 1073575.375,
+        "SurfaceGravity": 0.624367,
+        "SurfaceTemperature": 72.893112,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.551926
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.327419
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.294397
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 11.904299
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.003914
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.353759
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 4.916354
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.235143
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 0.924423
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.777344
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 0.71103
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 559684443.473816,
+        "Eccentricity": 0.000208,
+        "OrbitalInclination": 0.005389,
+        "Periapsis": 287.582642,
+        "OrbitalPeriod": 186046.844721,
+        "RotationPeriod": 186052.031183,
+        "AxialTilt": -0.170356
+      },
+      {
+        "timestamp": "2026-02-16T14:26:36Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 2 c",
+        "BodyID": 15,
+        "Parents": [
+          {
+            "Planet": 10
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 537.781199,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "methane atmosphere",
+        "AtmosphereType": "Methane",
+        "AtmosphereComposition": [
+          {
+            "Name": "Methane",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.003714,
+        "Radius": 1362363.25,
+        "SurfaceGravity": 0.797635,
+        "SurfaceTemperature": 111.801537,
+        "SurfacePressure": 32064.837891,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 1852209389.209747,
+        "Eccentricity": 0.000266,
+        "OrbitalInclination": -0.907762,
+        "Periapsis": 300.747439,
+        "OrbitalPeriod": 1120063.304901,
+        "RotationPeriod": 1120094.570992,
+        "AxialTilt": -0.118778
+      },
+      {
+        "timestamp": "2026-02-16T14:26:30Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 2 d",
+        "BodyID": 16,
+        "Parents": [
+          {
+            "Planet": 10
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 549.582788,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "methane atmosphere",
+        "AtmosphereType": "Methane",
+        "AtmosphereComposition": [
+          {
+            "Name": "Methane",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.003391,
+        "Radius": 1322043.375,
+        "SurfaceGravity": 0.773291,
+        "SurfaceTemperature": 109.861549,
+        "SurfacePressure": 30137.503906,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 2223608553.409576,
+        "Eccentricity": 0.0002,
+        "OrbitalInclination": -0.023626,
+        "Periapsis": 145.214572,
+        "OrbitalPeriod": 1473312.735558,
+        "RotationPeriod": 1473353.846594,
+        "AxialTilt": -0.517196
+      },
+      {
+        "timestamp": "2026-02-16T14:26:50Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 2 e",
+        "BodyID": 17,
+        "Parents": [
+          {
+            "Planet": 10
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 544.397044,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "methane atmosphere",
+        "AtmosphereType": "Methane",
+        "AtmosphereComposition": [
+          {
+            "Name": "Methane",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.00774,
+        "Radius": 1732867.125,
+        "SurfaceGravity": 1.027401,
+        "SurfaceTemperature": 114.589951,
+        "SurfacePressure": 52891.71875,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.821544,
+          "Rock": 0.162279,
+          "Metal": 0.016176
+        },
+        "SemiMajorAxis": 3291847944.259644,
+        "Eccentricity": 0.007286,
+        "OrbitalInclination": -2.136263,
+        "Periapsis": 345.841369,
+        "OrbitalPeriod": 2653793.036938,
+        "RotationPeriod": -2653867.262339,
+        "AxialTilt": 1.800095
+      },
+      {
+        "timestamp": "2026-02-16T14:26:47Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 2 e a",
+        "BodyID": 18,
+        "Parents": [
+          {
+            "Planet": 17
+          },
+          {
+            "Planet": 10
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 544.397362,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick methane atmosphere",
+        "AtmosphereType": "Methane",
+        "AtmosphereComposition": [
+          {
+            "Name": "Methane",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.000358,
+        "Radius": 643874.125,
+        "SurfaceGravity": 0.344263,
+        "SurfaceTemperature": 154.56958,
+        "SurfacePressure": 671782.8125,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.929373,
+          "Rock": 0.068404,
+          "Metal": 0.002223
+        },
+        "SemiMajorAxis": 14263874.292374,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": 1.933394,
+        "Periapsis": 288.432376,
+        "OrbitalPeriod": 188397.926092,
+        "RotationPeriod": 192706.459896,
+        "AxialTilt": -0.198567
+      },
+      {
+        "timestamp": "2026-02-16T14:27:28Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 3",
+        "BodyID": 21,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 769.623076,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class I gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 73.654694
+          },
+          {
+            "Name": "Helium",
+            "Percent": 26.345306
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 484.281586,
+        "Radius": 76067240.0,
+        "SurfaceGravity": 33.358925,
+        "SurfaceTemperature": 121.944267,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 230695605278.01514,
+        "Eccentricity": 0.000142,
+        "OrbitalInclination": -0.288443,
+        "Periapsis": 223.691957,
+        "OrbitalPeriod": 120984494.686127,
+        "RotationPeriod": 60736.721985,
+        "AxialTilt": 0.052392
+      },
+      {
+        "timestamp": "2026-02-16T14:27:38Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 3 a",
+        "BodyID": 22,
+        "Parents": [
+          {
+            "Planet": 21
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 770.181015,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.027482,
+        "Radius": 2626141.25,
+        "SurfaceGravity": 1.58824,
+        "SurfaceTemperature": 57.413609,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.949272
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.661545
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.508311
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.082445
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.138656
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 4.989926
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.217789
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.462272
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 0.746168
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.716
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.52762
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 1516488373.279572,
+        "Eccentricity": 0.001165,
+        "OrbitalInclination": 0.145143,
+        "Periapsis": 168.676784,
+        "OrbitalPeriod": 844467.8545,
+        "RotationPeriod": 844559.534592,
+        "AxialTilt": 0.044613
+      },
+      {
+        "timestamp": "2026-02-16T14:27:36Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 3 b",
+        "BodyID": 23,
+        "Parents": [
+          {
+            "Planet": 21
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 778.445524,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.02961,
+        "Radius": 2690662.75,
+        "SurfaceGravity": 1.63015,
+        "SurfaceTemperature": 55.329189,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.836702
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.566887
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.447708
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.031976
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.100483
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.411179
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.200171
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.447809
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 0.718656
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.713009
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.525417
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 2652457773.685455,
+        "Eccentricity": 0.000441,
+        "OrbitalInclination": -0.861682,
+        "Periapsis": 53.279946,
+        "OrbitalPeriod": 1953427.07634,
+        "RotationPeriod": 1953639.17423,
+        "AxialTilt": 0.44202
+      },
+      {
+        "timestamp": "2026-02-16T14:27:33Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 3 c",
+        "BodyID": 24,
+        "Parents": [
+          {
+            "Planet": 21
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 756.803716,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.033675,
+        "Radius": 2805582.25,
+        "SurfaceGravity": 1.705197,
+        "SurfaceTemperature": 53.848663,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.14686
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.827698
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.614683
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.171032
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.20566
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 5.026512
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.487657
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.307631
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 0.945136
+          },
+          {
+            "Name": "niobium",
+            "Percent": 0.831825
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.435309
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 4463095307.350159,
+        "Eccentricity": 0.001606,
+        "OrbitalInclination": -5.046033,
+        "Periapsis": 111.30954,
+        "OrbitalPeriod": 4263622.283936,
+        "RotationPeriod": 4264085.059523,
+        "AxialTilt": -0.319634
+      },
+      {
+        "timestamp": "2026-02-16T14:27:02Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 4",
+        "BodyID": 25,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1074.576043,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class I gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 73.654694
+          },
+          {
+            "Name": "Helium",
+            "Percent": 26.345306
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 50.963856,
+        "Radius": 50281652.0,
+        "SurfaceGravity": 8.034384,
+        "SurfaceTemperature": 49.807308,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 321824252605.43823,
+        "Eccentricity": 0.003483,
+        "OrbitalInclination": 0.648971,
+        "Periapsis": 176.250258,
+        "OrbitalPeriod": 199341994.524002,
+        "RotationPeriod": 93241.651121,
+        "AxialTilt": 0.502404,
+        "Rings": [
+          {
+            "Name": "Tyriedgoea MB-V b16-0 4 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 41579000000.0,
+            "InnerRad": 96424000.0,
+            "OuterRad": 129070000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-02-16T14:27:12Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 4 a",
+        "BodyID": 27,
+        "Parents": [
+          {
+            "Planet": 25
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1074.230246,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "water magma volcanism",
+        "MassEM": 0.000218,
+        "Radius": 532303.9375,
+        "SurfaceGravity": 0.306035,
+        "SurfaceTemperature": 42.176952,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.335972
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.145824
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.178138
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 11.80748
+          },
+          {
+            "Name": "nickel",
+            "Percent": 8.930682
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.310216
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 4.876369
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.121802
+          },
+          {
+            "Name": "niobium",
+            "Percent": 0.806978
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.771022
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.715519
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 396553051.47171,
+        "Eccentricity": 0.000768,
+        "OrbitalInclination": -0.006077,
+        "Periapsis": 57.047799,
+        "OrbitalPeriod": 348114.383221,
+        "RotationPeriod": 348129.935132,
+        "AxialTilt": 0.218901
+      },
+      {
+        "timestamp": "2026-02-16T14:27:14Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 4 b",
+        "BodyID": 28,
+        "Parents": [
+          {
+            "Planet": 25
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1075.537845,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000247,
+        "Radius": 555083.8125,
+        "SurfaceGravity": 0.319275,
+        "SurfaceTemperature": 42.121273,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.131832
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.81506
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.606593
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.164295
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.200563
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 5.02373
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.485727
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.305801
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.794321
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 0.751223
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.72085
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 457640957.832336,
+        "Eccentricity": 0.000336,
+        "OrbitalInclination": -0.041835,
+        "Periapsis": 153.420464,
+        "OrbitalPeriod": 431576.07913,
+        "RotationPeriod": 431595.395638,
+        "AxialTilt": 0.257213
+      },
+      {
+        "timestamp": "2026-02-16T14:27:19Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 4 c",
+        "BodyID": 29,
+        "Parents": [
+          {
+            "Planet": 25
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1075.507952,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000158,
+        "Radius": 478228.59375,
+        "SurfaceGravity": 0.274656,
+        "SurfaceTemperature": 42.030594,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.538017
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.315723
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.28691
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 11.898064
+          },
+          {
+            "Name": "nickel",
+            "Percent": 8.999198
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.350955
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 4.913779
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.409437
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 0.923939
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 0.710657
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.653323
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 592243468.761444,
+        "Eccentricity": 5.2e-05,
+        "OrbitalInclination": 0.289821,
+        "Periapsis": 79.493058,
+        "OrbitalPeriod": 635360.890627,
+        "RotationPeriod": 635389.299648,
+        "AxialTilt": 0.186615
+      },
+      {
+        "timestamp": "2026-02-16T14:27:16Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 4 d",
+        "BodyID": 30,
+        "Parents": [
+          {
+            "Planet": 25
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1077.162779,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000686,
+        "Radius": 777443.9375,
+        "SurfaceGravity": 0.452073,
+        "SurfaceTemperature": 41.889126,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.810553
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 23.385794
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.971987
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.685882
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.595069
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.352586
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 3.115211
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 1.473092
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 0.985116
+          },
+          {
+            "Name": "niobium",
+            "Percent": 0.867012
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 0.757713
+          }
+        ],
+        "Composition": {
+          "Ice": 0.817762,
+          "Rock": 0.165572,
+          "Metal": 0.016666
+        },
+        "SemiMajorAxis": 960236966.609955,
+        "Eccentricity": 0.000226,
+        "OrbitalInclination": -1.596913,
+        "Periapsis": 4.125031,
+        "OrbitalPeriod": 1311709.582806,
+        "RotationPeriod": -1311768.225779,
+        "AxialTilt": -2.817788
+      },
+      {
+        "timestamp": "2026-02-16T14:27:08Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 4 e",
+        "BodyID": 31,
+        "Parents": [
+          {
+            "Planet": 25
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1072.397288,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000453,
+        "Radius": 678843.1875,
+        "SurfaceGravity": 0.39144,
+        "SurfaceTemperature": 41.801594,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.123249
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.80784
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.601973
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.160446
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.197653
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.468956
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.304754
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 2.986182
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 0.944314
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.736908
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.667731
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 1390904247.760773,
+        "Eccentricity": 0.00138,
+        "OrbitalInclination": -0.020927,
+        "Periapsis": 188.739335,
+        "OrbitalPeriod": 2286734.938622,
+        "RotationPeriod": 2286836.919094,
+        "AxialTilt": -0.081736
+      },
+      {
+        "timestamp": "2026-02-16T14:27:10Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 4 f",
+        "BodyID": 32,
+        "Parents": [
+          {
+            "Planet": 25
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1070.106385,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001796,
+        "Radius": 1071629.625,
+        "SurfaceGravity": 0.623209,
+        "SurfaceTemperature": 41.750221,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.72925
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.47653
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.38986
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 11.983801
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.064046
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.389513
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 4.949187
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.256749
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 0.930597
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.523313
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.307163
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 1793907999.992371,
+        "Eccentricity": 0.002496,
+        "OrbitalInclination": 0.009616,
+        "Periapsis": 128.39489,
+        "OrbitalPeriod": 3349425.196648,
+        "RotationPeriod": 3349575.089806,
+        "AxialTilt": 0.115355
+      },
+      {
+        "timestamp": "2026-02-16T14:28:43Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 5",
+        "BodyID": 34,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1398.054488,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class I gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 73.654694
+          },
+          {
+            "Name": "Helium",
+            "Percent": 26.345306
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 47.113808,
+        "Radius": 47565732.0,
+        "SurfaceGravity": 8.29983,
+        "SurfaceTemperature": 43.649693,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 421515762805.9387,
+        "Eccentricity": 0.006908,
+        "OrbitalInclination": -0.000347,
+        "Periapsis": 217.725974,
+        "OrbitalPeriod": 298807460.069656,
+        "RotationPeriod": 121286.641329,
+        "AxialTilt": 2.278494,
+        "Rings": [
+          {
+            "Name": "Tyriedgoea MB-V b16-0 5 A Ring",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 34370000000.0,
+            "InnerRad": 82689000.0,
+            "OuterRad": 89279000.0
+          },
+          {
+            "Name": "Tyriedgoea MB-V b16-0 5 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 237730000000.0,
+            "InnerRad": 89379000.0,
+            "OuterRad": 125740000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-02-16T14:28:55Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 5 a",
+        "BodyID": 37,
+        "Parents": [
+          {
+            "Planet": 34
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1397.029954,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.000926,
+        "Radius": 860414.5625,
+        "SurfaceGravity": 0.498601,
+        "SurfaceTemperature": 36.87318,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.728922
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 23.31715
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.92804
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.47075
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.432352
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 5.150292
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 3.062382
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 1.448111
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 0.924922
+          },
+          {
+            "Name": "niobium",
+            "Percent": 0.852309
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.68477
+          }
+        ],
+        "Composition": {
+          "Ice": 0.824805,
+          "Rock": 0.15944,
+          "Metal": 0.015755
+        },
+        "SemiMajorAxis": 380668205.022812,
+        "Eccentricity": 0.00067,
+        "OrbitalInclination": 0.316174,
+        "Periapsis": 151.619159,
+        "OrbitalPeriod": 340508.854389,
+        "RotationPeriod": -340538.644116,
+        "AxialTilt": -2.629955
+      },
+      {
+        "timestamp": "2026-02-16T14:28:57Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 5 b",
+        "BodyID": 38,
+        "Parents": [
+          {
+            "Planet": 34
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1396.717759,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000449,
+        "Radius": 677057.1875,
+        "SurfaceGravity": 0.390396,
+        "SurfaceTemperature": 36.805435,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.600307
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.368103
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.320445
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 11.92599
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.02032
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.363513
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 4.925313
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.417438
+          },
+          {
+            "Name": "niobium",
+            "Percent": 0.815078
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.7227
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.520788
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 463253372.907639,
+        "Eccentricity": 0.001051,
+        "OrbitalInclination": -0.011717,
+        "Periapsis": 162.851029,
+        "OrbitalPeriod": 457126.480341,
+        "RotationPeriod": 457166.501331,
+        "AxialTilt": 0.197372
+      },
+      {
+        "timestamp": "2026-02-16T14:28:53Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 5 c",
+        "BodyID": 39,
+        "Parents": [
+          {
+            "Planet": 34
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1399.20718,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002638,
+        "Radius": 1216829.625,
+        "SurfaceGravity": 0.710003,
+        "SurfaceTemperature": 36.742229,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.056112
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.751389
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.56583
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.130344
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.174884
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.455419
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.475997
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 2.978791
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 0.90029
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.792105
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.718838
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 567176663.87558,
+        "Eccentricity": 0.000823,
+        "OrbitalInclination": -0.024288,
+        "Periapsis": 41.585791,
+        "OrbitalPeriod": 619278.585911,
+        "RotationPeriod": 619332.729125,
+        "AxialTilt": -0.126398
+      },
+      {
+        "timestamp": "2026-02-16T14:29:00Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 5 d",
+        "BodyID": 40,
+        "Parents": [
+          {
+            "Planet": 34
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1397.475184,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000686,
+        "Radius": 779219.75,
+        "SurfaceGravity": 0.450264,
+        "SurfaceTemperature": 36.565624,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.01177
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.7141
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.541958
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.110465
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.159849
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 5.001499
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.227571
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.291171
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.790806
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.71766
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.433142
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 1149445235.729218,
+        "Eccentricity": 0.000239,
+        "OrbitalInclination": -0.2119,
+        "Periapsis": 41.51321,
+        "OrbitalPeriod": 1786656.022072,
+        "RotationPeriod": 1786812.24457,
+        "AxialTilt": -0.400896
+      },
+      {
+        "timestamp": "2026-02-16T14:28:51Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 5 e",
+        "BodyID": 41,
+        "Parents": [
+          {
+            "Planet": 34
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1394.940019,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001445,
+        "Radius": 996428.5,
+        "SurfaceGravity": 0.57989,
+        "SurfaceTemperature": 36.515484,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.803928
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.53933
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.430065
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.097521
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.150057
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 4.996152
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.195042
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.287653
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 0.939427
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 0.89655
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.664275
+          }
+        ],
+        "Composition": {
+          "Ice": 0.823072,
+          "Rock": 0.160949,
+          "Metal": 0.015979
+        },
+        "SemiMajorAxis": 1485226273.536682,
+        "Eccentricity": 0.002321,
+        "OrbitalInclination": 1.419323,
+        "Periapsis": 122.084837,
+        "OrbitalPeriod": 2624202.847481,
+        "RotationPeriod": -2624432.560973,
+        "AxialTilt": 2.229282
+      },
+      {
+        "timestamp": "2026-02-16T14:28:49Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 5 f",
+        "BodyID": 42,
+        "Parents": [
+          {
+            "Planet": 34
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1400.217967,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000809,
+        "Radius": 822910.0,
+        "SurfaceGravity": 0.475952,
+        "SurfaceTemperature": 36.476784,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.504084
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 23.128084
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.806997
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.331188
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.326795
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.545745
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.53355
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.580251
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 0.957573
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.747255
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.538483
+          }
+        ],
+        "Composition": {
+          "Ice": 0.826312,
+          "Rock": 0.158128,
+          "Metal": 0.015559
+        },
+        "SemiMajorAxis": 1856271564.96048,
+        "Eccentricity": 0.000951,
+        "OrbitalInclination": 1.279741,
+        "Periapsis": 8.057062,
+        "OrbitalPeriod": 3666661.083698,
+        "RotationPeriod": 3666981.856602,
+        "AxialTilt": 0.212085
+      },
+      {
+        "timestamp": "2026-02-16T14:27:46Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea MB-V b16-0 6",
+        "BodyID": 43,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea MB-V b16-0",
+        "SystemAddress": 763028056209,
+        "DistanceFromArrivalLS": 1934.308247,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 89.334976
+          },
+          {
+            "Name": "Hydrogen",
+            "Percent": 8.427828
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.237205
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 3.846688,
+        "Radius": 11508276.0,
+        "SurfaceGravity": 11.576463,
+        "SurfaceTemperature": 31.616961,
+        "SurfacePressure": 73227.867188,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.686418,
+          "Rock": 0.210171,
+          "Metal": 0.103402
+        },
+        "SemiMajorAxis": 579495191574.0967,
+        "Eccentricity": 0.000894,
+        "OrbitalInclination": -2.704821,
+        "Periapsis": 308.002179,
+        "OrbitalPeriod": 481665420.532227,
+        "RotationPeriod": 164436.121082,
+        "AxialTilt": -0.021138,
+        "Rings": [
+          {
+            "Name": "Tyriedgoea MB-V b16-0 6 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 25502000.0,
+            "InnerRad": 18989000.0,
+            "OuterRad": 58116000.0
+          }
+        ]
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-12T061747.01.log",
+      "Journal.2026-02-12T214314.01.log",
+      "Journal.2026-02-13T224149.01.log",
+      "Journal.2026-02-14T071150.01.log",
+      "Journal.2026-02-14T205220.01.log",
+      "Journal.2026-02-15T071238.01.log",
+      "Journal.2026-02-15T104234.01.log",
+      "Journal.2026-02-15T140907.01.log",
+      "Journal.2026-02-15T183128.01.log",
+      "Journal.2026-02-16T151444.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-16T14:24:05Z",
+      "to_utc": "2026-02-16T14:29:02Z"
+    }
+  }
+}

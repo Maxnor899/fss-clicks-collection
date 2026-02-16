@@ -1,0 +1,52 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-29T214112.01.log"
+      ],
+      "first_seen_utc": "2025-12-29T21:59:36Z",
+      "last_seen_utc": "2025-12-29T21:59:42Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 2,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 2,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "L",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.032323Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 609750688857,
+    "name": "Flyeia Dryiae NL-R b10-0",
+    "star_pos": [
+      -4562.34375,
+      -159.21875,
+      -844.875
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-28T120903.01.log",
+        "Journal.2026-01-28T170501.01.log"
+      ],
+      "first_seen_utc": "2026-01-28T11:33:05Z",
+      "last_seen_utc": "2026-01-28T16:05:39Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 8,
+      "fss_nonbodycount": 5,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 9,
+      "n_gas_giants": 3,
+      "n_planets_scanned": 8,
+      "n_ringed_bodies": 5,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Icy body",
+        "Sudarsky class I gas giant",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.169508Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 2904875410665,
+    "name": "NGC 2546 Sector ST-G b43-1",
+    "star_pos": [
+      2609.34375,
+      328.46875,
+      -471.1875
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-21T181015.01.log",
+        "Journal.2025-12-21T214713.01.log"
+      ],
+      "first_seen_utc": "2025-12-21T17:46:31Z",
+      "last_seen_utc": "2025-12-21T21:24:16Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 31,
+      "fss_nonbodycount": 25,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 34,
+      "n_gas_giants": 4,
+      "n_planets_scanned": 31,
+      "n_ringed_bodies": 6,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Rocky body",
+        "Rocky ice body",
+        "Sudarsky class I gas giant",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 4,
+      "n_saa_mappings": 3
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "L",
+        "M",
+        "T"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.944516Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 713637177625,
+    "name": "NGC 4609 Sector NF-I b28-0",
+    "star_pos": [
+      3179.9375,
+      449.625,
+      2201.15625
+    ]
+  }
+}

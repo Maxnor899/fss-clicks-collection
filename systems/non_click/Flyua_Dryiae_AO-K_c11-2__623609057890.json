@@ -1,0 +1,52 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-31T080118.01.log"
+      ],
+      "first_seen_utc": "2025-12-31T07:06:55Z",
+      "last_seen_utc": "2025-12-31T07:07:01Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 16,
+      "fss_nonbodycount": 6,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 3,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 2,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "G",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.039721Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 623609057890,
+    "name": "Flyua Dryiae AO-K c11-2",
+    "star_pos": [
+      -5970.65625,
+      -93.0,
+      -556.25
+    ]
+  }
+}

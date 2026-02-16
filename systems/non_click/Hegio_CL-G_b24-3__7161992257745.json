@@ -1,0 +1,60 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-02T141925.01.log",
+        "Journal.2026-01-02T175513.01.log"
+      ],
+      "first_seen_utc": "2026-01-02T14:27:50Z",
+      "last_seen_utc": "2026-01-02T16:55:52Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 37,
+      "fss_nonbodycount": 7,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 38,
+      "n_gas_giants": 3,
+      "n_planets_scanned": 34,
+      "n_ringed_bodies": 3,
+      "n_terraformables": 2,
+      "planet_classes": [
+        "Gas giant with ammonia based life",
+        "High metal content body",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 12,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "L",
+        "M",
+        "T"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.062367Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 7161992257745,
+    "name": "Hegio CL-G b24-3",
+    "star_pos": [
+      -7895.90625,
+      7.0,
+      -3097.03125
+    ]
+  }
+}

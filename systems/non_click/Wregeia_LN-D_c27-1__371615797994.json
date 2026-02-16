@@ -1,0 +1,55 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-04T160325.01.log"
+      ],
+      "first_seen_utc": "2026-02-04T15:15:03Z",
+      "last_seen_utc": "2026-02-04T15:20:08Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 20,
+      "fss_nonbodycount": 11,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 20,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 17,
+      "n_ringed_bodies": 3,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "K",
+        "M",
+        "T"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.194594Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 371615797994,
+    "name": "Wregeia LN-D c27-1",
+    "star_pos": [
+      7664.34375,
+      551.0625,
+      115.5
+    ]
+  }
+}

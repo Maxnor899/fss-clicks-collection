@@ -1,0 +1,53 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-06T170214.01.log"
+      ],
+      "first_seen_utc": "2025-12-06T16:21:33Z",
+      "last_seen_utc": "2025-12-06T16:21:40Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 5,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 5,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 1,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "TTS"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.846373Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 5055042626849,
+    "name": "Wredguia TM-P b33-2",
+    "star_pos": [
+      -1038.375,
+      92.125,
+      -340.375
+    ]
+  }
+}

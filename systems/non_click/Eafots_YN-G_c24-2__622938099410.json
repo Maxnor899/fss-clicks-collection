@@ -1,0 +1,60 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-04T092548.01.log",
+        "Journal.2026-01-04T110814.01.log"
+      ],
+      "first_seen_utc": "2026-01-04T08:34:00Z",
+      "last_seen_utc": "2026-01-04T10:09:22Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 30,
+      "fss_nonbodycount": 9,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 30,
+      "n_gas_giants": 4,
+      "n_planets_scanned": 29,
+      "n_ringed_bodies": 5,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with water based life",
+        "High metal content body",
+        "Icy body",
+        "Rocky body",
+        "Rocky ice body",
+        "Sudarsky class I gas giant",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 5,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.080238Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 622938099410,
+    "name": "Eafots YN-G c24-2",
+    "star_pos": [
+      -6355.09375,
+      89.4375,
+      -5111.4375
+    ]
+  }
+}

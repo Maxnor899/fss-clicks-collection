@@ -1,0 +1,62 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-04T110814.01.log",
+        "Journal.2026-01-04T143809.01.log"
+      ],
+      "first_seen_utc": "2026-01-04T10:24:33Z",
+      "last_seen_utc": "2026-01-04T13:38:42Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 40,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 41,
+      "n_gas_giants": 4,
+      "n_planets_scanned": 37,
+      "n_ringed_bodies": 6,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with ammonia based life",
+        "Gas giant with water based life",
+        "High metal content body",
+        "Icy body",
+        "Metal rich body",
+        "Rocky body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 8,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "F",
+        "M",
+        "Y"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.081751Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 1246169679715,
+    "name": "Eafots ZA-F d11-36",
+    "star_pos": [
+      -6039.0,
+      80.875,
+      -5197.09375
+    ]
+  }
+}

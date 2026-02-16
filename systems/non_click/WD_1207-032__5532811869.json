@@ -1,0 +1,52 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-28T171210.01.log"
+      ],
+      "first_seen_utc": "2025-12-28T16:29:11Z",
+      "last_seen_utc": "2025-12-28T16:29:20Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 13,
+      "fss_nonbodycount": 7,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 5,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "B",
+        "TTS"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.985344Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 5532811869,
+    "name": "WD 1207-032",
+    "star_pos": [
+      36.09375,
+      58.65625,
+      8.40625
+    ]
+  }
+}

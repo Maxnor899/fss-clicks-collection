@@ -1,0 +1,53 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-15T071238.01.log"
+      ],
+      "first_seen_utc": "2026-02-15T06:29:09Z",
+      "last_seen_utc": "2026-02-15T06:29:15Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 17,
+      "fss_nonbodycount": 3,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 3,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "L",
+        "M",
+        "T"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.273202Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 749607659209,
+    "name": "Sifaea MS-M b23-0",
+    "star_pos": [
+      5865.875,
+      478.125,
+      724.375
+    ]
+  }
+}

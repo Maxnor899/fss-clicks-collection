@@ -1,0 +1,58 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-09T205244.01.log"
+      ],
+      "first_seen_utc": "2026-02-09T20:00:33Z",
+      "last_seen_utc": "2026-02-09T20:06:33Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 18,
+      "fss_nonbodycount": 12,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 19,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 17,
+      "n_ringed_bodies": 2,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with water based life",
+        "High metal content body",
+        "Icy body",
+        "Rocky body",
+        "Rocky ice body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "G",
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.233153Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 11786111555,
+    "name": "Blo Thae GG-N d7-0",
+    "star_pos": [
+      6209.96875,
+      538.5625,
+      2160.46875
+    ]
+  }
+}

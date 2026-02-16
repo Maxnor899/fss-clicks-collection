@@ -1,0 +1,53 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-31T215655.01.log"
+      ],
+      "first_seen_utc": "2026-01-31T21:39:36Z",
+      "last_seen_utc": "2026-01-31T21:40:01Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 2,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": true,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 2,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 1,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.181007Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 367522222594,
+    "name": "Ploea Eur YA-D c1",
+    "star_pos": [
+      5248.1875,
+      618.21875,
+      -1027.9375
+    ]
+  }
+}

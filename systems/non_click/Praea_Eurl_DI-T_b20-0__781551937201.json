@@ -1,0 +1,55 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-05T201519.01.log"
+      ],
+      "first_seen_utc": "2026-02-05T19:34:04Z",
+      "last_seen_utc": "2026-02-05T19:36:59Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 20,
+      "fss_nonbodycount": 16,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 20,
+      "n_gas_giants": 4,
+      "n_planets_scanned": 19,
+      "n_ringed_bodies": 4,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 5,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.204628Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 781551937201,
+    "name": "Praea Eurl DI-T b20-0",
+    "star_pos": [
+      8247.0,
+      625.46875,
+      668.1875
+    ]
+  }
+}

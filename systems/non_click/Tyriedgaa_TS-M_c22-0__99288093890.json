@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-08T165846.01.log"
+      ],
+      "first_seen_utc": "2026-02-08T16:23:05Z",
+      "last_seen_utc": "2026-02-08T16:26:31Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 10,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": true,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 11,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 10,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 2,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Rocky ice body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.219970Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 99288093890,
+    "name": "Tyriedgaa TS-M c22-0",
+    "star_pos": [
+      9210.25,
+      637.5625,
+      2478.625
+    ]
+  }
+}

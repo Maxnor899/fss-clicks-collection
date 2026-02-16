@@ -1,0 +1,55 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-06T210011.01.log"
+      ],
+      "first_seen_utc": "2026-01-06T20:33:55Z",
+      "last_seen_utc": "2026-01-06T20:36:02Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 20,
+      "fss_nonbodycount": 5,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 20,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 17,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "L",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.100436Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 631763377585,
+    "name": "Hypou Aim PJ-K b50-0",
+    "star_pos": [
+      -2916.40625,
+      141.84375,
+      -5090.34375
+    ]
+  }
+}

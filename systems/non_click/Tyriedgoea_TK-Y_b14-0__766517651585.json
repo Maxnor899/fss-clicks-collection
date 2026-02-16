@@ -1,0 +1,54 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-16T151444.01.log"
+      ],
+      "first_seen_utc": "2026-02-16T14:18:26Z",
+      "last_seen_utc": "2026-02-16T14:18:32Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 10,
+      "fss_nonbodycount": 3,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 4,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 4,
+      "types": [
+        "L",
+        "M_RedGiant",
+        "T",
+        "Y"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.289029Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 766517651585,
+    "name": "Tyriedgoea TK-Y b14-0",
+    "star_pos": [
+      7115.875,
+      54.46875,
+      1816.1875
+    ]
+  }
+}

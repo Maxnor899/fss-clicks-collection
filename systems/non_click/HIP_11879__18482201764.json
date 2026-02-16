@@ -1,0 +1,60 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-10-29T214814.01.log",
+        "Journal.2025-10-29T222453.01.log",
+        "Journal.2025-10-30T215424.01.log",
+        "Journal.2025-10-31T071755.01.log",
+        "Journal.2025-11-01T145306.01.log",
+        "Journal.2025-11-02T173622.01.log"
+      ],
+      "first_seen_utc": "2025-10-29T20:51:02Z",
+      "last_seen_utc": "2025-11-02T16:37:20Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": null,
+      "fss_nonbodycount": null,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 8,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 7,
+      "n_ringed_bodies": 3,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "G"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.837622Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 18482201764,
+    "name": "HIP 11879",
+    "star_pos": [
+      -344.3125,
+      19.96875,
+      -340.5
+    ]
+  }
+}

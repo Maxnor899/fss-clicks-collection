@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-03T172021.01.log"
+      ],
+      "first_seen_utc": "2026-01-03T16:22:44Z",
+      "last_seen_utc": "2026-01-03T16:24:21Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 15,
+      "fss_nonbodycount": 5,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 15,
+      "n_gas_giants": 4,
+      "n_planets_scanned": 14,
+      "n_ringed_bodies": 5,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with ammonia based life",
+        "Icy body",
+        "Sudarsky class I gas giant",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.070932Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 1444954574666,
+    "name": "Phoi Aim HO-K c8-5",
+    "star_pos": [
+      -7913.375,
+      60.21875,
+      -4543.25
+    ]
+  }
+}

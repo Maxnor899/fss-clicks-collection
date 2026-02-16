@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-13T224149.01.log",
+        "Journal.2026-02-14T071150.01.log"
+      ],
+      "first_seen_utc": "2026-02-13T22:19:00Z",
+      "last_seen_utc": "2026-02-14T06:13:20Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 25,
+      "fss_nonbodycount": 34,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 8,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 7,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Metal rich body",
+        "Rocky body",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "G"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.255102Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 5860046639802,
+    "name": "Flyua Dryoae DJ-R c21-21",
+    "star_pos": [
+      2247.59375,
+      -26.78125,
+      -114.34375
+    ]
+  }
+}

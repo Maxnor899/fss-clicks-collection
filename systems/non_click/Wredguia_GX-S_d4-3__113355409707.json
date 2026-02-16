@@ -1,0 +1,54 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-29T073241.01.log"
+      ],
+      "first_seen_utc": "2025-12-29T06:34:39Z",
+      "last_seen_utc": "2025-12-29T06:35:36Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 4,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": true,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 4,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 3,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Icy body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "F"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.001239Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 113355409707,
+    "name": "Wredguia GX-S d4-3",
+    "star_pos": [
+      -1018.0,
+      746.4375,
+      -629.59375
+    ]
+  }
+}

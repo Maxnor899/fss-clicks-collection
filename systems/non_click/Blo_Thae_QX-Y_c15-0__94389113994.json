@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-09T205244.01.log"
+      ],
+      "first_seen_utc": "2026-02-09T19:57:34Z",
+      "last_seen_utc": "2026-02-09T19:59:26Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 13,
+      "fss_nonbodycount": 7,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 13,
+      "n_gas_giants": 2,
+      "n_planets_scanned": 12,
+      "n_ringed_bodies": 3,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with water based life",
+        "High metal content body",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.232946Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 94389113994,
+    "name": "Blo Thae QX-Y c15-0",
+    "star_pos": [
+      6258.8125,
+      577.0,
+      2175.40625
+    ]
+  }
+}

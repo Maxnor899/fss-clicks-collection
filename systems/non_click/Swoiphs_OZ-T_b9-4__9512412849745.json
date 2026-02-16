@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-12T061747.01.log"
+      ],
+      "first_seen_utc": "2026-02-12T05:53:31Z",
+      "last_seen_utc": "2026-02-12T05:55:19Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 19,
+      "fss_nonbodycount": 10,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 19,
+      "n_gas_giants": 3,
+      "n_planets_scanned": 18,
+      "n_ringed_bodies": 2,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with ammonia based life",
+        "Icy body",
+        "Metal rich body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.250931Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 9512412849745,
+    "name": "Swoiphs OZ-T b9-4",
+    "star_pos": [
+      3385.28125,
+      -78.53125,
+      427.59375
+    ]
+  }
+}

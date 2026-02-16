@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-04T182059.01.log"
+      ],
+      "first_seen_utc": "2026-02-04T17:28:48Z",
+      "last_seen_utc": "2026-02-04T17:31:39Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 23,
+      "fss_nonbodycount": 11,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 23,
+      "n_gas_giants": 5,
+      "n_planets_scanned": 22,
+      "n_ringed_bodies": 7,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with ammonia based life",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class I gas giant",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 6,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.198181Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 646023975602,
+    "name": "Ploi Eurl GC-Q c20-2",
+    "star_pos": [
+      7382.625,
+      601.6875,
+      -147.8125
+    ]
+  }
+}

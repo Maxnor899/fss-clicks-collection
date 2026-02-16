@@ -1,0 +1,54 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-08T071626.01.log"
+      ],
+      "first_seen_utc": "2026-02-08T06:55:04Z",
+      "last_seen_utc": "2026-02-08T06:57:04Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 6,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 6,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 5,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.213185Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 99824899170,
+    "name": "Tyriedgaa JN-H c11-0",
+    "star_pos": [
+      9509.15625,
+      571.15625,
+      1994.1875
+    ]
+  }
+}

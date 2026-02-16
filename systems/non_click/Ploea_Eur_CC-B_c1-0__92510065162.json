@@ -1,0 +1,55 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-31T141358.01.log"
+      ],
+      "first_seen_utc": "2026-01-31T13:25:29Z",
+      "last_seen_utc": "2026-01-31T13:32:44Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 11,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 13,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 10,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Icy body",
+        "Rocky ice body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 2
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "K",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.180547Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 92510065162,
+    "name": "Ploea Eur CC-B c1-0",
+    "star_pos": [
+      5140.0,
+      593.875,
+      -996.96875
+    ]
+  }
+}

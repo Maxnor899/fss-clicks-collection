@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-04T073724.01.log"
+      ],
+      "first_seen_utc": "2026-01-04T07:09:54Z",
+      "last_seen_utc": "2026-01-04T07:11:29Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 8,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 8,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 6,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "G",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.077159Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 1589599291259,
+    "name": "Hypoae Aim RT-Z d13-46",
+    "star_pos": [
+      -6852.46875,
+      56.46875,
+      -4909.84375
+    ]
+  }
+}

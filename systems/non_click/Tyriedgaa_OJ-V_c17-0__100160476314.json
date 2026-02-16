@@ -1,0 +1,55 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-08T111611.01.log"
+      ],
+      "first_seen_utc": "2026-02-08T10:47:25Z",
+      "last_seen_utc": "2026-02-08T10:52:12Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 12,
+      "fss_nonbodycount": 5,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 13,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 9,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Rocky body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "G",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.215256Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 100160476314,
+    "name": "Tyriedgaa OJ-V c17-0",
+    "star_pos": [
+      9698.03125,
+      580.5625,
+      2260.59375
+    ]
+  }
+}

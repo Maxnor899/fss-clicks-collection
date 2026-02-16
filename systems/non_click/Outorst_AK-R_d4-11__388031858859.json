@@ -1,0 +1,52 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-07T082717.01.log"
+      ],
+      "first_seen_utc": "2025-12-07T08:00:08Z",
+      "last_seen_utc": "2025-12-07T08:00:14Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 2,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 2,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "A",
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.862563Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 388031858859,
+    "name": "Outorst AK-R d4-11",
+    "star_pos": [
+      -1937.03125,
+      76.53125,
+      -1936.59375
+    ]
+  }
+}

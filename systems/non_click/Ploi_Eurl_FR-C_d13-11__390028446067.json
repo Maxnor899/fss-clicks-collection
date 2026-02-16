@@ -1,0 +1,58 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-04T160325.01.log"
+      ],
+      "first_seen_utc": "2026-02-04T15:33:10Z",
+      "last_seen_utc": "2026-02-04T15:39:13Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 40,
+      "fss_nonbodycount": 11,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 41,
+      "n_gas_giants": 4,
+      "n_planets_scanned": 40,
+      "n_ringed_bodies": 4,
+      "n_terraformables": 2,
+      "planet_classes": [
+        "Gas giant with water based life",
+        "High metal content body",
+        "Icy body",
+        "Rocky ice body",
+        "Sudarsky class I gas giant",
+        "Water world"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 7,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.195568Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 390028446067,
+    "name": "Ploi Eurl FR-C d13-11",
+    "star_pos": [
+      7589.9375,
+      564.0625,
+      121.59375
+    ]
+  }
+}

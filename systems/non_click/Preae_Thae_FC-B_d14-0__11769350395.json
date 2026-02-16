@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-01T074904.01.log"
+      ],
+      "first_seen_utc": "2026-02-01T07:24:56Z",
+      "last_seen_utc": "2026-02-01T07:27:24Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 22,
+      "fss_nonbodycount": 12,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 22,
+      "n_gas_giants": 3,
+      "n_planets_scanned": 21,
+      "n_ringed_bodies": 3,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with water based life",
+        "High metal content body",
+        "Metal rich body",
+        "Rocky body",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "F"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.184792Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 11769350395,
+    "name": "Preae Thae FC-B d14-0",
+    "star_pos": [
+      6145.71875,
+      667.75,
+      -1118.75
+    ]
+  }
+}

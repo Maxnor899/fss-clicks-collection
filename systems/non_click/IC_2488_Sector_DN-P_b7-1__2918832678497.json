@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-12T061747.01.log"
+      ],
+      "first_seen_utc": "2026-02-12T05:29:15Z",
+      "last_seen_utc": "2026-02-12T05:30:33Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 11,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 11,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 8,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Rocky body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "L",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.249907Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 2918832678497,
+    "name": "IC 2488 Sector DN-P b7-1",
+    "star_pos": [
+      3643.28125,
+      -98.15625,
+      474.96875
+    ]
+  }
+}

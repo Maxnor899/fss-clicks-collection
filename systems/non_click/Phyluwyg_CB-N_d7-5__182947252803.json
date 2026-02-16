@@ -1,0 +1,59 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-18T210323.01.log"
+      ],
+      "first_seen_utc": "2025-12-18T20:43:28Z",
+      "last_seen_utc": "2025-12-18T20:51:59Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 17,
+      "fss_nonbodycount": 3,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 19,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 16,
+      "n_ringed_bodies": 2,
+      "n_terraformables": 2,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Metal rich body",
+        "Rocky body",
+        "Sudarsky class I gas giant",
+        "Water world"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 4,
+      "n_saa_mappings": 2
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "F",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.933437Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 182947252803,
+    "name": "Phyluwyg CB-N d7-5",
+    "star_pos": [
+      3149.5,
+      531.09375,
+      2191.46875
+    ]
+  }
+}

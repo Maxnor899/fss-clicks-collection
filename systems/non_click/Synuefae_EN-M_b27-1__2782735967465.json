@@ -1,0 +1,55 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-01T072321.01.log"
+      ],
+      "first_seen_utc": "2026-01-01T06:37:45Z",
+      "last_seen_utc": "2026-01-01T06:40:01Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 15,
+      "fss_nonbodycount": 3,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 15,
+      "n_gas_giants": 2,
+      "n_planets_scanned": 14,
+      "n_ringed_bodies": 2,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.043264Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 2782735967465,
+    "name": "Synuefae EN-M b27-1",
+    "star_pos": [
+      -6488.375,
+      -79.6875,
+      -477.6875
+    ]
+  }
+}

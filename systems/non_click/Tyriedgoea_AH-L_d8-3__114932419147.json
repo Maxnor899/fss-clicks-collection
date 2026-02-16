@@ -1,0 +1,51 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-09T174314.01.log"
+      ],
+      "first_seen_utc": "2026-02-09T17:30:37Z",
+      "last_seen_utc": "2026-02-09T17:30:43Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 36,
+      "fss_nonbodycount": 6,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 1,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "G"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.231575Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 114932419147,
+    "name": "Tyriedgoea AH-L d8-3",
+    "star_pos": [
+      6566.0,
+      502.71875,
+      2264.71875
+    ]
+  }
+}

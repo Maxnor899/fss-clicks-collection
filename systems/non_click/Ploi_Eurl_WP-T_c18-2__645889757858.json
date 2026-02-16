@@ -1,0 +1,58 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-02T173833.01.log",
+        "Journal.2026-02-03T201109.01.log"
+      ],
+      "first_seen_utc": "2026-02-02T17:16:41Z",
+      "last_seen_utc": "2026-02-03T19:16:51Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 29,
+      "fss_nonbodycount": 10,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 31,
+      "n_gas_giants": 5,
+      "n_planets_scanned": 30,
+      "n_ringed_bodies": 4,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with water based life",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class I gas giant",
+        "Sudarsky class II gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 7,
+      "n_saa_mappings": 2
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.192508Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 645889757858,
+    "name": "Ploi Eurl WP-T c18-2",
+    "star_pos": [
+      7316.25,
+      588.0,
+      -250.1875
+    ]
+  }
+}

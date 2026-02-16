@@ -1,0 +1,55 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-22T080528.01.log"
+      ],
+      "first_seen_utc": "2025-12-22T08:13:52Z",
+      "last_seen_utc": "2025-12-22T08:19:40Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 27,
+      "fss_nonbodycount": 7,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 28,
+      "n_gas_giants": 6,
+      "n_planets_scanned": 27,
+      "n_ringed_bodies": 5,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with ammonia based life",
+        "Icy body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 12,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.949983Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 711221192945,
+    "name": "Phyluwyg XH-D b28-0",
+    "star_pos": [
+      2995.21875,
+      419.0,
+      2098.25
+    ]
+  }
+}

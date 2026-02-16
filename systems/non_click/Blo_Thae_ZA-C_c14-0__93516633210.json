@@ -1,0 +1,58 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-10T202414.01.log"
+      ],
+      "first_seen_utc": "2026-02-10T19:28:31Z",
+      "last_seen_utc": "2026-02-10T19:31:34Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 24,
+      "fss_nonbodycount": 9,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 24,
+      "n_gas_giants": 4,
+      "n_planets_scanned": 23,
+      "n_ringed_bodies": 4,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Metal rich body",
+        "Rocky body",
+        "Sudarsky class I gas giant",
+        "Sudarsky class II gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 10,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "G"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.234797Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 93516633210,
+    "name": "Blo Thae ZA-C c14-0",
+    "star_pos": [
+      5767.9375,
+      516.1875,
+      2115.875
+    ]
+  }
+}

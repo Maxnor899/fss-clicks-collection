@@ -1,0 +1,54 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-12T061747.01.log"
+      ],
+      "first_seen_utc": "2026-02-12T05:31:34Z",
+      "last_seen_utc": "2026-02-12T05:37:17Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 9,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 11,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 10,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_saa_mappings": 2
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.250127Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 3938182959922,
+    "name": "Swoiphs RD-V c5-14",
+    "star_pos": [
+      3578.46875,
+      -88.59375,
+      472.78125
+    ]
+  }
+}

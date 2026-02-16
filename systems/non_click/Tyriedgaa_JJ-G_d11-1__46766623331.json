@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-08T165846.01.log",
+        "Journal.2026-02-08T222850.01.log"
+      ],
+      "first_seen_utc": "2026-02-08T16:27:16Z",
+      "last_seen_utc": "2026-02-08T21:40:29Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 15,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 18,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 16,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 2,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Rocky ice body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_saa_mappings": 3
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "F",
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.220168Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 46766623331,
+    "name": "Tyriedgaa JJ-G d11-1",
+    "star_pos": [
+      9152.46875,
+      617.21875,
+      2465.8125
+    ]
+  }
+}

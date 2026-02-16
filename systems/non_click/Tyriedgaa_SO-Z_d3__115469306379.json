@@ -1,0 +1,59 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-07T205128.01.log"
+      ],
+      "first_seen_utc": "2026-02-07T20:53:08Z",
+      "last_seen_utc": "2026-02-07T21:08:40Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 24,
+      "fss_nonbodycount": 4,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 28,
+      "n_gas_giants": 2,
+      "n_planets_scanned": 25,
+      "n_ringed_bodies": 2,
+      "n_terraformables": 8,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class I gas giant",
+        "Sudarsky class II gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 1,
+      "n_saa_mappings": 4
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "A",
+        "G",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.210671Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 115469306379,
+    "name": "Tyriedgaa SO-Z d3",
+    "star_pos": [
+      9110.375,
+      551.78125,
+      1638.75
+    ]
+  }
+}

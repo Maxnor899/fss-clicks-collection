@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-02T093623.01.log"
+      ],
+      "first_seen_utc": "2026-01-02T08:40:21Z",
+      "last_seen_utc": "2026-01-02T08:44:56Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 17,
+      "fss_nonbodycount": 8,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 18,
+      "n_gas_giants": 2,
+      "n_planets_scanned": 17,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with ammonia based life",
+        "Gas giant with water based life",
+        "High metal content body",
+        "Icy body",
+        "Rocky body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "G"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.049516Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 1039742798107,
+    "name": "Ploea Eurk RS-U d2-30",
+    "star_pos": [
+      -7300.03125,
+      -22.1875,
+      -812.84375
+    ]
+  }
+}

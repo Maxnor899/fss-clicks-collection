@@ -1,0 +1,59 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-16T200053.01.log"
+      ],
+      "first_seen_utc": "2025-12-16T20:13:07Z",
+      "last_seen_utc": "2025-12-16T20:27:10Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 32,
+      "fss_nonbodycount": 7,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 35,
+      "n_gas_giants": 5,
+      "n_planets_scanned": 34,
+      "n_ringed_bodies": 7,
+      "n_terraformables": 6,
+      "planet_classes": [
+        "Gas giant with water based life",
+        "High metal content body",
+        "Icy body",
+        "Metal rich body",
+        "Rocky body",
+        "Sudarsky class I gas giant",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 6,
+      "n_saa_mappings": 3
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.912839Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 691893315433,
+    "name": "Pro Eurl NI-B b42-0",
+    "star_pos": [
+      1565.9375,
+      264.71875,
+      1120.375
+    ]
+  }
+}

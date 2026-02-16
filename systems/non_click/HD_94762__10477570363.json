@@ -1,0 +1,52 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-28T225522.01.log"
+      ],
+      "first_seen_utc": "2025-12-28T21:58:10Z",
+      "last_seen_utc": "2025-12-28T21:58:23Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 32,
+      "fss_nonbodycount": 3,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 2,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 2,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "F",
+        "Y"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.994114Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 10477570363,
+    "name": "HD 94762",
+    "star_pos": [
+      -19.21875,
+      998.375,
+      -492.0
+    ]
+  }
+}

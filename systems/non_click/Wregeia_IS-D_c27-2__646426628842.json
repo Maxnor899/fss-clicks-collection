@@ -1,0 +1,58 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-04T212839.01.log"
+      ],
+      "first_seen_utc": "2026-02-04T21:02:32Z",
+      "last_seen_utc": "2026-02-04T21:06:36Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 38,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 38,
+      "n_gas_giants": 4,
+      "n_planets_scanned": 34,
+      "n_ringed_bodies": 4,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with water based life",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 14,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "K",
+        "L",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.201400Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 646426628842,
+    "name": "Wregeia IS-D c27-2",
+    "star_pos": [
+      7621.78125,
+      582.90625,
+      128.59375
+    ]
+  }
+}

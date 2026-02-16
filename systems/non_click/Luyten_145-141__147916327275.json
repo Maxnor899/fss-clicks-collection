@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-23T201859.01.log",
+        "Journal.2025-12-25T222209.01.log"
+      ],
+      "first_seen_utc": "2025-12-23T20:17:04Z",
+      "last_seen_utc": "2025-12-25T21:23:19Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 14,
+      "fss_nonbodycount": 67,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 15,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 13,
+      "n_ringed_bodies": 2,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "D",
+        "G"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.975376Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 147916327275,
+    "name": "Luyten 145-141",
+    "star_pos": [
+      13.4375,
+      -0.8125,
+      6.65625
+    ]
+  }
+}

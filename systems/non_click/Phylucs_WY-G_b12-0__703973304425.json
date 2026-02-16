@@ -1,0 +1,55 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-22T133052.01.log"
+      ],
+      "first_seen_utc": "2025-12-22T13:26:05Z",
+      "last_seen_utc": "2025-12-22T13:29:27Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 30,
+      "fss_nonbodycount": 5,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 30,
+      "n_gas_giants": 5,
+      "n_planets_scanned": 29,
+      "n_ringed_bodies": 5,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with water based life",
+        "Icy body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 8,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.955316Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 703973304425,
+    "name": "Phylucs WY-G b12-0",
+    "star_pos": [
+      2456.875,
+      377.28125,
+      1759.59375
+    ]
+  }
+}

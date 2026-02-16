@@ -1,0 +1,53 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-28T120903.01.log"
+      ],
+      "first_seen_utc": "2026-01-28T11:27:33Z",
+      "last_seen_utc": "2026-01-28T11:27:42Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 12,
+      "fss_nonbodycount": 3,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 3,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "K",
+        "L",
+        "T"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.168191Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 1187256701570,
+    "name": "Plio Eurl ZD-Z c14-4",
+    "star_pos": [
+      2303.6875,
+      273.75,
+      -399.3125
+    ]
+  }
+}

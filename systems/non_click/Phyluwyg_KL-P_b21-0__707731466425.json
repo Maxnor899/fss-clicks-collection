@@ -1,0 +1,58 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-22T133052.01.log"
+      ],
+      "first_seen_utc": "2025-12-22T12:46:08Z",
+      "last_seen_utc": "2025-12-22T12:53:56Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 24,
+      "fss_nonbodycount": 5,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 25,
+      "n_gas_giants": 5,
+      "n_planets_scanned": 24,
+      "n_ringed_bodies": 5,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class I gas giant",
+        "Sudarsky class II gas giant",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 6,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.953489Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 707731466425,
+    "name": "Phyluwyg KL-P b21-0",
+    "star_pos": [
+      2740.53125,
+      399.21875,
+      1955.5625
+    ]
+  }
+}

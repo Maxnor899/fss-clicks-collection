@@ -1,0 +1,59 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-17T151026.01.log"
+      ],
+      "first_seen_utc": "2025-12-17T14:54:44Z",
+      "last_seen_utc": "2025-12-17T14:59:12Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 27,
+      "fss_nonbodycount": 24,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 28,
+      "n_gas_giants": 5,
+      "n_planets_scanned": 24,
+      "n_ringed_bodies": 9,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with ammonia based life",
+        "High metal content body",
+        "Icy body",
+        "Metal rich body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 10,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "K",
+        "L",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.921571Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 638104998978,
+    "name": "Phyluwyg OZ-N c7-2",
+    "star_pos": [
+      2655.625,
+      441.59375,
+      1816.6875
+    ]
+  }
+}

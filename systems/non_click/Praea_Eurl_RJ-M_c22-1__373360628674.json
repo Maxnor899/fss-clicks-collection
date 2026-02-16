@@ -1,0 +1,58 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-06T211411.01.log"
+      ],
+      "first_seen_utc": "2026-02-06T20:49:41Z",
+      "last_seen_utc": "2026-02-06T20:59:06Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 29,
+      "fss_nonbodycount": 8,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 30,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 27,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Metal rich body",
+        "Rocky body",
+        "Rocky ice body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "K",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.207461Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 373360628674,
+    "name": "Praea Eurl RJ-M c22-1",
+    "star_pos": [
+      8699.6875,
+      537.65625,
+      1180.3125
+    ]
+  }
+}

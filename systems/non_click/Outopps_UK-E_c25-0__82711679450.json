@@ -1,0 +1,51 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-18T205816.01.log"
+      ],
+      "first_seen_utc": "2026-01-18T20:13:35Z",
+      "last_seen_utc": "2026-01-18T20:13:41Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 5,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 1,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.129338Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 82711679450,
+    "name": "Outopps UK-E c25-0",
+    "star_pos": [
+      -692.5,
+      -12.28125,
+      -1252.28125
+    ]
+  }
+}

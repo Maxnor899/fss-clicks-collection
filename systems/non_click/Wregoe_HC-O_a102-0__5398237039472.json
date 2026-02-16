@@ -1,0 +1,51 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-25T082549.01.log"
+      ],
+      "first_seen_utc": "2026-01-25T07:52:24Z",
+      "last_seen_utc": "2026-01-25T07:52:30Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": null,
+      "fss_nonbodycount": null,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 1,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "Y"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.142879Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 5398237039472,
+    "name": "Wregoe HC-O a102-0",
+    "star_pos": [
+      286.3125,
+      -24.625,
+      37.09375
+    ]
+  }
+}

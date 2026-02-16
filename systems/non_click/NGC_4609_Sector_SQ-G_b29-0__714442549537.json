@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-21T181015.01.log"
+      ],
+      "first_seen_utc": "2025-12-21T17:17:29Z",
+      "last_seen_utc": "2025-12-21T17:25:40Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 23,
+      "fss_nonbodycount": 14,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 24,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 21,
+      "n_ringed_bodies": 3,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 5,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "L",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.943480Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 714442549537,
+    "name": "NGC 4609 Sector SQ-G b29-0",
+    "star_pos": [
+      3238.28125,
+      455.78125,
+      2220.28125
+    ]
+  }
+}

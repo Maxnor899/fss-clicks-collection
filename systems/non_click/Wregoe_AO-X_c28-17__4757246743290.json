@@ -1,0 +1,52 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-14T211015.01.log"
+      ],
+      "first_seen_utc": "2025-12-14T20:44:28Z",
+      "last_seen_utc": "2025-12-14T20:44:34Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 12,
+      "fss_nonbodycount": 6,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 2,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "K",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.901548Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 4757246743290,
+    "name": "Wregoe AO-X c28-17",
+    "star_pos": [
+      272.0625,
+      33.09375,
+      192.03125
+    ]
+  }
+}

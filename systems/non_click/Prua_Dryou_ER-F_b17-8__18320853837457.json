@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-11T164827.01.log"
+      ],
+      "first_seen_utc": "2026-02-11T15:50:44Z",
+      "last_seen_utc": "2026-02-11T15:52:20Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 12,
+      "fss_nonbodycount": 10,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 12,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 11,
+      "n_ringed_bodies": 2,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Rocky body",
+        "Rocky ice body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.247926Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 18320853837457,
+    "name": "Prua Dryou ER-F b17-8",
+    "star_pos": [
+      4300.8125,
+      -85.53125,
+      575.71875
+    ]
+  }
+}

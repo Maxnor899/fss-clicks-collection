@@ -1,0 +1,53 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-14T205220.01.log",
+        "Journal.2026-02-15T071238.01.log"
+      ],
+      "first_seen_utc": "2026-02-14T21:16:24Z",
+      "last_seen_utc": "2026-02-15T06:13:22Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 2,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 2,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "F",
+        "G"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.270884Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 561474799979,
+    "name": "Ploea Eur YF-E d12-16",
+    "star_pos": [
+      5859.65625,
+      533.21875,
+      43.875
+    ]
+  }
+}

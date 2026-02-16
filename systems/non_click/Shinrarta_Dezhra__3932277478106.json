@@ -1,0 +1,83 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-09T200733.01.log",
+        "Journal.2025-12-10T154558.01.log",
+        "Journal.2025-12-10T175923.01.log",
+        "Journal.2025-12-10T212808.01.log",
+        "Journal.2025-12-11T214059.01.log",
+        "Journal.2025-12-12T214712.01.log",
+        "Journal.2025-12-13T215625.01.log",
+        "Journal.2025-12-14T084014.01.log",
+        "Journal.2025-12-14T181634.01.log",
+        "Journal.2025-12-14T211015.01.log",
+        "Journal.2025-12-22T133052.01.log",
+        "Journal.2025-12-22T215218.01.log",
+        "Journal.2025-12-23T201437.01.log",
+        "Journal.2025-12-23T201859.01.log",
+        "Journal.2025-12-27T194118.01.log",
+        "Journal.2025-12-28T171210.01.log",
+        "Journal.2025-12-28T194954.01.log",
+        "Journal.2026-01-18T205816.01.log",
+        "Journal.2026-01-23T225544.01.log",
+        "Journal.2026-01-25T082549.01.log",
+        "Journal.2026-01-26T213258.01.log",
+        "Journal.2026-01-27T182553.01.log",
+        "Journal.2026-01-27T184011.01.log",
+        "Journal.2026-01-27T202844.01.log",
+        "Journal.2026-01-27T210139.01.log"
+      ],
+      "first_seen_utc": "2025-12-09T19:36:49Z",
+      "last_seen_utc": "2026-01-27T20:02:28Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 39,
+      "fss_nonbodycount": 24,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 39,
+      "n_gas_giants": 4,
+      "n_planets_scanned": 37,
+      "n_ringed_bodies": 5,
+      "n_terraformables": 1,
+      "planet_classes": [
+        "Earthlike body",
+        "Gas giant with water based life",
+        "High metal content body",
+        "Icy body",
+        "Sudarsky class I gas giant",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "K",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.895215Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 3932277478106,
+    "name": "Shinrarta Dezhra",
+    "star_pos": [
+      55.71875,
+      17.59375,
+      27.15625
+    ]
+  }
+}

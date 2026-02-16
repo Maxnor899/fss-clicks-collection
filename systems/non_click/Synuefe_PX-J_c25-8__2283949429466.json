@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-25T152441.01.log",
+        "Journal.2026-01-25T174951.01.log",
+        "Journal.2026-01-25T213636.01.log"
+      ],
+      "first_seen_utc": "2026-01-25T14:41:01Z",
+      "last_seen_utc": "2026-01-25T20:37:18Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 41,
+      "fss_nonbodycount": 24,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 14,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 13,
+      "n_ringed_bodies": 2,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Rocky body",
+        "Sudarsky class IV gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 7,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.148992Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 2283949429466,
+    "name": "Synuefe PX-J c25-8",
+    "star_pos": [
+      649.6875,
+      -124.25,
+      32.4375
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-15T071238.01.log"
+      ],
+      "first_seen_utc": "2026-02-15T06:31:58Z",
+      "last_seen_utc": "2026-02-15T06:32:04Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 32,
+      "fss_nonbodycount": 6,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 2,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 1,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.274117Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 749339158265,
+    "name": "Sifaea LY-B b29-0",
+    "star_pos": [
+      5854.125,
+      455.6875,
+      853.46875
+    ]
+  }
+}

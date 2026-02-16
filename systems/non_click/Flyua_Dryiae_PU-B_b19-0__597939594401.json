@@ -1,0 +1,54 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-30T145043.01.log"
+      ],
+      "first_seen_utc": "2025-12-30T14:11:00Z",
+      "last_seen_utc": "2025-12-30T14:11:08Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 11,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 4,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 2,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "L",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.037102Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 597939594401,
+    "name": "Flyua Dryiae PU-B b19-0",
+    "star_pos": [
+      -5428.03125,
+      -134.59375,
+      -656.125
+    ]
+  }
+}

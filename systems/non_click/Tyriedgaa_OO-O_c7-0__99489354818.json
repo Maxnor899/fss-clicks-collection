@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-07T205128.01.log"
+      ],
+      "first_seen_utc": "2026-02-07T21:55:33Z",
+      "last_seen_utc": "2026-02-07T21:57:48Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 15,
+      "fss_nonbodycount": 7,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 15,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 13,
+      "n_ringed_bodies": 3,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Rocky ice body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 4,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "G",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.211853Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 99489354818,
+    "name": "Tyriedgaa OO-O c7-0",
+    "star_pos": [
+      9295.34375,
+      538.0,
+      1815.6875
+    ]
+  }
+}

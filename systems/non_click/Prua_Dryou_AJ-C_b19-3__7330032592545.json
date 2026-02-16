@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-11T134714.01.log"
+      ],
+      "first_seen_utc": "2026-02-11T13:53:47Z",
+      "last_seen_utc": "2026-02-11T13:57:50Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 41,
+      "fss_nonbodycount": 4,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 41,
+      "n_gas_giants": 2,
+      "n_planets_scanned": 39,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Icy body",
+        "Rocky ice body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 7,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "L",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.246844Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 7330032592545,
+    "name": "Prua Dryou AJ-C b19-3",
+    "star_pos": [
+      4627.375,
+      -84.96875,
+      622.875
+    ]
+  }
+}

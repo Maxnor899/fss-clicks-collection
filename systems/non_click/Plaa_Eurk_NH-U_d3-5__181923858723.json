@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-29T101556.01.log"
+      ],
+      "first_seen_utc": "2025-12-29T09:21:47Z",
+      "last_seen_utc": "2025-12-29T09:22:05Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 24,
+      "fss_nonbodycount": 3,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 6,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 2,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Metal rich body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "G",
+        "K",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.005735Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 181923858723,
+    "name": "Plaa Eurk NH-U d3-5",
+    "star_pos": [
+      -1686.6875,
+      590.625,
+      -684.25
+    ]
+  }
+}

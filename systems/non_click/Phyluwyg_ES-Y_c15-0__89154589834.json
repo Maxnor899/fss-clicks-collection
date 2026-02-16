@@ -1,0 +1,55 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-18T210323.01.log"
+      ],
+      "first_seen_utc": "2025-12-18T20:37:18Z",
+      "last_seen_utc": "2025-12-18T20:40:00Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 18,
+      "fss_nonbodycount": 7,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 18,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 17,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 1,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Rocky ice body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.932914Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 89154589834,
+    "name": "Phyluwyg ES-Y c15-0",
+    "star_pos": [
+      3138.34375,
+      535.09375,
+      2176.09375
+    ]
+  }
+}

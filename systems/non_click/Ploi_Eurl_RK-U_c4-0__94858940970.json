@@ -1,0 +1,52 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-01T131305.01.log"
+      ],
+      "first_seen_utc": "2026-02-01T12:38:55Z",
+      "last_seen_utc": "2026-02-01T12:39:02Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 13,
+      "fss_nonbodycount": 6,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 3,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "L",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.187465Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 94858940970,
+    "name": "Ploi Eurl RK-U c4-0",
+    "star_pos": [
+      6536.46875,
+      655.65625,
+      -859.78125
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-04T160325.01.log"
+      ],
+      "first_seen_utc": "2026-02-04T15:41:24Z",
+      "last_seen_utc": "2026-02-04T15:43:34Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 18,
+      "fss_nonbodycount": 13,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 18,
+      "n_gas_giants": 3,
+      "n_planets_scanned": 17,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with ammonia based life",
+        "Icy body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 5,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.196079Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 771351324105,
+    "name": "Ploi Eurl PL-J b53-0",
+    "star_pos": [
+      7475.0625,
+      595.9375,
+      78.625
+    ]
+  }
+}

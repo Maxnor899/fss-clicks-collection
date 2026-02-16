@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-07T205128.01.log"
+      ],
+      "first_seen_utc": "2026-02-07T21:49:59Z",
+      "last_seen_utc": "2026-02-07T21:52:45Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 17,
+      "fss_nonbodycount": 11,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 17,
+      "n_gas_giants": 3,
+      "n_planets_scanned": 16,
+      "n_ringed_bodies": 5,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class I gas giant",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 6,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "F"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.211416Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 46783384091,
+    "name": "Tyriedgaa CB-W d2-1",
+    "star_pos": [
+      9221.46875,
+      557.0625,
+      1743.59375
+    ]
+  }
+}

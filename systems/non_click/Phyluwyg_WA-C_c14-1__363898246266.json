@@ -1,0 +1,61 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-18T210323.01.log"
+      ],
+      "first_seen_utc": "2025-12-18T20:09:25Z",
+      "last_seen_utc": "2025-12-18T20:15:48Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 29,
+      "fss_nonbodycount": 17,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 29,
+      "n_gas_giants": 7,
+      "n_planets_scanned": 26,
+      "n_ringed_bodies": 10,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with ammonia based life",
+        "High metal content body",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class I gas giant",
+        "Sudarsky class II gas giant",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 12,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "G",
+        "K",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.931721Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 363898246266,
+    "name": "Phyluwyg WA-C c14-1",
+    "star_pos": [
+      3086.3125,
+      520.6875,
+      2121.375
+    ]
+  }
+}

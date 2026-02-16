@@ -1,0 +1,53 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-22T133052.01.log"
+      ],
+      "first_seen_utc": "2025-12-22T13:56:01Z",
+      "last_seen_utc": "2025-12-22T13:56:26Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 5,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 5,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 4,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Icy body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.955811Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 702631061585,
+    "name": "Phylucs HB-M b9-0",
+    "star_pos": [
+      2360.96875,
+      372.28125,
+      1707.46875
+    ]
+  }
+}

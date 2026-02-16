@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-17T203317.01.log"
+      ],
+      "first_seen_utc": "2025-12-17T19:59:35Z",
+      "last_seen_utc": "2025-12-17T20:01:33Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 16,
+      "fss_nonbodycount": 10,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 6,
+      "n_gas_giants": 2,
+      "n_planets_scanned": 5,
+      "n_ringed_bodies": 2,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with water based life",
+        "High metal content body",
+        "Metal rich body",
+        "Rocky body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "G"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.926140Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 638440576098,
+    "name": "Phyluwyg HD-H c11-2",
+    "star_pos": [
+      2878.875,
+      455.34375,
+      1992.59375
+    ]
+  }
+}

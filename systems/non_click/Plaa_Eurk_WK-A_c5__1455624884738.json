@@ -1,0 +1,51 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-07T073119.01.log"
+      ],
+      "first_seen_utc": "2025-12-07T06:41:26Z",
+      "last_seen_utc": "2025-12-07T06:41:32Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 4,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 1,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.854284Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 1455624884738,
+    "name": "Plaa Eurk WK-A c5",
+    "star_pos": [
+      -1553.46875,
+      84.5,
+      -1052.03125
+    ]
+  }
+}

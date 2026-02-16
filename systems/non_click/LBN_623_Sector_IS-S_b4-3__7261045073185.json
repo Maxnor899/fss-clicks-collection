@@ -1,0 +1,55 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-05T205103.01.log"
+      ],
+      "first_seen_utc": "2025-12-05T20:32:49Z",
+      "last_seen_utc": "2025-12-05T20:50:46Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 5,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": true,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 7,
+      "n_gas_giants": 2,
+      "n_planets_scanned": 4,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Sudarsky class IV gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 2
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "M",
+        "T"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.842232Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 7261045073185,
+    "name": "LBN 623 Sector IS-S b4-3",
+    "star_pos": [
+      -517.5,
+      42.03125,
+      -336.375
+    ]
+  }
+}

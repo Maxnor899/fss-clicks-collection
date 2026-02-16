@@ -1,0 +1,55 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-05T201519.01.log"
+      ],
+      "first_seen_utc": "2026-02-05T19:40:49Z",
+      "last_seen_utc": "2026-02-05T19:41:53Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 7,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": true,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 7,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 1,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "L",
+        "M",
+        "T"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.204853Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 782088742601,
+    "name": "Praea Eurl TV-N b23-0",
+    "star_pos": [
+      8280.4375,
+      599.15625,
+      718.21875
+    ]
+  }
+}

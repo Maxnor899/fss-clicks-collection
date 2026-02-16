@@ -1,0 +1,51 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-02T141925.01.log"
+      ],
+      "first_seen_utc": "2026-01-02T13:36:34Z",
+      "last_seen_utc": "2026-01-02T13:36:40Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 1,
+      "fss_nonbodycount": 0,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 1,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "T"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.059303Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 22124987040544,
+    "name": "Slege LX-D a94-1",
+    "star_pos": [
+      -7769.21875,
+      -34.96875,
+      -2623.4375
+    ]
+  }
+}

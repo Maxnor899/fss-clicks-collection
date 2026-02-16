@@ -1,0 +1,59 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-25T222209.01.log",
+        "Journal.2025-12-26T183625.01.log",
+        "Journal.2025-12-26T202414.01.log",
+        "Journal.2025-12-26T215141.01.log",
+        "Journal.2025-12-27T091516.01.log",
+        "Journal.2025-12-27T161851.01.log",
+        "Journal.2025-12-27T194118.01.log"
+      ],
+      "first_seen_utc": "2025-12-25T21:41:44Z",
+      "last_seen_utc": "2025-12-27T18:43:46Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 3,
+      "fss_nonbodycount": 2,
+      "has_gas_giant": false,
+      "has_ringed_body": false,
+      "n_bodies_scanned": 3,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 0,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "B",
+        "H",
+        "N"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.979355Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 355860782,
+    "name": "27 Gamma Cassiopeiae",
+    "star_pos": [
+      -455.3125,
+      -17.9375,
+      -306.4375
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-04T143809.01.log"
+      ],
+      "first_seen_utc": "2026-01-04T14:01:23Z",
+      "last_seen_utc": "2026-01-04T14:30:38Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 17,
+      "fss_nonbodycount": 3,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 18,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 14,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Icy body",
+        "Rocky ice body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 4,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "M",
+        "T",
+        "Y"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.083051Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 592571669881,
+    "name": "Eafots ZH-W b43-0",
+    "star_pos": [
+      -5825.875,
+      99.0625,
+      -5226.65625
+    ]
+  }
+}

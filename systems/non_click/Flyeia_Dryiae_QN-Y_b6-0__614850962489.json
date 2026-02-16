@@ -1,0 +1,54 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-29T214112.01.log"
+      ],
+      "first_seen_utc": "2025-12-29T20:43:36Z",
+      "last_seen_utc": "2025-12-29T20:45:43Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 17,
+      "fss_nonbodycount": 3,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 17,
+      "n_gas_giants": 3,
+      "n_planets_scanned": 16,
+      "n_ringed_bodies": 3,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Icy body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 6,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.026697Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 614850962489,
+    "name": "Flyeia Dryiae QN-Y b6-0",
+    "star_pos": [
+      -4183.09375,
+      -159.125,
+      -919.9375
+    ]
+  }
+}

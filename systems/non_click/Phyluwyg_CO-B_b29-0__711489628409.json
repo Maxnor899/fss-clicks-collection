@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-22T080528.01.log"
+      ],
+      "first_seen_utc": "2025-12-22T08:00:33Z",
+      "last_seen_utc": "2025-12-22T08:02:05Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 19,
+      "fss_nonbodycount": 5,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 19,
+      "n_gas_giants": 3,
+      "n_planets_scanned": 16,
+      "n_ringed_bodies": 4,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 4,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 3,
+      "types": [
+        "L",
+        "M",
+        "T"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.949176Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 711489628409,
+    "name": "Phyluwyg CO-B b29-0",
+    "star_pos": [
+      3016.40625,
+      416.90625,
+      2120.5625
+    ]
+  }
+}

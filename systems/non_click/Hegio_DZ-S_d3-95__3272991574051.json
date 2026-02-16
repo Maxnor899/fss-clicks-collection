@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-02T175513.01.log"
+      ],
+      "first_seen_utc": "2026-01-02T16:59:36Z",
+      "last_seen_utc": "2026-01-02T17:04:30Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 15,
+      "fss_nonbodycount": 11,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 16,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 13,
+      "n_ringed_bodies": 6,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "Gas giant with ammonia based life",
+        "High metal content body",
+        "Icy body",
+        "Rocky body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 2,
+      "n_saa_mappings": 1
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "A",
+        "Y"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.063071Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 3272991574051,
+    "name": "Hegio DZ-S d3-95",
+    "star_pos": [
+      -7950.875,
+      9.6875,
+      -3251.90625
+    ]
+  }
+}

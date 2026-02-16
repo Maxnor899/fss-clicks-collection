@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-11T134714.01.log"
+      ],
+      "first_seen_utc": "2026-02-11T13:43:13Z",
+      "last_seen_utc": "2026-02-11T13:50:48Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 26,
+      "fss_nonbodycount": 10,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 28,
+      "n_gas_giants": 2,
+      "n_planets_scanned": 27,
+      "n_ringed_bodies": 5,
+      "n_terraformables": 2,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Rocky body",
+        "Sudarsky class III gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 11,
+      "n_saa_mappings": 2
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.246122Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 4490019115858,
+    "name": "Prua Dryou IX-N c9-16",
+    "star_pos": [
+      4822.75,
+      -109.5625,
+      648.8125
+    ]
+  }
+}

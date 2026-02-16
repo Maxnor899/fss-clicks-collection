@@ -1,0 +1,57 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-02-06T211411.01.log"
+      ],
+      "first_seen_utc": "2026-02-06T21:13:45Z",
+      "last_seen_utc": "2026-02-06T21:15:01Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 11,
+      "fss_nonbodycount": 14,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 11,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 9,
+      "n_ringed_bodies": 2,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Metal rich body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "L",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.208431Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 98684081114,
+    "name": "Praea Eurl EH-H c25-0",
+    "star_pos": [
+      8816.28125,
+      580.875,
+      1300.5
+    ]
+  }
+}

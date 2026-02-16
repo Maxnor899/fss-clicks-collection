@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-06T210011.01.log"
+      ],
+      "first_seen_utc": "2026-01-06T20:54:00Z",
+      "last_seen_utc": "2026-01-06T20:55:14Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 14,
+      "fss_nonbodycount": 6,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 14,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 12,
+      "n_ringed_bodies": 4,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 3,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "L",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.102599Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 11629563944505,
+    "name": "Gludgoea VB-P b6-5",
+    "star_pos": [
+      -2721.84375,
+      115.15625,
+      -4762.84375
+    ]
+  }
+}

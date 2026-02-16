@@ -1,0 +1,54 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-07T214443.01.log"
+      ],
+      "first_seen_utc": "2025-12-07T21:44:42Z",
+      "last_seen_utc": "2025-12-07T21:45:28Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 35,
+      "fss_nonbodycount": 3,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 6,
+      "n_gas_giants": 0,
+      "n_planets_scanned": 5,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Metal rich body"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "K"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.875323Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 81101066634,
+    "name": "Outorst OB-W c15-0",
+    "star_pos": [
+      -1647.5,
+      -19.4375,
+      -1661.96875
+    ]
+  }
+}

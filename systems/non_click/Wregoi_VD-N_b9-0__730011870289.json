@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2026-01-30T212211.01.log"
+      ],
+      "first_seen_utc": "2026-01-30T20:26:19Z",
+      "last_seen_utc": "2026-01-30T20:36:08Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 23,
+      "fss_nonbodycount": 10,
+      "has_gas_giant": true,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 26,
+      "n_gas_giants": 1,
+      "n_planets_scanned": 25,
+      "n_ringed_bodies": 3,
+      "n_terraformables": 0,
+      "planet_classes": [
+        "High metal content body",
+        "Icy body",
+        "Rocky ice body",
+        "Sudarsky class I gas giant"
+      ]
+    },
+    "signals": {
+      "n_fss_body_signals_events": 8,
+      "n_saa_mappings": 3
+    },
+    "stars": {
+      "n_stars": 1,
+      "types": [
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:48.177441Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 730011870289,
+    "name": "Wregoi VD-N b9-0",
+    "star_pos": [
+      4399.15625,
+      475.25,
+      -860.84375
+    ]
+  }
+}

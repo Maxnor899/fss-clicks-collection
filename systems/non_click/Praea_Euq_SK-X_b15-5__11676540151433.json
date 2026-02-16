@@ -1,0 +1,52 @@
+{
+  "evidence": {
+    "journal": {
+      "files": [
+        "Journal.2025-12-22T133052.01.log"
+      ],
+      "first_seen_utc": "2025-12-22T15:11:54Z",
+      "last_seen_utc": "2025-12-22T15:12:00Z"
+    },
+    "method": "elite_journal"
+  },
+  "features": {
+    "bodies": {
+      "fss_bodycount": 16,
+      "fss_nonbodycount": 5,
+      "has_gas_giant": false,
+      "has_ringed_body": true,
+      "n_bodies_scanned": 2,
+      "n_gas_giants": 0,
+      "n_planets_scanned": null,
+      "n_ringed_bodies": 1,
+      "n_terraformables": 0,
+      "planet_classes": []
+    },
+    "signals": {
+      "n_fss_body_signals_events": 0,
+      "n_saa_mappings": 0
+    },
+    "stars": {
+      "n_stars": 2,
+      "types": [
+        "L",
+        "M"
+      ]
+    }
+  },
+  "label": "non_click",
+  "provenance": {
+    "generated_at_utc": "2026-02-16T15:20:47.966008Z",
+    "generated_by": "tools/extract_non_click_systems.py"
+  },
+  "schema_version": 1,
+  "system": {
+    "address": 11676540151433,
+    "name": "Praea Euq SK-X b15-5",
+    "star_pos": [
+      785.09375,
+      119.46875,
+      569.6875
+    ]
+  }
+}

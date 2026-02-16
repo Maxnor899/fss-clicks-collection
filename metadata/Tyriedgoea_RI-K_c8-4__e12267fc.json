@@ -1,0 +1,1018 @@
+{
+  "recording": {
+    "audio_file": "Tyriedgoea_RI-K_c8-4__e12267fc.flac",
+    "audio_sha256": "e12267fc053038d672191cbe4e18d8b77f02c066d022cf00ed235912cf0fa7ba",
+    "audio_sha256_short": "e12267fc",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-16T14:36:23+00:00",
+    "duration_s": 47.222
+  },
+  "context": {
+    "system": {
+      "name": "Tyriedgoea RI-K c8-4",
+      "name_sanitized": "Tyriedgoea_RI-K_c8-4",
+      "address": 1194638480458,
+      "star_pos": [
+        6728.8125,
+        33.6875,
+        1873.84375
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-16T14:32:50Z",
+    "to_utc": "2026-02-16T14:35:57Z",
+    "anchor_timestamp_utc": "2026-02-16T14:32:50Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-16T151444.01.log"
+  },
+  "system_summary": {
+    "body_count": 11,
+    "non_body_signals": 0,
+    "stars_count": 1,
+    "planets_count": 10,
+    "landables_count": 10,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-16T14:32:55Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea RI-K c8-4",
+        "BodyID": 0,
+        "StarSystem": "Tyriedgoea RI-K c8-4",
+        "SystemAddress": 1194638480458,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 8,
+        "StellarMass": 0.542969,
+        "Radius": 488386688.0,
+        "AbsoluteMagnitude": 7.206329,
+        "Age_MY": 6492,
+        "SurfaceTemperature": 3990.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 281664.224662,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-16T14:34:41Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea RI-K c8-4 1",
+        "BodyID": 1,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea RI-K c8-4",
+        "SystemAddress": 1194638480458,
+        "DistanceFromArrivalLS": 460.081785,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.016915,
+        "Radius": 1676306.25,
+        "SurfaceGravity": 2.399251,
+        "SurfaceTemperature": 150.700409,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 22.861168
+          },
+          {
+            "Name": "nickel",
+            "Percent": 17.291229
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 16.116133
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 13.551998
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 10.281426
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.676221
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.797774
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.522311
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.775273
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.484418
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.642057
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.669747,
+          "Metal": 0.330253
+        },
+        "SemiMajorAxis": 137920725345.61157,
+        "Eccentricity": 6e-05,
+        "OrbitalInclination": -0.027323,
+        "Periapsis": 338.759529,
+        "OrbitalPeriod": 37908367.51461,
+        "RotationPeriod": 45124.658756,
+        "AxialTilt": -0.412697
+      },
+      {
+        "timestamp": "2026-02-16T14:35:54Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea RI-K c8-4 2",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea RI-K c8-4",
+        "SystemAddress": 1194638480458,
+        "DistanceFromArrivalLS": 604.275358,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.036653,
+        "Radius": 2146870.25,
+        "SurfaceGravity": 3.169594,
+        "SurfaceTemperature": 131.501602,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.160044
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.00457
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 14.701763
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.36266
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.516374
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.738882
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 7.914787
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.750508
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.381739
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.306768
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.161899
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.655413,
+          "Metal": 0.344587
+        },
+        "SemiMajorAxis": 181132465600.9674,
+        "Eccentricity": 0.000159,
+        "OrbitalInclination": -0.521733,
+        "Periapsis": 301.74575,
+        "OrbitalPeriod": 57053889.036179,
+        "RotationPeriod": 92130.493326,
+        "AxialTilt": -1.021685
+      },
+      {
+        "timestamp": "2026-02-16T14:35:50Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea RI-K c8-4 2 a",
+        "BodyID": 3,
+        "Parents": [
+          {
+            "Planet": 2
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea RI-K c8-4",
+        "SystemAddress": 1194638480458,
+        "DistanceFromArrivalLS": 604.089815,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002762,
+        "Radius": 972113.5,
+        "SurfaceGravity": 1.164827,
+        "SurfaceTemperature": 131.501602,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 20.34597
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.094524
+          },
+          {
+            "Name": "nickel",
+            "Percent": 15.388839
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.215622
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.741302
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.150259
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.529274
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.831947
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.32858
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.256493
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.117198
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.859977,
+          "Metal": 0.140023
+        },
+        "SemiMajorAxis": 105137854.814529,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": 1.370744,
+        "Periapsis": 64.068288,
+        "OrbitalPeriod": 1708958.506584,
+        "RotationPeriod": 1772173.998045,
+        "AxialTilt": -0.302048
+      },
+      {
+        "timestamp": "2026-02-16T14:34:51Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea RI-K c8-4 3",
+        "BodyID": 4,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea RI-K c8-4",
+        "SystemAddress": 1194638480458,
+        "DistanceFromArrivalLS": 842.052708,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.025842,
+        "Radius": 2339092.0,
+        "SurfaceGravity": 1.882559,
+        "SurfaceTemperature": 98.548759,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 21.435537
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 18.025066
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 17.298565
+          },
+          {
+            "Name": "nickel",
+            "Percent": 13.083909
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 11.539956
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.14413
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.701103
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.63035
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.123229
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.068297
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.949865
+          }
+        ],
+        "Composition": {
+          "Ice": 0.533763,
+          "Rock": 0.312258,
+          "Metal": 0.153979
+        },
+        "SemiMajorAxis": 253005242347.7173,
+        "Eccentricity": 0.002488,
+        "OrbitalInclination": -0.006469,
+        "Periapsis": 251.74981,
+        "OrbitalPeriod": 94185728.430748,
+        "RotationPeriod": 100494.522118,
+        "AxialTilt": 0.239262
+      },
+      {
+        "timestamp": "2026-02-16T14:34:46Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea RI-K c8-4 4",
+        "BodyID": 5,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea RI-K c8-4",
+        "SystemAddress": 1194638480458,
+        "DistanceFromArrivalLS": 1070.518681,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.020938,
+        "Radius": 2184110.25,
+        "SurfaceGravity": 1.749452,
+        "SurfaceTemperature": 87.481232,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 21.8664
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 18.387377
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 17.646273
+          },
+          {
+            "Name": "nickel",
+            "Percent": 13.346902
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 11.771914
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.28773
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 4.333311
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 2.049096
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.206029
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.145806
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 0.959168
+          }
+        ],
+        "Composition": {
+          "Ice": 0.533763,
+          "Rock": 0.312258,
+          "Metal": 0.153979
+        },
+        "SemiMajorAxis": 321071714162.82654,
+        "Eccentricity": 0.001648,
+        "OrbitalInclination": -0.049021,
+        "Periapsis": 115.767639,
+        "OrbitalPeriod": 134646129.608154,
+        "RotationPeriod": 70045.483472,
+        "AxialTilt": 0.303747
+      },
+      {
+        "timestamp": "2026-02-16T14:34:36Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea RI-K c8-4 5",
+        "BodyID": 6,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea RI-K c8-4",
+        "SystemAddress": 1194638480458,
+        "DistanceFromArrivalLS": 1483.761151,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.01975,
+        "Radius": 2142864.5,
+        "SurfaceGravity": 1.71426,
+        "SurfaceTemperature": 74.289604,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 21.374502
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 17.973743
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 17.24931
+          },
+          {
+            "Name": "nickel",
+            "Percent": 13.046655
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 11.507098
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 7.757587
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.687717
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.620013
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.178898
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.120031
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.484448
+          }
+        ],
+        "Composition": {
+          "Ice": 0.533763,
+          "Rock": 0.312258,
+          "Metal": 0.153979
+        },
+        "SemiMajorAxis": 445221096277.23694,
+        "Eccentricity": 0.001141,
+        "OrbitalInclination": 0.03893,
+        "Periapsis": 103.85651,
+        "OrbitalPeriod": 219864118.099213,
+        "RotationPeriod": 68037.737075,
+        "AxialTilt": 0.187533
+      },
+      {
+        "timestamp": "2026-02-16T14:35:07Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea RI-K c8-4 6",
+        "BodyID": 7,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea RI-K c8-4",
+        "SystemAddress": 1194638480458,
+        "DistanceFromArrivalLS": 2738.661799,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.127267,
+        "Radius": 4085392.75,
+        "SurfaceGravity": 3.039199,
+        "SurfaceTemperature": 54.654579,
+        "SurfacePressure": 3.520738,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 21.983871
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 18.486156
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 15.521561
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 11.835155
+          },
+          {
+            "Name": "nickel",
+            "Percent": 11.739858
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 6.980561
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.410245
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.218179
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.013549
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 0.958555
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.85229
+          }
+        ],
+        "Composition": {
+          "Ice": 0.673954,
+          "Rock": 0.217341,
+          "Metal": 0.108704
+        },
+        "SemiMajorAxis": 822799366712.5702,
+        "Eccentricity": 0.002258,
+        "OrbitalInclination": 1.157264,
+        "Periapsis": 261.909167,
+        "OrbitalPeriod": 552372080.087662,
+        "RotationPeriod": 102087.821325,
+        "AxialTilt": -2.436053
+      },
+      {
+        "timestamp": "2026-02-16T14:35:05Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea RI-K c8-4 6 a",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Planet": 7
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea RI-K c8-4",
+        "SystemAddress": 1194638480458,
+        "DistanceFromArrivalLS": 2737.791582,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thin argon atmosphere",
+        "AtmosphereType": "Argon",
+        "AtmosphereComposition": [
+          {
+            "Name": "Argon",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.005605,
+        "Radius": 1577610.875,
+        "SurfaceGravity": 0.897643,
+        "SurfaceTemperature": 54.727524,
+        "SurfacePressure": 431.361328,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.858671
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 23.426256
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.99789
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.251776
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.266729
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.51003
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 3.00861
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.450639
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.800034
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 0.756625
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.672746
+          }
+        ],
+        "Composition": {
+          "Ice": 0.877723,
+          "Rock": 0.105155,
+          "Metal": 0.017122
+        },
+        "SemiMajorAxis": 975262105.464935,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": 63.409209,
+        "Periapsis": 281.882146,
+        "OrbitalPeriod": 26295698.881149,
+        "RotationPeriod": 49674.830655,
+        "AxialTilt": 0.205514
+      },
+      {
+        "timestamp": "2026-02-16T14:34:57Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea RI-K c8-4 7",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea RI-K c8-4",
+        "SystemAddress": 1194638480458,
+        "DistanceFromArrivalLS": 5378.711397,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.156398,
+        "Radius": 4374546.0,
+        "SurfaceGravity": 3.257417,
+        "SurfaceTemperature": 39.069054,
+        "SurfacePressure": 45.6064,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 23.560053
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.811565
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 16.446409
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.683703
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.439374
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.792199
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.687347
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.543563
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.073941
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.067897
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 0.893948
+          }
+        ],
+        "Composition": {
+          "Ice": 0.682558,
+          "Rock": 0.212604,
+          "Metal": 0.104839
+        },
+        "SemiMajorAxis": 1611316204071.045,
+        "Eccentricity": 0.001242,
+        "OrbitalInclination": -7.736831,
+        "Periapsis": 18.688709,
+        "OrbitalPeriod": 1513777196.407318,
+        "RotationPeriod": 165749.133366,
+        "AxialTilt": -0.366844
+      },
+      {
+        "timestamp": "2026-02-16T14:34:54Z",
+        "event": "Scan",
+        "BodyName": "Tyriedgoea RI-K c8-4 8",
+        "BodyID": 11,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Tyriedgoea RI-K c8-4",
+        "SystemAddress": 1194638480458,
+        "DistanceFromArrivalLS": 7491.894468,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.0648,
+        "Radius": 3299807.75,
+        "SurfaceGravity": 2.371972,
+        "SurfaceTemperature": 33.229111,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 22.770657
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.147764
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 15.895539
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.258727
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.022719
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 7.148752
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.319813
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.335882
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.086375
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.032129
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 0.981651
+          }
+        ],
+        "Composition": {
+          "Ice": 0.682551,
+          "Rock": 0.212606,
+          "Metal": 0.104843
+        },
+        "SemiMajorAxis": 2225328207015.991,
+        "Eccentricity": 0.009442,
+        "OrbitalInclination": -3.267182,
+        "Periapsis": 99.962708,
+        "OrbitalPeriod": 2456868231.296539,
+        "RotationPeriod": 117511.490497,
+        "AxialTilt": 0.177496
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-12T061747.01.log",
+      "Journal.2026-02-12T214314.01.log",
+      "Journal.2026-02-13T224149.01.log",
+      "Journal.2026-02-14T071150.01.log",
+      "Journal.2026-02-14T205220.01.log",
+      "Journal.2026-02-15T071238.01.log",
+      "Journal.2026-02-15T104234.01.log",
+      "Journal.2026-02-15T140907.01.log",
+      "Journal.2026-02-15T183128.01.log",
+      "Journal.2026-02-16T151444.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-16T14:32:50Z",
+      "to_utc": "2026-02-16T14:35:57Z"
+    }
+  }
+}

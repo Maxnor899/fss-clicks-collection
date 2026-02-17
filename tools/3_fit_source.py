@@ -323,14 +323,17 @@ def load_covariates(points: List[SystemPoint], meta_dir: Path) -> None:
         if not isinstance(stars, list) or not stars:
             continue
 
-        # Primary star = BodyID 0 if present, else first entry
+        # Primary star = DistanceFromArrivalLS == 0.0 (même critère que scripts 4 et 5).
+        # BodyID == 0 désigne le barycentre dans les systèmes multiples, pas forcément
+        # l'étoile d'arrivée — ce critère est donc incorrect ici.
         primary = None
         for s in stars:
-            if isinstance(s, dict) and s.get("BodyID") == 0:
+            if isinstance(s, dict) and s.get("DistanceFromArrivalLS", 999) == 0.0:
                 primary = s
                 break
         if primary is None:
-            primary = stars[0] if isinstance(stars[0], dict) else None
+            # Fallback : première entrée de la liste (ordre journal)
+            primary = next((s for s in stars if isinstance(s, dict)), None)
         if primary is None:
             continue
 

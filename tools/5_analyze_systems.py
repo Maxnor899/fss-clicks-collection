@@ -1,11 +1,11 @@
 """
-analyze_systems_v2.py
+5_analyze_systems.py
 ---------------------
-Analyse comparative click vs non_click en exploitant les données enrichies
-de systems/non_click_v2/ (schema_version 2).
+Analyse comparative click vs non_click en exploitant les données de
+metadata/ (click) et systems/non_click/ (non_click).
 
 Usage :
-    python analyze_systems_v2.py
+    python 5_analyze_systems.py
 """
 
 import json
@@ -79,9 +79,9 @@ def parse_click(path):
         "n_geo_signals":     None,
     }
 
-# ── Parse non_click v2 ───────────────────────────────────────────────────────
+# ── Parse non_click ──────────────────────────────────────────────────────────
 
-def parse_non_click_v2(path):
+def parse_non_click(path):
     with open(path, encoding="utf-8") as f:
         d = json.load(f)
 
@@ -131,7 +131,7 @@ for p in Path("metadata").glob("*.json"):
 
 for p in Path("systems/non_click").glob("*.json"):
     try:
-        records.append(parse_non_click_v2(p))
+        records.append(parse_non_click(p))
     except Exception as e:
         errors.append(f"non_click {p.name}: {e}")
 

@@ -264,10 +264,10 @@ fields = [
     "n_stars_in_system", "n_bio_signals", "n_geo_signals",
 ]
 
-with open("systems_dataset_v2.csv", "w", newline="", encoding="utf-8") as f:
+with open("systems_dataset.csv", "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=fields)
     w.writeheader()
     for r in records:
         w.writerow({k: r.get(k) for k in fields})
 
-print(f"\n✓ Dataset exporté : systems_dataset_v2.csv  ({len(records)} lignes, {len(fields)} colonnes)")
+print(f"\n✓ Dataset exporté : systems_dataset.csv  ({len(records)} lignes, {len(fields)} colonnes)")

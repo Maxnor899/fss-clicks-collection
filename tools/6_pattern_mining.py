@@ -1,11 +1,11 @@
 """
-pattern_mining.py
+6_pattern_mining.py
 -----------------
 Recherche de patterns, combinaisons rares et structures répétées
 qui distinguent les systèmes click des non_click.
 
 Usage:
-    python pattern_mining.py
+    python 6_pattern_mining.py
 """
 
 import csv
@@ -17,7 +17,7 @@ from itertools import combinations
 # ── Chargement ────────────────────────────────────────────────────────────────
 
 rows = []
-with open("systems_dataset_v2.csv", encoding="utf-8") as f:
+with open("systems_dataset.csv", encoding="utf-8") as f:
     for row in csv.DictReader(f):
         rows.append(row)
 

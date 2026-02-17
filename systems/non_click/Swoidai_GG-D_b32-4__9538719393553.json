@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.617468+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.031087+00:00",
     "log_files": [
       "Journal.2026-02-11T105854.01.log"
     ]
@@ -129,7 +129,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 9873701453.208923,
+        "Eccentricity": 0.000413,
+        "OrbitalPeriod": 835455.644131,
+        "OrbitalInclination": 0.026339
       },
       {
         "BodyName": "Swoidai GG-D b32-4 A 1",
@@ -143,7 +147,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5591753900.051117,
+        "Eccentricity": 7.9e-05,
+        "OrbitalPeriod": 356061.86986,
+        "OrbitalInclination": 0.175857
       }
     ]
   },

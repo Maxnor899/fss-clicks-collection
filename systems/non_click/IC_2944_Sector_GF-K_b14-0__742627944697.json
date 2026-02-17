@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.607268+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.021536+00:00",
     "log_files": [
       "Journal.2026-02-10T202414.01.log"
     ]
@@ -99,7 +99,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 119448059797.28699,
+        "Eccentricity": 0.000444,
+        "OrbitalPeriod": 48135603.666306,
+        "OrbitalInclination": -0.020345
       },
       {
         "BodyName": "IC 2944 Sector GF-K b14-0 6",
@@ -113,7 +117,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 994653612375.2594,
+        "Eccentricity": 0.002768,
+        "OrbitalPeriod": 1156659662.723541,
+        "OrbitalInclination": -2.879932
       },
       {
         "BodyName": "IC 2944 Sector GF-K b14-0 2",
@@ -127,7 +135,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 164371019601.8219,
+        "Eccentricity": 4.9e-05,
+        "OrbitalPeriod": 77702621.817589,
+        "OrbitalInclination": -0.014351
       },
       {
         "BodyName": "IC 2944 Sector GF-K b14-0 5",
@@ -141,7 +153,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 712134903669.3573,
+        "Eccentricity": 0.002661,
+        "OrbitalPeriod": 700714647.769928,
+        "OrbitalInclination": -0.070244
       },
       {
         "BodyName": "IC 2944 Sector GF-K b14-0 5 a",
@@ -155,7 +171,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2508930921.554565,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 50957952.141762,
+        "OrbitalInclination": -4.094736
       },
       {
         "BodyName": "IC 2944 Sector GF-K b14-0 3 a",
@@ -169,7 +189,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 410001301.765442,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 3093344.390392,
+        "OrbitalInclination": 7.669978
       },
       {
         "BodyName": "IC 2944 Sector GF-K b14-0 3",
@@ -183,7 +207,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 232410204410.55298,
+        "Eccentricity": 0.007771,
+        "OrbitalPeriod": 130641317.367554,
+        "OrbitalInclination": 0.530008
       },
       {
         "BodyName": "IC 2944 Sector GF-K b14-0 4",
@@ -197,7 +225,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 405090647935.8673,
+        "Eccentricity": 0.000332,
+        "OrbitalPeriod": 300625693.798065,
+        "OrbitalInclination": 0.032835
       }
     ]
   },

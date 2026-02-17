@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.646001+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.059876+00:00",
     "log_files": [
       "Journal.2026-02-14T205220.01.log"
     ]
@@ -99,7 +99,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 268241280317.30652,
+        "Eccentricity": 8.2e-05,
+        "OrbitalPeriod": 137254196.405411,
+        "OrbitalInclination": 0.021193
       },
       {
         "BodyName": "Ploea Eurl VK-R b46-2 4 a",
@@ -113,7 +117,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 697587388.753891,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 6941975.89159,
+        "OrbitalInclination": 18.159096
       },
       {
         "BodyName": "Ploea Eurl VK-R b46-2 7",
@@ -127,7 +135,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 660680681467.0563,
+        "Eccentricity": 0.000141,
+        "OrbitalPeriod": 530547910.928726,
+        "OrbitalInclination": 0.002101
       },
       {
         "BodyName": "Ploea Eurl VK-R b46-2 8",
@@ -141,7 +153,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 874531388282.7759,
+        "Eccentricity": 0.010327,
+        "OrbitalPeriod": 807979452.610016,
+        "OrbitalInclination": -4.059151
       },
       {
         "BodyName": "Ploea Eurl VK-R b46-2 5",
@@ -155,7 +171,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 398757833.242416,
+        "Eccentricity": 0.13854,
+        "OrbitalPeriod": 10648462.772369,
+        "OrbitalInclination": -0.013782
       },
       {
         "BodyName": "Ploea Eurl VK-R b46-2 6",
@@ -169,7 +189,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 436431628.465652,
+        "Eccentricity": 0.13854,
+        "OrbitalPeriod": 10648462.772369,
+        "OrbitalInclination": -0.013782
       },
       {
         "BodyName": "Ploea Eurl VK-R b46-2 1",
@@ -183,7 +207,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 146236658096.31348,
+        "Eccentricity": 0.000105,
+        "OrbitalPeriod": 55248638.391495,
+        "OrbitalInclination": 0.113298
       },
       {
         "BodyName": "Ploea Eurl VK-R b46-2 2",
@@ -197,7 +225,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 154022824.764252,
+        "Eccentricity": 0.054798,
+        "OrbitalPeriod": 3916466.295719,
+        "OrbitalInclination": 0.092029
       },
       {
         "BodyName": "Ploea Eurl VK-R b46-2 3",
@@ -211,7 +243,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 374572402.238846,
+        "Eccentricity": 0.054798,
+        "OrbitalPeriod": 3916466.295719,
+        "OrbitalInclination": 0.092029
       }
     ]
   },

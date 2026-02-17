@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.558697+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.974198+00:00",
     "log_files": [
       "Journal.2026-02-06T211411.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
+        "Icy body",
         "Rocky ice body"
       ]
     },
@@ -132,7 +132,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 222631561756.13403,
+        "Eccentricity": 0.001001,
+        "OrbitalPeriod": 77744814.157486,
+        "OrbitalInclination": 1.936108
       },
       {
         "BodyName": "Praea Eurl XP-K c23-1 A 3",
@@ -146,7 +150,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 123409312963.48572,
+        "Eccentricity": 0.003726,
+        "OrbitalPeriod": 32085824.608803,
+        "OrbitalInclination": 2.444783
       },
       {
         "BodyName": "Praea Eurl XP-K c23-1 A 2",
@@ -160,7 +168,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 38373974561.691284,
+        "Eccentricity": 0.000508,
+        "OrbitalPeriod": 5563479.959965,
+        "OrbitalInclination": 0.071929
       },
       {
         "BodyName": "Praea Eurl XP-K c23-1 A 4",
@@ -174,7 +186,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 173743039369.58313,
+        "Eccentricity": 0.003294,
+        "OrbitalPeriod": 53598477.840424,
+        "OrbitalInclination": -2.309023
       },
       {
         "BodyName": "Praea Eurl XP-K c23-1 A 6",
@@ -188,7 +204,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 306862813234.3292,
+        "Eccentricity": 0.003871,
+        "OrbitalPeriod": 125807845.592499,
+        "OrbitalInclination": 0.050431
       },
       {
         "BodyName": "Praea Eurl XP-K c23-1 A 1",
@@ -202,7 +222,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 28001458048.820496,
+        "Eccentricity": 4.1e-05,
+        "OrbitalPeriod": 3467865.645885,
+        "OrbitalInclination": 0.281132
       }
     ]
   },

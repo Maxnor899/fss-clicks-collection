@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.585546+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.000241+00:00",
     "log_files": [
       "Journal.2026-02-09T082520.01.log"
     ]
@@ -34,8 +34,8 @@
       "n_terraformables": 2,
       "planet_classes": [
         "High metal content body",
-        "Rocky ice body",
-        "Rocky body"
+        "Rocky body",
+        "Rocky ice body"
       ]
     },
     "stars": {
@@ -100,7 +100,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 387538182.735443,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 1208167.970181,
+        "OrbitalInclination": -84.980152
       },
       {
         "BodyName": "Blu Theia FX-J d9-0 1",
@@ -114,7 +118,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 100555866956.71082,
+        "Eccentricity": 0.000753,
+        "OrbitalPeriod": 14464387.893677,
+        "OrbitalInclination": 7.8e-05
       },
       {
         "BodyName": "Blu Theia FX-J d9-0 5",
@@ -128,7 +136,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 451084733009.3384,
+        "Eccentricity": 2e-05,
+        "OrbitalPeriod": 137428295.612335,
+        "OrbitalInclination": -0.91039
       },
       {
         "BodyName": "Blu Theia FX-J d9-0 6",
@@ -142,7 +154,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 735013121366.5009,
+        "Eccentricity": 0.011207,
+        "OrbitalPeriod": 285845625.400543,
+        "OrbitalInclination": -0.002087
       },
       {
         "BodyName": "Blu Theia FX-J d9-0 4",
@@ -156,7 +172,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 333990103006.3629,
+        "Eccentricity": 0.000452,
+        "OrbitalPeriod": 87556695.342064,
+        "OrbitalInclination": 0.942942
       },
       {
         "BodyName": "Blu Theia FX-J d9-0 4 a",
@@ -170,7 +190,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1018374979.496002,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 8005490.839481,
+        "OrbitalInclination": 23.235303
       },
       {
         "BodyName": "Blu Theia FX-J d9-0 2",
@@ -184,7 +208,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 190846753120.42236,
+        "Eccentricity": 6.5e-05,
+        "OrbitalPeriod": 37819527.387619,
+        "OrbitalInclination": -0.002469
       },
       {
         "BodyName": "Blu Theia FX-J d9-0 3",
@@ -198,7 +226,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 259626209735.87036,
+        "Eccentricity": 4.2e-05,
+        "OrbitalPeriod": 60008360.147476,
+        "OrbitalInclination": -0.944797
       },
       {
         "BodyName": "Blu Theia FX-J d9-0 3 a",
@@ -212,7 +244,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 450329947.471619,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 2435100.376606,
+        "OrbitalInclination": 55.076282
       },
       {
         "BodyName": "Blu Theia FX-J d9-0 7",
@@ -226,7 +262,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1096131086349.4873,
+        "Eccentricity": 0.001998,
+        "OrbitalPeriod": 520574265.71846,
+        "OrbitalInclination": -3.767657
       }
     ]
   },

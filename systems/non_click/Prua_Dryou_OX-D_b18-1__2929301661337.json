@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.624877+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.038248+00:00",
     "log_files": [
       "Journal.2026-02-11T134714.01.log"
     ]
@@ -114,7 +114,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 395047694444.6564,
+        "Eccentricity": 0.000297,
+        "OrbitalPeriod": 451730960.607529,
+        "OrbitalInclination": 0.069915
       },
       {
         "BodyName": "Prua Dryou OX-D b18-1 B 3 a",
@@ -128,7 +132,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1060096323.490143,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 16017031.669617,
+        "OrbitalInclination": 7.193863
       },
       {
         "BodyName": "Prua Dryou OX-D b18-1 B 6",
@@ -142,7 +150,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 874801266193.3899,
+        "Eccentricity": 0.001968,
+        "OrbitalPeriod": 1488571465.015411,
+        "OrbitalInclination": 7.703105
       },
       {
         "BodyName": "Prua Dryou OX-D b18-1 B 1",
@@ -156,7 +168,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 132316601276.3977,
+        "Eccentricity": 1.6e-05,
+        "OrbitalPeriod": 87564297.914505,
+        "OrbitalInclination": 0.090659
       },
       {
         "BodyName": "Prua Dryou OX-D b18-1 B 2",
@@ -170,7 +186,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 221811884641.64734,
+        "Eccentricity": 4e-05,
+        "OrbitalPeriod": 190056526.660919,
+        "OrbitalInclination": -0.026284
       },
       {
         "BodyName": "Prua Dryou OX-D b18-1 B 5",
@@ -184,7 +204,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 670672094821.9299,
+        "Eccentricity": 0.003804,
+        "OrbitalPeriod": 999242579.936981,
+        "OrbitalInclination": 0.201744
       },
       {
         "BodyName": "Prua Dryou OX-D b18-1 B 4",
@@ -198,7 +222,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 524514758586.88354,
+        "Eccentricity": 0.000647,
+        "OrbitalPeriod": 691101992.13028,
+        "OrbitalInclination": -0.004464
       }
     ]
   },

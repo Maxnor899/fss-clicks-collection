@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.615046+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.029076+00:00",
     "log_files": [
       "Journal.2026-02-11T105854.01.log"
     ]
@@ -98,7 +98,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1835232377.052307,
+        "Eccentricity": 0.15396,
+        "OrbitalPeriod": 86958798.766136,
+        "OrbitalInclination": 0.161202
       },
       {
         "BodyName": "Swoidai MK-B b47-1 9",
@@ -112,7 +116,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3019446313.381195,
+        "Eccentricity": 0.15396,
+        "OrbitalPeriod": 86958798.766136,
+        "OrbitalInclination": 0.161202
       },
       {
         "BodyName": "Swoidai MK-B b47-1 3",
@@ -126,7 +134,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 70758621096.61102,
+        "Eccentricity": 1.6e-05,
+        "OrbitalPeriod": 22773820.161819,
+        "OrbitalInclination": -0.004103
       },
       {
         "BodyName": "Swoidai MK-B b47-1 6",
@@ -140,7 +152,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 183987355232.23877,
+        "Eccentricity": 0.000443,
+        "OrbitalPeriod": 95488023.757935,
+        "OrbitalInclination": -0.22844
       },
       {
         "BodyName": "Swoidai MK-B b47-1 5",
@@ -154,7 +170,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 134463554620.7428,
+        "Eccentricity": 0.000978,
+        "OrbitalPeriod": 59658701.41983,
+        "OrbitalInclination": 0.265056
       },
       {
         "BodyName": "Swoidai MK-B b47-1 4",
@@ -168,7 +188,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 102226907014.8468,
+        "Eccentricity": 0.000133,
+        "OrbitalPeriod": 39547105.431557,
+        "OrbitalInclination": 0.053265
       },
       {
         "BodyName": "Swoidai MK-B b47-1 2",
@@ -182,7 +206,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 53754523992.53845,
+        "Eccentricity": 5e-06,
+        "OrbitalPeriod": 15079587.101936,
+        "OrbitalInclination": 0.014766
       },
       {
         "BodyName": "Swoidai MK-B b47-1 10",
@@ -196,7 +224,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 423754006624.2218,
+        "Eccentricity": 0.00147,
+        "OrbitalPeriod": 333762562.274933,
+        "OrbitalInclination": -0.01113
       },
       {
         "BodyName": "Swoidai MK-B b47-1 7",
@@ -210,7 +242,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 226289397478.10364,
+        "Eccentricity": 0.000711,
+        "OrbitalPeriod": 130245643.854141,
+        "OrbitalInclination": -0.003769
       },
       {
         "BodyName": "Swoidai MK-B b47-1 12",
@@ -224,7 +260,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2244863152.503967,
+        "Eccentricity": 0.014541,
+        "OrbitalPeriod": 91201914.548874,
+        "OrbitalInclination": 9.780283
       },
       {
         "BodyName": "Swoidai MK-B b47-1 11",
@@ -238,7 +278,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2134706676.006317,
+        "Eccentricity": 0.014541,
+        "OrbitalPeriod": 91201914.548874,
+        "OrbitalInclination": 9.780283
       },
       {
         "BodyName": "Swoidai MK-B b47-1 1",
@@ -252,7 +296,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 42159510254.859924,
+        "Eccentricity": 6.8e-05,
+        "OrbitalPeriod": 10473943.948746,
+        "OrbitalInclination": 0.120742
       }
     ]
   },

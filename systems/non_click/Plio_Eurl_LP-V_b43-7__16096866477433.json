@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.641267+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.055740+00:00",
     "log_files": [
       "Journal.2026-02-14T071150.01.log"
     ]
@@ -33,9 +33,9 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
+        "High metal content body",
         "Sudarsky class I gas giant",
-        "Icy body",
-        "High metal content body"
+        "Icy body"
       ]
     },
     "stars": {
@@ -132,7 +132,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2517342209.815979,
+        "Eccentricity": 1e-06,
+        "OrbitalPeriod": 127100.652456,
+        "OrbitalInclination": 0.00138
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 4",
@@ -146,7 +150,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 471740812063.21716,
+        "Eccentricity": 0.007432,
+        "OrbitalPeriod": 326054006.814957,
+        "OrbitalInclination": 0.071156
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 4 c",
@@ -160,7 +168,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1108136177.062988,
+        "Eccentricity": 0.000675,
+        "OrbitalPeriod": 2195659.339428,
+        "OrbitalInclination": 0.031827
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 4 a",
@@ -174,7 +186,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1133649.945259,
+        "Eccentricity": 0.127506,
+        "OrbitalPeriod": 61956.189871,
+        "OrbitalInclination": -7.141943
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 4 b",
@@ -188,7 +204,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1534798.681736,
+        "Eccentricity": 0.127506,
+        "OrbitalPeriod": 61956.189871,
+        "OrbitalInclination": -7.141943
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 4 e",
@@ -202,7 +222,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 9146919.846535,
+        "Eccentricity": 0.055257,
+        "OrbitalPeriod": 638584.196568,
+        "OrbitalInclination": 2.290941
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 4 d",
@@ -216,7 +240,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5758628.368378,
+        "Eccentricity": 0.055257,
+        "OrbitalPeriod": 638584.196568,
+        "OrbitalInclination": 2.290941
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 B 3",
@@ -230,7 +258,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 183831131458.28247,
+        "Eccentricity": 0.000282,
+        "OrbitalPeriod": 177566826.343536,
+        "OrbitalInclination": -0.032503
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 B 1",
@@ -244,7 +276,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 98046275377.27356,
+        "Eccentricity": 0.001167,
+        "OrbitalPeriod": 69163966.77494,
+        "OrbitalInclination": 0.010367
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 B 1 a",
@@ -258,7 +294,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 392221820.354462,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 3994042.754173,
+        "OrbitalInclination": 29.160386
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 B 2",
@@ -272,7 +312,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 131963759660.72083,
+        "Eccentricity": 0.00054,
+        "OrbitalPeriod": 107997882.36618,
+        "OrbitalInclination": -0.413866
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 B 4",
@@ -286,7 +330,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 358799135684.96704,
+        "Eccentricity": 0.000213,
+        "OrbitalPeriod": 484183865.785599,
+        "OrbitalInclination": -0.010132
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 3",
@@ -315,7 +363,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 326854521036.1481,
+        "Eccentricity": 0.00042,
+        "OrbitalPeriod": 188046890.497208,
+        "OrbitalInclination": -0.028405
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 3 a",
@@ -329,7 +381,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 628637808.561325,
+        "Eccentricity": 0.001019,
+        "OrbitalPeriod": 361122.024059,
+        "OrbitalInclination": -0.155967
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 3 c",
@@ -343,7 +399,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1139077007.770538,
+        "Eccentricity": 0.000185,
+        "OrbitalPeriod": 880811.25021,
+        "OrbitalInclination": 0.945592
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 3 g",
@@ -357,7 +417,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2996819853.782654,
+        "Eccentricity": 0.002753,
+        "OrbitalPeriod": 3758756.101131,
+        "OrbitalInclination": -1.049397
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 3 g a",
@@ -371,7 +435,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 14342831.373215,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 241629.379988,
+        "OrbitalInclination": 31.342393
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 3 e",
@@ -385,7 +453,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 7230098.247528,
+        "Eccentricity": 0.033288,
+        "OrbitalPeriod": 244533.056021,
+        "OrbitalInclination": -9.785794
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 3 d",
@@ -399,7 +471,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 6182316.601276,
+        "Eccentricity": 0.033288,
+        "OrbitalPeriod": 244533.056021,
+        "OrbitalInclination": -9.785794
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 3 f",
@@ -413,7 +489,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2270897567.272186,
+        "Eccentricity": 0.000169,
+        "OrbitalPeriod": 2479416.549206,
+        "OrbitalInclination": -1.978614
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 3 b",
@@ -427,7 +507,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 797242206.335068,
+        "Eccentricity": 0.001002,
+        "OrbitalPeriod": 515749.305487,
+        "OrbitalInclination": 0.620774
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 3 h",
@@ -441,7 +525,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4337356925.010681,
+        "Eccentricity": 0.002611,
+        "OrbitalPeriod": 6544718.682766,
+        "OrbitalInclination": -2.590679
       },
       {
         "BodyName": "Plio Eurl LP-V b43-7 A 2",
@@ -455,7 +543,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 72149193882.9422,
+        "Eccentricity": 0.000512,
+        "OrbitalPeriod": 19502112.269402,
+        "OrbitalInclination": -0.08897
       }
     ]
   },

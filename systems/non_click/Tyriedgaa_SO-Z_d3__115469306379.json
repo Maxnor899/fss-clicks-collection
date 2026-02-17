@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.562110+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.977742+00:00",
     "log_files": [
       "Journal.2026-02-07T205128.01.log"
     ]
@@ -33,18 +33,18 @@
       "has_ringed_body": true,
       "n_terraformables": 4,
       "planet_classes": [
-        "Sudarsky class II gas giant",
-        "Icy body",
-        "Rocky body",
         "Sudarsky class I gas giant",
-        "High metal content body"
+        "Rocky body",
+        "Sudarsky class II gas giant",
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
       "n_stars": 3,
       "types": [
-        "A",
         "M",
+        "A",
         "G"
       ]
     },
@@ -142,7 +142,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 468114054.203033,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 3629679.679871,
+        "OrbitalInclination": -8.143061
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 B 7",
@@ -156,7 +160,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 293463391065.59753,
+        "Eccentricity": 0.012521,
+        "OrbitalPeriod": 116406768.56041,
+        "OrbitalInclination": -0.013156
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 B 3",
@@ -170,7 +178,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 124760967493.05725,
+        "Eccentricity": 0.003169,
+        "OrbitalPeriod": 32267509.102821,
+        "OrbitalInclination": -1.384381
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 B 1",
@@ -184,7 +196,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 67104129791.259766,
+        "Eccentricity": 0.000251,
+        "OrbitalPeriod": 12728324.532509,
+        "OrbitalInclination": 0.003878
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 B 5",
@@ -198,7 +214,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 222588032.484055,
+        "Eccentricity": 0.097496,
+        "OrbitalPeriod": 4696751.29652,
+        "OrbitalInclination": 9.265528
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 B 6",
@@ -212,7 +232,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 427719444.036484,
+        "Eccentricity": 0.097496,
+        "OrbitalPeriod": 4696751.29652,
+        "OrbitalInclination": 9.265528
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 B 2 a",
@@ -226,7 +250,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 338042652.606964,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 1510203.361511,
+        "OrbitalInclination": -47.049744
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 B 2",
@@ -240,7 +268,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 93937210440.63568,
+        "Eccentricity": 0.001554,
+        "OrbitalPeriod": 21081610.321999,
+        "OrbitalInclination": -0.216616
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 B 4",
@@ -254,7 +286,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 164597761631.01196,
+        "Eccentricity": 3.1e-05,
+        "OrbitalPeriod": 48897114.992142,
+        "OrbitalInclination": 1.758005
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 B 8",
@@ -268,7 +304,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 376770329475.40283,
+        "Eccentricity": 2.8e-05,
+        "OrbitalPeriod": 169341111.183167,
+        "OrbitalInclination": 0.035066
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 C 2",
@@ -297,7 +337,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 766335093975.0671,
+        "Eccentricity": 0.000159,
+        "OrbitalPeriod": 393375015.258789,
+        "OrbitalInclination": 0.003865
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 C 2 b",
@@ -311,7 +355,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1998862385.749817,
+        "Eccentricity": 0.000209,
+        "OrbitalPeriod": 1489926.457405,
+        "OrbitalInclination": -0.018534
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 C 2 d",
@@ -325,7 +373,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4916916251.182556,
+        "Eccentricity": 0.001086,
+        "OrbitalPeriod": 5748171.09108,
+        "OrbitalInclination": 0.80599
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 C 2 a",
@@ -339,7 +391,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1429701030.254364,
+        "Eccentricity": 0.000239,
+        "OrbitalPeriod": 901277.089119,
+        "OrbitalInclination": 0.006423
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 C 2 c",
@@ -353,7 +409,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3677676439.285278,
+        "Eccentricity": 0.000288,
+        "OrbitalPeriod": 3718353.927135,
+        "OrbitalInclination": -0.785778
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 C 1",
@@ -367,7 +427,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 67133411169.052124,
+        "Eccentricity": 0.000266,
+        "OrbitalPeriod": 10199685.692787,
+        "OrbitalInclination": -0.08594
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 C 3",
@@ -381,7 +445,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1157483100891.1133,
+        "Eccentricity": 0.001109,
+        "OrbitalPeriod": 730214941.501617,
+        "OrbitalInclination": 3.755039
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 C 3 b",
@@ -395,7 +463,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2135375738.143921,
+        "Eccentricity": 0.000386,
+        "OrbitalPeriod": 2523183.345795,
+        "OrbitalInclination": 0.031712
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 C 3 a",
@@ -409,7 +481,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 898906171.321869,
+        "Eccentricity": 0.00018,
+        "OrbitalPeriod": 689142.346382,
+        "OrbitalInclination": -0.156514
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 C 3 c",
@@ -423,7 +499,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 11763107.776642,
+        "Eccentricity": 0.187887,
+        "OrbitalPeriod": 1286892.592907,
+        "OrbitalInclination": -7.7472
       },
       {
         "BodyName": "Tyriedgaa SO-Z d3 C 3 d",
@@ -437,7 +517,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 18654090.166092,
+        "Eccentricity": 0.187887,
+        "OrbitalPeriod": 1286892.592907,
+        "OrbitalInclination": -7.7472
       }
     ]
   },

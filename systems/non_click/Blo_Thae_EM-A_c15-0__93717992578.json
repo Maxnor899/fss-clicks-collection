@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.602638+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.017404+00:00",
     "log_files": [
       "Journal.2026-02-09T205244.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
+        "Icy body",
         "Rocky ice body"
       ]
     },
@@ -100,7 +100,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 713321626186.3708,
+        "Eccentricity": 0.001656,
+        "OrbitalPeriod": 454122859.239578,
+        "OrbitalInclination": 0.239548
       },
       {
         "BodyName": "Blo Thae EM-A c15-0 6 a",
@@ -114,7 +118,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1456356525.421143,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 39982241.392136,
+        "OrbitalInclination": -72.760882
       },
       {
         "BodyName": "Blo Thae EM-A c15-0 2",
@@ -128,7 +136,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 199704867601.39465,
+        "Eccentricity": 2e-05,
+        "OrbitalPeriod": 67271062.135696,
+        "OrbitalInclination": 0.125688
       },
       {
         "BodyName": "Blo Thae EM-A c15-0 2 a",
@@ -142,7 +154,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 147054582.834244,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 3198906.362057,
+        "OrbitalInclination": 17.801341
       },
       {
         "BodyName": "Blo Thae EM-A c15-0 4",
@@ -156,7 +172,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 367545688152.31323,
+        "Eccentricity": 0.004897,
+        "OrbitalPeriod": 167962485.551834,
+        "OrbitalInclination": -0.596977
       },
       {
         "BodyName": "Blo Thae EM-A c15-0 5",
@@ -170,7 +190,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 529719519615.17334,
+        "Eccentricity": 0.007097,
+        "OrbitalPeriod": 290612459.182739,
+        "OrbitalInclination": -0.063512
       },
       {
         "BodyName": "Blo Thae EM-A c15-0 5 a",
@@ -184,7 +208,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 467928117.513657,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 9677093.923092,
+        "OrbitalInclination": -36.104131
       },
       {
         "BodyName": "Blo Thae EM-A c15-0 3",
@@ -198,7 +226,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 275554138422.0123,
+        "Eccentricity": 0.000153,
+        "OrbitalPeriod": 109032428.264618,
+        "OrbitalInclination": -0.005971
       },
       {
         "BodyName": "Blo Thae EM-A c15-0 1",
@@ -212,7 +244,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 148013401031.49414,
+        "Eccentricity": 3.8e-05,
+        "OrbitalPeriod": 42923672.199249,
+        "OrbitalInclination": 0.023073
       },
       {
         "BodyName": "Blo Thae EM-A c15-0 8",
@@ -226,7 +262,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1300887465476.9897,
+        "Eccentricity": 0.035286,
+        "OrbitalPeriod": 1118419826.030731,
+        "OrbitalInclination": 0.998144
       },
       {
         "BodyName": "Blo Thae EM-A c15-0 7",
@@ -240,7 +280,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 886470818519.5923,
+        "Eccentricity": 0.008003,
+        "OrbitalPeriod": 629132276.773453,
+        "OrbitalInclination": -5.360195
       }
     ]
   },

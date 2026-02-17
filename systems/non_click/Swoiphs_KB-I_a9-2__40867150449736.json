@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.634144+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.048107+00:00",
     "log_files": [
       "Journal.2026-02-13T224149.01.log"
     ]
@@ -98,7 +98,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3650664210.319519,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 216426891.088486,
+        "OrbitalInclination": 60.685811
       },
       {
         "BodyName": "Swoiphs KB-I a9-2 5",
@@ -112,7 +116,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1271621406078.3386,
+        "Eccentricity": 0.039302,
+        "OrbitalPeriod": 5107978701.591492,
+        "OrbitalInclination": -0.461239
       },
       {
         "BodyName": "Swoiphs KB-I a9-2 2",
@@ -126,7 +134,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 285738480091.095,
+        "Eccentricity": 7.7e-05,
+        "OrbitalPeriod": 544083303.21312,
+        "OrbitalInclination": 0.001526
       },
       {
         "BodyName": "Swoiphs KB-I a9-2 1",
@@ -140,7 +152,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 156103116273.88,
+        "Eccentricity": 0.000386,
+        "OrbitalPeriod": 219699746.370316,
+        "OrbitalInclination": -0.217412
       },
       {
         "BodyName": "Swoiphs KB-I a9-2 3",
@@ -154,7 +170,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 517952930927.2766,
+        "Eccentricity": 0.007768,
+        "OrbitalPeriod": 1327846109.867096,
+        "OrbitalInclination": 2.142991
       },
       {
         "BodyName": "Swoiphs KB-I a9-2 3 a",
@@ -168,7 +188,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1394689500.331879,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 73761639.595032,
+        "OrbitalInclination": -36.455281
       },
       {
         "BodyName": "Swoiphs KB-I a9-2 4",
@@ -182,7 +206,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 730308145284.6527,
+        "Eccentricity": 0.002517,
+        "OrbitalPeriod": 2223163902.759552,
+        "OrbitalInclination": 0.401033
       },
       {
         "BodyName": "Swoiphs KB-I a9-2 4 a",
@@ -196,7 +224,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2194712460.041046,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 148253887.891769,
+        "OrbitalInclination": -5.512868
       }
     ]
   },

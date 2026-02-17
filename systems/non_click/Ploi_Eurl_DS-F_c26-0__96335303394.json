@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.536185+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.949830+00:00",
     "log_files": [
       "Journal.2026-02-04T160325.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -122,7 +122,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 230500298738.4796,
+        "Eccentricity": 0.00058,
+        "OrbitalPeriod": 88517879.247665,
+        "OrbitalInclination": -0.289085
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 A 4 a",
@@ -136,7 +140,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 275085508.823395,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 3980876.624584,
+        "OrbitalInclination": -9.922861
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 A 6",
@@ -150,7 +158,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 581047415733.3374,
+        "Eccentricity": 0.00014,
+        "OrbitalPeriod": 354275506.734848,
+        "OrbitalInclination": -0.298473
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 A 1",
@@ -164,7 +176,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 18891052603.72162,
+        "Eccentricity": 0.01,
+        "OrbitalPeriod": 2076863.467693,
+        "OrbitalInclination": -0.012613
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 A 3",
@@ -178,7 +194,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 244230866.43219,
+        "Eccentricity": 0.176822,
+        "OrbitalPeriod": 4465687.930584,
+        "OrbitalInclination": 6.116976
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 A 2",
@@ -192,7 +212,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 101853084.564209,
+        "Eccentricity": 0.176822,
+        "OrbitalPeriod": 4465687.930584,
+        "OrbitalInclination": 6.116976
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 A 5",
@@ -206,7 +230,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 333616113662.7197,
+        "Eccentricity": 0.000369,
+        "OrbitalPeriod": 154132527.112961,
+        "OrbitalInclination": -1.458575
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 B 8",
@@ -220,7 +248,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1063249707221.9849,
+        "Eccentricity": 0.008342,
+        "OrbitalPeriod": 1256129920.482635,
+        "OrbitalInclination": -1.66689
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 B 3",
@@ -234,7 +266,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 137290966510.7727,
+        "Eccentricity": 0.001012,
+        "OrbitalPeriod": 58283365.96489,
+        "OrbitalInclination": 0.194412
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 B 4",
@@ -248,7 +284,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 326698648929.59595,
+        "Eccentricity": 0.010339,
+        "OrbitalPeriod": 213945257.663727,
+        "OrbitalInclination": -0.029499
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 B 2",
@@ -262,7 +302,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 99729914665.22217,
+        "Eccentricity": 0.002523,
+        "OrbitalPeriod": 36084428.429604,
+        "OrbitalInclination": -0.017058
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 B 1",
@@ -276,7 +320,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 53542888164.52026,
+        "Eccentricity": 0.000221,
+        "OrbitalPeriod": 14194965.958595,
+        "OrbitalInclination": 0.000261
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 B 5",
@@ -290,7 +338,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 449002021551.1322,
+        "Eccentricity": 0.003704,
+        "OrbitalPeriod": 344710147.380829,
+        "OrbitalInclination": -2.281999
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 B 7",
@@ -304,7 +356,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 831594467163.0859,
+        "Eccentricity": 0.011886,
+        "OrbitalPeriod": 868858563.899994,
+        "OrbitalInclination": -2.606599
       },
       {
         "BodyName": "Ploi Eurl DS-F c26-0 B 6",
@@ -318,7 +374,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 569394284486.7706,
+        "Eccentricity": 0.001072,
+        "OrbitalPeriod": 492267674.207687,
+        "OrbitalInclination": -1.646658
       }
     ]
   },

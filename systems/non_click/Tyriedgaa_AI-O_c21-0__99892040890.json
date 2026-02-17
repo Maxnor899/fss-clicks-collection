@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.574619+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.989644+00:00",
     "log_files": [
       "Journal.2026-02-08T155743.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": true,
       "n_terraformables": 2,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
+        "Icy body",
         "Water world"
       ]
     },
@@ -139,7 +139,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 65909290313.7207,
+        "Eccentricity": 9e-05,
+        "OrbitalPeriod": 13422175.049782,
+        "OrbitalInclination": -0.18279
       },
       {
         "BodyName": "Tyriedgaa AI-O c21-0 B 1",
@@ -153,7 +157,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 56355341076.85089,
+        "Eccentricity": 0.000175,
+        "OrbitalPeriod": 14707208.275795,
+        "OrbitalInclination": 0.004023
       },
       {
         "BodyName": "Tyriedgaa AI-O c21-0 B 3",
@@ -167,7 +175,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 107313919067.38281,
+        "Eccentricity": 0.003027,
+        "OrbitalPeriod": 38646637.201309,
+        "OrbitalInclination": 0.011579
       },
       {
         "BodyName": "Tyriedgaa AI-O c21-0 B 2",
@@ -181,7 +193,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 75473490357.39899,
+        "Eccentricity": 0.000515,
+        "OrbitalPeriod": 22793931.365013,
+        "OrbitalInclination": 0.10616
       },
       {
         "BodyName": "Tyriedgaa AI-O c21-0 A 3",
@@ -195,7 +211,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 52624927759.17053,
+        "Eccentricity": 0.00115,
+        "OrbitalPeriod": 9576134.264469,
+        "OrbitalInclination": -0.007197
       },
       {
         "BodyName": "Tyriedgaa AI-O c21-0 A 1",
@@ -209,7 +229,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 30501157045.36438,
+        "Eccentricity": 0.000474,
+        "OrbitalPeriod": 4225493.371487,
+        "OrbitalInclination": -0.006878
       },
       {
         "BodyName": "Tyriedgaa AI-O c21-0 A 2",
@@ -223,7 +247,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 41359566450.11902,
+        "Eccentricity": 0.000432,
+        "OrbitalPeriod": 6672167.181969,
+        "OrbitalInclination": -0.000502
       },
       {
         "BodyName": "Tyriedgaa AI-O c21-0 A 6",
@@ -237,7 +265,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 122095578908.92029,
+        "Eccentricity": 0.001595,
+        "OrbitalPeriod": 33841749.429703,
+        "OrbitalInclination": 0.038398
       },
       {
         "BodyName": "Tyriedgaa AI-O c21-0 A 5",
@@ -251,7 +283,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 98773548007.01141,
+        "Eccentricity": 0.0005,
+        "OrbitalPeriod": 24624297.02282,
+        "OrbitalInclination": -0.000288
       },
       {
         "BodyName": "Tyriedgaa AI-O c21-0 A 7",
@@ -265,7 +301,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 168745958805.08423,
+        "Eccentricity": 0.00339,
+        "OrbitalPeriod": 54986116.290092,
+        "OrbitalInclination": 0.212663
       }
     ]
   },

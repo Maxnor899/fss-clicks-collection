@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.660574+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.073602+00:00",
     "log_files": [
       "Journal.2026-02-15T071238.01.log"
     ]
@@ -128,7 +128,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2666324555.873871,
+        "Eccentricity": 2e-06,
+        "OrbitalPeriod": 118548.107147,
+        "OrbitalInclination": -7e-06
       },
       {
         "BodyName": "Sifaea LG-I b12-0 2",
@@ -142,7 +146,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4538988530.635834,
+        "Eccentricity": 1e-06,
+        "OrbitalPeriod": 263307.756186,
+        "OrbitalInclination": -0.011732
       }
     ]
   },

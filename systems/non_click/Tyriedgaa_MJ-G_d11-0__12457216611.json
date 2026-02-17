@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.576032+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.992455+00:00",
     "log_files": [
       "Journal.2026-02-08T165846.01.log"
     ]
@@ -34,9 +34,9 @@
       "n_terraformables": 0,
       "planet_classes": [
         "Sudarsky class I gas giant",
+        "Rocky body",
         "Icy body",
-        "Metal rich body",
-        "Rocky body"
+        "Metal rich body"
       ]
     },
     "stars": {
@@ -131,7 +131,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2617506146.430969,
+        "Eccentricity": 2e-06,
+        "OrbitalPeriod": 68335.321546,
+        "OrbitalInclination": 0.000526
       },
       {
         "BodyName": "Tyriedgaa MJ-G d11-0 3",
@@ -153,7 +157,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 10950828194.618225,
+        "Eccentricity": 0.022631,
+        "OrbitalPeriod": 17074448.466301,
+        "OrbitalInclination": 1.990501
       },
       {
         "BodyName": "Tyriedgaa MJ-G d11-0 2",
@@ -175,7 +183,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 130372506.380081,
+        "Eccentricity": 0.022631,
+        "OrbitalPeriod": 17074448.466301,
+        "OrbitalInclination": 1.990501
       },
       {
         "BodyName": "Tyriedgaa MJ-G d11-0 2 a",
@@ -189,7 +201,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 524380970.001221,
+        "Eccentricity": 0.004691,
+        "OrbitalPeriod": 176810.03809,
+        "OrbitalInclination": 0.01562
       },
       {
         "BodyName": "Tyriedgaa MJ-G d11-0 2 b",
@@ -203,7 +219,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 761221259.832382,
+        "Eccentricity": 0.00038,
+        "OrbitalPeriod": 309245.121479,
+        "OrbitalInclination": -2.716707
       }
     ]
   },

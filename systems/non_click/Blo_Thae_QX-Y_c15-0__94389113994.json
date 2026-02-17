@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.599934+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.013376+00:00",
     "log_files": [
       "Journal.2026-02-09T205244.01.log"
     ]
@@ -33,11 +33,11 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "Gas giant with water based life",
-        "Rocky body",
         "Sudarsky class I gas giant",
-        "High metal content body"
+        "Rocky body",
+        "Gas giant with water based life",
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -132,7 +132,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2724028825.759888,
+        "Eccentricity": 1.9e-05,
+        "OrbitalPeriod": 92037.907839,
+        "OrbitalInclination": 0.002933
       },
       {
         "BodyName": "Blo Thae QX-Y c15-0 3",
@@ -146,7 +150,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 597045475244.5221,
+        "Eccentricity": 0.01312,
+        "OrbitalPeriod": 298648446.798325,
+        "OrbitalInclination": 4.518616
       },
       {
         "BodyName": "Blo Thae QX-Y c15-0 4",
@@ -175,7 +183,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 871432971954.3457,
+        "Eccentricity": 0.033033,
+        "OrbitalPeriod": 526623415.94696,
+        "OrbitalInclination": 0.419387
       },
       {
         "BodyName": "Blo Thae QX-Y c15-0 4 a",
@@ -189,7 +201,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 467346435.785294,
+        "Eccentricity": 8.3e-05,
+        "OrbitalPeriod": 479019.337893,
+        "OrbitalInclination": 0.064529
       },
       {
         "BodyName": "Blo Thae QX-Y c15-0 4 b",
@@ -203,7 +219,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 643483841.41922,
+        "Eccentricity": 3.6e-05,
+        "OrbitalPeriod": 773929.011822,
+        "OrbitalInclination": -0.000786
       },
       {
         "BodyName": "Blo Thae QX-Y c15-0 4 e",
@@ -217,7 +237,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2316029071.807861,
+        "Eccentricity": 0.00041,
+        "OrbitalPeriod": 5284581.959248,
+        "OrbitalInclination": -0.014456
       },
       {
         "BodyName": "Blo Thae QX-Y c15-0 4 c",
@@ -231,7 +255,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 856826549.768448,
+        "Eccentricity": 0.000199,
+        "OrbitalPeriod": 1189142.882824,
+        "OrbitalInclination": 0.022677
       },
       {
         "BodyName": "Blo Thae QX-Y c15-0 4 d",
@@ -245,7 +273,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1255140721.797943,
+        "Eccentricity": 0.001818,
+        "OrbitalPeriod": 2108303.725719,
+        "OrbitalInclination": -0.052289
       },
       {
         "BodyName": "Blo Thae QX-Y c15-0 2",
@@ -274,7 +306,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 466991996765.1367,
+        "Eccentricity": 0.003266,
+        "OrbitalPeriod": 206591886.281967,
+        "OrbitalInclination": -0.030075
       },
       {
         "BodyName": "Blo Thae QX-Y c15-0 2 b",
@@ -288,7 +324,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1857950747.013092,
+        "Eccentricity": 0.002419,
+        "OrbitalPeriod": 882343.888283,
+        "OrbitalInclination": -0.36204
       },
       {
         "BodyName": "Blo Thae QX-Y c15-0 2 a",
@@ -302,7 +342,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1097589433.193207,
+        "Eccentricity": 2.2e-05,
+        "OrbitalPeriod": 400632.77483,
+        "OrbitalInclination": 0.169969
       },
       {
         "BodyName": "Blo Thae QX-Y c15-0 2 c",
@@ -316,7 +360,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4167743444.442749,
+        "Eccentricity": 0.000299,
+        "OrbitalPeriod": 2964408.397675,
+        "OrbitalInclination": -0.03054
       }
     ]
   },

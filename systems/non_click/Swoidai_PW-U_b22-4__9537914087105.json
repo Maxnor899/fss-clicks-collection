@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.618866+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.032432+00:00",
     "log_files": [
       "Journal.2026-02-11T134714.01.log"
     ]
@@ -99,7 +99,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 900765365362.1674,
+        "Eccentricity": 0.000745,
+        "OrbitalPeriod": 790638202.428818,
+        "OrbitalInclination": -1.799462
       },
       {
         "BodyName": "Swoidai PW-U b22-4 3",
@@ -113,7 +117,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 259648281335.8307,
+        "Eccentricity": 0.000388,
+        "OrbitalPeriod": 122359710.931778,
+        "OrbitalInclination": -0.060123
       },
       {
         "BodyName": "Swoidai PW-U b22-4 7",
@@ -127,7 +135,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1911003053.188324,
+        "Eccentricity": 0.012477,
+        "OrbitalPeriod": 37928699.851036,
+        "OrbitalInclination": -8.529215
       },
       {
         "BodyName": "Swoidai PW-U b22-4 6",
@@ -141,7 +153,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1679869890.213013,
+        "Eccentricity": 0.012477,
+        "OrbitalPeriod": 37928699.851036,
+        "OrbitalInclination": -8.529215
       },
       {
         "BodyName": "Swoidai PW-U b22-4 5",
@@ -155,7 +171,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 476535332202.9114,
+        "Eccentricity": 0.003213,
+        "OrbitalPeriod": 304230582.714081,
+        "OrbitalInclination": -0.313407
       },
       {
         "BodyName": "Swoidai PW-U b22-4 2",
@@ -169,7 +189,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 147140598297.11914,
+        "Eccentricity": 4e-06,
+        "OrbitalPeriod": 52198622.822762,
+        "OrbitalInclination": -0.001222
       },
       {
         "BodyName": "Swoidai PW-U b22-4 4",
@@ -183,7 +207,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 365905475616.4551,
+        "Eccentricity": 0.003313,
+        "OrbitalPeriod": 204697966.575623,
+        "OrbitalInclination": -0.20511
       },
       {
         "BodyName": "Swoidai PW-U b22-4 9",
@@ -197,7 +225,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1207119345664.978,
+        "Eccentricity": 0.000993,
+        "OrbitalPeriod": 1226550936.698914,
+        "OrbitalInclination": -0.043774
       },
       {
         "BodyName": "Swoidai PW-U b22-4 1",
@@ -211,7 +243,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 80865561366.08124,
+        "Eccentricity": 0.000553,
+        "OrbitalPeriod": 21266968.846321,
+        "OrbitalInclination": -0.011752
       }
     ]
   },

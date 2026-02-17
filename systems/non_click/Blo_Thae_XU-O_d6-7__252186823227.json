@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.604131+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.018789+00:00",
     "log_files": [
       "Journal.2026-02-10T202414.01.log"
     ]
@@ -39,8 +39,8 @@
     "stars": {
       "n_stars": 2,
       "types": [
-        "A",
-        "K"
+        "K",
+        "A"
       ]
     },
     "signals": {
@@ -114,7 +114,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 55381810.665131,
+        "Eccentricity": 0.146698,
+        "OrbitalPeriod": 1327952.802181,
+        "OrbitalInclination": -8.545916
       },
       {
         "BodyName": "Blo Thae XU-O d6-7 A 5",
@@ -128,7 +132,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 48292644.023895,
+        "Eccentricity": 0.146698,
+        "OrbitalPeriod": 1327952.802181,
+        "OrbitalInclination": -8.545916
       },
       {
         "BodyName": "Blo Thae XU-O d6-7 A 2",
@@ -142,7 +150,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 53278816938.40027,
+        "Eccentricity": 0.00021,
+        "OrbitalPeriod": 5372099.757195,
+        "OrbitalInclination": -0.003394
       },
       {
         "BodyName": "Blo Thae XU-O d6-7 A 3",
@@ -156,7 +168,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 74944112896.91925,
+        "Eccentricity": 3.6e-05,
+        "OrbitalPeriod": 8962280.213833,
+        "OrbitalInclination": 0.086449
       },
       {
         "BodyName": "Blo Thae XU-O d6-7 A 4",
@@ -170,7 +186,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 112298434972.76306,
+        "Eccentricity": 7e-06,
+        "OrbitalPeriod": 16438900.828362,
+        "OrbitalInclination": 0.522519
       },
       {
         "BodyName": "Blo Thae XU-O d6-7 A 1",
@@ -184,7 +204,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 40284710526.46637,
+        "Eccentricity": 0.000372,
+        "OrbitalPeriod": 3532015.323639,
+        "OrbitalInclination": -0.039288
       }
     ]
   },

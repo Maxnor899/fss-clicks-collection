@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.629035+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.042304+00:00",
     "log_files": [
       "Journal.2026-02-12T061747.01.log"
     ]
@@ -99,7 +99,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 80600677728.65295,
+        "Eccentricity": 0.000182,
+        "OrbitalPeriod": 26446415.781975,
+        "OrbitalInclination": 0.169557
       },
       {
         "BodyName": "Swoiphs SN-O b12-8 2",
@@ -113,7 +117,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 143201237916.9464,
+        "Eccentricity": 0.001572,
+        "OrbitalPeriod": 62629508.376122,
+        "OrbitalInclination": 0.249786
       },
       {
         "BodyName": "Swoiphs SN-O b12-8 4",
@@ -127,7 +135,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 273803102970.1233,
+        "Eccentricity": 0.000375,
+        "OrbitalPeriod": 165583246.946335,
+        "OrbitalInclination": 1.777921
       },
       {
         "BodyName": "Swoiphs SN-O b12-8 3",
@@ -141,7 +153,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 193285989761.35254,
+        "Eccentricity": 0.000738,
+        "OrbitalPeriod": 98210839.629173,
+        "OrbitalInclination": 0.194057
       },
       {
         "BodyName": "Swoiphs SN-O b12-8 5 a",
@@ -155,7 +171,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2226086735.725403,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 65380517.244339,
+        "OrbitalInclination": -15.558399
       },
       {
         "BodyName": "Swoiphs SN-O b12-8 5",
@@ -169,7 +189,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 813242763280.8685,
+        "Eccentricity": 0.00395,
+        "OrbitalPeriod": 847596526.145935,
+        "OrbitalInclination": 0.021936
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.591696+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.005631+00:00",
     "log_files": [
       "Journal.2026-02-09T151317.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
+        "Icy body",
         "Water world"
       ]
     },
@@ -100,7 +100,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1137594997882.843,
+        "Eccentricity": 0.003345,
+        "OrbitalPeriod": 888424378.633499,
+        "OrbitalInclination": -0.568031
       },
       {
         "BodyName": "Tyriedgoea JC-Z c15-0 4",
@@ -114,7 +118,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 861657667160.0342,
+        "Eccentricity": 0.000277,
+        "OrbitalPeriod": 585654032.230377,
+        "OrbitalInclination": 4.295489
       },
       {
         "BodyName": "Tyriedgoea JC-Z c15-0 2",
@@ -128,7 +136,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 191654247045.51697,
+        "Eccentricity": 0.000151,
+        "OrbitalPeriod": 61435115.933418,
+        "OrbitalInclination": 0.419137
       },
       {
         "BodyName": "Tyriedgoea JC-Z c15-0 3",
@@ -142,7 +154,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 320646458864.21204,
+        "Eccentricity": 0.000168,
+        "OrbitalPeriod": 132947045.564651,
+        "OrbitalInclination": -0.006097
       },
       {
         "BodyName": "Tyriedgoea JC-Z c15-0 7",
@@ -156,7 +172,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2092887759208.6792,
+        "Eccentricity": 0.000576,
+        "OrbitalPeriod": 2216960191.726685,
+        "OrbitalInclination": 1.094167
       },
       {
         "BodyName": "Tyriedgoea JC-Z c15-0 1",
@@ -170,7 +190,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 112560606002.80762,
+        "Eccentricity": 4.7e-05,
+        "OrbitalPeriod": 27651492.9533,
+        "OrbitalInclination": -3.4e-05
       },
       {
         "BodyName": "Tyriedgoea JC-Z c15-0 6 a",
@@ -184,7 +208,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2757072091.1026,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 28843447.566032,
+        "OrbitalInclination": -2.186835
       },
       {
         "BodyName": "Tyriedgoea JC-Z c15-0 6",
@@ -198,7 +226,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1602928638458.252,
+        "Eccentricity": 0.000495,
+        "OrbitalPeriod": 1485970795.154572,
+        "OrbitalInclination": -0.0866
       }
     ]
   },

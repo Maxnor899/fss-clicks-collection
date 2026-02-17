@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.583169+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.998353+00:00",
     "log_files": [
       "Journal.2026-02-08T222850.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -115,7 +115,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 71628116965.29388,
+        "Eccentricity": 0.000447,
+        "OrbitalPeriod": 13987962.603569,
+        "OrbitalInclination": -0.003477
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 A 6",
@@ -129,7 +133,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 219617456197.73865,
+        "Eccentricity": 0.001477,
+        "OrbitalPeriod": 75098187.923431,
+        "OrbitalInclination": 0.032372
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 A 7",
@@ -143,7 +151,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 270141404867.17224,
+        "Eccentricity": 3.1e-05,
+        "OrbitalPeriod": 102450925.111771,
+        "OrbitalInclination": 1.202004
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 A 4",
@@ -157,7 +169,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 122509771585.46448,
+        "Eccentricity": 0.000728,
+        "OrbitalPeriod": 31288536.787033,
+        "OrbitalInclination": 0.064565
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 A 5",
@@ -171,7 +187,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 149613046646.11816,
+        "Eccentricity": 0.001702,
+        "OrbitalPeriod": 42226332.426071,
+        "OrbitalInclination": -0.13925
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 B 1",
@@ -185,7 +205,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 232592248916.62598,
+        "Eccentricity": 2.9e-05,
+        "OrbitalPeriod": 191956514.120102,
+        "OrbitalInclination": 0.354441
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 B 5 a",
@@ -199,7 +223,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 990052402.019501,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 51684159.040451,
+        "OrbitalInclination": 59.848006
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 B 5",
@@ -213,7 +241,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 606895792484.2834,
+        "Eccentricity": 0.010025,
+        "OrbitalPeriod": 809060877.561569,
+        "OrbitalInclination": 3.114696
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 B 6",
@@ -227,7 +259,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 815442949.533463,
+        "Eccentricity": 0.025548,
+        "OrbitalPeriod": 124776977.300644,
+        "OrbitalInclination": 2.963978
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 B 7",
@@ -241,7 +277,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1302186846.733093,
+        "Eccentricity": 0.025548,
+        "OrbitalPeriod": 124776977.300644,
+        "OrbitalInclination": 2.963978
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 B 3",
@@ -255,7 +295,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 588616436.719894,
+        "Eccentricity": 0.188405,
+        "OrbitalPeriod": 16330648.064613,
+        "OrbitalInclination": 9.17631
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 B 2",
@@ -269,7 +313,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 124939495.325089,
+        "Eccentricity": 0.188405,
+        "OrbitalPeriod": 16330648.064613,
+        "OrbitalInclination": 9.17631
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 B 4",
@@ -283,7 +331,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 447763532400.1312,
+        "Eccentricity": 0.009777,
+        "OrbitalPeriod": 512723320.72258,
+        "OrbitalInclination": -0.131412
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 A 8",
@@ -297,7 +349,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 372376984357.83386,
+        "Eccentricity": 0.00125,
+        "OrbitalPeriod": 165807217.359543,
+        "OrbitalInclination": -1.365569
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 A 2",
@@ -311,7 +367,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 135516655.445099,
+        "Eccentricity": 0.045406,
+        "OrbitalPeriod": 5587601.959705,
+        "OrbitalInclination": -6.036348
       },
       {
         "BodyName": "Blu Theia YV-R c19-0 A 3",
@@ -325,7 +385,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 155833423.137665,
+        "Eccentricity": 0.045406,
+        "OrbitalPeriod": 5587601.959705,
+        "OrbitalInclination": -6.036348
       }
     ]
   },

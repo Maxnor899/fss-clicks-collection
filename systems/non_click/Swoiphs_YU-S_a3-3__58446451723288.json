@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.634918+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.048859+00:00",
     "log_files": [
       "Journal.2026-02-13T224149.01.log"
     ]
@@ -98,7 +98,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5519515931.606293,
+        "Eccentricity": 0.092946,
+        "OrbitalPeriod": 159713125.228882,
+        "OrbitalInclination": 3.158304
       },
       {
         "BodyName": "Swoiphs YU-S a3-3 5",
@@ -112,7 +116,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2717228472.232819,
+        "Eccentricity": 0.092946,
+        "OrbitalPeriod": 159713125.228882,
+        "OrbitalInclination": 3.158304
       },
       {
         "BodyName": "Swoiphs YU-S a3-3 2",
@@ -126,7 +134,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 594873338937.7594,
+        "Eccentricity": 0.000456,
+        "OrbitalPeriod": 1033538520.336151,
+        "OrbitalInclination": -0.003886
       },
       {
         "BodyName": "Swoiphs YU-S a3-3 1",
@@ -140,7 +152,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 426913827657.6996,
+        "Eccentricity": 0.000496,
+        "OrbitalPeriod": 628348058.462143,
+        "OrbitalInclination": -0.174618
       },
       {
         "BodyName": "Swoiphs YU-S a3-3 1 a",
@@ -154,7 +170,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 660948598.384857,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 5195793.509483,
+        "OrbitalInclination": -5.241692
       },
       {
         "BodyName": "Swoiphs YU-S a3-3 3",
@@ -168,7 +188,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 825271713733.6731,
+        "Eccentricity": 0.000344,
+        "OrbitalPeriod": 1688827931.880951,
+        "OrbitalInclination": 0.166225
       },
       {
         "BodyName": "Swoiphs YU-S a3-3 4",
@@ -182,7 +206,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1131772339344.0247,
+        "Eccentricity": 0.00251,
+        "OrbitalPeriod": 2712242722.511292,
+        "OrbitalInclination": 0.000109
       },
       {
         "BodyName": "Swoiphs YU-S a3-3 7 a",
@@ -196,7 +224,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 6308182299.137115,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 135284906.625748,
+        "OrbitalInclination": 76.213259
       },
       {
         "BodyName": "Swoiphs YU-S a3-3 7",
@@ -210,7 +242,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2029203891754.1504,
+        "Eccentricity": 0.008687,
+        "OrbitalPeriod": 6511461734.771729,
+        "OrbitalInclination": 0.12172
       }
     ]
   },

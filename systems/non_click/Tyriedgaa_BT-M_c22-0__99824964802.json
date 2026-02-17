@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.575060+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.990068+00:00",
     "log_files": [
       "Journal.2026-02-08T155743.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
+        "Icy body",
         "Rocky ice body"
       ]
     },
@@ -100,7 +100,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 496720939874.64905,
+        "Eccentricity": 0.010886,
+        "OrbitalPeriod": 230255937.576294,
+        "OrbitalInclination": 0.425536
       },
       {
         "BodyName": "Tyriedgaa BT-M c22-0 3",
@@ -114,7 +118,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 219025260.210037,
+        "Eccentricity": 0.023989,
+        "OrbitalPeriod": 10615967.512131,
+        "OrbitalInclination": 1.868011
       },
       {
         "BodyName": "Tyriedgaa BT-M c22-0 2",
@@ -128,7 +136,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 86951842.308044,
+        "Eccentricity": 0.023989,
+        "OrbitalPeriod": 10615967.512131,
+        "OrbitalInclination": 1.868011
       },
       {
         "BodyName": "Tyriedgaa BT-M c22-0 1",
@@ -142,7 +154,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 180903136730.1941,
+        "Eccentricity": 0.001352,
+        "OrbitalPeriod": 50607088.208199,
+        "OrbitalInclination": -0.176584
       },
       {
         "BodyName": "Tyriedgaa BT-M c22-0 10 a",
@@ -156,7 +172,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1224482178.688049,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 75683673.620224,
+        "OrbitalInclination": 38.223463
       },
       {
         "BodyName": "Tyriedgaa BT-M c22-0 10",
@@ -170,7 +190,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1620420873165.1306,
+        "Eccentricity": 0.012407,
+        "OrbitalPeriod": 1356700420.379639,
+        "OrbitalInclination": 5.431449
       },
       {
         "BodyName": "Tyriedgaa BT-M c22-0 9 a",
@@ -184,7 +208,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1249687552.452087,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 67264205.217361,
+        "OrbitalInclination": 55.928536
       },
       {
         "BodyName": "Tyriedgaa BT-M c22-0 9",
@@ -198,7 +226,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1225980162620.5444,
+        "Eccentricity": 0.000941,
+        "OrbitalPeriod": 892827123.403549,
+        "OrbitalInclination": 0.420946
       },
       {
         "BodyName": "Tyriedgaa BT-M c22-0 7",
@@ -212,7 +244,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 671644246578.2166,
+        "Eccentricity": 0.004594,
+        "OrbitalPeriod": 362035483.121872,
+        "OrbitalInclination": 0.72361
       },
       {
         "BodyName": "Tyriedgaa BT-M c22-0 4",
@@ -226,7 +262,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 68287341.594696,
+        "Eccentricity": 0.115956,
+        "OrbitalPeriod": 6456787.467003,
+        "OrbitalInclination": 6.040592
       },
       {
         "BodyName": "Tyriedgaa BT-M c22-0 5",
@@ -240,7 +280,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 127297478.914261,
+        "Eccentricity": 0.115956,
+        "OrbitalPeriod": 6456787.467003,
+        "OrbitalInclination": 6.040592
       },
       {
         "BodyName": "Tyriedgaa BT-M c22-0 8",
@@ -254,7 +298,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 891978836059.5703,
+        "Eccentricity": 0.008305,
+        "OrbitalPeriod": 554082006.216049,
+        "OrbitalInclination": 0.05375
       }
     ]
   },

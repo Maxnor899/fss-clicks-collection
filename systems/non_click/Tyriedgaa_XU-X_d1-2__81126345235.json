@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.562645+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.978305+00:00",
     "log_files": [
       "Journal.2026-02-07T205128.01.log"
     ]
@@ -98,7 +98,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 599891930818.5577,
+        "Eccentricity": 0.000418,
+        "OrbitalPeriod": 195737671.852112,
+        "OrbitalInclination": 1.436079
       },
       {
         "BodyName": "Tyriedgaa XU-X d1-2 1",
@@ -112,7 +116,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 96224284172.0581,
+        "Eccentricity": 0.000179,
+        "OrbitalPeriod": 12574535.012245,
+        "OrbitalInclination": -0.006448
       },
       {
         "BodyName": "Tyriedgaa XU-X d1-2 4",
@@ -126,7 +134,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 206497412919.99817,
+        "Eccentricity": 3.5e-05,
+        "OrbitalPeriod": 39530907.869339,
+        "OrbitalInclination": -0.002025
       },
       {
         "BodyName": "Tyriedgaa XU-X d1-2 6",
@@ -140,7 +152,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1016398012638.092,
+        "Eccentricity": 0.039798,
+        "OrbitalPeriod": 431678658.723831,
+        "OrbitalInclination": -0.103958
       },
       {
         "BodyName": "Tyriedgaa XU-X d1-2 3",
@@ -154,7 +170,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 309199661.016464,
+        "Eccentricity": 0.032297,
+        "OrbitalPeriod": 2200915.932655,
+        "OrbitalInclination": 4.567383
       },
       {
         "BodyName": "Tyriedgaa XU-X d1-2 2",
@@ -168,7 +188,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 226197099.685669,
+        "Eccentricity": 0.032297,
+        "OrbitalPeriod": 2200915.932655,
+        "OrbitalInclination": 4.567383
       }
     ]
   },

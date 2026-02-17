@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.657559+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.071193+00:00",
     "log_files": [
       "Journal.2026-02-14T205220.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
+        "Icy body",
         "Rocky ice body"
       ]
     },
@@ -147,7 +147,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 14930245280.265808,
+        "Eccentricity": 6.4e-05,
+        "OrbitalPeriod": 1825964.62965,
+        "OrbitalInclination": -0.51928
       },
       {
         "BodyName": "Ploea Eur XF-E d12-9 A 7",
@@ -161,7 +165,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 58070777058.60138,
+        "Eccentricity": 0.060931,
+        "OrbitalPeriod": 14006459.712982,
+        "OrbitalInclination": -175.133178
       },
       {
         "BodyName": "Ploea Eur XF-E d12-9 BC 4",
@@ -175,7 +183,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 29816012978.553772,
+        "Eccentricity": 0.004567,
+        "OrbitalPeriod": 5119501.531124,
+        "OrbitalInclination": 0.744635
       },
       {
         "BodyName": "Ploea Eur XF-E d12-9 BC 1",
@@ -189,7 +201,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 12650275826.454163,
+        "Eccentricity": 0.001093,
+        "OrbitalPeriod": 1414826.929569,
+        "OrbitalInclination": -0.419198
       },
       {
         "BodyName": "Ploea Eur XF-E d12-9 BC 3",
@@ -203,7 +219,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 23530860543.251038,
+        "Eccentricity": 0.003987,
+        "OrbitalPeriod": 3589301.82457,
+        "OrbitalInclination": 0.167975
       },
       {
         "BodyName": "Ploea Eur XF-E d12-9 BC 2",
@@ -217,7 +237,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 16995143890.38086,
+        "Eccentricity": 1.6e-05,
+        "OrbitalPeriod": 2203132.271767,
+        "OrbitalInclination": -0.245734
       },
       {
         "BodyName": "Ploea Eur XF-E d12-9 BC 5 a",
@@ -231,7 +255,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 38979664.444923,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 937291.067839,
+        "OrbitalInclination": -36.63693
       },
       {
         "BodyName": "Ploea Eur XF-E d12-9 BC 5",
@@ -245,7 +273,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 56774718761.44409,
+        "Eccentricity": 0.189104,
+        "OrbitalPeriod": 13451967.23938,
+        "OrbitalInclination": 39.509806
       },
       {
         "BodyName": "Ploea Eur XF-E d12-9 BC 6",
@@ -259,7 +291,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 79045580625.53406,
+        "Eccentricity": 0.100599,
+        "OrbitalPeriod": 22098845.8395,
+        "OrbitalInclination": 128.431049
       },
       {
         "BodyName": "Ploea Eur XF-E d12-9 A 6",
@@ -273,7 +309,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 44208585023.880005,
+        "Eccentricity": 0.000431,
+        "OrbitalPeriod": 9303618.252277,
+        "OrbitalInclination": -2.925162
       },
       {
         "BodyName": "Ploea Eur XF-E d12-9 A 4",
@@ -287,7 +327,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 18208885192.871094,
+        "Eccentricity": 0.001048,
+        "OrbitalPeriod": 2459330.618382,
+        "OrbitalInclination": 0.289522
       },
       {
         "BodyName": "Ploea Eur XF-E d12-9 A 5",
@@ -301,7 +345,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 24803358316.42151,
+        "Eccentricity": 1.2e-05,
+        "OrbitalPeriod": 3909828.126431,
+        "OrbitalInclination": -0.544484
       },
       {
         "BodyName": "Ploea Eur XF-E d12-9 A 1",
@@ -315,7 +363,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2341838.419437,
+        "Eccentricity": 0.028308,
+        "OrbitalPeriod": 109532.511234,
+        "OrbitalInclination": 4.976919
       },
       {
         "BodyName": "Ploea Eur XF-E d12-9 A 2",
@@ -329,7 +381,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3146317.839622,
+        "Eccentricity": 0.028308,
+        "OrbitalPeriod": 109532.511234,
+        "OrbitalInclination": 4.976919
       }
     ]
   },

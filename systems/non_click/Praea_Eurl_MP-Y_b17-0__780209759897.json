@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.552743+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.966939+00:00",
     "log_files": [
       "Journal.2026-02-05T201519.01.log"
     ]
@@ -99,7 +99,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 215854537.48703,
+        "Eccentricity": 0.087408,
+        "OrbitalPeriod": 25458066.46347,
+        "OrbitalInclination": 5.200939
       },
       {
         "BodyName": "Praea Eurl MP-Y b17-0 2",
@@ -113,7 +117,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 187473958.730698,
+        "Eccentricity": 0.087408,
+        "OrbitalPeriod": 25458066.46347,
+        "OrbitalInclination": 5.200939
       },
       {
         "BodyName": "Praea Eurl MP-Y b17-0 6",
@@ -127,7 +135,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 690519475936.8896,
+        "Eccentricity": 0.000204,
+        "OrbitalPeriod": 586004722.118378,
+        "OrbitalInclination": -0.002729
       },
       {
         "BodyName": "Praea Eurl MP-Y b17-0 4 a",
@@ -141,7 +153,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 151672130.823135,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 6872905.194759,
+        "OrbitalInclination": -83.181367
       },
       {
         "BodyName": "Praea Eurl MP-Y b17-0 4",
@@ -155,7 +171,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 370845228433.609,
+        "Eccentricity": 0.00023,
+        "OrbitalPeriod": 230635499.954224,
+        "OrbitalInclination": 1.139082
       },
       {
         "BodyName": "Praea Eurl MP-Y b17-0 1",
@@ -169,7 +189,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 217904573678.97034,
+        "Eccentricity": 6.3e-05,
+        "OrbitalPeriod": 103881144.523621,
+        "OrbitalInclination": 0.028804
       },
       {
         "BodyName": "Praea Eurl MP-Y b17-0 5",
@@ -183,7 +207,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 455953264236.4502,
+        "Eccentricity": 0.002189,
+        "OrbitalPeriod": 314425414.800644,
+        "OrbitalInclination": -0.040493
       }
     ]
   },

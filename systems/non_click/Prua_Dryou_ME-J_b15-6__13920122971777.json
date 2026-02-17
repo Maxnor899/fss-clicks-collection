@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.626874+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.040162+00:00",
     "log_files": [
       "Journal.2026-02-11T164827.01.log"
     ]
@@ -41,8 +41,8 @@
     "stars": {
       "n_stars": 3,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -155,7 +155,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 47007467150.68817,
+        "Eccentricity": 3.1e-05,
+        "OrbitalPeriod": 10468458.533287,
+        "OrbitalInclination": 0.014558
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 6",
@@ -184,7 +188,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 515733325481.4148,
+        "Eccentricity": 0.003825,
+        "OrbitalPeriod": 380426061.153412,
+        "OrbitalInclination": 0.012019
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 B 5",
@@ -198,7 +206,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 217793989181.51855,
+        "Eccentricity": 8.1e-05,
+        "OrbitalPeriod": 149885886.907578,
+        "OrbitalInclination": -0.169641
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 B 4",
@@ -212,7 +224,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 171866106986.9995,
+        "Eccentricity": 0.004031,
+        "OrbitalPeriod": 105069649.219513,
+        "OrbitalInclination": -0.037995
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 B 7",
@@ -226,7 +242,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1165520906.448364,
+        "Eccentricity": 0.046529,
+        "OrbitalPeriod": 40471115.708351,
+        "OrbitalInclination": -8.21447
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 B 8",
@@ -240,7 +260,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3223569333.553314,
+        "Eccentricity": 0.046529,
+        "OrbitalPeriod": 40471115.708351,
+        "OrbitalInclination": -8.21447
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 B 1",
@@ -254,7 +278,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 65556500554.08478,
+        "Eccentricity": 0.000231,
+        "OrbitalPeriod": 24752295.613289,
+        "OrbitalInclination": -0.01864
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 B 2",
@@ -268,7 +296,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 92621979713.43994,
+        "Eccentricity": 0.00028,
+        "OrbitalPeriod": 41568372.249603,
+        "OrbitalInclination": -0.042283
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 B 3",
@@ -282,7 +314,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 123088985681.53381,
+        "Eccentricity": 0.002788,
+        "OrbitalPeriod": 63682588.338852,
+        "OrbitalInclination": -0.725002
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 B 6",
@@ -296,7 +332,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 330535393953.32336,
+        "Eccentricity": 0.005099,
+        "OrbitalPeriod": 280232739.448547,
+        "OrbitalInclination": -1.296914
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 5",
@@ -318,7 +358,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 373241961002.34985,
+        "Eccentricity": 0.001166,
+        "OrbitalPeriod": 234216833.114624,
+        "OrbitalInclination": 0.034405
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 5 b",
@@ -332,7 +376,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1306938529.014587,
+        "Eccentricity": 0.003888,
+        "OrbitalPeriod": 3046082.377434,
+        "OrbitalInclination": 3.850594
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 5 c",
@@ -346,7 +394,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1828961372.375488,
+        "Eccentricity": 0.025662,
+        "OrbitalPeriod": 5042730.569839,
+        "OrbitalInclination": 0.022933
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 5 a",
@@ -360,7 +412,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 701905846.595764,
+        "Eccentricity": 0.000284,
+        "OrbitalPeriod": 1198884.129524,
+        "OrbitalInclination": 0.815289
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 2",
@@ -374,7 +430,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 86479057073.59314,
+        "Eccentricity": 3.3e-05,
+        "OrbitalPeriod": 38557335.734367,
+        "OrbitalInclination": 0.528026
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 7",
@@ -396,7 +456,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 580166172981.2622,
+        "Eccentricity": 0.001295,
+        "OrbitalPeriod": 669991403.81813,
+        "OrbitalInclination": -0.018323
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 6",
@@ -425,7 +489,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5938538432.121277,
+        "Eccentricity": 0.036273,
+        "OrbitalPeriod": 27144813.537598,
+        "OrbitalInclination": -6.38683
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 5",
@@ -454,7 +522,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 828026151.657104,
+        "Eccentricity": 0.036273,
+        "OrbitalPeriod": 27144813.537598,
+        "OrbitalInclination": -6.38683
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 5 a",
@@ -468,7 +540,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 149597978.591919,
+        "Eccentricity": 0.001285,
+        "OrbitalPeriod": 95250.552893,
+        "OrbitalInclination": -0.008391
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 5 c",
@@ -482,7 +558,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1680571.734905,
+        "Eccentricity": 0.040207,
+        "OrbitalPeriod": 53134.441376,
+        "OrbitalInclination": -9.756997
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 5 b",
@@ -496,7 +576,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1103186.72657,
+        "Eccentricity": 0.040207,
+        "OrbitalPeriod": 53134.441376,
+        "OrbitalInclination": -9.756997
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 1",
@@ -510,7 +594,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 60290764570.236206,
+        "Eccentricity": 8e-05,
+        "OrbitalPeriod": 22444853.186607,
+        "OrbitalInclination": -0.002618
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 1 a",
@@ -524,7 +612,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 299179381.132126,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 866872.024536,
+        "OrbitalInclination": 88.244248
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 3",
@@ -553,7 +645,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 238144594430.92346,
+        "Eccentricity": 0.002404,
+        "OrbitalPeriod": 176198291.778564,
+        "OrbitalInclination": 0.034922
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 3 a",
@@ -567,7 +663,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 482640558.481216,
+        "Eccentricity": 0.000158,
+        "OrbitalPeriod": 436832.469702,
+        "OrbitalInclination": 0.273318
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 3 d",
@@ -581,7 +681,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2473815381.526947,
+        "Eccentricity": 0.008872,
+        "OrbitalPeriod": 5069091.379642,
+        "OrbitalInclination": -1.126727
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 3 b",
@@ -595,7 +699,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 937814044.952393,
+        "Eccentricity": 0.002502,
+        "OrbitalPeriod": 1183189.511299,
+        "OrbitalInclination": -0.277458
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 3 c",
@@ -609,7 +717,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1463139057.159424,
+        "Eccentricity": 0.005119,
+        "OrbitalPeriod": 2305725.097656,
+        "OrbitalInclination": 0.326536
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 4",
@@ -623,7 +735,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 317777216434.47876,
+        "Eccentricity": 5.1e-05,
+        "OrbitalPeriod": 271596831.083298,
+        "OrbitalInclination": -0.002744
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 4 c",
@@ -637,7 +753,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 619964432.71637,
+        "Eccentricity": 0.00022,
+        "OrbitalPeriod": 1005560.159683,
+        "OrbitalInclination": -0.00204
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 4 a",
@@ -651,7 +771,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 149597978.591919,
+        "Eccentricity": 0.000374,
+        "OrbitalPeriod": 119191.837311,
+        "OrbitalInclination": -0.211166
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 4 b",
@@ -665,7 +789,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 191583800.315857,
+        "Eccentricity": 0.000364,
+        "OrbitalPeriod": 172741.281986,
+        "OrbitalInclination": -0.003452
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 4 e",
@@ -679,7 +807,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1171303212.64267,
+        "Eccentricity": 0.002097,
+        "OrbitalPeriod": 2611330.688,
+        "OrbitalInclination": 4.381779
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 C 4 d",
@@ -693,7 +825,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 839131951.332092,
+        "Eccentricity": 0.000266,
+        "OrbitalPeriod": 1583446.323872,
+        "OrbitalInclination": -0.831131
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 4",
@@ -715,7 +851,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 291154235601.4252,
+        "Eccentricity": 0.001077,
+        "OrbitalPeriod": 161367911.100388,
+        "OrbitalInclination": 0.705274
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 4 f",
@@ -729,7 +869,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 978393554.6875,
+        "Eccentricity": 0.000173,
+        "OrbitalPeriod": 1403744.876385,
+        "OrbitalInclination": 0.159541
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 4 a",
@@ -743,7 +887,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 164022862.911224,
+        "Eccentricity": 4.1e-05,
+        "OrbitalPeriod": 96355.029941,
+        "OrbitalInclination": 0.000675
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 4 b",
@@ -757,7 +905,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 241933107.376099,
+        "Eccentricity": 0.000261,
+        "OrbitalPeriod": 172607.934475,
+        "OrbitalInclination": -0.132344
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 4 c",
@@ -771,7 +923,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 348571002.483368,
+        "Eccentricity": 0.001326,
+        "OrbitalPeriod": 298507.070541,
+        "OrbitalInclination": 0.013138
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 4 d",
@@ -785,7 +941,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 522664546.966553,
+        "Eccentricity": 0.004405,
+        "OrbitalPeriod": 548090.606928,
+        "OrbitalInclination": 0.180968
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 4 e",
@@ -799,7 +959,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 720039486.885071,
+        "Eccentricity": 0.000178,
+        "OrbitalPeriod": 886241.906881,
+        "OrbitalInclination": 1.051811
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 2",
@@ -813,7 +977,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 83550677895.54596,
+        "Eccentricity": 0.00136,
+        "OrbitalPeriod": 24806037.545204,
+        "OrbitalInclination": -0.00424
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 3",
@@ -842,7 +1010,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 198293370008.46863,
+        "Eccentricity": 0.001595,
+        "OrbitalPeriod": 90697394.013405,
+        "OrbitalInclination": -0.027015
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 3 a",
@@ -856,7 +1028,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 189970690.011978,
+        "Eccentricity": 0.000472,
+        "OrbitalPeriod": 76818.013787,
+        "OrbitalInclination": -0.035669
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 3 b",
@@ -870,7 +1046,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 247768312.692642,
+        "Eccentricity": 0.000526,
+        "OrbitalPeriod": 114419.955015,
+        "OrbitalInclination": 0.084326
       },
       {
         "BodyName": "Prua Dryou ME-J b15-6 A 3 c",
@@ -884,7 +1064,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 344502359.628677,
+        "Eccentricity": 0.001547,
+        "OrbitalPeriod": 187595.08729,
+        "OrbitalInclination": 0.179107
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.654192+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.068104+00:00",
     "log_files": [
       "Journal.2026-02-14T205220.01.log"
     ]
@@ -114,7 +114,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5969322383.403778,
+        "Eccentricity": 2.1e-05,
+        "OrbitalPeriod": 281704.884768,
+        "OrbitalInclination": 0.003882
       },
       {
         "BodyName": "Ploea Eur FG-I c24-6 2",
@@ -128,7 +132,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 10148373246.192932,
+        "Eccentricity": 0.000125,
+        "OrbitalPeriod": 624455.50561,
+        "OrbitalInclination": -0.001437
       }
     ]
   },

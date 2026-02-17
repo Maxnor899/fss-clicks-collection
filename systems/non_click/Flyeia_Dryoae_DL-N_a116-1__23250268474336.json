@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.635817+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.049758+00:00",
     "log_files": [
       "Journal.2026-02-13T224149.01.log"
     ]
@@ -98,7 +98,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 504323911666.8701,
+        "Eccentricity": 0.000128,
+        "OrbitalPeriod": 698787361.383438,
+        "OrbitalInclination": 0.004435
       },
       {
         "BodyName": "Flyeia Dryoae DL-N a116-1 7",
@@ -112,7 +116,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 714264029264.4501,
+        "Eccentricity": 0.001085,
+        "OrbitalPeriod": 1177792727.947235,
+        "OrbitalInclination": 0.0031
       },
       {
         "BodyName": "Flyeia Dryoae DL-N a116-1 9",
@@ -126,7 +134,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1678553819656.372,
+        "Eccentricity": 0.012584,
+        "OrbitalPeriod": 4243103086.948395,
+        "OrbitalInclination": 0.776896
       },
       {
         "BodyName": "Flyeia Dryoae DL-N a116-1 1",
@@ -140,7 +152,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 142658108472.8241,
+        "Eccentricity": 0.001186,
+        "OrbitalPeriod": 105129694.93866,
+        "OrbitalInclination": 0.53654
       },
       {
         "BodyName": "Flyeia Dryoae DL-N a116-1 1 a",
@@ -154,7 +170,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 269830888.50975,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 4504261.016846,
+        "OrbitalInclination": -12.64339
       },
       {
         "BodyName": "Flyeia Dryoae DL-N a116-1 4",
@@ -168,7 +188,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 408802068.23349,
+        "Eccentricity": 0.020825,
+        "OrbitalPeriod": 38543250.56076,
+        "OrbitalInclination": 0.608729
       },
       {
         "BodyName": "Flyeia Dryoae DL-N a116-1 5",
@@ -182,7 +206,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 604664444.923401,
+        "Eccentricity": 0.020825,
+        "OrbitalPeriod": 38543250.56076,
+        "OrbitalInclination": 0.608729
       },
       {
         "BodyName": "Flyeia Dryoae DL-N a116-1 3",
@@ -196,7 +224,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 269764274358.7494,
+        "Eccentricity": 0.001381,
+        "OrbitalPeriod": 273374050.855637,
+        "OrbitalInclination": -0.07397
       },
       {
         "BodyName": "Flyeia Dryoae DL-N a116-1 2",
@@ -210,7 +242,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 202021801471.7102,
+        "Eccentricity": 0.000129,
+        "OrbitalPeriod": 177165055.274963,
+        "OrbitalInclination": -1.032509
       },
       {
         "BodyName": "Flyeia Dryoae DL-N a116-1 8",
@@ -224,7 +260,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 907728558778.7628,
+        "Eccentricity": 0.00316,
+        "OrbitalPeriod": 1687387049.198151,
+        "OrbitalInclination": -4.141065
       }
     ]
   },

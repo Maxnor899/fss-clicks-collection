@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.566337+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.982081+00:00",
     "log_files": [
       "Journal.2026-02-08T071626.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -99,7 +99,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 576937669515.6097,
+        "Eccentricity": 5.1e-05,
+        "OrbitalPeriod": 295880275.964737,
+        "OrbitalInclination": 0.540364
       },
       {
         "BodyName": "Tyriedgaa JN-H c11-0 3",
@@ -113,7 +117,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 408476221561.4319,
+        "Eccentricity": 0.000316,
+        "OrbitalPeriod": 176267760.99205,
+        "OrbitalInclination": 0.170775
       },
       {
         "BodyName": "Tyriedgaa JN-H c11-0 1",
@@ -127,7 +135,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 175238370895.38574,
+        "Eccentricity": 0.001083,
+        "OrbitalPeriod": 49529792.666435,
+        "OrbitalInclination": 8.8e-05
       },
       {
         "BodyName": "Tyriedgaa JN-H c11-0 2",
@@ -141,7 +153,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 294653540849.68567,
+        "Eccentricity": 0.000831,
+        "OrbitalPeriod": 107991647.720337,
+        "OrbitalInclination": 0.015541
       },
       {
         "BodyName": "Tyriedgaa JN-H c11-0 5",
@@ -155,7 +171,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 998564249277.1149,
+        "Eccentricity": 0.000624,
+        "OrbitalPeriod": 673731344.938278,
+        "OrbitalInclination": -0.140004
       }
     ]
   },

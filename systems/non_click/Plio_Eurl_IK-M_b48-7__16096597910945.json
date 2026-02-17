@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.638700+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.053106+00:00",
     "log_files": [
       "Journal.2026-02-13T224149.01.log"
     ]
@@ -98,7 +98,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2036755621.433258,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 30095739.364624,
+        "OrbitalInclination": 81.354981
       },
       {
         "BodyName": "Plio Eurl IK-M b48-7 6",
@@ -112,7 +116,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 744453155994.4153,
+        "Eccentricity": 0.006027,
+        "OrbitalPeriod": 600864899.158478,
+        "OrbitalInclination": 2.62384
       },
       {
         "BodyName": "Plio Eurl IK-M b48-7 3",
@@ -126,7 +134,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 196950936317.44385,
+        "Eccentricity": 3.5e-05,
+        "OrbitalPeriod": 81763195.39547,
+        "OrbitalInclination": -0.000339
       },
       {
         "BodyName": "Plio Eurl IK-M b48-7 5",
@@ -140,7 +152,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 530004388093.94836,
+        "Eccentricity": 0.002112,
+        "OrbitalPeriod": 360944128.036499,
+        "OrbitalInclination": -1.575075
       },
       {
         "BodyName": "Plio Eurl IK-M b48-7 5 a",
@@ -154,7 +170,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1751734018.325806,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 25359487.533569,
+        "OrbitalInclination": -81.879399
       },
       {
         "BodyName": "Plio Eurl IK-M b48-7 8 a",
@@ -168,7 +188,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4360157132.148743,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 72617322.206497,
+        "OrbitalInclination": -83.99322
       },
       {
         "BodyName": "Plio Eurl IK-M b48-7 8",
@@ -182,7 +206,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1331876754760.7422,
+        "Eccentricity": 0.00171,
+        "OrbitalPeriod": 1437860727.310181,
+        "OrbitalInclination": -0.073669
       },
       {
         "BodyName": "Plio Eurl IK-M b48-7 2",
@@ -196,7 +224,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 140668624639.5111,
+        "Eccentricity": 0.001185,
+        "OrbitalPeriod": 49353347.420692,
+        "OrbitalInclination": -0.041214
       },
       {
         "BodyName": "Plio Eurl IK-M b48-7 7 a",
@@ -210,7 +242,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3859207808.971405,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 72607244.253159,
+        "OrbitalInclination": 72.50141
       },
       {
         "BodyName": "Plio Eurl IK-M b48-7 7",
@@ -224,7 +260,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 959831655025.4822,
+        "Eccentricity": 0.015894,
+        "OrbitalPeriod": 879657059.907913,
+        "OrbitalInclination": 4.251467
       },
       {
         "BodyName": "Plio Eurl IK-M b48-7 1",
@@ -238,7 +278,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 99471576809.88312,
+        "Eccentricity": 0.000144,
+        "OrbitalPeriod": 29347373.247147,
+        "OrbitalInclination": -0.006927
       },
       {
         "BodyName": "Plio Eurl IK-M b48-7 4",
@@ -252,7 +296,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 311609441041.9464,
+        "Eccentricity": 0.000229,
+        "OrbitalPeriod": 162718409.29985,
+        "OrbitalInclination": 0.006139
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.548455+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.963089+00:00",
     "log_files": [
       "Journal.2026-02-04T212839.01.log"
     ]
@@ -34,8 +34,8 @@
       "n_terraformables": 1,
       "planet_classes": [
         "High metal content body",
-        "Rocky ice body",
-        "Rocky body"
+        "Rocky body",
+        "Rocky ice body"
       ]
     },
     "stars": {
@@ -116,7 +116,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 7964025676.250458,
+        "Eccentricity": 1.4e-05,
+        "OrbitalPeriod": 433113.878965,
+        "OrbitalInclination": -0.001274
       },
       {
         "BodyName": "Wregeia UZ-Z c28-2 3",
@@ -130,7 +134,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 23615145087.242126,
+        "Eccentricity": 2e-06,
+        "OrbitalPeriod": 2211510.717869,
+        "OrbitalInclination": -0.000656
       },
       {
         "BodyName": "Wregeia UZ-Z c28-2 6",
@@ -144,7 +152,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 137416934967.04102,
+        "Eccentricity": 0.000122,
+        "OrbitalPeriod": 31042983.531952,
+        "OrbitalInclination": 0.003091
       },
       {
         "BodyName": "Wregeia UZ-Z c28-2 7",
@@ -158,7 +170,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1492877840995.7886,
+        "Eccentricity": 0.017801,
+        "OrbitalPeriod": 1111576974.391937,
+        "OrbitalInclination": 4.739994
       },
       {
         "BodyName": "Wregeia UZ-Z c28-2 4",
@@ -172,7 +188,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 43417745232.58209,
+        "Eccentricity": 0.000142,
+        "OrbitalPeriod": 5513203.561306,
+        "OrbitalInclination": -0.050499
       },
       {
         "BodyName": "Wregeia UZ-Z c28-2 5",
@@ -186,7 +206,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 75254485011.10077,
+        "Eccentricity": 1e-06,
+        "OrbitalPeriod": 12580609.917641,
+        "OrbitalInclination": -0.069086
       },
       {
         "BodyName": "Wregeia UZ-Z c28-2 5 a",
@@ -200,7 +224,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 221377885.341644,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 1317563.772202,
+        "OrbitalInclination": -12.024442
       },
       {
         "BodyName": "Wregeia UZ-Z c28-2 2",
@@ -214,7 +242,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 13364606499.671936,
+        "Eccentricity": 7e-06,
+        "OrbitalPeriod": 941537.004709,
+        "OrbitalInclination": -0.011137
       }
     ]
   },

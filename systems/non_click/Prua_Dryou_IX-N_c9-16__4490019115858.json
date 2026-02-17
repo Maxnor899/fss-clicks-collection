@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.621981+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.035354+00:00",
     "log_files": [
       "Journal.2026-02-11T134714.01.log"
     ]
@@ -33,10 +33,10 @@
       "has_ringed_body": true,
       "n_terraformables": 1,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
-        "Sudarsky class III gas giant",
-        "Rocky body"
+        "Rocky body",
+        "Icy body",
+        "Sudarsky class III gas giant"
       ]
     },
     "stars": {
@@ -131,7 +131,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 6805218458.175659,
+        "Eccentricity": 1.3e-05,
+        "OrbitalPeriod": 394878.88813,
+        "OrbitalInclination": 0.00118
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 6",
@@ -153,7 +157,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 430851936340.33203,
+        "Eccentricity": 0.005806,
+        "OrbitalPeriod": 198926591.873169,
+        "OrbitalInclination": 0.021312
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 6 c",
@@ -167,7 +175,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 808860766.887665,
+        "Eccentricity": 0.00061,
+        "OrbitalPeriod": 216596.657038,
+        "OrbitalInclination": 0.036649
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 6 b",
@@ -181,7 +193,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 693467706.441879,
+        "Eccentricity": 0.001348,
+        "OrbitalPeriod": 171941.405535,
+        "OrbitalInclination": 7.6e-05
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 6 a",
@@ -195,7 +211,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 479184812.307358,
+        "Eccentricity": 0.000159,
+        "OrbitalPeriod": 98763.31985,
+        "OrbitalInclination": -0.089374
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 6 d",
@@ -209,7 +229,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1016892731.189728,
+        "Eccentricity": 0.000308,
+        "OrbitalPeriod": 305318.939686,
+        "OrbitalInclination": 0.018269
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 6 e a",
@@ -223,7 +247,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 14931058.287621,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 124498.37327,
+        "OrbitalInclination": 59.645566
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 6 e",
@@ -237,7 +265,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2582205235.958099,
+        "Eccentricity": 0.001082,
+        "OrbitalPeriod": 1235455.870628,
+        "OrbitalInclination": -0.872579
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 6 f",
@@ -251,7 +283,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3448730587.95929,
+        "Eccentricity": 0.000121,
+        "OrbitalPeriod": 1906909.167767,
+        "OrbitalInclination": -0.013916
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 6 g",
@@ -265,7 +301,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 8998702585.697174,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 8037314.534187,
+        "OrbitalInclination": -48.743778
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 8",
@@ -287,7 +327,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 820940375328.064,
+        "Eccentricity": 0.002574,
+        "OrbitalPeriod": 523200643.062592,
+        "OrbitalInclination": -4.511997
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 2",
@@ -301,7 +345,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 12594121694.56482,
+        "Eccentricity": 3.3e-05,
+        "OrbitalPeriod": 994151.717424,
+        "OrbitalInclination": -0.000259
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 4",
@@ -315,7 +363,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 37363833189.01062,
+        "Eccentricity": 0.00021,
+        "OrbitalPeriod": 5080166.697502,
+        "OrbitalInclination": -0.018426
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 7 a",
@@ -329,7 +381,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4102124452.590942,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 25807281.732559,
+        "OrbitalInclination": -82.095322
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 7",
@@ -351,7 +407,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 599465191364.2883,
+        "Eccentricity": 0.000808,
+        "OrbitalPeriod": 326472592.353821,
+        "OrbitalInclination": -2.359229
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 3 a",
@@ -365,7 +425,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 41511147.618294,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 75736.471415,
+        "OrbitalInclination": 35.35046
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 3",
@@ -379,7 +443,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 21787440776.82495,
+        "Eccentricity": 1.1e-05,
+        "OrbitalPeriod": 2262090.861797,
+        "OrbitalInclination": 0.032935
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 5",
@@ -408,7 +476,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 251022696495.05615,
+        "Eccentricity": 9e-06,
+        "OrbitalPeriod": 88464762.568474,
+        "OrbitalInclination": 0.263463
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 5 c",
@@ -422,7 +494,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 999941092.729568,
+        "Eccentricity": 0.000467,
+        "OrbitalPeriod": 276006.424427,
+        "OrbitalInclination": -0.036238
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 5 c a",
@@ -436,7 +512,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2183393.120766,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 19567.866921,
+        "OrbitalInclination": -54.255072
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 5 a",
@@ -450,7 +530,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 424101269.245148,
+        "Eccentricity": 0.000456,
+        "OrbitalPeriod": 76236.333251,
+        "OrbitalInclination": -0.083358
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 5 b",
@@ -464,7 +548,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 539164972.305298,
+        "Eccentricity": 0.001107,
+        "OrbitalPeriod": 109279.859066,
+        "OrbitalInclination": -0.154066
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 5 d",
@@ -478,7 +566,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1645245015.621185,
+        "Eccentricity": 0.000593,
+        "OrbitalPeriod": 582510.1614,
+        "OrbitalInclination": -0.215003
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 5 e",
@@ -492,7 +584,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2491547405.719757,
+        "Eccentricity": 0.001978,
+        "OrbitalPeriod": 1085578.858852,
+        "OrbitalInclination": 0.035724
       },
       {
         "BodyName": "Prua Dryou IX-N c9-16 5 f",
@@ -506,7 +602,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 7205366313.457489,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 5338776.528835,
+        "OrbitalInclination": -23.970703
       }
     ]
   },

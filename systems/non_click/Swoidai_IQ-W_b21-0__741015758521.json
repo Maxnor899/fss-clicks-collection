@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.619267+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.032815+00:00",
     "log_files": [
       "Journal.2026-02-11T134714.01.log"
     ]
@@ -33,9 +33,9 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Ammonia world",
+        "High metal content body",
         "Icy body",
-        "High metal content body"
+        "Ammonia world"
       ]
     },
     "stars": {
@@ -100,7 +100,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 716877609491.3483,
+        "Eccentricity": 4.5e-05,
+        "OrbitalPeriod": 498198932.409286,
+        "OrbitalInclination": -2.086805
       },
       {
         "BodyName": "Swoidai IQ-W b21-0 9",
@@ -114,7 +118,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1248199880123.1384,
+        "Eccentricity": 0.004791,
+        "OrbitalPeriod": 1144620358.943939,
+        "OrbitalInclination": -0.844265
       },
       {
         "BodyName": "Swoidai IQ-W b21-0 1",
@@ -128,7 +136,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 112533748149.87183,
+        "Eccentricity": 3e-06,
+        "OrbitalPeriod": 30985560.417175,
+        "OrbitalInclination": -0.023065
       },
       {
         "BodyName": "Swoidai IQ-W b21-0 5",
@@ -142,7 +154,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 377353590726.8524,
+        "Eccentricity": 0.001061,
+        "OrbitalPeriod": 190264606.47583,
+        "OrbitalInclination": -0.633273
       },
       {
         "BodyName": "Swoidai IQ-W b21-0 3",
@@ -156,7 +172,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 485729736.089706,
+        "Eccentricity": 0.171493,
+        "OrbitalPeriod": 6750741.004944,
+        "OrbitalInclination": 2.683584
       },
       {
         "BodyName": "Swoidai IQ-W b21-0 4",
@@ -170,7 +190,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 658350348.472595,
+        "Eccentricity": 0.171493,
+        "OrbitalPeriod": 6750741.004944,
+        "OrbitalInclination": 2.683584
       },
       {
         "BodyName": "Swoidai IQ-W b21-0 7",
@@ -184,7 +208,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1495269119.739532,
+        "Eccentricity": 0.120449,
+        "OrbitalPeriod": 24981018.304825,
+        "OrbitalInclination": -5.462152
       },
       {
         "BodyName": "Swoidai IQ-W b21-0 6",
@@ -198,7 +226,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1204555988.311768,
+        "Eccentricity": 0.120449,
+        "OrbitalPeriod": 24981018.304825,
+        "OrbitalInclination": -5.462152
       },
       {
         "BodyName": "Swoidai IQ-W b21-0 2",
@@ -212,7 +244,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 160413861274.71924,
+        "Eccentricity": 0.000297,
+        "OrbitalPeriod": 52734898.328781,
+        "OrbitalInclination": -0.708361
       }
     ]
   },

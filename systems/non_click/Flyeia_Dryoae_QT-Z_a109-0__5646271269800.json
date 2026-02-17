@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.637259+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.050521+00:00",
     "log_files": [
       "Journal.2026-02-13T224149.01.log"
     ]
@@ -98,7 +98,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 752085846662.5214,
+        "Eccentricity": 0.002823,
+        "OrbitalPeriod": 1642734110.355377,
+        "OrbitalInclination": 1.164762
       },
       {
         "BodyName": "Flyeia Dryoae QT-Z a109-0 4 a",
@@ -112,7 +116,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1089354038.238525,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 20976130.366325,
+        "OrbitalInclination": -18.000267
       },
       {
         "BodyName": "Flyeia Dryoae QT-Z a109-0 4",
@@ -126,7 +134,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 479574632644.6533,
+        "Eccentricity": 0.001148,
+        "OrbitalPeriod": 836470109.224319,
+        "OrbitalInclination": -0.009508
       },
       {
         "BodyName": "Flyeia Dryoae QT-Z a109-0 3",
@@ -140,7 +152,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 435485261678.6957,
+        "Eccentricity": 0.002129,
+        "OrbitalPeriod": 723812967.538834,
+        "OrbitalInclination": -0.031031
       },
       {
         "BodyName": "Flyeia Dryoae QT-Z a109-0 9",
@@ -154,7 +170,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1588186323642.7307,
+        "Eccentricity": 0.003228,
+        "OrbitalPeriod": 5041018724.441528,
+        "OrbitalInclination": 0.820786
       },
       {
         "BodyName": "Flyeia Dryoae QT-Z a109-0 9 a",
@@ -168,7 +188,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4701810598.373413,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 166955077.648163,
+        "OrbitalInclination": -25.432332
       },
       {
         "BodyName": "Flyeia Dryoae QT-Z a109-0 1 a",
@@ -182,7 +206,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 533548557.758331,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 5236616.611481,
+        "OrbitalInclination": 53.773137
       },
       {
         "BodyName": "Flyeia Dryoae QT-Z a109-0 1",
@@ -196,7 +224,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 249269455671.31042,
+        "Eccentricity": 0.001073,
+        "OrbitalPeriod": 313451021.909714,
+        "OrbitalInclination": 0.002469
       },
       {
         "BodyName": "Flyeia Dryoae QT-Z a109-0 2",
@@ -210,7 +242,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 355665194988.25073,
+        "Eccentricity": 0.005231,
+        "OrbitalPeriod": 534229910.373688,
+        "OrbitalInclination": 1.067954
       },
       {
         "BodyName": "Flyeia Dryoae QT-Z a109-0 6",
@@ -224,7 +260,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 894528317451.477,
+        "Eccentricity": 0.001438,
+        "OrbitalPeriod": 2130871474.742889,
+        "OrbitalInclination": -0.098246
       },
       {
         "BodyName": "Flyeia Dryoae QT-Z a109-0 8",
@@ -238,7 +278,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1734562218.18924,
+        "Eccentricity": 0.162903,
+        "OrbitalPeriod": 93000664.710999,
+        "OrbitalInclination": 0.838448
       },
       {
         "BodyName": "Flyeia Dryoae QT-Z a109-0 7",
@@ -252,7 +296,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1718557476.997375,
+        "Eccentricity": 0.162903,
+        "OrbitalPeriod": 93000664.710999,
+        "OrbitalInclination": 0.838448
       }
     ]
   },

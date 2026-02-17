@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.629377+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.042640+00:00",
     "log_files": [
       "Journal.2026-02-12T061747.01.log"
     ]
@@ -33,16 +33,16 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Sudarsky class I gas giant",
         "High metal content body",
-        "Rocky body"
+        "Rocky body",
+        "Sudarsky class I gas giant"
       ]
     },
     "stars": {
       "n_stars": 3,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -139,7 +139,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 798558825254.4403,
+        "Eccentricity": 0.01,
+        "OrbitalPeriod": 492208242.416382,
+        "OrbitalInclination": 0.001395
       },
       {
         "BodyName": "IC 2488 Sector DN-P b7-1 C 3 a",
@@ -153,7 +157,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 46310206.651688,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 319799.214602,
+        "OrbitalInclination": 20.988529
       },
       {
         "BodyName": "IC 2488 Sector DN-P b7-1 C 3",
@@ -167,7 +175,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 39050943851.47095,
+        "Eccentricity": 0.006023,
+        "OrbitalPeriod": 8621433.913708,
+        "OrbitalInclination": 0.485934
       },
       {
         "BodyName": "IC 2488 Sector DN-P b7-1 C 2",
@@ -181,7 +193,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 29662491679.19159,
+        "Eccentricity": 0.002238,
+        "OrbitalPeriod": 5707470.059395,
+        "OrbitalInclination": -1.412471
       },
       {
         "BodyName": "IC 2488 Sector DN-P b7-1 C 2 a",
@@ -195,7 +211,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 85777335.762978,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 608873.057365,
+        "OrbitalInclination": 46.318634
       },
       {
         "BodyName": "IC 2488 Sector DN-P b7-1 C 1",
@@ -209,7 +229,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 23215184211.730957,
+        "Eccentricity": 8.8e-05,
+        "OrbitalPeriod": 3951758.3251,
+        "OrbitalInclination": -0.04447
       },
       {
         "BodyName": "IC 2488 Sector DN-P b7-1 C 1 a",
@@ -223,7 +247,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 16096051.931381,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 42399.587035,
+        "OrbitalInclination": 75.470561
       },
       {
         "BodyName": "IC 2488 Sector DN-P b7-1 C 4",
@@ -237,7 +265,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 56050052046.77582,
+        "Eccentricity": 0.016925,
+        "OrbitalPeriod": 14825052.022934,
+        "OrbitalInclination": 0.811208
       }
     ]
   },

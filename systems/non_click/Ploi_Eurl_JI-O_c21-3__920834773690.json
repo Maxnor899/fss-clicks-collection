@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.544318+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.958078+00:00",
     "log_files": [
       "Journal.2026-02-04T212839.01.log"
     ]
@@ -33,11 +33,11 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Sudarsky class III gas giant",
-        "Icy body",
-        "Gas giant with water based life",
+        "Sudarsky class I gas giant",
         "Rocky body",
-        "Sudarsky class I gas giant"
+        "Sudarsky class III gas giant",
+        "Gas giant with water based life",
+        "Icy body"
       ]
     },
     "stars": {
@@ -126,7 +126,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 277574694156.6467,
+        "Eccentricity": 5.4e-05,
+        "OrbitalPeriod": 85878230.333328,
+        "OrbitalInclination": -0.017359
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 1 a",
@@ -140,7 +144,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 149597978.591919,
+        "Eccentricity": 4e-05,
+        "OrbitalPeriod": 147050.017118,
+        "OrbitalInclination": -0.081991
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 1 b",
@@ -154,7 +162,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 297396129.369736,
+        "Eccentricity": 3.7e-05,
+        "OrbitalPeriod": 412172.907591,
+        "OrbitalInclination": -0.419924
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 1 e",
@@ -168,7 +180,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1214612543.582916,
+        "Eccentricity": 0.00367,
+        "OrbitalPeriod": 3401990.652084,
+        "OrbitalInclination": 0.020168
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 1 c",
@@ -182,7 +198,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 497280919.551849,
+        "Eccentricity": 0.000582,
+        "OrbitalPeriod": 891208.201647,
+        "OrbitalInclination": -0.005682
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 1 d",
@@ -196,7 +216,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 679463386.535645,
+        "Eccentricity": 0.00153,
+        "OrbitalPeriod": 1423395.454884,
+        "OrbitalInclination": -0.042424
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 3",
@@ -218,7 +242,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 36943607330.322266,
+        "Eccentricity": 0.100871,
+        "OrbitalPeriod": 48271448.612213,
+        "OrbitalInclination": -4.266474
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 3 a",
@@ -232,7 +260,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 154277431.964874,
+        "Eccentricity": 6.5e-05,
+        "OrbitalPeriod": 78263.798356,
+        "OrbitalInclination": 0.001825
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 3 d",
@@ -246,7 +278,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 433279848.098755,
+        "Eccentricity": 5.1e-05,
+        "OrbitalPeriod": 368349.444866,
+        "OrbitalInclination": 0.015272
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 3 c",
@@ -260,7 +296,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1748222.768307,
+        "Eccentricity": 0.07129,
+        "OrbitalPeriod": 36150.154471,
+        "OrbitalInclination": 2.440966
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 3 b",
@@ -274,7 +314,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 967072.38555,
+        "Eccentricity": 0.07129,
+        "OrbitalPeriod": 36150.154471,
+        "OrbitalInclination": 2.440966
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 3 e",
@@ -288,7 +332,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 883934652.805328,
+        "Eccentricity": 0.021453,
+        "OrbitalPeriod": 1073340.594769,
+        "OrbitalInclination": -4.006148
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 2",
@@ -317,7 +365,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 971710014.343262,
+        "Eccentricity": 0.100871,
+        "OrbitalPeriod": 48271448.612213,
+        "OrbitalInclination": -4.266474
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 2 a",
@@ -331,7 +383,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 549624025.821686,
+        "Eccentricity": 0.000242,
+        "OrbitalPeriod": 85350.193977,
+        "OrbitalInclination": -0.002864
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 2 b",
@@ -345,7 +401,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3776069283.485413,
+        "Eccentricity": 0.00092,
+        "OrbitalPeriod": 1536971.867085,
+        "OrbitalInclination": 2.054136
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 2 c",
@@ -359,7 +419,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5231906175.613403,
+        "Eccentricity": 0.011294,
+        "OrbitalPeriod": 2506662.30917,
+        "OrbitalInclination": -5.934806
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 5",
@@ -373,7 +437,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 20265477895.736694,
+        "Eccentricity": 0.05386,
+        "OrbitalPeriod": 26116658.449173,
+        "OrbitalInclination": 2.909531
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 4",
@@ -402,7 +470,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 183708328.008652,
+        "Eccentricity": 0.05386,
+        "OrbitalPeriod": 26116658.449173,
+        "OrbitalInclination": 2.909531
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 4 a",
@@ -416,7 +488,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2462502479.553223,
+        "Eccentricity": 0.004149,
+        "OrbitalPeriod": 1096296.846867,
+        "OrbitalInclination": -0.378272
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 4 b",
@@ -430,7 +506,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2988453269.004822,
+        "Eccentricity": 0.023164,
+        "OrbitalPeriod": 1465658.783913,
+        "OrbitalInclination": -0.313689
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 4 c",
@@ -444,7 +524,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4495937049.388885,
+        "Eccentricity": 0.011746,
+        "OrbitalPeriod": 2704540.610313,
+        "OrbitalInclination": -0.002562
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 6",
@@ -473,7 +557,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1047157108783.7219,
+        "Eccentricity": 0.001314,
+        "OrbitalPeriod": 629261332.75032,
+        "OrbitalInclination": 0.04011
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 6 c",
@@ -487,7 +575,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3198779463.768005,
+        "Eccentricity": 0.009521,
+        "OrbitalPeriod": 10779309.868813,
+        "OrbitalInclination": 0.034866
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 6 a",
@@ -501,7 +593,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1290678083.896637,
+        "Eccentricity": 0.003645,
+        "OrbitalPeriod": 2762748.360634,
+        "OrbitalInclination": 1.504815
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 6 b",
@@ -515,7 +611,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2072018861.77063,
+        "Eccentricity": 0.004165,
+        "OrbitalPeriod": 5619595.706463,
+        "OrbitalInclination": -0.207189
       },
       {
         "BodyName": "Ploi Eurl JI-O c21-3 6 d",
@@ -537,7 +637,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 6921807408.332825,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 34311819.672585,
+        "OrbitalInclination": -71.354505
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.586859+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.001384+00:00",
     "log_files": [
       "Journal.2026-02-09T082520.01.log"
     ]
@@ -33,9 +33,9 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
-        "Rocky body"
+        "Rocky body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -100,7 +100,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 133165401220.32166,
+        "Eccentricity": 3.3e-05,
+        "OrbitalPeriod": 35708701.014519,
+        "OrbitalInclination": -0.642906
       },
       {
         "BodyName": "Blu Theia FZ-T c18-0 3",
@@ -114,7 +118,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 109364461898.80371,
+        "Eccentricity": 0.002395,
+        "OrbitalPeriod": 26576713.91964,
+        "OrbitalInclination": -0.53113
       },
       {
         "BodyName": "Blu Theia FZ-T c18-0 1 a",
@@ -128,7 +136,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 63571270.108223,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 530113.482475,
+        "OrbitalInclination": 33.427731
       },
       {
         "BodyName": "Blu Theia FZ-T c18-0 1",
@@ -142,7 +154,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 59372367858.88672,
+        "Eccentricity": 2e-06,
+        "OrbitalPeriod": 10630740.523338,
+        "OrbitalInclination": 0.026554
       },
       {
         "BodyName": "Blu Theia FZ-T c18-0 6",
@@ -156,7 +172,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 428759080171.5851,
+        "Eccentricity": 0.084583,
+        "OrbitalPeriod": 206303626.298904,
+        "OrbitalInclination": 155.806437
       },
       {
         "BodyName": "Blu Theia FZ-T c18-0 7",
@@ -170,7 +190,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1119504213.33313,
+        "Eccentricity": 0.151257,
+        "OrbitalPeriod": 52624617.218971,
+        "OrbitalInclination": -9.673792
       },
       {
         "BodyName": "Blu Theia FZ-T c18-0 8",
@@ -184,7 +208,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1654719293.117523,
+        "Eccentricity": 0.151257,
+        "OrbitalPeriod": 52624617.218971,
+        "OrbitalInclination": -9.673792
       },
       {
         "BodyName": "Blu Theia FZ-T c18-0 5",
@@ -198,7 +226,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 196925806999.20654,
+        "Eccentricity": 0.000111,
+        "OrbitalPeriod": 64215658.307076,
+        "OrbitalInclination": 1.444925
       },
       {
         "BodyName": "Blu Theia FZ-T c18-0 2",
@@ -212,7 +244,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 80900350213.05084,
+        "Eccentricity": 5.2e-05,
+        "OrbitalPeriod": 16908792.257309,
+        "OrbitalInclination": -0.500979
       }
     ]
   },

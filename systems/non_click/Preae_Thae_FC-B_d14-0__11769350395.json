@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.511339+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.926145+00:00",
     "log_files": [
       "Journal.2026-02-01T074904.01.log"
     ]
@@ -33,11 +33,11 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
+        "Rocky body",
         "Sudarsky class III gas giant",
         "Gas giant with water based life",
-        "Metal rich body",
-        "Rocky body",
-        "High metal content body"
+        "High metal content body",
+        "Metal rich body"
       ]
     },
     "stars": {
@@ -118,7 +118,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2713811516.76178,
+        "Eccentricity": 2e-06,
+        "OrbitalPeriod": 64958.781004,
+        "OrbitalInclination": 0.003474
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 2",
@@ -132,7 +136,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 471736156940.4602,
+        "Eccentricity": 0.00207,
+        "OrbitalPeriod": 148873394.727707,
+        "OrbitalInclination": 0.042753
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 2 a",
@@ -146,7 +154,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 586496371.030807,
+        "Eccentricity": 0.000538,
+        "OrbitalPeriod": 97755.573988,
+        "OrbitalInclination": -0.017807
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 2 b",
@@ -160,7 +172,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1008555531.50177,
+        "Eccentricity": 0.001477,
+        "OrbitalPeriod": 220441.383123,
+        "OrbitalInclination": 0.102925
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 2 c",
@@ -174,7 +190,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2473072886.46698,
+        "Eccentricity": 0.0002,
+        "OrbitalPeriod": 846445.214748,
+        "OrbitalInclination": 0.869217
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 3",
@@ -196,7 +216,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 88504227.399826,
+        "Eccentricity": 0.181019,
+        "OrbitalPeriod": 36673917.770386,
+        "OrbitalInclination": -3.26038
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 3 c",
@@ -210,7 +234,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3206462383.270264,
+        "Eccentricity": 0.00117,
+        "OrbitalPeriod": 1832094.013691,
+        "OrbitalInclination": -0.363555
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 3 a",
@@ -224,7 +252,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1240345418.453217,
+        "Eccentricity": 0.000706,
+        "OrbitalPeriod": 440780.597925,
+        "OrbitalInclination": -0.062414
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 3 b",
@@ -238,7 +270,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2314973592.758179,
+        "Eccentricity": 0.001361,
+        "OrbitalPeriod": 1123899.817467,
+        "OrbitalInclination": 0.050921
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 3 e",
@@ -252,7 +288,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 6017513513.565063,
+        "Eccentricity": 0.001253,
+        "OrbitalPeriod": 4710143.625736,
+        "OrbitalInclination": 2.190559
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 3 d",
@@ -266,7 +306,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4578357458.114624,
+        "Eccentricity": 0.00041,
+        "OrbitalPeriod": 3125885.307789,
+        "OrbitalInclination": 1.236315
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 4",
@@ -288,7 +332,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 23580220937.72888,
+        "Eccentricity": 0.181019,
+        "OrbitalPeriod": 36673917.770386,
+        "OrbitalInclination": -3.26038
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 5",
@@ -302,7 +350,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1241845369338.9893,
+        "Eccentricity": 0.073413,
+        "OrbitalPeriod": 635871905.088425,
+        "OrbitalInclination": 18.120972
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 5 d",
@@ -316,7 +368,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2973950803.279877,
+        "Eccentricity": 0.003468,
+        "OrbitalPeriod": 2764835.119247,
+        "OrbitalInclination": -1.547205
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 5 b",
@@ -330,7 +386,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1642110943.79425,
+        "Eccentricity": 0.003314,
+        "OrbitalPeriod": 1134416.043758,
+        "OrbitalInclination": 0.089986
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 5 c",
@@ -344,7 +404,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2193708062.171936,
+        "Eccentricity": 0.001706,
+        "OrbitalPeriod": 1751607.835293,
+        "OrbitalInclination": 0.594547
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 5 f",
@@ -358,7 +422,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 6216597.378254,
+        "Eccentricity": 0.000808,
+        "OrbitalPeriod": 665049.481392,
+        "OrbitalInclination": -6.093015
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 5 g",
@@ -372,7 +440,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 8893179.893494,
+        "Eccentricity": 0.000808,
+        "OrbitalPeriod": 665049.481392,
+        "OrbitalInclination": -6.093015
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 5 a",
@@ -386,7 +458,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1120487511.15799,
+        "Eccentricity": 4e-06,
+        "OrbitalPeriod": 639409.607649,
+        "OrbitalInclination": 0.488185
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 5 e",
@@ -400,7 +476,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4123869299.888611,
+        "Eccentricity": 0.007356,
+        "OrbitalPeriod": 4514669.35873,
+        "OrbitalInclination": -0.054276
       },
       {
         "BodyName": "Preae Thae FC-B d14-0 5 h",
@@ -414,7 +494,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 7363207936.286926,
+        "Eccentricity": 0.006112,
+        "OrbitalPeriod": 10771327.614784,
+        "OrbitalInclination": 0.514862
       }
     ]
   },

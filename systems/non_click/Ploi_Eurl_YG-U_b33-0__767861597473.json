@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.527166+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.939503+00:00",
     "log_files": [
       "Journal.2026-02-01T175645.01.log"
     ]
@@ -99,7 +99,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 335716134309.7687,
+        "Eccentricity": 0.007204,
+        "OrbitalPeriod": 208922183.513641,
+        "OrbitalInclination": -0.083319
       },
       {
         "BodyName": "Ploi Eurl YG-U b33-0 2",
@@ -113,7 +117,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 227102959156.03638,
+        "Eccentricity": 0.000948,
+        "OrbitalPeriod": 116241300.106049,
+        "OrbitalInclination": -0.002923
       },
       {
         "BodyName": "Ploi Eurl YG-U b33-0 2 a",
@@ -127,7 +135,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 274507468.938828,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 7802182.912827,
+        "OrbitalInclination": -18.5168
       },
       {
         "BodyName": "Ploi Eurl YG-U b33-0 6",
@@ -141,7 +153,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 900082641839.9811,
+        "Eccentricity": 0.111949,
+        "OrbitalPeriod": 917170041.799545,
+        "OrbitalInclination": 159.635379
       },
       {
         "BodyName": "Ploi Eurl YG-U b33-0 5",
@@ -155,7 +171,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 731049126386.6425,
+        "Eccentricity": 0.155855,
+        "OrbitalPeriod": 671345543.861389,
+        "OrbitalInclination": -22.590772
       },
       {
         "BodyName": "Ploi Eurl YG-U b33-0 4",
@@ -169,7 +189,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 525794410705.5664,
+        "Eccentricity": 0.000559,
+        "OrbitalPeriod": 409496492.147446,
+        "OrbitalInclination": 0.017131
       },
       {
         "BodyName": "Ploi Eurl YG-U b33-0 1",
@@ -183,7 +207,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 128610342741.01257,
+        "Eccentricity": 0.002132,
+        "OrbitalPeriod": 49538185.00042,
+        "OrbitalInclination": 0.146946
       }
     ]
   },

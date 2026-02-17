@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.638289+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.052380+00:00",
     "log_files": [
       "Journal.2026-02-13T224149.01.log"
     ]
@@ -98,7 +98,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1197623908.519745,
+        "Eccentricity": 0.189288,
+        "OrbitalPeriod": 86032125.94986,
+        "OrbitalInclination": -4.275516
       },
       {
         "BodyName": "Flyua Dryoae XA-O a102-5 5",
@@ -112,7 +116,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1453414142.131805,
+        "Eccentricity": 0.189288,
+        "OrbitalPeriod": 86032125.94986,
+        "OrbitalInclination": -4.275516
       },
       {
         "BodyName": "Flyua Dryoae XA-O a102-5 2",
@@ -126,7 +134,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1099448502.063751,
+        "Eccentricity": 0.135708,
+        "OrbitalPeriod": 24132722.020149,
+        "OrbitalInclination": -4.843028
       },
       {
         "BodyName": "Flyua Dryoae XA-O a102-5 1",
@@ -140,7 +152,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 200778448.581696,
+        "Eccentricity": 0.135708,
+        "OrbitalPeriod": 24132722.020149,
+        "OrbitalInclination": -4.843028
       },
       {
         "BodyName": "Flyua Dryoae XA-O a102-5 6",
@@ -154,7 +170,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1138280391693.1152,
+        "Eccentricity": 0.003729,
+        "OrbitalPeriod": 2570000052.452087,
+        "OrbitalInclination": -0.084105
       },
       {
         "BodyName": "Flyua Dryoae XA-O a102-5 3 a",
@@ -168,7 +188,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 600288271.903992,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 10661225.318909,
+        "OrbitalInclination": -16.839036
       },
       {
         "BodyName": "Flyua Dryoae XA-O a102-5 3",
@@ -182,7 +206,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 228080826997.75696,
+        "Eccentricity": 0.001613,
+        "OrbitalPeriod": 230511385.202408,
+        "OrbitalInclination": 0.876714
       }
     ]
   },

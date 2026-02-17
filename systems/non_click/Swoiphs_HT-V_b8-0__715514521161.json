@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.631410+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.044778+00:00",
     "log_files": [
       "Journal.2026-02-12T061747.01.log"
     ]
@@ -33,17 +33,17 @@
       "has_ringed_body": true,
       "n_terraformables": 2,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
-        "Rocky ice body",
-        "Rocky body"
+        "Rocky body",
+        "Icy body",
+        "Rocky ice body"
       ]
     },
     "stars": {
       "n_stars": 3,
       "types": [
-        "L",
         "M",
+        "L",
         "T"
       ]
     },
@@ -141,7 +141,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 8951693952.083588,
+        "Eccentricity": 0.000905,
+        "OrbitalPeriod": 750355.631113,
+        "OrbitalInclination": -0.000114
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 AB 5",
@@ -155,7 +159,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 21046947836.875916,
+        "Eccentricity": 0.000444,
+        "OrbitalPeriod": 2705160.021782,
+        "OrbitalInclination": 0.685015
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 AB 3",
@@ -169,7 +177,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 30681288.24234,
+        "Eccentricity": 0.007068,
+        "OrbitalPeriod": 282879.304886,
+        "OrbitalInclination": 6.528167
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 AB 2",
@@ -183,7 +195,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 21136186.122894,
+        "Eccentricity": 0.007068,
+        "OrbitalPeriod": 282879.304886,
+        "OrbitalInclination": 6.528167
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 AB 4",
@@ -197,7 +213,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 15731384754.180908,
+        "Eccentricity": 0.00058,
+        "OrbitalPeriod": 1748073.69709,
+        "OrbitalInclination": 0.005471
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 AB 7",
@@ -211,7 +231,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 94722740054.13055,
+        "Eccentricity": 0.01426,
+        "OrbitalPeriod": 25827991.962433,
+        "OrbitalInclination": 0.275782
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 AB 6 a",
@@ -225,7 +249,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 57339173.555374,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 328824.049234,
+        "OrbitalInclination": -21.164106
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 AB 6",
@@ -239,7 +267,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 29947496652.60315,
+        "Eccentricity": 0.002283,
+        "OrbitalPeriod": 4591452.240944,
+        "OrbitalInclination": 0.078261
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 C 4",
@@ -253,7 +285,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 35218480229.37775,
+        "Eccentricity": 0.000319,
+        "OrbitalPeriod": 12584684.491158,
+        "OrbitalInclination": 1.611926
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 C 6",
@@ -267,7 +303,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 62943979501.72424,
+        "Eccentricity": 0.002383,
+        "OrbitalPeriod": 30068909.525871,
+        "OrbitalInclination": -6.532652
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 C 3",
@@ -281,7 +321,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 25764231085.777283,
+        "Eccentricity": 0.001115,
+        "OrbitalPeriod": 7874304.354191,
+        "OrbitalInclination": 0.255723
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 C 2",
@@ -295,7 +339,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 9580424427.986145,
+        "Eccentricity": 0.000149,
+        "OrbitalPeriod": 1785515.189171,
+        "OrbitalInclination": -0.146396
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 C 5 a",
@@ -309,7 +357,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 96172583.10318,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 1406529.009342,
+        "OrbitalInclination": 0.231304
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 C 1",
@@ -323,7 +375,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 6898565292.358398,
+        "Eccentricity": 2.1e-05,
+        "OrbitalPeriod": 1090999.603271,
+        "OrbitalInclination": 0.006361
       },
       {
         "BodyName": "Swoiphs HT-V b8-0 C 5",
@@ -337,7 +393,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 46854363083.83942,
+        "Eccentricity": 0.000201,
+        "OrbitalPeriod": 19311298.727989,
+        "OrbitalInclination": 0.617075
       }
     ]
   },

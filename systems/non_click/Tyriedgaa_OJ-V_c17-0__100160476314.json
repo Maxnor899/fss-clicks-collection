@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.568965+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.984815+00:00",
     "log_files": [
       "Journal.2026-02-08T111611.01.log"
     ]
@@ -40,8 +40,8 @@
     "stars": {
       "n_stars": 4,
       "types": [
-        "G",
-        "M"
+        "M",
+        "G"
       ]
     },
     "signals": {
@@ -153,7 +153,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 46067098379.13513,
+        "Eccentricity": 0.000643,
+        "OrbitalPeriod": 9469911.396503,
+        "OrbitalInclination": 0.488016
       },
       {
         "BodyName": "Tyriedgaa OJ-V c17-0 D 1",
@@ -167,7 +171,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 13435669541.358948,
+        "Eccentricity": 0.000371,
+        "OrbitalPeriod": 1491586.923599,
+        "OrbitalInclination": -0.000136
       },
       {
         "BodyName": "Tyriedgaa OJ-V c17-0 D 3",
@@ -181,7 +189,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 25890040993.69049,
+        "Eccentricity": 2.2e-05,
+        "OrbitalPeriod": 3989869.654179,
+        "OrbitalInclination": 0.149806
       },
       {
         "BodyName": "Tyriedgaa OJ-V c17-0 D 2",
@@ -195,7 +207,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 18462737798.690796,
+        "Eccentricity": 3.7e-05,
+        "OrbitalPeriod": 2402722.775936,
+        "OrbitalInclination": 0.531203
       },
       {
         "BodyName": "Tyriedgaa OJ-V c17-0 D 5",
@@ -209,7 +225,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 56974238753.31879,
+        "Eccentricity": 0.000598,
+        "OrbitalPeriod": 13024989.962578,
+        "OrbitalInclination": 0.025534
       },
       {
         "BodyName": "Tyriedgaa OJ-V c17-0 D 5 a",
@@ -223,7 +243,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 33403376.936913,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 589611.524343,
+        "OrbitalInclination": -89.494968
       },
       {
         "BodyName": "Tyriedgaa OJ-V c17-0 D 6",
@@ -237,7 +261,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 79871657490.73029,
+        "Eccentricity": 0.001148,
+        "OrbitalPeriod": 21619649.529457,
+        "OrbitalInclination": -0.106407
       },
       {
         "BodyName": "Tyriedgaa OJ-V c17-0 D 7",
@@ -251,7 +279,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 128546929359.43604,
+        "Eccentricity": 0.000484,
+        "OrbitalPeriod": 44142014.38427,
+        "OrbitalInclination": 2.871453
       }
     ]
   },

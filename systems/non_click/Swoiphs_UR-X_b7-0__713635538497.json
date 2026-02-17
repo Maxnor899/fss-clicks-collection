@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.632705+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.046307+00:00",
     "log_files": [
       "Journal.2026-02-12T214314.01.log"
     ]
@@ -33,16 +33,16 @@
       "has_ringed_body": true,
       "n_terraformables": 4,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
+        "Icy body",
         "Rocky ice body"
       ]
     },
     "stars": {
       "n_stars": 2,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -124,7 +124,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": true
+        "WasMapped": true,
+        "SemiMajorAxis": 30952090620.994568,
+        "Eccentricity": 0.000837,
+        "OrbitalPeriod": 4751516.580582,
+        "OrbitalInclination": -0.424711
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 A 10",
@@ -138,7 +142,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 122300213575.36316,
+        "Eccentricity": 0.0008,
+        "OrbitalPeriod": 37319695.353508,
+        "OrbitalInclination": -0.258203
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 A 1",
@@ -152,7 +160,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 16502943038.94043,
+        "Eccentricity": 0.001208,
+        "OrbitalPeriod": 1849862.277508,
+        "OrbitalInclination": -0.023759
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 B 5",
@@ -166,7 +178,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 54493842124.938965,
+        "Eccentricity": 0.002304,
+        "OrbitalPeriod": 16365441.679955,
+        "OrbitalInclination": 0.240418
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 B 1",
@@ -180,7 +196,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": true
+        "WasMapped": true,
+        "SemiMajorAxis": 11781812310.218811,
+        "Eccentricity": 0.001951,
+        "OrbitalPeriod": 1645222.842693,
+        "OrbitalInclination": 0.105195
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 B 3",
@@ -194,7 +214,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 22680350542.06848,
+        "Eccentricity": 1.3e-05,
+        "OrbitalPeriod": 4394214.034081,
+        "OrbitalInclination": 1.207207
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 B 2",
@@ -208,7 +232,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 16184312105.178833,
+        "Eccentricity": 0.000461,
+        "OrbitalPeriod": 2648792.207241,
+        "OrbitalInclination": -0.037665
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 B 4",
@@ -222,7 +250,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 37477618455.88684,
+        "Eccentricity": 0.00012,
+        "OrbitalPeriod": 9333930.850029,
+        "OrbitalInclination": 0.452529
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 B 4 a",
@@ -236,7 +268,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 139118760.824203,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 513162.916899,
+        "OrbitalInclination": -37.763983
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 B 6",
@@ -250,7 +286,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 93983637094.49768,
+        "Eccentricity": 0.002356,
+        "OrbitalPeriod": 37066786.885262,
+        "OrbitalInclination": -0.04225
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 A 9",
@@ -264,7 +304,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 94407020807.26624,
+        "Eccentricity": 0.011732,
+        "OrbitalPeriod": 25310670.733452,
+        "OrbitalInclination": -0.105404
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 A 8",
@@ -278,7 +322,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": true
+        "WasMapped": true,
+        "SemiMajorAxis": 92506808.042526,
+        "Eccentricity": 0.072984,
+        "OrbitalPeriod": 1757987.201214,
+        "OrbitalInclination": 2.405943
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 A 7",
@@ -292,7 +340,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": true
+        "WasMapped": true,
+        "SemiMajorAxis": 64341375.827789,
+        "Eccentricity": 0.072984,
+        "OrbitalPeriod": 1757987.201214,
+        "OrbitalInclination": 2.405943
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 A 6",
@@ -306,7 +358,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": true
+        "WasMapped": true,
+        "SemiMajorAxis": 68264853.954315,
+        "Eccentricity": 0.04571,
+        "OrbitalPeriod": 1038068.652153,
+        "OrbitalInclination": -4.66454
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 A 5",
@@ -320,7 +376,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": true
+        "WasMapped": true,
+        "SemiMajorAxis": 49518153.071404,
+        "Eccentricity": 0.04571,
+        "OrbitalPeriod": 1038068.652153,
+        "OrbitalInclination": -4.66454
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 A 2",
@@ -334,7 +394,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": true
+        "WasMapped": true,
+        "SemiMajorAxis": 21766269803.04718,
+        "Eccentricity": 0.000684,
+        "OrbitalPeriod": 2802033.007145,
+        "OrbitalInclination": 0.04102
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 A 4",
@@ -348,7 +412,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": true
+        "WasMapped": true,
+        "SemiMajorAxis": 39042230844.49768,
+        "Eccentricity": 0.000981,
+        "OrbitalPeriod": 6731304.109097,
+        "OrbitalInclination": -0.173998
       },
       {
         "BodyName": "Swoiphs UR-X b7-0 AB 1",
@@ -362,7 +430,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5084502100944.52,
+        "Eccentricity": 0.18687,
+        "OrbitalPeriod": 8279218018.054962,
+        "OrbitalInclination": 39.163669
       }
     ]
   },

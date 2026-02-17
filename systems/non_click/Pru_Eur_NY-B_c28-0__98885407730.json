@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.560088+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.975654+00:00",
     "log_files": [
       "Journal.2026-02-07T205128.01.log"
     ]
@@ -33,9 +33,9 @@
       "has_ringed_body": false,
       "n_terraformables": 2,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
-        "Rocky body"
+        "Rocky body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -100,7 +100,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 263845932.483673,
+        "Eccentricity": 0.19655,
+        "OrbitalPeriod": 5967559.218407,
+        "OrbitalInclination": -8.508871
       },
       {
         "BodyName": "Pru Eur NY-B c28-0 4",
@@ -114,7 +118,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 219420504.570007,
+        "Eccentricity": 0.19655,
+        "OrbitalPeriod": 5967559.218407,
+        "OrbitalInclination": -8.508871
       },
       {
         "BodyName": "Pru Eur NY-B c28-0 6",
@@ -128,7 +136,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 253151923418.04504,
+        "Eccentricity": 0.0013,
+        "OrbitalPeriod": 75100648.403168,
+        "OrbitalInclination": 0.008385
       },
       {
         "BodyName": "Pru Eur NY-B c28-0 2",
@@ -142,7 +154,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 104247075319.29016,
+        "Eccentricity": 0.000963,
+        "OrbitalPeriod": 19845756.292343,
+        "OrbitalInclination": -0.008976
       },
       {
         "BodyName": "Pru Eur NY-B c28-0 3 a",
@@ -156,7 +172,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 309795075.654984,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 2774417.996407,
+        "OrbitalInclination": 53.558764
       },
       {
         "BodyName": "Pru Eur NY-B c28-0 3",
@@ -170,7 +190,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 154009610414.505,
+        "Eccentricity": 0.000614,
+        "OrbitalPeriod": 35636379.718781,
+        "OrbitalInclination": 0.110164
       },
       {
         "BodyName": "Pru Eur NY-B c28-0 1",
@@ -184,7 +208,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 80120583176.61285,
+        "Eccentricity": 0.000617,
+        "OrbitalPeriod": 13371742.367744,
+        "OrbitalInclination": 0.029556
       },
       {
         "BodyName": "Pru Eur NY-B c28-0 9",
@@ -198,7 +226,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 535327559709.54895,
+        "Eccentricity": 0.006723,
+        "OrbitalPeriod": 230941057.2052,
+        "OrbitalInclination": -0.012399
       },
       {
         "BodyName": "Pru Eur NY-B c28-0 8",
@@ -212,7 +244,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 433309501409.53064,
+        "Eccentricity": 0.000265,
+        "OrbitalPeriod": 168177992.105484,
+        "OrbitalInclination": 0.449895
       },
       {
         "BodyName": "Pru Eur NY-B c28-0 10",
@@ -226,7 +262,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 734307873249.054,
+        "Eccentricity": 0.004442,
+        "OrbitalPeriod": 371012973.7854,
+        "OrbitalInclination": -2.072663
       },
       {
         "BodyName": "Pru Eur NY-B c28-0 7",
@@ -240,7 +280,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 288065606355.6671,
+        "Eccentricity": 3.7e-05,
+        "OrbitalPeriod": 91160973.906517,
+        "OrbitalInclination": -0.129579
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.596694+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.010011+00:00",
     "log_files": [
       "Journal.2026-02-09T174314.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -99,7 +99,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 103350472450.25635,
+        "Eccentricity": 0.001207,
+        "OrbitalPeriod": 22234739.661217,
+        "OrbitalInclination": -0.218586
       },
       {
         "BodyName": "Tyriedgoea CT-W c16-0 5",
@@ -113,7 +117,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1569943726.062775,
+        "Eccentricity": 0.18542,
+        "OrbitalPeriod": 29944056.272507,
+        "OrbitalInclination": 7.183706
       },
       {
         "BodyName": "Tyriedgoea CT-W c16-0 4",
@@ -127,7 +135,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1424136638.641357,
+        "Eccentricity": 0.18542,
+        "OrbitalPeriod": 29944056.272507,
+        "OrbitalInclination": 7.183706
       },
       {
         "BodyName": "Tyriedgoea CT-W c16-0 3",
@@ -141,7 +153,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 390137660503.38745,
+        "Eccentricity": 0.003254,
+        "OrbitalPeriod": 163076072.93129,
+        "OrbitalInclination": 0.360549
       },
       {
         "BodyName": "Tyriedgoea CT-W c16-0 2",
@@ -155,7 +171,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 173391026258.46863,
+        "Eccentricity": 0.000322,
+        "OrbitalPeriod": 48317378.163338,
+        "OrbitalInclination": -0.390145
       }
     ]
   },

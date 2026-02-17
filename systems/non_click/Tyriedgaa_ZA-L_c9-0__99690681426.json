@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.565412+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.981116+00:00",
     "log_files": [
       "Journal.2026-02-08T071626.01.log"
     ]
@@ -33,18 +33,18 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
-        "Rocky ice body",
-        "Rocky body"
+        "Rocky body",
+        "Icy body",
+        "Rocky ice body"
       ]
     },
     "stars": {
       "n_stars": 3,
       "types": [
         "L",
-        "K",
-        "T"
+        "T",
+        "K"
       ]
     },
     "signals": {
@@ -149,7 +149,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1243212044239.0442,
+        "Eccentricity": 0.005201,
+        "OrbitalPeriod": 1677315831.184387,
+        "OrbitalInclination": 0.354269
       },
       {
         "BodyName": "Tyriedgaa ZA-L c9-0 BC 1",
@@ -163,7 +167,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 895766592025.7568,
+        "Eccentricity": 0.003122,
+        "OrbitalPeriod": 1025862932.2052,
+        "OrbitalInclination": 0.09788
       },
       {
         "BodyName": "Tyriedgaa ZA-L c9-0 B 1",
@@ -177,7 +185,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 46965119838.7146,
+        "Eccentricity": 0.130872,
+        "OrbitalPeriod": 14220982.193947,
+        "OrbitalInclination": 89.78341
       },
       {
         "BodyName": "Tyriedgaa ZA-L c9-0 C 1",
@@ -191,7 +203,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 8353315412.998199,
+        "Eccentricity": 4.6e-05,
+        "OrbitalPeriod": 1847631.752491,
+        "OrbitalInclination": -0.065141
       },
       {
         "BodyName": "Tyriedgaa ZA-L c9-0 C 2",
@@ -205,7 +221,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 15224423408.5083,
+        "Eccentricity": 0.000522,
+        "OrbitalPeriod": 4546093.463898,
+        "OrbitalInclination": -1.047524
       },
       {
         "BodyName": "Tyriedgaa ZA-L c9-0 A 3 a",
@@ -219,7 +239,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 210471171.140671,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 8357222.914696,
+        "OrbitalInclination": 12.001271
       },
       {
         "BodyName": "Tyriedgaa ZA-L c9-0 A 3",
@@ -233,7 +257,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 323021155595.7794,
+        "Eccentricity": 0.003611,
+        "OrbitalPeriod": 121792900.562286,
+        "OrbitalInclination": -0.005188
       },
       {
         "BodyName": "Tyriedgaa ZA-L c9-0 A 4",
@@ -247,7 +275,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 439345300197.6013,
+        "Eccentricity": 0.001643,
+        "OrbitalPeriod": 193189948.797226,
+        "OrbitalInclination": 0.193297
       },
       {
         "BodyName": "Tyriedgaa ZA-L c9-0 A 1 a",
@@ -261,7 +293,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 33249117.136002,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 601626.455784,
+        "OrbitalInclination": -66.317192
       },
       {
         "BodyName": "Tyriedgaa ZA-L c9-0 A 1",
@@ -275,7 +311,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 96777623891.83044,
+        "Eccentricity": 0.000741,
+        "OrbitalPeriod": 19972751.140594,
+        "OrbitalInclination": -0.006538
       },
       {
         "BodyName": "Tyriedgaa ZA-L c9-0 A 6",
@@ -289,7 +329,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 283273988.962173,
+        "Eccentricity": 0.145628,
+        "OrbitalPeriod": 20431566.83445,
+        "OrbitalInclination": 4.153325
       },
       {
         "BodyName": "Tyriedgaa ZA-L c9-0 A 5",
@@ -303,7 +347,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 250037384.033203,
+        "Eccentricity": 0.145628,
+        "OrbitalPeriod": 20431566.83445,
+        "OrbitalInclination": 4.153325
       },
       {
         "BodyName": "Tyriedgaa ZA-L c9-0 A 2",
@@ -317,7 +365,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 182642936706.54297,
+        "Eccentricity": 0.001549,
+        "OrbitalPeriod": 51782122.254372,
+        "OrbitalInclination": -0.044387
       },
       {
         "BodyName": "Tyriedgaa ZA-L c9-0 A 7",
@@ -331,7 +383,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 764809137582.7789,
+        "Eccentricity": 0.012147,
+        "OrbitalPeriod": 443716061.115265,
+        "OrbitalInclination": -0.01022
       }
     ]
   },

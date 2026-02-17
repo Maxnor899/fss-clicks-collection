@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.540741+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.955653+00:00",
     "log_files": [
       "Journal.2026-02-04T182059.01.log"
     ]
@@ -40,8 +40,8 @@
     "stars": {
       "n_stars": 3,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -130,7 +130,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 213062465190.88745,
+        "Eccentricity": 0.00048,
+        "OrbitalPeriod": 83345794.677734,
+        "OrbitalInclination": -0.008044
       },
       {
         "BodyName": "Ploi Eurl UK-E b42-0 A 7",
@@ -144,7 +148,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1101100981235.5042,
+        "Eccentricity": 0.001276,
+        "OrbitalPeriod": 979183161.258698,
+        "OrbitalInclination": 0.105428
       },
       {
         "BodyName": "Ploi Eurl UK-E b42-0 A 1",
@@ -158,7 +166,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 93910766839.98108,
+        "Eccentricity": 8.7e-05,
+        "OrbitalPeriod": 24389128.684998,
+        "OrbitalInclination": 0.046208
       },
       {
         "BodyName": "Ploi Eurl UK-E b42-0 A 4",
@@ -172,7 +184,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 311530548334.1217,
+        "Eccentricity": 0.000856,
+        "OrbitalPeriod": 147358167.171478,
+        "OrbitalInclination": -0.19496
       },
       {
         "BodyName": "Ploi Eurl UK-E b42-0 A 2",
@@ -186,7 +202,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 166740918159.48486,
+        "Eccentricity": 1.9e-05,
+        "OrbitalPeriod": 57701426.744461,
+        "OrbitalInclination": -0.031703
       },
       {
         "BodyName": "Ploi Eurl UK-E b42-0 A 6",
@@ -200,7 +220,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1314364194.869995,
+        "Eccentricity": 0.077162,
+        "OrbitalPeriod": 20741845.965385,
+        "OrbitalInclination": -8.294185
       },
       {
         "BodyName": "Ploi Eurl UK-E b42-0 A 5",
@@ -214,7 +238,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1044477283.95462,
+        "Eccentricity": 0.077162,
+        "OrbitalPeriod": 20741845.965385,
+        "OrbitalInclination": -8.294185
       }
     ]
   },

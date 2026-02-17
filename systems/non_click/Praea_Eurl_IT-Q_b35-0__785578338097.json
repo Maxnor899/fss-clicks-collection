@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.556491+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.970869+00:00",
     "log_files": [
       "Journal.2026-02-05T201519.01.log"
     ]
@@ -114,7 +114,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 502186852693.55774,
+        "Eccentricity": 0.001892,
+        "OrbitalPeriod": 385158783.197403,
+        "OrbitalInclination": -0.681533
       },
       {
         "BodyName": "Praea Eurl IT-Q b35-0 3",
@@ -128,7 +132,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 204009705781.93665,
+        "Eccentricity": 0.001393,
+        "OrbitalPeriod": 99728222.489357,
+        "OrbitalInclination": -0.012085
       },
       {
         "BodyName": "Praea Eurl IT-Q b35-0 5",
@@ -142,7 +150,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 352712893.486023,
+        "Eccentricity": 0.141609,
+        "OrbitalPeriod": 38869120.47863,
+        "OrbitalInclination": -1.388943
       },
       {
         "BodyName": "Praea Eurl IT-Q b35-0 4",
@@ -156,7 +168,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 302173924.446106,
+        "Eccentricity": 0.141609,
+        "OrbitalPeriod": 38869120.47863,
+        "OrbitalInclination": -1.388943
       },
       {
         "BodyName": "Praea Eurl IT-Q b35-0 2",
@@ -170,7 +186,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 289582222.700119,
+        "Eccentricity": 0.166112,
+        "OrbitalPeriod": 20362657.904625,
+        "OrbitalInclination": 2.203782
       },
       {
         "BodyName": "Praea Eurl IT-Q b35-0 1",
@@ -184,7 +204,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 176722466.945648,
+        "Eccentricity": 0.166112,
+        "OrbitalPeriod": 20362657.904625,
+        "OrbitalInclination": 2.203782
       },
       {
         "BodyName": "Praea Eurl IT-Q b35-0 6",
@@ -198,7 +222,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 374757200479.50745,
+        "Eccentricity": 0.000935,
+        "OrbitalPeriod": 248294329.64325,
+        "OrbitalInclination": -0.033167
       }
     ]
   },

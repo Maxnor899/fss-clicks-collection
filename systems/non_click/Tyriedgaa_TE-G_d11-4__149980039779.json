@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.571825+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.987603+00:00",
     "log_files": [
       "Journal.2026-02-08T155743.01.log"
     ]
@@ -33,10 +33,10 @@
       "has_ringed_body": true,
       "n_terraformables": 1,
       "planet_classes": [
-        "Sudarsky class I gas giant",
-        "Icy body",
         "High metal content body",
-        "Rocky body"
+        "Rocky body",
+        "Sudarsky class I gas giant",
+        "Icy body"
       ]
     },
     "stars": {
@@ -101,7 +101,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 724142557.382584,
+        "Eccentricity": 0.002161,
+        "OrbitalPeriod": 1290845.870972,
+        "OrbitalInclination": 0.004727
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 6",
@@ -130,7 +134,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1315553963184.3567,
+        "Eccentricity": 0.004261,
+        "OrbitalPeriod": 743944591.283798,
+        "OrbitalInclination": -0.044689
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 6 b",
@@ -144,7 +152,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1126728892.326355,
+        "Eccentricity": 0.000475,
+        "OrbitalPeriod": 2505344.033241,
+        "OrbitalInclination": 1.034991
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 6 d",
@@ -158,7 +170,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 6018918.156624,
+        "Eccentricity": 0.136826,
+        "OrbitalPeriod": 416845.071316,
+        "OrbitalInclination": 0.485397
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 6 c",
@@ -172,7 +188,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5757190.346718,
+        "Eccentricity": 0.136826,
+        "OrbitalPeriod": 416845.071316,
+        "OrbitalInclination": 0.485397
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 6 e",
@@ -186,7 +206,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3699470460.414886,
+        "Eccentricity": 0.000351,
+        "OrbitalPeriod": 14905536.770821,
+        "OrbitalInclination": -2.399458
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 6 f",
@@ -200,7 +224,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 6368913114.070892,
+        "Eccentricity": 0.000357,
+        "OrbitalPeriod": 33669465.184212,
+        "OrbitalInclination": -0.800013
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 2",
@@ -214,7 +242,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 166925674676.89514,
+        "Eccentricity": 0.000998,
+        "OrbitalPeriod": 33625000.119209,
+        "OrbitalInclination": -0.007381
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 3",
@@ -228,7 +260,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 221056425571.44165,
+        "Eccentricity": 0.000935,
+        "OrbitalPeriod": 51242731.21357,
+        "OrbitalInclination": -0.111913
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 5",
@@ -257,7 +293,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 14067812561.98883,
+        "Eccentricity": 0.036954,
+        "OrbitalPeriod": 37450734.972954,
+        "OrbitalInclination": -0.932832
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 5 a",
@@ -271,7 +311,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 151959007.978439,
+        "Eccentricity": 5.6e-05,
+        "OrbitalPeriod": 176365.3934,
+        "OrbitalInclination": 1.387977
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 5 b",
@@ -285,7 +329,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 220618313.550949,
+        "Eccentricity": 0.000434,
+        "OrbitalPeriod": 308521.908522,
+        "OrbitalInclination": -3.023367
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 4 e",
@@ -299,7 +347,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1934103131.29425,
+        "Eccentricity": 0.004372,
+        "OrbitalPeriod": 1815799.176693,
+        "OrbitalInclination": -0.067447
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 4 d",
@@ -313,7 +365,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1282390773.296356,
+        "Eccentricity": 0.026991,
+        "OrbitalPeriod": 980344.992876,
+        "OrbitalInclination": 2.111283
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 4 b",
@@ -327,7 +383,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 496151405.572891,
+        "Eccentricity": 0.003759,
+        "OrbitalPeriod": 235922.676325,
+        "OrbitalInclination": 1.522373
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 4 a",
@@ -341,7 +401,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 330800378.322601,
+        "Eccentricity": 0.002567,
+        "OrbitalPeriod": 128439.134359,
+        "OrbitalInclination": 0.000865
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 1",
@@ -355,7 +419,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 118559294939.04114,
+        "Eccentricity": 0.000294,
+        "OrbitalPeriod": 20127089.02359,
+        "OrbitalInclination": -0.000998
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 4",
@@ -377,7 +445,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 723229163.885117,
+        "Eccentricity": 0.036954,
+        "OrbitalPeriod": 37450734.972954,
+        "OrbitalInclination": -0.932832
       },
       {
         "BodyName": "Tyriedgaa TE-G d11-4 4 c",
@@ -391,7 +463,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 774515503.644943,
+        "Eccentricity": 0.01374,
+        "OrbitalPeriod": 460143.774748,
+        "OrbitalInclination": 0.177561
       }
     ]
   },

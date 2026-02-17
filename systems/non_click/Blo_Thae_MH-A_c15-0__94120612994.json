@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.601192+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.015256+00:00",
     "log_files": [
       "Journal.2026-02-09T205244.01.log"
     ]
@@ -33,17 +33,17 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
+        "High metal content body",
         "Sudarsky class I gas giant",
         "Icy body",
-        "Gas giant with water based life",
-        "High metal content body"
+        "Gas giant with water based life"
       ]
     },
     "stars": {
       "n_stars": 4,
       "types": [
-        "K",
-        "M"
+        "M",
+        "K"
       ]
     },
     "signals": {
@@ -162,7 +162,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 321097761392.5934,
+        "Eccentricity": 0.002018,
+        "OrbitalPeriod": 176801067.590714,
+        "OrbitalInclination": 1.399353
       },
       {
         "BodyName": "Blo Thae MH-A c15-0 D 5 a",
@@ -176,7 +180,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4725131.034851,
+        "Eccentricity": 0.174578,
+        "OrbitalPeriod": 40196.347237,
+        "OrbitalInclination": 0.641061
       },
       {
         "BodyName": "Blo Thae MH-A c15-0 D 5 b",
@@ -190,7 +198,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2467919.588089,
+        "Eccentricity": 0.174578,
+        "OrbitalPeriod": 40196.347237,
+        "OrbitalInclination": 0.641061
       },
       {
         "BodyName": "Blo Thae MH-A c15-0 D 5 c",
@@ -204,7 +216,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 724927490.949631,
+        "Eccentricity": 0.000888,
+        "OrbitalPeriod": 386720.734835,
+        "OrbitalInclination": -0.000777
       },
       {
         "BodyName": "Blo Thae MH-A c15-0 D 5 e",
@@ -218,7 +234,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3751676201.820374,
+        "Eccentricity": 0.000538,
+        "OrbitalPeriod": 4552958.190441,
+        "OrbitalInclination": -0.173302
       },
       {
         "BodyName": "Blo Thae MH-A c15-0 D 5 d",
@@ -232,7 +252,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2088393926.620483,
+        "Eccentricity": 7e-05,
+        "OrbitalPeriod": 1890924.990177,
+        "OrbitalInclination": 2.497956
       },
       {
         "BodyName": "Blo Thae MH-A c15-0 D 3",
@@ -246,7 +270,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5155312299.728394,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 359675.973654,
+        "OrbitalInclination": 0.003182
       },
       {
         "BodyName": "Blo Thae MH-A c15-0 D 1",
@@ -260,7 +288,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1652043581.008911,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 65247.102976,
+        "OrbitalInclination": -0.000109
       },
       {
         "BodyName": "Blo Thae MH-A c15-0 D 2",
@@ -274,7 +306,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3079565346.240997,
+        "Eccentricity": 5e-06,
+        "OrbitalPeriod": 166059.267521,
+        "OrbitalInclination": 0.000467
       },
       {
         "BodyName": "Blo Thae MH-A c15-0 D 6",
@@ -296,7 +332,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 605956357717.514,
+        "Eccentricity": 0.00286,
+        "OrbitalPeriod": 458343404.531479,
+        "OrbitalInclination": -4.274601
       },
       {
         "BodyName": "Blo Thae MH-A c15-0 D 4",
@@ -310,7 +350,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 235420322418.2129,
+        "Eccentricity": 0.001363,
+        "OrbitalPeriod": 110992813.110352,
+        "OrbitalInclination": 0.162476
       },
       {
         "BodyName": "Blo Thae MH-A c15-0 D 4 b",
@@ -324,7 +368,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3759288907.051086,
+        "Eccentricity": 0.003484,
+        "OrbitalPeriod": 3098058.342934,
+        "OrbitalInclination": -2.301068
       },
       {
         "BodyName": "Blo Thae MH-A c15-0 D 4 a",
@@ -338,7 +386,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 318890738.487244,
+        "Eccentricity": 6e-06,
+        "OrbitalPeriod": 76540.961266,
+        "OrbitalInclination": 0.026778
       },
       {
         "BodyName": "Blo Thae MH-A c15-0 D 4 c",
@@ -352,7 +404,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5255695939.064026,
+        "Eccentricity": 0.000788,
+        "OrbitalPeriod": 5121254.980564,
+        "OrbitalInclination": 8.707289
       }
     ]
   },

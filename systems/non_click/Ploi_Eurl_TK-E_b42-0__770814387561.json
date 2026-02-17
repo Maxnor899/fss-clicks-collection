@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.540297+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.955255+00:00",
     "log_files": [
       "Journal.2026-02-04T182059.01.log"
     ]
@@ -99,7 +99,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 80526608228.68347,
+        "Eccentricity": 0.000165,
+        "OrbitalPeriod": 24923512.935638,
+        "OrbitalInclination": 0.00164
       },
       {
         "BodyName": "Ploi Eurl TK-E b42-0 3",
@@ -113,7 +117,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 307206040620.80383,
+        "Eccentricity": 1.8e-05,
+        "OrbitalPeriod": 185714060.06813,
+        "OrbitalInclination": -0.01003
       },
       {
         "BodyName": "Ploi Eurl TK-E b42-0 6",
@@ -127,7 +135,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2290424048900.6045,
+        "Eccentricity": 0.026032,
+        "OrbitalPeriod": 3780715346.336365,
+        "OrbitalInclination": -13.321198
       },
       {
         "BodyName": "Ploi Eurl TK-E b42-0 2",
@@ -141,7 +153,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 110770314931.8695,
+        "Eccentricity": 0.000122,
+        "OrbitalPeriod": 40210102.796555,
+        "OrbitalInclination": -0.017407
       },
       {
         "BodyName": "Ploi Eurl TK-E b42-0 5",
@@ -155,7 +171,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1276859283447.2656,
+        "Eccentricity": 0.021118,
+        "OrbitalPeriod": 1573673784.732819,
+        "OrbitalInclination": 0.022555
       },
       {
         "BodyName": "Ploi Eurl TK-E b42-0 4",
@@ -169,7 +189,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 540599107742.3096,
+        "Eccentricity": 0.000592,
+        "OrbitalPeriod": 433523964.881897,
+        "OrbitalInclination": 0.218603
       }
     ]
   },

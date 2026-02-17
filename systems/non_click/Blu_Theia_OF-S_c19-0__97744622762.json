@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.585039+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.999861+00:00",
     "log_files": [
       "Journal.2026-02-09T082520.01.log"
     ]
@@ -33,18 +33,18 @@
       "has_ringed_body": false,
       "n_terraformables": 1,
       "planet_classes": [
+        "High metal content body",
         "Icy body",
         "Gas giant with water based life",
-        "High metal content body",
         "Rocky ice body"
       ]
     },
     "stars": {
       "n_stars": 3,
       "types": [
-        "K",
         "M",
-        "T"
+        "T",
+        "K"
       ]
     },
     "signals": {
@@ -133,7 +133,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 173858493566.51306,
+        "Eccentricity": 0.002653,
+        "OrbitalPeriod": 51920225.62027,
+        "OrbitalInclination": -0.007964
       },
       {
         "BodyName": "Blu Theia OF-S c19-0 A 1",
@@ -147,7 +151,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 71609616875.6485,
+        "Eccentricity": 0.000841,
+        "OrbitalPeriod": 13724600.672722,
+        "OrbitalInclination": 0.553749
       },
       {
         "BodyName": "Blu Theia OF-S c19-0 A 2",
@@ -161,7 +169,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 92411190867.42401,
+        "Eccentricity": 0.000219,
+        "OrbitalPeriod": 20120067.000389,
+        "OrbitalInclination": 0.052526
       },
       {
         "BodyName": "Blu Theia OF-S c19-0 A 3",
@@ -175,7 +187,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 136087536811.82861,
+        "Eccentricity": 0.002601,
+        "OrbitalPeriod": 35955905.31826,
+        "OrbitalInclination": 0.14659
       },
       {
         "BodyName": "Blu Theia OF-S c19-0 A 7",
@@ -189,7 +205,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 510534226894.37866,
+        "Eccentricity": 0.231342,
+        "OrbitalPeriod": 261264216.899872,
+        "OrbitalInclination": -176.986956
       },
       {
         "BodyName": "Blu Theia OF-S c19-0 A 6",
@@ -203,7 +223,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 702714323.997498,
+        "Eccentricity": 0.132979,
+        "OrbitalPeriod": 12505623.102188,
+        "OrbitalInclination": -6.290752
       },
       {
         "BodyName": "Blu Theia OF-S c19-0 A 5",
@@ -217,7 +241,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 404600399.73259,
+        "Eccentricity": 0.132979,
+        "OrbitalPeriod": 12505623.102188,
+        "OrbitalInclination": -6.290752
       }
     ]
   },

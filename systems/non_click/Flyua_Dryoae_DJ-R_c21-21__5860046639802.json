@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.640269+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.054774+00:00",
     "log_files": [
       "Journal.2026-02-13T224149.01.log"
     ]
@@ -33,9 +33,9 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Metal rich body",
+        "Rocky body",
         "Sudarsky class III gas giant",
-        "Rocky body"
+        "Metal rich body"
       ]
     },
     "stars": {
@@ -130,7 +130,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 6014160513.877869,
+        "Eccentricity": 2e-06,
+        "OrbitalPeriod": 280198.168755,
+        "OrbitalInclination": -0.000132
       },
       {
         "BodyName": "Flyua Dryoae DJ-R c21-21 7 e",
@@ -144,7 +148,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": true
+        "WasMapped": true,
+        "SemiMajorAxis": 7001557648.181915,
+        "Eccentricity": 0.009532,
+        "OrbitalPeriod": 3361665.606499,
+        "OrbitalInclination": 0.155765
       },
       {
         "BodyName": "Flyua Dryoae DJ-R c21-21 7 b",
@@ -158,7 +166,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2000109374.523163,
+        "Eccentricity": 0.000918,
+        "OrbitalPeriod": 513266.772032,
+        "OrbitalInclination": 0.052037
       },
       {
         "BodyName": "Flyua Dryoae DJ-R c21-21 7",
@@ -172,7 +184,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 645662856101.9897,
+        "Eccentricity": 0.016411,
+        "OrbitalPeriod": 311681854.724884,
+        "OrbitalInclination": 0.004859
       },
       {
         "BodyName": "Flyua Dryoae DJ-R c21-21 7 a",
@@ -186,7 +202,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1366864562.034607,
+        "Eccentricity": 0.00041,
+        "OrbitalPeriod": 289968.419075,
+        "OrbitalInclination": 0.014078
       },
       {
         "BodyName": "Flyua Dryoae DJ-R c21-21 7 d",
@@ -200,7 +220,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 9035500.884056,
+        "Eccentricity": 0.195151,
+        "OrbitalPeriod": 105637.270212,
+        "OrbitalInclination": 6.956373
       },
       {
         "BodyName": "Flyua Dryoae DJ-R c21-21 7 c",
@@ -214,7 +238,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5564396.202564,
+        "Eccentricity": 0.195151,
+        "OrbitalPeriod": 105637.270212,
+        "OrbitalInclination": 6.956373
       }
     ]
   },

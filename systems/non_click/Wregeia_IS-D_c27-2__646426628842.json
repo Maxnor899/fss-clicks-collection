@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.546915+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.960974+00:00",
     "log_files": [
       "Journal.2026-02-04T212839.01.log"
     ]
@@ -34,17 +34,17 @@
       "n_terraformables": 0,
       "planet_classes": [
         "Sudarsky class I gas giant",
+        "Rocky body",
         "Icy body",
-        "Gas giant with water based life",
-        "Rocky body"
+        "Gas giant with water based life"
       ]
     },
     "stars": {
       "n_stars": 4,
       "types": [
+        "M",
         "L",
-        "K",
-        "M"
+        "K"
       ]
     },
     "signals": {
@@ -148,7 +148,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 711141532659.5306,
+        "Eccentricity": 0.000329,
+        "OrbitalPeriod": 301766401.529312,
+        "OrbitalInclination": -1.4662
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 4 e",
@@ -162,7 +166,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3886486351.490021,
+        "Eccentricity": 0.00013,
+        "OrbitalPeriod": 3045274.198055,
+        "OrbitalInclination": 0.007827
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 4 b",
@@ -176,7 +184,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4469282.865524,
+        "Eccentricity": 0.187006,
+        "OrbitalPeriod": 52600.652575,
+        "OrbitalInclination": 4.441961
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 4 a",
@@ -190,7 +202,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2258076.965809,
+        "Eccentricity": 0.187006,
+        "OrbitalPeriod": 52600.652575,
+        "OrbitalInclination": 4.441961
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 4 d",
@@ -204,7 +220,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1975627362.728119,
+        "Eccentricity": 3.5e-05,
+        "OrbitalPeriod": 1103692.948818,
+        "OrbitalInclination": 0.21947
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 4 c",
@@ -218,7 +238,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1061076879.501343,
+        "Eccentricity": 0.000148,
+        "OrbitalPeriod": 434421.169758,
+        "OrbitalInclination": 0.018205
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 4 f",
@@ -232,7 +256,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5345711410.045624,
+        "Eccentricity": 0.004959,
+        "OrbitalPeriod": 4912459.433079,
+        "OrbitalInclination": -1.190323
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 5 e",
@@ -246,7 +274,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 547951173.782349,
+        "Eccentricity": 0.000345,
+        "OrbitalPeriod": 474098.354578,
+        "OrbitalInclination": -1.474006
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 5 f",
@@ -260,7 +292,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 816367888.450623,
+        "Eccentricity": 0.008846,
+        "OrbitalPeriod": 862153.351307,
+        "OrbitalInclination": -0.10382
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 5 g",
@@ -274,7 +310,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1028061985.969543,
+        "Eccentricity": 0.005333,
+        "OrbitalPeriod": 1218385.159969,
+        "OrbitalInclination": -0.008385
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 5 h",
@@ -288,7 +328,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1259696841.239929,
+        "Eccentricity": 0.027072,
+        "OrbitalPeriod": 1652550.339699,
+        "OrbitalInclination": -1.012092
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 5",
@@ -310,7 +354,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 579475849.866867,
+        "Eccentricity": 0.056465,
+        "OrbitalPeriod": 34879691.004753,
+        "OrbitalInclination": 4.68284
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 5 d",
@@ -324,7 +372,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 438928425.312042,
+        "Eccentricity": 0.002165,
+        "OrbitalPeriod": 339896.088839,
+        "OrbitalInclination": -0.089675
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 5 a",
@@ -338,7 +390,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 211371970.176697,
+        "Eccentricity": 0.000362,
+        "OrbitalPeriod": 113586.509228,
+        "OrbitalInclination": 0.033067
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 5 b",
@@ -352,7 +408,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 253600394.7258,
+        "Eccentricity": 0.00083,
+        "OrbitalPeriod": 149272.751808,
+        "OrbitalInclination": 0.428068
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 5 c",
@@ -366,7 +426,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 317266482.114792,
+        "Eccentricity": 0.003885,
+        "OrbitalPeriod": 208877.575397,
+        "OrbitalInclination": 0.241263
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 5 i",
@@ -380,7 +444,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1451948821.544647,
+        "Eccentricity": 0.015043,
+        "OrbitalPeriod": 2044949.114323,
+        "OrbitalInclination": 12.319083
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 6",
@@ -402,7 +470,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 9238416075.706482,
+        "Eccentricity": 0.056465,
+        "OrbitalPeriod": 34879691.004753,
+        "OrbitalInclination": 4.68284
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 2",
@@ -416,7 +488,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 7154525279.998779,
+        "Eccentricity": 0.017666,
+        "OrbitalPeriod": 7495061.695576,
+        "OrbitalInclination": 6.584107
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 1",
@@ -438,7 +514,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 11666129.827499,
+        "Eccentricity": 0.017666,
+        "OrbitalPeriod": 7495061.695576,
+        "OrbitalInclination": 6.584107
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 1 g",
@@ -452,7 +532,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1048542857.170105,
+        "Eccentricity": 0.00119,
+        "OrbitalPeriod": 419832.062721,
+        "OrbitalInclination": 3.546013
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 1 f",
@@ -466,7 +550,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 915265679.359436,
+        "Eccentricity": 0.000984,
+        "OrbitalPeriod": 342386.859655,
+        "OrbitalInclination": 0.196356
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 1 c",
@@ -480,7 +568,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 411057651.042938,
+        "Eccentricity": 0.000967,
+        "OrbitalPeriod": 103050.577641,
+        "OrbitalInclination": 0.927797
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 1 d",
@@ -494,7 +586,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 528452396.392822,
+        "Eccentricity": 0.007681,
+        "OrbitalPeriod": 150212.180614,
+        "OrbitalInclination": 0.008866
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 1 b",
@@ -508,7 +604,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 405147969.722748,
+        "Eccentricity": 0.000883,
+        "OrbitalPeriod": 100836.282969,
+        "OrbitalInclination": 0.005447
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 1 a",
@@ -522,7 +622,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 337409675.121307,
+        "Eccentricity": 2.1e-05,
+        "OrbitalPeriod": 76635.969877,
+        "OrbitalInclination": 0.836956
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 1 e",
@@ -536,7 +640,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 630788028.240204,
+        "Eccentricity": 0.003464,
+        "OrbitalPeriod": 195894.175768,
+        "OrbitalInclination": 0.009873
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 1 h",
@@ -550,7 +658,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1235144734.382629,
+        "Eccentricity": 0.00604,
+        "OrbitalPeriod": 536751.317978,
+        "OrbitalInclination": 0.118398
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 3",
@@ -579,7 +691,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 555885976552.9633,
+        "Eccentricity": 0.000244,
+        "OrbitalPeriod": 208552503.585815,
+        "OrbitalInclination": -0.105634
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 3 b",
@@ -593,7 +709,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 983695685.863495,
+        "Eccentricity": 0.001687,
+        "OrbitalPeriod": 340182.209015,
+        "OrbitalInclination": 0.005471
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 3 a",
@@ -607,7 +727,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 758066475.391388,
+        "Eccentricity": 0.000349,
+        "OrbitalPeriod": 230134.260654,
+        "OrbitalInclination": 0.005045
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 3 c a",
@@ -621,7 +745,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3734998.524189,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 30842.266679,
+        "OrbitalInclination": -32.882747
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 3 c",
@@ -635,7 +763,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1217833161.354065,
+        "Eccentricity": 0.002235,
+        "OrbitalPeriod": 468599.808216,
+        "OrbitalInclination": 0.086301
       },
       {
         "BodyName": "Wregeia IS-D c27-2 ABC 3 d",
@@ -649,7 +781,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2371018290.519714,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 1272983.551025,
+        "OrbitalInclination": 62.935716
       }
     ]
   },

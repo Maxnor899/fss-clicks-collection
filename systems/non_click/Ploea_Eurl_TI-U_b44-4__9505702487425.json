@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.643085+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.057538+00:00",
     "log_files": [
       "Journal.2026-02-14T205220.01.log"
     ]
@@ -114,7 +114,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 336360013484.95483,
+        "Eccentricity": 0.000957,
+        "OrbitalPeriod": 184626191.854477,
+        "OrbitalInclination": -1.199495
       },
       {
         "BodyName": "Ploea Eurl TI-U b44-4 1",
@@ -128,7 +132,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 77895426750.1831,
+        "Eccentricity": 0.001933,
+        "OrbitalPeriod": 20575699.806213,
+        "OrbitalInclination": 0.001692
       },
       {
         "BodyName": "Ploea Eurl TI-U b44-4 5",
@@ -142,7 +150,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 763111788034.4391,
+        "Eccentricity": 0.155115,
+        "OrbitalPeriod": 630912345.647812,
+        "OrbitalInclination": -148.974793
       },
       {
         "BodyName": "Ploea Eurl TI-U b44-4 3",
@@ -156,7 +168,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 225780713558.19702,
+        "Eccentricity": 0.003984,
+        "OrbitalPeriod": 101535290.47966,
+        "OrbitalInclination": -1.133386
       },
       {
         "BodyName": "Ploea Eurl TI-U b44-4 2",
@@ -170,7 +186,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 136685121059.41772,
+        "Eccentricity": 0.000288,
+        "OrbitalPeriod": 47826500.535011,
+        "OrbitalInclination": -0.000311
       }
     ]
   },

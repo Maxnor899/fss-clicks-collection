@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.637793+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.051003+00:00",
     "log_files": [
       "Journal.2026-02-13T224149.01.log"
     ]
@@ -39,8 +39,8 @@
     "stars": {
       "n_stars": 2,
       "types": [
-        "L",
-        "Y"
+        "Y",
+        "L"
       ]
     },
     "signals": {
@@ -114,7 +114,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 122417157888.41248,
+        "Eccentricity": 0.000128,
+        "OrbitalPeriod": 56339442.133904,
+        "OrbitalInclination": -0.000763
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 A 5",
@@ -128,7 +132,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1507581889.629364,
+        "Eccentricity": 0.013047,
+        "OrbitalPeriod": 30620676.279068,
+        "OrbitalInclination": -9.367501
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 A 4",
@@ -142,7 +150,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 470614266.395569,
+        "Eccentricity": 0.013047,
+        "OrbitalPeriod": 30620676.279068,
+        "OrbitalInclination": -9.367501
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 A 1",
@@ -156,7 +168,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 31911126971.244812,
+        "Eccentricity": 0.01,
+        "OrbitalPeriod": 7498291.85009,
+        "OrbitalInclination": 2.053006
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 A 6",
@@ -170,7 +186,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 201800978183.74634,
+        "Eccentricity": 0.000195,
+        "OrbitalPeriod": 119243305.921555,
+        "OrbitalInclination": 0.062059
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 A 9",
@@ -184,7 +204,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 636115157604.2175,
+        "Eccentricity": 9.6e-05,
+        "OrbitalPeriod": 667348581.552505,
+        "OrbitalInclination": -0.002978
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 B 6",
@@ -198,7 +222,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2440222620.96405,
+        "Eccentricity": 0.041792,
+        "OrbitalPeriod": 167369025.945663,
+        "OrbitalInclination": -2.492125
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 B 7",
@@ -212,7 +240,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3646392345.428467,
+        "Eccentricity": 0.041792,
+        "OrbitalPeriod": 167369025.945663,
+        "OrbitalInclination": -2.492125
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 B 1",
@@ -226,7 +258,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 179555624723.43445,
+        "Eccentricity": 0.002148,
+        "OrbitalPeriod": 221273124.217987,
+        "OrbitalInclination": 0.236024
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 B 1 a",
@@ -240,7 +276,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 398312419.652939,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 4646733.224392,
+        "OrbitalInclination": -26.116898
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 B 5 a",
@@ -254,7 +294,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2637643516.06369,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 73097680.211067,
+        "OrbitalInclination": 66.092561
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 B 5",
@@ -268,7 +312,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 582356023788.4521,
+        "Eccentricity": 0.00971,
+        "OrbitalPeriod": 1292447865.009308,
+        "OrbitalInclination": -1.156711
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 B 2",
@@ -282,7 +330,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 249363112449.646,
+        "Eccentricity": 6e-06,
+        "OrbitalPeriod": 362141692.638397,
+        "OrbitalInclination": -0.179687
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 B 3 a",
@@ -296,7 +348,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 848181974.887848,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 15566030.740738,
+        "OrbitalInclination": 32.797585
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 B 3",
@@ -310,7 +366,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 346843099594.1162,
+        "Eccentricity": 0.001439,
+        "OrbitalPeriod": 594059282.541275,
+        "OrbitalInclination": -0.147607
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 B 4",
@@ -324,7 +384,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 450303286314.0106,
+        "Eccentricity": 9e-06,
+        "OrbitalPeriod": 878795617.818832,
+        "OrbitalInclination": -0.303643
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 A 8",
@@ -338,7 +402,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 475755697488.7848,
+        "Eccentricity": 0.004644,
+        "OrbitalPeriod": 431643414.497375,
+        "OrbitalInclination": 0.127189
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 A 7",
@@ -352,7 +420,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 256478941440.58228,
+        "Eccentricity": 0.0009,
+        "OrbitalPeriod": 170854604.244232,
+        "OrbitalInclination": -0.004294
       },
       {
         "BodyName": "Flyeia Dryoae UU-G a106-3 A 2",
@@ -366,7 +438,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 86393582224.84589,
+        "Eccentricity": 1.8e-05,
+        "OrbitalPeriod": 33401910.066605,
+        "OrbitalInclination": 0.002412
       }
     ]
   },

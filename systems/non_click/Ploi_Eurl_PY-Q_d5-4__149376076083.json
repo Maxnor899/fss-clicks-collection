@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.524583+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.936109+00:00",
     "log_files": [
       "Journal.2026-02-01T175645.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -115,7 +115,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 221451693773.26965,
+        "Eccentricity": 0.000133,
+        "OrbitalPeriod": 55858991.146088,
+        "OrbitalInclination": -0.214799
       },
       {
         "BodyName": "Ploi Eurl PY-Q d5-4 A 3",
@@ -129,7 +133,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 121059346199.03564,
+        "Eccentricity": 9.9e-05,
+        "OrbitalPeriod": 22577297.687531,
+        "OrbitalInclination": 0.135264
       },
       {
         "BodyName": "Ploi Eurl PY-Q d5-4 A 2",
@@ -143,7 +151,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 94084747433.66241,
+        "Eccentricity": 3.7e-05,
+        "OrbitalPeriod": 15468685.626984,
+        "OrbitalInclination": -0.001239
       },
       {
         "BodyName": "Ploi Eurl PY-Q d5-4 A 7",
@@ -157,7 +169,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 887317252159.1187,
+        "Eccentricity": 0.00133,
+        "OrbitalPeriod": 448015403.747559,
+        "OrbitalInclination": 0.602894
       },
       {
         "BodyName": "Ploi Eurl PY-Q d5-4 A 6",
@@ -171,7 +187,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 587439095973.9685,
+        "Eccentricity": 0.006066,
+        "OrbitalPeriod": 241334152.22168,
+        "OrbitalInclination": -0.0893
       },
       {
         "BodyName": "Ploi Eurl PY-Q d5-4 A 9",
@@ -185,7 +205,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1437968552.112579,
+        "Eccentricity": 0.099287,
+        "OrbitalPeriod": 70905937.552452,
+        "OrbitalInclination": -3.453423
       },
       {
         "BodyName": "Ploi Eurl PY-Q d5-4 A 8",
@@ -199,7 +223,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1310618042.945862,
+        "Eccentricity": 0.099287,
+        "OrbitalPeriod": 70905937.552452,
+        "OrbitalInclination": -3.453423
       },
       {
         "BodyName": "Ploi Eurl PY-Q d5-4 A 5",
@@ -213,7 +241,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 312495607137.68005,
+        "Eccentricity": 0.000604,
+        "OrbitalPeriod": 93635479.807854,
+        "OrbitalInclination": 0.108887
       },
       {
         "BodyName": "Ploi Eurl PY-Q d5-4 A 1",
@@ -227,7 +259,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 70423342585.56366,
+        "Eccentricity": 0.000478,
+        "OrbitalPeriod": 10017273.426056,
+        "OrbitalInclination": 0.13164
       },
       {
         "BodyName": "Ploi Eurl PY-Q d5-4 A 11",
@@ -241,7 +277,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3266959130.764008,
+        "Eccentricity": 0.039117,
+        "OrbitalPeriod": 243663030.862808,
+        "OrbitalInclination": 4.54083
       },
       {
         "BodyName": "Ploi Eurl PY-Q d5-4 A 10",
@@ -255,7 +295,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3189502596.855164,
+        "Eccentricity": 0.039117,
+        "OrbitalPeriod": 243663030.862808,
+        "OrbitalInclination": 4.54083
       }
     ]
   },

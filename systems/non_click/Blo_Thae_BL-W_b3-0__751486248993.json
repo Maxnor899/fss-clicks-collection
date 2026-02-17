@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.667449+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.081249+00:00",
     "log_files": [
       "Journal.2026-02-15T104234.01.log"
     ]
@@ -99,7 +99,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 903176283836.3647,
+        "Eccentricity": 0.004419,
+        "OrbitalPeriod": 914951688.051224,
+        "OrbitalInclination": 5.407772
       },
       {
         "BodyName": "Blo Thae BL-W b3-0 4",
@@ -113,7 +117,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 935357433.55751,
+        "Eccentricity": 0.017783,
+        "OrbitalPeriod": 59057640.433311,
+        "OrbitalInclination": 9.621459
       },
       {
         "BodyName": "Blo Thae BL-W b3-0 5",
@@ -127,7 +135,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3052555024.623871,
+        "Eccentricity": 0.017783,
+        "OrbitalPeriod": 59057640.433311,
+        "OrbitalInclination": 9.621459
       },
       {
         "BodyName": "Blo Thae BL-W b3-0 3 a",
@@ -141,7 +153,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1459043920.040131,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 14349244.832993,
+        "OrbitalInclination": 66.971548
       },
       {
         "BodyName": "Blo Thae BL-W b3-0 3",
@@ -155,7 +171,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 381951683759.68933,
+        "Eccentricity": 0.00584,
+        "OrbitalPeriod": 251623922.586441,
+        "OrbitalInclination": 0.840701
       },
       {
         "BodyName": "Blo Thae BL-W b3-0 7",
@@ -169,7 +189,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1544450879096.9849,
+        "Eccentricity": 0.007994,
+        "OrbitalPeriod": 2045975267.887115,
+        "OrbitalInclination": -0.810476
       },
       {
         "BodyName": "Blo Thae BL-W b3-0 1",
@@ -183,7 +207,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 355869364.738464,
+        "Eccentricity": 0.027298,
+        "OrbitalPeriod": 12010289.430618,
+        "OrbitalInclination": -6.768001
       },
       {
         "BodyName": "Blo Thae BL-W b3-0 2",
@@ -197,7 +225,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1009586632.25174,
+        "Eccentricity": 0.027298,
+        "OrbitalPeriod": 12010289.430618,
+        "OrbitalInclination": -6.768001
       }
     ]
   },

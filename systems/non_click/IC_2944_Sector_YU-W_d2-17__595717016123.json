@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.608379+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.022569+00:00",
     "log_files": [
       "Journal.2026-02-10T202414.01.log"
     ]
@@ -99,7 +99,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 921908932924.2706,
+        "Eccentricity": 0.000971,
+        "OrbitalPeriod": 365322268.009186,
+        "OrbitalInclination": -0.005307
       },
       {
         "BodyName": "IC 2944 Sector YU-W d2-17 5",
@@ -113,7 +117,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 583693134.784698,
+        "Eccentricity": 0.133493,
+        "OrbitalPeriod": 10591201.782227,
+        "OrbitalInclination": 2.377648
       },
       {
         "BodyName": "IC 2944 Sector YU-W d2-17 4",
@@ -127,7 +135,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 154484480.619431,
+        "Eccentricity": 0.00314,
+        "OrbitalPeriod": 2293835.818768,
+        "OrbitalInclination": -5.379436
       },
       {
         "BodyName": "IC 2944 Sector YU-W d2-17 3",
@@ -141,7 +153,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 122434866.428375,
+        "Eccentricity": 0.00314,
+        "OrbitalPeriod": 2293835.818768,
+        "OrbitalInclination": -5.379436
       },
       {
         "BodyName": "IC 2944 Sector YU-W d2-17 7",
@@ -155,7 +171,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 355875605.344772,
+        "Eccentricity": 0.013975,
+        "OrbitalPeriod": 7441151.797771,
+        "OrbitalInclination": 3.34917
       },
       {
         "BodyName": "IC 2944 Sector YU-W d2-17 6",
@@ -169,7 +189,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 194752162.694931,
+        "Eccentricity": 0.013975,
+        "OrbitalPeriod": 7441151.797771,
+        "OrbitalInclination": 3.34917
       },
       {
         "BodyName": "IC 2944 Sector YU-W d2-17 8",
@@ -183,7 +207,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1420066952.705383,
+        "Eccentricity": 0.140614,
+        "OrbitalPeriod": 39339957.237244,
+        "OrbitalInclination": -9.379837
       },
       {
         "BodyName": "IC 2944 Sector YU-W d2-17 1",
@@ -197,7 +225,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 110545831.918716,
+        "Eccentricity": 0.152502,
+        "OrbitalPeriod": 1733759.522438,
+        "OrbitalInclination": -6.432659
       },
       {
         "BodyName": "IC 2944 Sector YU-W d2-17 2",
@@ -211,7 +243,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 112849694.490433,
+        "Eccentricity": 0.152502,
+        "OrbitalPeriod": 1733759.522438,
+        "OrbitalInclination": -6.432659
       },
       {
         "BodyName": "IC 2944 Sector YU-W d2-17 10",
@@ -225,7 +261,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1357895970344.5435,
+        "Eccentricity": 0.000331,
+        "OrbitalPeriod": 653046160.936356,
+        "OrbitalInclination": 0.027991
       }
     ]
   },

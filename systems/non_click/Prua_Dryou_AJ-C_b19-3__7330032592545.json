@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.623277+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.036609+00:00",
     "log_files": [
       "Journal.2026-02-11T134714.01.log"
     ]
@@ -41,8 +41,8 @@
     "stars": {
       "n_stars": 2,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -132,7 +132,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 380611103773.11707,
+        "Eccentricity": 0.002281,
+        "OrbitalPeriod": 276186865.568161,
+        "OrbitalInclination": -0.002253
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 8 c",
@@ -146,7 +150,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 270295459.032059,
+        "Eccentricity": 7.8e-05,
+        "OrbitalPeriod": 307378.351688,
+        "OrbitalInclination": 0.044806
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 8 d",
@@ -160,7 +168,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 350698578.357697,
+        "Eccentricity": 0.000538,
+        "OrbitalPeriod": 454272.288084,
+        "OrbitalInclination": 0.855021
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 8 a",
@@ -174,7 +186,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 182659667.730331,
+        "Eccentricity": 0.000389,
+        "OrbitalPeriod": 170757.28178,
+        "OrbitalInclination": -0.002058
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 8 b",
@@ -188,7 +204,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 223516178.131104,
+        "Eccentricity": 9.7e-05,
+        "OrbitalPeriod": 231141.871214,
+        "OrbitalInclination": -0.205563
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 8 e",
@@ -202,7 +222,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 503680586.81488,
+        "Eccentricity": 0.000484,
+        "OrbitalPeriod": 781894.212961,
+        "OrbitalInclination": 0.317417
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 8 g",
@@ -216,7 +240,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3118015.170097,
+        "Eccentricity": 0.016647,
+        "OrbitalPeriod": 182183.432579,
+        "OrbitalInclination": 0.278472
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 8 f",
@@ -230,7 +258,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2270018.219948,
+        "Eccentricity": 0.016647,
+        "OrbitalPeriod": 182183.432579,
+        "OrbitalInclination": 0.278472
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 8 h",
@@ -244,7 +276,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1064511537.55188,
+        "Eccentricity": 0.003485,
+        "OrbitalPeriod": 2402374.863625,
+        "OrbitalInclination": -0.170222
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 8 i",
@@ -258,7 +294,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1470961689.949036,
+        "Eccentricity": 5.5e-05,
+        "OrbitalPeriod": 3902269.482613,
+        "OrbitalInclination": -0.002405
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 2",
@@ -272,7 +312,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 20445882678.03192,
+        "Eccentricity": 2.1e-05,
+        "OrbitalPeriod": 3438662.707806,
+        "OrbitalInclination": -0.009861
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 B 6",
@@ -286,7 +330,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 633171117305.7556,
+        "Eccentricity": 0.003417,
+        "OrbitalPeriod": 753942620.754242,
+        "OrbitalInclination": 0.030725
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 B 4 a",
@@ -300,7 +348,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 370875948.667526,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 13744744.062424,
+        "OrbitalInclination": -55.344111
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 B 4",
@@ -314,7 +366,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 314504992961.88354,
+        "Eccentricity": 2.5e-05,
+        "OrbitalPeriod": 263935577.869415,
+        "OrbitalInclination": 0.007503
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 B 1",
@@ -328,7 +384,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 125064885616.30249,
+        "Eccentricity": 0.000358,
+        "OrbitalPeriod": 66185025.572777,
+        "OrbitalInclination": 0.002999
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 B 5",
@@ -342,7 +402,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 453853231668.4723,
+        "Eccentricity": 0.003294,
+        "OrbitalPeriod": 457540762.424469,
+        "OrbitalInclination": -0.013791
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 B 5 a",
@@ -356,7 +420,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 928084045.648575,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 35768741.965294,
+        "OrbitalInclination": 13.631166
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 B 7",
@@ -370,7 +438,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 750194394588.4705,
+        "Eccentricity": 0.000112,
+        "OrbitalPeriod": 972338294.98291,
+        "OrbitalInclination": -0.202669
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 B 2",
@@ -384,7 +456,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 167069262266.15906,
+        "Eccentricity": 6.9e-05,
+        "OrbitalPeriod": 102188372.612,
+        "OrbitalInclination": 0.033083
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 B 3",
@@ -398,7 +474,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 240419209003.4485,
+        "Eccentricity": 0.000189,
+        "OrbitalPeriod": 176404798.030853,
+        "OrbitalInclination": 0.131547
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 B 9",
@@ -412,7 +492,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1140947282.314301,
+        "Eccentricity": 0.121191,
+        "OrbitalPeriod": 152830696.105957,
+        "OrbitalInclination": 1.701286
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 B 8",
@@ -426,7 +510,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1701426208.019257,
+        "Eccentricity": 0.121191,
+        "OrbitalPeriod": 152830696.105957,
+        "OrbitalInclination": 1.701286
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 9",
@@ -440,7 +528,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 524597740173.33984,
+        "Eccentricity": 0.002821,
+        "OrbitalPeriod": 446910381.317139,
+        "OrbitalInclination": -0.047079
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 9 c",
@@ -454,7 +546,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 291982811.689377,
+        "Eccentricity": 0.000712,
+        "OrbitalPeriod": 511786.192656,
+        "OrbitalInclination": -0.125338
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 9 d",
@@ -468,7 +564,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 385854178.667068,
+        "Eccentricity": 0.00035,
+        "OrbitalPeriod": 777476.865053,
+        "OrbitalInclination": -0.046567
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 9 a",
@@ -482,7 +582,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 206539350.748062,
+        "Eccentricity": 0.000842,
+        "OrbitalPeriod": 304478.621483,
+        "OrbitalInclination": 0.208313
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 9 b",
@@ -496,7 +600,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 249898517.131805,
+        "Eccentricity": 3e-05,
+        "OrbitalPeriod": 405226.814747,
+        "OrbitalInclination": -0.13379
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 9 e",
@@ -510,7 +618,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 515340566.635132,
+        "Eccentricity": 0.00195,
+        "OrbitalPeriod": 1200035.512447,
+        "OrbitalInclination": -0.328027
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 9 g",
@@ -524,7 +636,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4683501.064777,
+        "Eccentricity": 0.006082,
+        "OrbitalPeriod": 841920.161247,
+        "OrbitalInclination": -4.535614
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 9 h",
@@ -538,7 +654,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 11652483.344078,
+        "Eccentricity": 0.006082,
+        "OrbitalPeriod": 841920.161247,
+        "OrbitalInclination": -4.535614
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 9 f",
@@ -552,7 +672,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 764445519.447327,
+        "Eccentricity": 0.001259,
+        "OrbitalPeriod": 2168065.309525,
+        "OrbitalInclination": -0.043441
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 9 i",
@@ -566,7 +690,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2144911408.424377,
+        "Eccentricity": 0.003887,
+        "OrbitalPeriod": 10189824.104309,
+        "OrbitalInclination": 0.018815
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 7",
@@ -580,7 +708,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 153830939531.3263,
+        "Eccentricity": 0.000104,
+        "OrbitalPeriod": 70965356.826782,
+        "OrbitalInclination": -0.079916
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 6",
@@ -594,7 +726,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 119228982925.41504,
+        "Eccentricity": 9.6e-05,
+        "OrbitalPeriod": 48423210.382462,
+        "OrbitalInclination": 0.057591
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 6 a",
@@ -608,7 +744,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 505805051.326752,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 2625138.759613,
+        "OrbitalInclination": 27.237066
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 4",
@@ -622,7 +762,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 47892578840.25574,
+        "Eccentricity": 1.4e-05,
+        "OrbitalPeriod": 12327731.251717,
+        "OrbitalInclination": -0.003267
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 3",
@@ -636,7 +780,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 37529689669.60907,
+        "Eccentricity": 6.3e-05,
+        "OrbitalPeriod": 8551519.811153,
+        "OrbitalInclination": 0.00469
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 5",
@@ -650,7 +798,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 64743927121.162415,
+        "Eccentricity": 0.000218,
+        "OrbitalPeriod": 19376682.043076,
+        "OrbitalInclination": 0.324578
       },
       {
         "BodyName": "Prua Dryou AJ-C b19-3 A 1",
@@ -664,7 +816,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 10960010290.145874,
+        "Eccentricity": 5e-06,
+        "OrbitalPeriod": 1349575.75798,
+        "OrbitalInclination": 0.012919
       }
     ]
   },

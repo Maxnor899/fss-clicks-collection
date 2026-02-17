@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.597285+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.010328+00:00",
     "log_files": [
       "Journal.2026-02-09T174314.01.log"
     ]
@@ -34,8 +34,8 @@
       "n_terraformables": 2,
       "planet_classes": [
         "High metal content body",
-        "Rocky ice body",
-        "Water world"
+        "Water world",
+        "Rocky ice body"
       ]
     },
     "stars": {
@@ -100,7 +100,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 151163321733.47473,
+        "Eccentricity": 0.000902,
+        "OrbitalPeriod": 24701774.716377,
+        "OrbitalInclination": 0.004226
       },
       {
         "BodyName": "Tyriedgoea BH-L d8-3 7",
@@ -114,7 +118,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1310433626.174927,
+        "Eccentricity": 0.185149,
+        "OrbitalPeriod": 47512768.507004,
+        "OrbitalInclination": -8.024998
       },
       {
         "BodyName": "Tyriedgoea BH-L d8-3 6",
@@ -128,7 +136,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1041529834.270477,
+        "Eccentricity": 0.185149,
+        "OrbitalPeriod": 47512768.507004,
+        "OrbitalInclination": -8.024998
       },
       {
         "BodyName": "Tyriedgoea BH-L d8-3 5",
@@ -142,7 +154,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 849790811538.6963,
+        "Eccentricity": 0.190979,
+        "OrbitalPeriod": 329250609.874725,
+        "OrbitalInclination": 110.657442
       },
       {
         "BodyName": "Tyriedgoea BH-L d8-3 4",
@@ -156,7 +172,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": true
+        "WasMapped": true,
+        "SemiMajorAxis": 384130620956.4209,
+        "Eccentricity": 0.000262,
+        "OrbitalPeriod": 100063788.890839,
+        "OrbitalInclination": -0.541921
       },
       {
         "BodyName": "Tyriedgoea BH-L d8-3 2",
@@ -170,7 +190,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 203061628341.6748,
+        "Eccentricity": 0.000562,
+        "OrbitalPeriod": 38459207.415581,
+        "OrbitalInclination": 0.005614
       },
       {
         "BodyName": "Tyriedgoea BH-L d8-3 3",
@@ -184,7 +208,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 285674542188.6444,
+        "Eccentricity": 0.000337,
+        "OrbitalPeriod": 64175001.382828,
+        "OrbitalInclination": -0.557294
       }
     ]
   },

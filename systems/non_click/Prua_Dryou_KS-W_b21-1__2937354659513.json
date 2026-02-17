@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.620827+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.034289+00:00",
     "log_files": [
       "Journal.2026-02-11T134714.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -115,7 +115,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 322640794515.60974,
+        "Eccentricity": 0.001386,
+        "OrbitalPeriod": 183405810.594559,
+        "OrbitalInclination": -0.005423
       },
       {
         "BodyName": "Prua Dryou KS-W b21-1 5",
@@ -129,7 +133,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 950674909353.2562,
+        "Eccentricity": 0.189126,
+        "OrbitalPeriod": 927645939.588547,
+        "OrbitalInclination": -140.974445
       },
       {
         "BodyName": "Prua Dryou KS-W b21-1 5 a",
@@ -143,7 +151,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4171164512.634277,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 40025800.466537,
+        "OrbitalInclination": 52.720236
       },
       {
         "BodyName": "Prua Dryou KS-W b21-1 3",
@@ -157,7 +169,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 418908601999.28284,
+        "Eccentricity": 0.000252,
+        "OrbitalPeriod": 271339541.67366,
+        "OrbitalInclination": 0.665716
       },
       {
         "BodyName": "Prua Dryou KS-W b21-1 4",
@@ -171,7 +187,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 538353717327.1179,
+        "Eccentricity": 0.006596,
+        "OrbitalPeriod": 395308107.13768,
+        "OrbitalInclination": 0.000465
       },
       {
         "BodyName": "Prua Dryou KS-W b21-1 4 a",
@@ -185,7 +205,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1251918554.30603,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 11685883.998871,
+        "OrbitalInclination": -82.880299
       },
       {
         "BodyName": "Prua Dryou KS-W b21-1 6",
@@ -199,7 +223,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1303781151771.5454,
+        "Eccentricity": 0.175237,
+        "OrbitalPeriod": 1489845454.692841,
+        "OrbitalInclination": 25.924325
       },
       {
         "BodyName": "Prua Dryou KS-W b21-1 1",
@@ -213,7 +241,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 229929733276.3672,
+        "Eccentricity": 1.4e-05,
+        "OrbitalPeriod": 110338443.517685,
+        "OrbitalInclination": -0.00079
       }
     ]
   },

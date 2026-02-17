@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.626487+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.039788+00:00",
     "log_files": [
       "Journal.2026-02-11T164827.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -99,7 +99,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 747560465335.846,
+        "Eccentricity": 0.004422,
+        "OrbitalPeriod": 409153145.551682,
+        "OrbitalInclination": 3.237724
       },
       {
         "BodyName": "Prua Dryou HP-R c7-14 4",
@@ -113,7 +117,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 323035371303.55835,
+        "Eccentricity": 9.2e-05,
+        "OrbitalPeriod": 116222840.547562,
+        "OrbitalInclination": 0.105354
       },
       {
         "BodyName": "Prua Dryou HP-R c7-14 7",
@@ -127,7 +135,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1074609875679.0161,
+        "Eccentricity": 0.017865,
+        "OrbitalPeriod": 705167949.199677,
+        "OrbitalInclination": 0.025981
       },
       {
         "BodyName": "Prua Dryou HP-R c7-14 5",
@@ -141,7 +153,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 436599969863.8916,
+        "Eccentricity": 0.001034,
+        "OrbitalPeriod": 182617318.630219,
+        "OrbitalInclination": -0.186838
       },
       {
         "BodyName": "Prua Dryou HP-R c7-14 1",
@@ -155,7 +171,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 154631936550.14038,
+        "Eccentricity": 1e-06,
+        "OrbitalPeriod": 38491531.610489,
+        "OrbitalInclination": -0.013935
       },
       {
         "BodyName": "Prua Dryou HP-R c7-14 3",
@@ -169,7 +189,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 325547832.250595,
+        "Eccentricity": 0.180494,
+        "OrbitalPeriod": 8632133.901119,
+        "OrbitalInclination": 7.190084
       },
       {
         "BodyName": "Prua Dryou HP-R c7-14 2",
@@ -183,7 +207,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 295120513.439178,
+        "Eccentricity": 0.180494,
+        "OrbitalPeriod": 8632133.901119,
+        "OrbitalInclination": 7.190084
       }
     ]
   },

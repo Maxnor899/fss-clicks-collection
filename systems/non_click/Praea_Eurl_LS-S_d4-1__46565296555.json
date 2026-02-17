@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.553144+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.967308+00:00",
     "log_files": [
       "Journal.2026-02-05T201519.01.log"
     ]
@@ -33,15 +33,15 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
       "n_stars": 3,
       "types": [
-        "G",
-        "M"
+        "M",
+        "G"
       ]
     },
     "signals": {
@@ -130,7 +130,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 141404712200.1648,
+        "Eccentricity": 0.074494,
+        "OrbitalPeriod": 32484592.199326,
+        "OrbitalInclination": -168.091307
       },
       {
         "BodyName": "Praea Eurl LS-S d4-1 C 5",
@@ -144,7 +148,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 259307724.237442,
+        "Eccentricity": 0.097471,
+        "OrbitalPeriod": 12043120.265007,
+        "OrbitalInclination": 3.781551
       },
       {
         "BodyName": "Praea Eurl LS-S d4-1 C 6",
@@ -158,7 +166,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 806526422.50061,
+        "Eccentricity": 0.097471,
+        "OrbitalPeriod": 12043120.265007,
+        "OrbitalInclination": 3.781551
       },
       {
         "BodyName": "Praea Eurl LS-S d4-1 C 7",
@@ -172,7 +184,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 361511969566.3452,
+        "Eccentricity": 0.000198,
+        "OrbitalPeriod": 184212952.852249,
+        "OrbitalInclination": 0.048336
       },
       {
         "BodyName": "Praea Eurl LS-S d4-1 C 8",
@@ -186,7 +202,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 491614139080.0476,
+        "Eccentricity": 0.000263,
+        "OrbitalPeriod": 292127645.015717,
+        "OrbitalInclination": -0.186549
       },
       {
         "BodyName": "Praea Eurl LS-S d4-1 C 4",
@@ -200,7 +220,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 194600045680.99976,
+        "Eccentricity": 0.000601,
+        "OrbitalPeriod": 72752942.442894,
+        "OrbitalInclination": 0.012404
       },
       {
         "BodyName": "Praea Eurl LS-S d4-1 C 3",
@@ -214,7 +238,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 155633807182.312,
+        "Eccentricity": 3.7e-05,
+        "OrbitalPeriod": 52034577.727318,
+        "OrbitalInclination": -0.221083
       },
       {
         "BodyName": "Praea Eurl LS-S d4-1 C 3 a",
@@ -228,7 +256,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 458563005.924225,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 5172654.211521,
+        "OrbitalInclination": 7.872589
       },
       {
         "BodyName": "Praea Eurl LS-S d4-1 C 1",
@@ -242,7 +274,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 90153375267.98248,
+        "Eccentricity": 0.000829,
+        "OrbitalPeriod": 22940827.608109,
+        "OrbitalInclination": 0.008443
       },
       {
         "BodyName": "Praea Eurl LS-S d4-1 C 2",
@@ -256,7 +292,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 113042390346.5271,
+        "Eccentricity": 0.000365,
+        "OrbitalPeriod": 32210546.731949,
+        "OrbitalInclination": -0.002095
       }
     ]
   },

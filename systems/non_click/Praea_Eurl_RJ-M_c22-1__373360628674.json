@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.557578+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.973145+00:00",
     "log_files": [
       "Journal.2026-02-06T211411.01.log"
     ]
@@ -33,18 +33,18 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "Rocky ice body",
-        "Metal rich body",
         "Rocky body",
-        "High metal content body"
+        "Metal rich body",
+        "High metal content body",
+        "Icy body",
+        "Rocky ice body"
       ]
     },
     "stars": {
       "n_stars": 3,
       "types": [
-        "K",
-        "M"
+        "M",
+        "K"
       ]
     },
     "signals": {
@@ -141,7 +141,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2210597.872734,
+        "Eccentricity": 0.116488,
+        "OrbitalPeriod": 43365.361691,
+        "OrbitalInclination": 9.598199
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 A 2",
@@ -155,7 +159,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1556814.551353,
+        "Eccentricity": 0.116488,
+        "OrbitalPeriod": 43365.361691,
+        "OrbitalInclination": 9.598199
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 A 1",
@@ -169,7 +177,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4988245844.841003,
+        "Eccentricity": 0.000325,
+        "OrbitalPeriod": 221279.829741,
+        "OrbitalInclination": -0.253254
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 C 2",
@@ -183,7 +195,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 118294823169.70825,
+        "Eccentricity": 4e-06,
+        "OrbitalPeriod": 28066416.978836,
+        "OrbitalInclination": 0.048457
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 C 3",
@@ -197,7 +213,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 160111427307.1289,
+        "Eccentricity": 0.00036,
+        "OrbitalPeriod": 44194872.379303,
+        "OrbitalInclination": 0.136015
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 C 3 a",
@@ -211,7 +231,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 93975609.540939,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 2761423.707008,
+        "OrbitalInclination": -25.167345
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 C 1",
@@ -225,7 +249,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 84257466197.01385,
+        "Eccentricity": 4.8e-05,
+        "OrbitalPeriod": 16871395.111084,
+        "OrbitalInclination": -0.012229
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 C 4 a",
@@ -239,7 +267,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 119713157.41539,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 2719852.3283,
+        "OrbitalInclination": -17.028218
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 C 4",
@@ -253,7 +285,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 220778185129.16565,
+        "Eccentricity": 0.001323,
+        "OrbitalPeriod": 71560373.902321,
+        "OrbitalInclination": 0.000852
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 C 6",
@@ -267,7 +303,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 384421509504.31824,
+        "Eccentricity": 1.9e-05,
+        "OrbitalPeriod": 164418208.599091,
+        "OrbitalInclination": -0.531133
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 C 8",
@@ -281,7 +321,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1186762034893.036,
+        "Eccentricity": 0.196551,
+        "OrbitalPeriod": 891833633.184433,
+        "OrbitalInclination": -124.086499
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 C 7",
@@ -295,7 +339,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 625204169750.2136,
+        "Eccentricity": 0.000472,
+        "OrbitalPeriod": 341013169.288635,
+        "OrbitalInclination": -0.467453
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 AB 1",
@@ -309,7 +357,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 781100624799.7284,
+        "Eccentricity": 0.000163,
+        "OrbitalPeriod": 346621298.789978,
+        "OrbitalInclination": 2.805661
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 AB 1 a",
@@ -323,7 +375,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 997506856.918335,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 13428552.746773,
+        "OrbitalInclination": 52.304366
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 C 5 a",
@@ -337,7 +393,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 142932671.308517,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 3890514.075756,
+        "OrbitalInclination": -43.579114
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 C 5",
@@ -351,7 +411,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 295222067832.9468,
+        "Eccentricity": 1.1e-05,
+        "OrbitalPeriod": 110652595.758438,
+        "OrbitalInclination": 0.017796
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 AB 2",
@@ -365,7 +429,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1086061418056.488,
+        "Eccentricity": 0.002219,
+        "OrbitalPeriod": 568298292.160034,
+        "OrbitalInclination": 0.47348
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 A 6",
@@ -379,7 +447,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 33667647838.59253,
+        "Eccentricity": 0.071517,
+        "OrbitalPeriod": 3880067.169666,
+        "OrbitalInclination": 75.658593
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 A 4",
@@ -393,7 +465,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 18544239401.81732,
+        "Eccentricity": 0.006932,
+        "OrbitalPeriod": 1586111.24754,
+        "OrbitalInclination": -0.00725
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 B 5",
@@ -407,7 +483,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4669024.407864,
+        "Eccentricity": 0.188289,
+        "OrbitalPeriod": 185381.263494,
+        "OrbitalInclination": -1.880465
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 B 6",
@@ -421,7 +501,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 7409368.157387,
+        "Eccentricity": 0.188289,
+        "OrbitalPeriod": 185381.263494,
+        "OrbitalInclination": -1.880465
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 B 4",
@@ -435,7 +519,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 10125707983.970642,
+        "Eccentricity": 0.000814,
+        "OrbitalPeriod": 851576.22695,
+        "OrbitalInclination": 0.070635
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 B 3",
@@ -449,7 +537,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 7236435711.38382,
+        "Eccentricity": 0.000633,
+        "OrbitalPeriod": 514484.781027,
+        "OrbitalInclination": -0.007192
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 B 2",
@@ -463,7 +555,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5339379787.445068,
+        "Eccentricity": 0.001661,
+        "OrbitalPeriod": 326078.128815,
+        "OrbitalInclination": -0.696833
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 B 1",
@@ -477,7 +573,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4167437314.987183,
+        "Eccentricity": 0.000691,
+        "OrbitalPeriod": 224848.020077,
+        "OrbitalInclination": 0.21859
       },
       {
         "BodyName": "Praea Eurl RJ-M c22-1 A 5",
@@ -491,7 +591,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 22851772904.396057,
+        "Eccentricity": 0.105615,
+        "OrbitalPeriod": 2169701.159,
+        "OrbitalInclination": -6.912114
       }
     ]
   },

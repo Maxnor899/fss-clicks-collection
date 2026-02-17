@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.587887+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.002374+00:00",
     "log_files": [
       "Journal.2026-02-09T110234.01.log"
     ]
@@ -33,17 +33,17 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
-        "Rocky body"
+        "Rocky body",
+        "Icy body"
       ]
     },
     "stars": {
       "n_stars": 3,
       "types": [
+        "M",
         "L",
-        "K",
-        "M"
+        "K"
       ]
     },
     "signals": {
@@ -140,7 +140,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 179784983396.53015,
+        "Eccentricity": 0.000992,
+        "OrbitalPeriod": 57247951.030731,
+        "OrbitalInclination": 2.6e-05
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 B 2",
@@ -154,7 +158,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 14105764627.456665,
+        "Eccentricity": 0.000128,
+        "OrbitalPeriod": 1827273.964882,
+        "OrbitalInclination": 0.487791
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 B 1",
@@ -168,7 +176,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 8366178154.945374,
+        "Eccentricity": 3e-06,
+        "OrbitalPeriod": 834640.37776,
+        "OrbitalInclination": 0.01706
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 B 3",
@@ -182,7 +194,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 23582946658.13446,
+        "Eccentricity": 0.000406,
+        "OrbitalPeriod": 3950079.023838,
+        "OrbitalInclination": -0.307895
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 B 4",
@@ -196,7 +212,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 41822325587.272644,
+        "Eccentricity": 9e-06,
+        "OrbitalPeriod": 9328697.144985,
+        "OrbitalInclination": 0.300511
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 C 7",
@@ -210,7 +230,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 66939771175.38452,
+        "Eccentricity": 0.009137,
+        "OrbitalPeriod": 24515067.93499,
+        "OrbitalInclination": 0.089122
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 C 7 a",
@@ -224,7 +248,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 76147227.287292,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 2111734.926701,
+        "OrbitalInclination": 34.996055
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 C 5",
@@ -238,7 +266,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 36175185441.970825,
+        "Eccentricity": 0.001359,
+        "OrbitalPeriod": 9739193.499088,
+        "OrbitalInclination": 1.285185
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 C 6 a",
@@ -252,7 +284,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 29445473.55175,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 762159.67536,
+        "OrbitalInclination": -24.372126
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 C 6",
@@ -266,7 +302,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 50536405444.1452,
+        "Eccentricity": 0.001017,
+        "OrbitalPeriod": 16081011.295319,
+        "OrbitalInclination": 0.033174
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 C 8",
@@ -280,7 +320,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 89561998248.10028,
+        "Eccentricity": 0.000244,
+        "OrbitalPeriod": 37939578.8908,
+        "OrbitalInclination": -0.129753
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 C 1",
@@ -294,7 +338,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3865632.653236,
+        "Eccentricity": 0.096175,
+        "OrbitalPeriod": 255260.837078,
+        "OrbitalInclination": 1.233883
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 C 2",
@@ -308,7 +356,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4851612.80632,
+        "Eccentricity": 0.096175,
+        "OrbitalPeriod": 255260.837078,
+        "OrbitalInclination": 1.233883
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 C 3",
@@ -322,7 +374,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 19547101259.231567,
+        "Eccentricity": 0.000409,
+        "OrbitalPeriod": 3868391.156197,
+        "OrbitalInclination": -0.792224
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 C 4",
@@ -336,7 +392,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 24584060907.36389,
+        "Eccentricity": 0.00015,
+        "OrbitalPeriod": 5456162.393093,
+        "OrbitalInclination": -0.015771
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 A 4",
@@ -350,7 +410,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 338633590936.66077,
+        "Eccentricity": 9.9e-05,
+        "OrbitalPeriod": 147987443.208694,
+        "OrbitalInclination": 0.220948
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 A 1 a",
@@ -364,7 +428,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 128438550.233841,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 988073.62318,
+        "OrbitalInclination": -78.295746
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 A 1",
@@ -378,7 +446,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 105335766077.04163,
+        "Eccentricity": 0.000616,
+        "OrbitalPeriod": 25674002.170563,
+        "OrbitalInclination": 0.000254
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 A 6",
@@ -392,7 +464,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1039857566356.6589,
+        "Eccentricity": 0.003292,
+        "OrbitalPeriod": 796325427.293777,
+        "OrbitalInclination": 12.708019
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 A 3",
@@ -406,7 +482,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 233536976575.85144,
+        "Eccentricity": 6.2e-05,
+        "OrbitalPeriod": 84754592.776299,
+        "OrbitalInclination": 0.049264
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 A 3 a",
@@ -420,7 +500,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 446060347.557068,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 5177902.519703,
+        "OrbitalInclination": -17.027617
       },
       {
         "BodyName": "Blu Theia DU-T c18-0 A 5",
@@ -434,7 +518,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 748960095643.9972,
+        "Eccentricity": 0.022755,
+        "OrbitalPeriod": 486763280.630112,
+        "OrbitalInclination": -0.044323
       }
     ]
   },

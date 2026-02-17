@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.611387+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.025075+00:00",
     "log_files": [
       "Journal.2026-02-11T105854.01.log"
     ]
@@ -33,9 +33,9 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
+        "High metal content body",
         "Sudarsky class I gas giant",
-        "Icy body",
-        "High metal content body"
+        "Icy body"
       ]
     },
     "stars": {
@@ -130,7 +130,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1722512185.573578,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 78446.127176,
+        "OrbitalInclination": 0.000974
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 4",
@@ -144,7 +148,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 289195936918.25867,
+        "Eccentricity": 0.000328,
+        "OrbitalPeriod": 170653945.207596,
+        "OrbitalInclination": 3.5e-05
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 4 b",
@@ -158,7 +166,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2718608.677387,
+        "Eccentricity": 0.002883,
+        "OrbitalPeriod": 55395.616889,
+        "OrbitalInclination": -9.592314
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 4 a",
@@ -172,7 +184,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 748231.118917,
+        "Eccentricity": 0.002883,
+        "OrbitalPeriod": 55395.616889,
+        "OrbitalInclination": -9.592314
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 4 g",
@@ -186,7 +202,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3163807809.352875,
+        "Eccentricity": 0.001361,
+        "OrbitalPeriod": 8747998.893261,
+        "OrbitalInclination": 0.088644
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 4 e",
@@ -200,7 +220,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1644679605.960846,
+        "Eccentricity": 2.7e-05,
+        "OrbitalPeriod": 3278804.421425,
+        "OrbitalInclination": -0.348238
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 4 c",
@@ -214,7 +238,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 443517249.822617,
+        "Eccentricity": 1.7e-05,
+        "OrbitalPeriod": 459154.999256,
+        "OrbitalInclination": -0.072425
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 4 d",
@@ -228,7 +256,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1245993554.592133,
+        "Eccentricity": 0.000703,
+        "OrbitalPeriod": 2162057.459354,
+        "OrbitalInclination": -0.151021
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 4 f",
@@ -242,7 +274,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2135439455.509186,
+        "Eccentricity": 0.002109,
+        "OrbitalPeriod": 4850923.836231,
+        "OrbitalInclination": 0.066607
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 2",
@@ -256,7 +292,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 247079652.547836,
+        "Eccentricity": 0.011101,
+        "OrbitalPeriod": 22898096.442223,
+        "OrbitalInclination": -9.230871
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 2 b",
@@ -270,7 +310,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1418062388.896942,
+        "Eccentricity": 8.8e-05,
+        "OrbitalPeriod": 1122643.351555,
+        "OrbitalInclination": 0.018958
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 2 a",
@@ -284,7 +328,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 545250689.983368,
+        "Eccentricity": 7e-06,
+        "OrbitalPeriod": 267665.928602,
+        "OrbitalInclination": -0.004836
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 2 c",
@@ -298,7 +346,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2660579204.559326,
+        "Eccentricity": 0.008955,
+        "OrbitalPeriod": 2885114.371777,
+        "OrbitalInclination": -0.054643
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 3",
@@ -312,7 +364,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 10421970486.64093,
+        "Eccentricity": 0.011101,
+        "OrbitalPeriod": 22898096.442223,
+        "OrbitalInclination": -9.230871
       },
       {
         "BodyName": "Blua Eoq RF-Q b11-1 5",
@@ -334,7 +390,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 395647245645.5231,
+        "Eccentricity": 0.000132,
+        "OrbitalPeriod": 273080217.838287,
+        "OrbitalInclination": -0.099359
       }
     ]
   },

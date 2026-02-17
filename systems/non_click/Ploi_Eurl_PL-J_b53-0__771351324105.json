@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.535688+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.949285+00:00",
     "log_files": [
       "Journal.2026-02-04T160325.01.log"
     ]
@@ -33,9 +33,9 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
+        "Gas giant with ammonia based life",
         "Sudarsky class I gas giant",
-        "Icy body",
-        "Gas giant with ammonia based life"
+        "Icy body"
       ]
     },
     "stars": {
@@ -130,7 +130,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 264258754253.38745,
+        "Eccentricity": 0.000251,
+        "OrbitalPeriod": 137532639.503479,
+        "OrbitalInclination": 0.009666
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 2 c",
@@ -144,7 +148,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1795832574.367523,
+        "Eccentricity": 0.006889,
+        "OrbitalPeriod": 2583453.476429,
+        "OrbitalInclination": 0.005995
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 2 a",
@@ -158,7 +166,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 455230093.002319,
+        "Eccentricity": 0.000944,
+        "OrbitalPeriod": 329722.303152,
+        "OrbitalInclination": -0.003461
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 2 b",
@@ -172,7 +184,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1280317425.727844,
+        "Eccentricity": 0.008461,
+        "OrbitalPeriod": 1555171.906948,
+        "OrbitalInclination": 2.34772
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 2 e",
@@ -186,7 +202,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3162839889.526367,
+        "Eccentricity": 0.003818,
+        "OrbitalPeriod": 6038342.535496,
+        "OrbitalInclination": -1.809063
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 2 d",
@@ -200,7 +220,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2351814150.810242,
+        "Eccentricity": 0.000499,
+        "OrbitalPeriod": 3871741.890907,
+        "OrbitalInclination": -0.01297
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 1",
@@ -214,7 +238,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 180661010742.1875,
+        "Eccentricity": 0.000271,
+        "OrbitalPeriod": 77742477.059364,
+        "OrbitalInclination": -0.026928
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 1 b",
@@ -228,7 +256,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 363723951.57814,
+        "Eccentricity": 0.001057,
+        "OrbitalPeriod": 142319.834232,
+        "OrbitalInclination": -0.000108
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 1 a",
@@ -242,7 +274,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 268833476.305008,
+        "Eccentricity": 0.000644,
+        "OrbitalPeriod": 90434.179306,
+        "OrbitalInclination": 0.232363
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 1 e",
@@ -256,7 +292,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1846383929.252625,
+        "Eccentricity": 0.011499,
+        "OrbitalPeriod": 1627760.887146,
+        "OrbitalInclination": -1.839009
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 1 c",
@@ -270,7 +310,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 483619171.380997,
+        "Eccentricity": 4.1e-05,
+        "OrbitalPeriod": 218204.039335,
+        "OrbitalInclination": -0.003634
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 1 d",
@@ -284,7 +328,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1434237301.34964,
+        "Eccentricity": 0.001236,
+        "OrbitalPeriod": 1114394.783974,
+        "OrbitalInclination": -1.324715
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 3",
@@ -298,7 +346,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 343219953775.4059,
+        "Eccentricity": 0.002192,
+        "OrbitalPeriod": 203573095.798492,
+        "OrbitalInclination": 0.022071
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 3 a",
@@ -312,7 +364,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 149597978.591919,
+        "Eccentricity": 1.3e-05,
+        "OrbitalPeriod": 176941.424608,
+        "OrbitalInclination": -0.090495
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 3 b",
@@ -326,7 +382,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 379427778.720856,
+        "Eccentricity": 0.001032,
+        "OrbitalPeriod": 714717.841148,
+        "OrbitalInclination": -0.22263
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 3 d",
@@ -340,7 +400,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 7566183.209419,
+        "Eccentricity": 0.063181,
+        "OrbitalPeriod": 465431.249142,
+        "OrbitalInclination": -7.178735
       },
       {
         "BodyName": "Ploi Eurl PL-J b53-0 3 c",
@@ -354,7 +418,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4485070.109367,
+        "Eccentricity": 0.063181,
+        "OrbitalPeriod": 465431.249142,
+        "OrbitalInclination": -7.178735
       }
     ]
   },

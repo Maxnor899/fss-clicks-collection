@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.559452+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.974975+00:00",
     "log_files": [
       "Journal.2026-02-06T211411.01.log"
     ]
@@ -33,10 +33,10 @@
       "has_ringed_body": false,
       "n_terraformables": 1,
       "planet_classes": [
-        "Ammonia world",
-        "Icy body",
         "High metal content body",
-        "Rocky ice body"
+        "Icy body",
+        "Rocky ice body",
+        "Ammonia world"
       ]
     },
     "stars": {
@@ -101,7 +101,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1856160163.879395,
+        "Eccentricity": 0.052672,
+        "OrbitalPeriod": 61479449.868202,
+        "OrbitalInclination": 0.860167
       },
       {
         "BodyName": "Praea Eurl FR-C d13-1 10",
@@ -115,7 +119,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2288596570.491791,
+        "Eccentricity": 0.052672,
+        "OrbitalPeriod": 61479449.868202,
+        "OrbitalInclination": 0.860167
       },
       {
         "BodyName": "Praea Eurl FR-C d13-1 1",
@@ -129,7 +137,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 213345366716.3849,
+        "Eccentricity": 0.000252,
+        "OrbitalPeriod": 54599695.801735,
+        "OrbitalInclination": -0.278878
       },
       {
         "BodyName": "Praea Eurl FR-C d13-1 5",
@@ -143,7 +155,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 348892265.558243,
+        "Eccentricity": 0.084376,
+        "OrbitalPeriod": 7108600.795269,
+        "OrbitalInclination": -8.887869
       },
       {
         "BodyName": "Praea Eurl FR-C d13-1 4",
@@ -157,7 +173,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 341080135.10704,
+        "Eccentricity": 0.084376,
+        "OrbitalPeriod": 7108600.795269,
+        "OrbitalInclination": -8.887869
       },
       {
         "BodyName": "Praea Eurl FR-C d13-1 3",
@@ -171,7 +191,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 392051774263.38196,
+        "Eccentricity": 0.000777,
+        "OrbitalPeriod": 136013042.926788,
+        "OrbitalInclination": 0.059124
       },
       {
         "BodyName": "Praea Eurl FR-C d13-1 2",
@@ -185,7 +209,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 291174089908.59985,
+        "Eccentricity": 0.002191,
+        "OrbitalPeriod": 87055159.807205,
+        "OrbitalInclination": 0.139749
       },
       {
         "BodyName": "Praea Eurl FR-C d13-1 7",
@@ -199,7 +227,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 470307379.961014,
+        "Eccentricity": 0.172629,
+        "OrbitalPeriod": 42828944.325447,
+        "OrbitalInclination": 9.932961
       },
       {
         "BodyName": "Praea Eurl FR-C d13-1 8",
@@ -213,7 +245,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2739398598.670959,
+        "Eccentricity": 0.172629,
+        "OrbitalPeriod": 42828944.325447,
+        "OrbitalInclination": 9.932961
       },
       {
         "BodyName": "Praea Eurl FR-C d13-1 6",
@@ -227,7 +263,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 722585493326.1871,
+        "Eccentricity": 0.007509,
+        "OrbitalPeriod": 340329241.752625,
+        "OrbitalInclination": 1.043739
       },
       {
         "BodyName": "Praea Eurl FR-C d13-1 6 a",
@@ -241,7 +281,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 765038847.923279,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 7903290.867805,
+        "OrbitalInclination": -83.755311
       },
       {
         "BodyName": "Praea Eurl FR-C d13-1 11",
@@ -255,7 +299,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1748919069766.9983,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 1281504094.600677,
+        "OrbitalInclination": 0.38906
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.512420+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.927562+00:00",
     "log_files": [
       "Journal.2026-02-01T074904.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -99,7 +99,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 944812703132.6294,
+        "Eccentricity": 0.011683,
+        "OrbitalPeriod": 702821850.776672,
+        "OrbitalInclination": 1.034725
       },
       {
         "BodyName": "Preae Thae JO-C c28-0 1",
@@ -113,7 +117,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 83821460604.66766,
+        "Eccentricity": 0.00038,
+        "OrbitalPeriod": 18572035.431862,
+        "OrbitalInclination": 3.5e-05
       },
       {
         "BodyName": "Preae Thae JO-C c28-0 4",
@@ -127,7 +135,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 285643917322.1588,
+        "Eccentricity": 5.3e-05,
+        "OrbitalPeriod": 116832625.865936,
+        "OrbitalInclination": -0.001208
       },
       {
         "BodyName": "Preae Thae JO-C c28-0 3",
@@ -141,7 +153,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 209579473733.90198,
+        "Eccentricity": 7.6e-05,
+        "OrbitalPeriod": 73425987.958908,
+        "OrbitalInclination": 0.031853
       },
       {
         "BodyName": "Preae Thae JO-C c28-0 3 a",
@@ -155,7 +171,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 228587502.241135,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 5519519.209862,
+        "OrbitalInclination": 7.057621
       },
       {
         "BodyName": "Preae Thae JO-C c28-0 5",
@@ -169,7 +189,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 354783457517.6239,
+        "Eccentricity": 0.001002,
+        "OrbitalPeriod": 161722970.00885,
+        "OrbitalInclination": 0.073286
       },
       {
         "BodyName": "Preae Thae JO-C c28-0 2",
@@ -183,7 +207,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 148493438959.1217,
+        "Eccentricity": 3.1e-05,
+        "OrbitalPeriod": 43791270.256042,
+        "OrbitalInclination": -0.000889
       },
       {
         "BodyName": "Preae Thae JO-C c28-0 6",
@@ -197,7 +225,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 538321745395.6604,
+        "Eccentricity": 0.002883,
+        "OrbitalPeriod": 302266144.752502,
+        "OrbitalInclination": -0.1427
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.519803+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.932088+00:00",
     "log_files": [
       "Journal.2026-02-01T131305.01.log"
     ]
@@ -33,9 +33,9 @@
       "has_ringed_body": false,
       "n_terraformables": 1,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
-        "Rocky body"
+        "Rocky body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -100,7 +100,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1021028697490.6921,
+        "Eccentricity": 0.005552,
+        "OrbitalPeriod": 641388881.206512,
+        "OrbitalInclination": -0.044018
       },
       {
         "BodyName": "Ploi Eurl GY-X c2-0 2",
@@ -114,7 +118,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 180627781152.72522,
+        "Eccentricity": 0.001321,
+        "OrbitalPeriod": 47724492.549896,
+        "OrbitalInclination": -0.259704
       },
       {
         "BodyName": "Ploi Eurl GY-X c2-0 3 a",
@@ -128,7 +136,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 349686878.919601,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 8849274.218082,
+        "OrbitalInclination": -51.044596
       },
       {
         "BodyName": "Ploi Eurl GY-X c2-0 3",
@@ -142,7 +154,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 279407471418.38074,
+        "Eccentricity": 0.001846,
+        "OrbitalPeriod": 91816671.490669,
+        "OrbitalInclination": -0.067744
       },
       {
         "BodyName": "Ploi Eurl GY-X c2-0 4",
@@ -156,7 +172,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 477458733320.2362,
+        "Eccentricity": 0.000669,
+        "OrbitalPeriod": 205101162.195206,
+        "OrbitalInclination": -0.678241
       },
       {
         "BodyName": "Ploi Eurl GY-X c2-0 1",
@@ -170,7 +190,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 96821854710.57892,
+        "Eccentricity": 4.8e-05,
+        "OrbitalPeriod": 18729432.821274,
+        "OrbitalInclination": 0.000525
       }
     ]
   },

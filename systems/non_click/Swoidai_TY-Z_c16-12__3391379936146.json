@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.617039+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.030719+00:00",
     "log_files": [
       "Journal.2026-02-11T105854.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -115,7 +115,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 227906924486.16028,
+        "Eccentricity": 0.003573,
+        "OrbitalPeriod": 80815644.264221,
+        "OrbitalInclination": 0.021631
       },
       {
         "BodyName": "Swoidai TY-Z c16-12 6",
@@ -129,7 +133,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 815585553646.0876,
+        "Eccentricity": 0.016292,
+        "OrbitalPeriod": 547095954.418182,
+        "OrbitalInclination": -0.056821
       },
       {
         "BodyName": "Swoidai TY-Z c16-12 5",
@@ -143,7 +151,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 309250479936.59973,
+        "Eccentricity": 0.000367,
+        "OrbitalPeriod": 127739369.869232,
+        "OrbitalInclination": 0.533992
       },
       {
         "BodyName": "Swoidai TY-Z c16-12 2",
@@ -157,7 +169,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 130882632732.39136,
+        "Eccentricity": 0.000643,
+        "OrbitalPeriod": 35170796.513557,
+        "OrbitalInclination": 0.039358
       },
       {
         "BodyName": "Swoidai TY-Z c16-12 1",
@@ -171,7 +187,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 92699995636.94,
+        "Eccentricity": 8e-06,
+        "OrbitalPeriod": 20964217.185974,
+        "OrbitalInclination": 0.146914
       },
       {
         "BodyName": "Swoidai TY-Z c16-12 7",
@@ -185,7 +205,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1226072013378.1433,
+        "Eccentricity": 0.012028,
+        "OrbitalPeriod": 1008400797.843933,
+        "OrbitalInclination": 0.000824
       },
       {
         "BodyName": "Swoidai TY-Z c16-12 3",
@@ -199,7 +223,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 170442503690.7196,
+        "Eccentricity": 0.001361,
+        "OrbitalPeriod": 52266817.092896,
+        "OrbitalInclination": 0.670402
       }
     ]
   },

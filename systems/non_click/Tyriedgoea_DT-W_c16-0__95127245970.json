@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.596313+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.009635+00:00",
     "log_files": [
       "Journal.2026-02-09T174314.01.log"
     ]
@@ -33,16 +33,16 @@
       "has_ringed_body": false,
       "n_terraformables": 2,
       "planet_classes": [
-        "Ammonia world",
+        "High metal content body",
         "Icy body",
-        "High metal content body"
+        "Ammonia world"
       ]
     },
     "stars": {
       "n_stars": 4,
       "types": [
-        "K",
-        "M"
+        "M",
+        "K"
       ]
     },
     "signals": {
@@ -146,7 +146,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 118406772613.52539,
+        "Eccentricity": 0.000594,
+        "OrbitalPeriod": 21096110.93998,
+        "OrbitalInclination": -0.058152
       },
       {
         "BodyName": "Tyriedgoea DT-W c16-0 AB 4",
@@ -160,7 +164,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 497364854812.6221,
+        "Eccentricity": 0.002241,
+        "OrbitalPeriod": 181614398.956299,
+        "OrbitalInclination": -0.010946
       },
       {
         "BodyName": "Tyriedgoea DT-W c16-0 AB 7",
@@ -174,7 +182,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1214297175407.4097,
+        "Eccentricity": 0.002296,
+        "OrbitalPeriod": 692827492.952347,
+        "OrbitalInclination": 0.009734
       },
       {
         "BodyName": "Tyriedgoea DT-W c16-0 AB 1",
@@ -188,7 +200,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 89106109738.34991,
+        "Eccentricity": 7.2e-05,
+        "OrbitalPeriod": 13772059.082985,
+        "OrbitalInclination": -0.005229
       },
       {
         "BodyName": "Tyriedgoea DT-W c16-0 AB 3",
@@ -202,7 +218,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 353681880235.672,
+        "Eccentricity": 0.000307,
+        "OrbitalPeriod": 108907264.471054,
+        "OrbitalInclination": -0.097711
       },
       {
         "BodyName": "Tyriedgoea DT-W c16-0 AB 6",
@@ -216,7 +236,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 857251232862.4725,
+        "Eccentricity": 0.007827,
+        "OrbitalPeriod": 410960215.330124,
+        "OrbitalInclination": 0.124812
       },
       {
         "BodyName": "Tyriedgoea DT-W c16-0 AB 5 a",
@@ -230,7 +254,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1492296636.104584,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 26272985.339165,
+        "OrbitalInclination": -46.431022
       },
       {
         "BodyName": "Tyriedgoea DT-W c16-0 AB 5",
@@ -244,7 +272,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 677167981863.0219,
+        "Eccentricity": 0.004293,
+        "OrbitalPeriod": 288524174.690247,
+        "OrbitalInclination": 0.195237
       }
     ]
   },

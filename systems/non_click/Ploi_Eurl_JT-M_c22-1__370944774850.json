@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.537366+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.951505+00:00",
     "log_files": [
       "Journal.2026-02-04T173406.01.log"
     ]
@@ -33,17 +33,17 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
+        "Icy body",
         "Metal rich body"
       ]
     },
     "stars": {
       "n_stars": 3,
       "types": [
+        "M",
         "L",
-        "K",
-        "M"
+        "K"
       ]
     },
     "signals": {
@@ -156,7 +156,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3934817314.147949,
+        "Eccentricity": 0.00081,
+        "OrbitalPeriod": 160527.473688,
+        "OrbitalInclination": 0.026353
       },
       {
         "BodyName": "Ploi Eurl JT-M c22-1 AB 4",
@@ -170,7 +174,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 870043706893.9209,
+        "Eccentricity": 0.002,
+        "OrbitalPeriod": 411589503.288269,
+        "OrbitalInclination": 0.4809
       },
       {
         "BodyName": "Ploi Eurl JT-M c22-1 AB 1",
@@ -184,7 +192,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 343364125490.1886,
+        "Eccentricity": 0.001718,
+        "OrbitalPeriod": 102043431.997299,
+        "OrbitalInclination": 0.00121
       },
       {
         "BodyName": "Ploi Eurl JT-M c22-1 AB 2",
@@ -198,7 +210,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 482744777202.6062,
+        "Eccentricity": 0.006896,
+        "OrbitalPeriod": 170109695.196152,
+        "OrbitalInclination": 0.025407
       },
       {
         "BodyName": "Ploi Eurl JT-M c22-1 AB 3",
@@ -212,7 +228,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 632239246368.4082,
+        "Eccentricity": 0.004768,
+        "OrbitalPeriod": 254961603.879929,
+        "OrbitalInclination": -5.275232
       },
       {
         "BodyName": "Ploi Eurl JT-M c22-1 AB 3 a",
@@ -226,7 +246,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 345424073.934555,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 5669432.878494,
+        "OrbitalInclination": 80.983183
       }
     ]
   },

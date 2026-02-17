@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.639611+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.054111+00:00",
     "log_files": [
       "Journal.2026-02-13T224149.01.log"
     ]
@@ -114,7 +114,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 392088156938.55286,
+        "Eccentricity": 0.010681,
+        "OrbitalPeriod": 809561854.600906,
+        "OrbitalInclination": -0.444234
       },
       {
         "BodyName": "Flyua Dryoae OK-H a92-3 4 a",
@@ -128,7 +132,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2625952839.851379,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 43171112.537384,
+        "OrbitalInclination": 47.46532
       },
       {
         "BodyName": "Flyua Dryoae OK-H a92-3 1",
@@ -142,7 +150,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 92501413226.12762,
+        "Eccentricity": 0.001422,
+        "OrbitalPeriod": 92767747.044563,
+        "OrbitalInclination": 0.047177
       },
       {
         "BodyName": "Flyua Dryoae OK-H a92-3 2",
@@ -156,7 +168,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 222364044189.45312,
+        "Eccentricity": 0.00522,
+        "OrbitalPeriod": 345757234.096527,
+        "OrbitalInclination": -0.016876
       },
       {
         "BodyName": "Flyua Dryoae OK-H a92-3 3",
@@ -170,7 +186,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 289087897539.1388,
+        "Eccentricity": 0.000442,
+        "OrbitalPeriod": 512530004.97818,
+        "OrbitalInclination": 2.784841
       },
       {
         "BodyName": "Flyua Dryoae OK-H a92-3 5 a",
@@ -184,7 +204,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5636807680.130005,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 175311660.766602,
+        "OrbitalInclination": 50.177244
       },
       {
         "BodyName": "Flyua Dryoae OK-H a92-3 5",
@@ -198,7 +222,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 696204048395.1569,
+        "Eccentricity": 0.007463,
+        "OrbitalPeriod": 1915487229.824066,
+        "OrbitalInclination": 0.909493
       }
     ]
   },

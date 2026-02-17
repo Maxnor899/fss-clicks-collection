@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.580512+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.995738+00:00",
     "log_files": [
       "Journal.2026-02-08T222850.01.log"
     ]
@@ -33,11 +33,11 @@
       "has_ringed_body": false,
       "n_terraformables": 1,
       "planet_classes": [
-        "Water world",
-        "Icy body",
-        "Rocky ice body",
         "Ammonia world",
-        "High metal content body"
+        "Water world",
+        "High metal content body",
+        "Icy body",
+        "Rocky ice body"
       ]
     },
     "stars": {
@@ -102,7 +102,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 416199481487.2742,
+        "Eccentricity": 0.000976,
+        "OrbitalPeriod": 143650472.164154,
+        "OrbitalInclination": -0.395726
       },
       {
         "BodyName": "Tyriedgaa FY-H d10-2 2",
@@ -116,7 +120,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 135648882389.0686,
+        "Eccentricity": 0.000778,
+        "OrbitalPeriod": 26728775.501251,
+        "OrbitalInclination": 0.559083
       },
       {
         "BodyName": "Tyriedgaa FY-H d10-2 7",
@@ -130,7 +138,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 608985364437.1033,
+        "Eccentricity": 0.005152,
+        "OrbitalPeriod": 254252362.251282,
+        "OrbitalInclination": 0.040107
       },
       {
         "BodyName": "Tyriedgaa FY-H d10-2 9",
@@ -144,7 +156,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1048341631889.3433,
+        "Eccentricity": 0.000364,
+        "OrbitalPeriod": 574260556.697845,
+        "OrbitalInclination": 0.195915
       },
       {
         "BodyName": "Tyriedgaa FY-H d10-2 5",
@@ -158,7 +174,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 325204932689.66675,
+        "Eccentricity": 0.005122,
+        "OrbitalPeriod": 99217994.213104,
+        "OrbitalInclination": -0.590911
       },
       {
         "BodyName": "Tyriedgaa FY-H d10-2 3",
@@ -172,7 +192,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 244283980.131149,
+        "Eccentricity": 0.18923,
+        "OrbitalPeriod": 6670900.225639,
+        "OrbitalInclination": 8.551212
       },
       {
         "BodyName": "Tyriedgaa FY-H d10-2 4",
@@ -186,7 +210,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 338926947.116852,
+        "Eccentricity": 0.18923,
+        "OrbitalPeriod": 6670900.225639,
+        "OrbitalInclination": 8.551212
       },
       {
         "BodyName": "Tyriedgaa FY-H d10-2 1",
@@ -200,7 +228,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 100703072547.9126,
+        "Eccentricity": 3.4e-05,
+        "OrbitalPeriod": 17096956.968307,
+        "OrbitalInclination": -0.177084
       },
       {
         "BodyName": "Tyriedgaa FY-H d10-2 8 a",
@@ -214,7 +246,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2636525511.741638,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 35815559.029579,
+        "OrbitalInclination": 51.68301
       },
       {
         "BodyName": "Tyriedgaa FY-H d10-2 8",
@@ -228,7 +264,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 756157177686.6913,
+        "Eccentricity": 0.001095,
+        "OrbitalPeriod": 351781368.255615,
+        "OrbitalInclination": 2.248634
       }
     ]
   },

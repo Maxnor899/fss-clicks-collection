@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.586033+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.000644+00:00",
     "log_files": [
       "Journal.2026-02-09T082520.01.log"
     ]
@@ -40,8 +40,8 @@
     "stars": {
       "n_stars": 2,
       "types": [
-        "K",
-        "M"
+        "M",
+        "K"
       ]
     },
     "signals": {
@@ -115,7 +115,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 806406325101.8524,
+        "Eccentricity": 0.000817,
+        "OrbitalPeriod": 777778345.346451,
+        "OrbitalInclination": -1.011716
       },
       {
         "BodyName": "Blu Theia MF-S c19-0 B 8 a",
@@ -129,7 +133,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1711785554.885864,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 52570459.842682,
+        "OrbitalInclination": -72.589587
       },
       {
         "BodyName": "Blu Theia MF-S c19-0 B 2",
@@ -143,7 +151,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 133963400125.50354,
+        "Eccentricity": 4e-06,
+        "OrbitalPeriod": 52662832.140923,
+        "OrbitalInclination": 0.002415
       },
       {
         "BodyName": "Blu Theia MF-S c19-0 B 6",
@@ -157,7 +169,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 370732790.231705,
+        "Eccentricity": 0.14999,
+        "OrbitalPeriod": 24140624.403954,
+        "OrbitalInclination": 0.051825
       },
       {
         "BodyName": "Blu Theia MF-S c19-0 B 7",
@@ -171,7 +187,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 381740921.735764,
+        "Eccentricity": 0.14999,
+        "OrbitalPeriod": 24140624.403954,
+        "OrbitalInclination": 0.051825
       },
       {
         "BodyName": "Blu Theia MF-S c19-0 B 1",
@@ -185,7 +205,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 103885370492.93518,
+        "Eccentricity": 6e-06,
+        "OrbitalPeriod": 35963050.723076,
+        "OrbitalInclination": 0.0112
       },
       {
         "BodyName": "Blu Theia MF-S c19-0 B 4",
@@ -199,7 +223,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 218782854.0802,
+        "Eccentricity": 0.019494,
+        "OrbitalPeriod": 7347492.098808,
+        "OrbitalInclination": -8.17251
       },
       {
         "BodyName": "Blu Theia MF-S c19-0 B 3",
@@ -213,7 +241,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 155071198.940277,
+        "Eccentricity": 0.019494,
+        "OrbitalPeriod": 7347492.098808,
+        "OrbitalInclination": -8.17251
       },
       {
         "BodyName": "Blu Theia MF-S c19-0 B 5 a",
@@ -227,7 +259,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 513560706.377029,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 11899877.19059,
+        "OrbitalInclination": -67.667613
       },
       {
         "BodyName": "Blu Theia MF-S c19-0 B 5",
@@ -241,7 +277,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 323404508829.1168,
+        "Eccentricity": 0.001577,
+        "OrbitalPeriod": 197535002.231598,
+        "OrbitalInclination": -0.136038
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.602032+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.016822+00:00",
     "log_files": [
       "Journal.2026-02-09T205244.01.log"
     ]
@@ -33,19 +33,19 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "Rocky ice body",
-        "Rocky body",
         "Ammonia world",
-        "High metal content body"
+        "Rocky body",
+        "High metal content body",
+        "Icy body",
+        "Rocky ice body"
       ]
     },
     "stars": {
       "n_stars": 4,
       "types": [
+        "M",
         "L",
-        "K",
-        "M"
+        "K"
       ]
     },
     "signals": {
@@ -157,7 +157,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 34713311195.373535,
+        "Eccentricity": 0.000642,
+        "OrbitalPeriod": 5195193.171501,
+        "OrbitalInclination": -0.502208
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 BC 4",
@@ -171,7 +175,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 64710599184.036255,
+        "Eccentricity": 0.00774,
+        "OrbitalPeriod": 13222719.430923,
+        "OrbitalInclination": 0.647535
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 BC 5",
@@ -185,7 +193,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 81787412762.6419,
+        "Eccentricity": 3.8e-05,
+        "OrbitalPeriod": 18788295.388222,
+        "OrbitalInclination": -0.513933
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 BC 6",
@@ -199,7 +211,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 116986674070.35828,
+        "Eccentricity": 0.002012,
+        "OrbitalPeriod": 32141210.436821,
+        "OrbitalInclination": -0.01844
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 BC 2",
@@ -213,7 +229,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 20719395.875931,
+        "Eccentricity": 0.022597,
+        "OrbitalPeriod": 1031263.291836,
+        "OrbitalInclination": 7.442698
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 BC 3",
@@ -227,7 +247,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 27152903.676033,
+        "Eccentricity": 0.022597,
+        "OrbitalPeriod": 1031263.291836,
+        "OrbitalInclination": 7.442698
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 D 1",
@@ -241,7 +265,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 43887857794.76166,
+        "Eccentricity": 4.5e-05,
+        "OrbitalPeriod": 7481067.121029,
+        "OrbitalInclination": -0.109911
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 D 7",
@@ -255,7 +283,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1002566814.422607,
+        "Eccentricity": 0.160039,
+        "OrbitalPeriod": 63874968.886375,
+        "OrbitalInclination": 9.036452
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 D 8",
@@ -269,7 +301,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1389401257.038116,
+        "Eccentricity": 0.160039,
+        "OrbitalPeriod": 63874968.886375,
+        "OrbitalInclination": 9.036452
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 D 6",
@@ -283,7 +319,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 999543845.653534,
+        "Eccentricity": 0.108496,
+        "OrbitalPeriod": 29736948.609352,
+        "OrbitalInclination": -2.322264
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 D 5",
@@ -297,7 +337,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 567290931.940079,
+        "Eccentricity": 0.108496,
+        "OrbitalPeriod": 29736948.609352,
+        "OrbitalInclination": -2.322264
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 D 4",
@@ -311,7 +355,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 107721138000.48828,
+        "Eccentricity": 0.000224,
+        "OrbitalPeriod": 28767250.776291,
+        "OrbitalInclination": -0.222459
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 D 2 a",
@@ -325,7 +373,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 109406352.043152,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 1077620.029449,
+        "OrbitalInclination": 89.312991
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 D 2",
@@ -339,7 +391,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 57894976735.11505,
+        "Eccentricity": 2.4e-05,
+        "OrbitalPeriod": 11334654.688835,
+        "OrbitalInclination": -0.004628
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 D 3",
@@ -353,7 +409,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 83016223311.42426,
+        "Eccentricity": 7.6e-05,
+        "OrbitalPeriod": 19462177.753448,
+        "OrbitalInclination": -0.013867
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 D 9",
@@ -367,7 +427,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 263126200437.54578,
+        "Eccentricity": 6.5e-05,
+        "OrbitalPeriod": 109822946.78688,
+        "OrbitalInclination": 0.05344
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 A 2 a",
@@ -381,7 +445,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 17835732.698441,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 87548.359036,
+        "OrbitalInclination": 54.027568
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 A 2",
@@ -395,7 +463,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 20515902042.388916,
+        "Eccentricity": 0.000245,
+        "OrbitalPeriod": 1955105.364323,
+        "OrbitalInclination": -0.067201
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 A 8",
@@ -409,7 +481,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 131568276882.17163,
+        "Eccentricity": 0.000327,
+        "OrbitalPeriod": 31751262.545586,
+        "OrbitalInclination": -0.068104
       },
       {
         "BodyName": "Blo Thae FM-A c15-0 A 3",
@@ -423,7 +499,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 26278584599.494934,
+        "Eccentricity": 0.000175,
+        "OrbitalPeriod": 2834243.237972,
+        "OrbitalInclination": -0.006712
       }
     ]
   },

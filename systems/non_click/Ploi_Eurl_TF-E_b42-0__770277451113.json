@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.529147+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.942819+00:00",
     "log_files": [
       "Journal.2026-02-03T201109.01.log"
     ]
@@ -33,15 +33,15 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
       "n_stars": 2,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -131,7 +131,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 925342166423.7976,
+        "Eccentricity": 0.002019,
+        "OrbitalPeriod": 1294476866.722107,
+        "OrbitalInclination": 0.546509
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 B 7 a",
@@ -145,7 +149,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2212605297.56546,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 57418127.059937,
+        "OrbitalInclination": -29.063507
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 A 5",
@@ -159,7 +167,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 341186094284.0576,
+        "Eccentricity": 0.003549,
+        "OrbitalPeriod": 217337614.297867,
+        "OrbitalInclination": -0.419903
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 B 6",
@@ -173,7 +185,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 570298534631.7291,
+        "Eccentricity": 0.001072,
+        "OrbitalPeriod": 626316916.942596,
+        "OrbitalInclination": -1.590122
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 A 7",
@@ -195,7 +211,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1020482420921.3257,
+        "Eccentricity": 0.004418,
+        "OrbitalPeriod": 1124232769.012451,
+        "OrbitalInclination": 2.557499
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 B 5",
@@ -209,7 +229,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 323288071155.5481,
+        "Eccentricity": 0.002148,
+        "OrbitalPeriod": 267316180.467606,
+        "OrbitalInclination": -0.028832
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 B 1",
@@ -223,7 +247,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 103465646505.35583,
+        "Eccentricity": 0.001443,
+        "OrbitalPeriod": 48398844.599724,
+        "OrbitalInclination": 0.017439
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 B 4",
@@ -237,7 +265,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 253870785236.35864,
+        "Eccentricity": 3.2e-05,
+        "OrbitalPeriod": 186020094.156265,
+        "OrbitalInclination": -0.280602
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 B 3",
@@ -251,7 +283,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 187523609399.79553,
+        "Eccentricity": 0.000441,
+        "OrbitalPeriod": 118093150.854111,
+        "OrbitalInclination": -0.288907
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 B 3 a",
@@ -265,7 +301,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 508855754.137039,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 8559418.49947,
+        "OrbitalInclination": 54.457382
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 B 2",
@@ -279,7 +319,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 135077089071.2738,
+        "Eccentricity": 5.1e-05,
+        "OrbitalPeriod": 72196028.232574,
+        "OrbitalInclination": 0.559681
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 A 4",
@@ -293,7 +337,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 188073164224.62463,
+        "Eccentricity": 1.6e-05,
+        "OrbitalPeriod": 88948416.113853,
+        "OrbitalInclination": -0.056979
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 A 1",
@@ -307,7 +355,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 78231401443.48145,
+        "Eccentricity": 9e-06,
+        "OrbitalPeriod": 23862699.270248,
+        "OrbitalInclination": -0.155659
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 A 3",
@@ -321,7 +373,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 114529925.584793,
+        "Eccentricity": 0.178797,
+        "OrbitalPeriod": 957602.04196,
+        "OrbitalInclination": -9.416742
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 A 2",
@@ -335,7 +391,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 30152350.664139,
+        "Eccentricity": 0.178797,
+        "OrbitalPeriod": 957602.04196,
+        "OrbitalInclination": -9.416742
       },
       {
         "BodyName": "Ploi Eurl TF-E b42-0 A 6",
@@ -349,7 +409,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 552039408683.7769,
+        "Eccentricity": 0.000106,
+        "OrbitalPeriod": 447304290.533066,
+        "OrbitalInclination": -0.167464
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.590306+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.004454+00:00",
     "log_files": [
       "Journal.2026-02-09T151317.01.log"
     ]
@@ -33,9 +33,9 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
-        "Rocky body"
+        "Rocky body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -100,7 +100,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 686139398813.2477,
+        "Eccentricity": 0.001657,
+        "OrbitalPeriod": 377045571.804047,
+        "OrbitalInclination": 0.029149
       },
       {
         "BodyName": "Tyriedgoea XO-V c17-0 1",
@@ -114,7 +118,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 117194575071.33484,
+        "Eccentricity": 0.000976,
+        "OrbitalPeriod": 26615621.447563,
+        "OrbitalInclination": -0.002558
       },
       {
         "BodyName": "Tyriedgoea XO-V c17-0 7 a",
@@ -128,7 +136,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1876392066.478729,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 65568122.86377,
+        "OrbitalInclination": -2.401624
       },
       {
         "BodyName": "Tyriedgoea XO-V c17-0 7",
@@ -142,7 +154,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1266055583953.8574,
+        "Eccentricity": 0.036543,
+        "OrbitalPeriod": 945049393.177032,
+        "OrbitalInclination": 9.840269
       },
       {
         "BodyName": "Tyriedgoea XO-V c17-0 5",
@@ -156,7 +172,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 437799841165.5426,
+        "Eccentricity": 0.000226,
+        "OrbitalPeriod": 192171400.785446,
+        "OrbitalInclination": -0.22766
       },
       {
         "BodyName": "Tyriedgoea XO-V c17-0 4",
@@ -170,7 +190,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 312192690372.46704,
+        "Eccentricity": 0.000374,
+        "OrbitalPeriod": 115720272.064209,
+        "OrbitalInclination": 1.273223
       },
       {
         "BodyName": "Tyriedgoea XO-V c17-0 3 a",
@@ -184,7 +208,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 109993928.670883,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 3873403.608799,
+        "OrbitalInclination": 19.287068
       },
       {
         "BodyName": "Tyriedgoea XO-V c17-0 3",
@@ -198,7 +226,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 224574291706.0852,
+        "Eccentricity": 0.001331,
+        "OrbitalPeriod": 70601733.326912,
+        "OrbitalInclination": -0.070974
       },
       {
         "BodyName": "Tyriedgoea XO-V c17-0 2",
@@ -212,7 +244,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 165600746870.0409,
+        "Eccentricity": 1.7e-05,
+        "OrbitalPeriod": 44706307.053566,
+        "OrbitalInclination": -0.010566
       }
     ]
   },

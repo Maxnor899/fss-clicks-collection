@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.620092+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.033537+00:00",
     "log_files": [
       "Journal.2026-02-11T134714.01.log"
     ]
@@ -33,10 +33,10 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Sudarsky class I gas giant",
-        "Icy body",
         "High metal content body",
-        "Sudarsky class II gas giant"
+        "Sudarsky class I gas giant",
+        "Sudarsky class II gas giant",
+        "Icy body"
       ]
     },
     "stars": {
@@ -131,7 +131,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4388486742.973328,
+        "Eccentricity": 6.9e-05,
+        "OrbitalPeriod": 207996.553183,
+        "OrbitalInclination": -0.00238
       },
       {
         "BodyName": "Swoidai MC-M c10-24 2",
@@ -145,7 +149,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 7611219286.91864,
+        "Eccentricity": 2.3e-05,
+        "OrbitalPeriod": 475078.588724,
+        "OrbitalInclination": -0.026591
       },
       {
         "BodyName": "Swoidai MC-M c10-24 10 a",
@@ -159,7 +167,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 149597978.591919,
+        "Eccentricity": 0.003338,
+        "OrbitalPeriod": 198795.253038,
+        "OrbitalInclination": -0.98019
       },
       {
         "BodyName": "Swoidai MC-M c10-24 10",
@@ -181,7 +193,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5728875637.054443,
+        "Eccentricity": 0.164465,
+        "OrbitalPeriod": 59236793.518066,
+        "OrbitalInclination": -1.252149
       },
       {
         "BodyName": "Swoidai MC-M c10-24 10 b",
@@ -195,7 +211,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 311637961.864471,
+        "Eccentricity": 0.002725,
+        "OrbitalPeriod": 597713.458538,
+        "OrbitalInclination": -0.881301
       },
       {
         "BodyName": "Swoidai MC-M c10-24 5",
@@ -209,7 +229,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 42196530103.68347,
+        "Eccentricity": 5e-06,
+        "OrbitalPeriod": 6201535.463333,
+        "OrbitalInclination": 0.000492
       },
       {
         "BodyName": "Swoidai MC-M c10-24 9",
@@ -223,7 +247,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3494423389.434814,
+        "Eccentricity": 0.164465,
+        "OrbitalPeriod": 59236793.518066,
+        "OrbitalInclination": -1.252149
       },
       {
         "BodyName": "Swoidai MC-M c10-24 9 a",
@@ -237,7 +265,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 149597978.591919,
+        "Eccentricity": 0.000367,
+        "OrbitalPeriod": 155259.847641,
+        "OrbitalInclination": -1.157197
       },
       {
         "BodyName": "Swoidai MC-M c10-24 9 b",
@@ -251,7 +283,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 217633467.912674,
+        "Eccentricity": 0.001299,
+        "OrbitalPeriod": 272432.57761,
+        "OrbitalInclination": -1.839904
       },
       {
         "BodyName": "Swoidai MC-M c10-24 6",
@@ -273,7 +309,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 288074791431.427,
+        "Eccentricity": 0.003313,
+        "OrbitalPeriod": 110622119.903564,
+        "OrbitalInclination": -0.039935
       },
       {
         "BodyName": "Swoidai MC-M c10-24 6 d",
@@ -287,7 +327,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2081717252.731323,
+        "Eccentricity": 0.000488,
+        "OrbitalPeriod": 2072578.728199,
+        "OrbitalInclination": 1.059198
       },
       {
         "BodyName": "Swoidai MC-M c10-24 6 g",
@@ -301,7 +345,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3678549349.308014,
+        "Eccentricity": 0.001574,
+        "OrbitalPeriod": 4868479.609489,
+        "OrbitalInclination": -0.009387
       },
       {
         "BodyName": "Swoidai MC-M c10-24 6 e",
@@ -315,7 +363,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5396798.849106,
+        "Eccentricity": 0.174056,
+        "OrbitalPeriod": 343016.594648,
+        "OrbitalInclination": 1.11433
       },
       {
         "BodyName": "Swoidai MC-M c10-24 6 f",
@@ -329,7 +381,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5811566.114426,
+        "Eccentricity": 0.174056,
+        "OrbitalPeriod": 343016.594648,
+        "OrbitalInclination": 1.11433
       },
       {
         "BodyName": "Swoidai MC-M c10-24 6 a",
@@ -343,7 +399,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 452581608.295441,
+        "Eccentricity": 0.001423,
+        "OrbitalPeriod": 210098.880529,
+        "OrbitalInclination": -0.008998
       },
       {
         "BodyName": "Swoidai MC-M c10-24 6 c",
@@ -357,7 +417,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2859830.617905,
+        "Eccentricity": 0.194828,
+        "OrbitalPeriod": 90182.237029,
+        "OrbitalInclination": 9.04855
       },
       {
         "BodyName": "Swoidai MC-M c10-24 6 b",
@@ -371,7 +435,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1389008.939266,
+        "Eccentricity": 0.194828,
+        "OrbitalPeriod": 90182.237029,
+        "OrbitalInclination": 9.04855
       },
       {
         "BodyName": "Swoidai MC-M c10-24 8",
@@ -400,7 +468,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 523767590522.7661,
+        "Eccentricity": 0.002576,
+        "OrbitalPeriod": 271201425.790787,
+        "OrbitalInclination": -4.099714
       },
       {
         "BodyName": "Swoidai MC-M c10-24 8 b",
@@ -414,7 +486,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 913158845.901489,
+        "Eccentricity": 0.0001,
+        "OrbitalPeriod": 787642.598152,
+        "OrbitalInclination": 0.138318
       },
       {
         "BodyName": "Swoidai MC-M c10-24 8 d",
@@ -428,7 +504,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3036341.667175,
+        "Eccentricity": 0.092584,
+        "OrbitalPeriod": 199458.050728,
+        "OrbitalInclination": 5.906612
       },
       {
         "BodyName": "Swoidai MC-M c10-24 8 e",
@@ -442,7 +522,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3386473.059654,
+        "Eccentricity": 0.092584,
+        "OrbitalPeriod": 199458.050728,
+        "OrbitalInclination": 5.906612
       },
       {
         "BodyName": "Swoidai MC-M c10-24 8 c",
@@ -456,7 +540,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1299722552.2995,
+        "Eccentricity": 0.000121,
+        "OrbitalPeriod": 1337474.942207,
+        "OrbitalInclination": 0.024983
       },
       {
         "BodyName": "Swoidai MC-M c10-24 8 a",
@@ -470,7 +558,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 668583571.910858,
+        "Eccentricity": 0.000416,
+        "OrbitalPeriod": 493450.10519,
+        "OrbitalInclination": -0.000918
       },
       {
         "BodyName": "Swoidai MC-M c10-24 8 f",
@@ -484,7 +576,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4107890963.554382,
+        "Eccentricity": 0.005263,
+        "OrbitalPeriod": 7515156.984329,
+        "OrbitalInclination": 5.484774
       },
       {
         "BodyName": "Swoidai MC-M c10-24 7",
@@ -506,7 +602,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 382936656475.06714,
+        "Eccentricity": 0.007244,
+        "OrbitalPeriod": 169540917.873383,
+        "OrbitalInclination": 0.935914
       },
       {
         "BodyName": "Swoidai MC-M c10-24 7 a",
@@ -520,7 +620,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 484726011.753082,
+        "Eccentricity": 0.000324,
+        "OrbitalPeriod": 137991.589308,
+        "OrbitalInclination": -0.004585
       },
       {
         "BodyName": "Swoidai MC-M c10-24 7 b",
@@ -534,7 +638,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 765862828.493118,
+        "Eccentricity": 0.001217,
+        "OrbitalPeriod": 274052.995443,
+        "OrbitalInclination": 0.086761
       },
       {
         "BodyName": "Swoidai MC-M c10-24 7 c",
@@ -548,7 +656,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1429669022.56012,
+        "Eccentricity": 0.000484,
+        "OrbitalPeriod": 698974.573612,
+        "OrbitalInclination": 0.011848
       },
       {
         "BodyName": "Swoidai MC-M c10-24 7 d",
@@ -562,7 +674,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 10286065.340042,
+        "Eccentricity": 0.159588,
+        "OrbitalPeriod": 249827.939272,
+        "OrbitalInclination": 7.279011
       },
       {
         "BodyName": "Swoidai MC-M c10-24 7 e",
@@ -576,7 +692,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 11254481.077194,
+        "Eccentricity": 0.159588,
+        "OrbitalPeriod": 249827.939272,
+        "OrbitalInclination": 7.279011
       },
       {
         "BodyName": "Swoidai MC-M c10-24 7 f",
@@ -590,7 +710,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3255956113.33847,
+        "Eccentricity": 0.003336,
+        "OrbitalPeriod": 2402292.490005,
+        "OrbitalInclination": -0.002881
       },
       {
         "BodyName": "Swoidai MC-M c10-24 7 g",
@@ -604,7 +728,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5754589617.25235,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 5644554.376602,
+        "OrbitalInclination": 21.902241
       },
       {
         "BodyName": "Swoidai MC-M c10-24 4",
@@ -618,7 +746,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 23082482814.78882,
+        "Eccentricity": 0.000223,
+        "OrbitalPeriod": 2509041.190147,
+        "OrbitalInclination": 0.000313
       },
       {
         "BodyName": "Swoidai MC-M c10-24 3",
@@ -632,7 +764,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 13799875974.655151,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 1159836.769104,
+        "OrbitalInclination": -0.009529
       }
     ]
   },

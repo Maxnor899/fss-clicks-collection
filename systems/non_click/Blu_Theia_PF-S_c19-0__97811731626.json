@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.584224+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.999472+00:00",
     "log_files": [
       "Journal.2026-02-09T082520.01.log"
     ]
@@ -39,10 +39,10 @@
     "stars": {
       "n_stars": 4,
       "types": [
-        "L",
-        "K",
         "M",
-        "T"
+        "L",
+        "T",
+        "K"
       ]
     },
     "signals": {
@@ -146,7 +146,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1252526402473.4497,
+        "Eccentricity": 0.000896,
+        "OrbitalPeriod": 1696117043.495178,
+        "OrbitalInclination": 1.379314
       },
       {
         "BodyName": "Blu Theia PF-S c19-0 D 6 a",
@@ -160,7 +164,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4517076790.332794,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 88152292.966843,
+        "OrbitalInclination": -77.755143
       },
       {
         "BodyName": "Blu Theia PF-S c19-0 D 5",
@@ -174,7 +182,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 859509211778.6407,
+        "Eccentricity": 0.000513,
+        "OrbitalPeriod": 964164865.016937,
+        "OrbitalInclination": -3.903203
       },
       {
         "BodyName": "Blu Theia PF-S c19-0 D 3",
@@ -188,7 +200,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 265029519796.37146,
+        "Eccentricity": 0.000608,
+        "OrbitalPeriod": 165088510.513306,
+        "OrbitalInclination": -6.8e-05
       },
       {
         "BodyName": "Blu Theia PF-S c19-0 D 1",
@@ -202,7 +218,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 85495029687.88147,
+        "Eccentricity": 0.000752,
+        "OrbitalPeriod": 30247309.803963,
+        "OrbitalInclination": 0.001125
       },
       {
         "BodyName": "Blu Theia PF-S c19-0 D 2",
@@ -216,7 +236,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 154061973094.9402,
+        "Eccentricity": 0.000106,
+        "OrbitalPeriod": 73167577.981949,
+        "OrbitalInclination": 0.259225
       },
       {
         "BodyName": "Blu Theia PF-S c19-0 D 4",
@@ -230,7 +254,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 723988038301.4679,
+        "Eccentricity": 5.2e-05,
+        "OrbitalPeriod": 745371162.891388,
+        "OrbitalInclination": 0.002807
       }
     ]
   },

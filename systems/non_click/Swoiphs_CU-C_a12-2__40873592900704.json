@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.633794+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.047728+00:00",
     "log_files": [
       "Journal.2026-02-13T224149.01.log"
     ]
@@ -98,7 +98,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 99119347333.90808,
+        "Eccentricity": 0.000711,
+        "OrbitalPeriod": 102910691.49971,
+        "OrbitalInclination": 0.011501
       },
       {
         "BodyName": "Swoiphs CU-C a12-2 5",
@@ -112,7 +116,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1079193949699.4019,
+        "Eccentricity": 0.031641,
+        "OrbitalPeriod": 3697192430.496216,
+        "OrbitalInclination": -8.415011
       },
       {
         "BodyName": "Swoiphs CU-C a12-2 2",
@@ -126,7 +134,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 180078697204.58984,
+        "Eccentricity": 0.003647,
+        "OrbitalPeriod": 252009177.207947,
+        "OrbitalInclination": -1.183911
       },
       {
         "BodyName": "Swoiphs CU-C a12-2 4",
@@ -140,7 +152,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 603348416090.0116,
+        "Eccentricity": 5.2e-05,
+        "OrbitalPeriod": 1545521676.540375,
+        "OrbitalInclination": 0.128562
       },
       {
         "BodyName": "Swoiphs CU-C a12-2 7",
@@ -154,7 +170,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4027541041.374207,
+        "Eccentricity": 0.018048,
+        "OrbitalPeriod": 499483489.990234,
+        "OrbitalInclination": 2.6564
       },
       {
         "BodyName": "Swoiphs CU-C a12-2 6",
@@ -168,7 +188,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3632461667.060852,
+        "Eccentricity": 0.018048,
+        "OrbitalPeriod": 499483489.990234,
+        "OrbitalInclination": 2.6564
       },
       {
         "BodyName": "Swoiphs CU-C a12-2 3",
@@ -182,7 +206,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 337552571296.6919,
+        "Eccentricity": 0.007675,
+        "OrbitalPeriod": 646747809.648514,
+        "OrbitalInclination": -0.002117
       }
     ]
   },

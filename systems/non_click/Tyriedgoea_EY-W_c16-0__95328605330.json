@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.595547+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.008922+00:00",
     "log_files": [
       "Journal.2026-02-09T174314.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
+        "Icy body",
         "Rocky ice body"
       ]
     },
@@ -100,7 +100,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 411672502756.1188,
+        "Eccentricity": 3e-05,
+        "OrbitalPeriod": 172747802.734375,
+        "OrbitalInclination": -0.010106
       },
       {
         "BodyName": "Tyriedgoea EY-W c16-0 1",
@@ -114,7 +118,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 296051347255.7068,
+        "Eccentricity": 0.000641,
+        "OrbitalPeriod": 105350178.480148,
+        "OrbitalInclination": -0.290749
       },
       {
         "BodyName": "Tyriedgoea EY-W c16-0 7",
@@ -128,7 +136,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2430014133453.369,
+        "Eccentricity": 0.003051,
+        "OrbitalPeriod": 2477409958.839417,
+        "OrbitalInclination": -5.52442
       },
       {
         "BodyName": "Tyriedgoea EY-W c16-0 4",
@@ -142,7 +154,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 998147118091.5833,
+        "Eccentricity": 0.000114,
+        "OrbitalPeriod": 652193671.46492,
+        "OrbitalInclination": 0.018395
       },
       {
         "BodyName": "Tyriedgoea EY-W c16-0 6",
@@ -156,7 +172,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1710063576698.3032,
+        "Eccentricity": 0.004853,
+        "OrbitalPeriod": 1462524414.0625,
+        "OrbitalInclination": -4.318412
       },
       {
         "BodyName": "Tyriedgoea EY-W c16-0 3",
@@ -170,7 +190,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 575123631954.1931,
+        "Eccentricity": 0.00667,
+        "OrbitalPeriod": 285250568.389893,
+        "OrbitalInclination": -1.611933
       },
       {
         "BodyName": "Tyriedgoea EY-W c16-0 5",
@@ -184,7 +208,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1390853106975.5554,
+        "Eccentricity": 0.00092,
+        "OrbitalPeriod": 1072770059.108734,
+        "OrbitalInclination": 0.878618
       }
     ]
   },

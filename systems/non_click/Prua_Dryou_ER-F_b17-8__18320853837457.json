@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.625642+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.038909+00:00",
     "log_files": [
       "Journal.2026-02-11T164827.01.log"
     ]
@@ -33,11 +33,11 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "Rocky ice body",
-        "Rocky body",
         "Sudarsky class I gas giant",
-        "High metal content body"
+        "Rocky body",
+        "High metal content body",
+        "Icy body",
+        "Rocky ice body"
       ]
     },
     "stars": {
@@ -118,7 +118,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 417518758.773804,
+        "Eccentricity": 0.037715,
+        "OrbitalPeriod": 6376851.916313,
+        "OrbitalInclination": -4.834305
       },
       {
         "BodyName": "Prua Dryou ER-F b17-8 1 a",
@@ -132,7 +136,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 106907892.227173,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 391451.847553,
+        "OrbitalInclination": 59.103082
       },
       {
         "BodyName": "Prua Dryou ER-F b17-8 2",
@@ -146,7 +154,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 440472877.025604,
+        "Eccentricity": 0.037715,
+        "OrbitalPeriod": 6376851.916313,
+        "OrbitalInclination": -4.834305
       },
       {
         "BodyName": "Prua Dryou ER-F b17-8 6",
@@ -160,7 +172,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 537579894065.85693,
+        "Eccentricity": 0.000907,
+        "OrbitalPeriod": 411004668.474197,
+        "OrbitalInclination": -2.003756
       },
       {
         "BodyName": "Prua Dryou ER-F b17-8 6 a",
@@ -174,7 +190,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 480862617.492676,
+        "Eccentricity": 8.6e-05,
+        "OrbitalPeriod": 2080969.572067,
+        "OrbitalInclination": 0.012782
       },
       {
         "BodyName": "Prua Dryou ER-F b17-8 6 b",
@@ -188,7 +208,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1134524405.002594,
+        "Eccentricity": 0.006263,
+        "OrbitalPeriod": 7541453.003883,
+        "OrbitalInclination": -0.007884
       },
       {
         "BodyName": "Prua Dryou ER-F b17-8 5",
@@ -202,7 +226,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 431743919849.39575,
+        "Eccentricity": 0.002102,
+        "OrbitalPeriod": 295815896.987915,
+        "OrbitalInclination": -0.249205
       },
       {
         "BodyName": "Prua Dryou ER-F b17-8 5 a",
@@ -216,7 +244,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1703082203.865051,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 11036041.378975,
+        "OrbitalInclination": 68.547618
       },
       {
         "BodyName": "Prua Dryou ER-F b17-8 3",
@@ -230,7 +262,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 265605270862.57935,
+        "Eccentricity": 7.5e-05,
+        "OrbitalPeriod": 142737227.678299,
+        "OrbitalInclination": 1.096103
       },
       {
         "BodyName": "Prua Dryou ER-F b17-8 4",
@@ -244,7 +280,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 317014634609.2224,
+        "Eccentricity": 0.000336,
+        "OrbitalPeriod": 186123496.294022,
+        "OrbitalInclination": -0.007454
       },
       {
         "BodyName": "Prua Dryou ER-F b17-8 7",
@@ -266,7 +306,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 801864385604.8584,
+        "Eccentricity": 0.000745,
+        "OrbitalPeriod": 748744463.920593,
+        "OrbitalInclination": -0.061169
       }
     ]
   },

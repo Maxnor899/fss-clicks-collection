@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.521345+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.933963+00:00",
     "log_files": [
       "Journal.2026-02-01T131305.01.log"
     ]
@@ -33,9 +33,9 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
-        "Rocky body"
+        "Rocky body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -100,7 +100,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 219902265071.8689,
+        "Eccentricity": 0.001156,
+        "OrbitalPeriod": 66880784.630775,
+        "OrbitalInclination": -0.001769
       },
       {
         "BodyName": "Ploi Eurl CX-Q c6-0 2 a",
@@ -114,7 +118,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 377775764.465332,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 4663755.357265,
+        "OrbitalInclination": -86.686538
       },
       {
         "BodyName": "Ploi Eurl CX-Q c6-0 5",
@@ -128,7 +136,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 552318793535.2325,
+        "Eccentricity": 0.001019,
+        "OrbitalPeriod": 266220557.689667,
+        "OrbitalInclination": -0.614652
       },
       {
         "BodyName": "Ploi Eurl CX-Q c6-0 5 a",
@@ -142,7 +154,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 982159376.144409,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 11627370.715141,
+        "OrbitalInclination": 76.061226
       },
       {
         "BodyName": "Ploi Eurl CX-Q c6-0 7",
@@ -156,7 +172,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 946447747945.7855,
+        "Eccentricity": 0.170318,
+        "OrbitalPeriod": 597175329.92363,
+        "OrbitalInclination": 119.312231
       },
       {
         "BodyName": "Ploi Eurl CX-Q c6-0 1",
@@ -170,7 +190,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 168988591432.5714,
+        "Eccentricity": 0.001008,
+        "OrbitalPeriod": 45054995.417595,
+        "OrbitalInclination": -0.34565
       },
       {
         "BodyName": "Ploi Eurl CX-Q c6-0 4",
@@ -184,7 +208,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 384712827205.65796,
+        "Eccentricity": 0.001296,
+        "OrbitalPeriod": 154761129.617691,
+        "OrbitalInclination": 0.891184
       },
       {
         "BodyName": "Ploi Eurl CX-Q c6-0 3",
@@ -198,7 +226,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 312932062149.04785,
+        "Eccentricity": 0.001791,
+        "OrbitalPeriod": 113535577.058792,
+        "OrbitalInclination": 0.001064
       },
       {
         "BodyName": "Ploi Eurl CX-Q c6-0 6",
@@ -212,7 +244,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 716959989070.8923,
+        "Eccentricity": 0.000314,
+        "OrbitalPeriod": 393730682.134628,
+        "OrbitalInclination": 0.064707
       }
     ]
   },

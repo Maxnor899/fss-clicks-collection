@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.539669+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.954589+00:00",
     "log_files": [
       "Journal.2026-02-04T182059.01.log"
     ]
@@ -33,11 +33,11 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
+        "Sudarsky class I gas giant",
         "Gas giant with ammonia based life",
-        "Sudarsky class III gas giant",
-        "Icy body",
         "Rocky body",
-        "Sudarsky class I gas giant"
+        "Sudarsky class III gas giant",
+        "Icy body"
       ]
     },
     "stars": {
@@ -132,7 +132,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1984707713.127136,
+        "Eccentricity": 0.009015,
+        "OrbitalPeriod": 8758225.20256,
+        "OrbitalInclination": -0.242912
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 6 c",
@@ -146,7 +150,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1013607382.774353,
+        "Eccentricity": 0.002012,
+        "OrbitalPeriod": 3196508.765221,
+        "OrbitalInclination": 0.009399
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 6 a",
@@ -160,7 +168,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 334563732.147217,
+        "Eccentricity": 0.000137,
+        "OrbitalPeriod": 606163.161993,
+        "OrbitalInclination": 0.31548
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 6",
@@ -189,7 +201,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1311030924320.221,
+        "Eccentricity": 0.018662,
+        "OrbitalPeriod": 1091962814.331055,
+        "OrbitalInclination": -0.280953
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 6 d",
@@ -203,7 +219,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1384813785.552979,
+        "Eccentricity": 0.000722,
+        "OrbitalPeriod": 5104559.838772,
+        "OrbitalInclination": 0.56775
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 6 b",
@@ -217,7 +237,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 517512142.658234,
+        "Eccentricity": 0.000218,
+        "OrbitalPeriod": 1166143.655777,
+        "OrbitalInclination": 0.002702
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 5",
@@ -246,7 +270,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 7487652897.834778,
+        "Eccentricity": 0.172676,
+        "OrbitalPeriod": 42023297.548294,
+        "OrbitalInclination": -9.350044
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 5 a",
@@ -260,7 +288,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 149597978.591919,
+        "Eccentricity": 0.000123,
+        "OrbitalPeriod": 65424.398184,
+        "OrbitalInclination": -0.154834
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 5 b",
@@ -274,7 +306,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 188546979.427338,
+        "Eccentricity": 0.000134,
+        "OrbitalPeriod": 92572.187185,
+        "OrbitalInclination": -0.00829
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 4 c",
@@ -288,7 +324,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1161403059.959412,
+        "Eccentricity": 0.007904,
+        "OrbitalPeriod": 1346962.928772,
+        "OrbitalInclination": -4.266739
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 4",
@@ -310,7 +350,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 6782747268.676758,
+        "Eccentricity": 0.172676,
+        "OrbitalPeriod": 42023297.548294,
+        "OrbitalInclination": -9.350044
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 4 a",
@@ -324,7 +368,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 242630481.719971,
+        "Eccentricity": 0.000235,
+        "OrbitalPeriod": 128617.26284,
+        "OrbitalInclination": -0.341899
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 4 b",
@@ -338,7 +386,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 432011783.123016,
+        "Eccentricity": 0.000139,
+        "OrbitalPeriod": 305579.74577,
+        "OrbitalInclination": -0.082001
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 2",
@@ -367,7 +419,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 153660851.716995,
+        "Eccentricity": 0.198354,
+        "OrbitalPeriod": 15512941.479683,
+        "OrbitalInclination": -1.291066
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 2 a",
@@ -381,7 +437,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 678333753.347397,
+        "Eccentricity": 0.004919,
+        "OrbitalPeriod": 239971.548319,
+        "OrbitalInclination": -0.023653
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 2 b",
@@ -395,7 +455,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1067379951.477051,
+        "Eccentricity": 0.000836,
+        "OrbitalPeriod": 473667.07325,
+        "OrbitalInclination": -0.089435
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 1",
@@ -424,7 +488,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 468033534288.4064,
+        "Eccentricity": 0.000484,
+        "OrbitalPeriod": 232918417.453766,
+        "OrbitalInclination": -0.001777
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 1 a",
@@ -438,7 +506,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 455589574.575424,
+        "Eccentricity": 1e-06,
+        "OrbitalPeriod": 74493.126869,
+        "OrbitalInclination": 0.005785
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 1 c",
@@ -452,7 +524,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5379577.875137,
+        "Eccentricity": 0.111819,
+        "OrbitalPeriod": 110523.062944,
+        "OrbitalInclination": -3.103403
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 1 b",
@@ -466,7 +542,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5325910.329819,
+        "Eccentricity": 0.111819,
+        "OrbitalPeriod": 110523.062944,
+        "OrbitalInclination": -3.103403
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 1 d",
@@ -480,7 +560,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 7059908032.417297,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 4544165.13443,
+        "OrbitalInclination": -56.804873
       },
       {
         "BodyName": "Ploi Eurl GC-Q c20-2 3",
@@ -509,7 +593,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 10823931097.984314,
+        "Eccentricity": 0.198354,
+        "OrbitalPeriod": 15512941.479683,
+        "OrbitalInclination": -1.291066
       }
     ]
   },

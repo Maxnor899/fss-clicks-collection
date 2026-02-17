@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.530004+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.943684+00:00",
     "log_files": [
       "Journal.2026-02-04T121557.01.log"
     ]
@@ -98,7 +98,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 342367786169.0521,
+        "Eccentricity": 0.001178,
+        "OrbitalPeriod": 184252548.217773,
+        "OrbitalInclination": -0.005382
       },
       {
         "BodyName": "Ploi Eurl QP-V b46-0 3",
@@ -112,7 +116,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 253188252449.03564,
+        "Eccentricity": 0.001918,
+        "OrbitalPeriod": 117176222.801208,
+        "OrbitalInclination": 0.127178
       },
       {
         "BodyName": "Ploi Eurl QP-V b46-0 5",
@@ -126,7 +134,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 989490985870.3613,
+        "Eccentricity": 0.013243,
+        "OrbitalPeriod": 905298805.236816,
+        "OrbitalInclination": -0.740278
       },
       {
         "BodyName": "Ploi Eurl QP-V b46-0 2",
@@ -140,7 +152,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 140362423658.37097,
+        "Eccentricity": 0.000132,
+        "OrbitalPeriod": 48367146.849632,
+        "OrbitalInclination": -0.00275
       },
       {
         "BodyName": "Ploi Eurl QP-V b46-0 6",
@@ -154,7 +170,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1304987788200.3784,
+        "Eccentricity": 0.009986,
+        "OrbitalPeriod": 1371146380.901337,
+        "OrbitalInclination": -1.610749
       },
       {
         "BodyName": "Ploi Eurl QP-V b46-0 1",
@@ -168,7 +188,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 108997106552.12402,
+        "Eccentricity": 5.8e-05,
+        "OrbitalPeriod": 33097608.089447,
+        "OrbitalInclination": 0.01956
       }
     ]
   },

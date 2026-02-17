@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.510387+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.924716+00:00",
     "log_files": [
       "Journal.2026-02-01T074904.01.log"
     ]
@@ -115,7 +115,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 67639666795.73059,
+        "Eccentricity": 0.109155,
+        "OrbitalPeriod": 25945748.68679,
+        "OrbitalInclination": 22.005988
       },
       {
         "BodyName": "Preae Thae IE-C c28-0 B 6",
@@ -129,7 +133,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 46871681809.425354,
+        "Eccentricity": 0.000965,
+        "OrbitalPeriod": 14966831.207275,
+        "OrbitalInclination": -0.019663
       },
       {
         "BodyName": "Preae Thae IE-C c28-0 B 5",
@@ -143,7 +151,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 36999066.472054,
+        "Eccentricity": 0.122072,
+        "OrbitalPeriod": 858917.987347,
+        "OrbitalInclination": -2.159115
       },
       {
         "BodyName": "Preae Thae IE-C c28-0 B 4",
@@ -157,7 +169,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 23266364.336014,
+        "Eccentricity": 0.122072,
+        "OrbitalPeriod": 858917.987347,
+        "OrbitalInclination": -2.159115
       },
       {
         "BodyName": "Preae Thae IE-C c28-0 B 1",
@@ -171,7 +187,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 11432524919.509888,
+        "Eccentricity": 0.000117,
+        "OrbitalPeriod": 1802923.560143,
+        "OrbitalInclination": -0.066018
       },
       {
         "BodyName": "Preae Thae IE-C c28-0 B 3",
@@ -185,7 +205,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 19581452012.062073,
+        "Eccentricity": 0.003318,
+        "OrbitalPeriod": 4041395.843029,
+        "OrbitalInclination": -0.003057
       },
       {
         "BodyName": "Preae Thae IE-C c28-0 B 2",
@@ -199,7 +223,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 15422862172.12677,
+        "Eccentricity": 0.000916,
+        "OrbitalPeriod": 2824954.688549,
+        "OrbitalInclination": -0.009787
       }
     ]
   },

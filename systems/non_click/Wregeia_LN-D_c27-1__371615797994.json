@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.531666+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.946152+00:00",
     "log_files": [
       "Journal.2026-02-04T160325.01.log"
     ]
@@ -39,9 +39,9 @@
     "stars": {
       "n_stars": 3,
       "types": [
-        "K",
         "M",
-        "T"
+        "T",
+        "K"
       ]
     },
     "signals": {
@@ -162,7 +162,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 17133752.10762,
+        "Eccentricity": 0.003886,
+        "OrbitalPeriod": 171450.656652,
+        "OrbitalInclination": 9.791533
       },
       {
         "BodyName": "Wregeia LN-D c27-1 A 2",
@@ -176,7 +180,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 21343465.447426,
+        "Eccentricity": 0.003886,
+        "OrbitalPeriod": 171450.656652,
+        "OrbitalInclination": 9.791533
       },
       {
         "BodyName": "Wregeia LN-D c27-1 A 7",
@@ -190,7 +198,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 34854984283.447266,
+        "Eccentricity": 0.000195,
+        "OrbitalPeriod": 4590386.807919,
+        "OrbitalInclination": 0.135611
       },
       {
         "BodyName": "Wregeia LN-D c27-1 C 1",
@@ -204,7 +216,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1879835963.249207,
+        "Eccentricity": 0.000491,
+        "OrbitalPeriod": 167626.392841,
+        "OrbitalInclination": 0.041142
       },
       {
         "BodyName": "Wregeia LN-D c27-1 C 3",
@@ -218,7 +234,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3364101469.516754,
+        "Eccentricity": 4.8e-05,
+        "OrbitalPeriod": 401297.152042,
+        "OrbitalInclination": 0.099354
       },
       {
         "BodyName": "Wregeia LN-D c27-1 C 2",
@@ -232,7 +252,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2622998714.447021,
+        "Eccentricity": 0.000105,
+        "OrbitalPeriod": 276286.447048,
+        "OrbitalInclination": -0.566797
       },
       {
         "BodyName": "Wregeia LN-D c27-1 C 4",
@@ -246,7 +270,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4655590713.024139,
+        "Eccentricity": 0.025429,
+        "OrbitalPeriod": 653318.053484,
+        "OrbitalInclination": -0.492
       },
       {
         "BodyName": "Wregeia LN-D c27-1 B 5",
@@ -260,7 +288,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 9826928.973198,
+        "Eccentricity": 0.038411,
+        "OrbitalPeriod": 175031.95405,
+        "OrbitalInclination": -4.636232
       },
       {
         "BodyName": "Wregeia LN-D c27-1 B 6",
@@ -274,7 +306,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 12903015.613556,
+        "Eccentricity": 0.038411,
+        "OrbitalPeriod": 175031.95405,
+        "OrbitalInclination": -4.636232
       },
       {
         "BodyName": "Wregeia LN-D c27-1 B 3",
@@ -288,7 +324,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4408816397.190094,
+        "Eccentricity": 0.004726,
+        "OrbitalPeriod": 275443.202257,
+        "OrbitalInclination": -0.012977
       },
       {
         "BodyName": "Wregeia LN-D c27-1 B 2",
@@ -302,7 +342,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3024902760.982513,
+        "Eccentricity": 0.000111,
+        "OrbitalPeriod": 156536.728144,
+        "OrbitalInclination": 0.281583
       },
       {
         "BodyName": "Wregeia LN-D c27-1 B 1",
@@ -316,7 +360,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2338393211.364746,
+        "Eccentricity": 0.000697,
+        "OrbitalPeriod": 106396.03138,
+        "OrbitalInclination": 0.004839
       },
       {
         "BodyName": "Wregeia LN-D c27-1 B 4",
@@ -330,7 +378,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 8888144195.079803,
+        "Eccentricity": 0.002805,
+        "OrbitalPeriod": 788434.791565,
+        "OrbitalInclination": 0.022144
       },
       {
         "BodyName": "Wregeia LN-D c27-1 A 4",
@@ -344,7 +396,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 14701002836.227417,
+        "Eccentricity": 9e-06,
+        "OrbitalPeriod": 1257396.936417,
+        "OrbitalInclination": -0.482251
       },
       {
         "BodyName": "Wregeia LN-D c27-1 A 3",
@@ -358,7 +414,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 11060583591.461182,
+        "Eccentricity": 1.2e-05,
+        "OrbitalPeriod": 820576.292276,
+        "OrbitalInclination": -0.069931
       },
       {
         "BodyName": "Wregeia LN-D c27-1 A 5",
@@ -372,7 +432,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 18683183193.206787,
+        "Eccentricity": 0.000462,
+        "OrbitalPeriod": 1801475.167274,
+        "OrbitalInclination": -0.000886
       },
       {
         "BodyName": "Wregeia LN-D c27-1 A 6",
@@ -386,7 +450,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 24156993627.548218,
+        "Eccentricity": 1.7e-05,
+        "OrbitalPeriod": 2648598.968983,
+        "OrbitalInclination": -0.695841
       }
     ]
   },

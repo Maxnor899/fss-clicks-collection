@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.672705+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.085970+00:00",
     "log_files": [
       "Journal.2026-02-15T104234.01.log"
     ]
@@ -128,7 +128,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5050418972.969055,
+        "Eccentricity": 1e-06,
+        "OrbitalPeriod": 287978.476286,
+        "OrbitalInclination": 0.000502
       },
       {
         "BodyName": "Tyriedgoea EM-K c9-0 3",
@@ -142,7 +146,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 8486465215.682983,
+        "Eccentricity": 2e-06,
+        "OrbitalPeriod": 627276.706696,
+        "OrbitalInclination": 0.000835
       },
       {
         "BodyName": "Tyriedgoea EM-K c9-0 1",
@@ -156,7 +164,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2827303409.576416,
+        "Eccentricity": 1e-06,
+        "OrbitalPeriod": 120622.27726,
+        "OrbitalInclination": -0.000147
       }
     ]
   },

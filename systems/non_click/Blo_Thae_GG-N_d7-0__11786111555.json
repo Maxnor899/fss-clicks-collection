@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.600395+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.013930+00:00",
     "log_files": [
       "Journal.2026-02-09T205244.01.log"
     ]
@@ -33,18 +33,18 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "Gas giant with water based life",
-        "Rocky ice body",
         "Rocky body",
-        "High metal content body"
+        "Gas giant with water based life",
+        "High metal content body",
+        "Icy body",
+        "Rocky ice body"
       ]
     },
     "stars": {
       "n_stars": 2,
       "types": [
-        "G",
-        "K"
+        "K",
+        "G"
       ]
     },
     "signals": {
@@ -163,7 +163,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 805651950836.1816,
+        "Eccentricity": 0.004476,
+        "OrbitalPeriod": 379516869.783401,
+        "OrbitalInclination": -0.666145
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 A 1 d",
@@ -177,7 +181,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3185540437.698364,
+        "Eccentricity": 4e-06,
+        "OrbitalPeriod": 2415406.227112,
+        "OrbitalInclination": 0.021128
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 A 1 e",
@@ -191,7 +199,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4031783938.407898,
+        "Eccentricity": 8.7e-05,
+        "OrbitalPeriod": 3439231.991768,
+        "OrbitalInclination": 0.070255
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 A 1 a",
@@ -205,7 +217,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1633365750.312805,
+        "Eccentricity": 0.001603,
+        "OrbitalPeriod": 886830.854416,
+        "OrbitalInclination": 0.070408
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 A 1 b",
@@ -219,7 +235,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2433573.544025,
+        "Eccentricity": 0.152494,
+        "OrbitalPeriod": 95947.536826,
+        "OrbitalInclination": -3.90367
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 A 1 c",
@@ -233,7 +253,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2594141.960144,
+        "Eccentricity": 0.152494,
+        "OrbitalPeriod": 95947.536826,
+        "OrbitalInclination": -3.90367
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 A 1 f",
@@ -247,7 +271,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5663620829.582214,
+        "Eccentricity": 0.001117,
+        "OrbitalPeriod": 5726072.54982,
+        "OrbitalInclination": 0.001765
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 B 7",
@@ -261,7 +289,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1400586664676.6663,
+        "Eccentricity": 0.002041,
+        "OrbitalPeriod": 1213720679.283142,
+        "OrbitalInclination": 1.342282
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 B 8",
@@ -275,7 +307,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2052687346935.2722,
+        "Eccentricity": 0.004251,
+        "OrbitalPeriod": 2153465509.414673,
+        "OrbitalInclination": 0.502973
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 B 3",
@@ -289,7 +325,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 433683180809.021,
+        "Eccentricity": 0.000219,
+        "OrbitalPeriod": 209128201.007843,
+        "OrbitalInclination": -0.263642
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 B 3 a",
@@ -303,7 +343,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 206987738.609314,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 4244225.859642,
+        "OrbitalInclination": 69.539139
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 B 1",
@@ -317,7 +361,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 259615999460.22034,
+        "Eccentricity": 0.001088,
+        "OrbitalPeriod": 96861450.076103,
+        "OrbitalInclination": 0.505915
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 B 6",
@@ -331,7 +379,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 820434653759.0027,
+        "Eccentricity": 0.005798,
+        "OrbitalPeriod": 544151425.361633,
+        "OrbitalInclination": 0.340528
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 B 5",
@@ -345,7 +397,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 161475354.43306,
+        "Eccentricity": 0.0044,
+        "OrbitalPeriod": 6324039.340019,
+        "OrbitalInclination": 7.86495
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 B 4",
@@ -359,7 +415,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 102313065.52887,
+        "Eccentricity": 0.0044,
+        "OrbitalPeriod": 6324039.340019,
+        "OrbitalInclination": 7.86495
       },
       {
         "BodyName": "Blo Thae GG-N d7-0 B 2",
@@ -373,7 +433,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 330979043245.31555,
+        "Eccentricity": 2e-05,
+        "OrbitalPeriod": 139429455.99556,
+        "OrbitalInclination": 0.421011
       }
     ]
   },

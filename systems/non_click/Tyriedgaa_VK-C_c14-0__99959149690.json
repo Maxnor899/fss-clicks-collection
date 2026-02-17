@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.567220+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.982963+00:00",
     "log_files": [
       "Journal.2026-02-08T085918.01.log"
     ]
@@ -33,17 +33,17 @@
       "has_ringed_body": true,
       "n_terraformables": 1,
       "planet_classes": [
+        "High metal content body",
         "Sudarsky class I gas giant",
         "Icy body",
-        "High metal content body",
         "Water world"
       ]
     },
     "stars": {
       "n_stars": 2,
       "types": [
-        "K",
-        "M"
+        "M",
+        "K"
       ]
     },
     "signals": {
@@ -155,7 +155,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 38485794067.38281,
+        "Eccentricity": 0.000339,
+        "OrbitalPeriod": 9607590.258121,
+        "OrbitalInclination": -5.9e-05
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 B 1",
@@ -169,7 +173,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 88939726.948738,
+        "Eccentricity": 0.167386,
+        "OrbitalPeriod": 486927.801371,
+        "OrbitalInclination": -3.299563
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 B 2",
@@ -183,7 +191,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 42865347.862244,
+        "Eccentricity": 0.167386,
+        "OrbitalPeriod": 486927.801371,
+        "OrbitalInclination": -3.299563
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 B 3",
@@ -197,7 +209,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 12438358068.466187,
+        "Eccentricity": 6.6e-05,
+        "OrbitalPeriod": 1765258.729458,
+        "OrbitalInclination": 0.000296
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 B 6",
@@ -226,7 +242,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 448791491985.32104,
+        "Eccentricity": 0.000109,
+        "OrbitalPeriod": 382587414.979935,
+        "OrbitalInclination": 0.046141
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 B 4",
@@ -240,7 +260,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 22885347008.70514,
+        "Eccentricity": 0.000137,
+        "OrbitalPeriod": 4405548.870564,
+        "OrbitalInclination": -0.023568
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 3",
@@ -254,7 +278,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 579259002208.7097,
+        "Eccentricity": 0.013458,
+        "OrbitalPeriod": 352359682.321548,
+        "OrbitalInclination": 3.88552
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 1",
@@ -268,7 +296,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 313260596990.5853,
+        "Eccentricity": 0.000484,
+        "OrbitalPeriod": 140131479.501724,
+        "OrbitalInclination": 1.222308
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 1 a",
@@ -282,7 +314,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1444322.049618,
+        "Eccentricity": 0.146862,
+        "OrbitalPeriod": 41224.113107,
+        "OrbitalInclination": -0.515865
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 1 b",
@@ -296,7 +332,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2724092.125893,
+        "Eccentricity": 0.146862,
+        "OrbitalPeriod": 41224.113107,
+        "OrbitalInclination": -0.515865
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 1 d",
@@ -310,7 +350,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2702706098.556519,
+        "Eccentricity": 0.000519,
+        "OrbitalPeriod": 3279731.333256,
+        "OrbitalInclination": 0.007178
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 1 c",
@@ -324,7 +368,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1107814133.167267,
+        "Eccentricity": 0.000959,
+        "OrbitalPeriod": 860677.456856,
+        "OrbitalInclination": 0.006359
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 1 e",
@@ -338,7 +386,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3625199437.141418,
+        "Eccentricity": 0.012154,
+        "OrbitalPeriod": 5094926.357269,
+        "OrbitalInclination": -5.850296
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 2",
@@ -367,7 +419,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 413087034225.46387,
+        "Eccentricity": 0.000278,
+        "OrbitalPeriod": 212197023.630142,
+        "OrbitalInclination": 1.854073
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 2 b",
@@ -381,7 +437,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1481897.890568,
+        "Eccentricity": 0.068194,
+        "OrbitalPeriod": 43774.559498,
+        "OrbitalInclination": 0.524255
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 2 a",
@@ -395,7 +455,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1442950.129509,
+        "Eccentricity": 0.068194,
+        "OrbitalPeriod": 43774.559498,
+        "OrbitalInclination": 0.524255
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 2 e",
@@ -409,7 +473,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4940715.610981,
+        "Eccentricity": 0.174913,
+        "OrbitalPeriod": 113674.867153,
+        "OrbitalInclination": -8.027068
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 2 d",
@@ -423,7 +491,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2448946.654797,
+        "Eccentricity": 0.174913,
+        "OrbitalPeriod": 113674.867153,
+        "OrbitalInclination": -8.027068
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 2 f",
@@ -437,7 +509,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2420074522.49527,
+        "Eccentricity": 0.007142,
+        "OrbitalPeriod": 6092543.780804,
+        "OrbitalInclination": 0.511568
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 2 c",
@@ -451,7 +527,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 654660874.605179,
+        "Eccentricity": 3.2e-05,
+        "OrbitalPeriod": 857196.038961,
+        "OrbitalInclination": -0.987974
       },
       {
         "BodyName": "Tyriedgaa VK-C c14-0 A 2 g",
@@ -465,7 +545,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3413231790.065765,
+        "Eccentricity": 0.000309,
+        "OrbitalPeriod": 10204793.214798,
+        "OrbitalInclination": -2.264229
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.647473+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.061516+00:00",
     "log_files": [
       "Journal.2026-02-14T205220.01.log"
     ]
@@ -143,7 +143,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 16101375.222206,
+        "Eccentricity": 0.155498,
+        "OrbitalPeriod": 69513.883591,
+        "OrbitalInclination": 6.640907
       },
       {
         "BodyName": "Ploea Eurl OC-J c23-10 A 3",
@@ -157,7 +161,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 44286833.405495,
+        "Eccentricity": 0.099015,
+        "OrbitalPeriod": 288665.151596,
+        "OrbitalInclination": -1.975124
       },
       {
         "BodyName": "Ploea Eurl OC-J c23-10 A 2",
@@ -171,7 +179,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 19926341.772079,
+        "Eccentricity": 0.155498,
+        "OrbitalPeriod": 69513.883591,
+        "OrbitalInclination": 6.640907
       },
       {
         "BodyName": "Ploea Eurl OC-J c23-10 A 4",
@@ -185,7 +197,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 46371998.19088,
+        "Eccentricity": 0.099015,
+        "OrbitalPeriod": 288665.151596,
+        "OrbitalInclination": -1.975124
       },
       {
         "BodyName": "Ploea Eurl OC-J c23-10 A 5",
@@ -199,7 +215,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 9913370609.283447,
+        "Eccentricity": 3.8e-05,
+        "OrbitalPeriod": 773841.60161,
+        "OrbitalInclination": -0.018287
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.541608+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.956587+00:00",
     "log_files": [
       "Journal.2026-02-04T212839.01.log"
     ]
@@ -39,8 +39,8 @@
     "stars": {
       "n_stars": 2,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -114,7 +114,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1110362529754.6387,
+        "Eccentricity": 0.245817,
+        "OrbitalPeriod": 1929196715.354919,
+        "OrbitalInclination": -5.367234
       }
     ]
   },

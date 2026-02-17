@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.562996+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.978671+00:00",
     "log_files": [
       "Journal.2026-02-07T205128.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -99,7 +99,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 332739114761.35254,
+        "Eccentricity": 0.001507,
+        "OrbitalPeriod": 143604707.717896,
+        "OrbitalInclination": 0.016271
       },
       {
         "BodyName": "Tyriedgaa XA-U c4-0 8",
@@ -113,7 +117,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1078592956066.1316,
+        "Eccentricity": 0.00076,
+        "OrbitalPeriod": 838106477.26059,
+        "OrbitalInclination": 1.19727
       },
       {
         "BodyName": "Tyriedgaa XA-U c4-0 2",
@@ -127,7 +135,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 170048040.151596,
+        "Eccentricity": 0.005536,
+        "OrbitalPeriod": 4266291.14151,
+        "OrbitalInclination": -5.640078
       },
       {
         "BodyName": "Tyriedgaa XA-U c4-0 3",
@@ -141,7 +153,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 252448457.479477,
+        "Eccentricity": 0.005536,
+        "OrbitalPeriod": 4266291.14151,
+        "OrbitalInclination": -5.640078
       },
       {
         "BodyName": "Tyriedgaa XA-U c4-0 5",
@@ -155,7 +171,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 234522098302.8412,
+        "Eccentricity": 0.00018,
+        "OrbitalPeriod": 84974488.61599,
+        "OrbitalInclination": -0.48705
       },
       {
         "BodyName": "Tyriedgaa XA-U c4-0 4",
@@ -169,7 +189,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 177442067861.557,
+        "Eccentricity": 0.000148,
+        "OrbitalPeriod": 55923941.731453,
+        "OrbitalInclination": -0.433507
       },
       {
         "BodyName": "Tyriedgaa XA-U c4-0 7",
@@ -183,7 +207,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 617572242021.5607,
+        "Eccentricity": 0.008614,
+        "OrbitalPeriod": 363115257.024765,
+        "OrbitalInclination": -0.597883
       },
       {
         "BodyName": "Tyriedgaa XA-U c4-0 7 a",
@@ -197,7 +225,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2170656263.828278,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 18680192.232132,
+        "OrbitalInclination": 69.012508
       },
       {
         "BodyName": "Tyriedgaa XA-U c4-0 1",
@@ -211,7 +243,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 95276839733.12378,
+        "Eccentricity": 9.4e-05,
+        "OrbitalPeriod": 22003601.789474,
+        "OrbitalInclination": 0.025945
       }
     ]
   },

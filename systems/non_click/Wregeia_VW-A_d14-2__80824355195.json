@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.532583+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.946871+00:00",
     "log_files": [
       "Journal.2026-02-04T160325.01.log"
     ]
@@ -33,17 +33,17 @@
       "has_ringed_body": false,
       "n_terraformables": 1,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
+        "Icy body",
         "Rocky ice body"
       ]
     },
     "stars": {
       "n_stars": 3,
       "types": [
-        "A",
+        "M",
         "K",
-        "M"
+        "A"
       ]
     },
     "signals": {
@@ -132,7 +132,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 334931725263.5956,
+        "Eccentricity": 0.004348,
+        "OrbitalPeriod": 88528369.069099,
+        "OrbitalInclination": 0.023829
       },
       {
         "BodyName": "Wregeia VW-A d14-2 A 4",
@@ -146,7 +150,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1340673148632.0496,
+        "Eccentricity": 0.26652,
+        "OrbitalPeriod": 708977431.058884,
+        "OrbitalInclination": -4.830433
       },
       {
         "BodyName": "Wregeia VW-A d14-2 A 2",
@@ -160,7 +168,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 131708681.583405,
+        "Eccentricity": 0.180268,
+        "OrbitalPeriod": 1427884.5191,
+        "OrbitalInclination": -9.765013
       },
       {
         "BodyName": "Wregeia VW-A d14-2 A 3",
@@ -174,7 +186,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 245474570.989609,
+        "Eccentricity": 0.180268,
+        "OrbitalPeriod": 1427884.5191,
+        "OrbitalInclination": -9.765013
       },
       {
         "BodyName": "Wregeia VW-A d14-2 BC 4",
@@ -188,7 +204,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 390036976337.43286,
+        "Eccentricity": 0.004676,
+        "OrbitalPeriod": 137198615.074158,
+        "OrbitalInclination": 0.006061
       },
       {
         "BodyName": "Wregeia VW-A d14-2 BC 2",
@@ -202,7 +222,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 231839561462.40234,
+        "Eccentricity": 0.001566,
+        "OrbitalPeriod": 62874185.442924,
+        "OrbitalInclination": 0.035012
       },
       {
         "BodyName": "Wregeia VW-A d14-2 BC 1",
@@ -216,7 +240,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 157381021976.47095,
+        "Eccentricity": 0.002079,
+        "OrbitalPeriod": 35165721.774101,
+        "OrbitalInclination": -0.006949
       },
       {
         "BodyName": "Wregeia VW-A d14-2 BC 3",
@@ -230,7 +258,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 296084094047.5464,
+        "Eccentricity": 0.000894,
+        "OrbitalPeriod": 90743113.75618,
+        "OrbitalInclination": -0.007483
       },
       {
         "BodyName": "Wregeia VW-A d14-2 BC 8",
@@ -244,7 +276,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1153666019439.6973,
+        "Eccentricity": 0.004711,
+        "OrbitalPeriod": 697928917.40799,
+        "OrbitalInclination": -2.35772
       },
       {
         "BodyName": "Wregeia VW-A d14-2 BC 9",
@@ -258,7 +294,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1693313658237.4573,
+        "Eccentricity": 0.061004,
+        "OrbitalPeriod": 1241072535.514832,
+        "OrbitalInclination": 109.137609
       },
       {
         "BodyName": "Wregeia VW-A d14-2 BC 6",
@@ -272,7 +312,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1030113577.842712,
+        "Eccentricity": 0.036229,
+        "OrbitalPeriod": 31829127.669334,
+        "OrbitalInclination": -3.365283
       },
       {
         "BodyName": "Wregeia VW-A d14-2 BC 5",
@@ -286,7 +330,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 817131352.424622,
+        "Eccentricity": 0.036229,
+        "OrbitalPeriod": 31829127.669334,
+        "OrbitalInclination": -3.365283
       },
       {
         "BodyName": "Wregeia VW-A d14-2 BC 7",
@@ -300,7 +348,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 931796741485.5957,
+        "Eccentricity": 0.011447,
+        "OrbitalPeriod": 506608897.447586,
+        "OrbitalInclination": 0.900986
       }
     ]
   },

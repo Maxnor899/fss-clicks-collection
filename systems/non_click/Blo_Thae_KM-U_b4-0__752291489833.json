@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.667894+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.081614+00:00",
     "log_files": [
       "Journal.2026-02-15T104234.01.log"
     ]
@@ -153,7 +153,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 148632371.425629,
+        "Eccentricity": 0.127549,
+        "OrbitalPeriod": 10768358.111382,
+        "OrbitalInclination": 6.570862
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 AB 5",
@@ -167,7 +171,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 219265758.991241,
+        "Eccentricity": 0.127549,
+        "OrbitalPeriod": 10768358.111382,
+        "OrbitalInclination": 6.570862
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 C 6",
@@ -181,7 +189,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 154211848.974228,
+        "Eccentricity": 0.005665,
+        "OrbitalPeriod": 11715862.751007,
+        "OrbitalInclination": 8.821758
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 C 7",
@@ -195,7 +207,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 110476207.733154,
+        "Eccentricity": 0.005665,
+        "OrbitalPeriod": 11715862.751007,
+        "OrbitalInclination": 8.821758
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 C 8",
@@ -209,7 +225,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 175492900609.9701,
+        "Eccentricity": 0.000216,
+        "OrbitalPeriod": 143440788.984299,
+        "OrbitalInclination": 0.001078
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 C 9",
@@ -223,7 +243,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 225113135576.24817,
+        "Eccentricity": 0.00094,
+        "OrbitalPeriod": 208393675.088882,
+        "OrbitalInclination": -1.488788
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 C 2",
@@ -237,7 +261,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 56033617854.11835,
+        "Eccentricity": 0.002054,
+        "OrbitalPeriod": 25879520.773888,
+        "OrbitalInclination": 0.251455
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 C 1",
@@ -251,7 +279,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 40025054812.431335,
+        "Eccentricity": 2.5e-05,
+        "OrbitalPeriod": 15623604.655266,
+        "OrbitalInclination": 0.014377
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 C 3",
@@ -265,7 +297,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 46322134.7332,
+        "Eccentricity": 0.077438,
+        "OrbitalPeriod": 4081458.687782,
+        "OrbitalInclination": -2.277804
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 C 4",
@@ -279,7 +315,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 58811181.783676,
+        "Eccentricity": 0.077438,
+        "OrbitalPeriod": 4081458.687782,
+        "OrbitalInclination": -2.277804
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 C 5",
@@ -293,7 +333,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 92986319065.094,
+        "Eccentricity": 0.002617,
+        "OrbitalPeriod": 55323790.311813,
+        "OrbitalInclination": 0.175238
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 C 10",
@@ -307,7 +351,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 297821682691.5741,
+        "Eccentricity": 0.067142,
+        "OrbitalPeriod": 317115724.086761,
+        "OrbitalInclination": -85.677633
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 AB 6",
@@ -321,7 +369,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 204420310.258865,
+        "Eccentricity": 0.058604,
+        "OrbitalPeriod": 23532747.626305,
+        "OrbitalInclination": -5.479366
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 AB 7",
@@ -335,7 +387,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 340968251.228333,
+        "Eccentricity": 0.058604,
+        "OrbitalPeriod": 23532747.626305,
+        "OrbitalInclination": -5.479366
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 AB 2",
@@ -349,7 +405,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 94248455.762863,
+        "Eccentricity": 0.077902,
+        "OrbitalPeriod": 5426409.66177,
+        "OrbitalInclination": -3.729968
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 AB 1",
@@ -363,7 +423,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 73427496.552467,
+        "Eccentricity": 0.077902,
+        "OrbitalPeriod": 5426409.66177,
+        "OrbitalInclination": -3.729968
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 AB 3",
@@ -377,7 +441,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 150638002157.2113,
+        "Eccentricity": 0.000297,
+        "OrbitalPeriod": 58518503.904343,
+        "OrbitalInclination": -0.089184
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 AB 8 a",
@@ -391,7 +459,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 511595684.289932,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 17650529.742241,
+        "OrbitalInclination": -80.573952
       },
       {
         "BodyName": "Blo Thae KM-U b4-0 AB 8",
@@ -405,7 +477,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 475435018539.4287,
+        "Eccentricity": 0.006926,
+        "OrbitalPeriod": 328116530.179977,
+        "OrbitalInclination": -3.005746
       }
     ]
   },

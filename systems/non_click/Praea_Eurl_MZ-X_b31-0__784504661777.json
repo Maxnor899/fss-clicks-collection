@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.555650+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.969948+00:00",
     "log_files": [
       "Journal.2026-02-05T201519.01.log"
     ]
@@ -40,8 +40,8 @@
     "stars": {
       "n_stars": 3,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -154,7 +154,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 409897685050.96436,
+        "Eccentricity": 0.000839,
+        "OrbitalPeriod": 269418662.786484,
+        "OrbitalInclination": 0.008747
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 1",
@@ -168,7 +172,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 166291731595.99304,
+        "Eccentricity": 0.000132,
+        "OrbitalPeriod": 69617831.707001,
+        "OrbitalInclination": 0.007375
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 1 a",
@@ -182,7 +190,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1749919235.706329,
+        "Eccentricity": 0.00034,
+        "OrbitalPeriod": 1859585.225582,
+        "OrbitalInclination": 0.007887
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 1 b",
@@ -196,7 +208,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2151774525.642395,
+        "Eccentricity": 0.005654,
+        "OrbitalPeriod": 2535619.974136,
+        "OrbitalInclination": 0.353932
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 1 c",
@@ -210,7 +226,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3217386782.169342,
+        "Eccentricity": 0.00014,
+        "OrbitalPeriod": 4636005.878448,
+        "OrbitalInclination": -17.147008
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 4",
@@ -232,7 +252,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 280946815013.8855,
+        "Eccentricity": 0.000742,
+        "OrbitalPeriod": 152880007.02858,
+        "OrbitalInclination": 0.028632
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 4 a",
@@ -246,7 +270,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1686813831.329346,
+        "Eccentricity": 0.000367,
+        "OrbitalPeriod": 4047857.224941,
+        "OrbitalInclination": -1.24501
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 4 b",
@@ -260,7 +288,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2308351397.514343,
+        "Eccentricity": 0.001174,
+        "OrbitalPeriod": 6480035.364628,
+        "OrbitalInclination": -0.581002
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 4 c",
@@ -274,7 +306,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3235945701.599121,
+        "Eccentricity": 0.001976,
+        "OrbitalPeriod": 10755394.101143,
+        "OrbitalInclination": -3.058623
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 2",
@@ -303,7 +339,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 394296145.439148,
+        "Eccentricity": 0.04222,
+        "OrbitalPeriod": 10803964.734077,
+        "OrbitalInclination": -6.965239
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 2 c",
@@ -317,7 +357,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 392718154.191971,
+        "Eccentricity": 0.008209,
+        "OrbitalPeriod": 251782.077551,
+        "OrbitalInclination": 2.228472
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 2 b",
@@ -331,7 +375,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 302524453.401566,
+        "Eccentricity": 0.000287,
+        "OrbitalPeriod": 170233.130455,
+        "OrbitalInclination": -0.001996
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 2 a",
@@ -345,7 +393,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 223030507.564545,
+        "Eccentricity": 0.000289,
+        "OrbitalPeriod": 107758.057117,
+        "OrbitalInclination": 0.010917
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 2 d",
@@ -359,7 +411,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 585009402.036667,
+        "Eccentricity": 0.002968,
+        "OrbitalPeriod": 457770.299911,
+        "OrbitalInclination": 0.378786
       },
       {
         "BodyName": "Praea Eurl MZ-X b31-0 A 3",
@@ -388,7 +444,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4554204940.795898,
+        "Eccentricity": 0.04222,
+        "OrbitalPeriod": 10803964.734077,
+        "OrbitalInclination": -6.965239
       }
     ]
   },

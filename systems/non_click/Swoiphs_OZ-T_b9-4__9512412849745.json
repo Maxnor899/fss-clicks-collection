@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.630924+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.044199+00:00",
     "log_files": [
       "Journal.2026-02-12T061747.01.log"
     ]
@@ -33,10 +33,10 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
+        "Gas giant with ammonia based life",
         "Sudarsky class I gas giant",
         "Icy body",
-        "Metal rich body",
-        "Gas giant with ammonia based life"
+        "Metal rich body"
       ]
     },
     "stars": {
@@ -131,7 +131,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1772340834.140778,
+        "Eccentricity": 1e-06,
+        "OrbitalPeriod": 65823.357105,
+        "OrbitalInclination": 0.003382
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 3",
@@ -145,7 +149,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 689871978759.7656,
+        "Eccentricity": 0.001298,
+        "OrbitalPeriod": 505489236.116409,
+        "OrbitalInclination": 0.007353
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 3 c",
@@ -159,7 +167,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3701739132.404327,
+        "Eccentricity": 0.005201,
+        "OrbitalPeriod": 2902390.420437,
+        "OrbitalInclination": 0.002133
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 3 a",
@@ -173,7 +185,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1169884681.70166,
+        "Eccentricity": 2.2e-05,
+        "OrbitalPeriod": 515657.961369,
+        "OrbitalInclination": 0.02577
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 3 b",
@@ -187,7 +203,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2102885246.276855,
+        "Eccentricity": 5e-05,
+        "OrbitalPeriod": 1242712.140083,
+        "OrbitalInclination": 0.01566
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 3 d",
@@ -201,7 +221,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5195385634.899139,
+        "Eccentricity": 0.019605,
+        "OrbitalPeriod": 4825850.188732,
+        "OrbitalInclination": -0.083957
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 2",
@@ -230,7 +254,11 @@
           }
         ],
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 496448570489.8834,
+        "Eccentricity": 0.006054,
+        "OrbitalPeriod": 308581942.31987,
+        "OrbitalInclination": 0.710751
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 2 b",
@@ -244,7 +272,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 607353091.239929,
+        "Eccentricity": 0.000448,
+        "OrbitalPeriod": 224414.300919,
+        "OrbitalInclination": -0.004491
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 2 c",
@@ -258,7 +290,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 817110896.110535,
+        "Eccentricity": 2.5e-05,
+        "OrbitalPeriod": 350195.217133,
+        "OrbitalInclination": 0.001785
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 2 a",
@@ -272,7 +308,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 450089514.255524,
+        "Eccentricity": 4.7e-05,
+        "OrbitalPeriod": 143165.069818,
+        "OrbitalInclination": 0.01208
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 2 d",
@@ -286,7 +326,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1076570153.236389,
+        "Eccentricity": 0.000458,
+        "OrbitalPeriod": 529605.162144,
+        "OrbitalInclination": 0.036027
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 2 e",
@@ -300,7 +344,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2361749410.629272,
+        "Eccentricity": 0.006994,
+        "OrbitalPeriod": 1720835.864544,
+        "OrbitalInclination": -0.021194
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 2 g",
@@ -314,7 +362,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4621792435.646057,
+        "Eccentricity": 0.008908,
+        "OrbitalPeriod": 4710905.015469,
+        "OrbitalInclination": 0.083639
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 2 f",
@@ -328,7 +380,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3473443388.938904,
+        "Eccentricity": 0.011021,
+        "OrbitalPeriod": 3069226.920605,
+        "OrbitalInclination": -0.631601
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 4",
@@ -342,7 +398,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1268464803695.6787,
+        "Eccentricity": 0.002975,
+        "OrbitalPeriod": 1260308206.08139,
+        "OrbitalInclination": -3.405342
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 4 a",
@@ -356,7 +416,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 211293900.01297,
+        "Eccentricity": 2.9e-05,
+        "OrbitalPeriod": 211088.478565,
+        "OrbitalInclination": 0.015979
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 4 b",
@@ -370,7 +434,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 353152614.831924,
+        "Eccentricity": 6.8e-05,
+        "OrbitalPeriod": 456118.607521,
+        "OrbitalInclination": -0.000101
       },
       {
         "BodyName": "Swoiphs OZ-T b9-4 4 c",
@@ -384,7 +452,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1564701914.787292,
+        "Eccentricity": 0.00227,
+        "OrbitalPeriod": 4253843.903542,
+        "OrbitalInclination": 0.034249
       }
     ]
   },

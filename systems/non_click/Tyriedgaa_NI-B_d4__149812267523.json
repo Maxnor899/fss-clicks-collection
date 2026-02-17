@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.561205+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.976712+00:00",
     "log_files": [
       "Journal.2026-02-07T205128.01.log"
     ]
@@ -33,19 +33,19 @@
       "has_ringed_body": false,
       "n_terraformables": 4,
       "planet_classes": [
-        "Earthlike body",
-        "Water world",
-        "Icy body",
-        "Rocky ice body",
         "Rocky body",
-        "High metal content body"
+        "Water world",
+        "Earthlike body",
+        "High metal content body",
+        "Icy body",
+        "Rocky ice body"
       ]
     },
     "stars": {
       "n_stars": 2,
       "types": [
-        "A",
-        "K"
+        "K",
+        "A"
       ]
     },
     "signals": {
@@ -119,7 +119,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 200988751649.85657,
+        "Eccentricity": 0.000361,
+        "OrbitalPeriod": 37440054.416656,
+        "OrbitalInclination": 0.007115
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 A 5",
@@ -133,7 +137,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 285871922969.8181,
+        "Eccentricity": 0.000154,
+        "OrbitalPeriod": 63509128.093719,
+        "OrbitalInclination": -0.413306
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 A 1",
@@ -147,7 +155,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 83911705017.08984,
+        "Eccentricity": 0.000299,
+        "OrbitalPeriod": 10099798.440933,
+        "OrbitalInclination": 0.025871
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 B 4 a",
@@ -161,7 +173,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1536892592.906952,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 17937104.105949,
+        "OrbitalInclination": -45.587893
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 B 4",
@@ -175,7 +191,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 710957348346.7102,
+        "Eccentricity": 0.004748,
+        "OrbitalPeriod": 403548610.210419,
+        "OrbitalInclination": 0.016865
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 B 3",
@@ -189,7 +209,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 411843919754.0283,
+        "Eccentricity": 0.000661,
+        "OrbitalPeriod": 177921950.817108,
+        "OrbitalInclination": -0.001308
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 B 3 a",
@@ -203,7 +227,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 691013693.809509,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 5100364.625454,
+        "OrbitalInclination": 15.405413
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 B 1",
@@ -217,7 +245,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 129930973052.97852,
+        "Eccentricity": 1.1e-05,
+        "OrbitalPeriod": 31528224.945068,
+        "OrbitalInclination": 0.000501
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 B 2",
@@ -231,7 +263,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 233539938926.69678,
+        "Eccentricity": 5.5e-05,
+        "OrbitalPeriod": 75975260.734558,
+        "OrbitalInclination": 0.274421
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 B 2 a",
@@ -245,7 +281,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 435435974.597931,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 2471252.679825,
+        "OrbitalInclination": 22.1787
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 B 7",
@@ -259,7 +299,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1748229861259.4604,
+        "Eccentricity": 0.005714,
+        "OrbitalPeriod": 1556067168.712616,
+        "OrbitalInclination": 0.256097
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 B 6",
@@ -273,7 +317,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1169395148754.1199,
+        "Eccentricity": 0.000116,
+        "OrbitalPeriod": 851280099.153519,
+        "OrbitalInclination": -0.086907
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 B 5",
@@ -287,7 +335,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 992425763607.0251,
+        "Eccentricity": 0.003601,
+        "OrbitalPeriod": 665545254.945755,
+        "OrbitalInclination": -0.011962
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 B 5 a",
@@ -301,7 +353,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2171346902.84729,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 25564942.359924,
+        "OrbitalInclination": 12.509792
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 A 7",
@@ -315,7 +371,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 543506813.049316,
+        "Eccentricity": 0.033589,
+        "OrbitalPeriod": 25965470.075607,
+        "OrbitalInclination": -2.934895
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 A 8",
@@ -329,7 +389,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 551039636.135101,
+        "Eccentricity": 0.033589,
+        "OrbitalPeriod": 25965470.075607,
+        "OrbitalInclination": -2.934895
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 A 6",
@@ -343,7 +407,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 509119373559.9518,
+        "Eccentricity": 0.002039,
+        "OrbitalPeriod": 150941377.878189,
+        "OrbitalInclination": -0.038468
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 A 2",
@@ -357,7 +425,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 115708374977.11182,
+        "Eccentricity": 0.001513,
+        "OrbitalPeriod": 16354078.054428,
+        "OrbitalInclination": -0.215095
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 A 3",
@@ -371,7 +443,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 154535728693.00842,
+        "Eccentricity": 0.000468,
+        "OrbitalPeriod": 25241907.23896,
+        "OrbitalInclination": -0.043976
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 A 9",
@@ -385,7 +461,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 826651883125.3052,
+        "Eccentricity": 0.001357,
+        "OrbitalPeriod": 312293457.984924,
+        "OrbitalInclination": 0.010467
       },
       {
         "BodyName": "Tyriedgaa NI-B d4 A 10",
@@ -399,7 +479,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1207135975360.8704,
+        "Eccentricity": 0.000681,
+        "OrbitalPeriod": 551078122.854233,
+        "OrbitalInclination": 0.112437
       }
     ]
   },

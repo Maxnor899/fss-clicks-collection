@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.621214+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.034690+00:00",
     "log_files": [
       "Journal.2026-02-11T134714.01.log"
     ]
@@ -39,8 +39,8 @@
     "stars": {
       "n_stars": 2,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -114,7 +114,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 48458202481.26984,
+        "Eccentricity": 0.000462,
+        "OrbitalPeriod": 14904459.71489,
+        "OrbitalInclination": 0.469246
       },
       {
         "BodyName": "Prua Dryou GS-W b21-3 B 1",
@@ -128,7 +132,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 19494959115.982056,
+        "Eccentricity": 4.2e-05,
+        "OrbitalPeriod": 3803196.60902,
+        "OrbitalInclination": 0.011295
       },
       {
         "BodyName": "Prua Dryou GS-W b21-3 B 6",
@@ -142,7 +150,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 78757573962.21161,
+        "Eccentricity": 0.002564,
+        "OrbitalPeriod": 30881878.137589,
+        "OrbitalInclination": 0.024144
       },
       {
         "BodyName": "Prua Dryou GS-W b21-3 B 5",
@@ -156,7 +168,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 60950971245.765686,
+        "Eccentricity": 0.000476,
+        "OrbitalPeriod": 21025010.943413,
+        "OrbitalInclination": 0.067476
       },
       {
         "BodyName": "Prua Dryou GS-W b21-3 B 2",
@@ -170,7 +186,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 25860052704.811096,
+        "Eccentricity": 6e-06,
+        "OrbitalPeriod": 5810445.249081,
+        "OrbitalInclination": -0.026542
       },
       {
         "BodyName": "Prua Dryou GS-W b21-3 B 7",
@@ -184,7 +204,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 115109616518.02063,
+        "Eccentricity": 0.004007,
+        "OrbitalPeriod": 54567327.49939,
+        "OrbitalInclination": 0.013894
       },
       {
         "BodyName": "Prua Dryou GS-W b21-3 B 3",
@@ -198,7 +222,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 35434471368.78967,
+        "Eccentricity": 0.000212,
+        "OrbitalPeriod": 9319749.414921,
+        "OrbitalInclination": -0.040574
       }
     ]
   },

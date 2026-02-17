@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.554559+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.968794+00:00",
     "log_files": [
       "Journal.2026-02-05T201519.01.log"
     ]
@@ -39,8 +39,8 @@
     "stars": {
       "n_stars": 2,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -130,7 +130,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1321446657.180786,
+        "Eccentricity": 0.143056,
+        "OrbitalPeriod": 97933225.035667,
+        "OrbitalInclination": 1.811821
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 A 5",
@@ -144,7 +148,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3222547173.500061,
+        "Eccentricity": 0.143056,
+        "OrbitalPeriod": 97933225.035667,
+        "OrbitalInclination": 1.811821
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 A 4",
@@ -158,7 +166,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 645698112249.3744,
+        "Eccentricity": 0.006115,
+        "OrbitalPeriod": 565907478.33252,
+        "OrbitalInclination": 0.016104
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 A 2",
@@ -172,7 +184,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 180518901348.114,
+        "Eccentricity": 1.1e-05,
+        "OrbitalPeriod": 83653703.331947,
+        "OrbitalInclination": 0.039192
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 B 4",
@@ -186,7 +202,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 348050993680.954,
+        "Eccentricity": 0.000108,
+        "OrbitalPeriod": 270103073.120117,
+        "OrbitalInclination": 1.350309
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 B 5",
@@ -200,7 +220,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 470960754156.1127,
+        "Eccentricity": 0.018289,
+        "OrbitalPeriod": 425150102.376938,
+        "OrbitalInclination": -0.381045
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 B 3 a",
@@ -214,7 +238,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 492091852.426529,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 5928021.013737,
+        "OrbitalInclination": -88.987427
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 B 3",
@@ -228,7 +256,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 254717314243.31665,
+        "Eccentricity": 0.000361,
+        "OrbitalPeriod": 169103628.396988,
+        "OrbitalInclination": -0.038638
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 B 1",
@@ -242,7 +274,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 98145903944.96918,
+        "Eccentricity": 0.000704,
+        "OrbitalPeriod": 40445806.384087,
+        "OrbitalInclination": -0.088641
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 B 2",
@@ -256,7 +292,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 145996862649.9176,
+        "Eccentricity": 5e-05,
+        "OrbitalPeriod": 73380473.852158,
+        "OrbitalInclination": -0.776236
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 B 6",
@@ -270,7 +310,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 595024698972.702,
+        "Eccentricity": 0.004751,
+        "OrbitalPeriod": 603764671.087265,
+        "OrbitalInclination": 0.007031
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 B 7",
@@ -284,7 +328,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 893081426620.4834,
+        "Eccentricity": 0.002371,
+        "OrbitalPeriod": 1110201478.004456,
+        "OrbitalInclination": 0.08653
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 A 1 a",
@@ -298,7 +346,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 233306366.205215,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 1746843.338013,
+        "OrbitalInclination": -41.021969
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 A 1",
@@ -312,7 +364,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 97388041019.4397,
+        "Eccentricity": 0.000291,
+        "OrbitalPeriod": 33148170.113564,
+        "OrbitalInclination": 0.000513
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 A 3",
@@ -326,7 +382,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 458003073930.74036,
+        "Eccentricity": 0.01339,
+        "OrbitalPeriod": 338067704.439163,
+        "OrbitalInclination": 0.772555
       },
       {
         "BodyName": "Praea Eurl XG-M b24-0 A 3 a",
@@ -340,7 +400,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1045447707.176208,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 13493295.311928,
+        "OrbitalInclination": 87.206933
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.534248+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.947621+00:00",
     "log_files": [
       "Journal.2026-02-04T160325.01.log"
     ]
@@ -33,15 +33,15 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
       "n_stars": 2,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -115,7 +115,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 668054389953.6133,
+        "Eccentricity": 0.00042,
+        "OrbitalPeriod": 467194843.292236,
+        "OrbitalInclination": 0.012778
       },
       {
         "BodyName": "Wregeia BS-D b56-0 B 2",
@@ -129,7 +133,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 183409881591.79688,
+        "Eccentricity": 2.5e-05,
+        "OrbitalPeriod": 108368051.052094,
+        "OrbitalInclination": 0.139754
       },
       {
         "BodyName": "Wregeia BS-D b56-0 B 1",
@@ -143,7 +151,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 132887405157.08923,
+        "Eccentricity": 0.000561,
+        "OrbitalPeriod": 66833301.186562,
+        "OrbitalInclination": -8e-05
       },
       {
         "BodyName": "Wregeia BS-D b56-0 B 3",
@@ -157,7 +169,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 479885894060.1349,
+        "Eccentricity": 0.008518,
+        "OrbitalPeriod": 458642339.706421,
+        "OrbitalInclination": 0.072693
       },
       {
         "BodyName": "Wregeia BS-D b56-0 B 4",
@@ -171,7 +187,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 825433105230.3314,
+        "Eccentricity": 0.002233,
+        "OrbitalPeriod": 1034641742.706299,
+        "OrbitalInclination": 0.351696
       },
       {
         "BodyName": "Wregeia BS-D b56-0 B 5",
@@ -185,7 +205,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1229532122611.9995,
+        "Eccentricity": 0.038689,
+        "OrbitalPeriod": 1880948901.176453,
+        "OrbitalInclination": -15.494003
       },
       {
         "BodyName": "Wregeia BS-D b56-0 A 5",
@@ -199,7 +223,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 377877157926.55945,
+        "Eccentricity": 0.000103,
+        "OrbitalPeriod": 198749560.117722,
+        "OrbitalInclination": -0.323895
       },
       {
         "BodyName": "Wregeia BS-D b56-0 A 2",
@@ -213,7 +241,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 123790276050.56763,
+        "Eccentricity": 0.000698,
+        "OrbitalPeriod": 37265769.839287,
+        "OrbitalInclination": -0.128911
       },
       {
         "BodyName": "Wregeia BS-D b56-0 A 4",
@@ -227,7 +259,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 228842025995.25452,
+        "Eccentricity": 0.003407,
+        "OrbitalPeriod": 93666425.347328,
+        "OrbitalInclination": 1.852301
       },
       {
         "BodyName": "Wregeia BS-D b56-0 A 7",
@@ -241,7 +277,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 905156725645.0653,
+        "Eccentricity": 0.000409,
+        "OrbitalPeriod": 736827796.697617,
+        "OrbitalInclination": 0.057534
       },
       {
         "BodyName": "Wregeia BS-D b56-0 A 3",
@@ -255,7 +295,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 150552046298.9807,
+        "Eccentricity": 0.001273,
+        "OrbitalPeriod": 49981616.139412,
+        "OrbitalInclination": 0.004301
       },
       {
         "BodyName": "Wregeia BS-D b56-0 A 1",
@@ -269,7 +313,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 87983310222.62573,
+        "Eccentricity": 5.8e-05,
+        "OrbitalPeriod": 22329587.340355,
+        "OrbitalInclination": -0.013883
       }
     ]
   },

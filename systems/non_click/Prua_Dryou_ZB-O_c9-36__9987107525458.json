@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.623989+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.037410+00:00",
     "log_files": [
       "Journal.2026-02-11T134714.01.log"
     ]
@@ -122,7 +122,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 36699167490.00549,
+        "Eccentricity": 0.000385,
+        "OrbitalPeriod": 12268950.939178,
+        "OrbitalInclination": 0.03409
       },
       {
         "BodyName": "Prua Dryou ZB-O c9-36 B 1",
@@ -136,7 +140,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 22315655350.68512,
+        "Eccentricity": 6e-06,
+        "OrbitalPeriod": 5817515.969276,
+        "OrbitalInclination": -0.118207
       },
       {
         "BodyName": "Prua Dryou ZB-O c9-36 B 6",
@@ -150,7 +158,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 325706541.538239,
+        "Eccentricity": 0.008982,
+        "OrbitalPeriod": 11859797.83535,
+        "OrbitalInclination": -4.194895
       },
       {
         "BodyName": "Prua Dryou ZB-O c9-36 B 5",
@@ -164,7 +176,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 287329858.541489,
+        "Eccentricity": 0.008982,
+        "OrbitalPeriod": 11859797.83535,
+        "OrbitalInclination": -4.194895
       },
       {
         "BodyName": "Prua Dryou ZB-O c9-36 B 8",
@@ -178,7 +194,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 114069449901.58081,
+        "Eccentricity": 0.000209,
+        "OrbitalPeriod": 67232173.681259,
+        "OrbitalInclination": -0.062383
       },
       {
         "BodyName": "Prua Dryou ZB-O c9-36 B 9",
@@ -192,7 +212,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 173321866989.13574,
+        "Eccentricity": 0.009549,
+        "OrbitalPeriod": 125922447.443008,
+        "OrbitalInclination": -0.15473
       },
       {
         "BodyName": "Prua Dryou ZB-O c9-36 B 4",
@@ -206,7 +230,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 54361717104.911804,
+        "Eccentricity": 0.000408,
+        "OrbitalPeriod": 22118863.463402,
+        "OrbitalInclination": 0.585722
       },
       {
         "BodyName": "Prua Dryou ZB-O c9-36 B 2",
@@ -220,7 +248,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 29208735227.58484,
+        "Eccentricity": 3.6e-05,
+        "OrbitalPeriod": 8711485.981941,
+        "OrbitalInclination": -0.022547
       },
       {
         "BodyName": "Prua Dryou ZB-O c9-36 B 7",
@@ -234,7 +266,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 92282380461.69281,
+        "Eccentricity": 0.004896,
+        "OrbitalPeriod": 48921671.509743,
+        "OrbitalInclination": -0.021077
       }
     ]
   },

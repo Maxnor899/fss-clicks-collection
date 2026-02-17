@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.614587+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.028143+00:00",
     "log_files": [
       "Journal.2026-02-11T105854.01.log"
     ]
@@ -115,7 +115,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4795485615730.285,
+        "Eccentricity": 0.259864,
+        "OrbitalPeriod": 10355910062.789917,
+        "OrbitalInclination": -135.13505
       },
       {
         "BodyName": "Swoidai YC-W b49-4 1",
@@ -129,7 +133,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 178350317478.17993,
+        "Eccentricity": 9e-06,
+        "OrbitalPeriod": 74276302.456856,
+        "OrbitalInclination": -0.037864
       },
       {
         "BodyName": "Swoidai YC-W b49-4 3 b",
@@ -143,7 +151,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 783429247.140884,
+        "Eccentricity": 0.004964,
+        "OrbitalPeriod": 2703909.933567,
+        "OrbitalInclination": -0.004089
       },
       {
         "BodyName": "Swoidai YC-W b49-4 3",
@@ -157,7 +169,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 760937958955.7648,
+        "Eccentricity": 0.001049,
+        "OrbitalPeriod": 654580891.132355,
+        "OrbitalInclination": 0.04513
       },
       {
         "BodyName": "Swoidai YC-W b49-4 3 c",
@@ -171,7 +187,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2091791152.954102,
+        "Eccentricity": 0.017464,
+        "OrbitalPeriod": 11796960.234642,
+        "OrbitalInclination": 0.148092
       },
       {
         "BodyName": "Swoidai YC-W b49-4 3 a",
@@ -185,7 +205,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 411519914.865494,
+        "Eccentricity": 0.000225,
+        "OrbitalPeriod": 1029387.533665,
+        "OrbitalInclination": -0.089694
       },
       {
         "BodyName": "Swoidai YC-W b49-4 2",
@@ -199,7 +223,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 527205353975.296,
+        "Eccentricity": 0.002463,
+        "OrbitalPeriod": 377493184.804916,
+        "OrbitalInclination": 0.862791
       },
       {
         "BodyName": "Swoidai YC-W b49-4 2 b",
@@ -213,7 +241,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 559866023.06366,
+        "Eccentricity": 0.000213,
+        "OrbitalPeriod": 747879.165411,
+        "OrbitalInclination": -0.015498
       },
       {
         "BodyName": "Swoidai YC-W b49-4 2 a",
@@ -227,7 +259,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 353625982.999802,
+        "Eccentricity": 0.00071,
+        "OrbitalPeriod": 375423.508883,
+        "OrbitalInclination": 0.018678
       },
       {
         "BodyName": "Swoidai YC-W b49-4 2 c",
@@ -241,7 +277,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1047036409.378052,
+        "Eccentricity": 0.000167,
+        "OrbitalPeriod": 1912704.706192,
+        "OrbitalInclination": -0.005185
       }
     ]
   },

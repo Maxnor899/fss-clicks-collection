@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.552378+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.966562+00:00",
     "log_files": [
       "Journal.2026-02-05T201519.01.log"
     ]
@@ -113,7 +113,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 925399303436.2793,
+        "Eccentricity": 0.145772,
+        "OrbitalPeriod": 1019930422.306061,
+        "OrbitalInclination": -102.371787
       }
     ]
   },

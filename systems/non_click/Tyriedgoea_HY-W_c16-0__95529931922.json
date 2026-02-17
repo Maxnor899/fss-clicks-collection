@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.594490+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.008101+00:00",
     "log_files": [
       "Journal.2026-02-09T174314.01.log"
     ]
@@ -40,9 +40,9 @@
     "stars": {
       "n_stars": 4,
       "types": [
-        "K",
         "M",
-        "T"
+        "T",
+        "K"
       ]
     },
     "signals": {
@@ -162,7 +162,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 189232933521.27075,
+        "Eccentricity": 0.021285,
+        "OrbitalPeriod": 61592012.047768,
+        "OrbitalInclination": 0.009283
       },
       {
         "BodyName": "Tyriedgoea HY-W c16-0 A 2",
@@ -176,7 +180,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 23377858.400345,
+        "Eccentricity": 0.079105,
+        "OrbitalPeriod": 4961544.573307,
+        "OrbitalInclination": 4.262006
       },
       {
         "BodyName": "Tyriedgoea HY-W c16-0 A 3",
@@ -190,7 +198,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 40917353.630066,
+        "Eccentricity": 0.079105,
+        "OrbitalPeriod": 4961544.573307,
+        "OrbitalInclination": 4.262006
       },
       {
         "BodyName": "Tyriedgoea HY-W c16-0 A 1",
@@ -204,7 +216,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 51594317555.42755,
+        "Eccentricity": 0.002852,
+        "OrbitalPeriod": 8768636.882305,
+        "OrbitalInclination": -0.184328
       }
     ]
   },

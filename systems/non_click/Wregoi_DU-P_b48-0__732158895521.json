@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.651338+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.065482+00:00",
     "log_files": [
       "Journal.2026-02-14T205220.01.log"
     ]
@@ -128,7 +128,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5874841570.854187,
+        "Eccentricity": 1e-05,
+        "OrbitalPeriod": 398939.549923,
+        "OrbitalInclination": 0.026203
       },
       {
         "BodyName": "Wregoi DU-P b48-0 A 2",
@@ -142,7 +146,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 7819035410.881042,
+        "Eccentricity": 0.00166,
+        "OrbitalPeriod": 612551.504374,
+        "OrbitalInclination": -0.015249
       }
     ]
   },

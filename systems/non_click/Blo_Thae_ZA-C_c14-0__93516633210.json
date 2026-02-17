@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.603437+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.018119+00:00",
     "log_files": [
       "Journal.2026-02-10T202414.01.log"
     ]
@@ -33,12 +33,12 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Sudarsky class II gas giant",
-        "Icy body",
-        "Metal rich body",
-        "Rocky body",
         "Sudarsky class I gas giant",
-        "High metal content body"
+        "Rocky body",
+        "Sudarsky class II gas giant",
+        "High metal content body",
+        "Icy body",
+        "Metal rich body"
       ]
     },
     "stars": {
@@ -133,7 +133,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5320655822.753906,
+        "Eccentricity": 1.2e-05,
+        "OrbitalPeriod": 235503.679514,
+        "OrbitalInclination": 1e-05
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 5",
@@ -162,7 +166,11 @@
           }
         ],
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 9294140934.944153,
+        "Eccentricity": 0.068367,
+        "OrbitalPeriod": 36368941.664696,
+        "OrbitalInclination": 6.973203
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 5 d",
@@ -176,7 +184,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2253618.478775,
+        "Eccentricity": 0.190893,
+        "OrbitalPeriod": 72487.03897,
+        "OrbitalInclination": -5.201185
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 5 c",
@@ -190,7 +202,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2038114.190102,
+        "Eccentricity": 0.190893,
+        "OrbitalPeriod": 72487.03897,
+        "OrbitalInclination": -5.201185
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 5 a",
@@ -204,7 +220,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 159220027.923584,
+        "Eccentricity": 5.4e-05,
+        "OrbitalPeriod": 79764.425755,
+        "OrbitalInclination": -0.356037
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 5 b",
@@ -218,7 +238,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 233080327.510834,
+        "Eccentricity": 5.2e-05,
+        "OrbitalPeriod": 141276.890039,
+        "OrbitalInclination": -0.510452
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 4",
@@ -240,7 +264,11 @@
           }
         ],
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4445280134.677887,
+        "Eccentricity": 0.068367,
+        "OrbitalPeriod": 36368941.664696,
+        "OrbitalInclination": 6.973203
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 4 a",
@@ -254,7 +282,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 209136909.246445,
+        "Eccentricity": 6e-06,
+        "OrbitalPeriod": 83043.13302,
+        "OrbitalInclination": 0.021397
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 4 b",
@@ -268,7 +300,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1556291282.176971,
+        "Eccentricity": 0.001562,
+        "OrbitalPeriod": 1685753.285885,
+        "OrbitalInclination": -14.037239
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 3",
@@ -282,7 +318,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 394593226909.63745,
+        "Eccentricity": 0.000392,
+        "OrbitalPeriod": 150409221.64917,
+        "OrbitalInclination": -0.006285
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 3 e",
@@ -296,7 +336,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2534247517.585754,
+        "Eccentricity": 0.000153,
+        "OrbitalPeriod": 1463422.298431,
+        "OrbitalInclination": -0.623035
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 3 c",
@@ -310,7 +354,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1349813878.536224,
+        "Eccentricity": 9.5e-05,
+        "OrbitalPeriod": 568862.038851,
+        "OrbitalInclination": 0.002849
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 3 a",
@@ -324,7 +372,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 672586309.909821,
+        "Eccentricity": 0.001059,
+        "OrbitalPeriod": 200086.62343,
+        "OrbitalInclination": -0.005384
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 3 b",
@@ -338,7 +390,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 955377471.446991,
+        "Eccentricity": 0.001096,
+        "OrbitalPeriod": 338733.839989,
+        "OrbitalInclination": -0.000677
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 3 d",
@@ -352,7 +408,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1881677985.191345,
+        "Eccentricity": 0.000821,
+        "OrbitalPeriod": 936298.024654,
+        "OrbitalInclination": -0.061568
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 3 f",
@@ -366,7 +426,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3437598109.2453,
+        "Eccentricity": 0.000299,
+        "OrbitalPeriod": 2311951.637268,
+        "OrbitalInclination": 0.17426
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 6",
@@ -395,7 +459,11 @@
           }
         ],
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 772886019945.1447,
+        "Eccentricity": 0.000304,
+        "OrbitalPeriod": 412309342.622757,
+        "OrbitalInclination": -1.309658
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 6 c",
@@ -409,7 +477,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5460721.850395,
+        "Eccentricity": 0.061365,
+        "OrbitalPeriod": 293061.774969,
+        "OrbitalInclination": -3.996836
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 6 b",
@@ -423,7 +495,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4773146.986961,
+        "Eccentricity": 0.061365,
+        "OrbitalPeriod": 293061.774969,
+        "OrbitalInclination": -3.996836
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 6 e",
@@ -437,7 +513,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2151746749.87793,
+        "Eccentricity": 0.006026,
+        "OrbitalPeriod": 5880229.055882,
+        "OrbitalInclination": 1.999374
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 6 a",
@@ -451,7 +531,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 532947421.073914,
+        "Eccentricity": 0.000321,
+        "OrbitalPeriod": 724826.49684,
+        "OrbitalInclination": 0.504335
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 6 d",
@@ -465,7 +549,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1623477935.791016,
+        "Eccentricity": 2.8e-05,
+        "OrbitalPeriod": 3853692.889214,
+        "OrbitalInclination": 0.015178
       },
       {
         "BodyName": "Blo Thae ZA-C c14-0 2",
@@ -479,7 +567,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 9158838391.304016,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 531876.248121,
+        "OrbitalInclination": 0.002839
       }
     ]
   },

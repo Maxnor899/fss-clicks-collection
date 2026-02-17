@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.629784+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.043055+00:00",
     "log_files": [
       "Journal.2026-02-12T061747.01.log"
     ]
@@ -33,8 +33,8 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -99,7 +99,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 435397177934.6466,
+        "Eccentricity": 0.001778,
+        "OrbitalPeriod": 190591740.608215,
+        "OrbitalInclination": 0.017773
       },
       {
         "BodyName": "Swoiphs RD-V c5-14 2",
@@ -113,7 +117,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 119108289480.20935,
+        "Eccentricity": 0.002189,
+        "OrbitalPeriod": 27270215.153694,
+        "OrbitalInclination": 1.038921
       },
       {
         "BodyName": "Swoiphs RD-V c5-14 7 a",
@@ -127,7 +135,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 477966570.854187,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 19469870.92495,
+        "OrbitalInclination": 84.040321
       },
       {
         "BodyName": "Swoiphs RD-V c5-14 7",
@@ -141,7 +153,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 601216918230.0568,
+        "Eccentricity": 0.000696,
+        "OrbitalPeriod": 309259051.084518,
+        "OrbitalInclination": -0.968685
       },
       {
         "BodyName": "Swoiphs RD-V c5-14 3",
@@ -155,7 +171,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 163193553686.14197,
+        "Eccentricity": 0.000673,
+        "OrbitalPeriod": 43735101.222992,
+        "OrbitalInclination": -0.061157
       },
       {
         "BodyName": "Swoiphs RD-V c5-14 5",
@@ -169,7 +189,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 309150284528.7323,
+        "Eccentricity": 0.00062,
+        "OrbitalPeriod": 114032888.412476,
+        "OrbitalInclination": 0.074438
       },
       {
         "BodyName": "Swoiphs RD-V c5-14 4",
@@ -183,7 +207,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 220260739326.47705,
+        "Eccentricity": 0.000213,
+        "OrbitalPeriod": 68577429.056168,
+        "OrbitalInclination": 0.02471
       },
       {
         "BodyName": "Swoiphs RD-V c5-14 1",
@@ -197,7 +225,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 88584716916.08429,
+        "Eccentricity": 9.8e-05,
+        "OrbitalPeriod": 17490969.30027,
+        "OrbitalInclination": -0.053935
       }
     ]
   },

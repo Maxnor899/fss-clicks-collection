@@ -179,6 +179,11 @@ for log_path in log_files:
                     "Rings":                 ev.get("Rings"),
                     "WasDiscovered":         ev.get("WasDiscovered"),
                     "WasMapped":             ev.get("WasMapped"),
+                    # Paramètres orbitaux
+                    "SemiMajorAxis":         ev.get("SemiMajorAxis"),
+                    "Eccentricity":          ev.get("Eccentricity"),
+                    "OrbitalPeriod":         ev.get("OrbitalPeriod"),
+                    "OrbitalInclination":    ev.get("OrbitalInclination"),
                 }
                 existing_ids = {p["BodyID"] for p in sd["planets"]}
                 if planet["BodyID"] not in existing_ids:

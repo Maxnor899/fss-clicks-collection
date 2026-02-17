@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.594982+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.008459+00:00",
     "log_files": [
       "Journal.2026-02-09T174314.01.log"
     ]
@@ -33,17 +33,17 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
+        "Rocky body",
         "Sudarsky class I gas giant",
         "Icy body",
-        "Sudarsky class III gas giant",
-        "Rocky body"
+        "Sudarsky class III gas giant"
       ]
     },
     "stars": {
       "n_stars": 2,
       "types": [
-        "K",
-        "M"
+        "M",
+        "K"
       ]
     },
     "signals": {
@@ -141,7 +141,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 11928586959.838867,
+        "Eccentricity": 0.043678,
+        "OrbitalPeriod": 12030535.936356,
+        "OrbitalInclination": 7.064556
       },
       {
         "BodyName": "Tyriedgoea DN-Y c15-0 A 2 a",
@@ -155,7 +159,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 208025664.09111,
+        "Eccentricity": 0.001107,
+        "OrbitalPeriod": 113419.950008,
+        "OrbitalInclination": -0.014689
       },
       {
         "BodyName": "Tyriedgoea DN-Y c15-0 A 1",
@@ -177,7 +185,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 641056227.684021,
+        "Eccentricity": 0.043678,
+        "OrbitalPeriod": 12030535.936356,
+        "OrbitalInclination": 7.064556
       },
       {
         "BodyName": "Tyriedgoea DN-Y c15-0 A 1 e",
@@ -191,7 +203,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2654692.173004,
+        "Eccentricity": 0.022747,
+        "OrbitalPeriod": 45556.598902,
+        "OrbitalInclination": 6.106519
       },
       {
         "BodyName": "Tyriedgoea DN-Y c15-0 A 1 d",
@@ -205,7 +221,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2071872.472763,
+        "Eccentricity": 0.022747,
+        "OrbitalPeriod": 45556.598902,
+        "OrbitalInclination": 6.106519
       },
       {
         "BodyName": "Tyriedgoea DN-Y c15-0 A 1 a",
@@ -219,7 +239,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 504739475.250244,
+        "Eccentricity": 0.001192,
+        "OrbitalPeriod": 99373.028874,
+        "OrbitalInclination": -0.072102
       },
       {
         "BodyName": "Tyriedgoea DN-Y c15-0 A 1 b",
@@ -233,7 +257,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 773844027.519226,
+        "Eccentricity": 9.2e-05,
+        "OrbitalPeriod": 188646.090031,
+        "OrbitalInclination": -0.003333
       },
       {
         "BodyName": "Tyriedgoea DN-Y c15-0 A 1 c",
@@ -247,7 +275,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 953798115.253448,
+        "Eccentricity": 0.019389,
+        "OrbitalPeriod": 258138.209581,
+        "OrbitalInclination": 0.018272
       },
       {
         "BodyName": "Tyriedgoea DN-Y c15-0 A 4",
@@ -269,7 +301,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 17007642388.343811,
+        "Eccentricity": 0.147807,
+        "OrbitalPeriod": 68860159.516335,
+        "OrbitalInclination": -3.97484
       },
       {
         "BodyName": "Tyriedgoea DN-Y c15-0 A 3",
@@ -291,7 +327,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 955243682.861328,
+        "Eccentricity": 0.147807,
+        "OrbitalPeriod": 68860159.516335,
+        "OrbitalInclination": -3.97484
       },
       {
         "BodyName": "Tyriedgoea DN-Y c15-0 A 5",
@@ -313,7 +353,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1595302522182.4646,
+        "Eccentricity": 0.012645,
+        "OrbitalPeriod": 1389156281.94809,
+        "OrbitalInclination": -3.413124
       }
     ]
   },

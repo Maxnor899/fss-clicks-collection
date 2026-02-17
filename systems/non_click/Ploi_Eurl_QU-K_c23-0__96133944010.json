@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.536982+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.950666+00:00",
     "log_files": [
       "Journal.2026-02-04T173406.01.log"
     ]
@@ -33,17 +33,17 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
-        "Rocky body"
+        "Rocky body",
+        "Icy body"
       ]
     },
     "stars": {
       "n_stars": 3,
       "types": [
-        "K",
         "M",
-        "T"
+        "T",
+        "K"
       ]
     },
     "signals": {
@@ -132,7 +132,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 8099080681.800842,
+        "Eccentricity": 0.000124,
+        "OrbitalPeriod": 524558.079243,
+        "OrbitalInclination": -0.451832
       },
       {
         "BodyName": "Ploi Eurl QU-K c23-0 A 4",
@@ -146,7 +150,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 27673881053.92456,
+        "Eccentricity": 0.004059,
+        "OrbitalPeriod": 3313180.029392,
+        "OrbitalInclination": 0.029014
       },
       {
         "BodyName": "Ploi Eurl QU-K c23-0 BC 1",
@@ -160,7 +168,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 24488908648.490906,
+        "Eccentricity": 4.9e-05,
+        "OrbitalPeriod": 4468469.798565,
+        "OrbitalInclination": 0.005073
       },
       {
         "BodyName": "Ploi Eurl QU-K c23-0 ABC 1",
@@ -174,7 +186,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 841986924.409866,
+        "Eccentricity": 0.055929,
+        "OrbitalPeriod": 24688382.744789,
+        "OrbitalInclination": -9.117747
       },
       {
         "BodyName": "Ploi Eurl QU-K c23-0 ABC 2",
@@ -188,7 +204,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1227327048.778534,
+        "Eccentricity": 0.055929,
+        "OrbitalPeriod": 24688382.744789,
+        "OrbitalInclination": -9.117747
       },
       {
         "BodyName": "Ploi Eurl QU-K c23-0 ABC 3",
@@ -202,7 +222,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 984667116403.5797,
+        "Eccentricity": 0.013965,
+        "OrbitalPeriod": 598387306.928635,
+        "OrbitalInclination": -0.038712
       },
       {
         "BodyName": "Ploi Eurl QU-K c23-0 A 5",
@@ -216,7 +240,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 40031369924.54529,
+        "Eccentricity": 0.006638,
+        "OrbitalPeriod": 5764221.727848,
+        "OrbitalInclination": 0.532073
       },
       {
         "BodyName": "Ploi Eurl QU-K c23-0 A 3",
@@ -230,7 +258,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 22013649344.444275,
+        "Eccentricity": 0.006267,
+        "OrbitalPeriod": 2350595.891476,
+        "OrbitalInclination": -0.591102
       },
       {
         "BodyName": "Ploi Eurl QU-K c23-0 A 2 a",
@@ -244,7 +276,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 11811487.674713,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 89261.915684,
+        "OrbitalInclination": 16.123703
       },
       {
         "BodyName": "Ploi Eurl QU-K c23-0 A 2",
@@ -258,7 +294,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 12168579697.608948,
+        "Eccentricity": 0.000525,
+        "OrbitalPeriod": 966050.475836,
+        "OrbitalInclination": -0.003449
       }
     ]
   },

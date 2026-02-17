@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.627727+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.041128+00:00",
     "log_files": [
       "Journal.2026-02-11T164827.01.log"
     ]
@@ -33,15 +33,15 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
       "n_stars": 2,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -115,7 +115,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 326997685432.4341,
+        "Eccentricity": 0.009191,
+        "OrbitalPeriod": 319983887.672424,
+        "OrbitalInclination": 0.035694
       },
       {
         "BodyName": "Prua Dryou FY-K b14-7 B 1",
@@ -129,7 +133,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 40218131542.20581,
+        "Eccentricity": 0.000843,
+        "OrbitalPeriod": 13802061.676979,
+        "OrbitalInclination": 0.114795
       },
       {
         "BodyName": "Prua Dryou FY-K b14-7 B 5",
@@ -143,7 +151,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 130514228343.96362,
+        "Eccentricity": 0.003637,
+        "OrbitalPeriod": 80685948.729515,
+        "OrbitalInclination": -0.060974
       },
       {
         "BodyName": "Prua Dryou FY-K b14-7 B 4",
@@ -157,7 +169,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 100746881961.82251,
+        "Eccentricity": 0.000418,
+        "OrbitalPeriod": 54721564.650536,
+        "OrbitalInclination": 0.018371
       },
       {
         "BodyName": "Prua Dryou FY-K b14-7 B 2",
@@ -171,7 +187,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 54563142657.27997,
+        "Eccentricity": 0.000102,
+        "OrbitalPeriod": 21810221.076012,
+        "OrbitalInclination": 0.832045
       },
       {
         "BodyName": "Prua Dryou FY-K b14-7 B 3",
@@ -185,7 +205,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 73638870120.04852,
+        "Eccentricity": 0.002287,
+        "OrbitalPeriod": 34195722.341537,
+        "OrbitalInclination": -0.666457
       },
       {
         "BodyName": "Prua Dryou FY-K b14-7 B 6 a",
@@ -199,7 +223,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 420374369.621277,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 12210565.209389,
+        "OrbitalInclination": 6.02979
       },
       {
         "BodyName": "Prua Dryou FY-K b14-7 B 6",
@@ -213,7 +241,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 235997444391.2506,
+        "Eccentricity": 0.004478,
+        "OrbitalPeriod": 196187829.971313,
+        "OrbitalInclination": -3.389966
       },
       {
         "BodyName": "Prua Dryou FY-K b14-7 AB 1",
@@ -227,7 +259,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 6759610176086.426,
+        "Eccentricity": 0.081906,
+        "OrbitalPeriod": 14620998501.777649,
+        "OrbitalInclination": 123.988974
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.607644+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.021912+00:00",
     "log_files": [
       "Journal.2026-02-10T202414.01.log"
     ]
@@ -33,15 +33,15 @@
       "has_ringed_body": true,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
-        "High metal content body"
+        "High metal content body",
+        "Icy body"
       ]
     },
     "stars": {
       "n_stars": 2,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -139,7 +139,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2427710354.328156,
+        "Eccentricity": 0.002196,
+        "OrbitalPeriod": 117430.382967,
+        "OrbitalInclination": -7.976302
       },
       {
         "BodyName": "IC 2944 Sector LQ-J b14-0 A 1",
@@ -153,7 +157,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1650511682.033539,
+        "Eccentricity": 0.000381,
+        "OrbitalPeriod": 65828.371644,
+        "OrbitalInclination": -0.021014
       },
       {
         "BodyName": "IC 2944 Sector LQ-J b14-0 AB 4",
@@ -167,7 +175,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 516695803403.8544,
+        "Eccentricity": 0.008943,
+        "OrbitalPeriod": 310408264.398575,
+        "OrbitalInclination": 2.337192
       },
       {
         "BodyName": "IC 2944 Sector LQ-J b14-0 AB 2",
@@ -181,7 +193,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 204149240255.35583,
+        "Eccentricity": 0.001133,
+        "OrbitalPeriod": 77090801.000595,
+        "OrbitalInclination": 0.065062
       },
       {
         "BodyName": "IC 2944 Sector LQ-J b14-0 AB 1",
@@ -195,7 +211,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 86030193567.276,
+        "Eccentricity": 0.000225,
+        "OrbitalPeriod": 21089059.114456,
+        "OrbitalInclination": -0.00154
       },
       {
         "BodyName": "IC 2944 Sector LQ-J b14-0 AB 5",
@@ -209,7 +229,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 761502027511.5967,
+        "Eccentricity": 0.005921,
+        "OrbitalPeriod": 555376487.970352,
+        "OrbitalInclination": -0.01741
       },
       {
         "BodyName": "IC 2944 Sector LQ-J b14-0 AB 3",
@@ -223,7 +247,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": true,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 305738699436.18774,
+        "Eccentricity": 2.9e-05,
+        "OrbitalPeriod": 141288405.656815,
+        "OrbitalInclination": 0.573385
       }
     ]
   },

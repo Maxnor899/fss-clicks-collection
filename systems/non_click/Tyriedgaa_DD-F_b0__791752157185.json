@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.560788+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.976366+00:00",
     "log_files": [
       "Journal.2026-02-07T205128.01.log"
     ]
@@ -98,7 +98,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 529695522785.18677,
+        "Eccentricity": 0.00015,
+        "OrbitalPeriod": 462061959.505081,
+        "OrbitalInclination": -0.074946
       },
       {
         "BodyName": "Tyriedgaa DD-F b0 3",
@@ -112,7 +116,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 320689034461.9751,
+        "Eccentricity": 0.002717,
+        "OrbitalPeriod": 217664110.660553,
+        "OrbitalInclination": -0.050447
       },
       {
         "BodyName": "Tyriedgaa DD-F b0 2",
@@ -126,7 +134,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 214392608404.15955,
+        "Eccentricity": 0.000103,
+        "OrbitalPeriod": 118980419.635773,
+        "OrbitalInclination": 0.018786
       },
       {
         "BodyName": "Tyriedgaa DD-F b0 6",
@@ -140,7 +152,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 669313436746.5973,
+        "Eccentricity": 0.002615,
+        "OrbitalPeriod": 656304073.33374,
+        "OrbitalInclination": 2.156254
       },
       {
         "BodyName": "Tyriedgaa DD-F b0 1",
@@ -154,7 +170,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 171026688814.1632,
+        "Eccentricity": 0.001267,
+        "OrbitalPeriod": 84772816.300392,
+        "OrbitalInclination": -0.205789
       },
       {
         "BodyName": "Tyriedgaa DD-F b0 7",
@@ -168,7 +188,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1001854836940.7654,
+        "Eccentricity": 0.000656,
+        "OrbitalPeriod": 1201898872.852325,
+        "OrbitalInclination": 0.173914
       },
       {
         "BodyName": "Tyriedgaa DD-F b0 4",
@@ -182,7 +206,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 395847392082.21436,
+        "Eccentricity": 7.5e-05,
+        "OrbitalPeriod": 298505532.741547,
+        "OrbitalInclination": 1.900738
       }
     ]
   },

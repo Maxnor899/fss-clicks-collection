@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.564698+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.980398+00:00",
     "log_files": [
       "Journal.2026-02-07T205128.01.log"
     ]
@@ -33,11 +33,11 @@
       "has_ringed_body": false,
       "n_terraformables": 1,
       "planet_classes": [
-        "Earthlike body",
         "Water world",
+        "Earthlike body",
+        "High metal content body",
         "Icy body",
-        "Rocky ice body",
-        "High metal content body"
+        "Rocky ice body"
       ]
     },
     "stars": {
@@ -102,7 +102,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 107493740320.20569,
+        "Eccentricity": 0.001043,
+        "OrbitalPeriod": 23312630.653381,
+        "OrbitalInclination": -0.00449
       },
       {
         "BodyName": "Tyriedgaa TU-M c8-0 1",
@@ -116,7 +120,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 44530647993.08777,
+        "Eccentricity": 0.000865,
+        "OrbitalPeriod": 6215914.666653,
+        "OrbitalInclination": 0.022782
       },
       {
         "BodyName": "Tyriedgaa TU-M c8-0 10",
@@ -130,7 +138,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 339832538366.31775,
+        "Eccentricity": 0.006514,
+        "OrbitalPeriod": 131043040.752411,
+        "OrbitalInclination": 0.546248
       },
       {
         "BodyName": "Tyriedgaa TU-M c8-0 2",
@@ -144,7 +156,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 58892198204.9942,
+        "Eccentricity": 1e-06,
+        "OrbitalPeriod": 9453728.914261,
+        "OrbitalInclination": 0.155458
       },
       {
         "BodyName": "Tyriedgaa TU-M c8-0 8",
@@ -158,7 +174,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1556222558.021545,
+        "Eccentricity": 0.068527,
+        "OrbitalPeriod": 22505159.974098,
+        "OrbitalInclination": 6.870586
       },
       {
         "BodyName": "Tyriedgaa TU-M c8-0 7",
@@ -172,7 +192,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 804988503.456116,
+        "Eccentricity": 0.118899,
+        "OrbitalPeriod": 12363892.197609,
+        "OrbitalInclination": -5.012192
       },
       {
         "BodyName": "Tyriedgaa TU-M c8-0 6",
@@ -186,7 +210,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 573143911.361694,
+        "Eccentricity": 0.118899,
+        "OrbitalPeriod": 12363892.197609,
+        "OrbitalInclination": -5.012192
       },
       {
         "BodyName": "Tyriedgaa TU-M c8-0 3",
@@ -200,7 +228,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 75368143320.08362,
+        "Eccentricity": 0.0006,
+        "OrbitalPeriod": 13686684.370041,
+        "OrbitalInclination": 0.010014
       },
       {
         "BodyName": "Tyriedgaa TU-M c8-0 9",
@@ -214,7 +246,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 233600527048.11096,
+        "Eccentricity": 0.004321,
+        "OrbitalPeriod": 74683942.198753,
+        "OrbitalInclination": -0.242171
       },
       {
         "BodyName": "Tyriedgaa TU-M c8-0 5",
@@ -228,7 +264,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 136887907981.87256,
+        "Eccentricity": 0.002017,
+        "OrbitalPeriod": 33501490.950584,
+        "OrbitalInclination": 0.013368
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.543396+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.957422+00:00",
     "log_files": [
       "Journal.2026-02-04T212839.01.log"
     ]
@@ -33,9 +33,9 @@
       "has_ringed_body": false,
       "n_terraformables": 0,
       "planet_classes": [
-        "Icy body",
         "High metal content body",
-        "Rocky body"
+        "Rocky body",
+        "Icy body"
       ]
     },
     "stars": {
@@ -100,7 +100,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 174865210056.30493,
+        "Eccentricity": 0.000532,
+        "OrbitalPeriod": 49373686.313629,
+        "OrbitalInclination": -0.11101
       },
       {
         "BodyName": "Ploi Eurl GX-P c20-2 6",
@@ -114,7 +118,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 600795656442.6422,
+        "Eccentricity": 0.005959,
+        "OrbitalPeriod": 314434778.690338,
+        "OrbitalInclination": -0.875942
       },
       {
         "BodyName": "Ploi Eurl GX-P c20-2 5",
@@ -128,7 +136,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 411976921558.3801,
+        "Eccentricity": 0.002354,
+        "OrbitalPeriod": 178545856.47583,
+        "OrbitalInclination": 2.986992
       },
       {
         "BodyName": "Ploi Eurl GX-P c20-2 3",
@@ -142,7 +154,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 248024779558.18176,
+        "Eccentricity": 8.9e-05,
+        "OrbitalPeriod": 83403266.66832,
+        "OrbitalInclination": -0.171068
       },
       {
         "BodyName": "Ploi Eurl GX-P c20-2 3 a",
@@ -156,7 +172,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 120999974.012375,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 4725609.302521,
+        "OrbitalInclination": -12.439663
       },
       {
         "BodyName": "Ploi Eurl GX-P c20-2 4",
@@ -170,7 +190,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 330475270748.1384,
+        "Eccentricity": 0.01051,
+        "OrbitalPeriod": 128277027.606964,
+        "OrbitalInclination": -0.063478
       },
       {
         "BodyName": "Ploi Eurl GX-P c20-2 1",
@@ -184,7 +208,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 91592885851.86005,
+        "Eccentricity": 0.000466,
+        "OrbitalPeriod": 18716863.393784,
+        "OrbitalInclination": 0.05144
       }
     ]
   },

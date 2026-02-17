@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.635292+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.049309+00:00",
     "log_files": [
       "Journal.2026-02-13T224149.01.log"
     ]
@@ -98,7 +98,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 527363997697.8302,
+        "Eccentricity": 0.000554,
+        "OrbitalPeriod": 1494396209.716797,
+        "OrbitalInclination": -0.059596
       },
       {
         "BodyName": "Flyeia Dryoae VD-I a119-4 5 a",
@@ -112,7 +116,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1465631365.776062,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 65798523.426056,
+        "OrbitalInclination": 43.35148
       },
       {
         "BodyName": "Flyeia Dryoae VD-I a119-4 4",
@@ -126,7 +134,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 388284778594.9707,
+        "Eccentricity": 0.000198,
+        "OrbitalPeriod": 944116532.802582,
+        "OrbitalInclination": 0.288292
       },
       {
         "BodyName": "Flyeia Dryoae VD-I a119-4 8",
@@ -140,7 +152,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 982368087768.5547,
+        "Eccentricity": 0.000122,
+        "OrbitalPeriod": 3799368023.872375,
+        "OrbitalInclination": -0.070177
       },
       {
         "BodyName": "Flyeia Dryoae VD-I a119-4 6",
@@ -154,7 +170,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1063851237.297058,
+        "Eccentricity": 0.151596,
+        "OrbitalPeriod": 172196489.572525,
+        "OrbitalInclination": 0.373365
       },
       {
         "BodyName": "Flyeia Dryoae VD-I a119-4 7",
@@ -168,7 +188,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1164610922.336578,
+        "Eccentricity": 0.151596,
+        "OrbitalPeriod": 172196489.572525,
+        "OrbitalInclination": 0.373365
       },
       {
         "BodyName": "Flyeia Dryoae VD-I a119-4 12",
@@ -182,7 +206,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5752235054.969788,
+        "Eccentricity": 0.198432,
+        "OrbitalPeriod": 1182107031.345367,
+        "OrbitalInclination": 6.223957
       },
       {
         "BodyName": "Flyeia Dryoae VD-I a119-4 11",
@@ -196,7 +224,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4881945431.232452,
+        "Eccentricity": 0.198432,
+        "OrbitalPeriod": 1182107031.345367,
+        "OrbitalInclination": 6.223957
       },
       {
         "BodyName": "Flyeia Dryoae VD-I a119-4 1",
@@ -210,7 +242,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 161022669076.91956,
+        "Eccentricity": 0.000128,
+        "OrbitalPeriod": 252133512.496948,
+        "OrbitalInclination": 0.000575
       },
       {
         "BodyName": "Flyeia Dryoae VD-I a119-4 3",
@@ -224,7 +260,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 291755551099.7772,
+        "Eccentricity": 3.6e-05,
+        "OrbitalPeriod": 614934343.099594,
+        "OrbitalInclination": -0.008265
       },
       {
         "BodyName": "Flyeia Dryoae VD-I a119-4 2",
@@ -238,7 +278,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 223107540607.4524,
+        "Eccentricity": 0.000233,
+        "OrbitalPeriod": 411217314.004898,
+        "OrbitalInclination": -0.566602
       },
       {
         "BodyName": "Flyeia Dryoae VD-I a119-4 10",
@@ -252,7 +296,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 3042050302.028656,
+        "Eccentricity": 0.092733,
+        "OrbitalPeriod": 397790902.853012,
+        "OrbitalInclination": -9.811181
       },
       {
         "BodyName": "Flyeia Dryoae VD-I a119-4 9",
@@ -266,7 +314,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2020051181.316376,
+        "Eccentricity": 0.092733,
+        "OrbitalPeriod": 397790902.853012,
+        "OrbitalInclination": -9.811181
       }
     ]
   },

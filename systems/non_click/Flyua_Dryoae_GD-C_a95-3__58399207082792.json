@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.639105+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.053579+00:00",
     "log_files": [
       "Journal.2026-02-13T224149.01.log"
     ]
@@ -98,7 +98,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 308489704132.0801,
+        "Eccentricity": 3.6e-05,
+        "OrbitalPeriod": 260256159.305573,
+        "OrbitalInclination": -0.003863
       },
       {
         "BodyName": "Flyua Dryoae GD-C a95-3 3",
@@ -112,7 +116,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 524902397394.1803,
+        "Eccentricity": 0.00393,
+        "OrbitalPeriod": 577640891.075134,
+        "OrbitalInclination": 0.23224
       },
       {
         "BodyName": "Flyua Dryoae GD-C a95-3 8",
@@ -126,7 +134,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1841330885887.146,
+        "Eccentricity": 0.010306,
+        "OrbitalPeriod": 3795227885.246277,
+        "OrbitalInclination": 0.216891
       },
       {
         "BodyName": "Flyua Dryoae GD-C a95-3 9",
@@ -140,7 +152,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2744755089282.9893,
+        "Eccentricity": 0.000401,
+        "OrbitalPeriod": 6907096207.141876,
+        "OrbitalInclination": -0.609995
       },
       {
         "BodyName": "Flyua Dryoae GD-C a95-3 9 a",
@@ -154,7 +170,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2012921333.312988,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 142842119.932175,
+        "OrbitalInclination": 11.226509
       },
       {
         "BodyName": "Flyua Dryoae GD-C a95-3 5",
@@ -168,7 +188,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 605379223.823547,
+        "Eccentricity": 0.181994,
+        "OrbitalPeriod": 58087240.457535,
+        "OrbitalInclination": -5.233191
       },
       {
         "BodyName": "Flyua Dryoae GD-C a95-3 4",
@@ -182,7 +206,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 456861460.208893,
+        "Eccentricity": 0.181994,
+        "OrbitalPeriod": 58087240.457535,
+        "OrbitalInclination": -5.233191
       },
       {
         "BodyName": "Flyua Dryoae GD-C a95-3 7",
@@ -196,7 +224,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 555356740.951538,
+        "Eccentricity": 0.189812,
+        "OrbitalPeriod": 66776705.384254,
+        "OrbitalInclination": -0.362808
       },
       {
         "BodyName": "Flyua Dryoae GD-C a95-3 6",
@@ -210,7 +242,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 534302765.130997,
+        "Eccentricity": 0.189812,
+        "OrbitalPeriod": 66776705.384254,
+        "OrbitalInclination": -0.362808
       },
       {
         "BodyName": "Flyua Dryoae GD-C a95-3 2",
@@ -224,7 +260,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 404175305366.5161,
+        "Eccentricity": 0.00459,
+        "OrbitalPeriod": 390296566.486359,
+        "OrbitalInclination": 0.078322
       }
     ]
   },

@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.550838+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.965444+00:00",
     "log_files": [
       "Journal.2026-02-05T065326.01.log"
     ]
@@ -39,8 +39,8 @@
     "stars": {
       "n_stars": 3,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {
@@ -129,7 +129,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5484729707.241058,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 129607343.673706,
+        "OrbitalInclination": 15.158051
       },
       {
         "BodyName": "Praea Eurl HO-K b11-0 C 7",
@@ -143,7 +147,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1027374982833.8623,
+        "Eccentricity": 0.000324,
+        "OrbitalPeriod": 1473933935.165405,
+        "OrbitalInclination": -1.087066
       },
       {
         "BodyName": "Praea Eurl HO-K b11-0 C 3",
@@ -157,7 +165,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 231866544485.09216,
+        "Eccentricity": 7e-05,
+        "OrbitalPeriod": 158030784.130096,
+        "OrbitalInclination": 0.264581
       },
       {
         "BodyName": "Praea Eurl HO-K b11-0 C 4",
@@ -171,7 +183,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 307935243844.98596,
+        "Eccentricity": 0.0062,
+        "OrbitalPeriod": 241865319.013596,
+        "OrbitalInclination": -0.072717
       },
       {
         "BodyName": "Praea Eurl HO-K b11-0 C 4 a",
@@ -185,7 +201,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 735926806.926727,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 7176675.319672,
+        "OrbitalInclination": -14.19747
       },
       {
         "BodyName": "Praea Eurl HO-K b11-0 C 5",
@@ -199,7 +219,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 402861356735.2295,
+        "Eccentricity": 8.8e-05,
+        "OrbitalPeriod": 361924475.431442,
+        "OrbitalInclination": 0.205569
       },
       {
         "BodyName": "Praea Eurl HO-K b11-0 C 1",
@@ -213,7 +237,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 118861287832.26013,
+        "Eccentricity": 0.000413,
+        "OrbitalPeriod": 58002298.474312,
+        "OrbitalInclination": -0.002748
       },
       {
         "BodyName": "Praea Eurl HO-K b11-0 C 2",
@@ -227,7 +255,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 164301842451.09558,
+        "Eccentricity": 0.002061,
+        "OrbitalPeriod": 94264509.677887,
+        "OrbitalInclination": 0.048851
       },
       {
         "BodyName": "Praea Eurl HO-K b11-0 C 2 a",
@@ -241,7 +273,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 533179163.9328,
+        "Eccentricity": 0.0,
+        "OrbitalPeriod": 4888552.78492,
+        "OrbitalInclination": -85.664622
       },
       {
         "BodyName": "Praea Eurl HO-K b11-0 C 6",
@@ -255,7 +291,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 753761857748.0316,
+        "Eccentricity": 0.001223,
+        "OrbitalPeriod": 926266181.468964,
+        "OrbitalInclination": -1.476741
       }
     ]
   },

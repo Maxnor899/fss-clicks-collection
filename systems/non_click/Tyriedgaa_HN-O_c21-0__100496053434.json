@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.570700+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.986567+00:00",
     "log_files": [
       "Journal.2026-02-08T111611.01.log"
     ]
@@ -39,9 +39,9 @@
     "stars": {
       "n_stars": 4,
       "types": [
+        "M",
         "L",
-        "K",
-        "M"
+        "K"
       ]
     },
     "signals": {
@@ -153,7 +153,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 8408059358.596802,
+        "Eccentricity": 0.00133,
+        "OrbitalPeriod": 924069.172144,
+        "OrbitalInclination": 0.042863
       },
       {
         "BodyName": "Tyriedgaa HN-O c21-0 D 3",
@@ -167,7 +171,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 29539467692.375183,
+        "Eccentricity": 0.000643,
+        "OrbitalPeriod": 6085059.285164,
+        "OrbitalInclination": 1.189445
       },
       {
         "BodyName": "Tyriedgaa HN-O c21-0 D 2",
@@ -181,7 +189,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 23854882717.13257,
+        "Eccentricity": 0.000958,
+        "OrbitalPeriod": 4415976.22633,
+        "OrbitalInclination": 0.655442
       },
       {
         "BodyName": "Tyriedgaa HN-O c21-0 D 4",
@@ -195,7 +207,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 43364549279.21295,
+        "Eccentricity": 0.010984,
+        "OrbitalPeriod": 10823383.927345,
+        "OrbitalInclination": 1.100405
       }
     ]
   },

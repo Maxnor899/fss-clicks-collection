@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.538876+00:00",
+    "generated_at_utc": "2026-02-16T21:44:35.953781+00:00",
     "log_files": [
       "Journal.2026-02-04T182059.01.log"
     ]
@@ -124,7 +124,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2087511539459.2285,
+        "Eccentricity": 0.004939,
+        "OrbitalPeriod": 2146734476.089478,
+        "OrbitalInclination": -0.09764
       },
       {
         "BodyName": "Ploi Eurl FN-O c21-2 3",
@@ -146,7 +150,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 858831202983.8562,
+        "Eccentricity": 0.001702,
+        "OrbitalPeriod": 566495901.346207,
+        "OrbitalInclination": 0.065302
       },
       {
         "BodyName": "Ploi Eurl FN-O c21-2 2",
@@ -168,7 +176,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2224028825.759888,
+        "Eccentricity": 0.054008,
+        "OrbitalPeriod": 10679584.145546,
+        "OrbitalInclination": -3.364817
       },
       {
         "BodyName": "Ploi Eurl FN-O c21-2 1",
@@ -197,7 +209,11 @@
           }
         ],
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 420410054.922104,
+        "Eccentricity": 0.054008,
+        "OrbitalPeriod": 10679584.145546,
+        "OrbitalInclination": -3.364817
       },
       {
         "BodyName": "Ploi Eurl FN-O c21-2 1 a",
@@ -211,7 +227,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 153124570.846558,
+        "Eccentricity": 0.000567,
+        "OrbitalPeriod": 162262.541056,
+        "OrbitalInclination": -0.247515
       },
       {
         "BodyName": "Ploi Eurl FN-O c21-2 4",
@@ -225,7 +245,11 @@
         "Landable": false,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 1552573621273.0408,
+        "Eccentricity": 0.011085,
+        "OrbitalPeriod": 1376934707.164764,
+        "OrbitalInclination": -0.156022
       },
       {
         "BodyName": "Ploi Eurl FN-O c21-2 4 a",
@@ -239,7 +263,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 909827929.735184,
+        "Eccentricity": 3.8e-05,
+        "OrbitalPeriod": 576749.831438,
+        "OrbitalInclination": 0.357392
       },
       {
         "BodyName": "Ploi Eurl FN-O c21-2 4 d",
@@ -253,7 +281,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 5707100987.434387,
+        "Eccentricity": 0.003927,
+        "OrbitalPeriod": 9060911.118984,
+        "OrbitalInclination": -0.060347
       },
       {
         "BodyName": "Ploi Eurl FN-O c21-2 4 b",
@@ -267,7 +299,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 2269197046.756744,
+        "Eccentricity": 0.000825,
+        "OrbitalPeriod": 2271730.303764,
+        "OrbitalInclination": 0.015004
       },
       {
         "BodyName": "Ploi Eurl FN-O c21-2 4 c",
@@ -281,7 +317,11 @@
         "Landable": true,
         "Rings": null,
         "WasDiscovered": false,
-        "WasMapped": false
+        "WasMapped": false,
+        "SemiMajorAxis": 4111701011.657715,
+        "Eccentricity": 0.000924,
+        "OrbitalPeriod": 5540906.965733,
+        "OrbitalInclination": -1.394674
       }
     ]
   },

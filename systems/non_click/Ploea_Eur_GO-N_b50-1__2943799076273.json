@@ -3,7 +3,7 @@
   "label": "non_click",
   "provenance": {
     "generated_by": "extract_non_click_v2.py",
-    "generated_at_utc": "2026-02-16T20:51:30.656031+00:00",
+    "generated_at_utc": "2026-02-16T21:44:36.069863+00:00",
     "log_files": [
       "Journal.2026-02-14T205220.01.log"
     ]
@@ -37,8 +37,8 @@
     "stars": {
       "n_stars": 2,
       "types": [
-        "L",
-        "M"
+        "M",
+        "L"
       ]
     },
     "signals": {

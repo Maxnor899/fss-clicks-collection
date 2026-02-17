@@ -1,13 +1,13 @@
 """
-extract_non_click_v2.py
------------------------
-Parse les journaux Elite Dangerous (février 2026+) et génère des fichiers
-JSON enrichis pour les systèmes non_click, dans systems/non_click_v2/.
+4_extract_non_click_from_Cmdr_Logs.py
+--------------------------------------
+Parse les journaux Elite Dangerous (depuis une date cutoff) et génère des fichiers
+JSON pour les systèmes visités, dans systems/non_click/.
 
 Usage :
-    python extract_non_click_v2.py
+    python 4_extract_non_click_from_Cmdr_Logs.py
 
-Ajuste les chemins en haut du fichier si besoin.
+Ajuster les chemins en haut du fichier si besoin.
 """
 
 import json
@@ -19,26 +19,14 @@ from collections import defaultdict
 
 # ── Configuration ─────────────────────────────────────────────────────────────
 
-LOG_DIR      = Path(r"C:\Users\Max\Saved Games\Frontier Developments\Elite Dangerous")
-NON_CLICK_V1 = Path("systems/non_click")          # pour récupérer la liste des systèmes connus
-OUTPUT_DIR   = Path("systems/non_click_v2")
+_DEFAULT_LOG_DIR = Path.home() / "Saved Games" / "Frontier Developments" / "Elite Dangerous"
+LOG_DIR      = Path(os.environ.get("ED_JOURNAL_DIR", _DEFAULT_LOG_DIR))
+OUTPUT_DIR   = Path("systems/non_click")
+# CUTOFF : ne retenir que les systèmes visités à partir de cette date.
+# Mettre la date de votre premier enregistrement de clic connu.
 CUTOFF       = datetime(2026, 2, 1, tzinfo=timezone.utc)
 
-# ── Chargement de la liste des systèmes non_click connus ─────────────────────
-
-known_non_click = {}   # address (int) → nom
-for p in NON_CLICK_V1.glob("*.json"):
-    try:
-        with open(p) as f:
-            d = json.load(f)
-        addr = d["system"]["address"]
-        known_non_click[addr] = d
-    except Exception as e:
-        print(f"  SKIP v1 {p.name}: {e}")
-
-print(f"Systèmes non_click connus : {len(known_non_click)}")
-
-# ── Chargement des logs (février 2026+) ──────────────────────────────────────
+# ── Chargement des logs (selon cutoff) ──────────────────────────────────────
 
 def log_date(filename):
     """Extrait la date depuis le nom Journal.YYYY-MM-DDTHHMMss.nn.log"""
@@ -211,12 +199,6 @@ for log_path in log_files:
 
 print(f"Systèmes parsés depuis les logs : {len(system_data)}")
 
-# ── Filtrage : garder uniquement les non_click connus ────────────────────────
-
-matched   = {addr: sd for addr, sd in system_data.items() if addr in known_non_click}
-unmatched = len(system_data) - len(matched)
-print(f"Matched avec non_click v1 : {len(matched)}  (non matchés ignorés : {unmatched})")
-
 # ── Export JSON ───────────────────────────────────────────────────────────────
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -229,17 +211,15 @@ def primary_star(stars):
     return stars[0] if stars else {}
 
 written = 0
-for addr, sd in matched.items():
-    v1 = known_non_click[addr]
-    v1_feat = v1.get("features", {})
-    v1_bodies = v1_feat.get("bodies", {})
-    v1_stars  = v1_feat.get("stars", {})
+for addr, sd in system_data.items():
+    if not sd["name"] or not sd["star_pos"]:
+        continue
 
     stars_list   = sd["stars"]
     planets_list = sd["planets"]
     pstar        = primary_star(stars_list)
 
-    # features enrichies
+    # features
     planet_classes = list({p["PlanetClass"] for p in planets_list if p.get("PlanetClass")})
 
     GAS_GIANT_CLASSES = {
@@ -274,25 +254,23 @@ for addr, sd in matched.items():
         "schema_version": 2,
         "label": "non_click",
         "provenance": {
-            "generated_by": "extract_non_click_v2.py",
+            "generated_by": "4_extract_non_click_from_Cmdr_Logs.py",
             "generated_at_utc": datetime.now(timezone.utc).isoformat(),
             "log_files": sorted(sd["log_files"]),
         },
         "system": {
-            "name":     sd["name"] or v1["system"]["name"],
+            "name":     sd["name"],
             "address":  addr,
-            "star_pos": sd["star_pos"] or v1["system"]["star_pos"],
+            "star_pos": sd["star_pos"],
         },
         "evidence": {
-            "first_seen_utc": sd["first_seen"].isoformat() if sd["first_seen"] else
-                              v1.get("evidence",{}).get("journal",{}).get("first_seen_utc"),
-            "last_seen_utc":  sd["last_seen"].isoformat()  if sd["last_seen"]  else
-                              v1.get("evidence",{}).get("journal",{}).get("last_seen_utc"),
+            "first_seen_utc": sd["first_seen"].isoformat() if sd["first_seen"] else None,
+            "last_seen_utc":  sd["last_seen"].isoformat()  if sd["last_seen"]  else None,
         },
         "features": {
             "bodies": {
-                "fss_bodycount":      sd["fss_body_count"]     or v1_bodies.get("fss_bodycount"),
-                "fss_nonbodycount":   sd["fss_non_body_count"] or v1_bodies.get("fss_nonbodycount"),
+                "fss_bodycount":      sd["fss_body_count"],
+                "fss_nonbodycount":   sd["fss_non_body_count"],
                 "n_bodies_scanned":   len(stars_list) + len(planets_list) if (stars_list or planets_list) else None,
                 "n_stars_scanned":    len(stars_list)   if stars_list   else None,
                 "n_planets_scanned":  len(planets_list) if planets_list else None,
@@ -303,8 +281,8 @@ for addr, sd in matched.items():
                 "planet_classes":     planet_classes,
             },
             "stars": {
-                "n_stars":    len(stars_list) or v1_stars.get("n_stars"),
-                "types":      star_types or v1_stars.get("types", []),
+                "n_stars": len(stars_list),
+                "types":   star_types,
             },
             "signals": {
                 "n_fss_body_signals_events": len(sd["fss_body_signals"]),
@@ -326,7 +304,7 @@ for addr, sd in matched.items():
         "codex_entries":    sd["codex_entries"],
     }
 
-    # nom de fichier = même convention que v1
+    # nom de fichier : <nom_système>__<address>.json
     safe_name = re.sub(r"[^\w\-]", "_", out["system"]["name"])
     out_path  = OUTPUT_DIR / f"{safe_name}__{addr}.json"
     with open(out_path, "w", encoding="utf-8") as f:
@@ -337,11 +315,11 @@ print(f"\n✓ {written} fichiers écrits dans {OUTPUT_DIR}/")
 
 # ── Rapport rapide ────────────────────────────────────────────────────────────
 
-n_with_stars   = sum(1 for sd in matched.values() if sd["stars"])
-n_with_planets = sum(1 for sd in matched.values() if sd["planets"])
-n_no_data      = sum(1 for sd in matched.values() if not sd["stars"] and not sd["planets"])
+n_with_stars   = sum(1 for sd in system_data.values() if sd["stars"])
+n_with_planets = sum(1 for sd in system_data.values() if sd["planets"])
+n_no_data      = sum(1 for sd in system_data.values() if not sd["stars"] and not sd["planets"])
 
 print(f"\nRapport :")
 print(f"  Systèmes avec étoile(s) scannée(s)  : {n_with_stars}")
 print(f"  Systèmes avec planète(s) scannée(s) : {n_with_planets}")
-print(f"  Systèmes sans scan détaillé          : {n_no_data}  (données v1 conservées)")
+print(f"  Systèmes sans scan détaillé          : {n_no_data}")

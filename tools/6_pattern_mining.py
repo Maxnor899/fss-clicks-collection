@@ -93,17 +93,23 @@ def extract_features(row):
     })
     
     # Coordonnées discrétisées (pour clustering spatial)
+    # ED : X ~ -40 000 .. +65 000 ly  /  Z ~ -20 000 .. +20 000 ly
     feat["x_zone"] = discretize(row["x"], {
-        "low":  (0, 5000),
-        "mid":  (5000, 7500),
-        "high": (7500, 15000),
+        "far_neg":  (-50000, -10000),
+        "neg":      (-10000, 0),
+        "low":      (0,       5000),
+        "mid":      (5000,    7500),
+        "high":     (7500,   15000),
+        "far_pos":  (15000,  70000),
     })
     
     feat["z_zone"] = discretize(row["z"], {
-        "negative": (-5000, 0),
-        "low":      (0, 1000),
-        "mid":      (1000, 2000),
-        "high":     (2000, 5000),
+        "far_neg":  (-20000, -5000),
+        "negative": (-5000,  0),
+        "low":      (0,      1000),
+        "mid":      (1000,   2000),
+        "high":     (2000,   5000),
+        "far_pos":  (5000,  20000),
     })
     
     return feat

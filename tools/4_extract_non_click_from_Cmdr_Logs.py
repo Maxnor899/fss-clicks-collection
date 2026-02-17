@@ -88,7 +88,9 @@ for log_path in log_files:
             ts = None
 
         # ── Nouveau système ──────────────────────────────────────────────────
-        if event == "FSDJump":
+        # Location : émis au démarrage de session (pas de saut FSD).
+        # FSDJump  : émis à chaque saut. Les deux définissent le système courant.
+        if event in ("FSDJump", "Location"):
             addr = ev.get("SystemAddress")
             if addr is None:
                 continue

@@ -74,6 +74,7 @@ incoming/
 
 ### 2. Run the ingestion script
 
+Before running this script, make sure all bodies of the concerned system were scanned.
 From the repo root:
 
 ```bash

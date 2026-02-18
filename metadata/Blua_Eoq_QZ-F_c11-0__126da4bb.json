@@ -1,0 +1,973 @@
+{
+  "recording": {
+    "audio_file": "Blua_Eoq_QZ-F_c11-0__126da4bb.flac",
+    "audio_sha256": "126da4bb34a5d8365a12dedcf5ce6458fb25086f2d159dbacbab34aaa31d2fb3",
+    "audio_sha256_short": "126da4bb",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-18T13:32:22+00:00",
+    "duration_s": 44.813
+  },
+  "context": {
+    "system": {
+      "name": "Blua Eoq QZ-F c11-0",
+      "name_sanitized": "Blua_Eoq_QZ-F_c11-0",
+      "address": 92777157730,
+      "star_pos": [
+        5298.875,
+        -1062.84375,
+        1980.3125
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-18T13:28:13Z",
+    "to_utc": "2026-02-18T13:29:56Z",
+    "anchor_timestamp_utc": "2026-02-18T13:28:13Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-18T133731.01.log"
+  },
+  "system_summary": {
+    "body_count": 15,
+    "non_body_signals": 14,
+    "stars_count": 1,
+    "planets_count": 11,
+    "landables_count": 7,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-18T13:28:18Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq QZ-F c11-0",
+        "BodyID": 0,
+        "StarSystem": "Blua Eoq QZ-F c11-0",
+        "SystemAddress": 92777157730,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 4,
+        "StellarMass": 0.851563,
+        "Radius": 620023936.0,
+        "AbsoluteMagnitude": 5.17688,
+        "Age_MY": 13023,
+        "SurfaceTemperature": 5650.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 321993.193449,
+        "AxialTilt": 0.0,
+        "Rings": [
+          {
+            "Name": "Blua Eoq QZ-F c11-0 A Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 134410000000000.0,
+            "InnerRad": 976270000.0,
+            "OuterRad": 2287200000.0
+          },
+          {
+            "Name": "Blua Eoq QZ-F c11-0 B Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 4779100000000000.0,
+            "InnerRad": 2290800000.0,
+            "OuterRad": 586460000000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-18T13:28:53Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq QZ-F c11-0 1",
+        "BodyID": 17,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq QZ-F c11-0",
+        "SystemAddress": 92777157730,
+        "DistanceFromArrivalLS": 3106.018434,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class II gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 73.795158
+          },
+          {
+            "Name": "Helium",
+            "Percent": 26.204836
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 708.686829,
+        "Radius": 76345320.0,
+        "SurfaceGravity": 48.46173,
+        "SurfaceTemperature": 200.160828,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 930942165851.593,
+        "Eccentricity": 0.000309,
+        "OrbitalInclination": -1.580749,
+        "Periapsis": 268.909824,
+        "OrbitalPeriod": 529113960.266113,
+        "RotationPeriod": 75936.914863,
+        "AxialTilt": 0.823464
+      },
+      {
+        "timestamp": "2026-02-18T13:29:06Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq QZ-F c11-0 1 a",
+        "BodyID": 18,
+        "Parents": [
+          {
+            "Planet": 17
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq QZ-F c11-0",
+        "SystemAddress": 92777157730,
+        "DistanceFromArrivalLS": 3102.896197,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001919,
+        "Radius": 873125.1875,
+        "SurfaceGravity": 1.003207,
+        "SurfaceTemperature": 107.907204,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 18.912533
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.6059
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.645636
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.304646
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 10.016603
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.505594
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.810684
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.911981
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.292571
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.16797
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.825879
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.911168,
+          "Metal": 0.088833
+        },
+        "SemiMajorAxis": 1564296126.365662,
+        "Eccentricity": 0.00025,
+        "OrbitalInclination": 0.016839,
+        "Periapsis": 349.655849,
+        "OrbitalPeriod": 731416.845322,
+        "RotationPeriod": 731428.527285,
+        "AxialTilt": 0.056971
+      },
+      {
+        "timestamp": "2026-02-18T13:29:09Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq QZ-F c11-0 1 b",
+        "BodyID": 19,
+        "Parents": [
+          {
+            "Planet": 17
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq QZ-F c11-0",
+        "SystemAddress": 92777157730,
+        "DistanceFromArrivalLS": 3111.249169,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001992,
+        "Radius": 883511.3125,
+        "SurfaceGravity": 1.01705,
+        "SurfaceTemperature": 106.358963,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.313366
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.921429
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.910962
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.607821
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 10.186471
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.685862
+          },
+          {
+            "Name": "germanium",
+            "Percent": 5.556468
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.961364
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.49977
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.192723
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.163771
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.909083,
+          "Metal": 0.090917
+        },
+        "SemiMajorAxis": 1934935688.972473,
+        "Eccentricity": 0.002892,
+        "OrbitalInclination": -0.638107,
+        "Periapsis": 192.837291,
+        "OrbitalPeriod": 1006204.605103,
+        "RotationPeriod": 1006220.671067,
+        "AxialTilt": -1.229402
+      },
+      {
+        "timestamp": "2026-02-18T13:29:02Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq QZ-F c11-0 1 c",
+        "BodyID": 20,
+        "Parents": [
+          {
+            "Planet": 17
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq QZ-F c11-0",
+        "SystemAddress": 92777157730,
+        "DistanceFromArrivalLS": 3106.087877,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001745,
+        "Radius": 981572.8125,
+        "SurfaceGravity": 0.721845,
+        "SurfaceTemperature": 91.980537,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 23.660488
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.896021
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 14.898859
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.737773
+          },
+          {
+            "Name": "nickel",
+            "Percent": 11.268872
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 6.700511
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.048952
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.703067
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.156964
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.018257
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.910241
+          }
+        ],
+        "Composition": {
+          "Ice": 0.513419,
+          "Rock": 0.443357,
+          "Metal": 0.043224
+        },
+        "SemiMajorAxis": 2889882504.940033,
+        "Eccentricity": 0.003699,
+        "OrbitalInclination": 0.061001,
+        "Periapsis": 37.658368,
+        "OrbitalPeriod": 1836566.984653,
+        "RotationPeriod": 1836596.324791,
+        "AxialTilt": 0.409652
+      },
+      {
+        "timestamp": "2026-02-18T13:28:59Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq QZ-F c11-0 1 d",
+        "BodyID": 22,
+        "Parents": [
+          {
+            "Planet": 17
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq QZ-F c11-0",
+        "SystemAddress": 92777157730,
+        "DistanceFromArrivalLS": 3101.81204,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002293,
+        "Radius": 1074252.5,
+        "SurfaceGravity": 0.791833,
+        "SurfaceTemperature": 90.935463,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 24.465509
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 20.57296
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 15.405777
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 13.171164
+          },
+          {
+            "Name": "nickel",
+            "Percent": 11.652284
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.362429
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.829059
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.990419
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 0.951405
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.926256
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.672745
+          }
+        ],
+        "Composition": {
+          "Ice": 0.513419,
+          "Rock": 0.443357,
+          "Metal": 0.043224
+        },
+        "SemiMajorAxis": 3603530943.393707,
+        "Eccentricity": 0.000638,
+        "OrbitalInclination": 0.347981,
+        "Periapsis": 340.970348,
+        "OrbitalPeriod": 2557283.341885,
+        "RotationPeriod": 2557323.851594,
+        "AxialTilt": 0.03734
+      },
+      {
+        "timestamp": "2026-02-18T13:29:18Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq QZ-F c11-0 1 e",
+        "BodyID": 23,
+        "Parents": [
+          {
+            "Planet": 17
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq QZ-F c11-0",
+        "SystemAddress": 92777157730,
+        "DistanceFromArrivalLS": 3106.789495,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00266,
+        "Radius": 1128309.875,
+        "SurfaceGravity": 0.83282,
+        "SurfaceTemperature": 89.652969,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 23.782824
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.998892
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 14.975893
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.803635
+          },
+          {
+            "Name": "nickel",
+            "Percent": 11.327138
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.184891
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.326519
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.069887
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.162946
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.977917
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.389455
+          }
+        ],
+        "Composition": {
+          "Ice": 0.513419,
+          "Rock": 0.443357,
+          "Metal": 0.043224
+        },
+        "SemiMajorAxis": 4908425509.929657,
+        "Eccentricity": 0.00059,
+        "OrbitalInclination": 6.794044,
+        "Periapsis": 244.78563,
+        "OrbitalPeriod": 4065367.281437,
+        "RotationPeriod": 4065432.244552,
+        "AxialTilt": 0.256372
+      },
+      {
+        "timestamp": "2026-02-18T13:29:43Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq QZ-F c11-0 2",
+        "BodyID": 32,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq QZ-F c11-0",
+        "SystemAddress": 92777157730,
+        "DistanceFromArrivalLS": 4117.814983,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class III gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 73.795166
+          },
+          {
+            "Name": "Helium",
+            "Percent": 26.204842
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 1093.092163,
+        "Radius": 76491848.0,
+        "SurfaceGravity": 74.462196,
+        "SurfaceTemperature": 266.227966,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 1268944203853.6072,
+        "Eccentricity": 0.027193,
+        "OrbitalInclination": 2.043167,
+        "Periapsis": 289.519117,
+        "OrbitalPeriod": 842032736.539841,
+        "RotationPeriod": 44239.456744,
+        "AxialTilt": -2.381869
+      },
+      {
+        "timestamp": "2026-02-18T13:29:51Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq QZ-F c11-0 2 c",
+        "BodyID": 35,
+        "Parents": [
+          {
+            "Planet": 32
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq QZ-F c11-0",
+        "SystemAddress": 92777157730,
+        "DistanceFromArrivalLS": 4116.929808,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.016972,
+        "Radius": 2250698.0,
+        "SurfaceGravity": 1.335399,
+        "SurfaceTemperature": 84.104126,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.321539
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.974583
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.708721
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 11.942848
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.03307
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.371095
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.43994
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.245619
+          },
+          {
+            "Name": "niobium",
+            "Percent": 0.81623
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.719204
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.427148
+          }
+        ],
+        "Composition": {
+          "Ice": 0.838764,
+          "Rock": 0.146671,
+          "Metal": 0.014565
+        },
+        "SemiMajorAxis": 4457102894.78302,
+        "Eccentricity": 0.002954,
+        "OrbitalInclination": 0.070752,
+        "Periapsis": 262.871237,
+        "OrbitalPeriod": 2832307.040691,
+        "RotationPeriod": 2832508.302541,
+        "AxialTilt": -1.432406
+      },
+      {
+        "timestamp": "2026-02-18T13:29:56Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq QZ-F c11-0 2 c a",
+        "BodyID": 36,
+        "Parents": [
+          {
+            "Planet": 35
+          },
+          {
+            "Planet": 32
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq QZ-F c11-0",
+        "SystemAddress": 92777157730,
+        "DistanceFromArrivalLS": 4116.991761,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "minor carbon dioxide geysers volcanism",
+        "MassEM": 0.001146,
+        "Radius": 948722.0,
+        "SurfaceGravity": 0.507581,
+        "SurfaceTemperature": 84.104126,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 31.051878
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 26.111412
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 16.716974
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 9.184915
+          },
+          {
+            "Name": "nickel",
+            "Percent": 6.947084
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 4.130761
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.060585
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 1.066558
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.647235
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.59977
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.482837
+          }
+        ],
+        "Composition": {
+          "Ice": 0.937789,
+          "Rock": 0.060271,
+          "Metal": 0.00194
+        },
+        "SemiMajorAxis": 24674920.43972,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": 85.277722,
+        "Periapsis": 240.85572,
+        "OrbitalPeriod": 286579.322815,
+        "RotationPeriod": 296098.445747,
+        "AxialTilt": -0.093746
+      },
+      {
+        "timestamp": "2026-02-18T13:29:27Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq QZ-F c11-0 3",
+        "BodyID": 39,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq QZ-F c11-0",
+        "SystemAddress": 92777157730,
+        "DistanceFromArrivalLS": 6012.374395,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 89.334976
+          },
+          {
+            "Name": "Hydrogen",
+            "Percent": 8.427828
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.237205
+          }
+        ],
+        "Volcanism": "water geysers volcanism",
+        "MassEM": 15.20946,
+        "Radius": 16369058.0,
+        "SurfaceGravity": 22.624335,
+        "SurfaceTemperature": 61.925747,
+        "SurfacePressure": 274597.59375,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.673921,
+          "Rock": 0.217695,
+          "Metal": 0.108344
+        },
+        "SemiMajorAxis": 1791325390338.8977,
+        "Eccentricity": 0.009133,
+        "OrbitalInclination": 0.356838,
+        "Periapsis": 77.932694,
+        "OrbitalPeriod": 1412299871.444702,
+        "RotationPeriod": 149416.366978,
+        "AxialTilt": -2.257732,
+        "Rings": [
+          {
+            "Name": "Blua Eoq QZ-F c11-0 3 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 628160000.0,
+            "InnerRad": 24846000.0,
+            "OuterRad": 86254000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-02-18T13:29:30Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq QZ-F c11-0 3 a",
+        "BodyID": 43,
+        "Parents": [
+          {
+            "Planet": 39
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq QZ-F c11-0",
+        "SystemAddress": 92777157730,
+        "DistanceFromArrivalLS": 6003.4261,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick argon rich atmosphere",
+        "AtmosphereType": "ArgonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 99.190025
+          },
+          {
+            "Name": "Argon",
+            "Percent": 0.809572
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 1.000818,
+        "Radius": 8305160.0,
+        "SurfaceGravity": 5.783207,
+        "SurfaceTemperature": 86.064804,
+        "SurfacePressure": 128276048.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.877488,
+          "Rock": 0.10356,
+          "Metal": 0.016669
+        },
+        "SemiMajorAxis": 8005239605.903625,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": -32.268201,
+        "Periapsis": 78.198614,
+        "OrbitalPeriod": 55986945.033073,
+        "RotationPeriod": 140074.70927,
+        "AxialTilt": 0.414613,
+        "Rings": [
+          {
+            "Name": "Blua Eoq QZ-F c11-0 3 a A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 883830000.0,
+            "InnerRad": 15105000.0,
+            "OuterRad": 34823000.0
+          }
+        ]
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-13T224149.01.log",
+      "Journal.2026-02-14T071150.01.log",
+      "Journal.2026-02-14T205220.01.log",
+      "Journal.2026-02-15T071238.01.log",
+      "Journal.2026-02-15T104234.01.log",
+      "Journal.2026-02-15T140907.01.log",
+      "Journal.2026-02-15T183128.01.log",
+      "Journal.2026-02-16T151444.01.log",
+      "Journal.2026-02-17T203702.01.log",
+      "Journal.2026-02-18T133731.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-18T13:28:13Z",
+      "to_utc": "2026-02-18T13:29:56Z"
+    }
+  }
+}

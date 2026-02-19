@@ -1,0 +1,919 @@
+{
+  "recording": {
+    "audio_file": "Blua_Eoq_TY-H_c10-0__c2bd5ec7.flac",
+    "audio_sha256": "c2bd5ec7b015af4e1c1605626d16ce8d55f80c94e8b6723720227390ffda6032",
+    "audio_sha256_short": "c2bd5ec7",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-19T20:23:09+00:00",
+    "duration_s": 50.421
+  },
+  "context": {
+    "system": {
+      "name": "Blua Eoq TY-H c10-0",
+      "name_sanitized": "Blua_Eoq_TY-H_c10-0",
+      "address": 93381170266,
+      "star_pos": [
+        5669.65625,
+        -1002.875,
+        1949.34375
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-19T20:18:40Z",
+    "to_utc": "2026-02-19T20:22:15Z",
+    "anchor_timestamp_utc": "2026-02-19T20:18:40Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-19T202742.01.log"
+  },
+  "system_summary": {
+    "body_count": 10,
+    "non_body_signals": 0,
+    "stars_count": 1,
+    "planets_count": 9,
+    "landables_count": 9,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-19T20:18:45Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq TY-H c10-0",
+        "BodyID": 0,
+        "StarSystem": "Blua Eoq TY-H c10-0",
+        "SystemAddress": 93381170266,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 3,
+        "StellarMass": 0.871094,
+        "Radius": 690533312.0,
+        "AbsoluteMagnitude": 5.721436,
+        "Age_MY": 12098,
+        "SurfaceTemperature": 4723.0,
+        "Luminosity": "Va",
+        "RotationPeriod": 332334.229315,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-19T20:22:15Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq TY-H c10-0 1",
+        "BodyID": 1,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq TY-H c10-0",
+        "SystemAddress": 93381170266,
+        "DistanceFromArrivalLS": 413.919103,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000474,
+        "Radius": 515348.34375,
+        "SurfaceGravity": 0.71116,
+        "SurfaceTemperature": 223.626495,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.155401
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.001059
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 14.779327
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.427884
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.514286
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.736965
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 7.956545
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.749246
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.642813
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.445859
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.590609
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.664836,
+          "Metal": 0.335164
+        },
+        "SemiMajorAxis": 124104088544.84558,
+        "Eccentricity": 0.000124,
+        "OrbitalInclination": -0.086206,
+        "Periapsis": 238.753787,
+        "OrbitalPeriod": 25546149.611473,
+        "RotationPeriod": 36966.680818,
+        "AxialTilt": 0.239456
+      },
+      {
+        "timestamp": "2026-02-19T20:19:36Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq TY-H c10-0 2",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq TY-H c10-0",
+        "SystemAddress": 93381170266,
+        "DistanceFromArrivalLS": 534.264903,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00043,
+        "Radius": 498962.3125,
+        "SurfaceGravity": 0.688208,
+        "SurfaceTemperature": 196.841736,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 22.109568
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.722752
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 15.445916
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.988416
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.943406
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 9.131026
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.315407
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 2.043864
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.716908
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.965488
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.617247
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.664836,
+          "Metal": 0.335164
+        },
+        "SemiMajorAxis": 160176259279.2511,
+        "Eccentricity": 0.000992,
+        "OrbitalInclination": 0.441602,
+        "Periapsis": 130.156563,
+        "OrbitalPeriod": 37457907.19986,
+        "RotationPeriod": 162834.783524,
+        "AxialTilt": 0.144715
+      },
+      {
+        "timestamp": "2026-02-19T20:19:32Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq TY-H c10-0 3",
+        "BodyID": 3,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq TY-H c10-0",
+        "SystemAddress": 93381170266,
+        "DistanceFromArrivalLS": 731.208516,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000826,
+        "Radius": 616637.875,
+        "SurfaceGravity": 0.865338,
+        "SurfaceTemperature": 168.876572,
+        "SurfacePressure": 34.526207,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 22.51251
+          },
+          {
+            "Name": "nickel",
+            "Percent": 17.027519
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 15.468194
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 13.007149
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 9.297438
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.3274
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.528289
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.576811
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.748199
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.53861
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.967878
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.64834,
+          "Metal": 0.35166
+        },
+        "SemiMajorAxis": 219051307439.80408,
+        "Eccentricity": 0.001396,
+        "OrbitalInclination": 0.128899,
+        "Periapsis": 299.390523,
+        "OrbitalPeriod": 59905276.894569,
+        "RotationPeriod": 99676.730234,
+        "AxialTilt": 1.818039
+      },
+      {
+        "timestamp": "2026-02-19T20:19:22Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq TY-H c10-0 4",
+        "BodyID": 5,
+        "Parents": [
+          {
+            "Null": 4
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq TY-H c10-0",
+        "SystemAddress": 93381170266,
+        "DistanceFromArrivalLS": 1380.140771,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001799,
+        "Radius": 982449.5625,
+        "SurfaceGravity": 0.742972,
+        "SurfaceTemperature": 108.679802,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 21.747612
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 18.287489
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 17.272259
+          },
+          {
+            "Name": "nickel",
+            "Percent": 13.064013
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 11.707965
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.133267
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.693954
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.403685
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.180467
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.755028
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.754251
+          }
+        ],
+        "Composition": {
+          "Ice": 0.55948,
+          "Rock": 0.292873,
+          "Metal": 0.147647
+        },
+        "SemiMajorAxis": 103951954.841614,
+        "Eccentricity": 0.102011,
+        "OrbitalInclination": -9.677243,
+        "Periapsis": 125.150536,
+        "OrbitalPeriod": 17073090.076447,
+        "RotationPeriod": 68634.944534,
+        "AxialTilt": 0.073799
+      },
+      {
+        "timestamp": "2026-02-19T20:19:25Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq TY-H c10-0 5",
+        "BodyID": 6,
+        "Parents": [
+          {
+            "Null": 4
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq TY-H c10-0",
+        "SystemAddress": 93381170266,
+        "DistanceFromArrivalLS": 1380.50194,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001659,
+        "Radius": 956402.1875,
+        "SurfaceGravity": 0.722796,
+        "SurfaceTemperature": 108.679802,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 21.459286
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 18.045038
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 17.043266
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.890814
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 11.552743
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.038695
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.631722
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 4.185234
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.164816
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.05253
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.935847
+          }
+        ],
+        "Composition": {
+          "Ice": 0.55948,
+          "Rock": 0.292872,
+          "Metal": 0.147647
+        },
+        "SemiMajorAxis": 112753087.282181,
+        "Eccentricity": 0.102011,
+        "OrbitalInclination": -9.677243,
+        "Periapsis": 305.150531,
+        "OrbitalPeriod": 17073090.076447,
+        "RotationPeriod": 129030.610322,
+        "AxialTilt": -0.309323
+      },
+      {
+        "timestamp": "2026-02-19T20:19:07Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq TY-H c10-0 6",
+        "BodyID": 8,
+        "Parents": [
+          {
+            "Null": 7
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq TY-H c10-0",
+        "SystemAddress": 93381170266,
+        "DistanceFromArrivalLS": 1788.084401,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001546,
+        "Radius": 934290.875,
+        "SurfaceGravity": 0.705692,
+        "SurfaceTemperature": 95.22464,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 21.570471
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 18.138533
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 17.131573
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.957604
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 11.6126
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 7.704637
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 4.206918
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.541224
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.330344
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.057984
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.748108
+          }
+        ],
+        "Composition": {
+          "Ice": 0.55948,
+          "Rock": 0.292872,
+          "Metal": 0.147647
+        },
+        "SemiMajorAxis": 87383024.692535,
+        "Eccentricity": 0.038857,
+        "OrbitalInclination": 2.03953,
+        "Periapsis": 286.510405,
+        "OrbitalPeriod": 14240616.559982,
+        "RotationPeriod": 84315.89733,
+        "AxialTilt": -0.183943
+      },
+      {
+        "timestamp": "2026-02-19T20:19:04Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq TY-H c10-0 7",
+        "BodyID": 9,
+        "Parents": [
+          {
+            "Null": 7
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq TY-H c10-0",
+        "SystemAddress": 93381170266,
+        "DistanceFromArrivalLS": 1787.768316,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.001421,
+        "Radius": 908614.5625,
+        "SurfaceGravity": 0.685856,
+        "SurfaceTemperature": 95.22464,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 21.647429
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 18.203245
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 17.192694
+          },
+          {
+            "Name": "nickel",
+            "Percent": 13.003832
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 11.65403
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 7.732125
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.67233
+          },
+          {
+            "Name": "germanium",
+            "Percent": 3.553858
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.1097
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.750777
+          },
+          {
+            "Name": "polonium",
+            "Percent": 0.479979
+          }
+        ],
+        "Composition": {
+          "Ice": 0.55948,
+          "Rock": 0.292872,
+          "Metal": 0.147647
+        },
+        "SemiMajorAxis": 95063656.568527,
+        "Eccentricity": 0.038857,
+        "OrbitalInclination": 2.03953,
+        "Periapsis": 106.51041,
+        "OrbitalPeriod": 14240616.559982,
+        "RotationPeriod": 43042.040902,
+        "AxialTilt": -0.436882
+      },
+      {
+        "timestamp": "2026-02-19T20:19:10Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq TY-H c10-0 8",
+        "BodyID": 10,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq TY-H c10-0",
+        "SystemAddress": 93381170266,
+        "DistanceFromArrivalLS": 2325.68193,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.008299,
+        "Radius": 1687469.0,
+        "SurfaceGravity": 1.16165,
+        "SurfaceTemperature": 83.592133,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 23.118795
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.440512
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 16.323502
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.44615
+          },
+          {
+            "Name": "nickel",
+            "Percent": 12.346413
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 7.341221
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.436117
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 1.895495
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.065915
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 0.87306
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.71282
+          }
+        ],
+        "Composition": {
+          "Ice": 0.679371,
+          "Rock": 0.212854,
+          "Metal": 0.107776
+        },
+        "SemiMajorAxis": 696747136116.0278,
+        "Eccentricity": 0.000701,
+        "OrbitalInclination": 0.010918,
+        "Periapsis": 112.339468,
+        "OrbitalPeriod": 339827924.966812,
+        "RotationPeriod": 139583.622443,
+        "AxialTilt": -0.87063
+      },
+      {
+        "timestamp": "2026-02-19T20:19:16Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq TY-H c10-0 9",
+        "BodyID": 11,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq TY-H c10-0",
+        "SystemAddress": 93381170266,
+        "DistanceFromArrivalLS": 4307.093983,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.004243,
+        "Radius": 1354421.375,
+        "SurfaceGravity": 0.921892,
+        "SurfaceTemperature": 61.406403,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 22.536015
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 18.950455
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 15.857262
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.132407
+          },
+          {
+            "Name": "nickel",
+            "Percent": 11.993768
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 7.131537
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.548887
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 1.841355
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.231388
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.083759
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.693172
+          }
+        ],
+        "Composition": {
+          "Ice": 0.681962,
+          "Rock": 0.211442,
+          "Metal": 0.106596
+        },
+        "SemiMajorAxis": 1291155874729.1565,
+        "Eccentricity": 0.000195,
+        "OrbitalInclination": -1.50098,
+        "Periapsis": 46.309219,
+        "OrbitalPeriod": 857263523.340225,
+        "RotationPeriod": 50264.207368,
+        "AxialTilt": 0.486851
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-14T071150.01.log",
+      "Journal.2026-02-14T205220.01.log",
+      "Journal.2026-02-15T071238.01.log",
+      "Journal.2026-02-15T104234.01.log",
+      "Journal.2026-02-15T140907.01.log",
+      "Journal.2026-02-15T183128.01.log",
+      "Journal.2026-02-16T151444.01.log",
+      "Journal.2026-02-17T203702.01.log",
+      "Journal.2026-02-18T133731.01.log",
+      "Journal.2026-02-19T202742.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-19T20:18:40Z",
+      "to_utc": "2026-02-19T20:22:15Z"
+    }
+  }
+}

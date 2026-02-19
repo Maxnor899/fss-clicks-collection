@@ -1,0 +1,72 @@
+{
+  "recording": {
+    "audio_file": "Blua_Eoq_BU-G_c11-03__7a32b1b1.flac",
+    "audio_sha256": "7a32b1b12a410cc8d9448f7447b67255f678f74bfff2c659e133380d07236246",
+    "audio_sha256_short": "7a32b1b1",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-19T21:04:25+00:00",
+    "duration_s": 31.283
+  },
+  "context": {
+    "system": {
+      "name": "Blua Eoq BU-G c11-03",
+      "name_sanitized": "Blua_Eoq_BU-G_c11-03",
+      "address": null,
+      "star_pos": null
+    },
+    "game": {
+      "version": null,
+      "build": null,
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": null
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": null,
+    "to_utc": null,
+    "anchor_timestamp_utc": null,
+    "anchor_event": null,
+    "journal_anchor_file": null
+  },
+  "system_summary": {
+    "body_count": null,
+    "non_body_signals": null,
+    "stars_count": null,
+    "planets_count": null,
+    "landables_count": null,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [],
+    "planets": []
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-14T071150.01.log",
+      "Journal.2026-02-14T205220.01.log",
+      "Journal.2026-02-15T071238.01.log",
+      "Journal.2026-02-15T104234.01.log",
+      "Journal.2026-02-15T140907.01.log",
+      "Journal.2026-02-15T183128.01.log",
+      "Journal.2026-02-16T151444.01.log",
+      "Journal.2026-02-17T203702.01.log",
+      "Journal.2026-02-18T133731.01.log",
+      "Journal.2026-02-19T202742.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": null,
+      "to_utc": null
+    }
+  }
+}

@@ -4,10 +4,13 @@ Ingest one FLAC recording into the repo.
 
 Workflow:
 - Put exactly ONE .flac file (<= 60s) into ./incoming/
+- Optionally put ONE screenshot (.png / .jpg / .jpeg) into ./incoming/
 - Run (from repo root): python tools/ingest.py "System Name Here"
 - The script will:
   - compute SHA-256 of the audio, keep first 8 chars
   - rename + move it into ./audio/<SystemName>__<hash>.flac
+  - if a screenshot is present, rename it with the SAME base name
+    and move it into ./FSS_Screens/<SystemName>__<hash>.<ext>
   - parse Elite Dangerous Journal*.log locally to extract metadata
   - write ./metadata/<SystemName>__<hash>.json
   - never copies or commits the logs
@@ -32,6 +35,8 @@ try:
     from mutagen.flac import FLAC  # type: ignore
 except Exception:
     FLAC = None
+
+SCREENSHOT_EXTENSIONS = {".png", ".jpg", ".jpeg"}
 
 
 # -------------------------
@@ -391,6 +396,7 @@ def main() -> int:
     parser.add_argument("system_name", help="Exact in-game system name, e.g. \"Praea Eurl RY-H d10-0\"")
     parser.add_argument("--incoming", default="incoming", help="Incoming folder containing exactly one FLAC (default: incoming)")
     parser.add_argument("--audio-out", default="audio", help="Output folder for renamed FLAC (default: audio)")
+    parser.add_argument("--screens-out", default="FSS_Screens", help="Output folder for renamed screenshot (default: FSS_Screens)")
     parser.add_argument("--meta-out", default="metadata", help="Output folder for JSON metadata (default: metadata)")
     parser.add_argument("--journals", default=None, help="Elite Dangerous journals directory. Defaults to standard Windows path.")
     parser.add_argument("--max-seconds", type=float, default=60.0, help="Max allowed duration for FLAC (default: 60)")
@@ -399,10 +405,12 @@ def main() -> int:
     repo_root = Path.cwd()
     incoming_dir = (repo_root / args.incoming).resolve()
     audio_dir = (repo_root / args.audio_out).resolve()
+    screens_dir = (repo_root / args.screens_out).resolve()
     meta_dir = (repo_root / args.meta_out).resolve()
 
     incoming_dir.mkdir(parents=True, exist_ok=True)
     audio_dir.mkdir(parents=True, exist_ok=True)
+    screens_dir.mkdir(parents=True, exist_ok=True)
     meta_dir.mkdir(parents=True, exist_ok=True)
 
     flacs = sorted([p for p in incoming_dir.glob("*.flac") if p.is_file()])
@@ -416,6 +424,20 @@ def main() -> int:
         return 2
 
     src_audio = flacs[0]
+
+    # Detect optional screenshot
+    screenshots = sorted([
+        p for p in incoming_dir.iterdir()
+        if p.is_file() and p.suffix.lower() in SCREENSHOT_EXTENSIONS
+    ])
+    if len(screenshots) > 1:
+        print(f"[ERROR] More than one screenshot found in {incoming_dir}. Please keep at most one.")
+        for p in screenshots:
+            print(f"  - {p.name}")
+        return 2
+    src_screen = screenshots[0] if screenshots else None
+    if src_screen is None:
+        print("[INFO] No screenshot found in incoming/ — skipping FSS_Screens copy.")
 
     dur = get_flac_duration_seconds(src_audio)
     if dur is None:
@@ -438,6 +460,7 @@ def main() -> int:
     base_name = f"{system_name_safe}__{short_hash}"
     dst_audio = audio_dir / f"{base_name}.flac"
     dst_meta = meta_dir / f"{base_name}.json"
+    dst_screen = screens_dir / f"{base_name}{src_screen.suffix.lower()}" if src_screen else None
 
     if dst_audio.exists() or dst_meta.exists():
         print("[ERROR] A recording with the same hash already exists in the repo:")
@@ -466,6 +489,10 @@ def main() -> int:
 
     # Move audio into place
     shutil.move(str(src_audio), str(dst_audio))
+
+    # Move screenshot into place (if present)
+    if src_screen is not None and dst_screen is not None:
+        shutil.move(str(src_screen), str(dst_screen))
 
     meta: Dict[str, Any] = {
         "recording": {
@@ -540,6 +567,8 @@ def main() -> int:
     print("✅ Ingest complete")
     print(f"System:   {system_name_raw}")
     print(f"Audio:    {dst_audio.relative_to(repo_root)}")
+    if dst_screen is not None:
+        print(f"Screen:   {dst_screen.relative_to(repo_root)}")
     print(f"Metadata: {dst_meta.relative_to(repo_root)}")
     return 0
 

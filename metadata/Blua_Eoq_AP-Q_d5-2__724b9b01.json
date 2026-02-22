@@ -1,0 +1,188 @@
+{
+  "recording": {
+    "audio_file": "Blua_Eoq_AP-Q_d5-2__724b9b01.flac",
+    "audio_sha256": "724b9b01f936ca2da584717c987dfdd3fd4006701621c6e32d0cb32c26ee08ad",
+    "audio_sha256_short": "724b9b01",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-22T09:55:24+00:00",
+    "duration_s": 39.551
+  },
+  "context": {
+    "system": {
+      "name": "Blua Eoq AP-Q d5-2",
+      "name_sanitized": "Blua_Eoq_AP-Q_d5-2",
+      "address": 80505309747,
+      "star_pos": [
+        6228.34375,
+        -783.40625,
+        2010.75
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-22T09:51:35Z",
+    "to_utc": "2026-02-22T09:51:44Z",
+    "anchor_timestamp_utc": "2026-02-22T09:51:35Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-22T104058.01.log"
+  },
+  "system_summary": {
+    "body_count": 11,
+    "non_body_signals": 13,
+    "stars_count": 3,
+    "planets_count": null,
+    "landables_count": null,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-22T09:51:41Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq AP-Q d5-2 A",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq AP-Q d5-2",
+        "SystemAddress": 80505309747,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "F",
+        "Subclass": 3,
+        "StellarMass": 1.25,
+        "Radius": 871858304.0,
+        "AbsoluteMagnitude": 3.553802,
+        "Age_MY": 2120,
+        "SurfaceTemperature": 6923.0,
+        "Luminosity": "Vb",
+        "SemiMajorAxis": 97509484291.07666,
+        "Eccentricity": 0.072081,
+        "OrbitalInclination": -81.455883,
+        "Periapsis": 78.574899,
+        "OrbitalPeriod": 47522757.053375,
+        "RotationPeriod": 450469.647082,
+        "AxialTilt": 0.0
+      },
+      {
+        "timestamp": "2026-02-22T09:51:42Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq AP-Q d5-2 B",
+        "BodyID": 3,
+        "Parents": [
+          {
+            "Null": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq AP-Q d5-2",
+        "SystemAddress": 80505309747,
+        "DistanceFromArrivalLS": 891.905962,
+        "StarType": "K",
+        "Subclass": 4,
+        "StellarMass": 0.800781,
+        "Radius": 635836544.0,
+        "AbsoluteMagnitude": 6.040878,
+        "Age_MY": 2120,
+        "SurfaceTemperature": 4573.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 152212423086.16638,
+        "Eccentricity": 0.072081,
+        "OrbitalInclination": -81.455883,
+        "Periapsis": 258.574894,
+        "OrbitalPeriod": 47522757.053375,
+        "RotationPeriod": 305240.523896,
+        "AxialTilt": 0.0,
+        "Rings": [
+          {
+            "Name": "Blua Eoq AP-Q d5-2 B A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 3956700000000.0,
+            "InnerRad": 987700000.0,
+            "OuterRad": 2240800000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-02-22T09:51:42Z",
+        "event": "Scan",
+        "BodyName": "Blua Eoq AP-Q d5-2 C",
+        "BodyID": 4,
+        "Parents": [
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Blua Eoq AP-Q d5-2",
+        "SystemAddress": 80505309747,
+        "DistanceFromArrivalLS": 3696.830154,
+        "StarType": "K",
+        "Subclass": 4,
+        "StellarMass": 0.675781,
+        "Radius": 497661984.0,
+        "AbsoluteMagnitude": 6.590164,
+        "Age_MY": 2120,
+        "SurfaceTemperature": 4555.0,
+        "Luminosity": "Vab",
+        "SemiMajorAxis": 821810662746.4294,
+        "Eccentricity": 0.045202,
+        "OrbitalInclination": 43.243793,
+        "Periapsis": 101.644543,
+        "OrbitalPeriod": 377198219.299316,
+        "RotationPeriod": 196590.930535,
+        "AxialTilt": 0.0,
+        "Rings": [
+          {
+            "Name": "Blua Eoq AP-Q d5-2 C A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 8032900000000.0,
+            "InnerRad": 821140000.0,
+            "OuterRad": 2234800000.0
+          }
+        ]
+      }
+    ],
+    "planets": []
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-14T205220.01.log",
+      "Journal.2026-02-15T071238.01.log",
+      "Journal.2026-02-15T104234.01.log",
+      "Journal.2026-02-15T140907.01.log",
+      "Journal.2026-02-15T183128.01.log",
+      "Journal.2026-02-16T151444.01.log",
+      "Journal.2026-02-17T203702.01.log",
+      "Journal.2026-02-18T133731.01.log",
+      "Journal.2026-02-19T202742.01.log",
+      "Journal.2026-02-22T104058.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-22T09:51:35Z",
+      "to_utc": "2026-02-22T09:51:44Z"
+    }
+  }
+}

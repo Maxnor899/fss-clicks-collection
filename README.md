@@ -9,7 +9,7 @@ The goal is to **collect clean, comparable data** so hypotheses can be tested on
 Each contribution consists of:
 
 * a short audio recording (≤ 60 seconds)
-* an optional FSS screenshot of the system at the time of recording
+* an optional (but very needed) FSS setting screenshot at the time of recording
 * an automatically generated metadata file describing the system and context
 
 ---

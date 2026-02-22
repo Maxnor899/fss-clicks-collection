@@ -1,0 +1,197 @@
+{
+  "recording": {
+    "audio_file": "Bleia_Eork_SB-J_c10-0__49104110.flac",
+    "audio_sha256": "4910411095da93d2e1ac89dfc8317c419f695ee76207cf644bd5dcb8af113908",
+    "audio_sha256_short": "49104110",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-02-22T10:03:13+00:00",
+    "duration_s": 38.982
+  },
+  "context": {
+    "system": {
+      "name": "Bleia Eork SB-J c10-0",
+      "name_sanitized": "Bleia_Eork_SB-J_c10-0",
+      "address": 94522217562,
+      "star_pos": [
+        6371.96875,
+        -761.03125,
+        1962.9375
+      ]
+    },
+    "game": {
+      "version": "4.3.0.1",
+      "build": "r322188/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-02-22T09:59:54Z",
+    "to_utc": "2026-02-22T10:00:02Z",
+    "anchor_timestamp_utc": "2026-02-22T09:59:54Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-02-22T104058.01.log"
+  },
+  "system_summary": {
+    "body_count": 30,
+    "non_body_signals": 5,
+    "stars_count": 1,
+    "planets_count": 1,
+    "landables_count": 1,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-02-22T09:59:59Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork SB-J c10-0",
+        "BodyID": 0,
+        "StarSystem": "Bleia Eork SB-J c10-0",
+        "SystemAddress": 94522217562,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 5,
+        "StellarMass": 0.628906,
+        "Radius": 492207136.0,
+        "AbsoluteMagnitude": 6.818161,
+        "Age_MY": 12384,
+        "SurfaceTemperature": 4346.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 289619.13695,
+        "AxialTilt": 0.0,
+        "Rings": [
+          {
+            "Name": "Bleia Eork SB-J c10-0 A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 5436100000000.0,
+            "InnerRad": 739240000.0,
+            "OuterRad": 2067400000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-02-22T09:59:59Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork SB-J c10-0 1",
+        "BodyID": 7,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork SB-J c10-0",
+        "SystemAddress": 94522217562,
+        "DistanceFromArrivalLS": 21.756284,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.026096,
+        "Radius": 1929739.25,
+        "SurfaceGravity": 2.793064,
+        "SurfaceTemperature": 757.779785,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 24.551676
+          },
+          {
+            "Name": "nickel",
+            "Percent": 18.56986
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 17.298218
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 14.54601
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.312604
+          },
+          {
+            "Name": "zinc",
+            "Percent": 6.672226
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.707317
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 2.2807
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.60321
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.580075
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.878114
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.6683,
+          "Metal": 0.3317
+        },
+        "SemiMajorAxis": 6522311389.446259,
+        "Eccentricity": 1.8e-05,
+        "OrbitalInclination": 0.00259,
+        "Periapsis": 31.152787,
+        "OrbitalPeriod": 360565.239191,
+        "RotationPeriod": 362233.089873,
+        "AxialTilt": 0.289287
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-14T205220.01.log",
+      "Journal.2026-02-15T071238.01.log",
+      "Journal.2026-02-15T104234.01.log",
+      "Journal.2026-02-15T140907.01.log",
+      "Journal.2026-02-15T183128.01.log",
+      "Journal.2026-02-16T151444.01.log",
+      "Journal.2026-02-17T203702.01.log",
+      "Journal.2026-02-18T133731.01.log",
+      "Journal.2026-02-19T202742.01.log",
+      "Journal.2026-02-22T104058.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-02-22T09:59:54Z",
+      "to_utc": "2026-02-22T10:00:02Z"
+    }
+  }
+}

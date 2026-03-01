@@ -1,0 +1,225 @@
+{
+  "recording": {
+    "audio_file": "Bleia_Eork_EI-G_c12-0__6be9d328.flac",
+    "audio_sha256": "6be9d32877adc87a761083c8ab40987b1563360bb4a9e8b04743549da0e7fc80",
+    "audio_sha256_short": "6be9d328",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-03-01T07:32:26+00:00",
+    "duration_s": 44.21
+  },
+  "context": {
+    "system": {
+      "name": "Bleia Eork EI-G c12-0",
+      "name_sanitized": "Bleia_Eork_EI-G_c12-0",
+      "address": 95327655018,
+      "star_pos": [
+        6838.1875,
+        -596.1875,
+        2054.75
+      ]
+    },
+    "game": {
+      "version": "4.3.1.0",
+      "build": "r324607/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-03-01T07:27:53Z",
+    "to_utc": "2026-03-01T07:31:58Z",
+    "anchor_timestamp_utc": "2026-03-01T07:27:53Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-03-01T081745.01.log"
+  },
+  "system_summary": {
+    "body_count": 4,
+    "non_body_signals": 0,
+    "stars_count": 3,
+    "planets_count": 1,
+    "landables_count": 0,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-03-01T07:27:58Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork EI-G c12-0 A",
+        "BodyID": 1,
+        "Parents": [
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork EI-G c12-0",
+        "SystemAddress": 95327655018,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "M",
+        "Subclass": 1,
+        "StellarMass": 0.507813,
+        "Radius": 416497664.0,
+        "AbsoluteMagnitude": 8.11763,
+        "Age_MY": 12918,
+        "SurfaceTemperature": 3503.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 4072994887828.827,
+        "Eccentricity": 0.243626,
+        "OrbitalInclination": -22.455069,
+        "Periapsis": 52.720997,
+        "OrbitalPeriod": 13525906205.177307,
+        "RotationPeriod": 175055.261216,
+        "AxialTilt": 0.0
+      },
+      {
+        "timestamp": "2026-03-01T07:27:59Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork EI-G c12-0 B",
+        "BodyID": 3,
+        "Parents": [
+          {
+            "Null": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork EI-G c12-0",
+        "SystemAddress": 95327655018,
+        "DistanceFromArrivalLS": 21867.28936,
+        "StarType": "M",
+        "Subclass": 4,
+        "StellarMass": 0.300781,
+        "Radius": 324911904.0,
+        "AbsoluteMagnitude": 9.36377,
+        "Age_MY": 12918,
+        "SurfaceTemperature": 2977.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 41708697676.65863,
+        "Eccentricity": 0.031853,
+        "OrbitalInclination": 24.152723,
+        "Periapsis": 291.455776,
+        "OrbitalPeriod": 30813781.619072,
+        "RotationPeriod": 126754.503109,
+        "AxialTilt": 0.0
+      },
+      {
+        "timestamp": "2026-03-01T07:27:59Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork EI-G c12-0 C",
+        "BodyID": 4,
+        "Parents": [
+          {
+            "Null": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork EI-G c12-0",
+        "SystemAddress": 95327655018,
+        "DistanceFromArrivalLS": 21680.30425,
+        "StarType": "L",
+        "Subclass": 2,
+        "StellarMass": 0.171875,
+        "Radius": 229505632.0,
+        "AbsoluteMagnitude": 12.277985,
+        "Age_MY": 12918,
+        "SurfaceTemperature": 1811.0,
+        "Luminosity": "V",
+        "SemiMajorAxis": 72990256547.92786,
+        "Eccentricity": 0.031853,
+        "OrbitalInclination": 24.152723,
+        "Periapsis": 111.455782,
+        "OrbitalPeriod": 30813781.619072,
+        "RotationPeriod": 128778.968761,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-03-01T07:31:54Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork EI-G c12-0 A 1",
+        "BodyID": 5,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork EI-G c12-0",
+        "SystemAddress": 95327655018,
+        "DistanceFromArrivalLS": 1376.172387,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick methane rich atmosphere",
+        "AtmosphereType": "MethaneRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 57.268394
+          },
+          {
+            "Name": "Methane",
+            "Percent": 41.212128
+          },
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 0.7249
+          }
+        ],
+        "Volcanism": "major water magma volcanism",
+        "MassEM": 0.967121,
+        "Radius": 7352505.0,
+        "SurfaceGravity": 7.130492,
+        "SurfaceTemperature": 345.277893,
+        "SurfacePressure": 294744160.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.54433,
+          "Rock": 0.294613,
+          "Metal": 0.161056
+        },
+        "SemiMajorAxis": 389221215248.1079,
+        "Eccentricity": 0.139338,
+        "OrbitalInclination": -1.147458,
+        "Periapsis": 83.946338,
+        "OrbitalPeriod": 185832071.304321,
+        "RotationPeriod": 102978.886827,
+        "AxialTilt": 0.318939
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-15T104234.01.log",
+      "Journal.2026-02-15T140907.01.log",
+      "Journal.2026-02-15T183128.01.log",
+      "Journal.2026-02-16T151444.01.log",
+      "Journal.2026-02-17T203702.01.log",
+      "Journal.2026-02-18T133731.01.log",
+      "Journal.2026-02-19T202742.01.log",
+      "Journal.2026-02-22T104058.01.log",
+      "Journal.2026-02-22T152834.01.log",
+      "Journal.2026-03-01T081745.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-03-01T07:27:53Z",
+      "to_utc": "2026-03-01T07:31:58Z"
+    }
+  }
+}

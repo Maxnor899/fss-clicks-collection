@@ -1,0 +1,190 @@
+{
+  "recording": {
+    "audio_file": "Bleia_Eork_KO-E_c13-0__93586386.flac",
+    "audio_sha256": "9358638626aee111df3c5fcaf2eeb2a59b91ae617f071884de24890f4138f78a",
+    "audio_sha256_short": "93586386",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-03-01T07:36:58+00:00",
+    "duration_s": 42.731
+  },
+  "context": {
+    "system": {
+      "name": "Bleia Eork KO-E c13-0",
+      "name_sanitized": "Bleia_Eork_KO-E_c13-0",
+      "address": 95461872754,
+      "star_pos": [
+        6895.5625,
+        -619.1875,
+        2057.3125
+      ]
+    },
+    "game": {
+      "version": "4.3.1.0",
+      "build": "r324607/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-03-01T07:33:21Z",
+    "to_utc": "2026-03-01T07:36:04Z",
+    "anchor_timestamp_utc": "2026-03-01T07:33:21Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-03-01T081745.01.log"
+  },
+  "system_summary": {
+    "body_count": 3,
+    "non_body_signals": 0,
+    "stars_count": 2,
+    "planets_count": 1,
+    "landables_count": 0,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-03-01T07:33:26Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork KO-E c13-0 A",
+        "BodyID": 1,
+        "Parents": [
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork KO-E c13-0",
+        "SystemAddress": 95461872754,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 6,
+        "StellarMass": 0.554688,
+        "Radius": 509081024.0,
+        "AbsoluteMagnitude": 6.929718,
+        "Age_MY": 5504,
+        "SurfaceTemperature": 4165.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 4136716425418.8535,
+        "Eccentricity": 0.350361,
+        "OrbitalInclination": -99.123199,
+        "Periapsis": 204.008588,
+        "OrbitalPeriod": 32558534145.355225,
+        "RotationPeriod": 312079.832609,
+        "AxialTilt": 0.0
+      },
+      {
+        "timestamp": "2026-03-01T07:33:28Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork KO-E c13-0 B",
+        "BodyID": 2,
+        "Parents": [
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork KO-E c13-0",
+        "SystemAddress": 95461872754,
+        "DistanceFromArrivalLS": 52764.631106,
+        "StarType": "M",
+        "Subclass": 9,
+        "StellarMass": 0.230469,
+        "Radius": 282907680.0,
+        "AbsoluteMagnitude": 11.078186,
+        "Age_MY": 5504,
+        "SurfaceTemperature": 2150.0,
+        "Luminosity": "VI",
+        "SemiMajorAxis": 9955496191978.455,
+        "Eccentricity": 0.350361,
+        "OrbitalInclination": -99.123199,
+        "Periapsis": 24.008593,
+        "OrbitalPeriod": 32558534145.355225,
+        "RotationPeriod": 125039.700708,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-03-01T07:36:01Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork KO-E c13-0 B 1",
+        "BodyID": 3,
+        "Parents": [
+          {
+            "Star": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork KO-E c13-0",
+        "SystemAddress": 95461872754,
+        "DistanceFromArrivalLS": 53392.477702,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 89.334976
+          },
+          {
+            "Name": "Hydrogen",
+            "Percent": 8.427828
+          },
+          {
+            "Name": "Neon",
+            "Percent": 2.237205
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 5.154843,
+        "Radius": 11889280.0,
+        "SurfaceGravity": 14.534955,
+        "SurfaceTemperature": 52.213932,
+        "SurfacePressure": 91808.242188,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.545907,
+          "Rock": 0.2942,
+          "Metal": 0.159894
+        },
+        "SemiMajorAxis": 306798732280.7312,
+        "Eccentricity": 0.160237,
+        "OrbitalInclination": -38.431931,
+        "Periapsis": 220.077738,
+        "OrbitalPeriod": 193036091.327667,
+        "RotationPeriod": 123848.529518,
+        "AxialTilt": 0.246402
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-15T104234.01.log",
+      "Journal.2026-02-15T140907.01.log",
+      "Journal.2026-02-15T183128.01.log",
+      "Journal.2026-02-16T151444.01.log",
+      "Journal.2026-02-17T203702.01.log",
+      "Journal.2026-02-18T133731.01.log",
+      "Journal.2026-02-19T202742.01.log",
+      "Journal.2026-02-22T104058.01.log",
+      "Journal.2026-02-22T152834.01.log",
+      "Journal.2026-03-01T081745.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-03-01T07:33:21Z",
+      "to_utc": "2026-03-01T07:36:04Z"
+    }
+  }
+}

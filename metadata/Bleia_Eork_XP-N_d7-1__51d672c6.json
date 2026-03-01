@@ -1,0 +1,1228 @@
+{
+  "recording": {
+    "audio_file": "Bleia_Eork_XP-N_d7-1__51d672c6.flac",
+    "audio_sha256": "51d672c6de8bd7e3e8c67db0355de091f2351da40e3210a650d8f1923460286d",
+    "audio_sha256_short": "51d672c6",
+    "original_filename": "sans titre.flac",
+    "created_utc": "2026-03-01T07:52:31+00:00",
+    "duration_s": 39.981
+  },
+  "context": {
+    "system": {
+      "name": "Bleia Eork XP-N d7-1",
+      "name_sanitized": "Bleia_Eork_XP-N_d7-1",
+      "address": 46330169923,
+      "star_pos": [
+        7070.15625,
+        -574.65625,
+        2146.84375
+      ]
+    },
+    "game": {
+      "version": "4.3.1.0",
+      "build": "r324607/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-03-01T07:46:51Z",
+    "to_utc": "2026-03-01T07:52:12Z",
+    "anchor_timestamp_utc": "2026-03-01T07:46:51Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-03-01T081745.01.log"
+  },
+  "system_summary": {
+    "body_count": 15,
+    "non_body_signals": 16,
+    "stars_count": 1,
+    "planets_count": 14,
+    "landables_count": 9,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-03-01T07:46:57Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1",
+        "BodyID": 0,
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "G",
+        "Subclass": 3,
+        "StellarMass": 1.054688,
+        "Radius": 713456320.0,
+        "AbsoluteMagnitude": 4.813919,
+        "Age_MY": 4724,
+        "SurfaceTemperature": 5726.0,
+        "Luminosity": "Vab",
+        "RotationPeriod": 312529.501899,
+        "AxialTilt": 0.0,
+        "Rings": [
+          {
+            "Name": "Bleia Eork XP-N d7-1 A Belt",
+            "RingClass": "eRingClass_Metalic",
+            "MassMT": 148860000000000.0,
+            "InnerRad": 1127800000.0,
+            "OuterRad": 2456300000.0
+          },
+          {
+            "Name": "Bleia Eork XP-N d7-1 B Belt",
+            "RingClass": "eRingClass_MetalRich",
+            "MassMT": 1.047e+16,
+            "InnerRad": 6759700000.0,
+            "OuterRad": 272530000000.0
+          }
+        ]
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-03-01T07:51:39Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 1",
+        "BodyID": 19,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 1446.224975,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class III gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 74.209663
+          },
+          {
+            "Name": "Helium",
+            "Percent": 25.790348
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 1222.478027,
+        "Radius": 76711960.0,
+        "SurfaceGravity": 82.798846,
+        "SurfaceTemperature": 361.621796,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 432621610164.64233,
+        "Eccentricity": 0.002231,
+        "OrbitalInclination": -0.709494,
+        "Periapsis": 111.024295,
+        "OrbitalPeriod": 150675457.715988,
+        "RotationPeriod": 118245.333172,
+        "AxialTilt": 0.028193,
+        "Rings": [
+          {
+            "Name": "Bleia Eork XP-N d7-1 1 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 2516500000000.0,
+            "InnerRad": 130940000.0,
+            "OuterRad": 372240000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-03-01T07:51:45Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 1 a",
+        "BodyID": 21,
+        "Parents": [
+          {
+            "Planet": 19
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 1447.581992,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000308,
+        "Radius": 476187.5,
+        "SurfaceGravity": 0.541005,
+        "SurfaceTemperature": 190.285934,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 18.374153
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.020624
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.153478
+          },
+          {
+            "Name": "nickel",
+            "Percent": 13.897438
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.701517
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.263467
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.588337
+          },
+          {
+            "Name": "zinc",
+            "Percent": 4.993406
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.426836
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 1.38092
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.199821
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.911249,
+          "Metal": 0.088751
+        },
+        "SemiMajorAxis": 799054938.554764,
+        "Eccentricity": 0.000289,
+        "OrbitalInclination": 0.001476,
+        "Periapsis": 23.060389,
+        "OrbitalPeriod": 203312.438726,
+        "RotationPeriod": 203312.899055,
+        "AxialTilt": -0.481721
+      },
+      {
+        "timestamp": "2026-03-01T07:51:47Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 1 b",
+        "BodyID": 22,
+        "Parents": [
+          {
+            "Planet": 19
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 1442.457457,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000235,
+        "Radius": 435371.25,
+        "SurfaceGravity": 0.494104,
+        "SurfaceTemperature": 182.812057,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.530247
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 19.154472
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 16.10693
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.771859
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 10.311933
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.065792
+          },
+          {
+            "Name": "germanium",
+            "Percent": 5.667165
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.997837
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.334788
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.206117
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.852854
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.911249,
+          "Metal": 0.088751
+        },
+        "SemiMajorAxis": 1174366950.98877,
+        "Eccentricity": 0.001209,
+        "OrbitalInclination": -0.173007,
+        "Periapsis": 156.741326,
+        "OrbitalPeriod": 362246.966362,
+        "RotationPeriod": 362247.803224,
+        "AxialTilt": 0.091444
+      },
+      {
+        "timestamp": "2026-03-01T07:51:52Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 1 c",
+        "BodyID": 23,
+        "Parents": [
+          {
+            "Planet": 19
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 1445.15061,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000548,
+        "Radius": 576079.375,
+        "SurfaceGravity": 0.657765,
+        "SurfaceTemperature": 176.370453,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 19.392197
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.90358
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.895954
+          },
+          {
+            "Name": "nickel",
+            "Percent": 14.667444
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 10.176863
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.721314
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.270073
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.95857
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.505892
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.325353
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 1.182762
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.908186,
+          "Metal": 0.091814
+        },
+        "SemiMajorAxis": 1759320914.745331,
+        "Eccentricity": 0.002895,
+        "OrbitalInclination": -0.032048,
+        "Periapsis": 178.077553,
+        "OrbitalPeriod": 664227.175713,
+        "RotationPeriod": 664228.785863,
+        "AxialTilt": -0.525461
+      },
+      {
+        "timestamp": "2026-03-01T07:51:49Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 1 d",
+        "BodyID": 24,
+        "Parents": [
+          {
+            "Planet": 19
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 1438.102748,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000477,
+        "Radius": 550552.4375,
+        "SurfaceGravity": 0.626741,
+        "SurfaceTemperature": 171.421844,
+        "SurfacePressure": 25.455879,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 20.876709
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 20.475029
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 17.217379
+          },
+          {
+            "Name": "nickel",
+            "Percent": 15.790267
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 11.022861
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.126593
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.204515
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 2.424216
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.426812
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.28927
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.146341
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.911249,
+          "Metal": 0.088751
+        },
+        "SemiMajorAxis": 2673915803.432465,
+        "Eccentricity": 0.003687,
+        "OrbitalInclination": 0.046465,
+        "Periapsis": 347.203227,
+        "OrbitalPeriod": 1244573.771954,
+        "RotationPeriod": 1244576.728893,
+        "AxialTilt": -0.091248
+      },
+      {
+        "timestamp": "2026-03-01T07:51:58Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 1 e",
+        "BodyID": 25,
+        "Parents": [
+          {
+            "Planet": 19
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 1442.859897,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000671,
+        "Radius": 616642.375,
+        "SurfaceGravity": 0.703253,
+        "SurfaceTemperature": 166.17662,
+        "SurfacePressure": 32.05048,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 18.468718
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 18.113369
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 15.231468
+          },
+          {
+            "Name": "nickel",
+            "Percent": 13.968964
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 9.751448
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 8.305995
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 7.627392
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.019105
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.262238
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.140561
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.110733
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.911249,
+          "Metal": 0.088751
+        },
+        "SemiMajorAxis": 4470679461.956024,
+        "Eccentricity": 0.01429,
+        "OrbitalInclination": -0.004284,
+        "Periapsis": 311.015987,
+        "OrbitalPeriod": 2690662.86087,
+        "RotationPeriod": 2690669.334506,
+        "AxialTilt": 0.371694
+      },
+      {
+        "timestamp": "2026-03-01T07:52:01Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 1 f",
+        "BodyID": 26,
+        "Parents": [
+          {
+            "Planet": 19
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 1446.493505,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000997,
+        "Radius": 703134.3125,
+        "SurfaceGravity": 0.803847,
+        "SurfaceTemperature": 162.905472,
+        "SurfacePressure": 41.875359,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 20.812252
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 20.411812
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 17.164221
+          },
+          {
+            "Name": "nickel",
+            "Percent": 15.741515
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 10.988829
+          },
+          {
+            "Name": "germanium",
+            "Percent": 6.039169
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 2.700799
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 2.416731
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 1.564157
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.251677
+          },
+          {
+            "Name": "mercury",
+            "Name_Localised": "Mercure",
+            "Percent": 0.908837
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.911249,
+          "Metal": 0.088751
+        },
+        "SemiMajorAxis": 6726965129.375458,
+        "Eccentricity": 0.004429,
+        "OrbitalInclination": 0.095636,
+        "Periapsis": 66.79451,
+        "OrbitalPeriod": 4966241.300106,
+        "RotationPeriod": 4966253.020938,
+        "AxialTilt": 0.340296
+      },
+      {
+        "timestamp": "2026-03-01T07:50:40Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 2",
+        "BodyID": 28,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 2137.517492,
+        "TerraformState": "",
+        "PlanetClass": "Sudarsky class II gas giant",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 74.209656
+          },
+          {
+            "Name": "Helium",
+            "Percent": 25.79034
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 721.024963,
+        "Radius": 76396864.0,
+        "SurfaceGravity": 49.238937,
+        "SurfaceTemperature": 230.609375,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 641950279474.2584,
+        "Eccentricity": 0.003229,
+        "OrbitalInclination": 0.006588,
+        "Periapsis": 232.487512,
+        "OrbitalPeriod": 272353070.97435,
+        "RotationPeriod": 92200.816489,
+        "AxialTilt": 1.690814,
+        "Rings": [
+          {
+            "Name": "Bleia Eork XP-N d7-1 2 A Ring",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 2220300000000.0,
+            "InnerRad": 126050000.0,
+            "OuterRad": 334690000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-03-01T07:50:47Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 2 a",
+        "BodyID": 30,
+        "Parents": [
+          {
+            "Planet": 28
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 2137.326257,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.00978,
+        "Radius": 1870197.875,
+        "SurfaceGravity": 1.114537,
+        "SurfaceTemperature": 113.6091,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.698793
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 23.291817
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.91182
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.528053
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.475695
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 5.173958
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.404656
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.625761
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.753454
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.687916
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.448078
+          }
+        ],
+        "Composition": {
+          "Ice": 0.81899,
+          "Rock": 0.164945,
+          "Metal": 0.016065
+        },
+        "SemiMajorAxis": 7673040628.433228,
+        "Eccentricity": 0.013595,
+        "OrbitalInclination": 0.407552,
+        "Periapsis": 224.555019,
+        "OrbitalPeriod": 7877534.151077,
+        "RotationPeriod": 7847049.313296,
+        "AxialTilt": -0.15036
+      },
+      {
+        "timestamp": "2026-03-01T07:51:07Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 3",
+        "BodyID": 34,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 2711.738864,
+        "TerraformState": "",
+        "PlanetClass": "Gas giant with ammonia based life",
+        "Atmosphere": "",
+        "AtmosphereComposition": [
+          {
+            "Name": "Hydrogen",
+            "Percent": 74.178978
+          },
+          {
+            "Name": "Helium",
+            "Percent": 25.779676
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 16.404015,
+        "Radius": 23474106.0,
+        "SurfaceGravity": 11.865372,
+        "SurfaceTemperature": 106.499825,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "SemiMajorAxis": 813207387924.1943,
+        "Eccentricity": 0.001941,
+        "OrbitalInclination": -1.17129,
+        "Periapsis": 122.349517,
+        "OrbitalPeriod": 388313215.970993,
+        "RotationPeriod": 67188.327891,
+        "AxialTilt": -2.403678,
+        "Rings": [
+          {
+            "Name": "Bleia Eork XP-N d7-1 3 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 32160000000.0,
+            "InnerRad": 37451000.0,
+            "OuterRad": 88456000.0
+          },
+          {
+            "Name": "Bleia Eork XP-N d7-1 3 B Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 400410000000.0,
+            "InnerRad": 630110000.0,
+            "OuterRad": 2520400000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-03-01T07:51:16Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 3 a",
+        "BodyID": 36,
+        "Parents": [
+          {
+            "Planet": 34
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 2711.633679,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 0.001163,
+        "Radius": 927006.6875,
+        "SurfaceGravity": 0.539434,
+        "SurfaceTemperature": 95.552719,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 27.276772
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.936939
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.684622
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.316089
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.315373
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 5.086419
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.269045
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 1.430152
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 0.9564
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 0.923959
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 0.804233
+          }
+        ],
+        "Composition": {
+          "Ice": 0.820999,
+          "Rock": 0.162953,
+          "Metal": 0.016047
+        },
+        "SemiMajorAxis": 182774662.971497,
+        "Eccentricity": 0.000303,
+        "OrbitalInclination": -0.004781,
+        "Periapsis": 181.634203,
+        "OrbitalPeriod": 191195.082664,
+        "RotationPeriod": -192008.095931,
+        "AxialTilt": -3.103544
+      },
+      {
+        "timestamp": "2026-03-01T07:51:20Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 3 b",
+        "BodyID": 37,
+        "Parents": [
+          {
+            "Planet": 34
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 2711.081965,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.000623,
+        "Radius": 753863.625,
+        "SurfaceGravity": 0.436984,
+        "SurfaceTemperature": 95.500946,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 26.739449
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 22.485107
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 14.395351
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 12.068709
+          },
+          {
+            "Name": "nickel",
+            "Percent": 9.128266
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 5.4277
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 4.18495
+          },
+          {
+            "Name": "zinc",
+            "Percent": 3.279824
+          },
+          {
+            "Name": "niobium",
+            "Percent": 0.824832
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.73932
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 0.726497
+          }
+        ],
+        "Composition": {
+          "Ice": 0.821195,
+          "Rock": 0.162783,
+          "Metal": 0.016022
+        },
+        "SemiMajorAxis": 338295882.940292,
+        "Eccentricity": 0.000533,
+        "OrbitalInclination": 0.000735,
+        "Periapsis": 276.291862,
+        "OrbitalPeriod": 481446.218491,
+        "RotationPeriod": -483493.500772,
+        "AxialTilt": 2.291206
+      },
+      {
+        "timestamp": "2026-03-01T07:51:25Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 3 c",
+        "BodyID": 40,
+        "Parents": [
+          {
+            "Planet": 34
+          },
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 2712.334955,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "nitrogen atmosphere",
+        "AtmosphereType": "Nitrogen",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 99.991112
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.13651,
+        "Radius": 4453914.5,
+        "SurfaceGravity": 2.742783,
+        "SurfaceTemperature": 99.462303,
+        "SurfacePressure": 403216.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.878698,
+          "Rock": 0.104498,
+          "Metal": 0.016803
+        },
+        "SemiMajorAxis": 4000954627.990723,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": -69.001569,
+        "Periapsis": 261.292879,
+        "OrbitalPeriod": 19581599.235535,
+        "RotationPeriod": 157444.007589,
+        "AxialTilt": 0.306797,
+        "Rings": [
+          {
+            "Name": "Bleia Eork XP-N d7-1 3 c A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 43204,
+            "InnerRad": 8083700.0,
+            "OuterRad": 17925000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-03-01T07:52:09Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XP-N d7-1 4",
+        "BodyID": 45,
+        "Parents": [
+          {
+            "Star": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XP-N d7-1",
+        "SystemAddress": 46330169923,
+        "DistanceFromArrivalLS": 3924.151627,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "helium atmosphere",
+        "AtmosphereType": "Helium",
+        "AtmosphereComposition": [
+          {
+            "Name": "Helium",
+            "Percent": 67.013672
+          },
+          {
+            "Name": "Nitrogen",
+            "Percent": 28.926193
+          },
+          {
+            "Name": "Argon",
+            "Percent": 2.379403
+          }
+        ],
+        "Volcanism": "major water geysers volcanism",
+        "MassEM": 6.112437,
+        "Radius": 13050172.0,
+        "SurfaceGravity": 14.305115,
+        "SurfaceTemperature": 82.825218,
+        "SurfacePressure": 148761.296875,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.685036,
+          "Rock": 0.211815,
+          "Metal": 0.103149
+        },
+        "SemiMajorAxis": 1173239767551.422,
+        "Eccentricity": 0.012991,
+        "OrbitalInclination": 1.491299,
+        "Periapsis": 220.771925,
+        "OrbitalPeriod": 672915214.300156,
+        "RotationPeriod": 73398.235413,
+        "AxialTilt": 0.197561,
+        "Rings": [
+          {
+            "Name": "Bleia Eork XP-N d7-1 4 A Ring",
+            "RingClass": "eRingClass_Icy",
+            "MassMT": 4598400.0,
+            "InnerRad": 25715000.0,
+            "OuterRad": 63652000.0
+          }
+        ]
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-15T104234.01.log",
+      "Journal.2026-02-15T140907.01.log",
+      "Journal.2026-02-15T183128.01.log",
+      "Journal.2026-02-16T151444.01.log",
+      "Journal.2026-02-17T203702.01.log",
+      "Journal.2026-02-18T133731.01.log",
+      "Journal.2026-02-19T202742.01.log",
+      "Journal.2026-02-22T104058.01.log",
+      "Journal.2026-02-22T152834.01.log",
+      "Journal.2026-03-01T081745.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-03-01T07:46:51Z",
+      "to_utc": "2026-03-01T07:52:12Z"
+    }
+  }
+}

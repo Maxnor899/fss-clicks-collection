@@ -1,0 +1,1142 @@
+{
+  "recording": {
+    "audio_file": "Bleia_Eork_XV-Z_c15-0__b24a997d.flac",
+    "audio_sha256": "b24a997dcd93985e648bc7722bbac60d58cf498c2bd4ff58d5653f6713e5d485",
+    "audio_sha256_short": "b24a997d",
+    "original_filename": "Bleia_Eork_XV-Z_c15-0.flac",
+    "created_utc": "2026-03-04T20:26:40+00:00",
+    "duration_s": 55.08
+  },
+  "context": {
+    "system": {
+      "name": "Bleia Eork XV-Z c15-0",
+      "name_sanitized": "Bleia_Eork_XV-Z_c15-0",
+      "address": 95931733130,
+      "star_pos": [
+        7184.625,
+        -473.46875,
+        2211.84375
+      ]
+    },
+    "game": {
+      "version": "4.3.1.0",
+      "build": "r324607/r0 ",
+      "odyssey": null
+    },
+    "commander": {
+      "name": null,
+      "id_hash": "ffabff4fb4e3"
+    }
+  },
+  "acquisition": {
+    "notes": null
+  },
+  "visit": {
+    "from_utc": "2026-03-04T19:42:20Z",
+    "to_utc": "2026-03-04T20:23:49Z",
+    "anchor_timestamp_utc": "2026-03-04T19:42:20Z",
+    "anchor_event": "FSDJump",
+    "journal_anchor_file": "Journal.2026-03-04T203023.01.log"
+  },
+  "system_summary": {
+    "body_count": 14,
+    "non_body_signals": 5,
+    "stars_count": 3,
+    "planets_count": 11,
+    "landables_count": 9,
+    "exobio_indicators": {
+      "codex_entries_count": null,
+      "has_codex_biology": null
+    }
+  },
+  "bodies": {
+    "stars": [
+      {
+        "timestamp": "2026-03-04T19:42:26Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 A",
+        "BodyID": 1,
+        "Parents": [
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 0.0,
+        "StarType": "K",
+        "Subclass": 7,
+        "StellarMass": 0.628906,
+        "Radius": 510842720.0,
+        "AbsoluteMagnitude": 7.009659,
+        "Age_MY": 10428,
+        "SurfaceTemperature": 4082.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 268200933933.25806,
+        "Eccentricity": 0.155635,
+        "OrbitalInclination": 18.117914,
+        "Periapsis": 316.476812,
+        "OrbitalPeriod": 162429869.174957,
+        "RotationPeriod": 279328.201354,
+        "AxialTilt": 0.0,
+        "Rings": [
+          {
+            "Name": "Bleia Eork XV-Z c15-0 A A Belt",
+            "RingClass": "eRingClass_Rocky",
+            "MassMT": 66926000000000.0,
+            "InnerRad": 934760000.0,
+            "OuterRad": 2067400000.0
+          }
+        ]
+      },
+      {
+        "timestamp": "2026-03-04T19:42:26Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 B",
+        "BodyID": 3,
+        "Parents": [
+          {
+            "Null": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 1860.024177,
+        "StarType": "M",
+        "Subclass": 1,
+        "StellarMass": 0.445313,
+        "Radius": 457843936.0,
+        "AbsoluteMagnitude": 8.09053,
+        "Age_MY": 10428,
+        "SurfaceTemperature": 3362.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 1794693768.024445,
+        "Eccentricity": 0.046807,
+        "OrbitalInclination": 6.190666,
+        "Periapsis": 233.126415,
+        "OrbitalPeriod": 190246.82641,
+        "RotationPeriod": 213289.909052,
+        "AxialTilt": 0.0
+      },
+      {
+        "timestamp": "2026-03-04T19:42:26Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 C",
+        "BodyID": 4,
+        "Parents": [
+          {
+            "Null": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 1874.570969,
+        "StarType": "M",
+        "Subclass": 5,
+        "StellarMass": 0.296875,
+        "Radius": 346879776.0,
+        "AbsoluteMagnitude": 9.558319,
+        "Age_MY": 10428,
+        "SurfaceTemperature": 2755.0,
+        "Luminosity": "Va",
+        "SemiMajorAxis": 2692040562.6297,
+        "Eccentricity": 0.046807,
+        "OrbitalInclination": 6.190666,
+        "Periapsis": 53.12642,
+        "OrbitalPeriod": 190246.82641,
+        "RotationPeriod": 190880.167585,
+        "AxialTilt": 0.0
+      }
+    ],
+    "planets": [
+      {
+        "timestamp": "2026-03-04T19:42:26Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 A 1",
+        "BodyID": 11,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 21.08701,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.002534,
+        "Radius": 898392.0,
+        "SurfaceGravity": 1.251402,
+        "SurfaceTemperature": 805.032898,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 23.30036
+          },
+          {
+            "Name": "nickel",
+            "Percent": 17.623415
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 16.450264
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 13.832969
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 10.478946
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.856103
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.574605
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 2.166691
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.809379
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.515565
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 1.391703
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.668401,
+          "Metal": 0.331599
+        },
+        "SemiMajorAxis": 6324897348.880768,
+        "Eccentricity": 0.000504,
+        "OrbitalInclination": 0.318245,
+        "Periapsis": 178.028594,
+        "OrbitalPeriod": 345912.277699,
+        "RotationPeriod": 345912.3392,
+        "AxialTilt": -0.388974
+      },
+      {
+        "timestamp": "2026-03-04T19:42:26Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 A 2",
+        "BodyID": 12,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 29.305366,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.004766,
+        "Radius": 1105514.875,
+        "SurfaceGravity": 1.554316,
+        "SurfaceTemperature": 693.430969,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 23.658821
+          },
+          {
+            "Name": "nickel",
+            "Percent": 17.894541
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 16.659266
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 14.008718
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 9.770851
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.96862
+          },
+          {
+            "Name": "zirconium",
+            "Percent": 2.747277
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.607316
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.53931
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.299107
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.846181
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.665807,
+          "Metal": 0.334193
+        },
+        "SemiMajorAxis": 8786516606.807709,
+        "Eccentricity": 0.000126,
+        "OrbitalInclination": 0.001789,
+        "Periapsis": 23.000846,
+        "OrbitalPeriod": 566383.886337,
+        "RotationPeriod": 566383.957777,
+        "AxialTilt": 0.644761
+      },
+      {
+        "timestamp": "2026-03-04T20:23:43Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 A 3",
+        "BodyID": 13,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 69.35325,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.010171,
+        "Radius": 1416095.875,
+        "SurfaceGravity": 2.021632,
+        "SurfaceTemperature": 474.90802,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.163963
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.007536
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 14.830721
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.471099
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.518137
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.740501
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 7.984212
+          },
+          {
+            "Name": "zinc",
+            "Percent": 5.751573
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.446444
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 1.162114
+          },
+          {
+            "Name": "antimony",
+            "Name_Localised": "Antimoine",
+            "Percent": 0.923696
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.661045,
+          "Metal": 0.338955
+        },
+        "SemiMajorAxis": 20783079862.594604,
+        "Eccentricity": 0.000509,
+        "OrbitalInclination": -1.067246,
+        "Periapsis": 91.441138,
+        "OrbitalPeriod": 2060395.240784,
+        "RotationPeriod": 2060395.755674,
+        "AxialTilt": 0.56333
+      },
+      {
+        "timestamp": "2026-03-04T20:23:38Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 A 3 a",
+        "BodyID": 14,
+        "Parents": [
+          {
+            "Planet": 13
+          },
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 69.342625,
+        "TerraformState": "",
+        "PlanetClass": "Rocky body",
+        "Atmosphere": "",
+        "AtmosphereType": "SulphurDioxide",
+        "AtmosphereComposition": [
+          {
+            "Name": "SulphurDioxide",
+            "Percent": 90.0
+          },
+          {
+            "Name": "Silicates",
+            "Percent": 5.0
+          },
+          {
+            "Name": "Oxygen",
+            "Percent": 2.999999
+          }
+        ],
+        "Volcanism": "major rocky magma volcanism",
+        "MassEM": 0.000392,
+        "Radius": 509279.0625,
+        "SurfaceGravity": 0.602319,
+        "SurfaceTemperature": 474.90802,
+        "SurfacePressure": 0.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.859242,
+          "Metal": 0.140758
+        },
+        "SemiMajorAxis": 12715333.104134,
+        "Eccentricity": 0.0,
+        "OrbitalInclination": 84.008639,
+        "Periapsis": 120.362437,
+        "OrbitalPeriod": 138839.393854,
+        "RotationPeriod": 141489.17024,
+        "AxialTilt": -0.016323
+      },
+      {
+        "timestamp": "2026-03-04T20:23:25Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 A 4",
+        "BodyID": 15,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 96.233387,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.003676,
+        "Radius": 1015663.125,
+        "SurfaceGravity": 1.42044,
+        "SurfaceTemperature": 413.563629,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 22.670195
+          },
+          {
+            "Name": "nickel",
+            "Percent": 17.146786
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 16.005333
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 13.458826
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 10.195539
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.616571
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.567011
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 2.50497
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.549387
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.474576
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.810821
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.668399,
+          "Metal": 0.331601
+        },
+        "SemiMajorAxis": 28834602236.74774,
+        "Eccentricity": 0.000538,
+        "OrbitalInclination": -0.011479,
+        "Periapsis": 250.728885,
+        "OrbitalPeriod": 3367105.305195,
+        "RotationPeriod": 3367105.865073,
+        "AxialTilt": -0.205514
+      },
+      {
+        "timestamp": "2026-03-04T20:23:12Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 A 5",
+        "BodyID": 16,
+        "Parents": [
+          {
+            "Star": 1
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 131.510689,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.020868,
+        "Radius": 1794432.25,
+        "SurfaceGravity": 2.583101,
+        "SurfaceTemperature": 365.706299,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.134201
+          },
+          {
+            "Name": "nickel",
+            "Percent": 15.985023
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 14.920959
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.546982
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.504752
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.728209
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.032793
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.189824
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.44441
+          },
+          {
+            "Name": "tin",
+            "Name_Localised": "Étain",
+            "Percent": 1.374667
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 1.138175
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.668403,
+          "Metal": 0.331597
+        },
+        "SemiMajorAxis": 38875835537.91046,
+        "Eccentricity": 0.014429,
+        "OrbitalInclination": -0.125934,
+        "Periapsis": 226.146525,
+        "OrbitalPeriod": 5271149.933338,
+        "RotationPeriod": 5271150.614794,
+        "AxialTilt": 0.023752
+      },
+      {
+        "timestamp": "2026-03-04T20:23:19Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 ABC 1",
+        "BodyID": 20,
+        "Parents": [
+          {
+            "Null": 19
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 3759.710439,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thick argon rich atmosphere",
+        "AtmosphereType": "ArgonRich",
+        "AtmosphereComposition": [
+          {
+            "Name": "Nitrogen",
+            "Percent": 99.15242
+          },
+          {
+            "Name": "Argon",
+            "Percent": 0.847236
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.583805,
+        "Radius": 6606760.0,
+        "SurfaceGravity": 5.330891,
+        "SurfaceTemperature": 74.984825,
+        "SurfacePressure": 95256560.0,
+        "Landable": false,
+        "Composition": {
+          "Ice": 0.684503,
+          "Rock": 0.210881,
+          "Metal": 0.104616
+        },
+        "SemiMajorAxis": 1156850874.423981,
+        "Eccentricity": 0.121577,
+        "OrbitalInclination": -5.967764,
+        "Periapsis": 325.345932,
+        "OrbitalPeriod": 51207965.612411,
+        "RotationPeriod": 47636.5468,
+        "AxialTilt": -0.359575
+      },
+      {
+        "timestamp": "2026-03-04T20:23:16Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 ABC 2",
+        "BodyID": 21,
+        "Parents": [
+          {
+            "Null": 19
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 3757.001429,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thin neon atmosphere",
+        "AtmosphereType": "Neon",
+        "AtmosphereComposition": [
+          {
+            "Name": "Neon",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.378274,
+        "Radius": 5777848.5,
+        "SurfaceGravity": 4.516308,
+        "SurfaceTemperature": 53.038784,
+        "SurfacePressure": 245.567322,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 22.333435
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 18.780107
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 15.526487
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.023346
+          },
+          {
+            "Name": "nickel",
+            "Percent": 11.743584
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 6.982777
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.412281
+          },
+          {
+            "Name": "selenium",
+            "Name_Localised": "Sélénium",
+            "Percent": 3.495372
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.01387
+          },
+          {
+            "Name": "tungsten",
+            "Name_Localised": "Tungstène",
+            "Percent": 0.85256
+          },
+          {
+            "Name": "tellurium",
+            "Name_Localised": "Tellure",
+            "Percent": 0.836179
+          }
+        ],
+        "Composition": {
+          "Ice": 0.684503,
+          "Rock": 0.210881,
+          "Metal": 0.104616
+        },
+        "SemiMajorAxis": 1785412073.135376,
+        "Eccentricity": 0.121577,
+        "OrbitalInclination": -5.967764,
+        "Periapsis": 145.345937,
+        "OrbitalPeriod": 51207965.612411,
+        "RotationPeriod": 145803.953458,
+        "AxialTilt": -0.362409
+      },
+      {
+        "timestamp": "2026-03-04T20:22:37Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 ABC 3",
+        "BodyID": 22,
+        "Parents": [
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 6071.926054,
+        "TerraformState": "",
+        "PlanetClass": "Icy body",
+        "Atmosphere": "thin neon atmosphere",
+        "AtmosphereType": "Neon",
+        "AtmosphereComposition": [
+          {
+            "Name": "Neon",
+            "Percent": 100.0
+          }
+        ],
+        "Volcanism": "",
+        "MassEM": 0.394469,
+        "Radius": 5853617.5,
+        "SurfaceGravity": 4.588533,
+        "SurfaceTemperature": 44.228527,
+        "SurfacePressure": 255.209747,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 22.784403
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 19.159323
+          },
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 15.840004
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 12.266127
+          },
+          {
+            "Name": "nickel",
+            "Percent": 11.980714
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 7.123776
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 6.541759
+          },
+          {
+            "Name": "arsenic",
+            "Percent": 1.472967
+          },
+          {
+            "Name": "cadmium",
+            "Percent": 1.230048
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.034343
+          },
+          {
+            "Name": "technetium",
+            "Name_Localised": "Technétium",
+            "Percent": 0.566533
+          }
+        ],
+        "Composition": {
+          "Ice": 0.684503,
+          "Rock": 0.210881,
+          "Metal": 0.104616
+        },
+        "SemiMajorAxis": 1668345868587.494,
+        "Eccentricity": 0.002962,
+        "OrbitalInclination": -4.800105,
+        "Periapsis": 62.725684,
+        "OrbitalPeriod": 1003630101.680756,
+        "RotationPeriod": 120301.07082,
+        "AxialTilt": 0.291503
+      },
+      {
+        "timestamp": "2026-03-04T20:22:58Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 BC 1",
+        "BodyID": 17,
+        "Parents": [
+          {
+            "Null": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 1797.13536,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.015451,
+        "Radius": 1626882.75,
+        "SurfaceGravity": 2.326728,
+        "SurfaceTemperature": 407.939819,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 21.097864
+          },
+          {
+            "Name": "nickel",
+            "Percent": 15.957541
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 14.895244
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 12.525357
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.48841
+          },
+          {
+            "Name": "manganese",
+            "Name_Localised": "Manganèse",
+            "Percent": 8.713202
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.018949
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.180902
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.441926
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.377678
+          },
+          {
+            "Name": "ruthenium",
+            "Name_Localised": "Ruthénium",
+            "Percent": 1.302928
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.668399,
+          "Metal": 0.331601
+        },
+        "SemiMajorAxis": 22177194356.918335,
+        "Eccentricity": 0.000268,
+        "OrbitalInclination": 0.209509,
+        "Periapsis": 349.147461,
+        "OrbitalPeriod": 2090651.69096,
+        "RotationPeriod": 2090652.529062,
+        "AxialTilt": 0.210688
+      },
+      {
+        "timestamp": "2026-03-04T20:22:53Z",
+        "event": "Scan",
+        "BodyName": "Bleia Eork XV-Z c15-0 BC 2",
+        "BodyID": 18,
+        "Parents": [
+          {
+            "Null": 2
+          },
+          {
+            "Null": 0
+          }
+        ],
+        "StarSystem": "Bleia Eork XV-Z c15-0",
+        "SystemAddress": 95931733130,
+        "DistanceFromArrivalLS": 1940.085338,
+        "TerraformState": "",
+        "PlanetClass": "High metal content body",
+        "Atmosphere": "",
+        "AtmosphereType": "None",
+        "Volcanism": "",
+        "MassEM": 0.020648,
+        "Radius": 1788247.625,
+        "SurfaceGravity": 2.573588,
+        "SurfaceTemperature": 356.294281,
+        "SurfacePressure": 0.0,
+        "Landable": true,
+        "Materials": [
+          {
+            "Name": "iron",
+            "Name_Localised": "Fer",
+            "Percent": 22.061787
+          },
+          {
+            "Name": "nickel",
+            "Percent": 16.686611
+          },
+          {
+            "Name": "sulphur",
+            "Name_Localised": "Soufre",
+            "Percent": 15.575738
+          },
+          {
+            "Name": "carbon",
+            "Name_Localised": "Carbone",
+            "Percent": 13.097583
+          },
+          {
+            "Name": "chromium",
+            "Name_Localised": "Chrome",
+            "Percent": 9.921919
+          },
+          {
+            "Name": "phosphorus",
+            "Name_Localised": "Phosphore",
+            "Percent": 8.385298
+          },
+          {
+            "Name": "vanadium",
+            "Percent": 5.417607
+          },
+          {
+            "Name": "germanium",
+            "Percent": 4.587308
+          },
+          {
+            "Name": "niobium",
+            "Percent": 1.507805
+          },
+          {
+            "Name": "molybdenum",
+            "Name_Localised": "Molybdène",
+            "Percent": 1.440622
+          },
+          {
+            "Name": "yttrium",
+            "Percent": 1.317724
+          }
+        ],
+        "Composition": {
+          "Ice": 0.0,
+          "Rock": 0.668396,
+          "Metal": 0.331604
+        },
+        "SemiMajorAxis": 31358082890.51056,
+        "Eccentricity": 0.000616,
+        "OrbitalInclination": -0.00013,
+        "Periapsis": 338.536482,
+        "OrbitalPeriod": 3515168.54763,
+        "RotationPeriod": 3515169.109012,
+        "AxialTilt": -0.372324
+      }
+    ]
+  },
+  "raw": {
+    "journal_dir": null,
+    "journal_dir_hint": "Elite Dangerous",
+    "journal_files_used": [
+      "Journal.2026-02-15T183128.01.log",
+      "Journal.2026-02-16T151444.01.log",
+      "Journal.2026-02-17T203702.01.log",
+      "Journal.2026-02-18T133731.01.log",
+      "Journal.2026-02-19T202742.01.log",
+      "Journal.2026-02-22T104058.01.log",
+      "Journal.2026-02-22T152834.01.log",
+      "Journal.2026-03-01T081745.01.log",
+      "Journal.2026-03-03T221638.01.log",
+      "Journal.2026-03-04T203023.01.log"
+    ],
+    "events_time_window": {
+      "from_utc": "2026-03-04T19:42:20Z",
+      "to_utc": "2026-03-04T20:23:49Z"
+    }
+  }
+}
